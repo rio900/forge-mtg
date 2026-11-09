@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="105">
+ <editorsettings>
+  <export target="wastetown..tmx" format="tmx"/>
+ </editorsettings>
+ <properties>
+  <property name="respawnEnemies" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" source="../../../../common/maps/tileset/main.tsx"/>
+ <tileset firstgid="10113" source="../../../../common/maps/tileset/buildings.tsx"/>
+ <tileset firstgid="11905" source="../../../../common/maps/tileset/FarmFood.tsx"/>
+ <layer id="1" name="Background" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJACEQRUFTsyvhqrZeuRrc049MMJksDxUER29tAAAAXOx9subATt+9rXKqP2mOfv369etfn7fz3Tn1zqXuv379Kf1Va/Tr169f///9lf8K1RLPKJn++/snqiFdMg==
+  </data>
+ </layer>
+ <layer id="6" name="Floor" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmFEKwkAMRBc8wO4NpNSLrqKnavVq+uOHIJq0k91C34P8hcywNGRoSgAAAAAAAADwjZpTOgvrktv6PxbtvEE87x9v/9fXu93L8rrlvv7X6qrm9NLFf19d/MfpTofPWjrHg/UuncTvPxbNnfPeJZV/ld7c+O547+BD9J3tYX9bzonQrYad27J/VU8E+Lf3RIB/e08E+Lf3ePDmt1+5S9UTmd9ao8pvnoy39h9FRH6z0Gs3VeDfxhOMvoA+
+  </data>
+ </layer>
+ <layer id="2" name="Ground" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEKgDAMQNGCu/QAIt7/DN7D60hw0NHJGH0PQsf+KbStAQC8xzZmFwDUM/XjnHtuBwDcFe/+dTin4j/g2h9TUeV2qC5772XfD3/1hf/7Urg96M+lP0/sn+i3f/I80b8DaLMNvw==
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="48" height="48">
+  <properties>
+   <property name="spriteLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmFsKwjAQRQN+19X0o9iu1EdX4i4E7XI02EIaM5mbNA+hE7gfYsic5jV30h6VakUikUgkEokyavjoBUo3tG9fiP80c6VunfDvgn9slLoAujZfrjPY/9aUP8vIOpWa173wo/fnNPM/wf5yfwq/8Oc7l30hfuR+cJ11jqsrxI+M71qrWH40v1L5ORX/OI9J8Sz53R4/dt9S41D+xGSjvIYek+Oh4pr79n5Y71fzN3WOkLhUnyW2zplcvpyIuCaP5nXJt0+QuEsf+/xuOZMov69/bEzh/+Xx7Z1c/KE1iY+f+gaEP3et44qZkn+Lh3Dlbd047xC6HxD+wYqP1Am++EjMlPwIi/Cv/7PvAOr9gfIhtfmp8ULibeH3+TffnFF5n6vfHwFrafo3393J+bdc3p+bW44N9W+2d0vduNg5/FuNltL/1Gix/iemPoytL2u/9f7r+6fwp9Ube1RPGQ==
+  </data>
+ </layer>
+ <layer id="5" name="AboveSprites" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt17sJgEAQBcAFC7CRq0u7UNG2LM7L/CQGIsdxM7DBZm+ThRcBAADQtqmPmPMsfekk/9q7c2pUe34AAAC+qbW/byliTfdeO+Z9SKWTvXv28OsN+jktqfX/0JYD4xoSsg==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Objects">
+  <object id="60" template="../../../../common/maps/obj/entry_up.tx" x="357" y="768" width="38" height="16">
+   <properties>
+    <property name="teleport" value="../Realm of Legends/maps/map/magetower/Mirror_Gallery_1.tmx"/>
+   </properties>
+  </object>
+  <object id="91" template="../../../../common/maps/obj/enemy.tx" x="367" y="538">
+   <properties>
+    <property name="effect" value="{&quot;startBattleWithCard&quot;: [&quot;Gloom|4ED&quot;, &quot;Havoc|TMP&quot;, &quot;Command Tower&quot;, &quot;Exotic Orchard&quot;, &quot;Flamekin Herald&quot;, &quot;Leyline Axe&quot;, &quot;Glint-Eye Nephilim|GPT&quot;]}"/>
+    <property name="enemy" value="Yidris"/>
+    <property name="pursueRange" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="92" template="../../../../common/maps/obj/enemy.tx" x="112" y="599">
+   <properties>
+    <property name="effect" value="{&quot;startBattleWithCard&quot;: [&quot;Murmuration|BLC&quot;, &quot;Soulcatcher&quot;, &quot;Aerie Mystics|C13&quot;, &quot;Animal Sanctuary|M21&quot;, &quot;Pit Trap|ICE&quot;, &quot;Soulcatchers' Aerie|JUD&quot;, &quot;Leonin Bladetrap&quot;]}"/>
+    <property name="enemy" value="Derevi"/>
+    <property name="threatRange" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="93" template="../../../../common/maps/obj/enemy.tx" x="631" y="602">
+   <properties>
+    <property name="effect" value="{&quot;startBattleWithCard&quot;: [&quot;Luminarch Ascension|ZEN&quot;, &quot;Youthful valkyrie&quot;, &quot;luxior, giada's gift|SNC&quot;, &quot;Bishop of wings|M20&quot;, &quot;Seraph sanctuary|AVR&quot;, &quot;answered prayers|MH1&quot;, &quot;angelic chorus|bbd&quot;, &quot;angelic renewal|uma&quot;]}"/>
+    <property name="enemy" value="Giada"/>
+    <property name="threatRange" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="94" template="../../../../common/maps/obj/enemy.tx" x="632" y="408">
+   <properties>
+    <property name="effect" value="{&quot;startBattleWithCard&quot;: [&quot;Virtue of Loyalty|WOE&quot;, &quot;Mace of the Valiant|ELD&quot;, &quot;Court of Ardenvale|WOC&quot;, &quot;Court of Vantress|WOC&quot;, &quot;Court of Locthwain|WOC&quot;, &quot;Court of Embereth|WOC&quot;, &quot;Court of Garenbrig|WOC&quot;]}"/>
+    <property name="enemy" value="Kenrith"/>
+   </properties>
+  </object>
+  <object id="95" template="../../../../common/maps/obj/enemy.tx" x="109" y="415">
+   <properties>
+    <property name="effect" value="{ &quot;startBattleWithCard&quot;: [ &quot;Mox Pearl&quot;, &quot;Pearl Medallion&quot;, &quot;Pearl Collector&quot;, &quot;True Conviction&quot;, &quot;Song of the Worldsoul&quot;, &quot;w_2_2_soldier_vigilance&quot; ] }"/>
+    <property name="enemy" value="General Jarkeld"/>
+   </properties>
+  </object>
+  <object id="96" template="../../../../common/maps/obj/enemy.tx" x="503" y="224">
+   <properties>
+    <property name="effect">{ 
+&quot;lifeModifier&quot;: 20, 
+&quot;startBattleWithCard&quot;: [ &quot;Norn's Decree&quot;, &quot;Norn's Wellspring&quot;, &quot;The Fair Basilica|ONE&quot;, &quot;Orthodoxy Enforcer&quot;, &quot;Shrine of Loyal legions|NPH&quot;, &quot;Basilica Skullbomb|ONE&quot;, &quot;Norn's Annex|NPH&quot;, &quot;Priests of Norn|MBS&quot; ] 
+}</property>
+    <property name="enemy" value="Elesh Norn"/>
+   </properties>
+  </object>
+  <object id="97" template="../../../../common/maps/obj/enemy.tx" x="223" y="215">
+   <properties>
+    <property name="effect">{
+&quot;lifeModifier&quot;: 20, 
+&quot;startBattleWithCard&quot;: [&quot;Boon Reflection&quot;, &quot;Altar of the Pantheon&quot;, &quot;Dictate of Heliod&quot;, &quot;Daxos, blessed by the sun&quot;, &quot;Font of Vigor|JOU&quot;, &quot;Spear of Heliod|THS&quot;, &quot;Heliod's Emissary|THS&quot;]
+}</property>
+    <property name="enemy" value="Heliod"/>
+   </properties>
+  </object>
+  <object id="98" template="../../../../common/maps/obj/enemy.tx" x="302" y="217">
+   <properties>
+    <property name="effect">{ 
+&quot;lifeModifier&quot;: 20, 
+&quot;startBattleWithCard&quot;: [&quot;Avacyn, Guardian Angel&quot;, &quot;seraph sanctuary|AVR&quot;, &quot;Ayacynian Priest&quot;, &quot;Scroll of Avacyn|AVR&quot;, &quot;Mask of Avacyn|ISD&quot;, &quot;Angel of Jubilation&quot;, &quot;Helvault|DKA&quot;]
+}</property>
+    <property name="enemy" value="Avacyn"/>
+   </properties>
+  </object>
+  <object id="99" template="../../../../common/maps/obj/enemy.tx" x="420" y="222">
+   <properties>
+    <property name="effect">{ 
+&quot;lifeModifier&quot;: 20, 
+&quot;startBattleWithCard&quot;: [ &quot;Vault of the Archangel&quot;, &quot;March of the Canonized&quot;, &quot;Legion Lieutenant|RIX&quot;, &quot;Dusk Legion Dreadnought&quot;, &quot;Charismatic Conqueror&quot;, &quot;Legion's Landing&quot;, &quot;Canonized in Blood&quot;, &quot;Tarrian's Soulcleaver&quot; ] 
+}</property>
+    <property name="enemy" value="Arguel"/>
+   </properties>
+  </object>
+  <object id="100" template="../../../../common/maps/obj/enemy.tx" x="311" y="567">
+   <properties>
+    <property name="effect">{
+&quot;startBattleWithCard&quot;: [&quot;Savage Lands&quot;, &quot;Soul of Windgrace&quot;, &quot;Valakut Exploration&quot;
+]}</property>
+    <property name="enemy" value="Lord Windgrace"/>
+    <property name="threatRange" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="101" template="../../../../common/maps/obj/enemy.tx" x="312" y="497">
+   <properties>
+    <property name="effect">{
+&quot;startBattleWithCard&quot;: [&quot;Frontier Bivouac&quot;, &quot;Hexing Squelcher|ECL&quot;, &quot;Rattleclaw Mystic&quot;, &quot;Aven Courier&quot;
+]}</property>
+    <property name="enemy" value="Animar"/>
+    <property name="threatRange" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="102" template="../../../../common/maps/obj/enemy.tx" x="373" y="468">
+   <properties>
+    <property name="effect">{
+&quot;startBattleWithCard&quot;: [&quot;Tangled Islet&quot;, &quot;Geothermal Bog&quot;, &quot;Fireglass Mentor&quot;, &quot;Biomancer's Familiar&quot;
+]}</property>
+    <property name="enemy" value="Thrasios and Vial Smasher"/>
+    <property name="threatRange" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="103" template="../../../../common/maps/obj/enemy.tx" x="426" y="496">
+   <properties>
+    <property name="effect">{
+&quot;startBattleWithCard&quot;: [&quot;Opulent Palace&quot;, &quot;Reaper of the Wilds&quot;, &quot;Tam, Mindful First-Year&quot;
+]}</property>
+    <property name="enemy" value="Damia"/>
+   </properties>
+  </object>
+  <object id="104" template="../../../../common/maps/obj/enemy.tx" x="424" y="567">
+   <properties>
+    <property name="effect">{
+&quot;startBattleWithCard&quot;: [&quot;Crumbling Necropolis&quot;, &quot;Arcane Melee&quot;, &quot;Mirari&quot;]}</property>
+    <property name="enemy" value="Jeleva"/>
+    <property name="threatRange" type="int" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
