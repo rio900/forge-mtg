@@ -28,7 +28,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="368.136" y="55.0834" />
+  <object id="48" template="../../obj/treasure.tx" x="368.136" y="55.0834" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="36.909" y="103.993" visible="1">
    <properties>
     <property name="enemy" value="Tiger" />
@@ -72,7 +72,7 @@
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
-  <object id="66" template="../../../../common/maps/obj/booster.tx" x="163.657" y="111.145">
+  <object id="66" template="../../obj/booster.tx" x="163.657" y="111.145">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["white","green"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white","green"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white","green"]}]</property>
    </properties>

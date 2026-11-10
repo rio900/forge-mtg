@@ -119,7 +119,7 @@
   </object>
   <object id="65" template="../../../../../common/maps/obj/entry_up.tx" x="355" y="543.5" width="44.5" height="52">
    <properties>
-    <property name="teleport" value="../common/maps/map/main_story/castles/black_castle_f1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/main_story/castles/black_castle_f1.tmx" />
    </properties>
   </object>
   <object id="66" template="../../../../../common/maps/obj/enemy.tx" x="89.5" y="601">
@@ -323,14 +323,14 @@
     <property name="enemy" value="Demon" />
    </properties>
   </object>
-  <object id="87" template="../../../../../common/maps/obj/treasure.tx" x="426.955" y="462.554">
+  <object id="87" template="../../../obj/treasure.tx" x="426.955" y="462.554">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["black"]},{"type":"item","probability":0.1,"count":1,"itemName":"Basilisk Collar"},{"type":"item","probability":0.1,"count":1,"itemName":"Evil Ankh"},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["black"]},{"type":"item","probability":0.1,"count":1,"itemName":"Basilisk Collar"},{"type":"item","probability":0.1,"count":1,"itemName":"Evil Ankh"},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
-  <object id="88" template="../../../../../common/maps/obj/treasure.tx" x="309.155" y="469.027">
+  <object id="88" template="../../../obj/treasure.tx" x="309.155" y="469.027">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["black"]},{"type":"item","probability":0.1,"count":1,"itemName":"Basilisk Collar"},{"type":"item","probability":0.1,"count":1,"itemName":"Evil Ankh"},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["black"]},{"type":"item","probability":0.1,"count":1,"itemName":"Basilisk Collar"},{"type":"item","probability":0.1,"count":1,"itemName":"Evil Ankh"},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
  </objectgroup>

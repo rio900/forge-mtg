@@ -51,10 +51,10 @@
   <object id="38" template="../../../../common/maps/obj/waypoint.tx" name="38" x="416" y="336" />
  </objectgroup>
  <objectgroup id="5" name="Objects">
-  <object id="8" template="../../../../common/maps/obj/treasure.tx" x="304" y="48" />
-  <object id="9" template="../../../../common/maps/obj/treasure.tx" x="416" y="352">
+  <object id="8" template="../../obj/treasure.tx" x="304" y="48" />
+  <object id="9" template="../../obj/treasure.tx" x="416" y="352">
    <properties>
-    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2},{"type":"item","count":1,"itemName":"Landscape Sketchbook - Dominaria United"}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"itemName":"Landscape Sketchbook - Dominaria United"}]</property>
    </properties>
   </object>
   <object id="31" template="../../../../common/maps/obj/gold.tx" x="304" y="112" />
@@ -150,12 +150,12 @@
     <property name="waypoints" value="r11-12-16-19-22-23-26" />
    </properties>
   </object>
-  <object id="45" template="../../../../common/maps/obj/booster.tx" x="416" y="528">
+  <object id="45" template="../../obj/booster.tx" x="416" y="528">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common","basicland"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="46" template="../../../../common/maps/obj/booster.tx" x="16" y="176">
+  <object id="46" template="../../obj/booster.tx" x="16" y="176">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common","basicland"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -172,7 +172,7 @@
   <object id="3" template="../../../../common/maps/obj/collision.tx" x="480" y="0" width="32" height="640" />
   <object id="4" template="../../../../common/maps/obj/collision.tx" x="-32" y="-32" width="544" height="32" />
   <object id="7" template="../../../../common/maps/obj/entry_up.tx" x="35" y="640" width="126" height="16" />
-  <object id="27" template="../../../../common/maps/obj/treasure.tx" x="64" y="96" />
+  <object id="27" template="../../obj/treasure.tx" x="64" y="96" />
   <object id="28" template="../../../../common/maps/obj/gold.tx" x="432" y="224" />
   <object id="29" template="../../../../common/maps/obj/gold.tx" x="32" y="400" />
   <object id="30" template="../../../../common/maps/obj/gold.tx" x="224" y="496" />

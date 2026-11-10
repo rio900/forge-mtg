@@ -29,7 +29,7 @@
    </properties>
   </object>
   <object id="53" template="../../../../common/maps/obj/gold.tx" x="105.5" y="89.75" />
-  <object id="55" template="../../../../common/maps/obj/treasure.tx" x="216.439" y="29.7248" />
+  <object id="55" template="../../obj/treasure.tx" x="216.439" y="29.7248" />
   <object id="56" template="../../../../common/maps/obj/enemy.tx" x="199.09" y="191.242">
    <properties>
     <property name="enemy" value="Bear" />
@@ -59,7 +59,7 @@
   </object>
   <object id="62" template="../../../../common/maps/obj/manashards.tx" x="85.4296" y="186.006" />
   <object id="63" template="../../../../common/maps/obj/manashards.tx" x="87.0181" y="142.6" />
-  <object id="64" template="../../../../common/maps/obj/booster.tx" x="223.59" y="141.276">
+  <object id="64" template="../../obj/booster.tx" x="223.59" y="141.276">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

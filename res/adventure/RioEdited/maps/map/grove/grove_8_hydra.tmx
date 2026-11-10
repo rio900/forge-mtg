@@ -34,30 +34,15 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="210.657" y="215.069">
+  <object id="48" template="../../obj/treasure.tx" x="210.657" y="215.069">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "Green" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "Green" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2,
-  "colors": [ "Green" ]
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["Green"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["Green"]},{"type":"randomCard","count":3,"addMaxCount":2,"colors":["Green"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="63" template="../../../../common/maps/obj/gold.tx" x="161.217" y="237.673" />
   <object id="68" template="../../../../common/maps/obj/gold.tx" x="769.875" y="455.247" />
   <object id="71" template="../../../../common/maps/obj/manashards.tx" x="246.784" y="224.533" />
-  <object id="72" template="../../../../common/maps/obj/booster.tx" x="178.912" y="251.368">
+  <object id="72" template="../../obj/booster.tx" x="178.912" y="251.368">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["Green"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["Green"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"Green","count":1,"colors":["Colorless"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

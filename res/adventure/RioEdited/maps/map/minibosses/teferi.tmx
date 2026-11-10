@@ -39,7 +39,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="550.237" y="94.8813" />
+  <object id="48" template="../../obj/treasure.tx" x="550.237" y="94.8813" />
   <object id="62" template="../../../../common/maps/obj/gold.tx" x="249.223" y="45.4857" />
   <object id="65" template="../../../../common/maps/obj/enemy.tx" x="653.122" y="93.6823">
    <properties>
@@ -77,7 +77,7 @@
   <object id="92" template="../../../../common/maps/obj/collision.tx" x="-2" y="799.667" width="977.333" height="16" />
   <object id="93" template="../../../../common/maps/obj/collision.tx" x="958.667" y="-2.66667" width="16" height="802.667" />
   <object id="94" template="../../../../common/maps/obj/collision.tx" x="-16" y="-16" width="16" height="832.667" />
-  <object id="95" template="../../../../common/maps/obj/booster.tx" x="461" y="69.3333">
+  <object id="95" template="../../obj/booster.tx" x="461" y="69.3333">
    <properties>
     <property name="reward">[
   {
@@ -138,7 +138,7 @@
    </properties>
   </object>
   <object id="102" template="../../../../common/maps/obj/manashards.tx" x="823.333" y="576.667" />
-  <object id="103" template="../../../../common/maps/obj/treasure.tx" x="804" y="552.667" />
+  <object id="103" template="../../obj/treasure.tx" x="804" y="552.667" />
   <object id="104" template="../../../../common/maps/obj/enemy.tx" x="366.667" y="189.333">
    <properties>
     <property name="enemy" value="Disciple of Teferi" />
@@ -199,7 +199,7 @@
     <property name="threatRange" type="int" value="60" />
    </properties>
   </object>
-  <object id="118" template="../../../../common/maps/obj/booster.tx" x="4" y="641.333">
+  <object id="118" template="../../obj/booster.tx" x="4" y="641.333">
    <properties>
     <property name="reward">[
   {

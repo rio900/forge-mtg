@@ -1,0 +1,332 @@
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="88">
+ <editorsettings>
+  <export target="wastetown..tmx" format="tmx" />
+ </editorsettings>
+ <properties>
+  <property name="dungeonEffect">{"startBattleWithCardInCommandZone": [ "Lathliss' Presence" ]
+}</property>
+  <property name="respawnEnemies" type="bool" value="true" />
+ </properties>
+ <tileset firstgid="1" source="../../../../../common/maps/tileset/main.tsx" />
+ <tileset firstgid="10113" source="../../../../../common/maps/tileset/buildings.tsx" />
+ <tileset firstgid="11905" source="../../../../../Innistrad/maps/tileset/INN_dungen_crawler_tileset.tsx" />
+ <tileset firstgid="24193" source="../../../../../common/maps/tileset/dungeon/dungeon_bis.tsx" />
+ <layer id="1" name="Background" width="48" height="48" opacity="0.83">
+  <data encoding="base64" compression="zlib">
+   eJztzjENACAMAMFKQAI+wP/CUkk1wdAmN9z6+bwR78yQg14BAIA+9urVAQAAAACAnwqaazTo
+  </data>
+ </layer>
+ <layer id="6" name="Floor" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmEEOwjAMBPOD5AdVBR9tq/Ir4Gtw4YbAbtdxDjNSbpZ3VCWy1VIAAAAAAAAA4BtLLWUVnq329Z+att8s7vePj//+/m6Pdvzcaq7/2VxVn6xc/HNz8c/NVftb59JV7H9pmjnnnUsqf1XevfPc8c7Bp+iejXr/e+eO7L8Y3tzI/qqaCPC310SAv70mAvztNR68+9uvvUtVE7m/9Ua1v3l2vLP/KCL2NwtZb1MF/jZe3r59Qg==
+  </data>
+ </layer>
+ <layer id="2" name="Ground" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKg0AMhWF7gTKb7qR04cE9U09URMHiwomYzIvyfzC4CclDcEbtOgAAgDy+T3UCALievszXd9HmQE6f4rdU+TP1Uc0lv3Yu+f3nTu/942tde98BGfNP/vOf6RPFMnd4+PQ5ovW5ozrn7vz8Kvqo5kbmb7Hv1fbhKJb8XjURyG+viXD3/P1y5tS+37Pm96yJQH57zRGe/xW8V2vq+WdY95/MrnbPt1rk/wGYjSMi
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztWG1uwyAM7b/9Wfp791ibnnQfOUJPsHOsVU+yC6xIsWZRP2xIgVSzpSdFgdgvgM2D3Xaz2TkcDofD4XBUxOGKUwIX9hxM60MYG/Hfz7y47Yfbd7n22pF/rv08rYu/xCfXWvGfrmvl3YCPeU29Gft/Du1z2TJPrcb1v/DX6ifhPPP/Ftou29sa2rN+luYwr7uPVD8lc/6PzZ/ykucVfx4b8ZfqgyXXY15H4F/iT321HE61p/yTUb5Lc6XVFeTfur+i/Rnxt/wrxzT7RHxof4/5l65b5AfpE84NaY3gU+OD4h7YOh2jPjy3UB5Z4qI+5D/smdJ+Ke2raN7pHbe4TeJviUt94vxdUlMQ/6+XP1j4l8R0/uvgn3smqcW/9llHipnDf1D4L9EQKf2Q0g656wH15/9GXIIhHWMZW9IFljFbyt/qC82R5ZuW/GP9VcJf0z68La4B6P4B6RAtDvGpNf7IX048FGd61uOl9FtqzOJ9n87m/PwunddjHcK5SfWcuKVqp6bfUnOE1muOabGX6rfQvuSukL6V/jW0abFr6Lcedk/908NK9U/J+bD0fNn7rnet95/O/774BTxTTLU=
+  </data>
+ </layer>
+ <layer id="5" name="AboveSprites" width="48" height="48">
+  <properties>
+   <property name="spriteLayer" type="bool" value="true" />
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt17EJACAQA8Bs8Buro+sC1o94B+lTBZIAAAD8bVQyT1Z1NwEAAABu/Hegi/3hBRuEwwT/
+  </data>
+ </layer>
+ <objectgroup id="4" name="Objects">
+  <object id="54" template="../../../../../common/maps/obj/enemy.tx" x="223.57" y="537.245">
+   <properties>
+    <property name="enemy" value="Master Red Wizard" />
+    <property name="threatRange" type="int" value="20" />
+    <property name="waypoints" value="76,75,76,84,81,82,83,82,79,80,78,77" />
+   </properties>
+  </object>
+  <object id="55" template="../../../../../common/maps/obj/gate.tx" x="367.698" y="638.559" width="17" height="16">
+   <properties>
+    <property name="dialog">[
+	{
+		"name": "",
+		"text": "You come upon a gate.",
+		"loctext": "adv.main_story_castles_red_castle.55.d.n0.text",
+		"action": [
+			{ "advanceMapFlag": "intro" }
+		],
+		"options":
+			[
+				{
+					"name": "Lathliss, I've done as you asked! It's time to end this!",
+					"locname": "adv.main_story_castles_red_castle.55.d.n2.name",
+					"action": [ { "deleteMapObject": 55 } ],
+					"condition": [
+						{
+							"getMapFlag": {
+								"key": "enemiesDefeated",
+								"op": "&gt;=",
+								"val": 4
+							}
+						},
+						{
+                            "checkQuestFlag": "mainQuest",
+                            "not": true
+                        }
+					],
+					"text": "With a gust of red flames, the door burns away, leaving only ashes in your path. You are now free to pass.",
+					"loctext": "adv.main_story_castles_red_castle.55.d.n1.text",
+					"options": [ { "name": "(Continue)", "locname": "adv.shared.continue_paren" } ]
+				},
+				{
+                	"name": "Lathliss, I've done as you asked! It's time to end this!",
+                	"locname": "adv.main_story_castles_red_castle.55.d.n5.name",
+                	"action": [ { "deleteMapObject": 55 }, { "deleteMapObject": 72 } ],
+                	"condition": [
+                		{
+                    		"getMapFlag": {
+                				"key": "enemiesDefeated",
+                				"op": "&gt;=",
+                				"val": 4
+                			}
+                		},
+                		{
+                            "checkQuestFlag": "Ch1RedCastleComplete",
+                            "not": true
+                        },
+                        {
+                            "checkQuestFlag": "mainQuest"
+                        }
+                	],
+                	"text": "With a gust of red flames, the door burns away, leaving only ashes in your path. You are now free to pass.",
+                	"loctext": "adv.main_story_castles_red_castle.55.d.n4.text",
+                	"options": [ { "name": "(Continue)", "locname": "adv.shared.continue_paren" } ]
+                },
+				{
+					"name": "You knock on the door.",
+					"locname": "adv.main_story_castles_red_castle.55.d.n8.name",
+					"condition": [ { "checkMapFlag": "intro" } ],
+					"text": "YOU ARE NOT WORTHY, BEGONE!",
+					"loctext": "adv.main_story_castles_red_castle.55.d.n7.text",
+					"options": [ { "name": "(Continue)", "locname": "adv.shared.continue_paren" } ]
+				}
+			]
+	}
+]</property>
+   </properties>
+  </object>
+  <object id="60" template="../../../../../common/maps/obj/entry_up.tx" x="357" y="768" width="38" height="16">
+   <properties>
+    <property name="teleport" value="" />
+   </properties>
+  </object>
+  <object id="65" template="../../../../../common/maps/obj/entry_down.tx" x="354" y="542.5" width="44" height="23.5">
+   <properties>
+    <property name="teleport" value="../AvatarEdited/maps/map/main_story/castles/red_castle_f1.tmx" />
+   </properties>
+  </object>
+  <object id="66" template="../../../../../common/maps/obj/enemy.tx" x="79.5" y="608">
+   <properties>
+    <property name="defeatDialog">[
+   {
+   "action": [
+      {"advanceMapFlag":"enemiesDefeated"},
+      {"deleteMapObject": -1}
+    ]
+   }
+]</property>
+    <property name="effect">{
+ "startBattleWithCard": [ "Barbarian Ring", "Fervor" ],
+ "lifeModifier": 6
+}</property>
+    <property name="enemy" value="Barbarian" />
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]}]</property>
+    <property name="threatRange" type="int" value="40" />
+   </properties>
+  </object>
+  <object id="67" template="../../../../../common/maps/obj/enemy.tx" x="649.5" y="600">
+   <properties>
+    <property name="defeatDialog">[
+   {
+   "action": [
+      {"advanceMapFlag":"enemiesDefeated"},
+      {"deleteMapObject": -1}
+    ]
+   }
+]</property>
+    <property name="effect">{
+ "startBattleWithCard": [ "Crazed Goblin", "Crazed Goblin" ],
+ "lifeModifier": 6
+}</property>
+    <property name="enemy" value="Goblin King" />
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]}]</property>
+    <property name="threatRange" type="int" value="30" />
+   </properties>
+  </object>
+  <object id="68" template="../../../../../common/maps/obj/enemy.tx" x="660" y="409.5">
+   <properties>
+    <property name="defeatDialog">[
+   {
+   "action": [
+      {"advanceMapFlag":"enemiesDefeated"},
+      {"deleteMapObject": -1}
+    ]
+   }
+]</property>
+    <property name="effect">{
+ "startBattleWithCard": [ "Pyromancer Ascension" ],
+ "lifeModifier": 6
+}</property>
+    <property name="enemy" value="Pyromancer" />
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]}]</property>
+    <property name="threatRange" type="int" value="30" />
+   </properties>
+  </object>
+  <object id="69" template="../../../../../common/maps/obj/enemy.tx" x="368.5" y="228.091">
+   <properties>
+    <property name="defeatDialog">[
+   {
+   "action": [
+      {"advanceMapFlag":"enemiesDefeated"},
+      {"deleteMapObject": -1}
+    ]
+   }
+]</property>
+    <property name="effect">{
+ "startBattleWithCard": [ "Mountain", "Quest for Pure Flame" ],
+ "lifeModifier": 6
+}</property>
+    <property name="enemy" value="Fire Giant" />
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]}]</property>
+    <property name="threatRange" type="int" value="20" />
+   </properties>
+  </object>
+  <object id="70" template="../../../../../common/maps/obj/enemy.tx" x="78.5" y="405.5">
+   <properties>
+    <property name="defeatDialog">[
+   {
+   "action": [
+      {"advanceMapFlag":"enemiesDefeated"},
+      {"deleteMapObject": -1}
+    ]
+   }
+]</property>
+    <property name="effect">{
+ "startBattleWithCard": [ "Anaba Spirit Crafter", "Didgeridoo" ],
+ "lifeModifier": 6
+}</property>
+    <property name="enemy" value="Minotaur Warcaller" />
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["TLA"]}]</property>
+    <property name="threatRange" type="int" value="20" />
+   </properties>
+  </object>
+  <object id="71" template="../../../../../common/maps/obj/enemy.tx" x="520.254" y="498.533">
+   <properties>
+    <property name="enemy" value="Master Red Wizard" />
+    <property name="threatRange" type="int" value="20" />
+    <property name="waypoints" value="83,82,79,80,78,77,76,75,84,81,82" />
+   </properties>
+  </object>
+  <object id="72" template="../../../../../common/maps/obj/enemy.tx" x="407" y="654">
+   <properties>
+    <property name="dialog">[
+	{
+		"text": "Welcome, {var=player_name}. Lathliss has been waiting eagerly for this moment.",
+		"loctext": "adv.main_story_castles_red_castle.72.d.n0.text",
+		"options": [
+			{
+				"name": "Is that so? I guess you wouldn't mind opening that gate in front of me?",
+				"locname": "adv.main_story_castles_red_castle.72.d.n2.name",
+				"text": "I'm afraid I'm not allowed to do that, I am only an ordinary dragon, a mere servant of the mighty Lathliss, queen of dragons.",
+				"loctext": "adv.main_story_castles_red_castle.72.d.n1.text",
+				"options": [
+					{
+						"name": "What do I need to do to get passed though this gate?",
+						"locname": "adv.main_story_castles_red_castle.72.d.n4.name",
+						"text": "You must prove your strength by defeating at least four of the five enemies lurking within this dungeon to be worthy of an audience with my illustrious master.\n Sharpen your blade, ready your spells, and gather your courage, for the challenges ahead will test the mettle of even the most seasoned warrior.",
+						"loctext": "adv.main_story_castles_red_castle.72.d.n3.text",
+						"options": [
+							{
+								"name": "I'll show my worth, just make sure to open the gate when I do defeat your challengers.",
+								"locname": "adv.main_story_castles_red_castle.72.d.n6.name",
+								"text": "Leave",
+								"loctext": "adv.shared.leave",
+								"action": [
+									{
+										"setMapFlag": {
+											"key": "TalkToDoorGreeter",
+											"val": 1
+										}
+									}
+
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"text": "The challengers are still alive, you shall not pass beyond this gate",
+		"loctext": "adv.main_story_castles_red_castle.72.d.n7.text",
+		"condition": [
+			{ "checkMapFlag": "TalkToDoorGreeter" }
+				],
+			"options": [
+			{
+				"name": "(Continue)",
+				"locname": "adv.shared.continue_paren"
+				}
+		]
+	},
+	{
+		"text": "I am impressed, you are welcome to meet my master upstairs, though I can't guarantee you will be able to survive that encounter.",
+		"loctext": "adv.main_story_castles_red_castle.72.d.n9.text",
+		"condition": [
+			{
+				"getMapFlag": {
+					"key": "enemiesDefeated",
+					"op": "&gt;=",
+					"val": 4
+				}
+			}
+		],
+		"options": [
+			{
+				"name": "(Continue)",
+				"locname": "adv.shared.continue_paren",
+				"action": [
+					{ "deleteMapObject": -1 }
+				]
+			}
+		]
+	}
+]</property>
+    <property name="enemy" value="Dragon" />
+   </properties>
+  </object>
+  <object id="75" template="../../../../../common/maps/obj/waypoint.tx" x="54.5" y="495" />
+  <object id="76" template="../../../../../common/maps/obj/waypoint.tx" x="223.5" y="498.5" />
+  <object id="77" template="../../../../../common/maps/obj/waypoint.tx" x="224.5" y="701" />
+  <object id="78" template="../../../../../common/maps/obj/waypoint.tx" x="52.5" y="703" />
+  <object id="79" template="../../../../../common/maps/obj/waypoint.tx" x="511" y="703" />
+  <object id="80" template="../../../../../common/maps/obj/waypoint.tx" x="687" y="703.5" />
+  <object id="81" template="../../../../../common/maps/obj/waypoint.tx" x="510.5" y="348.5" />
+  <object id="82" template="../../../../../common/maps/obj/waypoint.tx" x="513.5" y="497" />
+  <object id="83" template="../../../../../common/maps/obj/waypoint.tx" x="685" y="497" />
+  <object id="84" template="../../../../../common/maps/obj/waypoint.tx" x="228.5" y="352.5" />
+  <object id="85" template="../../../../../common/maps/obj/treasure.tx" x="310.5" y="470">
+   <properties>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["red"]},{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":1,"count":1,"editions":["TLA"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["TLA"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+   </properties>
+  </object>
+  <object id="87" template="../../../../../common/maps/obj/treasure.tx" x="428" y="468">
+   <properties>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["red"]},{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":1,"count":1,"editions":["TLA"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["TLA"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

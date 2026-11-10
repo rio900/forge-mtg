@@ -41,8 +41,8 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="269.167" y="95" />
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="88.75" y="188.416" />
+  <object id="48" template="../../obj/treasure.tx" x="269.167" y="95" />
+  <object id="51" template="../../obj/treasure.tx" x="88.75" y="188.416" />
   <object id="52" template="../../../../common/maps/obj/gold.tx" x="338" y="89.5" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="286" y="231">
    <properties>
@@ -119,12 +119,12 @@
   <object id="60" template="../../../../common/maps/obj/manashards.tx" x="376.75" y="362" />
   <object id="61" template="../../../../common/maps/obj/manashards.tx" x="248.75" y="89" />
   <object id="62" template="../../../../common/maps/obj/manashards.tx" x="170.25" y="89.75" />
-  <object id="63" template="../../../../common/maps/obj/booster.tx" x="127.75" y="108">
+  <object id="63" template="../../obj/booster.tx" x="127.75" y="108">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="64" template="../../../../common/maps/obj/booster.tx" x="288" y="108.25">
+  <object id="64" template="../../obj/booster.tx" x="288" y="108.25">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

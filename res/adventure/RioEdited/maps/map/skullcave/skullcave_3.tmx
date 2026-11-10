@@ -38,7 +38,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="385.584" y="231.75" />
+  <object id="51" template="../../obj/treasure.tx" x="385.584" y="231.75" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="216.167" y="285.167">
    <properties>
     <property name="enemy" value="Lich" />
@@ -55,9 +55,9 @@
     <property name="enemy" value="Abyssal Baron" />
    </properties>
   </object>
-  <object id="56" template="../../../../common/maps/obj/treasure.tx" x="338.333" y="215.333" />
+  <object id="56" template="../../obj/treasure.tx" x="338.333" y="215.333" />
   <object id="57" template="../../../../common/maps/obj/gold.tx" x="365.75" y="193" />
-  <object id="58" template="../../../../common/maps/obj/booster.tx" x="139" y="266.667">
+  <object id="58" template="../../obj/booster.tx" x="139" y="266.667">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

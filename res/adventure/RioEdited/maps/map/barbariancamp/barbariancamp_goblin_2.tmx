@@ -90,7 +90,7 @@
   <object id="62" template="../../../../common/maps/obj/waypoint.tx" x="348" y="27.5" />
   <object id="65" template="../../../../common/maps/obj/waypoint.tx" x="54.5" y="208" />
   <object id="66" template="../../../../common/maps/obj/waypoint.tx" x="92" y="28.5" />
-  <object id="67" template="../../../../common/maps/obj/booster.tx" x="170" y="76">
+  <object id="67" template="../../obj/booster.tx" x="170" y="76">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -108,40 +108,14 @@
    </properties>
   </object>
   <object id="78" template="../../../../common/maps/obj/manashards.tx" x="4.5" y="20" />
-  <object id="80" template="../../../../common/maps/obj/treasure.tx" x="225.5" y="61">
+  <object id="80" template="../../obj/treasure.tx" x="225.5" y="61">
    <properties>
-    <property name="reward">[
-	{
-		"type": "randomCard",
-		"colors": [ "Red" ],
-		"subTypes": [ "Goblin" ],
-		"count": 5
-	},
-	{
-		"type": "item",
-		"count": 1,
-		"probability": 0.2,
-		"itemName": "Battle Standard"
-	}
-]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Red"],"subTypes":["Goblin"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Battle Standard"}]</property>
    </properties>
   </object>
-  <object id="81" template="../../../../common/maps/obj/treasure.tx" x="108" y="133.5">
+  <object id="81" template="../../obj/treasure.tx" x="108" y="133.5">
    <properties>
-    <property name="reward">[
-	{
-		"type": "randomCard",
-		"colors": [ "Red" ],
-		"subTypes": [ "Goblin" ],
-		"count": 5
-	},
-	{
-		"type": "item",
-		"count": 1,
-		"probability": 0.2,
-		"itemName": "Battle Standard"
-	}
-]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Red"],"subTypes":["Goblin"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Battle Standard"}]</property>
    </properties>
   </object>
   <object id="82" template="../../../../common/maps/obj/waypoint.tx" x="302" y="178.5" />

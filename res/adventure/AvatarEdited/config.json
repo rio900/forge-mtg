@@ -1,0 +1,317 @@
+{
+  "screenWidth": 480,
+  "screenHeight": 270,
+  "skin": "skin/ui_skin.json",
+  "playerBaseSpeed": 32,
+  "minDeckSize": 40,
+  "maxNumberOfDecks": 20,
+  "colorIds": [
+    "W",
+    "U",
+    "B",
+    "R",
+    "G"
+  ],
+  "colorIdNames": [
+    "tr(lblWhite) [+W]",
+    "tr(lblBlue) [+U]",
+    "tr(lblBlack) [+B]",
+    "tr(lblRed) [+R]",
+    "tr(lblGreen) [+G]"
+  ],
+  "restrictedCards": [
+    "Black Lotus",
+    "Mox Emerald",
+    "Mox Pearl",
+    "Mox Ruby",
+    "Mox Sapphire",
+    "Mox Jet",
+    "Ancestral Recall",
+    "Timetwister",
+    "Time Walk",
+    "Command Tower",
+    "Arcane Signet",
+    "Opal Palace",
+    "Path of Ancestry",
+    "War Room",
+    "Commander's Plate",
+    "Campfire",
+    "Cloudkill",
+    "Command Beacon",
+    "Commander's Insignia",
+    "Forge of Heroes",
+    "Imposing Grandeur",
+    "Jeweled Lotus",
+    "Myth Unbound",
+    "Netherborn Altar",
+    "Sanctum of Eternity",
+    "Stinging Study",
+    "Study Hall",
+    "Witch's Clinic",
+    "Time Vault",
+    "Sol Ring",
+    "Mana Crypt",
+    "Tolarian Academy",
+    "Tinker",
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Bazaar of Baghdad",
+    "Library of Alexandria",
+    "Mana Vault",
+    "Fastbond",
+    "Mishra's Workshop",
+    "Yawgmoth's Bargain",
+    "Gaea's Cradle",
+    "Commander's Sphere",
+    "Drake Stone",
+    "Wrenn and One",
+    "Under-Construction Skyscraper",
+    "Temur Elevator",
+    "Slumbering Waterways",
+    "Omenpath to Naya",
+    "The Heron Moon",
+    "Gobland",
+    "Fetching Garden",
+    "Mox Poison",
+    "Wisedrafter's Will",
+    "New Master of Arms",
+    "Halving Season",
+    "Questing Cosplayer",
+    "Teferi, Druid of Argoth",
+    "Anax and Cymede & Kynaios and Tiro",
+    "Call from the Grave",
+    "Mise"
+  ],
+  "restrictedEditions": [
+    "HTR",
+    "HTR17",
+    "HTR18",
+    "HTR19",
+    "HTR20",
+    "PCEL",
+    "HHO",
+    "CMB1",
+    "UST",
+    "UGL",
+    "UNH",
+    "PPC1",
+    "UND",
+    "PUST",
+    "DA1",
+    "UNF"
+  ],
+  "restrictedEvents": [
+    "LEA",
+    "LEB",
+    "2ED",
+    "30A",
+    "CNS",
+    "CN2",
+    "CMR",
+    "CLB",
+    "CMM"
+  ],
+  "usePriceListPrices": true,
+  "difficulties": [
+    {
+      "name": "Easy",
+      "startingLife": 16,
+      "startingShards": 5,
+      "startingMoney": 500,
+      "enemyLifeFactor": 0.8,
+      "spawnRank": 0,
+      "goldLoss": 0.02,
+      "lifeLoss": 0.1,
+      "rewardMaxFactor": 1.5,
+      "sellFactor": 0.6,
+      "shardSellRatio": 0.95,
+      "starterDecks": {
+        "W": "decks/starter/standard-W.dck",
+        "U": "decks/starter/standard-U.dck",
+        "B": "decks/starter/standard-B.dck",
+        "R": "decks/starter/standard-R.dck",
+        "G": "decks/starter/standard-G.dck"
+      },
+      "constructedStarterDecks": {
+        "W": "decks/starter/constructed-Easy-W.dck",
+        "U": "decks/starter/constructed-Easy-U.dck",
+        "B": "decks/starter/constructed-Easy-B.dck",
+        "R": "decks/starter/constructed-Easy-R.dck",
+        "G": "decks/starter/constructed-Easy-G.dck"
+      },
+      "pileDecks": {
+        "W": "decks/starter/pile-Easy-W.dck",
+        "U": "decks/starter/pile-Easy-U.dck",
+        "B": "decks/starter/pile-Easy-B.dck",
+        "R": "decks/starter/pile-Easy-R.dck",
+        "G": "decks/starter/pile-Easy-G.dck"
+      },
+      "commanderDecks": {
+        "W": "decks/starter/commander-W.dck",
+        "U": "decks/starter/commander-U.dck",
+        "B": "decks/starter/commander-B.dck",
+        "R": "decks/starter/commander-R.dck",
+        "G": "decks/starter/commander-G.dck"
+      },
+      "startItems": [
+        "Manasight Amulet",
+        "Leather Boots"
+      ]
+    },
+    {
+      "name": "Normal",
+      "startingLife": 12,
+      "startingShards": 2,
+      "startingMoney": 250,
+      "startingDifficulty": true,
+      "enemyLifeFactor": 1.0,
+      "rewardMaxFactor": 1.0,
+      "spawnRank": 1,
+      "goldLoss": 0.1,
+      "lifeLoss": 0.2,
+      "sellFactor": 0.5,
+      "shardSellRatio": 0.8,
+      "starterDecks": {
+        "W": "decks/starter/standard-W.dck",
+        "U": "decks/starter/standard-U.dck",
+        "B": "decks/starter/standard-B.dck",
+        "R": "decks/starter/standard-R.dck",
+        "G": "decks/starter/standard-G.dck"
+      },
+      "constructedStarterDecks": {
+        "W": "decks/starter/constructed-Normal-W.dck",
+        "U": "decks/starter/constructed-Normal-U.dck",
+        "B": "decks/starter/constructed-Normal-B.dck",
+        "R": "decks/starter/constructed-Normal-R.dck",
+        "G": "decks/starter/constructed-Normal-G.dck"
+      },
+      "pileDecks": {
+        "W": "decks/starter/pile-Normal-W.dck",
+        "U": "decks/starter/pile-Normal-U.dck",
+        "B": "decks/starter/pile-Normal-B.dck",
+        "R": "decks/starter/pile-Normal-R.dck",
+        "G": "decks/starter/pile-Normal-G.dck"
+      },
+      "commanderDecks": {
+        "W": "decks/starter/commander-W.dck",
+        "U": "decks/starter/commander-U.dck",
+        "B": "decks/starter/commander-B.dck",
+        "R": "decks/starter/commander-R.dck",
+        "G": "decks/starter/commander-G.dck"
+      },
+      "startItems": [
+        "Leather Boots"
+      ]
+    },
+    {
+      "name": "Hard",
+      "startingLife": 8,
+      "startingShards": 0,
+      "startingMoney": 125,
+      "enemyLifeFactor": 1.5,
+      "rewardMaxFactor": 0.5,
+      "spawnRank": 2,
+      "goldLoss": 0.3,
+      "lifeLoss": 0.3,
+      "sellFactor": 0.25,
+      "shardSellRatio": 0.6,
+      "starterDecks": {
+        "W": "decks/starter/standard-W.dck",
+        "U": "decks/starter/standard-U.dck",
+        "B": "decks/starter/standard-B.dck",
+        "R": "decks/starter/standard-R.dck",
+        "G": "decks/starter/standard-G.dck"
+      },
+      "constructedStarterDecks": {
+        "W": "decks/starter/constructed-Hard-W.dck",
+        "U": "decks/starter/constructed-Hard-U.dck",
+        "B": "decks/starter/constructed-Hard-B.dck",
+        "R": "decks/starter/constructed-Hard-R.dck",
+        "G": "decks/starter/constructed-Hard-G.dck"
+      },
+      "pileDecks": {
+        "W": "decks/starter/pile-Hard-W.dck",
+        "U": "decks/starter/pile-Hard-U.dck",
+        "B": "decks/starter/pile-Hard-B.dck",
+        "R": "decks/starter/pile-Hard-R.dck",
+        "G": "decks/starter/pile-Hard-G.dck"
+      },
+      "commanderDecks": {
+        "W": "decks/starter/commander-W.dck",
+        "U": "decks/starter/commander-U.dck",
+        "B": "decks/starter/commander-B.dck",
+        "R": "decks/starter/commander-R.dck",
+        "G": "decks/starter/commander-G.dck"
+      }
+    },
+    {
+      "name": "Insane",
+      "startingLife": 7,
+      "startingShards": 0,
+      "startingMoney": 0,
+      "enemyLifeFactor": 2.5,
+      "rewardMaxFactor": 0.0,
+      "spawnRank": 3,
+      "goldLoss": 0.5,
+      "lifeLoss": 0.3,
+      "sellFactor": 0.05,
+      "shardSellRatio": 0.3,
+      "starterDecks": {
+        "W": "decks/starter/standard-W.dck",
+        "U": "decks/starter/standard-U.dck",
+        "B": "decks/starter/standard-B.dck",
+        "R": "decks/starter/standard-R.dck",
+        "G": "decks/starter/standard-G.dck"
+      },
+      "constructedStarterDecks": {
+        "W": "decks/starter/constructed-Insane-W.dck",
+        "U": "decks/starter/constructed-Insane-U.dck",
+        "B": "decks/starter/constructed-Insane-B.dck",
+        "R": "decks/starter/constructed-Insane-R.dck",
+        "G": "decks/starter/constructed-Insane-G.dck"
+      },
+      "pileDecks": {
+        "W": "decks/starter/pile-Insane-W.dck",
+        "U": "decks/starter/pile-Insane-U.dck",
+        "B": "decks/starter/pile-Insane-B.dck",
+        "R": "decks/starter/pile-Insane-R.dck",
+        "G": "decks/starter/pile-Insane-G.dck"
+      },
+      "commanderDecks": {
+        "W": "decks/starter/commander-W.dck",
+        "U": "decks/starter/commander-U.dck",
+        "B": "decks/starter/commander-B.dck",
+        "R": "decks/starter/commander-R.dck",
+        "G": "decks/starter/commander-G.dck"
+      }
+    }
+  ],
+  "starterEditions": [
+    "TLA"
+  ],
+  "starterEditionNames": [
+    "Avatar: The Last Airbender"
+  ],
+  "allowedEditions": [
+    "TLA",
+    "TLE"
+  ],
+  "allowedEvents": [
+    "TLA"
+  ],
+  "allowedJumpstart": [],
+  "restrictedBlocks": [
+    "Avatar: The Last Airbender"
+  ],
+  "defaultBasicLandSet": "TLA",
+  "enableGeneticAI": false,
+  "starterDecksByEdition": {
+    "TLA": {
+      "W": "decks/starter/standard-W.dck",
+      "U": "decks/starter/standard-U.dck",
+      "B": "decks/starter/standard-B.dck",
+      "R": "decks/starter/standard-R.dck",
+      "G": "decks/starter/standard-G.dck"
+    }
+  }
+}

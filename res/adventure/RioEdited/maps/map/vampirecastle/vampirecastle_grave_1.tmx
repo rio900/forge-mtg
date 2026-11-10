@@ -29,7 +29,7 @@
  <objectgroup id="4" name="Objects">
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="192" y="268" width="48" height="16">
    <properties>
-    <property name="teleport" value="../common/maps/map/vampirecastle/vampirecastle_1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/vampirecastle/vampirecastle_1.tmx" />
    </properties>
   </object>
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="193.5" y="125.987">
@@ -92,49 +92,12 @@
    </properties>
   </object>
   <object id="64" template="../../../../common/maps/obj/manashards.tx" x="154.394" y="169.462" />
-  <object id="65" template="../../../../common/maps/obj/treasure.tx" x="208.637" y="23.8091">
+  <object id="65" template="../../obj/treasure.tx" x="208.637" y="23.8091">
    <properties>
-    <property name="reward">[
-  {
-    "type": "randomCard",
-    "colors": [ "Black" ],
-    "subTypes": [ "Vampire" ],
-    "count": 5
-  },
-  {
-    "type": "item",
-    "count": 1,
-    "probability": 0.1,
-    "itemName": "Dark Boots"
-  },
-  {
-    "type": "item",
-    "count": 1,
-    "probability": 0.1,
-    "itemName": "Dark Shield"
-  },
-  {
-    "type": "item",
-    "count": 1,
-    "probability": 0.1,
-    "itemName": "Dark Armor"
-  },
-  {
-    "type": "item",
-    "count": 1,
-    "probability": 0.1,
-    "itemName": "Blood Vial"
-  },
-  {
-    "type": "item",
-    "count": 1,
-    "probability": 0.1,
-    "itemName": "Dark Amulet"
-  }
-]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Black"],"subTypes":["Vampire"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.1,"itemName":"Dark Boots"},{"type":"item","count":1,"probability":0.1,"itemName":"Dark Shield"},{"type":"item","count":1,"probability":0.1,"itemName":"Dark Armor"},{"type":"item","count":1,"probability":0.1,"itemName":"Blood Vial"},{"type":"item","count":1,"probability":0.1,"itemName":"Dark Amulet"}]</property>
    </properties>
   </object>
-  <object id="66" template="../../../../common/maps/obj/booster.tx" x="197.253" y="42.225">
+  <object id="66" template="../../obj/booster.tx" x="197.253" y="42.225">
    <properties>
     <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"},{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"}]</property>
    </properties>

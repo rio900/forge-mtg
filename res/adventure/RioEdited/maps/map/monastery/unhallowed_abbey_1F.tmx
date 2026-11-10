@@ -58,26 +58,12 @@
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
-  <object id="66" template="../../../../common/maps/obj/treasure.tx" x="224" y="95.5">
+  <object id="66" template="../../obj/treasure.tx" x="224" y="95.5">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="67" template="../../../../common/maps/obj/booster.tx" x="224.25" y="80.25">
+  <object id="67" template="../../obj/booster.tx" x="224.25" y="80.25">
    <properties>
     <property name="reward">[{"editions":["MID","VOW"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MID","VOW"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MID","VOW"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -171,7 +157,7 @@
   <object id="88" template="../../../../common/maps/obj/manashards.tx" x="192.25" y="128.5" />
   <object id="89" template="../../../../common/maps/obj/entry_up.tx" gid="1073753167" x="192.087" y="64" rotation="0">
    <properties>
-    <property name="teleport" value="../common/maps/map/monastery/unhallowed_abbey_2F.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/monastery/unhallowed_abbey_2F.tmx" />
    </properties>
   </object>
  </objectgroup>

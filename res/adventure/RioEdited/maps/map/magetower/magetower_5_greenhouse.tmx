@@ -50,12 +50,12 @@
    </properties>
   </object>
   <object id="69" template="../../../../common/maps/obj/gold.tx" x="306.52" y="83.2111" />
-  <object id="70" template="../../../../common/maps/obj/treasure.tx" x="54.144" y="139.941">
+  <object id="70" template="../../obj/treasure.tx" x="54.144" y="139.941">
    <properties>
-    <property name="reward">[{"type":"randomCard","colors":["Green"],"count":5},{"type":"item","count":1,"probability":0.2,"itemName":"Leather Boots"},{"type":"card","probability":1,"count":1,"cardName":"Treasure Chest|AFR"}]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Green"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Leather Boots"},{"type":"card","probability":1,"count":1,"cardName":"Treasure Chest|AFR","editions":["AFR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="71" template="../../../../common/maps/obj/booster.tx" x="374.31" y="126.36">
+  <object id="71" template="../../obj/booster.tx" x="374.31" y="126.36">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

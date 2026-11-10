@@ -67,7 +67,7 @@
   <object id="72" template="../../../../common/maps/obj/manashards.tx" x="441.407" y="39.8314" />
   <object id="75" template="../../../../common/maps/obj/waypoint.tx" x="339.949" y="453.019" />
   <object id="80" template="../../../../common/maps/obj/waypoint.tx" x="491.071" y="284.697" />
-  <object id="89" template="../../../../common/maps/obj/booster.tx" x="254.67" y="45.2148">
+  <object id="89" template="../../obj/booster.tx" x="254.67" y="45.2148">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["Colorless"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["Colorless"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"colors":["Colorless"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -102,24 +102,9 @@
   <object id="112" template="../../../../common/maps/obj/waypoint.tx" x="180.727" y="58.8906" />
   <object id="113" template="../../../../common/maps/obj/waypoint.tx" x="176.746" y="120.207" />
   <object id="114" template="../../../../common/maps/obj/waypoint.tx" x="452.271" y="114.235" />
-  <object id="115" template="../../../../common/maps/obj/treasure.tx" x="317.333" y="49.3333">
+  <object id="115" template="../../obj/treasure.tx" x="317.333" y="49.3333">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "Green" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "Green" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2,
-  "colors": [ "Green" ]
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["Green"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["Green"]},{"type":"randomCard","count":3,"addMaxCount":2,"colors":["Green"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
  </objectgroup>

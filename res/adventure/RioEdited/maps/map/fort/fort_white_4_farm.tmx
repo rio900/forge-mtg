@@ -51,32 +51,9 @@
     <property name="threatRange" type="int" value="50" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="431.345" y="221.668">
+  <object id="51" template="../../obj/treasure.tx" x="431.345" y="221.668">
    <properties>
-    <property name="reward">[
-    {
-      "type": "card",
-      "probability": 1,
-      "count": 1,
-      "addMaxCount": 5,
-      "colors": [
-        "White",
-        "Blue",
-        "Green"
-      ],
-      "rarity": [
-        "Common",
-        "Rare",
-        "Uncommon"
-      ],
-      "subTypes": [
-        "Bird"
-      ],
-      "cardTypes": [
-        "Creature"
-      ]
-    }
-]</property>
+    <property name="reward">[{"type":"card","probability":1,"count":1,"addMaxCount":5,"colors":["White","Blue","Green"],"rarity":["Uncommon","Rare"],"subTypes":["Bird"],"cardTypes":["Creature"]}]</property>
    </properties>
   </object>
   <object id="52" template="../../../../common/maps/obj/gold.tx" x="30.0087" y="46.013" />
@@ -102,12 +79,12 @@
   <object id="65" template="../../../../common/maps/obj/waypoint.tx" x="231.579" y="24.085" />
   <object id="66" template="../../../../common/maps/obj/waypoint.tx" x="318.885" y="98.1159" />
   <object id="68" template="../../../../common/maps/obj/waypoint.tx" x="637.392" y="604.163" width="11.3333" height="16.9312" />
-  <object id="69" template="../../../../common/maps/obj/booster.tx" x="529.946" y="244.17">
+  <object id="69" template="../../obj/booster.tx" x="529.946" y="244.17">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["white","green"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white","green"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white","green"]}]</property>
    </properties>
   </object>
-  <object id="70" template="../../../../common/maps/obj/booster.tx" x="600.176" y="84.2959">
+  <object id="70" template="../../obj/booster.tx" x="600.176" y="84.2959">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["white","green"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white","green"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white","green"]}]</property>
    </properties>

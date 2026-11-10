@@ -35,12 +35,12 @@
  <objectgroup id="5" name="Objects">
   <object id="8" template="../../../../common/maps/obj/gold.tx" x="272" y="64" />
   <object id="9" template="../../../../common/maps/obj/gold.tx" x="176" y="288" />
-  <object id="10" template="../../../../common/maps/obj/booster.tx" x="432" y="48">
+  <object id="10" template="../../obj/booster.tx" x="432" y="48">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="28" template="../../../../common/maps/obj/treasure.tx" x="48" y="48" />
+  <object id="28" template="../../obj/treasure.tx" x="48" y="48" />
  </objectgroup>
  <objectgroup id="6" name="Waypoints">
   <object id="1" template="../../../../common/maps/obj/collision.tx" x="-32" y="0" width="32" height="320" />
@@ -55,7 +55,7 @@
   <object id="14" template="../../../../common/maps/obj/waypoint.tx" name="14" x="192" y="288" />
   <object id="15" template="../../../../common/maps/obj/waypoint.tx" name="15" x="304" y="224" />
   <object id="16" template="../../../../common/maps/obj/waypoint.tx" name="16" x="416" y="288" />
-  <object id="17" template="../../../../common/maps/obj/treasure.tx" x="336" y="304" />
+  <object id="17" template="../../obj/treasure.tx" x="336" y="304" />
   <object id="18" template="../../../../common/maps/obj/waypoint.tx" name="18" x="368" y="128" />
   <object id="19" template="../../../../common/maps/obj/waypoint.tx" name="19" x="400" y="32" />
   <object id="20" template="../../../../common/maps/obj/waypoint.tx" name="20" x="192" y="64" />

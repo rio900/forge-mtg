@@ -124,7 +124,7 @@
   </object>
   <object id="65" template="../../../../../common/maps/obj/entry_down.tx" x="353" y="543.5" width="46" height="21.5">
    <properties>
-    <property name="teleport" value="../common/maps/map/main_story/castles/white_castle_f1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/main_story/castles/white_castle_f1.tmx" />
    </properties>
   </object>
   <object id="67" template="../../../../../common/maps/obj/enemy.tx" x="674.667" y="597.666">
@@ -316,14 +316,14 @@
   <object id="82" template="../../../../../common/maps/obj/waypoint.tx" x="688.667" y="498" />
   <object id="83" template="../../../../../common/maps/obj/waypoint.tx" x="220.667" y="496.667" />
   <object id="84" template="../../../../../common/maps/obj/waypoint.tx" x="47.3333" y="500" />
-  <object id="85" template="../../../../../common/maps/obj/treasure.tx" x="426.453" y="471.329">
+  <object id="85" template="../../../obj/treasure.tx" x="426.453" y="471.329">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":3,"probability":1,"rarity":["rare"],"colors":["white"]},{"type":"item","probability":0.1,"count":1,"itemName":"Angelic Armaments"},{"type":"item","probability":0.1,"count":1,"itemName":"Robes of Omniscience"},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":3,"probability":1,"rarity":["Rare"],"colors":["white"]},{"type":"item","probability":0.1,"count":1,"itemName":"Angelic Armaments"},{"type":"item","probability":0.1,"count":1,"itemName":"Robes of Omniscience"},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
-  <object id="86" template="../../../../../common/maps/obj/treasure.tx" x="309.385" y="471.329">
+  <object id="86" template="../../../obj/treasure.tx" x="309.385" y="471.329">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":3,"probability":1,"rarity":["rare"],"colors":["white"]},{"type":"item","probability":0.1,"count":1,"itemName":"Angelic Armaments"},{"type":"item","probability":0.1,"count":1,"itemName":"Robes of Omniscience"},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":3,"probability":1,"rarity":["Rare"],"colors":["white"]},{"type":"item","probability":0.1,"count":1,"itemName":"Angelic Armaments"},{"type":"item","probability":0.1,"count":1,"itemName":"Robes of Omniscience"},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
  </objectgroup>

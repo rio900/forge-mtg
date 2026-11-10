@@ -1,0 +1,6375 @@
+[
+  {
+    "enemy": "Abyssal Baron",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Demon"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Adult Green Dragon",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Dragon"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "rare",
+        "Mythic Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Adult Green Dragon",
+    "match": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Planeswalker"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Adventurer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Aether Channeler",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Amonkhet Minotaur Warrior",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Ancient Demon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Ancient Silver Dragon",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Blue"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Dragon"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Blue"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "rare",
+        "Mythic Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Ancient Silver Dragon",
+    "match": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "colors": [
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Planeswalker"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "colors": [
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Ancient Vampire",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "rare",
+        "Rare"
+      ],
+      "subTypes": [
+        "Vampire"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "rare",
+        "Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Angel Overseer",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Angel Warrior",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "White"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Angel"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "White"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Angelic Page",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "colors": [
+        "White"
+      ],
+      "subTypes": [
+        "Angel"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "colors": [
+        "White"
+      ]
+    }
+  },
+  {
+    "enemy": "Angelic Page",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Ape",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Apprentice Black Wizard",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Apprentice Blue Wizard",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Apprentice Green Wizard",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Apprentice Red Wizard",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Apprentice White Wizard",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Archfiend",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Demon"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Armadillo",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "MonoColor",
+      "cardText": "Landfall"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "MonoColor",
+      "cardText": "Landfall"
+    }
+  },
+  {
+    "enemy": "Armored Knight",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 3,
+      "colors": [
+        "White"
+      ],
+      "rarity": [
+        "Rare"
+      ],
+      "subTypes": [
+        "Knight"
+      ],
+      "cardText": "Equipment"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 3,
+      "colors": [
+        "White"
+      ],
+      "rarity": [
+        "Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Artifact Warrior",
+    "match": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Planeswalker"
+      ],
+      "colorType": "Colorless",
+      "cardText": "Karn"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Axgard Dwarf",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Badger",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Planeswalker"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Badger",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common",
+        "Mythic Rare",
+        "Rare"
+      ],
+      "cardText": "Badger"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "uncommon",
+        "common",
+        "Mythic Rare",
+        "Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Bandit",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bandit Archer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bandit Leader",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bandit Scoundrel",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Bandit Scoundrel",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bandit Slingshot",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bandit Trapmaster",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bear",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Beastmaster",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Beholder",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bird",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Bloodgift Demon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Boar",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "MonoColor",
+      "cardText": "Boar"
+    },
+    "reward": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Bone Dragon",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Dragon"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "rare",
+        "Mythic Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Bone Dragon",
+    "match": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Planeswalker"
+      ],
+      "colorType": "Any",
+      "cardText": "Sarkhan"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "Any"
+    }
+  },
+  {
+    "enemy": "Bone Golem",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "colors": [
+        "Black"
+      ],
+      "subTypes": [
+        "Skeleton"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "colors": [
+        "Black"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Bone Golem",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Cathar",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Cephalid",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+      ],
+      "subTypes": [
+        "Cephalid"
+      ],
+      "colorType": "Any"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+      ],
+      "colorType": "Any"
+    }
+  },
+  {
+    "enemy": "Cerodon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Challenger 20",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Challenger 21",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Challenger 22",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Chandra's Acolyte",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Chandra's Firestarter",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Chandra's Hellhound",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Chandra's Immolator",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Chandra's Lavamancer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "uncommon"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "uncommon"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Chandra's Lavamancer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Chandra's Pyromancer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Chandra's Scorcher",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "uncommon"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "uncommon"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Chandra's Scorcher",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Chimera",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 4,
+      "subTypes": [
+        "Chimera"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 4
+    }
+  },
+  {
+    "enemy": "Cleric",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Cloaker",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Conjurer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Copper Host Brutalizer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Copper Host Infector",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Cosmic Horror",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ],
+      "subTypes": [
+        "Horror"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ]
+    }
+  },
+  {
+    "enemy": "Crab",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Blue"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "subTypes": [
+        "Crab"
+      ],
+      "cardTypes": [
+        "Creature"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "colors": [
+        "Blue"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Curselord",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 3,
+      "addMaxCount": 6,
+      "subTypes": [
+        "Curse"
+      ],
+      "cardTypes": [
+        "Enchantment"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 3,
+      "addMaxCount": 6,
+      "cardTypes": [
+        "Enchantment"
+      ]
+    }
+  },
+  {
+    "enemy": "Dark Enchanter",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dark Knight",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dark Spirit",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dawnhart Witch",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Death Knight",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Demon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.6,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.6,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Demon",
+    "match": {
+      "type": "card",
+      "probability": 0.6,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Demon"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.6,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Demon of Tibalt",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Demon"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Djinn",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dragon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Drake",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dross Gladiator",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dross Grimnarch",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dwarf",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Dwarf Mercenary",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Eldraine Faerie",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Eldraine Knight",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Eldrazi",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "subTypes": [
+        "Eldrazi"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Eldrazi Devastator",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "Mythic Rare",
+        "Uncommon"
+      ],
+      "subTypes": [
+        "Eldrazi"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "Mythic Rare",
+        "Uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Eldrazi Floater",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "Mythic Rare",
+        "Uncommon"
+      ],
+      "subTypes": [
+        "Eldrazi"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "Mythic Rare",
+        "Uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Elesh Norn",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Elk",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Emrakul",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 5,
+      "addMaxCount": 10,
+      "subTypes": [
+        "Eldrazi"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 5,
+      "addMaxCount": 10,
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Esper Artificer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Evil Wall",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Faerie",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Falcon-headed Aven Warrior",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Falcon-headed Aven Warrior",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Fallen Angel",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "False Knight",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "False Monk",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Farmer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Fire Dragon",
+    "match": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Planeswalker"
+      ],
+      "colorType": "Any",
+      "cardText": "Sarkhan"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "Any"
+    }
+  },
+  {
+    "enemy": "Fire Elemental",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Fire Giant",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Red"
+      ],
+      "subTypes": [
+        "Giant"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Red"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Flame Elemental",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Flesh Abomination",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ],
+      "subTypes": [
+        "Horror"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ]
+    }
+  },
+  {
+    "enemy": "Flying Witch",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 8,
+      "subTypes": [
+        "Witch"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 8
+    }
+  },
+  {
+    "enemy": "Fog Trap",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Fog Trap",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Forest Giant",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green"
+      ],
+      "subTypes": [
+        "Giant"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Frost Titan",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Fungus",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "common",
+        "uncommon"
+      ],
+      "cardText": "Saproling"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "common",
+        "uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Fungus",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green",
+        "Black"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "subTypes": [
+        "Fungus"
+      ],
+      "colorType": "Any"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green",
+        "Black"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "Any"
+    }
+  },
+  {
+    "enemy": "Furnace Goblin",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Furnace Tormentor",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Gargoyle",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Gargoyle",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Gargoyle 2",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Geist",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Geistmage",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Geonid Death-Cap",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "common",
+        "uncommon"
+      ],
+      "cardText": "Saproling"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "rarity": [
+        "common",
+        "uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Geonid Death-Cap",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green",
+        "Black"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "subTypes": [
+        "Fungus"
+      ],
+      "colorType": "Any"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Green",
+        "Black"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "Any"
+    }
+  },
+  {
+    "enemy": "Ghost",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Giant Panda",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Gitaxian Scientist",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Gitaxian Underling",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Goblin",
+    "match": {
+      "type": "card",
+      "count": 1,
+      "rarity": [
+        "common",
+        "uncommon"
+      ],
+      "cardTypes": [
+        "land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "count": 1,
+      "rarity": [
+        "common",
+        "uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Goblin Artificer",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "common",
+        "uncommon"
+      ],
+      "cardTypes": [
+        "land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "common",
+        "uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Goblin King",
+    "match": {
+      "type": "card",
+      "count": 1,
+      "rarity": [
+        "common",
+        "uncommon"
+      ],
+      "cardTypes": [
+        "land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "count": 1,
+      "rarity": [
+        "common",
+        "uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Gorgon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Gorgon 2",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Grave Titan",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "subTypes": [
+        "Giant"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Graven Revenant",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Green Beast",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Griffin",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Grolnok",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 4,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 4,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Harpy",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Harpy 2",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Heart-Piercer Manticore",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Hellhound",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "High Cultist",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "High Vampire",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Horror",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Hulking Brute",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Human Looter",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Human Mercenary",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Ibis-headed Aven Warrior",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.25,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Ibis-headed Aven Warrior",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Immersturm Demon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Jin-Gitaxias",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Juggernaut",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Kavu",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Khan",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Kiora",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Knight Mercenary",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Kozilek",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Leonin Warrior",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1,
+      "cardText": "Leonin"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1
+    }
+  },
+  {
+    "enemy": "Lich",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Lightning Elemental",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Loamspeaker",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Lord Pestilence",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Maelstrom Angel",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "Rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "Rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Mageripper",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "Rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1,
+      "rarity": [
+        "Rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Magma Elemental",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Merfolk Elite",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5,
+      "subTypes": [
+        "Merfolk"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 5
+    }
+  },
+  {
+    "enemy": "Mimic",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Mindclaw Shaman",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Minor Demon",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Minotaur",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Minotaur Flayer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Monk",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Mountain Ogre",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "cardTypes": [
+        "Ogre"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2
+    }
+  },
+  {
+    "enemy": "Naga Warrior",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Nantuko Guard",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "subTypes": [
+        "Eldrazi"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Nightmare",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ],
+      "subTypes": [
+        "Nightmare"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ]
+    }
+  },
+  {
+    "enemy": "Nissa",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Orthodoxy Angel",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Orthodoxy Duelist",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Orzhov Cleric",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Penguin",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Penguin Elite",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Phoenix",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Plaguelord",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Plaguelord",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "cardText": "Poison"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2
+    }
+  },
+  {
+    "enemy": "Polar Bear",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Raptor",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 5,
+      "colors": [
+        "White",
+        "Red"
+      ],
+      "rarity": [
+        "Common",
+        "Rare",
+        "Uncommon"
+      ],
+      "subTypes": [
+        "Dinosaur"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 5,
+      "colors": [
+        "White",
+        "Red"
+      ],
+      "rarity": [
+        "Common",
+        "Rare",
+        "Uncommon"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Raven",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Blue"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "MonoColor",
+      "cardText": "Raven"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Blue"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Royal Sentinel",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Sand Ghoul",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Satyr",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Satyr Grove Guardian",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Scarecrow Captain",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Scourgemaster",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Demon"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Sea Monster",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Shade",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ],
+      "subTypes": [
+        "Shade"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "Rare",
+        "Uncommon",
+        "Common"
+      ]
+    }
+  },
+  {
+    "enemy": "Shaman",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Shaman of Zedruu",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Skeleton Champion",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 3,
+      "addMaxCount": 4,
+      "cardText": "Skeleton"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 3,
+      "addMaxCount": 4
+    }
+  },
+  {
+    "enemy": "Skeleton Soldier",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "subTypes": [
+        "Skeleton"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4
+    }
+  },
+  {
+    "enemy": "Slimefoot",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Slivdrazi Experiment",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Sliver Queen",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 5,
+      "addMaxCount": 10,
+      "subTypes": [
+        "Sliver"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 5,
+      "addMaxCount": 10,
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Sliver_Green",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Sliver_Red",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Sliver_White",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.05,
+      "count": 1,
+      "cardTypes": [
+        "Artifact",
+        "Enchantment",
+        "Instant",
+        "Sorcery"
+      ]
+    }
+  },
+  {
+    "enemy": "Snake",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Spider",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Spiked Ravager",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 2,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "subTypes": [
+        "Demon"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 2,
+      "addMaxCount": 2,
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ]
+    }
+  },
+  {
+    "enemy": "Squirrel",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 3,
+      "addMaxCount": 6,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "MonoColor",
+      "cardText": "Squirrel"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 3,
+      "addMaxCount": 6,
+      "colors": [
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Stegosaurus",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Red",
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "subTypes": [
+        "Dinosaur"
+      ],
+      "cardTypes": [
+        "Creature"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "Red",
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Storm Titan",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 8,
+      "colors": [
+        "Blue"
+      ],
+      "subTypes": [
+        "Giant"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 8,
+      "colors": [
+        "Blue"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Sun Giant",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "White"
+      ],
+      "subTypes": [
+        "Giant"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "White"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Supreme Elemental",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Swamp Troll",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Symbiote",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "The Cheff",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Tomb Guardian",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Treefolk Guardian",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "subTypes": [
+        "Treefolk"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2
+    }
+  },
+  {
+    "enemy": "Treefolk Guardian",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Triceratops",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "White",
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "subTypes": [
+        "Dinosaur"
+      ],
+      "cardTypes": [
+        "Creature"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 4,
+      "colors": [
+        "White",
+        "Green"
+      ],
+      "rarity": [
+        "common",
+        "uncommon",
+        "Rare"
+      ],
+      "cardTypes": [
+        "Creature"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Troll",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 2,
+      "subTypes": [
+        "Troll"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 2
+    }
+  },
+  {
+    "enemy": "Troll",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Undead Goblin",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Undead Roamer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Undead Shuffler",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "uncommon",
+        "Rare"
+      ],
+      "subTypes": [
+        "Zombie"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "colors": [
+        "Black"
+      ],
+      "rarity": [
+        "uncommon",
+        "Rare"
+      ]
+    }
+  },
+  {
+    "enemy": "Undead Shuffler",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Unholy Knight",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Unholy Skull",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 2,
+      "colors": [
+        "Black"
+      ],
+      "cardText": "Discard Opponent"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 2,
+      "colors": [
+        "Black"
+      ]
+    }
+  },
+  {
+    "enemy": "Unraveling Crawler",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "cardText": "return graveyard hand"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2
+    }
+  },
+  {
+    "enemy": "Unraveling Crawler",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Urabrask",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Viashino",
+    "match": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "uncommon"
+      ],
+      "subTypes": [
+        "Viashino"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "addMaxCount": 2,
+      "rarity": [
+        "uncommon"
+      ]
+    }
+  },
+  {
+    "enemy": "Viashino",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Viper",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1,
+      "subTypes": [
+        "Snake"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 1,
+      "addMaxCount": 1
+    }
+  },
+  {
+    "enemy": "Viper",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Volcano Dragon",
+    "match": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "cardTypes": [
+        "Planeswalker"
+      ],
+      "colorType": "Any",
+      "cardText": "Sarkhan"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.4,
+      "count": 1,
+      "rarity": [
+        "Rare",
+        "Mythic Rare"
+      ],
+      "colorType": "Any"
+    }
+  },
+  {
+    "enemy": "Volcano Elemental",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 2,
+      "rarity": [
+        "rare"
+      ],
+      "colorType": "Colorless"
+    }
+  },
+  {
+    "enemy": "Vorinclex",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Wandering Giant",
+    "match": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 1,
+      "colors": [
+        "Red"
+      ],
+      "subTypes": [
+        "Giant"
+      ],
+      "colorType": "MonoColor"
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 2,
+      "addMaxCount": 1,
+      "colors": [
+        "Red"
+      ],
+      "colorType": "MonoColor"
+    }
+  },
+  {
+    "enemy": "Werebear",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.5,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Wild-Magic Sorcerer",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Xira",
+    "match": {
+      "type": "deckCard",
+      "probability": 1,
+      "count": 4,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 1,
+      "count": 4,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  },
+  {
+    "enemy": "Yeti",
+    "match": {
+      "type": "deckCard",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    },
+    "reward": {
+      "type": "card",
+      "probability": 0.1,
+      "count": 1,
+      "rarity": [
+        "rare"
+      ],
+      "cardTypes": [
+        "Land"
+      ]
+    }
+  }
+]

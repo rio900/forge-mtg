@@ -359,55 +359,116 @@ class Builder:
             if e.get('nextEnemy'):convert(e['nextEnemy'],(owner or e['name'])+' stage '+e['nextEnemy']['name'])
         for e in src:convert(e)
         emit(PLANE/'world/enemies.json',dump(src))
+    def chest_card(self,rule):
+        kind=rule.get('type','card')
+        if kind=='Union':
+            for member in rule['cardUnion']:self.chest_card(member)
+            return
+        if kind not in ('card','randomCard','cardPackShop'):return
+        if kind=='cardPackShop':
+            # A sealed booster would still contain commons. Award a premium single instead.
+            rule['type']='card'
+            rule['rarity']=['Rare','Mythic Rare']
+        if rule.get('cardName'):
+            card=self.legal[rule['cardName'].split('|')[0]]
+            if card.rarity not in ('U','R','M'):
+                pool=[c for c in self.candidates(card.mask,'Land' in card.kinds) if c.rarity=='U']
+                card=self.close(card,pool,set(),'chest'+card.name,card.cost)
+            rule.update(cardName=card.name+'|'+card.edition,editions=[card.edition])
+        allowed=['Uncommon','Rare','Mythic Rare']
+        previous=[r.lower() for r in rule.get('rarity',allowed)]
+        rule['rarity']=[r for r in allowed if r.lower() in previous] or ['Uncommon']
+
+    def map_reward(self,node,chest=False,grove=False):
+        value=node.get('value',node.text or '')
+        # Common resources use libGDX's optional commas.
+        value=re.sub(r',\s*([}\]])',r'\1',value)
+        value=re.sub(r'([\]"\d}])\s*\n(\s*"\w+"\s*:)',r'\1,\n\2',value)
+        obj=json.loads(value)
+        before=dump(obj)
+        if grove and isinstance(obj,list):
+            for rule in obj:
+                if rule.get('editions')==['BBD']:rule['editions']=['MID','VOW']
+        self.reward(obj)
+        if chest:
+            for rule in obj:self.chest_card(rule)
+        if dump(obj)==before:return False
+        value=json.dumps(obj,ensure_ascii=False,separators=(',',':'))
+        if 'value' in node.attrib:node.set('value',value)
+        else:node.text=value
+        return True
+
     def maps(self):
-        scroll=COMMON/'maps/obj/scroll.tx'
-        local_scroll=PLANE/scroll.relative_to(COMMON)
-        template=ET.fromstring(scroll.read_bytes())
-        for prop in template.findall(".//property[@name='reward']"):
-            obj=json.loads(prop.get('value'));self.reward(obj);prop.set('value',json.dumps(obj))
-        for node in template.iter('tileset'):
-            node.set('source',os.path.relpath(scroll.parent/node.get('source'),local_scroll.parent))
-        emit(local_scroll,ET.tostring(template,encoding='unicode')+'\n')
-        for f in sorted((COMMON/'maps').rglob('*.tmx')):
-            root=ET.fromstring(f.read_bytes());changed=any(n.get('template','').endswith('/scroll.tx') for n in root.iter())
+        templates={}
+        for name in ('scroll','treasure','booster'):
+            f=COMMON/'maps/obj'/f'{name}.tx'
+            dest=PLANE/f.relative_to(COMMON);templates[f]=dest
+            root=ET.parse(f).getroot()
+            self.map_reward(root.find(".//property[@name='reward']"),chest=name=='treasure')
+            for node in root.iter('tileset'):
+                node.set('source',os.path.relpath(f.parent/node.get('source'),dest.parent))
+            emit(dest,ET.tostring(root,encoding='unicode')+'\n')
+        sources=sorted((COMMON/'maps').rglob('*.tmx'))
+        by_name=defaultdict(list)
+        for f in sources:by_name[f.name].append(f)
+        def destination(ref):
+            target=(COMMON/ref).resolve()
+            if target.is_file():return target
+            matches=by_name[Path(ref).name]
+            return matches[0] if len(matches)==1 else None
+        local=set()
+        trees={}
+        links=defaultdict(list)
+        for f in sources:
+            root=ET.parse(f).getroot();trees[f]=root
             if f.parent==COMMON/'maps/map/towns':
-                limit_town_shops(root,f.name);changed=True
+                limit_town_shops(root,f.name);local.add(f)
+            chest_props=set()
+            for obj in root.iter('object'):
+                ref=obj.get('template','')
+                if ref and (f.parent/ref).resolve() in templates:local.add(f)
+                if Path(ref).name=='treasure.tx':
+                    chest_props.update(obj.findall("properties/property[@name='reward']"))
             for node in root.iter('property'):
                 key=node.get('name');value=node.get('value',node.text or '')
-                if key=='deckOverride' and value:
+                if key=='teleport' and value.endswith('.tmx'):
+                    target=destination(value)
+                    if target:
+                        links[f].append((node,target))
+                        if not (COMMON/value).is_file():local.add(f)
+                elif key=='deckOverride' and value:
                     ref=value.replace('../common/','')
                     if ref not in self.byref:
                         encounter={'name':'Map '+Path(ref).stem}
                         self.byref[ref]=self.deck(encounter,ref)
-                    node.set('value',self.byref[ref]);changed=True
-                elif (key=='reward' and '"Snow"' in value) or SKETCHBOOK in value or any('"'+k+'"' in value for k in ('cardName','editions','cardPackShop','sourceDeck')):
-                    try:obj=json.loads(value)
-                    except ValueError:
-                        repaired=re.sub(r'([\]"\d}])\s*\n(\s*"\w+"\s*:)',r'\1,\n\2',value)
-                        obj=json.loads(repaired)
-                    before=dump(obj);self.reward(obj)
-                    if before!=dump(obj):
-                        value=json.dumps(obj,ensure_ascii=False,separators=(',',':'))
-                        if 'value' in node.attrib:node.set('value',value)
-                        else:node.text=value
-                        changed=True
-            if changed:
-                dest=PLANE/f.relative_to(COMMON)
-                for node in root.iter():
-                    for attr in ('source','template'):
-                        if attr in node.attrib:
-                            target=(f.parent/node.get(attr)).resolve()
-                            if not target.is_file():
-                                target=COMMON/'maps'/Path(node.get(attr)).parent.name/target.name
-                            if target==scroll:target=local_scroll
-                            if target.is_file():node.set(attr,os.path.relpath(target,dest.parent))
-                emit(dest,ET.tostring(root,encoding='unicode')+'\n')
-        # TileMapScene prefixes POI map paths with common, even inside custom planes.
+                    node.set('value',self.byref[ref]);local.add(f)
+                elif (key=='reward' and value.strip()) or SKETCHBOOK in value or any('"'+k+'"' in value for k in ('cardName','editions','cardPackShop','sourceDeck')):
+                    if self.map_reward(node,node in chest_props,f.stem=='evilgrove_1_zombie'):local.add(f)
+        # A common entrance must not lead past a plane override on a later floor.
+        while True:
+            parents={f for f,edges in links.items() if any(t in local for _,t in edges)}
+            if parents<=local:break
+            local.update(parents)
+        def route(target):
+            base=PLANE if target in local else COMMON
+            return '../'+base.name+'/'+str(target.relative_to(COMMON))
+        for f in sorted(local):
+            dest=PLANE/f.relative_to(COMMON);root=trees[f]
+            for node,target in links[f]:node.set('value',route(target))
+            for node in root.iter():
+                for attr in ('source','template'):
+                    if attr not in node.attrib:continue
+                    target=(f.parent/node.get(attr)).resolve()
+                    if not target.is_file():
+                        target=COMMON/'maps'/Path(node.get(attr)).parent.name/target.name
+                    assert target.is_file(), (f,target)
+                    node.set(attr,os.path.relpath(templates.get(target,target),dest.parent))
+            emit(dest,ET.tostring(root,encoding='unicode')+'\n')
         points=json.loads((COMMON/'world/points_of_interest.json').read_text())
         for point in points:
-            ref=point.get('map','')
-            if ref.startswith('../common/maps/map/towns/'):
-                point['map']=ref.replace('../common/','../'+PLANE.name+'/',1)
+            target=destination(point['map'])
+            assert target,point['map']
+            point['map']=route(target)
         emit(PLANE/'world/points_of_interest.json',dump(points))
 
     def town_rewards(self, color, creatures):

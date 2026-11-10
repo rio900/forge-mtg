@@ -107,7 +107,7 @@
   <object id="197" template="../../../../common/maps/obj/door_up.tx" x="61.6753" y="66.9383" width="30" height="39.5">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/zedruu/zedruu_f1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/zedruu/zedruu_f1.tmx" />
    </properties>
   </object>
   <object id="198" template="../../../../common/maps/obj/waypoint.tx" x="146.842" y="557.938" />
@@ -226,7 +226,7 @@
   <object id="233" template="../../../../common/maps/obj/waypoint.tx" x="115.342" y="392.939" />
   <object id="234" template="../../../../common/maps/obj/manashards.tx" x="22.8421" y="576.772" />
   <object id="235" template="../../../../common/maps/obj/gold.tx" x="93.5088" y="327.105" />
-  <object id="236" template="../../../../common/maps/obj/booster.tx" x="43.8421" y="391.439">
+  <object id="236" template="../../obj/booster.tx" x="43.8421" y="391.439">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -272,12 +272,12 @@
     <property name="waypoints" value="199,251" />
    </properties>
   </object>
-  <object id="255" template="../../../../common/maps/obj/booster.tx" x="61.1754" y="263.772">
+  <object id="255" template="../../obj/booster.tx" x="61.1754" y="263.772">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="256" template="../../../../common/maps/obj/booster.tx" x="488.842" y="222.105">
+  <object id="256" template="../../obj/booster.tx" x="488.842" y="222.105">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]}]</property>
    </properties>
@@ -288,19 +288,9 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="258" template="../../../../common/maps/obj/treasure.tx" x="61.5088" y="233.439">
+  <object id="258" template="../../obj/treasure.tx" x="61.5088" y="233.439">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
@@ -309,7 +299,7 @@
   <object id="262" template="../../../../common/maps/obj/door_up.tx" x="457.509" y="16.3553" width="22.6667" height="22.5">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/zedruu/zedruu_f4.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/zedruu/zedruu_f4.tmx" />
    </properties>
   </object>
  </objectgroup>

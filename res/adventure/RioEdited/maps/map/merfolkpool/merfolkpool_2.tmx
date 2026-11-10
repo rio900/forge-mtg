@@ -28,7 +28,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="240.729" y="64.3787" />
+  <object id="48" template="../../obj/treasure.tx" x="240.729" y="64.3787" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="183.029" y="187.552">
    <properties>
     <property name="enemy" value="Water Elemental" />
@@ -64,7 +64,7 @@
    </properties>
   </object>
   <object id="58" template="../../../../common/maps/obj/manashards.tx" x="345.034" y="154.638" />
-  <object id="59" template="../../../../common/maps/obj/booster.tx" x="270.003" y="64.862">
+  <object id="59" template="../../obj/booster.tx" x="270.003" y="64.862">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["blue"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["blue"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"colors":["blue"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

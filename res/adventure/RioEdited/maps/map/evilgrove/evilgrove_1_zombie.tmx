@@ -91,20 +91,14 @@
     <property name="waypoints" value="76,75,74,73,74,75" />
    </properties>
   </object>
-  <object id="64" template="../../../../common/maps/obj/treasure.tx" x="399.29" y="32.522">
+  <object id="64" template="../../obj/treasure.tx" x="399.29" y="32.522">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 5,
-  "subTypes": [
-   "Zombie"
-],
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":5,"subTypes":["Zombie"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="65" template="../../../../common/maps/obj/booster.tx" x="64.4663" y="32.522">
+  <object id="65" template="../../obj/booster.tx" x="64.4663" y="32.522">
    <properties>
-    <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MID","VOW"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MID","VOW"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MID","VOW"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="66" template="../../../../common/maps/obj/manashards.tx" x="127.468" y="33.4093" />

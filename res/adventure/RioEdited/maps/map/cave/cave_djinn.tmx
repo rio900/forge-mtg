@@ -70,8 +70,8 @@
   <object id="61" template="../../../../common/maps/obj/waypoint.tx" x="20.8495" y="246.881" />
   <object id="62" template="../../../../common/maps/obj/waypoint.tx" x="216.179" y="117.456" />
   <object id="63" template="../../../../common/maps/obj/waypoint.tx" x="46.2582" y="35.9359" />
-  <object id="64" template="../../../../common/maps/obj/treasure.tx" x="25.349" y="130.16" />
-  <object id="65" template="../../../../common/maps/obj/booster.tx" x="354.339" y="24.5549">
+  <object id="64" template="../../obj/treasure.tx" x="25.349" y="130.16" />
+  <object id="65" template="../../obj/booster.tx" x="354.339" y="24.5549">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

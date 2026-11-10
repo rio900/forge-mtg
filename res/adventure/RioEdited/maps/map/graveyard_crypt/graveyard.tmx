@@ -37,7 +37,7 @@
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="182" y="400.5" width="55" height="16" />
   <object id="49" template="../../../../common/maps/obj/entry_down.tx" x="191" y="33.5" width="19" height="20">
    <properties>
-    <property name="teleport" value="../common/maps/map/graveyard_crypt/crypt.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/graveyard_crypt/crypt.tmx" />
    </properties>
   </object>
   <object id="54" template="../../../../common/maps/obj/gold.tx" x="99" y="77.5" />
@@ -100,7 +100,7 @@
     <property name="threatRange" type="float" value="30" />
    </properties>
   </object>
-  <object id="68" template="../../../../common/maps/obj/treasure.tx" x="328.5" y="78.5" />
+  <object id="68" template="../../obj/treasure.tx" x="328.5" y="78.5" />
   <object id="69" template="../../../../common/maps/obj/manashards.tx" x="392" y="18.5" />
   <object id="70" template="../../../../common/maps/obj/manashards.tx" x="334" y="398" />
   <object id="71" template="../../../../common/maps/obj/enemy.tx" x="286" y="146" visible="1">
@@ -132,7 +132,7 @@
   <object id="76" template="../../../../common/maps/obj/waypoint.tx" x="221.5" y="300" />
   <object id="77" template="../../../../common/maps/obj/waypoint.tx" x="338.5" y="233.5" />
   <object id="78" template="../../../../common/maps/obj/waypoint.tx" x="375.5" y="54" />
-  <object id="79" template="../../../../common/maps/obj/booster.tx" x="375.5" y="109">
+  <object id="79" template="../../obj/booster.tx" x="375.5" y="109">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

@@ -64,8 +64,8 @@
     <property name="waypoints" value="74,76,71,72,71,76" />
    </properties>
   </object>
-  <object id="65" template="../../../../common/maps/obj/treasure.tx" x="152.773" y="65.0909" />
-  <object id="66" template="../../../../common/maps/obj/booster.tx" x="196.479" y="60.7985">
+  <object id="65" template="../../obj/treasure.tx" x="152.773" y="65.0909" />
+  <object id="66" template="../../obj/booster.tx" x="196.479" y="60.7985">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["green"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["green"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"colors":["green"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -90,7 +90,7 @@
   <object id="81" template="../../../../common/maps/obj/gold.tx" x="-0.272727" y="217.455" />
   <object id="82" template="../../../../common/maps/obj/gold.tx" x="33.8182" y="528.364" />
   <object id="83" template="../../../../common/maps/obj/gold.tx" x="523.364" y="240.182" />
-  <object id="84" template="../../../../common/maps/obj/treasure.tx" x="504.727" y="255.636" />
+  <object id="84" template="../../obj/treasure.tx" x="504.727" y="255.636" />
   <object id="85" template="../../../../common/maps/obj/collision.tx" x="-1.72" y="560.182" width="580.258" height="16" />
   <object id="86" template="../../../../common/maps/obj/collision.tx" x="-3.76536" y="-15.7273" width="580.258" height="16" />
   <object id="87" template="../../../../common/maps/obj/collision.tx" x="-15.2727" y="-13.7677" width="16" height="590.717" />

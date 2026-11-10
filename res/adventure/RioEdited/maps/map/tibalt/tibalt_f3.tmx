@@ -54,7 +54,7 @@
   <object id="114" template="../../../../common/maps/obj/entry_up.tx" x="364.676" y="361.886" width="67" height="50">
    <properties>
     <property name="direction" value="right" />
-    <property name="teleport" value="../common/maps/map/tibalt/tibalt_f2.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/tibalt/tibalt_f2.tmx" />
     <property name="teleportObjectId" value="144" />
    </properties>
   </object>
@@ -109,19 +109,9 @@
     <property name="waypoints" value="196,185" />
    </properties>
   </object>
-  <object id="141" template="../../../../common/maps/obj/treasure.tx" x="509.503" y="120.175">
+  <object id="141" template="../../obj/treasure.tx" x="509.503" y="120.175">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
@@ -147,7 +137,7 @@
     <property name="waypoints" value="187,193,195,193" />
    </properties>
   </object>
-  <object id="179" template="../../../../common/maps/obj/booster.tx" x="511.009" y="148.772">
+  <object id="179" template="../../obj/booster.tx" x="511.009" y="148.772">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -162,7 +152,7 @@
   <object id="198" template="../../../../common/maps/obj/door_up.tx" x="461.105" y="86.8501" width="32.7127" height="80.0112" rotation="359.74">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/tibalt/tibalt_f4.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/tibalt/tibalt_f4.tmx" />
     <property name="teleportObjectId" value="170" />
    </properties>
   </object>
@@ -177,7 +167,7 @@
 }]</property>
    </properties>
   </object>
-  <object id="202" template="../../../../common/maps/obj/booster.tx" x="349.342" y="198.105">
+  <object id="202" template="../../obj/booster.tx" x="349.342" y="198.105">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

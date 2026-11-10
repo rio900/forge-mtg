@@ -51,20 +51,20 @@
   <object id="76" template="../../../../common/maps/obj/waypoint.tx" x="120.801" y="202.565" />
   <object id="77" template="../../../../common/maps/obj/waypoint.tx" x="298.541" y="200.969" />
   <object id="81" template="../../../../common/maps/obj/waypoint.tx" x="208.885" y="202.527" />
-  <object id="101" template="../../../../common/maps/obj/treasure.tx" x="224.945" y="57.9992">
+  <object id="101" template="../../obj/treasure.tx" x="224.945" y="57.9992">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;: &quot;randomCard&quot;, &quot;count&quot;: 10 }, {&quot;type&quot;: &quot;item&quot;,&quot;count&quot;: 1,&quot;probability&quot;:0.2,&quot;itemName&quot;: &quot;Dark Armor&quot;}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;randomCard&quot;,&quot;count&quot;:10,&quot;rarity&quot;:[&quot;Uncommon&quot;,&quot;Rare&quot;,&quot;Mythic Rare&quot;]},{&quot;type&quot;:&quot;item&quot;,&quot;count&quot;:1,&quot;probability&quot;:0.2,&quot;itemName&quot;:&quot;Dark Armor&quot;}]" />
    </properties>
   </object>
   <object id="94" template="../../../../common/maps/obj/manashards.tx" x="209.123" y="58.295" />
-  <object id="97" template="../../../../common/maps/obj/booster.tx" x="208.716" y="71.4606">
+  <object id="97" template="../../obj/booster.tx" x="208.716" y="71.4606">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["Blue"]}]</property>
    </properties>
   </object>
-  <object id="100" template="../../../../common/maps/obj/treasure.tx" x="194.105" y="57.4273">
+  <object id="100" template="../../obj/treasure.tx" x="194.105" y="57.4273">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;: &quot;randomCard&quot;, &quot;count&quot;: 10 }, {&quot;type&quot;: &quot;item&quot;,&quot;count&quot;: 1,&quot;probability&quot;:0.2,&quot;itemName&quot;: &quot;Dark Armor&quot;}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;randomCard&quot;,&quot;count&quot;:10,&quot;rarity&quot;:[&quot;Uncommon&quot;,&quot;Rare&quot;,&quot;Mythic Rare&quot;]},{&quot;type&quot;:&quot;item&quot;,&quot;count&quot;:1,&quot;probability&quot;:0.2,&quot;itemName&quot;:&quot;Dark Armor&quot;}]" />
    </properties>
   </object>
   <object id="102" template="../../../../common/maps/obj/gate.tx" x="207.807" y="95.793">

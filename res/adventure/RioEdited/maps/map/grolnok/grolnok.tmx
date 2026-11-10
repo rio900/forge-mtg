@@ -40,25 +40,15 @@
  <objectgroup id="4" name="Objects">
   <object id="49" template="../../../../common/maps/obj/gold.tx" x="395.705" y="712.536" />
   <object id="55" template="../../../../common/maps/obj/manashards.tx" x="159.32" y="659.731" />
-  <object id="59" template="../../../../common/maps/obj/booster.tx" x="63.6667" y="29.6663">
+  <object id="59" template="../../obj/booster.tx" x="63.6667" y="29.6663">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="60" template="../../../../common/maps/obj/manashards.tx" x="911.563" y="617.051" />
-  <object id="61" template="../../../../common/maps/obj/treasure.tx" x="877.111" y="137.151">
+  <object id="61" template="../../obj/treasure.tx" x="877.111" y="137.151">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
@@ -86,7 +76,7 @@
   <object id="83" template="../../../../common/maps/obj/waypoint.tx" x="483.509" y="806.873" />
   <object id="84" template="../../../../common/maps/obj/waypoint.tx" x="535" y="742.5" />
   <object id="85" template="../../../../common/maps/obj/waypoint.tx" x="586.5" y="841" />
-  <object id="86" template="../../../../common/maps/obj/booster.tx" x="9.135" y="856.221">
+  <object id="86" template="../../obj/booster.tx" x="9.135" y="856.221">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -97,12 +87,12 @@
     <property name="threatRange" type="int" value="60" />
    </properties>
   </object>
-  <object id="91" template="../../../../common/maps/obj/booster.tx" x="934.664" y="633.21">
+  <object id="91" template="../../obj/booster.tx" x="934.664" y="633.21">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="92" template="../../../../common/maps/obj/booster.tx" x="760.444" y="204.099">
+  <object id="92" template="../../obj/booster.tx" x="760.444" y="204.099">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -117,19 +107,9 @@
     <property name="threatRange" type="int" value="60" />
    </properties>
   </object>
-  <object id="98" template="../../../../common/maps/obj/treasure.tx" x="566.407" y="483.783">
+  <object id="98" template="../../obj/treasure.tx" x="566.407" y="483.783">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
@@ -203,7 +183,7 @@
   <object id="151" template="../../../../common/maps/obj/gold.tx" x="902.5" y="599.5" />
   <object id="152" template="../../../../common/maps/obj/gold.tx" x="849" y="372.5" />
   <object id="153" template="../../../../common/maps/obj/gold.tx" x="919" y="599.5" />
-  <object id="154" template="../../../../common/maps/obj/booster.tx" x="585" y="483">
+  <object id="154" template="../../obj/booster.tx" x="585" y="483">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -235,7 +215,7 @@
   <object id="159" template="../../../../common/maps/obj/door_up.tx" x="847.493" y="236.665" width="45.9814" height="16.6705" rotation="359.74">
    <properties>
     <property name="direction" value="right" />
-    <property name="teleport" value="../common/maps/map/grolnok/grolnok_f1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/grolnok/grolnok_f1.tmx" />
    </properties>
   </object>
   <object id="160" template="../../../../common/maps/obj/enemy.tx" x="223.167" y="718.831" width="16" height="17.6724">
@@ -277,7 +257,7 @@
   </object>
   <object id="170" template="../../../../common/maps/obj/waypoint.tx" x="1023.83" y="889.667" />
   <object id="171" template="../../../../common/maps/obj/waypoint.tx" x="868" y="890" />
-  <object id="172" template="../../../../common/maps/obj/booster.tx" x="569" y="801.5">
+  <object id="172" template="../../obj/booster.tx" x="569" y="801.5">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -328,19 +308,9 @@
     <property name="waypoints" value="64,72,64,81,71,82,137,81" />
    </properties>
   </object>
-  <object id="196" template="../../../../common/maps/obj/treasure.tx" x="39.6667" y="27.3333">
+  <object id="196" template="../../obj/treasure.tx" x="39.6667" y="27.3333">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
@@ -359,36 +329,16 @@
     <property name="threatRange" type="int" value="20" />
    </properties>
   </object>
-  <object id="199" template="../../../../common/maps/obj/treasure.tx" x="8.5" y="881.5">
+  <object id="199" template="../../obj/treasure.tx" x="8.5" y="881.5">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
   <object id="200" template="../../../../common/maps/obj/gold.tx" x="603.5" y="609.5" />
-  <object id="201" template="../../../../common/maps/obj/treasure.tx" x="176.333" y="660.333">
+  <object id="201" template="../../obj/treasure.tx" x="176.333" y="660.333">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
@@ -438,19 +388,9 @@
     <property name="waypoints" value="" />
    </properties>
   </object>
-  <object id="216" template="../../../../common/maps/obj/treasure.tx" x="112.333" y="270.667">
+  <object id="216" template="../../obj/treasure.tx" x="112.333" y="270.667">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
@@ -504,19 +444,9 @@
   <object id="231" template="../../../../common/maps/obj/gold.tx" x="460.5" y="18.5" />
   <object id="232" template="../../../../common/maps/obj/waypoint.tx" x="449" y="64" />
   <object id="233" template="../../../../common/maps/obj/waypoint.tx" x="449.5" y="17" />
-  <object id="235" template="../../../../common/maps/obj/treasure.tx" x="367.667" y="16">
+  <object id="235" template="../../obj/treasure.tx" x="367.667" y="16">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>

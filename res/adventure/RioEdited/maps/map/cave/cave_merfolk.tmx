@@ -36,7 +36,7 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="390.492" y="184.777" />
+  <object id="51" template="../../obj/treasure.tx" x="390.492" y="184.777" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="316.265" y="171.872">
    <properties>
     <property name="enemy" value="Merfolk warrior" />
@@ -56,7 +56,7 @@
    </properties>
   </object>
   <object id="56" template="../../../../common/maps/obj/manashards.tx" x="371.543" y="123.278" />
-  <object id="58" template="../../../../common/maps/obj/booster.tx" x="40.9647" y="107.398">
+  <object id="58" template="../../obj/booster.tx" x="40.9647" y="107.398">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

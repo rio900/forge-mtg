@@ -41,13 +41,13 @@
   </object>
   <object id="70" template="../../../../common/maps/obj/entry_down.tx" x="272.342" y="211.743">
    <properties>
-    <property name="teleport" value="../common/maps/map/magetower/magetower_8_illusion.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/magetower/magetower_8_illusion.tmx" />
     <property name="teleportObjectId" value="104" />
    </properties>
   </object>
-  <object id="71" template="../../../../common/maps/obj/treasure.tx" x="210.851" y="46.2797">
+  <object id="71" template="../../obj/treasure.tx" x="210.851" y="46.2797">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;: &quot;randomCard&quot;, &quot;count&quot;: 10 }, {&quot;type&quot;: &quot;item&quot;,&quot;count&quot;: 1,&quot;probability&quot;:0.2,&quot;itemName&quot;: &quot;Dark Armor&quot;}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;randomCard&quot;,&quot;count&quot;:10,&quot;rarity&quot;:[&quot;Uncommon&quot;,&quot;Rare&quot;,&quot;Mythic Rare&quot;]},{&quot;type&quot;:&quot;item&quot;,&quot;count&quot;:1,&quot;probability&quot;:0.2,&quot;itemName&quot;:&quot;Dark Armor&quot;}]" />
    </properties>
   </object>
   <object id="72" template="../../../../common/maps/obj/enemy.tx" x="166.965" y="95.3624">
@@ -87,24 +87,24 @@
   <object id="88" template="../../../../common/maps/obj/gold.tx" x="317.678" y="109.221" />
   <object id="89" template="../../../../common/maps/obj/gold.tx" x="311.904" y="94.785" />
   <object id="90" template="../../../../common/maps/obj/gold.tx" x="298.045" y="108.066" />
-  <object id="91" template="../../../../common/maps/obj/treasure.tx" x="303.242" y="143.534">
+  <object id="91" template="../../obj/treasure.tx" x="303.242" y="143.534">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;: &quot;randomCard&quot;, &quot;count&quot;: 10 }, {&quot;type&quot;: &quot;item&quot;,&quot;count&quot;: 1,&quot;probability&quot;:0.2,&quot;itemName&quot;: &quot;Dark Armor&quot;}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;randomCard&quot;,&quot;count&quot;:10,&quot;rarity&quot;:[&quot;Uncommon&quot;,&quot;Rare&quot;,&quot;Mythic Rare&quot;]},{&quot;type&quot;:&quot;item&quot;,&quot;count&quot;:1,&quot;probability&quot;:0.2,&quot;itemName&quot;:&quot;Dark Armor&quot;}]" />
    </properties>
   </object>
-  <object id="92" template="../../../../common/maps/obj/treasure.tx" x="111.775" y="144.778">
+  <object id="92" template="../../obj/treasure.tx" x="111.775" y="144.778">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;: &quot;randomCard&quot;, &quot;count&quot;: 10 }, {&quot;type&quot;: &quot;item&quot;,&quot;count&quot;: 1,&quot;probability&quot;:0.2,&quot;itemName&quot;: &quot;Dark Armor&quot;}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;randomCard&quot;,&quot;count&quot;:10,&quot;rarity&quot;:[&quot;Uncommon&quot;,&quot;Rare&quot;,&quot;Mythic Rare&quot;]},{&quot;type&quot;:&quot;item&quot;,&quot;count&quot;:1,&quot;probability&quot;:0.2,&quot;itemName&quot;:&quot;Dark Armor&quot;}]" />
    </properties>
   </object>
   <object id="94" template="../../../../common/maps/obj/manashards.tx" x="152.667" y="45" />
   <object id="96" template="../../../../common/maps/obj/manashards.tx" x="180.667" y="44.3333" />
-  <object id="97" template="../../../../common/maps/obj/booster.tx" x="99" y="170.333">
+  <object id="97" template="../../obj/booster.tx" x="99" y="170.333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["Blue"]}]</property>
    </properties>
   </object>
-  <object id="98" template="../../../../common/maps/obj/booster.tx" x="254.667" y="44.3333">
+  <object id="98" template="../../obj/booster.tx" x="254.667" y="44.3333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["Blue"]}]</property>
    </properties>

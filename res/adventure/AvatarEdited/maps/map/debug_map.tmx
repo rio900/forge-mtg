@@ -1,0 +1,485 @@
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="111">
+ <editorsettings>
+  <export format="tmx" />
+ </editorsettings>
+ <properties>
+  <property name="dungeonEffect">{
+  "startBattleWithCard": [ "Recycle" ],
+  "opponent": {
+    "startBattleWithCard": [ "Recycle" ],
+  }
+}</property>
+ </properties>
+ <tileset firstgid="1" source="../../../common/maps/tileset/main.tsx" />
+ <tileset firstgid="10113" source="../../../common/maps/tileset/buildings.tsx" />
+ <tileset firstgid="11905" source="../../../common/maps/tileset/buildings-nocollide.tsx" />
+ <layer id="1" name="Background" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgkBCiL4aBUXtH7R21d3ja+0AUFdPC3mmcEDwS7IXZaciFaTe5WAMN47MXm5+Hq71TBtC/Axm/IH4aJwIjm6UggImR5cs4ERjEn8CO3150TE17QRhXPqKVvdgwOeUzIXuJwaP2kmY/OfpG7R21dzjaCwBbaKfR
+  </data>
+ </layer>
+ <layer id="6" name="BGBlend" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwWABFzgo0/+AAv1t3JTZPQoIAx4uyvTLUKh/FIyCUTAK0AEAlJ4Cjg==
+  </data>
+ </layer>
+ <layer id="2" name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztljtLA0EQgAcMeeHdRRFNjCB26cUH0Sr/QCU/Q4Om8pFCxfwD0SBaWaaOldpaGgQRLfSnOMPu4rrOXm6Ti1UGPvaRvf1uluxw+RxAfgRLEekwzA7ZW6B28i8zI2+sNAKAA+QwEL59OT4Khus18x52nv/pLcrWvDM0dye9FNy9GuRuFWRrBjfHhctZrPgAy76793YMYKMEsFkSfRcvOV+QrnQXtDNTYY5VVBIA2+jcKYm+8k4gbUnO4l3y+fPaSvH9qNFJCjxHb1wR5n3K4H8V320R+1MR/z+2qOAegbaHzdvyAC6Qc+TSE97ntKCbFs8eY106YTgNxO+fuO5LQt46zu8iNWQvpKa1pJP6er61jGjnLWewIOcbmd/50j6Usy1Xjri89R656vdyEO873qOPxI83CmaMZwVeNpq3iOvmJP14Vb0yo5dXD1Wv1tG/5vAOcXnL6FwN8UaJe1z3gDTlvTkLxPjReL6aEl7K9Q15DcnZJVTeXJ62sOUcp7fK1PGws9ZR31I6YV5zLX1zlX13L8d0kvfSPLf+BmvfleTa699LNA0vjQfZzwXd2+8e3zU/nhQ=
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="30" height="30">
+  <properties>
+   <property name="spriteLayer" type="bool" value="true" />
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4oCAAweh8ZDFyzECmiVFDin2EzMBnJjY1pNpNrF8Gyr+Ewp3S+EW3Axt/FFAXkJpudgDV7RRA0NgAsjw+dfQGA5m2yMkfo2AUUBu08TAwtPKQrs+MCnar8FLBEBIByK8dZPjXlPpOGQWjYBSMggEDAHPWFBI=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Objects">
+  <object id="47" template="../../../common/maps/obj/gold.tx" x="48" y="352" />
+  <object id="50" template="../../../common/maps/obj/enemy.tx" x="128" y="192" width="64" height="64">
+   <properties>
+    <property name="effect">{
+ "lifeModifier": -25,
+ "opponent":{
+  "startBattleWithCard": [ "c_0_1_eldrazi_spawn_sac", "c_0_1_eldrazi_spawn_sac", "c_0_1_eldrazi_spawn_sac", "c_0_1_eldrazi_spawn_sac" ]
+ }
+}</property>
+    <property name="enemy" value="Emrakul" />
+    <property name="name" value="Emrakul, the promised rest" />
+   </properties>
+  </object>
+  <object id="51" template="../../../common/maps/obj/entry_up.tx" x="208" y="480" width="48" height="16">
+   <properties>
+    <property name="teleport" value="" />
+   </properties>
+  </object>
+  <object id="52" template="../../../common/maps/obj/gate.tx" x="224" y="384">
+   <properties>
+    <property name="dialog">[{
+  "text":"I am a big gate. Greetings.",
+  "loctext": "adv.debug_map.52.d.n0.text",
+  "options":[ { "name":"Okay...", "locname": "adv.debug_map.52.d.n1.name" } ],
+  "action": [ { "setMapFlag": {"key": "gate", "val": 1} } ]
+}]</property>
+   </properties>
+  </object>
+  <object id="54" template="../../../common/maps/obj/treasure.tx" x="336" y="176">
+   <properties>
+    <property name="reward">[
+  {
+    "type": "life",
+    "count": 3
+  }
+]
+</property>
+    <property name="spawn.Easy" type="bool" value="false" />
+    <property name="spawn.Hard" type="bool" value="false" />
+    <property name="spawn.Normal" type="bool" value="false" />
+    <property name="sprite" value="sprites/3life.atlas" />
+   </properties>
+  </object>
+  <object id="69" template="../../../common/maps/obj/treasure.tx" x="64" y="336" />
+  <object id="74" template="../../../common/maps/obj/treasure.tx" x="240" y="64" />
+  <object id="70" template="../obj/booster.tx" x="48" y="336" />
+  <object id="72" template="../obj/booster.tx" x="208" y="64" />
+  <object id="71" template="../../../common/maps/obj/gold.tx" x="64" y="352" />
+  <object id="79" template="../../../common/maps/obj/gate.tx" x="144" y="208" width="32" height="16" visible="1">
+   <properties>
+    <property name="dialog">[{
+ "text":"Don't mind me, just chilling.",
+ "loctext": "adv.debug_map.69.d.n0.text",
+ "options":[ { "name":"Sure.", "locname": "adv.debug_map.69.d.n1.name" } ]
+}]</property>
+   </properties>
+  </object>
+  <object id="80" template="../../../common/maps/obj/enemy.tx" x="112" y="304">
+   <properties>
+    <property name="defeatDialog">[
+  {
+    "text":"Impressive...",
+    "loctext":"adv.debug_map.80.x.n0.text",
+    "options":[ { "name":"Hey why are you still standing...?", "locname": "adv.debug_map.80.x.n1.name" } ]
+  }
+]</property>
+    <property name="dialog">[
+  {
+    "text":"I am an elf. I do elf things like hugging trees and being pretty.",
+    "loctext": "adv.debug_map.80.d.n0.text",
+    "options":[
+      { "name":"OK", "locname": "adv.debug_map.80.d.n1.name" },
+      {
+        "name":"Fight me, elf!",
+        "locname": "adv.debug_map.80.d.n3.name",
+        "text": "Gladly.",
+        "loctext": "adv.debug_map.80.d.n2.text",
+        "options": [
+          { "name": "Hey aren't you a bit swole for an elf...?", "locname": "adv.debug_map.80.d.n4.name", "action": [ { "battleWithActorID": -1 } ] }
+        ]
+      },
+      {
+        "name": "I want to be eco-friendly too.",
+        "locname": "adv.debug_map.80.d.n6.name",
+        "text": "Listen to the forest, friend.\nYour color identity is now green!",
+        "loctext": "adv.debug_map.80.d.n5.text",
+        "condition": [ { "colorIdentity": "G", "not": true } ],
+        "options": [ { "name": "Awesome.", "locname": "adv.debug_map.80.d.n7.name", "action": [ { "setColorIdentity": "G" } ]} ]
+      },
+      {
+        "name":"I wanna fight Emrakul over there!",
+        "locname": "adv.debug_map.80.d.n9.name",
+        "text": "Really? Oh well... your funeral.\nHEY EMMY! THIS CHUMP WANTS TO DANCE!",
+        "loctext": "adv.debug_map.80.d.n8.text",
+        "condition": [ { "actorID": 50 } ],
+        "options": [ { "name": "WAIT IT WAS A JOKE!!!", "locname": "adv.debug_map.80.d.n10.name", "action": [ { "battleWithActorID": 50 } ]} ]
+      },
+      {
+        "name":"Where did Emrakul go?",
+        "locname": "adv.debug_map.80.d.n12.name",
+        "text": "She left. Crying. You monster.",
+        "loctext": "adv.debug_map.80.d.n11.text",
+        "condition": [ { "actorID": 50, "not": true } ],
+        "options": [ { "name": "Sorry...", "locname": "adv.debug_map.80.d.n13.name" } ]
+      },
+      {
+        "name":"That's cool my green dude.",
+        "locname": "adv.debug_map.80.d.n15.name",
+        "text": "You get it! Take this item.",
+        "loctext": "adv.debug_map.80.d.n14.text",
+        "condition": [ { "item": "Treasure", "not": true }, { "colorIdentity": "G" } ],
+        "action": [ { "addItem": "Treasure" } ],
+        "options": [ { "name": "Thanks bro.", "locname": "adv.debug_map.80.d.n16.name" } ]
+      },
+      {
+        "name":"Thanks for the blessing.",
+        "locname": "adv.debug_map.80.d.n18.name",
+        "text": "You are welcome.",
+        "loctext": "adv.debug_map.80.d.n17.text",
+        "condition": [ { "hasBlessing": "Debug Elf" } ],
+        "options": [ { "name": "Thumbs up emoji", "locname": "adv.debug_map.80.d.n19.name" } ]
+      },
+      {
+        "name":"Got any fancy elven blessing?",
+        "locname": "adv.debug_map.80.d.n21.name",
+        "text": "If you give me a Treasure, I will give you the blessing of the Debug Elf.\nWhich is a Llanowar Elves and 2 extra life in your next battle. Sounds good?",
+        "loctext": "adv.debug_map.80.d.n20.text",
+        "condition": [ { "item": "Treasure" }, { "hasBlessing":  "Debug Elf", "not": true } ],
+        "options": [
+          { "name": "But I love my Treasure! I humbly refuse.", "locname": "adv.debug_map.80.d.n22.name"},
+          {
+            "name": "I'll take it",
+            "locname": "adv.debug_map.80.d.n23.name",
+            "action": [
+              { "removeItem": "Treasure", "giveBlessing": { "name": "Debug Elf" ,"goldModifier":0.2, "lifeModifier": 2, "startBattleWithCard": [ "Llanowar Elves" ] } }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"Can you open that hidden wall?",
+        "locname": "adv.debug_map.80.d.n25.name",
+        "text": "Since you asked nicely, I shall.",
+        "loctext": "adv.debug_map.80.d.n24.text",
+        "condition": [ { "actorID": 83 } ],
+        "options": [ { "name": "Thanks bro.", "locname": "adv.debug_map.80.d.n26.name", "action": [ { "deleteMapObject": 83 } ]} ]
+      },
+      {
+        "name": "Got a quest?",
+        "locname": "adv.debug_map.80.d.n28.name",
+        "text": "Ah, perhaps you can help me. Can you ask the Debug Demon about his favorite color?",
+        "loctext": "adv.debug_map.80.d.n27.text",
+        "condition": [ { "checkQuestFlag":  "128", "not": true} ],
+        "options": [
+          { "name": "That's weird, but sure.", "locname": "adv.debug_map.80.d.n29.name", "action": [ { "setQuestFlag":  {"key":"128", "val": 1} } ] },
+          { "name": "That guy scares me, I'd rather not.", "locname": "adv.debug_map.80.d.n30.name" }
+        ]
+      },
+      {
+        "name": "About that quest...",
+        "locname": "adv.debug_map.80.d.n32.name",
+        "text": "Please let me know what the Debug Demon's answer is.",
+        "loctext": "adv.debug_map.80.d.n31.text",
+        "condition": [ { "getQuestFlag":  { "key": "128", "op":"&lt;", "val": 3 } } ],
+        "options": [
+          { "name": "Sure", "locname": "adv.debug_map.80.d.n33.name" }
+        ]
+      },
+      {
+        "name": "Got it, bro.",
+        "locname": "adv.debug_map.80.d.n35.name",
+        "text": "Ah. I see. Thank you friend, have this gold for your inconvenience.",
+        "loctext": "adv.debug_map.80.d.n34.text",
+        "condition": [ { "getQuestFlag":  { "key": "128", "op":"=", "val": 3 } } ],
+        "options": [
+          { "name": "Thanks", "locname": "adv.debug_map.80.d.n36.name", "action": [ { "setQuestFlag": {"key":"128", "val": 4}, "addGold": 250 } ] }
+        ]
+      }
+    ]
+  }
+]</property>
+    <property name="effect">{
+ "lifeModifier": 190,
+ "startBattleWithCard": [ "Llanowar Elves", "Llanowar Elves", "Forest", "Forest" ]
+}</property>
+    <property name="enemy" value="Elf warrior" />
+    <property name="name" value="Debug Elf" />
+   </properties>
+  </object>
+  <object id="81" template="../../../common/maps/obj/enemy.tx" x="64" y="224">
+   <properties>
+    <property name="dialog">[
+  {
+    "text": "You...you hurt Grog!\nYou...you filthy swine! I will stop at nothing until I see you defeated!\nGods...anyone! Grant me strength! Grant me REVENGE!!!!",
+    "loctext": "adv.debug_map.81.d.n0.text",
+    "condition": [
+      {
+        "actorID": 82,
+        "not": true
+      }
+    ],
+    "options": [
+      {
+        "name": "Uh oh.",
+        "locname": "adv.debug_map.81.d.n1.name",
+        "action": [
+          {
+            "setEffect": {
+              "lifeModifier": 99,
+              "startBattleWithCard": [
+                "Avacyn, Angel of Hope",
+                "Urabrask the Hidden",
+                "Elesh Norn, Grand Cenobite",
+                "Emrakul, the Aeons Torn"
+              ]
+            }, "battleWithActorID": -1
+          }
+        ]
+      }
+    ]
+  }
+]</property>
+    <property name="enemy" value="Goblin" />
+   </properties>
+  </object>
+  <object id="82" template="../../../common/maps/obj/enemy.tx" gid="2147495067" x="48" y="224">
+   <properties>
+    <property name="dialog">[
+  {
+    "text":"...",
+    "loctext": "adv.debug_map.82.d.n0.text",
+    "condition":[ { "getQuestFlag":  { "key": "128", "op":"&lt;", "val": 3 } } ],
+    "options":[
+      { "name":"???", "locname": "adv.debug_map.82.d.n1.name" }
+    ]
+  }
+]</property>
+    <property name="enemy" value="Goblin" />
+   </properties>
+  </object>
+  <object id="83" template="../../../common/maps/obj/gate.tx" type="dummy" gid="3651" x="80" y="336" width="16" height="16" />
+  <object id="84" template="../../../common/maps/obj/enemy.tx" x="336" y="304">
+   <properties>
+    <property name="dialog">[
+  {
+    "text":"I have some things to offer for that life you have...",
+    "loctext": "adv.debug_map.83.d.n0.text",
+    "options":[
+      { "name":"You are suspicious and have two shadows, I'm out.", "locname": "adv.debug_map.83.d.n1.name" },
+      {
+        "name":"I'll vanquish you, demon!",
+        "locname": "adv.debug_map.83.d.n3.name",
+        "text": "Oh look we got a tough guy over here!",
+        "loctext": "adv.debug_map.83.d.n2.text",
+        "options": [ { "name": "Have at thee!", "locname": "adv.debug_map.83.d.n4.name", "action": [ { "battleWithActorID": -1 } ]} ]
+      },
+      {
+        "name": "I dig your edge.",
+        "locname": "adv.debug_map.83.d.n6.name",
+        "text": "You can be dark and edgy like me. Maybe for some of your life force...",
+        "loctext": "adv.debug_map.83.d.n5.text",
+        "condition": [ { "colorIdentity": "B", "not": true }, { "hasLife":  2 } ],
+        "options": [
+          { "name": "Not my life force, I'll die without it!", "locname": "adv.debug_map.83.d.n7.name" },
+          { "name": "I'm doing nothing better with it.", "locname": "adv.debug_map.83.d.n8.name", "action": [ { "setColorIdentity": "B", "addLife": -2 } ] }
+        ]
+      },
+      {
+        "name": "I dig your edge.",
+        "locname": "adv.debug_map.83.d.n10.name",
+        "text": "You don't have enough life force...come back with more to offer.\nEat healthy, read a book, get that soul juicy.",
+        "loctext": "adv.debug_map.83.d.n9.text",
+        "condition": [ { "colorIdentity": "B", "not": true }, { "hasLife":  2, "not": true } ],
+        "options": [ { "name": "Aw man...", "locname": "adv.debug_map.83.d.n11.name" } ]
+      },
+      {
+        "name": "Any cool demon deals?",
+        "locname": "adv.debug_map.83.d.n13.name",
+        "text": "I can offer you this Treasure for the fair price of 200 gold.",
+        "loctext": "adv.debug_map.83.d.n12.text",
+        "condition": [ { "colorIdentity": "B" }, { "hasGold":  200 } ],
+        "options": [
+          { "name": "This gem has a lot of edge, just like me. Deal!", "locname": "adv.debug_map.83.d.n14.name" , "action": [ { "addGold": -200, "addItem": "Treasure" } ] },
+          { "name": "I'll think about it.", "locname": "adv.debug_map.83.d.n15.name" }
+        ]
+      },
+      {
+        "name":"Got any fancy demon blessing?",
+        "locname": "adv.debug_map.83.d.n17.name",
+        "text": "Give me that Treasure of yours...\n(+1 health, Manasight, move speed 120%, Lord of the Pit starts in play)",
+        "loctext": "adv.debug_map.83.d.n16.text",
+        "condition": [ {"colorIdentity": "B"}, { "item": "Treasure" }, { "hasBlessing":  "Debug Demon", "not": true } ],
+        "options": [
+          { "name": "That's shady.", "locname": "adv.debug_map.83.d.n18.name"},
+          {
+            "name": "What can possibly go wrong?",
+            "locname": "adv.debug_map.83.d.n19.name",
+            "action": [
+              { "removeItem": "Treasure", "giveBlessing": { "name": "Debug Demon" , "lifeModifier": 1, "colorView": true, "moveSpeed": 2, "startBattleWithCard": [ "Lord of the Pit" ] } }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hey what's your favorite color?",
+        "locname": "adv.debug_map.83.d.n21.name",
+        "text": "Pink. It's the color of my favorite blood milkshakes.\nVery dark and evil.",
+        "loctext": "adv.debug_map.83.d.n20.text",
+        "condition": [ {"getQuestFlag":  { "key":"128", "op":"=", "val":1 } } ],
+        "options": [
+          { "name":  "Thank you Satan.", "locname": "adv.debug_map.83.d.n22.name", "action":  [ { "setQuestFlag":  { "key":"128", "val":3 } } ] }
+        ]
+      }
+    ]
+  }
+]</property>
+    <property name="enemy" value="Demon" />
+    <property name="name" value="Debug Demon" />
+   </properties>
+  </object>
+  <object id="85" template="../obj/scroll.tx" x="224" y="96">
+   <properties>
+    <property name="reward">[{"cardName":"White Lotus Tile|TLA","type":"card","count":1}]</property>
+    <property name="spawn.Easy" type="bool" value="false" />
+    <property name="spawn.Hard" type="bool" value="false" />
+    <property name="spawn.Normal" type="bool" value="false" />
+   </properties>
+  </object>
+  <object id="86" template="../../../common/maps/obj/treasure.tx" x="336" y="368" visible="0">
+   <properties>
+    <property name="reward">[{
+ "type": "randomCard",
+ "colors": [ "colorID" ],
+ "count": 8
+}]
+</property>
+   </properties>
+  </object>
+  <object id="87" template="../../../common/maps/obj/enemy.tx" x="48" y="384">
+   <properties>
+    <property name="enemy" value="Geist" />
+    <property name="pursueRange" type="int" value="80" />
+    <property name="spawn.Hard" type="bool" value="true" />
+    <property name="spawn.Normal" type="bool" value="true" />
+    <property name="threatRange" type="int" value="40" />
+   </properties>
+  </object>
+  <object id="88" template="../../../common/maps/obj/enemy.tx" x="48" y="400">
+   <properties>
+    <property name="enemy" value="Geist" />
+    <property name="spawn.Easy" type="bool" value="false" />
+    <property name="spawn.Hard" type="bool" value="true" />
+   </properties>
+  </object>
+  <object id="89" template="../../../common/maps/obj/enemy.tx" x="48" y="416">
+   <properties>
+    <property name="enemy" value="Geist" />
+    <property name="spawn.Easy" type="bool" value="false" />
+    <property name="spawn.Normal" type="bool" value="false" />
+   </properties>
+  </object>
+  <object id="93" template="../../../common/maps/obj/enemy.tx" x="304" y="400">
+   <properties>
+    <property name="enemy" value="Geist" />
+    <property name="reward" value="" />
+    <property name="spawn.Easy" type="bool" value="true" />
+    <property name="spawn.Normal" type="bool" value="true" />
+   </properties>
+  </object>
+  <object id="90" template="../../../common/maps/obj/treasure.tx" x="32" y="400">
+   <properties>
+    <property name="spawn.Hard" type="bool" value="false" />
+   </properties>
+  </object>
+  <object id="92" template="../../../common/maps/obj/treasure.tx" x="32" y="416">
+   <properties>
+    <property name="spawn.Hard" type="bool" value="false" />
+    <property name="spawn.Normal" type="bool" value="false" />
+   </properties>
+  </object>
+  <object id="91" template="../../../common/maps/obj/treasure.tx" x="32" y="384" />
+  <object id="94" template="../../../common/maps/obj/enemy.tx" x="400" y="240">
+   <properties>
+    <property name="dialog">[
+  {
+    "text":"*glub*\n(According to your Fish to English dictionary, he's greeting you)",
+    "loctext": "adv.debug_map.91.d.n0.text",
+    "options":[
+      { "name":"Glub.", "locname": "adv.debug_map.91.d.n1.name" },
+      {
+        "name": "I like your fishiness. I would like to be blue and smell funny too.",
+        "locname": "adv.debug_map.91.d.n3.name",
+        "text": "*glub*\n(Your color identify is now blue)",
+        "loctext": "adv.debug_map.91.d.n2.text",
+        "condition": [ { "colorIdentity": "U", "not": true } ],
+        "options": [ { "name": "It's working. Man, I can go eat some krill right now.", "locname": "adv.debug_map.91.d.n4.name", "action": [ { "setColorIdentity": "U" } ]} ]
+      },{
+        "name": "I talked to the gate. Somehow I think you will find this relevant.",
+        "locname": "adv.debug_map.91.d.n6.name",
+        "text": "*glub, glub*\n (Fascinating.)",
+        "loctext": "adv.debug_map.91.d.n5.text",
+        "condition": [ {"checkMapFlag": "gate" } ],
+        "options": [
+          { "name": "I know, right?", "locname": "adv.debug_map.91.d.n7.name" }
+        ]
+      }
+    ]
+  }
+]</property>
+    <property name="enemy" value="Merfolk Soldier" />
+   </properties>
+  </object>
+  <object id="95" template="../../../common/maps/obj/enemy.tx" x="288" y="224">
+   <properties>
+    <property name="enemy" value="Doppelganger" />
+   </properties>
+  </object>
+  <object id="96" template="../../../common/maps/obj/enemy.tx" x="304" y="224">
+   <properties>
+    <property name="enemy" value="Doppelganger" />
+   </properties>
+  </object>
+  <object id="97" template="../../../common/maps/obj/inn.tx" type="spellsmith" gid="10499" x="224" y="368" width="16" height="16" />
+  <object id="98" template="../../../common/maps/obj/portal.tx" type="portal" x="176" y="272">
+   <properties>
+    <property name="portalState" value="active" />
+    <property name="sprite" value="sprites/portal.atlas" />
+    <property name="teleport" value="../AvatarEdited/maps/map/debug_map.tmx" />
+    <property name="teleportObjectId" value="99" />
+   </properties>
+  </object>
+  <object id="99" template="../../../common/maps/obj/portal.tx" type="portal" x="272" y="272">
+   <properties>
+    <property name="portalState" value="active" />
+    <property name="sprite" value="sprites/portal.atlas" />
+    <property name="teleport" value="../AvatarEdited/maps/map/debug_map.tmx" />
+    <property name="teleportObjectId" value="98" />
+   </properties>
+  </object>
+  <object id="101" template="../../../common/maps/obj/enemy.tx" x="128" y="400">
+   <properties>
+    <property name="enemy" value="Plague Rat Swarm" />
+   </properties>
+  </object>
+ </objectgroup>
+</map>

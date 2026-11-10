@@ -25,12 +25,12 @@
  <objectgroup id="4" name="Objects">
   <object id="66" template="../../../../common/maps/obj/door_up.tx" x="35.2402" y="285.749">
    <properties>
-    <property name="teleport" value="../common/maps/map/vampirecastle/vampirecastle_4B.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/vampirecastle/vampirecastle_4B.tmx" />
     <property name="teleportObjectId" value="66" />
    </properties>
   </object>
-  <object id="75" template="../../../../common/maps/obj/treasure.tx" x="784.167" y="63.75" />
-  <object id="76" template="../../../../common/maps/obj/treasure.tx" x="704.5" y="64.6667" />
+  <object id="75" template="../../obj/treasure.tx" x="784.167" y="63.75" />
+  <object id="76" template="../../obj/treasure.tx" x="704.5" y="64.6667" />
   <object id="77" template="../../../../common/maps/obj/gold.tx" x="744.5" y="62.9167" />
   <object id="78" template="../../../../common/maps/obj/enemy.tx" x="374.417" y="306.667">
    <properties>
@@ -66,12 +66,12 @@
     <property name="enemy" value="Vampire Lord" />
    </properties>
   </object>
-  <object id="81" template="../../../../common/maps/obj/booster.tx" x="786.91" y="92.8676">
+  <object id="81" template="../../obj/booster.tx" x="786.91" y="92.8676">
    <properties>
     <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"},{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"}]</property>
    </properties>
   </object>
-  <object id="82" template="../../../../common/maps/obj/booster.tx" x="709.178" y="87.3152">
+  <object id="82" template="../../obj/booster.tx" x="709.178" y="87.3152">
    <properties>
     <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"},{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"}]</property>
    </properties>

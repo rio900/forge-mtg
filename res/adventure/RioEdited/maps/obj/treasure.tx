@@ -1,0 +1,13 @@
+<template>
+ <tileset firstgid="1" source="../../../common/maps/tileset/buildings.tsx" />
+ <object name="Treasure" type="reward" gid="504" width="16" height="16">
+  <properties>
+   <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
+   <property name="spawn.Easy" type="bool" value="true" />
+   <property name="spawn.Hard" type="bool" value="true" />
+   <property name="spawn.Normal" type="bool" value="true" />
+   <property name="spawn.Insane" type="bool" value="true" />
+   <property name="sprite" value="sprites/treasure.atlas" />
+  </properties>
+ </object>
+</template>

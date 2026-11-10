@@ -46,7 +46,7 @@
     <property name="waypoints" value="82,80,81,79" />
    </properties>
   </object>
-  <object id="65" template="../../../../common/maps/obj/treasure.tx" x="80.8693" y="464.257" />
+  <object id="65" template="../../obj/treasure.tx" x="80.8693" y="464.257" />
   <object id="66" template="../../../../common/maps/obj/gold.tx" x="368.54" y="153.34" />
   <object id="67" template="../../../../common/maps/obj/enemy.tx" x="397.753" y="151.232">
    <properties>
@@ -84,8 +84,8 @@
   </object>
   <object id="74" template="../../../../common/maps/obj/gold.tx" x="129.667" y="592" />
   <object id="75" template="../../../../common/maps/obj/gold.tx" x="110" y="461.667" />
-  <object id="76" template="../../../../common/maps/obj/treasure.tx" x="161.334" y="324" />
-  <object id="77" template="../../../../common/maps/obj/booster.tx" x="445.667" y="431.667">
+  <object id="76" template="../../obj/treasure.tx" x="161.334" y="324" />
+  <object id="77" template="../../obj/booster.tx" x="445.667" y="431.667">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -177,7 +177,7 @@
   <object id="118" template="../../../../common/maps/obj/entry_up.tx" x="307.667" y="191" width="58.6667" height="25.3333">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/djinnpalace/djinnpalace_1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/djinnpalace/djinnpalace_1.tmx" />
     <property name="teleportObjectId" value="38" />
    </properties>
   </object>

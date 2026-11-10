@@ -74,7 +74,7 @@
     <property name="waypoints" value="69,73,70,68,74,72,74,68,70,73" />
    </properties>
   </object>
-  <object id="67" template="../../../../common/maps/obj/booster.tx" x="262" y="113.5">
+  <object id="67" template="../../obj/booster.tx" x="262" y="113.5">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -87,9 +87,9 @@
   <object id="73" template="../../../../common/maps/obj/waypoint.tx" x="318" y="184.5" />
   <object id="74" template="../../../../common/maps/obj/waypoint.tx" x="152.5" y="195.5" />
   <object id="75" template="../../../../common/maps/obj/manashards.tx" x="258" y="45" />
-  <object id="76" template="../../../../common/maps/obj/treasure.tx" x="161.5" y="48">
+  <object id="76" template="../../obj/treasure.tx" x="161.5" y="48">
    <properties>
-    <property name="reward">[{"type":"randomCard","colors":["Black"],"count":5},{"type":"item","count":1,"probability":0.2,"itemName":"Spell Book"},{"type":"card","probability":1,"count":1,"cardName":"Hand of Vecna|AFR"}]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Black"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Spell Book"},{"type":"card","probability":1,"count":1,"cardName":"Hand of Vecna|AFR","editions":["AFR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
     <property name="spawn.Normal" type="bool" value="true" />
    </properties>
   </object>

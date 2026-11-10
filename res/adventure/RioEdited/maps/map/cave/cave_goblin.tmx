@@ -34,7 +34,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="213.75" y="27.75" />
+  <object id="51" template="../../obj/treasure.tx" x="213.75" y="27.75" />
   <object id="56" template="../../../../common/maps/obj/enemy.tx" x="114.243" y="85.0347">
    <properties>
     <property name="enemy" value="Goblin" />
@@ -84,7 +84,7 @@
    </properties>
   </object>
   <object id="65" template="../../../../common/maps/obj/manashards.tx" x="106.339" y="44.4055" />
-  <object id="66" template="../../../../common/maps/obj/booster.tx" x="238.412" y="66.1088">
+  <object id="66" template="../../obj/booster.tx" x="238.412" y="66.1088">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

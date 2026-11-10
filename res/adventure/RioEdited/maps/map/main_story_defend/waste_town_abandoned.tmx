@@ -35,77 +35,32 @@
  </layer>
  <objectgroup id="4" name="Objects">
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="364" y="624" width="56" height="16" />
-  <object id="55" template="../../../../common/maps/obj/treasure.tx" x="432" y="304" visible="0">
+  <object id="55" template="../../obj/treasure.tx" x="432" y="304" visible="0">
    <properties>
-    <property name="reward">[{
-	  "count":4,
-	  "type":"Union",
-	  "cardUnion": [
-		{
-		  "count":1,
-		  "subTypes": ["Zombie"]
-		},
-		{
-		  "count":1,
-		  "cardText": "Zombie"
-		}
-	  ]
-	}]</property>
+    <property name="reward">[{"count":4,"type":"Union","cardUnion":[{"count":1,"subTypes":["Zombie"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardText":"Zombie","rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="512" y="368" visible="0">
+  <object id="51" template="../../obj/treasure.tx" x="512" y="368" visible="0">
    <properties>
-    <property name="reward">[{
-      "count":4,
-      "subTypes": ["Wall"]
-    }]</property>
+    <property name="reward">[{"count":4,"subTypes":["Wall"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="53" template="../../../../common/maps/obj/treasure.tx" x="464" y="432" visible="0">
+  <object id="53" template="../../obj/treasure.tx" x="464" y="432" visible="0">
    <properties>
-    <property name="reward">[{
-	  "count":4,
-	  "type":"Union",
-	  "cardUnion": [
-		{
-		  "count":1,
-		  "subTypes": ["Spirit"]
-		},
-		{
-		  "count":1,
-		  "cardText": "Spirit"
-		}
-	  ]
-	}]</property>
+    <property name="reward">[{"count":4,"type":"Union","cardUnion":[{"count":1,"subTypes":["Spirit"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardText":"Spirit","rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
    </properties>
   </object>
-  <object id="64" template="../../../../common/maps/obj/treasure.tx" x="256" y="373" visible="0">
+  <object id="64" template="../../obj/treasure.tx" x="256" y="373" visible="0">
    <properties>
-    <property name="reward">[{
-      "count":4,
-      "colorType": "Colorless"
-    }]</property>
+    <property name="reward">[{"count":4,"colorType":"Colorless","rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="65" template="../../../../common/maps/obj/treasure.tx" x="289.5" y="227.25" visible="0">
+  <object id="65" template="../../obj/treasure.tx" x="289.5" y="227.25" visible="0">
    <properties>
-    <property name="reward">[{
-	  "count":4,
-	  "type":"Union",
-	  "cardUnion": [
-		{
-		  "count":1,
-		  "subTypes": ["Demon"]
-		},
-		{
-		  "count":1,
-		  "cardText": "Demon"
-		}
-	  ]
-	}]</property>
+    <property name="reward">[{"count":4,"type":"Union","cardUnion":[{"count":1,"subTypes":["Demon"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardText":"Demon","rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
    </properties>
   </object>
-  <object id="66" template="../../../../common/maps/obj/treasure.tx" x="96" y="144" />
+  <object id="66" template="../../obj/treasure.tx" x="96" y="144" />
   <object id="67" template="../../../../common/maps/obj/enemy.tx" x="495.333" y="236.667">
    <properties>
     <property name="enemy" value="Demon" />
@@ -369,22 +324,9 @@
 ]</property>
    </properties>
   </object>
-  <object id="97" template="../../../../common/maps/obj/treasure.tx" x="162" y="195" visible="0">
+  <object id="97" template="../../obj/treasure.tx" x="162" y="195" visible="0">
    <properties>
-    <property name="reward">[{
-	  "count":4,
-	  "type":"Union",
-	  "cardUnion": [
-		{
-		  "count":1,
-		  "subTypes": ["Golem"]
-		},
-		{
-		  "count":1,
-		  "cardText": "Golem"
-		}
-	  ]
-	}]</property>
+    <property name="reward">[{"count":4,"type":"Union","cardUnion":[{"count":1,"subTypes":["Golem"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardText":"Golem","rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
    </properties>
   </object>
   <object id="98" template="../../../../common/maps/obj/enemy.tx" x="32" y="96">

@@ -43,7 +43,7 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="390.492" y="183.777" />
+  <object id="51" template="../../obj/treasure.tx" x="390.492" y="183.777" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="330.598" y="199.872">
    <properties>
     <property name="enemy" value="Homarid" />
@@ -66,13 +66,13 @@
    </properties>
   </object>
   <object id="56" template="../../../../common/maps/obj/manashards.tx" x="601.543" y="64.9447" />
-  <object id="58" template="../../../../common/maps/obj/booster.tx" x="35.298" y="105.398">
+  <object id="58" template="../../obj/booster.tx" x="35.298" y="105.398">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="59" template="../../../../common/maps/obj/treasure.tx" x="687.333" y="320" />
-  <object id="60" template="../../../../common/maps/obj/treasure.tx" x="471" y="58.6667" />
+  <object id="59" template="../../obj/treasure.tx" x="687.333" y="320" />
+  <object id="60" template="../../obj/treasure.tx" x="471" y="58.6667" />
   <object id="61" template="../../../../common/maps/obj/manashards.tx" x="498" y="250" />
   <object id="62" template="../../../../common/maps/obj/manashards.tx" x="665.333" y="595.333" />
   <object id="63" template="../../../../common/maps/obj/manashards.tx" x="139.333" y="556.333" />

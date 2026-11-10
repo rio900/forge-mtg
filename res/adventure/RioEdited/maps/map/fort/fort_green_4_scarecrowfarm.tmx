@@ -36,7 +36,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="447.956" y="56.4352" />
+  <object id="48" template="../../obj/treasure.tx" x="447.956" y="56.4352" />
   <object id="54" template="../../../../common/maps/obj/enemy.tx" x="463.371" y="300.481">
    <properties>
     <property name="enemy" value="Horse" />
@@ -72,7 +72,7 @@
     <property name="waypoints" value="112,113" />
    </properties>
   </object>
-  <object id="64" template="../../../../common/maps/obj/treasure.tx" x="12.1132" y="367.884" />
+  <object id="64" template="../../obj/treasure.tx" x="12.1132" y="367.884" />
   <object id="65" template="../../../../common/maps/obj/enemy.tx" x="254.374" y="297.137">
    <properties>
     <property name="enemy" value="Chicken" />
@@ -163,7 +163,7 @@
   <object id="117" template="../../../../common/maps/obj/waypoint.tx" x="162.667" y="162.333" />
   <object id="118" template="../../../../common/maps/obj/waypoint.tx" x="159" y="130" />
   <object id="119" template="../../../../common/maps/obj/waypoint.tx" x="139.667" y="286.333" />
-  <object id="120" template="../../../../common/maps/obj/booster.tx" x="150.333" y="253.333">
+  <object id="120" template="../../obj/booster.tx" x="150.333" y="253.333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

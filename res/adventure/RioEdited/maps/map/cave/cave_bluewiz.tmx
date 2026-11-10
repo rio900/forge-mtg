@@ -44,7 +44,7 @@
     <property name="threatRange" type="int" value="50" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="412.092" y="218.43" />
+  <object id="51" template="../../obj/treasure.tx" x="412.092" y="218.43" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="336.341" y="207.974">
    <properties>
     <property name="enemy" value="Djinn" />
@@ -55,12 +55,12 @@
   <object id="55" template="../../../../common/maps/obj/manashards.tx" x="233.118" y="35.6713" />
   <object id="56" template="../../../../common/maps/obj/manashards.tx" x="318.079" y="29.5837" />
   <object id="57" template="../../../../common/maps/obj/manashards.tx" x="371.808" y="26.937" />
-  <object id="59" template="../../../../common/maps/obj/booster.tx" x="368.367" y="62.9327">
+  <object id="59" template="../../obj/booster.tx" x="368.367" y="62.9327">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="60" template="../../../../common/maps/obj/booster.tx" x="352.486" y="207.18">
+  <object id="60" template="../../obj/booster.tx" x="352.486" y="207.18">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -85,14 +85,14 @@
     <property name="waypoints" value="72,73,72,71,69,70,69,71" />
    </properties>
   </object>
-  <object id="64" template="../../../../common/maps/obj/treasure.tx" x="437.447" y="199.769" />
+  <object id="64" template="../../obj/treasure.tx" x="437.447" y="199.769" />
   <object id="65" template="../../../../common/maps/obj/enemy.tx" x="412.832" y="147.099">
    <properties>
     <property name="enemy" value="Master Blue Wizard" />
     <property name="threatRange" type="int" value="50" />
    </properties>
   </object>
-  <object id="66" template="../../../../common/maps/obj/booster.tx" x="432.418" y="144.188">
+  <object id="66" template="../../obj/booster.tx" x="432.418" y="144.188">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

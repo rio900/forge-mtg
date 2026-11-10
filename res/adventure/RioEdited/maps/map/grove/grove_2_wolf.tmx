@@ -48,7 +48,7 @@
     <property name="waypoints" value="67,69,67,72,74,66,65,93" />
    </properties>
   </object>
-  <object id="64" template="../../../../common/maps/obj/booster.tx" x="369.687" y="74.9257">
+  <object id="64" template="../../obj/booster.tx" x="369.687" y="74.9257">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["green"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["green"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"colors":["green"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -67,24 +67,9 @@
   <object id="83" template="../../../../common/maps/obj/collision.tx" x="-1.77538" y="-17.1576" width="594.418" height="16" />
   <object id="84" template="../../../../common/maps/obj/collision.tx" x="-15.9632" y="-14.571" width="16" height="477.07" />
   <object id="85" template="../../../../common/maps/obj/collision.tx" x="591.229" y="-16.3625" width="16" height="477.07" />
-  <object id="86" template="../../../../common/maps/obj/treasure.tx" x="342.926" y="77.6133">
+  <object id="86" template="../../obj/treasure.tx" x="342.926" y="77.6133">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "Green" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "Green" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2,
-  "colors": [ "Green" ]
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["Green"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["Green"]},{"type":"randomCard","count":3,"addMaxCount":2,"colors":["Green"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="87" template="../../../../common/maps/obj/enemy.tx" x="350" y="122.5">

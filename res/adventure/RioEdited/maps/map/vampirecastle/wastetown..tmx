@@ -34,13 +34,13 @@
  <objectgroup id="4" name="Objects">
   <object id="66" template="../../../../common/maps/obj/door_up.tx" x="798.41" y="304.238">
    <properties>
-    <property name="teleport" value="../common/maps/map/vampirecastle/vampirecastle_4C.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/vampirecastle/vampirecastle_4C.tmx" />
     <property name="teleportObjectId" value="65" />
    </properties>
   </object>
   <object id="67" template="../../../../common/maps/obj/door_down.tx" x="48.9816" y="304.041">
    <properties>
-    <property name="teleport" value="../common/maps/map/vampirecastle/vampirecastle_4.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/vampirecastle/vampirecastle_4.tmx" />
     <property name="teleportObjectId" value="66" />
    </properties>
   </object>
@@ -57,8 +57,8 @@
     <property name="enemy" value="Undead Roamer" />
    </properties>
   </object>
-  <object id="70" template="../../../../common/maps/obj/treasure.tx" x="390.083" y="317.167" />
-  <object id="71" template="../../../../common/maps/obj/booster.tx" x="730.462" y="324.215">
+  <object id="70" template="../../obj/treasure.tx" x="390.083" y="317.167" />
+  <object id="71" template="../../obj/booster.tx" x="730.462" y="324.215">
    <properties>
     <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"},{"type":"card","probability":0.5,"count":1,"cardName":"Infernal Grasp|MID"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":0.5,"count":1,"itemName":"Deadly Dispute"},{"type":"card","probability":0.5,"count":1,"itemName":"Village Rites"},{"type":"card","probability":0.5,"count":1,"cardName":"Ashnod's Intervention|BRO"},{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Fencing|WOE"},{"type":"card","probability":0.5,"count":1,"itemName":"Murder"}]</property>
    </properties>

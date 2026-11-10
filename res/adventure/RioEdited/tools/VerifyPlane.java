@@ -58,6 +58,20 @@ public class VerifyPlane {
         }
         if(e.nextEnemy!=null)enemy(e.nextEnemy);
     }
+    static void chestCard(PaperCard c,String source) {
+        card(c,source);
+        check(Set.of("U","R","M").contains(c.getRarity().toString()),"Chest rarity "+source+" "+c);
+    }
+    static void chestPool(RewardData rule,String source) {
+        if(rule.cardUnion!=null) {
+            for(var member:rule.cardUnion)chestPool(member,source);
+        } else if(rule.cardName!=null) {
+            var print=rule.cardName.split("\\|");
+            chestCard(CardUtil.getCardByNameAndEdition(print[0],print[1]),source);
+        } else {
+            for(var pc:CardUtil.getPredicateResult(RewardData.getAllCards(),rule))chestCard(pc,source);
+        }
+    }
     public static void main(String[] args) throws Exception {
         GuiBase.setInterface(new GuiDesktop());FModel.initialize(null,null);
         Path settings=Path.of(ForgeConstants.USER_ADVENTURE_DIR,"settings.json").toAbsolutePath().normalize();
@@ -114,11 +128,14 @@ public class VerifyPlane {
             for(String line:Files.readAllLines(Path.of(args[0]))) {
                 var pair=line.split("\t",2);
                 var rule=new com.badlogic.gdx.utils.Json().fromJson(RewardData.class,pair[1]);
+                boolean chest=pair[0].startsWith("chest/");
+                if(chest)chestPool(rule,pair[0]);
                 rule.probability=1;
                 var rewards=rule.generate(false,false);
                 check(rewards.size>0,"Empty loot "+line);
                 for(var reward:rewards) {
-                    if(reward.getCard()!=null)card(reward.getCard(),pair[0]);
+                    if(chest)chestCard(reward.getCard(),pair[0]);
+                    else if(reward.getCard()!=null)card(reward.getCard(),pair[0]);
                     if(reward.getDeck()!=null)deck(reward.getDeck(),pair[0]);
                 }
                 lootRules++;

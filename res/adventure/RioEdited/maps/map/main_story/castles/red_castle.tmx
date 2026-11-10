@@ -318,14 +318,14 @@
   <object id="82" template="../../../../../common/maps/obj/waypoint.tx" x="513.5" y="497" />
   <object id="83" template="../../../../../common/maps/obj/waypoint.tx" x="685" y="497" />
   <object id="84" template="../../../../../common/maps/obj/waypoint.tx" x="228.5" y="352.5" />
-  <object id="85" template="../../../../../common/maps/obj/treasure.tx" x="310.5" y="470">
+  <object id="85" template="../../../obj/treasure.tx" x="310.5" y="470">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["red"]},{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":1,"count":1,"editions":["NEO"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["red"]},{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"card","probability":1,"count":1,"editions":["NEO"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
-  <object id="87" template="../../../../../common/maps/obj/treasure.tx" x="428" y="468">
+  <object id="87" template="../../../obj/treasure.tx" x="428" y="468">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["red"]},{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"cardPackShop","probability":1,"count":1,"editions":["NEO"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["red"]},{"type":"item","probability":0.1,"count":1,"itemName":"Warren Tender's Baton"},{"type":"item","probability":0.1,"count":1,"itemName":"Prayerbook of Ire"},{"type":"card","probability":1,"count":1,"editions":["NEO"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
  </objectgroup>

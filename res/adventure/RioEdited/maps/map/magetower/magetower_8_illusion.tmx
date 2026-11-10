@@ -40,12 +40,12 @@
     <property name="waypoints" value="92,95,97,93,97,95,92,102,101" />
    </properties>
   </object>
-  <object id="65" template="../../../../common/maps/obj/treasure.tx" x="208" y="47.5">
+  <object id="65" template="../../obj/treasure.tx" x="208" y="47.5">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;: &quot;randomCard&quot;,&quot;colors&quot;: [&quot;Blue&quot;], &quot;count&quot;: 5 }, {&quot;type&quot;: &quot;item&quot;,&quot;count&quot;: 1,&quot;probability&quot;:0.2,&quot;itemName&quot;: &quot;Steel Sword&quot;}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;randomCard&quot;,&quot;colors&quot;:[&quot;Blue&quot;],&quot;count&quot;:5,&quot;rarity&quot;:[&quot;Uncommon&quot;,&quot;Rare&quot;,&quot;Mythic Rare&quot;]},{&quot;type&quot;:&quot;item&quot;,&quot;count&quot;:1,&quot;probability&quot;:0.2,&quot;itemName&quot;:&quot;Steel Sword&quot;}]" />
    </properties>
   </object>
-  <object id="83" template="../../../../common/maps/obj/booster.tx" x="227.311" y="125.723">
+  <object id="83" template="../../obj/booster.tx" x="227.311" y="125.723">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["Blue"]}]</property>
    </properties>
@@ -84,7 +84,7 @@
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
-  <object id="89" template="../../../../common/maps/obj/booster.tx" x="108.019" y="174.228">
+  <object id="89" template="../../obj/booster.tx" x="108.019" y="174.228">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["Blue"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["Blue"]}]</property>
    </properties>
@@ -118,7 +118,7 @@
   <object id="102" template="../../../../common/maps/obj/waypoint.tx" x="197.57" y="89.588" />
   <object id="104" template="../../../../common/maps/obj/entry_up.tx" x="320.565" y="158.304">
    <properties>
-    <property name="teleport" value="../common/maps/map/magetower/magetower_8_illusion_basement.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/magetower/magetower_8_illusion_basement.tmx" />
    </properties>
   </object>
   <object id="105" template="../../../../common/maps/obj/manashards.tx" x="158.667" y="68.6667" />

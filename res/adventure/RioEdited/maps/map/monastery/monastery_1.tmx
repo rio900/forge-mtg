@@ -34,7 +34,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="281.055" y="254.892" />
+  <object id="48" template="../../obj/treasure.tx" x="281.055" y="254.892" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="168.264" y="106.707">
    <properties>
     <property name="enemy" value="Human guard" />
@@ -42,7 +42,7 @@
     <property name="waypoints" value="64,65" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="131.869" y="29.9355" />
+  <object id="51" template="../../obj/treasure.tx" x="131.869" y="29.9355" />
   <object id="52" template="../../../../common/maps/obj/gold.tx" x="272.091" y="227.202" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="215.541" y="99.8509">
    <properties>
@@ -82,7 +82,7 @@
     <property name="waypoints" value="66,67" />
    </properties>
   </object>
-  <object id="59" template="../../../../common/maps/obj/booster.tx" x="287.785" y="162.879">
+  <object id="59" template="../../obj/booster.tx" x="287.785" y="162.879">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -102,7 +102,7 @@
   <object id="67" template="../../../../common/maps/obj/waypoint.tx" x="265.666" y="178.926" />
   <object id="68" template="../../../../common/maps/obj/waypoint.tx" x="270.003" y="28.8647" />
   <object id="69" template="../../../../common/maps/obj/waypoint.tx" x="163.746" y="28.8647" />
-  <object id="70" template="../../../../common/maps/obj/booster.tx" x="240.511" y="32.3343">
+  <object id="70" template="../../obj/booster.tx" x="240.511" y="32.3343">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["white"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["white"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"colors":["white"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

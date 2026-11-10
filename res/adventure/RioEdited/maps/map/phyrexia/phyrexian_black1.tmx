@@ -38,7 +38,7 @@
  </layer>
  <objectgroup id="4" name="Objects">
   <object id="38" template="../../../../common/maps/obj/entry_left.tx" x="0.706867" y="192" width="16" height="80" />
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="432.239" y="155.641" />
+  <object id="48" template="../../obj/treasure.tx" x="432.239" y="155.641" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="96.485" y="173.992">
    <properties>
     <property name="enemy" value="Dross Gladiator" />
@@ -54,12 +54,12 @@
     <property name="waypoints" value="" />
    </properties>
   </object>
-  <object id="75" template="../../../../common/maps/obj/booster.tx" x="449.75" y="143.25">
+  <object id="75" template="../../obj/booster.tx" x="449.75" y="143.25">
    <properties>
     <property name="reward">[{"editions":["ONE","MOM"],"type":"card","count":10,"rarity":["Common"],"colors":["black"]},{"editions":["ONE","MOM"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["black"]},{"editions":["ONE","MOM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["black"]}]</property>
    </properties>
   </object>
-  <object id="76" template="../../../../common/maps/obj/treasure.tx" x="432" y="143" />
+  <object id="76" template="../../obj/treasure.tx" x="432" y="143" />
   <object id="85" template="../../../../common/maps/obj/enemy.tx" x="216.75" y="165.25">
    <properties>
     <property name="enemy" value="Dross Gladiator" />

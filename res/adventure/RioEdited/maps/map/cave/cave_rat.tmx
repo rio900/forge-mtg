@@ -36,7 +36,7 @@
    </properties>
   </object>
   <object id="54" template="../../../../common/maps/obj/gold.tx" x="493.991" y="88.765" />
-  <object id="55" template="../../../../common/maps/obj/treasure.tx" x="170.417" y="110.333" />
+  <object id="55" template="../../obj/treasure.tx" x="170.417" y="110.333" />
   <object id="58" template="../../../../common/maps/obj/enemy.tx" x="269.108" y="224.107">
    <properties>
     <property name="enemy" value="Nezumi Ninja" />
@@ -58,7 +58,7 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="62" template="../../../../common/maps/obj/booster.tx" x="317.862" y="129.955">
+  <object id="62" template="../../obj/booster.tx" x="317.862" y="129.955">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -106,7 +106,7 @@
   <object id="82" template="../../../../common/maps/obj/waypoint.tx" x="554.943" y="247.628" />
   <object id="83" template="../../../../common/maps/obj/manashards.tx" x="285.832" y="370.105" />
   <object id="84" template="../../../../common/maps/obj/manashards.tx" x="643.711" y="257.741" />
-  <object id="85" template="../../../../common/maps/obj/treasure.tx" x="615.62" y="158.299" />
+  <object id="85" template="../../obj/treasure.tx" x="615.62" y="158.299" />
   <object id="86" template="../../../../common/maps/obj/waypoint.tx" x="535.28" y="201.559" />
  </objectgroup>
 </map>

@@ -38,10 +38,10 @@
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="400.5" y="364" width="63" height="37">
    <properties>
     <property name="direction" value="left" />
-    <property name="teleport" value="../common/maps/map/graveyard_crypt/graveyard_4.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/graveyard_crypt/graveyard_4.tmx" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="303.833" y="33.3333" />
+  <object id="48" template="../../obj/treasure.tx" x="303.833" y="33.3333" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="214.902" y="272.059">
    <properties>
     <property name="enemy" value="Devil" />
@@ -91,14 +91,14 @@
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
-  <object id="68" template="../../../../common/maps/obj/treasure.tx" x="93.5" y="206" />
-  <object id="70" template="../../../../common/maps/obj/treasure.tx" x="364.917" y="201.25" />
+  <object id="68" template="../../obj/treasure.tx" x="93.5" y="206" />
+  <object id="70" template="../../obj/treasure.tx" x="364.917" y="201.25" />
   <object id="71" template="../../../../common/maps/obj/gold.tx" x="90.75" y="139" />
   <object id="72" template="../../../../common/maps/obj/gold.tx" x="57.5" y="65.75" />
   <object id="73" template="../../../../common/maps/obj/manashards.tx" x="488.5" y="235" />
   <object id="74" template="../../../../common/maps/obj/manashards.tx" x="326.5" y="288" />
   <object id="75" template="../../../../common/maps/obj/manashards.tx" x="252" y="137" />
-  <object id="76" template="../../../../common/maps/obj/booster.tx" x="512.5" y="143">
+  <object id="76" template="../../obj/booster.tx" x="512.5" y="143">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

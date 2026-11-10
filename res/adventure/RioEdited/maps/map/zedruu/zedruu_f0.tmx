@@ -87,7 +87,7 @@
   <object id="197" template="../../../../common/maps/obj/door_up.tx" x="366.85" y="466.85" width="31" height="14.3333">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/zedruu/zedruu_f1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/zedruu/zedruu_f1.tmx" />
    </properties>
   </object>
   <object id="201" template="../../../../common/maps/obj/enemy.tx" x="270.342" y="69.105">
@@ -134,17 +134,17 @@
   </object>
   <object id="213" template="../../../../common/maps/obj/waypoint.tx" x="250.842" y="376.105" />
   <object id="214" template="../../../../common/maps/obj/waypoint.tx" x="365.342" y="184.105" />
-  <object id="215" template="../../../../common/maps/obj/booster.tx" x="9.34211" y="353.605">
+  <object id="215" template="../../obj/booster.tx" x="9.34211" y="353.605">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="216" template="../../../../common/maps/obj/booster.tx" x="320.842" y="52.605">
+  <object id="216" template="../../obj/booster.tx" x="320.842" y="52.605">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="217" template="../../../../common/maps/obj/booster.tx" x="439.342" y="284.105">
+  <object id="217" template="../../obj/booster.tx" x="439.342" y="284.105">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

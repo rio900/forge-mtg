@@ -275,9 +275,9 @@
 </property>
    </properties>
   </object>
-  <object id="189" template="../../../../../common/maps/obj/treasure.tx" x="880" y="80">
+  <object id="189" template="../../../obj/treasure.tx" x="880" y="80">
    <properties>
-    <property name="reward">[{"type":"randomCard","count":8,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"colors":["colorID"]}]</property>
+    <property name="reward">[{"type":"randomCard","count":8,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
     <property name="spawn.Easy" type="bool" value="false" />
    </properties>
   </object>
@@ -399,7 +399,7 @@
 </property>
    </properties>
   </object>
-  <object id="194" template="../../../../../common/maps/obj/treasure.tx" x="512" y="32" />
+  <object id="194" template="../../../obj/treasure.tx" x="512" y="32" />
   <object id="197" template="../../../../../common/maps/obj/enemy.tx" x="112" y="96">
    <properties>
     <property name="defeatDialog">[
@@ -506,28 +506,9 @@
     <property name="threatRange" type="int" value="80" />
    </properties>
   </object>
-  <object id="202" template="../../../../../common/maps/obj/treasure.tx" x="736" y="16">
+  <object id="202" template="../../../obj/treasure.tx" x="736" y="16">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
   <object id="203" template="../../../obj/scroll.tx" x="592" y="528">
@@ -535,100 +516,24 @@
     <property name="reward" value="[{&quot;type&quot;:&quot;card&quot;,&quot;cardName&quot;:&quot;Grisly Sigil|SNC&quot;,&quot;count&quot;:1}]" />
    </properties>
   </object>
-  <object id="205" template="../../../../../common/maps/obj/treasure.tx" x="688" y="16">
+  <object id="205" template="../../../obj/treasure.tx" x="688" y="16">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
-  <object id="206" template="../../../../../common/maps/obj/treasure.tx" x="112" y="33">
+  <object id="206" template="../../../obj/treasure.tx" x="112" y="33">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
-  <object id="207" template="../../../../../common/maps/obj/treasure.tx" x="32" y="33">
+  <object id="207" template="../../../obj/treasure.tx" x="32" y="33">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
-  <object id="208" template="../../../../../common/maps/obj/treasure.tx" x="464" y="16">
+  <object id="208" template="../../../obj/treasure.tx" x="464" y="16">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
   <object id="209" template="../../../../../common/maps/obj/enemy.tx" x="72" y="40">
@@ -1540,52 +1445,14 @@
   </object>
   <object id="231" template="../../../../../common/maps/obj/manashards.tx" x="624" y="16" />
   <object id="232" template="../../../../../common/maps/obj/gold.tx" x="166" y="25" />
-  <object id="233" template="../../../../../common/maps/obj/treasure.tx" x="335" y="83">
+  <object id="233" template="../../../obj/treasure.tx" x="335" y="83">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
-  <object id="234" template="../../../../../common/maps/obj/treasure.tx" x="223" y="33">
+  <object id="234" template="../../../obj/treasure.tx" x="223" y="33">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
   <object id="235" template="../../../../../common/maps/obj/enemy.tx" x="624" y="480">
@@ -1740,33 +1607,14 @@
     <property name="type" value="dialog" />
    </properties>
   </object>
-  <object id="238" template="../../../../../common/maps/obj/treasure.tx" x="864" y="96">
+  <object id="238" template="../../../obj/treasure.tx" x="864" y="96">
    <properties>
-    <property name="reward">[{"type":"shards","probability":1,"count":200},{"type":"randomCard","count":1,"cardName":"Karn's Sylex|DMU"}]</property>
+    <property name="reward">[{"type":"shards","probability":1,"count":200},{"type":"randomCard","count":1,"cardName":"Karn's Sylex|DMU","editions":["DMU"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="239" template="../../../../../common/maps/obj/treasure.tx" x="576" y="32">
+  <object id="239" template="../../../obj/treasure.tx" x="576" y="32">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
   <object id="240" template="../../../../../common/maps/obj/enemy.tx" x="304" y="464">
@@ -1831,7 +1679,7 @@
   <object id="241" template="../../../../../common/maps/obj/entry_up.tx" x="0" y="544" width="144" height="16">
    <properties>
     <property name="spawn" type="bool" value="true" />
-    <property name="teleport" value="../common/maps/map/main_story/temple_of_liliana/bog.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/main_story/temple_of_liliana/bog.tmx" />
     <property name="teleportObjectId" value="241" />
    </properties>
   </object>
@@ -2100,7 +1948,7 @@
     <property name="threatRange" type="float" value="30" />
    </properties>
   </object>
-  <object id="264" template="../../../../../common/maps/obj/booster.tx" x="160" y="448">
+  <object id="264" template="../../../obj/booster.tx" x="160" y="448">
    <properties>
     <property name="reward">[
   {
@@ -2125,28 +1973,9 @@
 </property>
    </properties>
   </object>
-  <object id="265" template="../../../../../common/maps/obj/treasure.tx" x="560" y="512">
+  <object id="265" template="../../../obj/treasure.tx" x="560" y="512">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 2,
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 1,
-  "probability": 0.5,
-  "rarity": [ "rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 3,
-  "addMaxCount": 2
-},{
-  "type": "item",
-  "probability": 0.02,
-  "count": 1,
-  "itemName": "Demonic Contract"
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","probability":0.02,"count":1,"itemName":"Demonic Contract"}]</property>
    </properties>
   </object>
   <object id="266" template="../../../../../common/maps/obj/gold.tx" x="496" y="304" />
@@ -2168,11 +1997,11 @@
   <object id="279" template="../../../../../common/maps/obj/portal.tx" x="864" y="32">
    <properties>
     <property name="portalState" value="active" />
-    <property name="teleport" value="../common/maps/map/main_story/temple_of_liliana/keep.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/main_story/temple_of_liliana/keep.tmx" />
     <property name="teleportObjectId" value="239" />
    </properties>
   </object>
-  <object id="280" template="../../../../../common/maps/obj/booster.tx" x="544" y="32">
+  <object id="280" template="../../../obj/booster.tx" x="544" y="32">
    <properties>
     <property name="reward">[
   {
@@ -2223,9 +2052,9 @@
     <property name="type" value="dialog" />
    </properties>
   </object>
-  <object id="286" template="../../../../../common/maps/obj/treasure.tx" x="848" y="80">
+  <object id="286" template="../../../obj/treasure.tx" x="848" y="80">
    <properties>
-    <property name="reward">[{"count":2,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Faerie Fencing|WOE"},{"count":1,"cardName":"Angel of Suffering|SNC"},{"count":1,"cardName":"Vampire's Kiss|VOW"},{"count":1,"cardName":"Go for the Throat|BRO"},{"count":1,"cardName":"Soul Transfer|NEO"},{"count":1,"cardName":"Dreadfeast Demon|VOW"},{"count":1,"cardName":"Archfiend of the Dross|ONE"},{"count":1,"cardName":"Gix's Command|BRO"},{"count":1,"cardName":"Braids's Frightful Return|DMU"},{"count":1,"cardName":"Terror Ballista|BRO"}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Gix, Yawgmoth Praetor|BRO"},{"count":1,"cardName":"Hive of the Eye Tyrant|AFR"},{"count":1,"cardName":"Contaminated Aquifer|DMU"},{"count":1,"cardName":"Sunlit Marsh|DMU"},{"count":1,"cardName":"Geothermal Bog|DMU"},{"count":1,"cardName":"Haunted Mire|DMU"}]},{"count":1,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Geothermal Bog|DMU"},{"count":1,"cardName":"Sunlit Marsh|DMU"},{"count":1,"cardName":"Haunted Mire|DMU"},{"count":1,"cardName":"Contaminated Aquifer|DMU"}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Geothermal Bog|DMU"},{"count":1,"cardName":"Sunlit Marsh|DMU"},{"count":1,"cardName":"Haunted Mire|DMU"},{"count":1,"cardName":"Contaminated Aquifer|DMU"}]}]</property>
+    <property name="reward">[{"count":2,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Faerie Fencing|WOE","editions":["WOE"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Angel of Suffering|SNC","editions":["SNC"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Foul Play|MID","editions":["MID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Go for the Throat|BRO","editions":["BRO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Soul Transfer|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Dreadfeast Demon|VOW","editions":["VOW"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Archfiend of the Dross|ONE","editions":["ONE"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Gix's Command|BRO","editions":["BRO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Braids's Frightful Return|DMU","editions":["DMU"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Terror Ballista|BRO","editions":["BRO"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Gix, Yawgmoth Praetor|BRO","editions":["BRO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Hive of the Eye Tyrant|AFR","editions":["AFR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Secluded Courtyard|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Roadside Reliquary|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Mech Hangar|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Temple of the Dragon Queen|AFR","editions":["AFR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Mech Hangar|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Roadside Reliquary|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Temple of the Dragon Queen|AFR","editions":["AFR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Secluded Courtyard|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Mech Hangar|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Roadside Reliquary|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Temple of the Dragon Queen|AFR","editions":["AFR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Secluded Courtyard|NEO","editions":["NEO"],"rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
     <property name="spawn.Easy" type="bool" value="false" />
     <property name="spawn.Normal" type="bool" value="false" />
    </properties>

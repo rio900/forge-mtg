@@ -37,7 +37,7 @@
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="308.242" y="247.89" width="38.2392" height="39.9582">
    <properties>
     <property name="direction" value="up" />
-    <property name="teleport" value="../common/maps/map/djinnpalace/djinnpalace_1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/djinnpalace/djinnpalace_1.tmx" />
     <property name="teleportObjectId" value="69" />
    </properties>
   </object>
@@ -59,12 +59,12 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="71" template="../../../../common/maps/obj/booster.tx" x="96.1148" y="144.623">
+  <object id="71" template="../../obj/booster.tx" x="96.1148" y="144.623">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="72" template="../../../../common/maps/obj/booster.tx" x="300.204" y="122.439">
+  <object id="72" template="../../obj/booster.tx" x="300.204" y="122.439">
    <properties>
     <property name="reward">[
   {
@@ -94,7 +94,7 @@
   <object id="76" template="../../../../common/maps/obj/entry_up.tx" x="204.017" y="51.835" width="25.4153" height="17.3026">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/djinnpalace/djinnpalace_2B.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/djinnpalace/djinnpalace_2B.tmx" />
    </properties>
   </object>
  </objectgroup>

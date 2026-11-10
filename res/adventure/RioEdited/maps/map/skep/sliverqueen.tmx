@@ -35,7 +35,7 @@
  <objectgroup id="4" name="Objects">
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="192" y="480" width="112" height="8">
    <properties>
-    <property name="teleport" value="../common/maps/map/skep/skep_outer.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/skep/skep_outer.tmx" />
     <property name="teleportObjectId" value="153" />
    </properties>
   </object>
@@ -66,9 +66,9 @@
   <object id="65" template="../../../../common/maps/obj/manashards.tx" x="416.954" y="46.4813" />
   <object id="66" template="../../../../common/maps/obj/manashards.tx" x="32.76" y="210.329" />
   <object id="67" template="../../../../common/maps/obj/manashards.tx" x="456.503" y="368.93" />
-  <object id="68" template="../../../../common/maps/obj/treasure.tx" x="288.62" y="50.1133">
+  <object id="68" template="../../obj/treasure.tx" x="288.62" y="50.1133">
    <properties>
-    <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Slumber Party|WOE"},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU"},{"type":"card","probability":1,"count":2,"itemName":"Fumigate"},{"type":"card","probability":0.5,"count":2,"itemName":"Favored Enemy"}]</property>
+    <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Faerie Slumber Party|WOE","editions":["WOE"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":0.5,"count":1,"cardName":"Drag to the Bottom|DMU","editions":["DMU"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":1,"count":2,"itemName":"Fumigate","rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":0.5,"count":2,"itemName":"Favored Enemy","rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
  </objectgroup>

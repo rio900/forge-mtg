@@ -47,12 +47,12 @@
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
-  <object id="66" template="../../../../common/maps/obj/treasure.tx" x="195.5" y="50.5">
+  <object id="66" template="../../obj/treasure.tx" x="195.5" y="50.5">
    <properties>
-    <property name="reward">[{"type":"randomCard","colors":["White"],"count":5},{"type":"item","count":1,"probability":0.2,"itemName":"Jungle Shield"},{"type":"card","probability":1,"count":1,"cardName":"The Celestus|MID"}]</property>
+    <property name="reward">[{"type":"randomCard","colors":["White"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Jungle Shield"},{"type":"card","probability":1,"count":1,"cardName":"The Celestus|MID","editions":["MID"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="67" template="../../../../common/maps/obj/booster.tx" x="208.5" y="78">
+  <object id="67" template="../../obj/booster.tx" x="208.5" y="78">
    <properties>
     <property name="reward">[
   {

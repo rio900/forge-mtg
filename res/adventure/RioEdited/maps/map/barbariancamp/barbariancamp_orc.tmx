@@ -28,14 +28,14 @@
   </data>
  </layer>
  <objectgroup id="4" name="Objects">
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="294.5" y="319.25" />
+  <object id="48" template="../../obj/treasure.tx" x="294.5" y="319.25" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="256.285" y="345.467">
    <properties>
     <property name="enemy" value="Orc Warrior" />
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="231.333" y="320.333" />
+  <object id="51" template="../../obj/treasure.tx" x="231.333" y="320.333" />
   <object id="57" template="../../../../common/maps/obj/enemy.tx" x="507.631" y="268.411">
    <properties>
     <property name="enemy" value="Orc Brute" />
@@ -103,7 +103,7 @@
   <object id="84" template="../../../../common/maps/obj/waypoint.tx" x="276.11" y="114.146" />
   <object id="85" template="../../../../common/maps/obj/waypoint.tx" x="389.108" y="115.76" />
   <object id="86" template="../../../../common/maps/obj/gold.tx" x="317.004" y="317.542" />
-  <object id="87" template="../../../../common/maps/obj/booster.tx" x="171.183" y="618.333">
+  <object id="87" template="../../obj/booster.tx" x="171.183" y="618.333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

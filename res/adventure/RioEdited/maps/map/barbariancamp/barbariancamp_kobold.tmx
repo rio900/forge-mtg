@@ -34,13 +34,13 @@
   </data>
  </layer>
  <objectgroup id="4" name="Objects">
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="229.833" y="327.25" />
+  <object id="48" template="../../obj/treasure.tx" x="229.833" y="327.25" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="106.591" y="85.4096">
    <properties>
     <property name="enemy" value="Fire Dragon" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="42.9997" y="157" />
+  <object id="51" template="../../obj/treasure.tx" x="42.9997" y="157" />
   <object id="57" template="../../../../common/maps/obj/enemy.tx" x="258.666" y="84.3337">
    <properties>
     <property name="enemy" value="Kobold Dragoncaller" />
@@ -131,17 +131,17 @@
     <property name="waypoints" value="92,93,92,91" />
    </properties>
   </object>
-  <object id="84" template="../../../../common/maps/obj/booster.tx" x="206.667" y="354">
+  <object id="84" template="../../obj/booster.tx" x="206.667" y="354">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="85" template="../../../../common/maps/obj/booster.tx" x="17.6667" y="418.333">
+  <object id="85" template="../../obj/booster.tx" x="17.6667" y="418.333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="86" template="../../../../common/maps/obj/booster.tx" x="157" y="625.333">
+  <object id="86" template="../../obj/booster.tx" x="157" y="625.333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -174,7 +174,7 @@
   <object id="108" template="../../../../common/maps/obj/entry_right.tx" x="71" y="73.6667">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/barbariancamp/barbariancamp_kobold_mine.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/barbariancamp/barbariancamp_kobold_mine.tmx" />
     <property name="teleportObjectId" value="114" />
    </properties>
   </object>

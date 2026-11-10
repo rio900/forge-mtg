@@ -39,7 +39,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="160.239" y="31.7659" />
+  <object id="48" template="../../obj/treasure.tx" x="160.239" y="31.7659" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="192.235" y="47.7421">
    <properties>
     <property name="enemy" value="Gitaxian Scientist" />
@@ -81,12 +81,12 @@
 ]</property>
    </properties>
   </object>
-  <object id="75" template="../../../../common/maps/obj/booster.tx" x="216.75" y="32.8333">
+  <object id="75" template="../../obj/booster.tx" x="216.75" y="32.8333">
    <properties>
     <property name="reward">[{"editions":["ONE","MOM"],"type":"card","count":10,"rarity":["Common"],"colors":["blue"]},{"editions":["ONE","MOM"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["blue"]},{"editions":["ONE","MOM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["blue"]}]</property>
    </properties>
   </object>
-  <object id="76" template="../../../../common/maps/obj/treasure.tx" x="256" y="32" />
+  <object id="76" template="../../obj/treasure.tx" x="256" y="32" />
  </objectgroup>
  <objectgroup id="7" name="Waypoints">
   <object id="64" template="../../../../common/maps/obj/waypoint.tx" x="273" y="145" />

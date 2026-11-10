@@ -42,7 +42,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="350.334" y="248.083" />
+  <object id="48" template="../../obj/treasure.tx" x="350.334" y="248.083" />
   <object id="68" template="../../../../common/maps/obj/gold.tx" x="124.167" y="20.1667" />
   <object id="69" template="../../../../common/maps/obj/enemy.tx" x="79.2705" y="167.649">
    <properties>
@@ -52,7 +52,7 @@
    </properties>
   </object>
   <object id="71" template="../../../../common/maps/obj/manashards.tx" x="335.247" y="47.8977" />
-  <object id="72" template="../../../../common/maps/obj/booster.tx" x="333.808" y="246.929">
+  <object id="72" template="../../obj/booster.tx" x="333.808" y="246.929">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["Green"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["Green"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"Green","count":1,"colors":["Colorless"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

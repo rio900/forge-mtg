@@ -137,7 +137,7 @@
   </object>
   <object id="65" template="../../../../../common/maps/obj/entry_down.tx" x="352" y="542.75" width="48" height="29">
    <properties>
-    <property name="teleport" value="../common/maps/map/main_story/castles/blue_castle_f1.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/main_story/castles/blue_castle_f1.tmx" />
    </properties>
   </object>
   <object id="66" template="../../../../../common/maps/obj/enemy.tx" x="83.3333" y="603">
@@ -321,14 +321,14 @@
     <property name="enemy" value="Djinn" />
    </properties>
   </object>
-  <object id="88" template="../../../../../common/maps/obj/treasure.tx" x="313" y="467">
+  <object id="88" template="../../../obj/treasure.tx" x="313" y="467">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
-  <object id="89" template="../../../../../common/maps/obj/treasure.tx" x="424.5" y="461.5">
+  <object id="89" template="../../../obj/treasure.tx" x="424.5" y="461.5">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"cardPackShop","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","WOE","AFR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
  </objectgroup>

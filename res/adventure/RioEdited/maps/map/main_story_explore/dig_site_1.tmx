@@ -40,17 +40,17 @@
   <object id="38" template="../../../../common/maps/obj/entry_down.tx" x="193" y="35" width="31" height="16">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/main_story_explore/dig_site_0.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/main_story_explore/dig_site_0.tmx" />
     <property name="teleportObjectId" value="60" />
    </properties>
   </object>
-  <object id="82" template="../../../../common/maps/obj/booster.tx" x="451.354" y="171.792" width="9.3125" height="9.1875">
+  <object id="82" template="../../obj/booster.tx" x="451.354" y="171.792" width="9.3125" height="9.1875">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="83" template="../../../../common/maps/obj/manashards.tx" x="447.667" y="208" />
-  <object id="84" template="../../../../common/maps/obj/treasure.tx" x="80.1818" y="33.2727" />
+  <object id="84" template="../../obj/treasure.tx" x="80.1818" y="33.2727" />
   <object id="85" template="../../../../common/maps/obj/enemy.tx" x="205.333" y="137">
    <properties>
     <property name="enemy" value="Blue Prototype" />
@@ -99,7 +99,7 @@
   </object>
   <object id="104" template="../../../../common/maps/obj/entry_down.tx" x="316" y="37" width="26" height="28">
    <properties>
-    <property name="teleport" value="../common/maps/map/main_story_explore/dig_site_2.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/main_story_explore/dig_site_2.tmx" />
     <property name="teleportObjectId" value="98" />
    </properties>
   </object>
@@ -157,9 +157,9 @@
 	</property>
    </properties>
   </object>
-  <object id="115" template="../../../../common/maps/obj/treasure.tx" x="464" y="192">
+  <object id="115" template="../../obj/treasure.tx" x="464" y="192">
    <properties>
-    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2},{"type":"item","itemName":"Landscape Sketchbook - The Brothers War","count":1}]</property>
+    <property name="reward">[{"type":"randomCard","count":2,"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"randomCard","count":1,"probability":0.5,"rarity":["Rare"],"colors":["colorID"]},{"type":"randomCard","count":3,"addMaxCount":2,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","itemName":"Landscape Sketchbook - The Brothers War","count":1}]</property>
    </properties>
   </object>
   <object id="116" template="../../../../common/maps/obj/dialog.tx" x="97" y="194">

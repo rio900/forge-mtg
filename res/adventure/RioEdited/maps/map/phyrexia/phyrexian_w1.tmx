@@ -39,7 +39,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="67" template="../../../../common/maps/obj/treasure.tx" x="317.667" y="43.1667" />
+  <object id="67" template="../../obj/treasure.tx" x="317.667" y="43.1667" />
   <object id="68" template="../../../../common/maps/obj/enemy.tx" x="207" y="94">
    <properties>
     <property name="enemy" value="Orthodoxy Angel" />
@@ -59,12 +59,12 @@
     <property name="waypoints" value="72,73,72" />
    </properties>
   </object>
-  <object id="76" template="../../../../common/maps/obj/booster.tx" x="98.6667" y="43">
+  <object id="76" template="../../obj/booster.tx" x="98.6667" y="43">
    <properties>
     <property name="reward">[{"editions":["ONE","MOM"],"type":"card","count":10,"rarity":["Common"],"colors":["white"]},{"editions":["ONE","MOM"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white"]},{"editions":["ONE","MOM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white"]}]</property>
    </properties>
   </object>
-  <object id="78" template="../../../../common/maps/obj/treasure.tx" x="315" y="74" />
+  <object id="78" template="../../obj/treasure.tx" x="315" y="74" />
  </objectgroup>
  <objectgroup id="8" name="Waypoints">
   <object id="70" template="../../../../common/maps/obj/waypoint.tx" x="144" y="176" />

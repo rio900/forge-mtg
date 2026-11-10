@@ -60,7 +60,7 @@
     <property name="waypoints" value="72,69,70,71,73,72" />
    </properties>
   </object>
-  <object id="66" template="../../../../common/maps/obj/booster.tx" x="126.196" y="72.7342" width="16.25" height="15.25">
+  <object id="66" template="../../obj/booster.tx" x="126.196" y="72.7342" width="16.25" height="15.25">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -77,9 +77,9 @@
   <object id="71" template="../../../../common/maps/obj/waypoint.tx" x="117.185" y="203.246" />
   <object id="72" template="../../../../common/maps/obj/waypoint.tx" x="203.732" y="136.586" />
   <object id="73" template="../../../../common/maps/obj/waypoint.tx" x="88.2493" y="142.122" />
-  <object id="76" template="../../../../common/maps/obj/treasure.tx" x="188.774" y="63.2297">
+  <object id="76" template="../../obj/treasure.tx" x="188.774" y="63.2297">
    <properties>
-    <property name="reward">[{"type":"randomCard","colors":["Red"],"count":5},{"type":"item","count":1,"probability":0.2,"itemName":"Dagger"},{"type":"card","probability":1,"count":1,"cardName":"Treasure Chest|AFR"}]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Red"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Dagger"},{"type":"card","probability":1,"count":1,"cardName":"Treasure Chest|AFR","editions":["AFR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
  </objectgroup>

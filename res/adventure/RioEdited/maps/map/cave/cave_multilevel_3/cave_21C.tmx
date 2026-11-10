@@ -27,13 +27,13 @@
  <objectgroup id="4" name="Objects">
   <object id="66" template="../../../../../common/maps/obj/door_up.tx" x="303" y="958">
    <properties>
-    <property name="teleport" value="../common/maps/map/cave/cave_multilevel_3/cave_21B.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/cave/cave_multilevel_3/cave_21B.tmx" />
     <property name="teleportObjectId" value="67" />
    </properties>
   </object>
   <object id="67" template="../../../../../common/maps/obj/door_down.tx" x="207.333" y="18.3333">
    <properties>
-    <property name="teleport" value="../common/maps/map/cave/cave_multilevel_3/cave_21D.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/cave/cave_multilevel_3/cave_21D.tmx" />
     <property name="teleportObjectId" value="83" />
    </properties>
   </object>
@@ -52,7 +52,7 @@
   </object>
   <object id="77" template="../../../../../common/maps/obj/manashards.tx" x="206" y="239" />
   <object id="78" template="../../../../../common/maps/obj/manashards.tx" x="282" y="510" />
-  <object id="79" template="../../../../../common/maps/obj/booster.tx" x="352" y="296">
+  <object id="79" template="../../../obj/booster.tx" x="352" y="296">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

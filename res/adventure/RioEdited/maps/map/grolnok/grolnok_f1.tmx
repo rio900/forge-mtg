@@ -37,24 +37,14 @@
   </data>
  </layer>
  <objectgroup id="12" name="Objects" opacity="0.9">
-  <object id="140" template="../../../../common/maps/obj/treasure.tx" x="308.807" y="867.623">
+  <object id="140" template="../../obj/treasure.tx" x="308.807" y="867.623">
    <properties>
-    <property name="reward">[{
-  "type": "randomCard",
-  "count": 1,
-  "rarity": [ "rare", "mythic rare" ],
-  "colors": [ "colorID" ]
-},{
-  "type": "randomCard",
-  "count": 4,
-  "rarity": [ "uncommon" ],
-  "addMaxCount": 2
-}]</property>
+    <property name="reward">[{"type":"randomCard","count":1,"rarity":["Rare","Mythic Rare"],"colors":["colorID"]},{"type":"randomCard","count":4,"rarity":["Uncommon"],"addMaxCount":2}]</property>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
   <object id="166" template="../../../../common/maps/obj/manashards.tx" x="328.662" y="867.554" />
-  <object id="167" template="../../../../common/maps/obj/booster.tx" x="308.266" y="840.594">
+  <object id="167" template="../../obj/booster.tx" x="308.266" y="840.594">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -81,10 +71,10 @@
   <object id="170" template="../../../../common/maps/obj/door_down.tx" x="112.057" y="895.107" width="34.2466" height="35.0741" rotation="0.284412">
    <properties>
     <property name="direction" value="down" />
-    <property name="teleport" value="../common/maps/map/grolnok/grolnok.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/grolnok/grolnok.tmx" />
    </properties>
   </object>
-  <object id="177" template="../../../../common/maps/obj/booster.tx" x="334.782" y="845.759">
+  <object id="177" template="../../obj/booster.tx" x="334.782" y="845.759">
    <properties>
     <property name="reward">[
   {
@@ -187,7 +177,7 @@
   <object id="195" template="../../../../common/maps/obj/manashards.tx" x="161.333" y="480" />
   <object id="196" template="../../../../common/maps/obj/manashards.tx" x="138" y="332" />
   <object id="197" template="../../../../common/maps/obj/manashards.tx" x="429.333" y="102" />
-  <object id="198" template="../../../../common/maps/obj/booster.tx" x="97.3333" y="494">
+  <object id="198" template="../../obj/booster.tx" x="97.3333" y="494">
    <properties>
     <property name="reward">[
   {
@@ -212,7 +202,7 @@
 </property>
    </properties>
   </object>
-  <object id="199" template="../../../../common/maps/obj/booster.tx" x="50.6667" y="131.333">
+  <object id="199" template="../../obj/booster.tx" x="50.6667" y="131.333">
    <properties>
     <property name="reward">[
   {

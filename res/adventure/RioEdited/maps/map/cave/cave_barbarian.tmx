@@ -57,12 +57,12 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="61" template="../../../../common/maps/obj/booster.tx" x="263.027" y="45.7288">
+  <object id="61" template="../../obj/booster.tx" x="263.027" y="45.7288">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="62" template="../../../../common/maps/obj/treasure.tx" x="245.823" y="45.9936" />
+  <object id="62" template="../../obj/treasure.tx" x="245.823" y="45.9936" />
   <object id="63" template="../../../../common/maps/obj/enemy.tx" x="201.357" y="186.536">
    <properties>
     <property name="enemy" value="Cave Spider" />

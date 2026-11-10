@@ -28,7 +28,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="192.396" y="34.3787" />
+  <object id="48" template="../../obj/treasure.tx" x="192.396" y="34.3787" />
   <object id="49" template="../../../../common/maps/obj/gold.tx" x="355.065" y="66.2689" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="83.5746" y="135.792">
    <properties>
@@ -50,7 +50,7 @@
     <property name="waypoints" value="58,57" />
    </properties>
   </object>
-  <object id="55" template="../../../../common/maps/obj/booster.tx" x="298.194" y="34.0691">
+  <object id="55" template="../../obj/booster.tx" x="298.194" y="34.0691">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["blue"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["blue"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"colors":["blue"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

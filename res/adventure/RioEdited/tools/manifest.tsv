@@ -673,6 +673,10 @@ forge-adventure.png	копия Shandalar	Звук, локализация или
 languages/adventure-es-ES.properties	копия Shandalar	Звук, локализация или значок игрового плана
 languages/quests-es-ES.json	копия Shandalar	Звук, локализация или значок игрового плана
 maps/map/aerie/aerie_0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/aerie/aerie_1.tmx	новый	Маршрут и награды RioEdited
+maps/map/aerie/aerie_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/aerie/aerie_3.tmx	новый	Маршрут и награды RioEdited
+maps/map/aerie/aerie_4.tmx	новый	Маршрут и награды RioEdited
 maps/map/aerie/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/barbariancamp/barbariancamp_bandit.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/barbariancamp/barbariancamp_goblin.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -682,9 +686,11 @@ maps/map/barbariancamp/barbariancamp_kobold.tmx	новый	Локальные н
 maps/map/barbariancamp/barbariancamp_kobold_mine.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/barbariancamp/barbariancamp_orc.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/barbariancamp/kor_encampment.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/kor_encampment_sub.tmx	новый	Маршрут и награды RioEdited
 maps/map/barbariancamp/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/catlair/catlair_green_1_leonincamp.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/catlair/catlair_green_2_tigerforest.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/catlair/catlair_green_3_chimera.tmx	новый	Маршрут и награды RioEdited
 maps/map/catlair/catlair_white_1_lionden.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/catlair/catlair_white_2_leonincamp.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/catlair/catlair_white_3_temple.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -692,33 +698,79 @@ maps/map/cave/cave_amphin.tmx	новый	Локальные награды, сс
 maps/map/cave/cave_bandit.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/cave/cave_barbarian.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/cave/cave_bear.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_bigzombie.tmx	новый	Маршрут и награды RioEdited
 maps/map/cave/cave_bluewiz.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_cerodon.tmx	новый	Маршрут и награды RioEdited
 maps/map/cave/cave_devil.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/cave/cave_djinn.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_dwarf.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_eldrazi.tmx	новый	Маршрут и награды RioEdited
 maps/map/cave/cave_goblin.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_huge.tmx	новый	Маршрут и награды RioEdited
 maps/map/cave/cave_kavu.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_kobold.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_kobold_floor2.tmx	новый	Маршрут и награды RioEdited
 maps/map/cave/cave_merfolk.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/cave/cave_minotaur.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_multilevel/cave_16.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16B.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BL1.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BL2.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BL2D.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BL2U.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BR1.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BR2.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BR2D.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BR2U1.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BR2U2.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BR3.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16BR3U.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16C.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16CL.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel/cave_16D.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel_3/cave_21.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_multilevel_3/cave_21B.tmx	новый	Маршрут и награды RioEdited
 maps/map/cave/cave_multilevel_3/cave_21C.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/cave/cave_multilevel_3/cave_21D.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/cave/cave_orc.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/cave/cave_rat.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_skeleton.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_snake.tmx	новый	Маршрут и награды RioEdited
 maps/map/cave/cave_spider.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_treasure.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_zombie.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/cave_zombie_floor2.tmx	новый	Маршрут и награды RioEdited
+maps/map/cave/wastetown..tmx	новый	Маршрут и награды RioEdited
 maps/map/debug_map.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/demontower/portal_2.tmx	новый	Маршрут и награды RioEdited
 maps/map/demontower/portal_2B.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/demontower/portal_2C.tmx	новый	Маршрут и награды RioEdited
+maps/map/demontower/portal_2C2.tmx	новый	Маршрут и награды RioEdited
+maps/map/demontower/portal_2D.tmx	новый	Маршрут и награды RioEdited
+maps/map/demontower/portal_2E.tmx	новый	Маршрут и награды RioEdited
+maps/map/demontower/portal_2F.tmx	новый	Маршрут и награды RioEdited
+maps/map/demontower/portal_2G.tmx	новый	Маршрут и награды RioEdited
 maps/map/djinnpalace/djinnpalace_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/djinnpalace/djinnpalace_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/djinnpalace/djinnpalace_2B.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/djinnpalace/djinpalace_entrance.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/djinnpalace/wastetown..tmx	новый	Маршрут и награды RioEdited
+maps/map/emrakul/fortress_exterior.tmx	новый	Маршрут и награды RioEdited
+maps/map/emrakul/fortress_interior_0.tmx	новый	Маршрут и награды RioEdited
 maps/map/evilgrove/evilgrove_1_zombie.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/evilgrove/evilgrove_2_blackgolem.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/evilgrove/evilgrove_4_cursedforest.tmx	новый	Маршрут и награды RioEdited
 maps/map/evilgrove/evilgrove_5_swamp.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/evilgrove/evilgrove_7_dragon.tmx	новый	Маршрут и награды RioEdited
+maps/map/evilgrove/wastetown..tmx	новый	Маршрут и награды RioEdited
 maps/map/factory/factory_1_golems.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/factory/factory_2_ooze.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/factory/factory_3_wizard.tmx	новый	Маршрут и награды RioEdited
 maps/map/factory/factory_4_large.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_blue_1_pirate.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_blue_2_canyon.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_blue_3_factory.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_blue_4_clouds.tmx	новый	Маршрут и награды RioEdited
 maps/map/fort/fort_blue_5_temple.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_colorless_1_snow.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_colorless_2_wizards.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -726,16 +778,45 @@ maps/map/fort/fort_colorless_3_human.tmx	новый	Локальные нагр�
 maps/map/fort/fort_colorless_4_ooze.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_colorless_5_evil.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_colorless_6_study.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_7_multilevel.tmx	новый	Маршрут и награды RioEdited
+maps/map/fort/fort_colorless_7_multilevel2.tmx	новый	Маршрут и награды RioEdited
+maps/map/fort/fort_colorless_7_multilevel3.tmx	новый	Маршрут и награды RioEdited
 maps/map/fort/fort_colorless_7_multilevel4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_green_1_logcamp.tmx	новый	Маршрут и награды RioEdited
+maps/map/fort/fort_green_2_grove.tmx	новый	Маршрут и награды RioEdited
 maps/map/fort/fort_green_3_forestcastle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_green_4_scarecrowfarm.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_white_1_celestial.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_white_2_humans.tmx	новый	Маршрут и награды RioEdited
 maps/map/fort/fort_white_3_pharaoh.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/fort/fort_white_4_farm.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/wastetown..tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_boss.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_deer.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest10.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest11.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest12.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest13.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest2.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest3.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest4.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest6.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest7.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_forest9.tmx	новый	Маршрут и награды RioEdited
+maps/map/garruk/garruk_intro.tmx	новый	Маршрут и награды RioEdited
+maps/map/graveyard_crypt/crypt.tmx	новый	Маршрут и награды RioEdited
 maps/map/graveyard_crypt/crypt_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/graveyard_crypt/crypt_3.tmx	новый	Маршрут и награды RioEdited
 maps/map/graveyard_crypt/crypt_4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/graveyard_crypt/crypt_5.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/graveyard_crypt/graveyard.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/graveyard_crypt/graveyard_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/graveyard_crypt/graveyard_3.tmx	новый	Маршрут и награды RioEdited
+maps/map/graveyard_crypt/graveyard_4.tmx	новый	Маршрут и награды RioEdited
+maps/map/graveyard_crypt/graveyard_5.tmx	новый	Маршрут и награды RioEdited
+maps/map/graveyard_crypt/wastetown..tmx	новый	Маршрут и награды RioEdited
 maps/map/grolnok/grolnok.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grolnok/grolnok_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grove/grove_10_bamboo.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -743,17 +824,45 @@ maps/map/grove/grove_11_greendragon.tmx	новый	Локальные награ
 maps/map/grove/grove_12_faeriedragon.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grove/grove_1_bears.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grove/grove_2_wolf.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_3_dinosaur.tmx	новый	Маршрут и награды RioEdited
 maps/map/grove/grove_4_gorilla.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_5_foresttitan.tmx	новый	Маршрут и награды RioEdited
 maps/map/grove/grove_6_wizards.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grove/grove_7_snake.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grove/grove_8_hydra.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grove/grove_9_eldrazi.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/grove/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/hostiletown/elftown.tmx	новый	Маршрут и награды RioEdited
+maps/map/hostiletown/wastetown..tmx	новый	Маршрут и награды RioEdited
 maps/map/hostiletown/yule_town.tmx	новый	Карточные награды зимнего поселения
+maps/map/hostiletown/zombietown.tmx	новый	Маршрут и награды RioEdited
 maps/map/jacetower/jacehold.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/jacetower/portal_1.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1B.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1B2.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1B3.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1B4.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1G.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1G2.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1G3.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1G4.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1R.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1R2.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1R3.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1R4.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1U.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1U2.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1U3.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1U4.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1W.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1W2.tmx	новый	Маршрут и награды RioEdited
+maps/map/jacetower/portal_1W3.tmx	новый	Маршрут и награды RioEdited
 maps/map/lavaforge/lavaforge_1_sulfuricvortex.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/lavaforge/lavaforge_2_burningsands.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/lavaforge/lavaforge_3_vulcanodragon.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_10_crawlspace.tmx	новый	Маршрут и награды RioEdited
+maps/map/magetower/magetower_11_dreamhalls.tmx	новый	Маршрут и награды RioEdited
+maps/map/magetower/magetower_12_lichsmirror.tmx	новый	Маршрут и награды RioEdited
 maps/map/magetower/magetower_13_doppelganger.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/magetower/magetower_14_horrors.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/magetower/magetower_1_djinn.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -779,28 +888,48 @@ maps/map/main_story/castles/white_castle.tmx	новый	Локальные на�
 maps/map/main_story/castles/white_castle_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story/spawn.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story/temple_of_gideon/graveyard.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_gideon/keep.tmx	новый	Маршрут и награды RioEdited
 maps/map/main_story/temple_of_gideon/steppe.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story/temple_of_gideon/town.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story/temple_of_liliana/bog.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_liliana/forest.tmx	новый	Маршрут и награды RioEdited
 maps/map/main_story/temple_of_liliana/graveyard.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_liliana/keep.tmx	новый	Маршрут и награды RioEdited
 maps/map/main_story/temple_of_liliana/town.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story/templeofchandra.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story_defend/waste_town_abandoned.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story_explore/bandit_cave.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/dig_site_0.tmx	новый	Маршрут и награды RioEdited
 maps/map/main_story_explore/dig_site_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/dig_site_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/main_story_explore/frostbitten_cavern_0.tmx	новый	Маршрут и награды RioEdited
 maps/map/main_story_explore/frostbitten_cavern_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/library_of_varsil_0.tmx	новый	Маршрут и награды RioEdited
+maps/map/main_story_explore/library_of_varsil_1.tmx	новый	Маршрут и награды RioEdited
 maps/map/main_story_explore/library_of_varsil_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story_explore/library_of_varsil_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story_explore/library_of_varsil_4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story_explore/primal_jungle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/main_story_explore/shard_mines.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/maze/maze_1.tmx	новый	Маршрут и награды RioEdited
+maps/map/maze/maze_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/maze/maze_3.tmx	новый	Маршрут и награды RioEdited
+maps/map/maze/maze_4.tmx	новый	Маршрут и награды RioEdited
+maps/map/maze/wastetown..tmx	новый	Маршрут и награды RioEdited
 maps/map/merfolkpool/merfolkpool_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/merfolkpool/merfolkpool_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/merfolkpool/merfolkpool_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/merfolkpool/merfolkpool_4.tmx	новый	Маршрут и награды RioEdited
 maps/map/merfolkpool/merfolkpool_5.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/merfolkpool/merfolkpool_6.tmx	новый	Маршрут и награды RioEdited
+maps/map/merfolkpool/merfolkpool_6B.tmx	новый	Маршрут и награды RioEdited
+maps/map/minibosses/camelboss/cave_16B.tmx	новый	Маршрут и награды RioEdited
+maps/map/minibosses/camelboss/cave_16BL1.tmx	новый	Маршрут и награды RioEdited
+maps/map/minibosses/camelboss/entrance.tmx	новый	Маршрут и награды RioEdited
 maps/map/minibosses/kiora_island.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/minibosses/slime_hive.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/minibosses/slimefoot_boss.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/minibosses/slobad_factory.tmx	новый	Маршрут и награды RioEdited
 maps/map/minibosses/teferi.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/minibosses/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/minibosses/xira.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -811,9 +940,22 @@ maps/map/monastery/monastery_4.tmx	новый	Локальные награды,
 maps/map/monastery/monastery_5.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/monastery/unhallowed_abbey_1F.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/monastery/unhallowed_abbey_2F.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nahiri/cave_level1_11.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/cave_level1_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/cave_level1_3.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/cave_level1_5.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/cave_level2_1.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/cave_level2_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/cave_level3_1.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/cave_level3_2.tmx	новый	Маршрут и награды RioEdited
 maps/map/nahiri/cave_level_0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nahiri/nahiri.tmx	новый	Маршрут и награды RioEdited
+maps/map/nahiri/nahiri_entrance.tmx	новый	Маршрут и награды RioEdited
 maps/map/nahiri/nahiri_entrance_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/nahiri/nahiricave.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nahiri/wastetown..tmx	новый	Маршрут и награды RioEdited
+maps/map/naktamun/gym.tmx	новый	Маршрут и награды RioEdited
+maps/map/naktamun/naktamun.tmx	новый	Маршрут и награды RioEdited
 maps/map/nest/nest_blue_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/nest/nest_white_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/phyrexia/phyrexian_b1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -824,9 +966,16 @@ maps/map/phyrexia/phyrexian_w1.tmx	новый	Локальные награды,
 maps/map/skep/skep_outer.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/skep/sliverqueen.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/skullcave/skullcave_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/skullcave/skullcave_2.tmx	новый	Маршрут и награды RioEdited
 maps/map/skullcave/skullcave_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/snowabbey/snowabbey_1.tmx	новый	Маршрут и награды RioEdited
+maps/map/snowabbey/snowabbey_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/snowabbey/snowabbey_3.tmx	новый	Маршрут и награды RioEdited
+maps/map/snowabbey/wastetown..tmx	новый	Маршрут и награды RioEdited
+maps/map/tibalt/tibalt.tmx	новый	Маршрут и награды RioEdited
 maps/map/tibalt/tibalt_f0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/tibalt/tibalt_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/tibalt/tibalt_f2.tmx	новый	Маршрут и награды RioEdited
 maps/map/tibalt/tibalt_f3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/tibalt/tibalt_f4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/towns/forest_town.tmx	новый	Три торговые точки и одна таверна
@@ -854,6 +1003,9 @@ maps/map/towns/waste_town.tmx	новый	Три торговые точки и �
 maps/map/towns/waste_town_generic.tmx	новый	Три торговые точки и одна таверна
 maps/map/towns/waste_town_identity.tmx	новый	Три торговые точки и одна таверна
 maps/map/towns/waste_town_tribal.tmx	новый	Три торговые точки и одна таверна
+maps/map/vampirecastle/vampirecastle_1.tmx	новый	Маршрут и награды RioEdited
+maps/map/vampirecastle/vampirecastle_2.tmx	новый	Маршрут и награды RioEdited
+maps/map/vampirecastle/vampirecastle_3.tmx	новый	Маршрут и награды RioEdited
 maps/map/vampirecastle/vampirecastle_4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/vampirecastle/vampirecastle_4B.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/vampirecastle/vampirecastle_4C.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
@@ -865,8 +1017,11 @@ maps/map/zedruu/zedruu.tmx	новый	Локальные награды, ссы�
 maps/map/zedruu/zedruu_f0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/zedruu/zedruu_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
 maps/map/zedruu/zedruu_f2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/zedruu/zedruu_f3.tmx	новый	Маршрут и награды RioEdited
 maps/map/zedruu/zedruu_f4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/obj/booster.tx	новый	Маршрут и награды RioEdited
 maps/obj/scroll.tx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/obj/treasure.tx	новый	Маршрут и награды RioEdited
 tools/ExportCardIndex.java	новый	Экспорт правил и печатей Forge
 tools/README.md	новый	Запуск и обслуживание
 tools/Starts.java	новый	Проверка стартов в Forge

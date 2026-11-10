@@ -36,7 +36,7 @@
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="208.667" y="225.21">
    <properties>
     <property name="direction" value="up" />
-    <property name="teleport" value="../common/maps/map/djinnpalace/djinnpalace_2.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/djinnpalace/djinnpalace_2.tmx" />
    </properties>
   </object>
   <object id="73" template="../../../../common/maps/obj/enemy.tx" x="206.712" y="152.781">
@@ -53,13 +53,13 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="74" template="../../../../common/maps/obj/treasure.tx" x="206.037" y="135.253" />
-  <object id="75" template="../../../../common/maps/obj/booster.tx" x="189.184" y="118.4">
+  <object id="74" template="../../obj/treasure.tx" x="206.037" y="135.253" />
+  <object id="75" template="../../obj/booster.tx" x="189.184" y="118.4">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="76" template="../../../../common/maps/obj/booster.tx" x="219.52" y="118.063">
+  <object id="76" template="../../obj/booster.tx" x="219.52" y="118.063">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

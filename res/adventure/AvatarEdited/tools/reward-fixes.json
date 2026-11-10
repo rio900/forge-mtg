@@ -1,0 +1,605 @@
+{
+  "{\"addMaxCount\": 10, \"cardText\": \"Insect\", \"count\": 5, \"probability\": 1, \"rarity\": [\"Rare\", \"Mythic Rare\", \"Uncommon\"], \"type\": \"card\"}": {
+    "addMaxCount": 10,
+    "count": 5,
+    "probability": 1,
+    "rarity": [
+      "Rare",
+      "Mythic Rare",
+      "Uncommon"
+    ],
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"addMaxCount\": 10, \"count\": 10, \"probability\": 1, \"subTypes\": [\"Fungus\"], \"type\": \"card\"}": {
+    "addMaxCount": 10,
+    "count": 10,
+    "probability": 1,
+    "subTypes": [
+      "Bear"
+    ],
+    "type": "card"
+  },
+  "{\"addMaxCount\": 5, \"cardTypes\": [\"Creature\"], \"colors\": [\"Black\"], \"count\": 1, \"probability\": 1, \"rarity\": [\"Common\", \"Rare\", \"Uncommon\"], \"subTypes\": [\"Skeleton\"], \"type\": \"card\"}": {
+    "addMaxCount": 5,
+    "colors": [
+      "Black"
+    ],
+    "count": 1,
+    "probability": 1,
+    "rarity": [
+      "Common",
+      "Rare",
+      "Uncommon"
+    ],
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardText\": \"courier\", \"count\": 1, \"rarity\": [\"Common\", \"Uncommon\"], \"type\": \"card\"}": {
+    "count": 1,
+    "rarity": [
+      "Common",
+      "Uncommon"
+    ],
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Golem\"]}, {\"cardText\": \"Golem\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Construct"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Zombie\"]}, {\"cardText\": \"Zombie\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Soldier"
+    ],
+    "type": "card"
+  },
+  "{\"colors\": [\"Black\"], \"count\": 5, \"subTypes\": [\"Vampire\"], \"type\": \"randomCard\"}": {
+    "colors": [
+      "Black"
+    ],
+    "count": 5,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"colors\": [\"Blue\"], \"count\": 1, \"rarity\": [\"Uncommon\", \"Common\"], \"subTypes\": [\"Illusion\"], \"type\": \"card\"}": {
+    "colors": [
+      "Blue"
+    ],
+    "count": 1,
+    "rarity": [
+      "Uncommon",
+      "Common"
+    ],
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 1, \"subTypes\": [\"Skeleton\"], \"type\": \"card\"}": {
+    "count": 1,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 5, \"subTypes\": [\"Zombie\"], \"type\": \"randomCard\"}": {
+    "count": 5,
+    "subTypes": [
+      "Soldier"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 8, \"subTypes\": [\"Zombie\"], \"type\": \"randomCard\"}": {
+    "count": 8,
+    "subTypes": [
+      "Soldier"
+    ],
+    "type": "card"
+  },
+  "{\"cardText\": \"Prevent.*Damage\", \"colors\": [\"white\"], \"count\": 6}": {
+    "colors": [
+      "white"
+    ],
+    "count": 6,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 2, \"subTypes\": [\"Eldrazi\"]}": {
+    "count": 2,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"colorType\": \"MultiColor\", \"colors\": [\"red\", \"green\", \"black\"], \"count\": 4, \"matchAllColors\": \"true\"}": {
+    "count": 4,
+    "colorType": "MultiColor",
+    "type": "card"
+  },
+  "{\"colorType\": \"MultiColor\", \"colors\": [\"blue\", \"green\", \"black\"], \"count\": 4, \"matchAllColors\": \"true\"}": {
+    "count": 4,
+    "colorType": "MultiColor",
+    "type": "card"
+  },
+  "{\"colorType\": \"MultiColor\", \"colors\": [\"blue\", \"white\", \"black\"], \"count\": 4, \"matchAllColors\": \"true\"}": {
+    "count": 4,
+    "colorType": "MultiColor",
+    "type": "card"
+  },
+  "{\"colorType\": \"MultiColor\", \"colors\": [\"green\", \"white\", \"black\"], \"count\": 4, \"matchAllColors\": \"true\"}": {
+    "count": 4,
+    "colorType": "MultiColor",
+    "type": "card"
+  },
+  "{\"colorType\": \"MultiColor\", \"colors\": [\"blue\", \"green\", \"red\", \"white\", \"black\"], \"count\": 8, \"matchAllColors\": \"true\"}": {
+    "count": 8,
+    "colorType": "MultiColor",
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Merfolk\"]}, {\"cardText\": \"Merfolk\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Ally"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Faerie\"]}, {\"cardText\": \"Faerie\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Ninja\"]}, {\"cardText\": \"Ninja\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Rogue"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Zombie\"]}, {\"cardText\": \"Zombie\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Soldier"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 8, \"subTypes\": [\"Angel\"]}": {
+    "count": 8,
+    "subTypes": [
+      "Bird"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 8, \"subTypes\": [\"Golem\"]}": {
+    "count": 8,
+    "subTypes": [
+      "Construct"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 4, \"subTypes\": [\"Ninja\"]}": {
+    "count": 4,
+    "subTypes": [
+      "Rogue"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Vampire\"]}, {\"cardText\": \"Vampire\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"green\"], \"count\": 1, \"subTypes\": [\"Vehicle\"]}, {\"cardText\": \"Vehicle\", \"colors\": [\"green\"], \"count\": 1}, {\"cardText\": \"Pilot\", \"colors\": [\"green\"], \"count\": 1}], \"count\": 2, \"type\": \"Union\"}": {
+    "count": 2,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Minotaur\"]}, {\"cardText\": \"Minotaur\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Ogre\"]}, {\"cardText\": \"Ogre\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Ogre\"]}, {\"cardText\": \"Ogre\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"red\"], \"count\": 1, \"subTypes\": [\"Ogre\"]}, {\"cardText\": \"Ogre\", \"colors\": [\"red\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Dinosaur\"]}, {\"cardText\": \"Dinosaur\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Dinosaur\"]}, {\"cardText\": \"Dinosaur\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"green\"], \"count\": 1, \"subTypes\": [\"Dinosaur\"]}, {\"cardText\": \"Dinosaur\", \"colors\": [\"green\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"red\"], \"count\": 1, \"subTypes\": [\"Dinosaur\"]}, {\"cardText\": \"Dinosaur\", \"colors\": [\"red\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Dwarf\"]}, {\"cardText\": \"Dwarf\", \"count\": 1}, {\"cardText\": \"Dwarves\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Devil\"]}, {\"cardText\": \"Devil\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Spirit"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"cardText\": \"\\\\Q{\\\\EB\\\\Q}\\\\E\", \"cardTypes\": [\"Artifact\"], \"count\": 1}, {\"cardText\": \"Black\", \"cardTypes\": [\"Artifact\"], \"count\": 1}], \"count\": 2, \"type\": \"Union\"}": {
+    "count": 2,
+    "cardTypes": [
+      "Artifact"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"cardText\": \"\\\\Q{\\\\EB\\\\Q}\\\\E\", \"cardTypes\": [\"Artifact\"], \"count\": 1}, {\"cardText\": \"Black\", \"cardTypes\": [\"Artifact\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Artifact"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"cardText\": \"\\\\Q{\\\\EU\\\\Q}\\\\E\", \"cardTypes\": [\"Artifact\"], \"count\": 1}, {\"cardText\": \"Blue\", \"cardTypes\": [\"Artifact\"], \"count\": 1}], \"count\": 2, \"type\": \"Union\"}": {
+    "count": 2,
+    "cardTypes": [
+      "Artifact"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"cardText\": \"\\\\Q{\\\\EU\\\\Q}\\\\E\", \"cardTypes\": [\"Artifact\"], \"count\": 1}, {\"cardText\": \"Blue\", \"cardTypes\": [\"Artifact\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Artifact"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"cardText\": \"Monarch\", \"count\": 4}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Giant\"]}, {\"cardText\": \"Giant\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Beast"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 2, \"subTypes\": [\"Kraken\"]}": {
+    "count": 2,
+    "subTypes": [
+      "Serpent"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 2, \"subTypes\": [\"Leviathan\"]}": {
+    "count": 2,
+    "subTypes": [
+      "Serpent"
+    ],
+    "type": "card"
+  },
+  "{\"cardText\": \"Flip it\", \"count\": 1}": {
+    "count": 1,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Battle\"], \"count\": 8}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"green\"], \"count\": 1, \"subTypes\": [\"Wolf\", \"Werewolf\"]}, {\"cardText\": \"Wolf\", \"colors\": [\"red\"], \"count\": 1}, {\"cardText\": \"Werewolf\", \"colors\": [\"green\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"red\"], \"count\": 1, \"subTypes\": [\"Wolf\", \"Werewolf\"]}, {\"cardText\": \"Wolf\", \"colors\": [\"red\"], \"count\": 1}, {\"cardText\": \"Werewolf\", \"colors\": [\"red\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Knight\"]}, {\"cardText\": \"Knight\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Knight\"]}, {\"cardText\": \"Knight\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"black\"], \"count\": 1, \"subTypes\": [\"Knight\"]}, {\"cardText\": \"Knight\", \"colors\": [\"black\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"red\"], \"count\": 1, \"subTypes\": [\"Knight\"]}, {\"cardText\": \"Knight\", \"colors\": [\"red\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"white\"], \"count\": 1, \"subTypes\": [\"Knight\"]}, {\"cardText\": \"Knight\", \"colors\": [\"white\"], \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Warrior"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Planeswalker\"], \"count\": 8}": {
+    "count": 8,
+    "superTypes": [
+      "Legendary"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Planeswalker\"], \"count\": 4}": {
+    "count": 4,
+    "superTypes": [
+      "Legendary"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Planeswalker\"], \"colors\": [\"black\"], \"count\": 4}": {
+    "colors": [
+      "black"
+    ],
+    "count": 4,
+    "superTypes": [
+      "Legendary"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Planeswalker\"], \"colors\": [\"blue\"], \"count\": 4}": {
+    "colors": [
+      "blue"
+    ],
+    "count": 4,
+    "superTypes": [
+      "Legendary"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Planeswalker\"], \"colors\": [\"green\"], \"count\": 4}": {
+    "colors": [
+      "green"
+    ],
+    "count": 4,
+    "superTypes": [
+      "Legendary"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Planeswalker\"], \"colors\": [\"red\"], \"count\": 4}": {
+    "colors": [
+      "red"
+    ],
+    "count": 4,
+    "superTypes": [
+      "Legendary"
+    ],
+    "type": "card"
+  },
+  "{\"cardTypes\": [\"Planeswalker\"], \"colors\": [\"white\"], \"count\": 4}": {
+    "colors": [
+      "white"
+    ],
+    "count": 4,
+    "superTypes": [
+      "Legendary"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Skeleton\"]}, {\"cardText\": \"Skeleton\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Sphinx\"]}, {\"cardText\": \"Sphinx\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Bird"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Hydra\"]}, {\"cardText\": \"Hydra\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"God\"]}, {\"cardText\": \"\\\\bGods?\\\\b\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "subTypes": [
+      "Spirit"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Demigod\"]}, {\"cardText\": \"Demigod\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Horror\"]}, {\"cardText\": \"Horror\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Mutant\"]}, {\"cardText\": \"Mutant\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"cardText\": \"Mutate\", \"count\": 1}], \"count\": 4, \"type\": \"Union\"}": {
+    "count": 4,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"count\": 1, \"subTypes\": [\"Shaman\"]}, {\"cardText\": \"Shaman\", \"count\": 1}], \"count\": 8, \"type\": \"Union\"}": {
+    "count": 8,
+    "subTypes": [
+      "Monk"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"white\"], \"count\": 1, \"subTypes\": [\"Phyrexian\"]}, {\"cardText\": \"infect|oil|proliferate|incubate|toxic|corrupted|phyrexian|poison|living weapon|compleated\", \"colors\": [\"white\"], \"count\": 1}], \"count\": 5, \"type\": \"Union\"}": {
+    "count": 5,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"blue\"], \"count\": 1, \"subTypes\": [\"Phyrexian\"]}, {\"cardText\": \"infect|oil|proliferate|incubate|toxic|corrupted|phyrexian|poison|living weapon|compleated\", \"colors\": [\"blue\"], \"count\": 1}], \"count\": 5, \"type\": \"Union\"}": {
+    "count": 5,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"green\"], \"count\": 1, \"subTypes\": [\"Phyrexian\"]}, {\"cardText\": \"infect|oil|proliferate|incubate|toxic|corrupted|phyrexian|poison|living weapon|compleated\", \"colors\": [\"green\"], \"count\": 1}], \"count\": 5, \"type\": \"Union\"}": {
+    "count": 5,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"red\"], \"count\": 1, \"subTypes\": [\"Phyrexian\"]}, {\"cardText\": \"infect|oil|proliferate|incubate|toxic|corrupted|phyrexian|poison|living weapon|for mirrodin|compleated\", \"colors\": [\"red\"], \"count\": 1}], \"count\": 5, \"type\": \"Union\"}": {
+    "count": 5,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"cardUnion\": [{\"colors\": [\"black\"], \"count\": 1, \"subTypes\": [\"Phyrexian\"]}, {\"cardText\": \"infect|oil|proliferate|incubate|toxic|corrupted|phyrexian|poison|living weapon|compleated\", \"colors\": [\"black\"], \"count\": 1}], \"count\": 5, \"type\": \"Union\"}": {
+    "count": 5,
+    "cardTypes": [
+      "Creature"
+    ],
+    "type": "card"
+  },
+  "{\"count\": 1, \"subTypes\": [\"Chandra\"]}": {
+    "count": 1,
+    "cardName": "Zuko, Firebending Master|TLE"
+  },
+  "{\"cardText\": \"Chandra\", \"colors\": [\"red\"], \"count\": 1, \"superTypes\": [\"Legend\", \"Legendary\"]}": {
+    "count": 1,
+    "cardName": "Azula, Ruthless Firebender|TLE"
+  },
+  "{\"count\": 1, \"subTypes\": [\"Liliana\"]}": {
+    "count": 1,
+    "cardName": "Koh, the Face Stealer|TLA"
+  },
+  "{\"cardText\": \"Liliana\", \"colors\": [\"black\"], \"count\": 1, \"superTypes\": [\"Legend\", \"Legendary\"]}": {
+    "count": 1,
+    "cardName": "June, Bounty Hunter|TLA"
+  },
+  "{\"colors\": [\"Colorless\"], \"count\": 1, \"editions\": [\"TLA\", \"TLE\"], \"rarity\": [\"Rare\", \"Mythic Rare\"], \"type\": \"Green\"}": {
+    "type": "card",
+    "count": 1,
+    "colors": [
+      "Green"
+    ],
+    "rarity": [
+      "Rare",
+      "Mythic Rare"
+    ],
+    "editions": [
+      "TLA",
+      "TLE"
+    ]
+  },
+  "{\"count\": 1, \"subTypes\": [\"Demon\"]}": {
+    "count": 1,
+    "subTypes": [
+      "Spirit"
+    ]
+  }
+}

@@ -40,7 +40,7 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="364.75" y="179.333" />
+  <object id="51" template="../../obj/treasure.tx" x="364.75" y="179.333" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="431.75" y="204">
    <properties>
     <property name="enemy" value="Yeti" />
@@ -69,7 +69,7 @@
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="63" template="../../../../common/maps/obj/booster.tx" x="97.5" y="334.75">
+  <object id="63" template="../../obj/booster.tx" x="97.5" y="334.75">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

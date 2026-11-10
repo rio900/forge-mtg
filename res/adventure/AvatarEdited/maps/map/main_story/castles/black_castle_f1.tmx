@@ -1,0 +1,76 @@
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="61">
+ <editorsettings>
+  <export target="wastetown..tmx" format="tmx" />
+ </editorsettings>
+ <properties>
+  <property name="dungeonEffect">{"startBattleWithCardInCommandZone": [ "Griselbrand's Presence" ]
+}</property>
+ </properties>
+ <tileset firstgid="1" source="../../../../../common/maps/tileset/main.tsx" />
+ <tileset firstgid="10113" source="../../../../../common/maps/tileset/buildings.tsx" />
+ <tileset firstgid="11905" source="../../../../../common/maps/tileset/dungeon/dungeon_bis.tsx" />
+ <tileset firstgid="28289" source="../../../../../Innistrad/maps/tileset/Inn_Dungeon.tsx" />
+ <tileset firstgid="32769" source="../../../../../Innistrad/maps/tileset/INN_dungen_crawler_tileset.tsx" />
+ <layer id="1" name="Background" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJx7VM7A8GgI4WmcEEwve7DhUXtH7aW2/fSwE91eetlJD6xUMfBuGMWjeBSP4lE8ikGY1DpptA6jHk5TZGBIB+IMxVF7ScEA1IuTkw==
+  </data>
+ </layer>
+ <layer id="2" name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxz5mNgcB7Fo3gUj2IKsRsQPwHixzjoJwTkXcm01wWI0UENL6YYLnEnCu09ocDAcJIEfEqBOvamKTIwpJOAMxRH7R21d9TeUXsHxl4WJQYGVjR8VgFixxkFTDk2JerYiw2kofkNGxi1lzi8AlinLsWBke3FpWY5L3n2EgoLkL3k+mmk2gsAydQ7lQ==
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAL6g+LVDAwlq+lv72egnV8GwF5qAv4uBgaBLvrb2w+0cwIWe+t46e8WdIAcJvR0D64wGS6AvwEYrg30sw8Wd/1AOyfQ0V5sAFs6+mvMwPDPmP5uqTUBuseE/vaOglFALlgGzT9LBkH9MAoIAwDOFxbZ
+  </data>
+ </layer>
+ <layer id="5" name="AboveSprites" width="30" height="30">
+  <properties>
+   <property name="spriteLayer" type="bool" value="true" />
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Objects">
+  <object id="50" template="../../../../../common/maps/obj/enemy.tx" x="200.965" y="278.13" width="32" height="32">
+   <properties>
+    <property name="defeatDialog">[{
+   "condition": [{"checkQuestFlag": "Ch1CastlesComplete", "not":true}],
+   "text": "As you land your final blow against Griselbrand, you feel a significant pulse of mana.",
+   "loctext": "adv.main_story_castles_black_castle_f1.50.x.n0.text",
+   "options": [{
+      "name": "(Continue)",
+      "locname": "adv.shared.continue_paren", 
+      "action": [{"setQuestFlag": {"key":"Ch1BlackCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
+   }]
+},
+{
+   "condition": [{"checkQuestFlag": "Ch1CastlesComplete"}],
+   "text": "As you land your final blow against Griselbrand, you feel another pulse of mana.",
+   "loctext": "adv.main_story_castles_black_castle_f1.50.x.n2.text",
+   "options": [{
+      "name": "(Continue)",
+      "locname": "adv.shared.continue_paren", 
+      "action": [{"setQuestFlag": {"key":"Ch1BlackCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
+   }]
+}]</property>
+    <property name="effect">{
+ "startBattleWithCard": [ "Mox Jet" ]
+}</property>
+    <property name="enemy" value="Griselbrand" />
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Basilisk Collar"},{"type":"item","probability":0.1,"count":1,"itemName":"Evil Ankh"},{"type":"cardPackShop","probability":0.1,"count":4,"editions":["TLA"]},{"type":"cardPackShop","probability":0.1,"count":4,"editions":["TLA"]},{"type":"item","probability":0.3,"count":1,"itemName":"Staff of the Demoncaller"}]</property>
+    <property name="threatRange" type="int" value="50" />
+   </properties>
+  </object>
+  <object id="51" template="../../../../../common/maps/obj/entry_up.tx" x="209" y="480">
+   <properties>
+    <property name="teleport" value="" />
+   </properties>
+  </object>
+  <object id="59" template="../../../../../common/maps/obj/collision.tx" x="304.524" y="305.109" width="24.4521" height="25.3043" />
+  <object id="60" template="../../../../../common/maps/obj/collision.tx" x="274.184" y="147.543" width="24.4521" height="25.3043" />
+ </objectgroup>
+</map>

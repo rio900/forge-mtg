@@ -36,9 +36,9 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="207.333" y="58.8333">
+  <object id="48" template="../../obj/treasure.tx" x="207.333" y="58.8333">
    <properties>
-    <property name="reward">[{"type":"randomCard","colors":["Blue"],"count":5},{"type":"item","count":1,"probability":0.2,"itemName":"Iron Armor"},{"type":"card","probability":1,"count":1,"cardName":"The Celestus|MID"}]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Blue"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Iron Armor"},{"type":"card","probability":1,"count":1,"cardName":"The Celestus|MID","editions":["MID"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
     <property name="spawn.Normal" type="bool" value="true" />
    </properties>
   </object>
@@ -57,7 +57,7 @@
    </properties>
   </object>
   <object id="62" template="../../../../common/maps/obj/gold.tx" x="283" y="237" />
-  <object id="64" template="../../../../common/maps/obj/booster.tx" x="312.5" y="167.5">
+  <object id="64" template="../../obj/booster.tx" x="312.5" y="167.5">
    <properties>
     <property name="reward">[
   {

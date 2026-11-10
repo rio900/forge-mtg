@@ -55,8 +55,8 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="55" template="../../../../common/maps/obj/treasure.tx" x="63.2413" y="45.158" />
-  <object id="64" template="../../../../common/maps/obj/treasure.tx" x="225.969" y="32.1053" />
+  <object id="55" template="../../obj/treasure.tx" x="63.2413" y="45.158" />
+  <object id="64" template="../../obj/treasure.tx" x="225.969" y="32.1053" />
   <object id="56" template="../../../../common/maps/obj/enemy.tx" x="157.832" y="107.862" width="16" height="16">
    <properties>
     <property name="effect">{ "startBattleWithCardInCommandZone": [ "Kiora's Boss Effect"]
@@ -104,7 +104,7 @@
   <object id="77" template="../../../../common/maps/obj/manashards.tx" x="472.877" y="128.357" />
   <object id="78" template="../../../../common/maps/obj/manashards.tx" x="96.6957" y="112.769" />
   <object id="79" template="../../../../common/maps/obj/manashards.tx" x="94.0067" y="398.498" />
-  <object id="80" template="../../../../common/maps/obj/booster.tx" x="887.515" y="144.246">
+  <object id="80" template="../../obj/booster.tx" x="887.515" y="144.246">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

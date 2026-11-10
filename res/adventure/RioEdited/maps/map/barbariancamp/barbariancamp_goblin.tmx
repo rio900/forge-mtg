@@ -34,22 +34,9 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="15" y="75.75">
+  <object id="48" template="../../obj/treasure.tx" x="15" y="75.75">
    <properties>
-    <property name="reward">[
-	{
-		"type": "randomCard",
-		"colors": [ "Red" ],
-		"subTypes": [ "Goblin" ],
-		"count": 5
-	},
-	{
-		"type": "item",
-		"count": 1,
-		"probability": 0.2,
-		"itemName": "Battle Standard"
-	}
-]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Red"],"subTypes":["Goblin"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Battle Standard"}]</property>
    </properties>
   </object>
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="323.5" y="177.5">
@@ -59,7 +46,7 @@
     <property name="waypoints" value="64,71,61,71,64" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="432.333" y="59.3333" />
+  <object id="51" template="../../obj/treasure.tx" x="432.333" y="59.3333" />
   <object id="52" template="../../../../common/maps/obj/gold.tx" x="402.583" y="257.75" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="54.333" y="146.667">
    <properties>
@@ -113,7 +100,7 @@
   <object id="64" template="../../../../common/maps/obj/waypoint.tx" x="324.5" y="217" />
   <object id="65" template="../../../../common/maps/obj/waypoint.tx" x="64" y="208" />
   <object id="66" template="../../../../common/maps/obj/waypoint.tx" x="83.5" y="70.5" />
-  <object id="67" template="../../../../common/maps/obj/booster.tx" x="192.5" y="140">
+  <object id="67" template="../../obj/booster.tx" x="192.5" y="140">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

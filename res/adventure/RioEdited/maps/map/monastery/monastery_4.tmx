@@ -33,14 +33,14 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="279.5" y="375" />
+  <object id="48" template="../../obj/treasure.tx" x="279.5" y="375" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="159.006" y="286.459">
    <properties>
     <property name="enemy" value="Cleric" />
     <property name="threatRange" type="int" value="40" />
    </properties>
   </object>
-  <object id="51" template="../../../../common/maps/obj/treasure.tx" x="216.171" y="122.719" />
+  <object id="51" template="../../obj/treasure.tx" x="216.171" y="122.719" />
   <object id="52" template="../../../../common/maps/obj/gold.tx" x="152.5" y="374.5" />
   <object id="53" template="../../../../common/maps/obj/enemy.tx" x="214.827" y="151.762">
    <properties>
@@ -53,7 +53,7 @@
     <property name="threatRange" type="int" value="20" />
    </properties>
   </object>
-  <object id="57" template="../../../../common/maps/obj/booster.tx" x="127.641" y="236.154">
+  <object id="57" template="../../obj/booster.tx" x="127.641" y="236.154">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"colors":["white"],"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"colors":["white"],"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":1,"colors":["white"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>

@@ -69,14 +69,14 @@
   </object>
   <object id="67" template="../../../../common/maps/obj/manashards.tx" x="391.704" y="112.414" />
   <object id="68" template="../../../../common/maps/obj/manashards.tx" x="56.7929" y="81.0533" />
-  <object id="69" template="../../../../common/maps/obj/booster.tx" x="415.669" y="337.266">
+  <object id="69" template="../../obj/booster.tx" x="415.669" y="337.266">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="70" template="../../../../common/maps/obj/gold.tx" x="202.355" y="78.0947" />
-  <object id="71" template="../../../../common/maps/obj/treasure.tx" x="401.172" y="59.4556" />
-  <object id="72" template="../../../../common/maps/obj/treasure.tx" x="89.6331" y="267.74" />
+  <object id="71" template="../../obj/treasure.tx" x="401.172" y="59.4556" />
+  <object id="72" template="../../obj/treasure.tx" x="89.6331" y="267.74" />
   <object id="73" template="../../../../common/maps/obj/enemy.tx" x="105.314" y="300.876">
    <properties>
     <property name="enemy" value="Devil" />

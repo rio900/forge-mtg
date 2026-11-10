@@ -1,0 +1,712 @@
+edition	name	collector_number	art_index	rarity	color_identity_mask	type
+TLA	Aang's Iceberg	336	2	R	1	Enchantment
+TLA	Aang's Iceberg	5	1	R	1	Enchantment
+TLA	Aang's Journey	1	1	C	0	Sorcery - Lesson
+TLA	Aang, Swift Savior	204	1	R	3	Legendary Creature - Human Avatar Ally
+TLA	Aang, Swift Savior	298	2	R	3	Legendary Creature - Human Avatar Ally
+TLA	Aang, Swift Savior	347	3	R	3	Legendary Creature - Human Avatar Ally
+TLA	Aang, Swift Savior	359	4	R	3	Legendary Creature - Human Avatar Ally
+TLA	Aang, at the Crossroads	203	1	R	19	Legendary Creature - Human Avatar Ally
+TLA	Aang, at the Crossroads	304	2	R	19	Legendary Creature - Human Avatar Ally
+TLA	Aang, at the Crossroads	346	3	R	19	Legendary Creature - Human Avatar Ally
+TLA	Aang, the Last Airbender	4	1	U	1	Legendary Creature - Human Avatar Ally
+TLA	Abandon Attachments	205	1	C	10	Instant - Lesson
+TLA	Abandoned Air Temple	263	1	R	1	Land
+TLA	Abandoned Air Temple	386	2	R	1	Land
+TLA	Accumulate Wisdom	44	1	U	2	Instant - Lesson
+TLA	Agna Qel'a	264	1	R	2	Land
+TLA	Agna Qel'a	387	2	R	2	Land
+TLA	Air Nomad Legacy	206	1	U	3	Enchantment
+TLA	Airbender Ascension	364	2	R	1	Enchantment
+TLA	Airbender Ascension	6	1	R	1	Enchantment
+TLA	Airbender's Reversal	7	1	U	1	Instant - Lesson
+TLA	Airbending Lesson	8	1	C	1	Instant - Lesson
+TLA	Airship Engine Room	265	1	L	10	Land
+TLA	Allies at Last	164	1	U	16	Instant
+TLA	Appa, Loyal Sky Bison	9	1	U	1	Legendary Creature - Bison Ally
+TLA	Appa, Steadfast Guardian	10	1	M	1	Legendary Creature - Bison Ally
+TLA	Appa, Steadfast Guardian	316	2	M	1	Legendary Creature - Bison Ally
+TLA	Avatar Aang	207	1	M	31	Legendary Creature - Human Avatar Ally
+TLA	Avatar Aang	308	2	M	31	Legendary Creature - Human Avatar Ally
+TLA	Avatar Aang	363	3	M	31	Legendary Creature - Human Avatar Ally
+TLA	Avatar Destiny	165	1	R	16	Enchantment - Aura
+TLA	Avatar Destiny	333	2	R	16	Enchantment - Aura
+TLA	Avatar Enthusiasts	11	1	C	1	Creature - Human Peasant Ally
+TLA	Avatar's Wrath	12	1	R	1	Sorcery
+TLA	Avatar's Wrath	365	2	R	1	Sorcery
+TLA	Azula Always Lies	84	1	C	4	Instant - Lesson
+TLA	Azula, Cunning Usurper	208	1	R	6	Legendary Creature - Human Noble Rogue
+TLA	Azula, Cunning Usurper	303	2	R	6	Legendary Creature - Human Noble Rogue
+TLA	Azula, On the Hunt	85	1	U	4	Legendary Creature - Human Noble
+TLA	Ba Sing Se	266	1	R	16	Land
+TLA	Ba Sing Se	388	2	R	16	Land
+TLA	Badgermole	166	1	C	16	Creature - Badger Mole
+TLA	Badgermole Cub	167	1	M	16	Creature - Badger Mole
+TLA	Badgermole Cub	326	2	M	16	Creature - Badger Mole
+TLA	Barrels of Blasting Jelly	254	1	C	0	Artifact
+TLA	Beetle-Headed Merchants	86	1	C	4	Creature - Human Citizen
+TLA	Beifong's Bounty Hunters	209	1	R	20	Creature - Human Mercenary
+TLA	Beifong's Bounty Hunters	379	2	R	20	Creature - Human Mercenary
+TLA	Bender's Waterskin	255	1	C	0	Artifact
+TLA	Benevolent River Spirit	45	1	U	2	Creature - Spirit
+TLA	Bitter Work	210	1	U	24	Enchantment
+TLA	Boar-q-pine	124	1	C	8	Creature - Boar Porcupine
+TLA	Boiling Rock Prison	267	1	L	12	Land
+TLA	Boiling Rock Rioter	372	2	R	4	Creature - Human Rogue Ally
+TLA	Boiling Rock Rioter	87	1	R	4	Creature - Human Rogue Ally
+TLA	Boomerang Basics	46	1	U	2	Sorcery - Lesson
+TLA	Bumi Bash	125	1	C	8	Sorcery
+TLA	Bumi, King of Three Trials	169	1	U	16	Legendary Creature - Human Noble Ally
+TLA	Bumi, Unleashed	211	1	M	24	Legendary Creature - Human Noble Ally
+TLA	Bumi, Unleashed	348	2	M	24	Legendary Creature - Human Noble Ally
+TLA	Buzzard-Wasp Colony	88	1	U	4	Creature - Bird Insect
+TLA	Callous Inspector	89	1	C	4	Creature - Human Soldier
+TLA	Canyon Crawler	90	1	C	4	Creature - Spider Beast
+TLA	Cat-Gator	91	1	U	4	Creature - Fish Crocodile
+TLA	Cat-Owl	212	1	C	3	Creature - Cat Bird
+TLA	Combustion Man	127	1	U	8	Legendary Creature - Human Assassin
+TLA	Combustion Technique	128	1	U	8	Instant - Lesson
+TLA	Combustion Technique	301	2	U	8	Instant - Lesson
+TLA	Compassionate Healer	13	1	C	1	Creature - Human Cleric Ally
+TLA	Corrupt Court Official	92	1	C	4	Creature - Human Advisor
+TLA	Crashing Wave	300	2	U	2	Sorcery
+TLA	Crashing Wave	47	1	U	2	Sorcery
+TLA	Crescent Island Temple	129	1	U	8	Legendary Enchantment - Shrine
+TLA	Cruel Administrator	213	1	U	12	Creature - Human Soldier
+TLA	Cunning Maneuver	130	1	C	8	Instant
+TLA	Curious Farm Animals	14	1	C	1	Creature - Boar Elk Bird Ox
+TLA	Cycle of Renewal	170	1	C	16	Instant - Lesson
+TLA	Dai Li Agents	214	1	U	20	Creature - Human Soldier
+TLA	Dai Li Agents	306	2	U	20	Creature - Human Soldier
+TLA	Dai Li Indoctrination	93	1	C	4	Sorcery - Lesson
+TLA	Day of Black Sun	373	2	R	4	Sorcery
+TLA	Day of Black Sun	94	1	R	4	Sorcery
+TLA	Deadly Precision	95	1	C	4	Sorcery
+TLA	Deserter's Disciple	131	1	C	8	Creature - Human Rebel Ally
+TLA	Destined Confrontation	15	1	U	1	Sorcery
+TLA	Diligent Zookeeper	171	1	R	16	Creature - Human Citizen Ally
+TLA	Diligent Zookeeper	327	2	R	16	Creature - Human Citizen Ally
+TLA	Dragonfly Swarm	215	1	U	10	Creature - Dragon Insect
+TLA	Earth King's Lieutenant	217	1	R	17	Creature - Human Soldier Ally
+TLA	Earth King's Lieutenant	380	2	R	17	Creature - Human Soldier Ally
+TLA	Earth Kingdom General	173	1	U	16	Creature - Human Soldier Ally
+TLA	Earth Kingdom Jailer	16	1	U	1	Creature - Human Soldier Ally
+TLA	Earth Kingdom Protectors	17	1	U	1	Creature - Human Soldier Ally
+TLA	Earth Kingdom Soldier	216	1	C	17	Creature - Human Soldier
+TLA	Earth Rumble	174	1	U	16	Sorcery
+TLA	Earth Rumble Wrestlers	218	1	C	24	Creature - Human Warrior Performer
+TLA	Earth Village Ruffians	219	1	C	20	Creature - Human Soldier Rogue
+TLA	Earthbender Ascension	175	1	R	16	Enchantment
+TLA	Earthbender Ascension	307	2	R	16	Enchantment
+TLA	Earthbending Lesson	176	1	C	16	Sorcery - Lesson
+TLA	Earthen Ally	177	1	R	31	Creature - Human Soldier Ally
+TLA	Earthen Ally	377	2	R	31	Creature - Human Soldier Ally
+TLA	Elemental Teachings	178	1	R	16	Instant - Lesson
+TLA	Elemental Teachings	378	2	R	16	Instant - Lesson
+TLA	Ember Island Production	48	1	U	2	Sorcery
+TLA	Energybending	2	1	U	0	Instant - Lesson
+TLA	Enter the Avatar State	18	1	U	1	Instant - Lesson
+TLA	Epic Downfall	96	1	U	4	Sorcery
+TLA	Fancy Footwork	19	1	U	1	Instant - Lesson
+TLA	Fatal Fissure	97	1	U	4	Instant
+TLA	Fated Firepower	132	1	M	8	Enchantment
+TLA	Fated Firepower	297	2	M	8	Enchantment
+TLA	Fated Firepower	341	3	M	8	Enchantment
+TLA	Fire Lord Azula	220	1	R	14	Legendary Creature - Human Noble
+TLA	Fire Lord Azula	313	2	R	14	Legendary Creature - Human Noble
+TLA	Fire Lord Azula	334	3	R	14	Legendary Creature - Human Noble
+TLA	Fire Lord Zuko	221	1	R	13	Legendary Creature - Human Noble Ally
+TLA	Fire Lord Zuko	315	2	R	13	Legendary Creature - Human Noble Ally
+TLA	Fire Lord Zuko	360	3	R	13	Legendary Creature - Human Noble Ally
+TLA	Fire Nation Attacks	133	1	U	8	Instant
+TLA	Fire Nation Attacks	299	2	U	8	Instant
+TLA	Fire Nation Cadets	134	1	C	8	Creature - Human Soldier
+TLA	Fire Nation Engineer	99	1	U	4	Creature - Human Artificer
+TLA	Fire Nation Palace	268	1	R	8	Land
+TLA	Fire Nation Palace	389	2	R	8	Land
+TLA	Fire Nation Raider	135	1	C	8	Creature - Human Soldier
+TLA	Fire Nation Warship	256	1	U	0	Artifact - Vehicle
+TLA	Fire Navy Trebuchet	100	1	U	4	Artifact Creature - Wall
+TLA	Fire Sages	136	1	U	8	Creature - Human Cleric
+TLA	Firebender Ascension	137	1	R	8	Enchantment
+TLA	Firebender Ascension	312	2	R	8	Enchantment
+TLA	Firebending Lesson	138	1	C	8	Instant - Lesson
+TLA	Firebending Student	139	1	R	8	Creature - Human Monk
+TLA	Firebending Student	342	2	R	8	Creature - Human Monk
+TLA	Firebending Student	393	3	R	8	Creature - Human Monk
+TLA	First-Time Flyer	49	1	C	2	Creature - Human Pilot Ally
+TLA	Flexible Waterbender	50	1	C	2	Creature - Human Warrior Ally
+TLA	Flopsie, Bumi's Buddy	179	1	U	16	Legendary Creature - Ape Goat
+TLA	Foggy Bottom Swamp	269	1	L	20	Land
+TLA	Foggy Swamp Hunters	101	1	C	4	Creature - Human Ranger Ally
+TLA	Foggy Swamp Spirit Keeper	222	1	U	6	Creature - Human Druid Ally
+TLA	Foggy Swamp Vinebender	180	1	C	16	Creature - Human Plant Ally
+TLA	Foggy Swamp Visions	102	1	R	4	Sorcery
+TLA	Foggy Swamp Visions	339	2	R	4	Sorcery
+TLA	Forecasting Fortune Teller	51	1	C	2	Creature - Human Advisor Ally
+TLA	Forest	286	1	L	16	Basic Land - Forest
+TLA	Forest	291	2	L	16	Basic Land - Forest
+TLA	Forest	296	3	L	16	Basic Land - Forest
+TLA	Gather the White Lotus	20	1	U	1	Sorcery
+TLA	Geyser Leaper	52	1	C	2	Creature - Human Warrior Ally
+TLA	Giant Koi	53	1	C	2	Creature - Fish
+TLA	Glider Kids	21	1	C	1	Creature - Human Pilot Ally
+TLA	Glider Staff	22	1	U	1	Artifact - Equipment
+TLA	Gran-Gran	54	1	U	2	Legendary Creature - Human Peasant Ally
+TLA	Great Divide Guide	181	1	R	16	Creature - Human Scout Ally
+TLA	Great Divide Guide	345	2	R	16	Creature - Human Scout Ally
+TLA	Guru Pathik	223	1	U	18	Legendary Creature - Human Monk Ally
+TLA	Hakoda, Selfless Commander	23	1	R	1	Legendary Creature - Human Warrior Ally
+TLA	Hakoda, Selfless Commander	366	2	R	1	Legendary Creature - Human Warrior Ally
+TLA	Hama, the Bloodbender	224	1	U	6	Legendary Creature - Human Warlock
+TLA	Haru, Hidden Talent	182	1	U	16	Legendary Creature - Human Peasant Ally
+TLA	Heartless Act	103	1	U	4	Instant
+TLA	Hei Bai, Spirit of Balance	225	1	U	5	Legendary Creature - Bear Spirit
+TLA	Hermitic Herbalist	226	1	U	18	Creature - Human Druid Ally
+TLA	Hog-Monkey	104	1	C	4	Creature - Boar Monkey
+TLA	Honest Work	55	1	U	2	Enchantment - Aura
+TLA	How to Start a Riot	140	1	C	8	Instant - Lesson
+TLA	Iguana Parrot	56	1	C	2	Creature - Lizard Bird Pirate
+TLA	Invasion Reinforcements	24	1	U	1	Creature - Human Warrior Ally
+TLA	Invasion Submersible	57	1	U	2	Artifact - Vehicle
+TLA	Invasion Tactics	183	1	U	16	Enchantment
+TLA	Iroh's Demonstration	141	1	U	8	Sorcery - Lesson
+TLA	Iroh, Grand Lotus	227	1	R	26	Legendary Creature - Human Noble Ally
+TLA	Iroh, Grand Lotus	349	2	R	26	Legendary Creature - Human Noble Ally
+TLA	Iroh, Tea Master	228	1	R	9	Legendary Creature - Human Citizen Ally
+TLA	Iroh, Tea Master	381	2	R	9	Legendary Creature - Human Citizen Ally
+TLA	Island	283	1	L	2	Basic Land - Island
+TLA	Island	288	2	L	2	Basic Land - Island
+TLA	Island	293	3	L	2	Basic Land - Island
+TLA	It'll Quench Ya!	58	1	C	2	Instant - Lesson
+TLA	Jasmine Dragon Tea Shop	270	1	R	0	Land
+TLA	Jasmine Dragon Tea Shop	390	2	R	0	Land
+TLA	Jeong Jeong's Deserters	25	1	C	1	Creature - Human Rebel Ally
+TLA	Jeong Jeong, the Deserter	142	1	U	8	Legendary Creature - Human Rebel Ally
+TLA	Jet's Brainwashing	143	1	U	8	Sorcery
+TLA	Jet, Freedom Fighter	229	1	U	9	Legendary Creature - Human Rebel Ally
+TLA	Joo Dee, One of Many	105	1	U	4	Creature - Human Advisor
+TLA	June, Bounty Hunter	106	1	U	4	Legendary Creature - Human Mercenary
+TLA	Katara, Bending Prodigy	59	1	U	2	Legendary Creature - Human Warrior Ally
+TLA	Katara, Water Tribe's Hope	231	1	R	3	Legendary Creature - Human Warrior Ally
+TLA	Katara, Water Tribe's Hope	351	2	R	3	Legendary Creature - Human Warrior Ally
+TLA	Katara, the Fearless	230	1	R	19	Legendary Creature - Human Warrior Ally
+TLA	Katara, the Fearless	305	2	R	19	Legendary Creature - Human Warrior Ally
+TLA	Katara, the Fearless	350	3	R	19	Legendary Creature - Human Warrior Ally
+TLA	Katara, the Fearless	361	4	R	19	Legendary Creature - Human Warrior Ally
+TLA	Knowledge Seeker	60	1	U	2	Creature - Fox Spirit
+TLA	Koh, the Face Stealer	107	1	M	4	Legendary Creature - Shapeshifter Spirit
+TLA	Koh, the Face Stealer	322	2	M	4	Legendary Creature - Shapeshifter Spirit
+TLA	Kyoshi Battle Fan	257	1	C	0	Artifact - Equipment
+TLA	Kyoshi Island Plaza	184	1	U	16	Legendary Enchantment - Shrine
+TLA	Kyoshi Village	271	1	L	17	Land
+TLA	Kyoshi Warriors	26	1	C	1	Creature - Human Warrior Ally
+TLA	Leaves from the Vine	185	1	U	16	Enchantment - Saga
+TLA	Lightning Strike	146	1	C	8	Instant
+TLA	Lo and Li, Twin Tutors	108	1	U	4	Legendary Creature - Human Advisor
+TLA	Long Feng, Grand Secretariat	233	1	U	20	Legendary Creature - Human Advisor
+TLA	Lost Days	62	1	C	2	Instant - Lesson
+TLA	Mai, Jaded Edge	147	1	U	8	Legendary Creature - Human Noble
+TLA	Mai, Scornful Striker	109	1	R	4	Legendary Creature - Human Noble Ally
+TLA	Mai, Scornful Striker	374	2	R	4	Legendary Creature - Human Noble Ally
+TLA	Master Pakku	63	1	U	2	Legendary Creature - Human Advisor Ally
+TLA	Master Piandao	28	1	U	1	Legendary Creature - Human Warrior Ally
+TLA	Meditation Pools	272	1	L	18	Land
+TLA	Merchant of Many Hats	110	1	C	4	Creature - Human Peasant Ally
+TLA	Messenger Hawk	234	1	C	6	Creature - Bird Scout
+TLA	Meteor Sword	258	1	U	0	Artifact - Equipment
+TLA	Misty Palms Oasis	273	1	L	5	Land
+TLA	Momo, Friendly Flier	29	1	R	1	Legendary Creature - Lemur Bat Ally
+TLA	Momo, Friendly Flier	317	2	R	1	Legendary Creature - Lemur Bat Ally
+TLA	Momo, Friendly Flier	394	3	R	1	Legendary Creature - Lemur Bat Ally
+TLA	Momo, Playful Pet	30	1	U	1	Legendary Creature - Lemur Bat Ally
+TLA	Mongoose Lizard	148	1	C	8	Creature - Mongoose Lizard
+TLA	Mountain	285	1	L	8	Basic Land - Mountain
+TLA	Mountain	290	2	L	8	Basic Land - Mountain
+TLA	Mountain	295	3	L	8	Basic Land - Mountain
+TLA	North Pole Gates	274	1	L	3	Land
+TLA	North Pole Patrol	65	1	U	2	Creature - Human Soldier Ally
+TLA	Northern Air Temple	111	1	U	4	Legendary Enchantment - Shrine
+TLA	Obsessive Pursuit	112	1	R	4	Enchantment
+TLA	Obsessive Pursuit	340	2	R	4	Enchantment
+TLA	Octopus Form	66	1	C	2	Instant - Lesson
+TLA	Omashu City	275	1	L	24	Land
+TLA	Origin of Metalbending	187	1	C	16	Instant - Lesson
+TLA	Ostrich-Horse	188	1	C	16	Creature - Bird Horse
+TLA	Otter-Penguin	67	1	C	2	Creature - Otter Bird
+TLA	Ozai's Cruelty	113	1	U	4	Sorcery - Lesson
+TLA	Ozai, the Phoenix King	235	1	M	12	Legendary Creature - Human Noble
+TLA	Ozai, the Phoenix King	311	2	M	12	Legendary Creature - Human Noble
+TLA	Ozai, the Phoenix King	335	3	M	12	Legendary Creature - Human Noble
+TLA	Path to Redemption	31	1	C	1	Enchantment - Aura
+TLA	Phoenix Fleet Airship	114	1	M	4	Artifact - Vehicle
+TLA	Phoenix Fleet Airship	323	2	M	4	Artifact - Vehicle
+TLA	Pillar Launch	189	1	C	16	Instant
+TLA	Pirate Peddlers	115	1	C	4	Creature - Human Pirate
+TLA	Plains	282	1	L	1	Basic Land - Plains
+TLA	Plains	287	2	L	1	Basic Land - Plains
+TLA	Plains	292	3	L	1	Basic Land - Plains
+TLA	Planetarium of Wan Shi Tong	259	1	M	0	Legendary Artifact
+TLA	Planetarium of Wan Shi Tong	385	2	M	0	Legendary Artifact
+TLA	Platypus-Bear	236	1	C	18	Creature - Platypus Bear
+TLA	Pretending Poxbearers	237	1	C	5	Creature - Human Citizen Ally
+TLA	Price of Freedom	149	1	U	8	Sorcery - Lesson
+TLA	Professor Zei, Anthropologist	238	1	U	10	Legendary Creature - Human Advisor Ally
+TLA	Rabaroo Troop	32	1	C	1	Creature - Rabbit Kangaroo
+TLA	Ran and Shaw	150	1	R	8	Legendary Creature - Dragon
+TLA	Ran and Shaw	325	2	R	8	Legendary Creature - Dragon
+TLA	Raucous Audience	190	1	C	16	Creature - Human Citizen
+TLA	Raven Eagle	116	1	R	4	Creature - Bird Assassin
+TLA	Raven Eagle	324	2	R	4	Creature - Bird Assassin
+TLA	Razor Rings	33	1	C	1	Instant
+TLA	Realm of Koh	276	1	R	4	Land
+TLA	Realm of Koh	391	2	R	4	Land
+TLA	Rebellious Captives	191	1	C	16	Creature - Human Peasant Ally
+TLA	Redirect Lightning	151	1	R	8	Instant - Lesson
+TLA	Redirect Lightning	343	2	R	8	Instant - Lesson
+TLA	Rockalanche	192	1	U	16	Sorcery - Lesson
+TLA	Rocky Rebuke	193	1	C	16	Instant
+TLA	Rough Rhino Cavalry	152	1	C	8	Creature - Human Mercenary
+TLA	Rowdy Snowballers	68	1	C	2	Creature - Human Peasant Ally
+TLA	Ruinous Waterbending	118	1	U	4	Sorcery - Lesson
+TLA	Rumble Arena	277	1	C	0	Land
+TLA	Saber-Tooth Moose-Lion	194	1	C	16	Creature - Elk Cat
+TLA	Sandbender Scavengers	239	1	R	5	Creature - Human Rogue
+TLA	Sandbender Scavengers	382	2	R	5	Creature - Human Rogue
+TLA	Sandbenders' Storm	34	1	C	1	Instant
+TLA	Secret Tunnel	278	1	R	0	Land - Cave
+TLA	Secret Tunnel	392	2	R	0	Land - Cave
+TLA	Secret of Bloodbending	337	2	M	2	Sorcery - Lesson
+TLA	Secret of Bloodbending	69	1	M	2	Sorcery - Lesson
+TLA	Seismic Sense	195	1	U	16	Sorcery - Lesson
+TLA	Serpent of the Pass	70	1	U	2	Creature - Serpent
+TLA	Serpent's Pass	279	1	L	6	Land
+TLA	Shared Roots	196	1	U	16	Sorcery - Lesson
+TLA	Sokka's Haiku	71	1	U	2	Instant - Lesson
+TLA	Sokka, Bold Boomeranger	240	1	R	10	Legendary Creature - Human Warrior Ally
+TLA	Sokka, Bold Boomeranger	383	2	R	10	Legendary Creature - Human Warrior Ally
+TLA	Sokka, Lateral Strategist	241	1	U	3	Legendary Creature - Human Warrior Ally
+TLA	Sokka, Tenacious Tactician	242	1	R	11	Legendary Creature - Human Warrior Ally
+TLA	Sokka, Tenacious Tactician	352	2	R	11	Legendary Creature - Human Warrior Ally
+TLA	Sold Out	119	1	C	4	Instant
+TLA	Solstice Revelations	153	1	U	8	Instant - Lesson
+TLA	South Pole Voyager	35	1	R	1	Creature - Human Scout Ally
+TLA	South Pole Voyager	367	2	R	1	Creature - Human Scout Ally
+TLA	Southern Air Temple	36	1	U	1	Legendary Enchantment - Shrine
+TLA	Sozin's Comet	154	1	M	8	Sorcery
+TLA	Sozin's Comet	309	2	M	8	Sorcery
+TLA	Sozin's Comet	332	3	M	8	Sorcery
+TLA	Sparring Dummy	197	1	U	16	Artifact Creature - Scarecrow
+TLA	Spirit Water Revival	370	2	R	2	Sorcery
+TLA	Spirit Water Revival	73	1	R	2	Sorcery
+TLA	Suki, Courageous Rescuer	368	2	R	1	Legendary Creature - Human Warrior Ally
+TLA	Suki, Courageous Rescuer	37	1	R	1	Legendary Creature - Human Warrior Ally
+TLA	Suki, Kyoshi Warrior	243	1	U	17	Legendary Creature - Human Warrior Ally
+TLA	Sun Warriors	244	1	U	9	Creature - Human Warrior Ally
+TLA	Sun-Blessed Peak	280	1	L	9	Land
+TLA	Swamp	284	1	L	4	Basic Land - Swamp
+TLA	Swamp	289	2	L	4	Basic Land - Swamp
+TLA	Swamp	294	3	L	4	Basic Land - Swamp
+TLA	Swampsnare Trap	120	1	C	4	Enchantment - Aura
+TLA	Team Avatar	38	1	U	1	Enchantment
+TLA	Teo, Spirited Glider	74	1	U	2	Legendary Creature - Human Pilot Ally
+TLA	The Boulder, Ready to Rumble	168	1	U	16	Legendary Creature - Human Warrior Performer
+TLA	The Cave of Two Lovers	126	1	U	8	Enchantment - Saga
+TLA	The Earth King	172	1	R	16	Legendary Creature - Human Noble Ally
+TLA	The Earth King	344	2	R	16	Legendary Creature - Human Noble Ally
+TLA	The Fire Nation Drill	321	2	R	4	Legendary Artifact - Vehicle
+TLA	The Fire Nation Drill	98	1	R	4	Legendary Artifact - Vehicle
+TLA	The Last Agni Kai	144	1	R	8	Instant
+TLA	The Last Agni Kai	314	2	R	8	Instant
+TLA	The Legend of Kuruk	355	2	M	2	Enchantment - Saga
+TLA	The Legend of Kuruk	61	1	M	2	Enchantment - Saga
+TLA	The Legend of Kyoshi	186	1	M	16	Enchantment - Saga
+TLA	The Legend of Kyoshi	358	2	M	16	Enchantment - Saga
+TLA	The Legend of Roku	145	1	M	8	Enchantment - Saga
+TLA	The Legend of Roku	357	2	M	8	Enchantment - Saga
+TLA	The Legend of Yangchen	27	1	M	1	Enchantment - Saga
+TLA	The Legend of Yangchen	354	2	M	1	Enchantment - Saga
+TLA	The Lion-Turtle	232	1	R	18	Legendary Creature - Elder Cat Turtle
+TLA	The Lion-Turtle	328	2	R	18	Legendary Creature - Elder Cat Turtle
+TLA	The Mechanist, Aerial Artisan	369	2	R	2	Legendary Creature - Human Artificer Ally
+TLA	The Mechanist, Aerial Artisan	64	1	R	2	Legendary Creature - Human Artificer Ally
+TLA	The Rise of Sozin	117	1	M	4	Enchantment - Saga
+TLA	The Rise of Sozin	356	2	M	4	Enchantment - Saga
+TLA	The Spirit Oasis	72	1	U	2	Legendary Enchantment - Shrine
+TLA	The Unagi of Kyoshi Island	319	2	R	2	Legendary Creature - Serpent
+TLA	The Unagi of Kyoshi Island	77	1	R	2	Legendary Creature - Serpent
+TLA	The Walls of Ba Sing Se	261	1	M	0	Legendary Artifact Creature - Wall
+TLA	The Walls of Ba Sing Se	329	2	M	0	Legendary Artifact Creature - Wall
+TLA	Tiger-Dillo	155	1	U	8	Creature - Cat Armadillo
+TLA	Tiger-Seal	318	2	R	2	Creature - Cat Seal
+TLA	Tiger-Seal	75	1	R	2	Creature - Cat Seal
+TLA	Tolls of War	245	1	U	5	Enchantment
+TLA	Toph, Hardheaded Teacher	246	1	R	24	Legendary Creature - Human Warrior Ally
+TLA	Toph, Hardheaded Teacher	384	2	R	24	Legendary Creature - Human Warrior Ally
+TLA	Toph, the Blind Bandit	198	1	U	16	Legendary Creature - Human Warrior Ally
+TLA	Toph, the First Metalbender	247	1	R	25	Legendary Creature - Human Warrior Ally
+TLA	Toph, the First Metalbender	353	2	R	25	Legendary Creature - Human Warrior Ally
+TLA	Toph, the First Metalbender	362	3	R	25	Legendary Creature - Human Warrior Ally
+TLA	Treetop Freedom Fighters	156	1	C	8	Creature - Human Rebel Ally
+TLA	True Ancestry	199	1	U	16	Sorcery - Lesson
+TLA	Trusty Boomerang	260	1	U	0	Artifact - Equipment
+TLA	Tundra Tank	121	1	U	4	Artifact - Vehicle
+TLA	Turtle-Duck	200	1	C	16	Creature - Turtle Bird
+TLA	Twin Blades	157	1	U	8	Artifact - Equipment
+TLA	Ty Lee, Artful Acrobat	158	1	U	8	Legendary Creature - Human Performer
+TLA	Ty Lee, Chi Blocker	371	2	R	2	Legendary Creature - Human Performer Ally
+TLA	Ty Lee, Chi Blocker	76	1	R	2	Legendary Creature - Human Performer Ally
+TLA	Uncle Iroh	248	1	U	24	Legendary Creature - Human Noble Ally
+TLA	United Front	331	2	M	1	Sorcery
+TLA	United Front	39	1	M	1	Sorcery
+TLA	Unlucky Cabbage Merchant	201	1	U	16	Creature - Human Citizen
+TLA	Vengeful Villagers	40	1	U	1	Creature - Human Citizen
+TLA	Vindictive Warden	249	1	C	12	Creature - Human Soldier
+TLA	Walltop Sentries	202	1	C	16	Creature - Human Soldier Ally
+TLA	Wan Shi Tong, Librarian	320	2	M	2	Legendary Creature - Bird Spirit
+TLA	Wan Shi Tong, Librarian	78	1	M	2	Legendary Creature - Bird Spirit
+TLA	Wandering Musicians	250	1	C	9	Creature - Human Bard Ally
+TLA	War Balloon	159	1	U	8	Artifact - Vehicle
+TLA	Wartime Protestors	160	1	R	8	Creature - Human Rebel Ally
+TLA	Wartime Protestors	375	2	R	8	Creature - Human Rebel Ally
+TLA	Water Tribe Captain	41	1	C	1	Creature - Human Soldier Ally
+TLA	Water Tribe Rallier	42	1	U	1	Creature - Human Soldier Ally
+TLA	Waterbender Ascension	310	2	R	2	Enchantment
+TLA	Waterbender Ascension	79	1	R	2	Enchantment
+TLA	Waterbending Lesson	80	1	C	2	Sorcery - Lesson
+TLA	Waterbending Scroll	81	1	U	2	Artifact
+TLA	Watery Grasp	82	1	C	2	Enchantment - Aura
+TLA	White Lotus Hideout	281	1	U	0	Land
+TLA	White Lotus Reinforcements	251	1	U	17	Creature - Human Soldier Ally
+TLA	White Lotus Tile	262	1	M	0	Artifact
+TLA	White Lotus Tile	330	2	M	0	Artifact
+TLA	Wolfbat	122	1	U	4	Creature - Wolf Bat
+TLA	Yip Yip!	43	1	C	1	Instant - Lesson
+TLA	Yue, the Moon Spirit	338	2	R	2	Legendary Creature - Spirit Ally
+TLA	Yue, the Moon Spirit	83	1	R	2	Legendary Creature - Spirit Ally
+TLA	Yuyan Archers	161	1	C	8	Creature - Human Archer
+TLA	Zhao, Ruthless Admiral	252	1	U	12	Legendary Creature - Human Soldier
+TLA	Zhao, the Moon Slayer	162	1	R	8	Legendary Creature - Human Soldier
+TLA	Zhao, the Moon Slayer	376	2	R	8	Legendary Creature - Human Soldier
+TLA	Zuko's Conviction	123	1	U	4	Instant
+TLA	Zuko's Exile	3	1	C	0	Instant - Lesson
+TLA	Zuko, Conflicted	253	1	R	12	Legendary Creature - Human Rogue
+TLA	Zuko, Conflicted	302	2	R	12	Legendary Creature - Human Rogue
+TLA	Zuko, Exiled Prince	163	1	U	8	Legendary Creature - Human Noble
+TLE	Aang and Katara	69	1	R	19	Legendary Creature - Human Avatar Ally
+TLE	Aang's Defense	211	1	C	1	Instant
+TLE	Aang's Defense	266	2	C	1	Instant
+TLE	Aang, A Lot to Learn	146	1	U	17	Legendary Creature - Human Avatar Ally
+TLE	Aang, Air Nomad	210	1	R	1	Legendary Creature - Human Avatar Ally
+TLE	Aang, Air Nomad	265	2	R	1	Legendary Creature - Human Avatar Ally
+TLE	Aang, Airbending Master	171	2	M	1	Legendary Creature - Human Avatar Ally
+TLE	Aang, Airbending Master	74	1	M	1	Legendary Creature - Human Avatar Ally
+TLE	Aardvark Sloth	212	1	C	1	Creature - Sloth Beast
+TLE	Aardvark Sloth	267	2	C	1	Creature - Sloth Beast
+TLE	Acrobatic Leap	151	1	C	1	Instant
+TLE	Agent of Treachery	9	1	M	2	Creature - Human Rogue
+TLE	Air Nomad Student	75	1	U	1	Creature - Human Monk
+TLE	Allied Teamwork	213	1	R	1	Enchantment
+TLE	Animal Attendant	128	1	U	16	Creature - Human Citizen
+TLE	Appa, Aang's Companion	214	1	U	1	Legendary Creature - Bison Ally
+TLE	Appa, Aang's Companion	268	2	U	1	Legendary Creature - Bison Ally
+TLE	Appa, the Vigilant	62	1	R	1	Legendary Creature - Bison Ally
+TLE	Arcane Signet	315	1	R	0	Artifact
+TLE	Avatar Kyoshi, Earthbender	130	1	M	16	Legendary Creature - Human Avatar
+TLE	Avatar Kyoshi, Earthbender	201	2	M	16	Legendary Creature - Human Avatar
+TLE	Avatar Roku, Firebender	112	1	M	8	Legendary Creature - Human Avatar
+TLE	Avatar Roku, Firebender	191	2	M	8	Legendary Creature - Human Avatar
+TLE	Azula, Ruthless Firebender	101	1	M	4	Legendary Creature - Human Noble
+TLE	Azula, Ruthless Firebender	184	2	M	4	Legendary Creature - Human Noble
+TLE	Baboon Spirit	177	2	R	2	Creature - Monkey Spirit
+TLE	Baboon Spirit	89	1	R	2	Creature - Monkey Spirit
+TLE	Bastion of Remembrance	160	1	U	4	Enchantment
+TLE	Beastmaster Ascension	39	1	M	16	Enchantment
+TLE	Bison Whistle	131	1	R	16	Artifact
+TLE	Bison Whistle	202	2	R	16	Artifact
+TLE	Black Sun's Zenith	22	1	M	4	Sorcery
+TLE	Blasphemous Act	26	1	M	8	Sorcery
+TLE	Bloodchief Ascension	23	1	M	4	Enchantment
+TLE	Bolt Bend	163	1	U	8	Instant
+TLE	Bosco, Just a Bear	132	1	U	16	Legendary Creature - Bear
+TLE	Brainstorm	155	1	C	2	Instant
+TLE	Bribery	10	1	M	2	Sorcery
+TLE	Brought Back	1	1	M	1	Instant
+TLE	Bumi's Feast Lecture	133	1	U	16	Sorcery - Lesson
+TLE	Bumi, Eclectic Earthbender	248	1	R	16	Legendary Creature - Human Noble Ally
+TLE	Capital Guard	234	1	C	8	Creature - Human Soldier
+TLE	Capital Guard	277	2	C	8	Creature - Human Soldier
+TLE	Captain Sisay	47	1	M	17	Legendary Creature - Human Soldier
+TLE	Cathartic Reunion	164	1	C	8	Sorcery
+TLE	Chakra Meditation	179	2	R	2	Enchantment
+TLE	Chakra Meditation	91	1	R	2	Enchantment
+TLE	Chong and Lily, Nomads	113	1	R	8	Legendary Creature - Human Bard Ally
+TLE	Chong and Lily, Nomads	192	2	R	8	Legendary Creature - Human Bard Ally
+TLE	Cityscape Leveler	53	1	M	0	Artifact Creature - Construct
+TLE	Clone	11	1	M	2	Creature - Shapeshifter
+TLE	Clone Legion	12	1	M	2	Sorcery
+TLE	Cloudshift	152	1	C	1	Instant
+TLE	Coastal Piracy	156	1	U	2	Enchantment
+TLE	Consider	157	1	C	2	Instant
+TLE	Cracked Earth Technique	135	1	U	16	Sorcery - Lesson
+TLE	Creeping Crystal Coating	136	1	U	16	Enchantment - Aura
+TLE	Cruel Tutor	24	1	M	4	Sorcery
+TLE	Crystalline Armor	137	1	R	16	Enchantment - Aura
+TLE	Crystalline Armor	204	2	R	16	Enchantment - Aura
+TLE	Dai Li Censor	102	1	C	4	Creature - Human Soldier Advisor
+TLE	Dark Deal	161	1	U	4	Sorcery
+TLE	Dark Depths	56	1	M	0	Legendary Snow Land
+TLE	Deadly Rollick	309	1	R	4	Instant
+TLE	Deer-Dog	114	1	C	8	Creature - Elk Dog
+TLE	Deflecting Swat	311	1	R	8	Instant
+TLE	Deny Entry	222	1	C	2	Instant
+TLE	Descendants' Path	167	1	R	16	Enchantment
+TLE	Desperate Plea	103	1	R	4	Sorcery - Lesson
+TLE	Desperate Plea	185	2	R	4	Sorcery - Lesson
+TLE	Diaochan, Artful Beauty	27	1	M	8	Legendary Creature - Human Advisor
+TLE	Diresight	162	1	C	4	Sorcery
+TLE	Dockside Extortionist	28	1	M	8	Creature - Goblin Pirate
+TLE	Dragon Moose	235	1	C	8	Creature - Dragon Elk
+TLE	Dragon Moose	278	2	C	8	Creature - Dragon Elk
+TLE	Dramatic Reversal	158	1	C	2	Instant
+TLE	Drannith Magistrate	2	1	M	1	Creature - Human Wizard
+TLE	Duelist's Heritage	153	1	R	1	Enchantment
+TLE	Dutiful Knowledge Seeker	92	1	U	2	Creature - Fox Spirit
+TLE	Earthbending Student	249	1	U	16	Creature - Human Warrior Ally
+TLE	Earthshape	67	1	R	1	Instant
+TLE	Eel-Hounds	250	1	U	16	Creature - Fish Dog
+TLE	Eladamri's Call	48	1	M	17	Instant
+TLE	Elemental Bond	40	1	M	16	Enchantment
+TLE	Elephant-Mandrill	138	1	U	16	Creature - Elephant Monkey
+TLE	Elephant-Rat	228	1	C	4	Creature - Elephant Rat
+TLE	Empty City Ruse	3	1	M	1	Sorcery
+TLE	Enlightened Tutor	305	1	R	1	Instant
+TLE	Entomb	310	1	R	4	Instant
+TLE	Explore	259	1	C	16	Sorcery
+TLE	Explosive Shot	236	1	C	8	Sorcery
+TLE	Explosive Shot	279	2	C	8	Sorcery
+TLE	Fabled Passage	57	1	M	0	Land
+TLE	Fang, Roku's Companion	115	1	R	8	Legendary Creature - Dragon
+TLE	Fang, Roku's Companion	193	2	R	8	Legendary Creature - Dragon
+TLE	Feed the Swarm	257	1	C	4	Sorcery
+TLE	Fervor	29	1	M	8	Enchantment
+TLE	Fevered Visions	49	1	M	10	Enchantment
+TLE	Fierce Guardianship	307	1	R	2	Instant
+TLE	Fiery Confluence	165	1	R	8	Sorcery
+TLE	Fire Lord Ozai	104	1	M	12	Legendary Creature - Human Noble
+TLE	Fire Lord Ozai	186	2	M	12	Legendary Creature - Human Noble
+TLE	Fire Nation Ambushers	229	1	C	4	Creature - Human Soldier
+TLE	Fire Nation Archers	237	1	R	8	Creature - Human Archer
+TLE	Fire Nation Occupation	105	1	R	4	Enchantment
+TLE	Fire Nation Occupation	187	2	R	4	Enchantment
+TLE	Fire Nation Salvagers	106	1	R	4	Creature - Human Soldier
+TLE	Fire Nation Salvagers	188	2	R	4	Creature - Human Soldier
+TLE	Fire Nation Sentinels	230	1	R	4	Creature - Human Soldier
+TLE	Fire Nation Soldier	238	1	C	8	Creature - Human Soldier
+TLE	Fire Nation Soldier	280	2	C	8	Creature - Human Soldier
+TLE	Fire Nation Turret	64	1	R	8	Artifact
+TLE	Fire Nation's Conquest	239	1	U	8	Enchantment
+TLE	Fire Nation's Conquest	281	2	U	8	Enchantment
+TLE	Fists of Flame	166	1	C	8	Instant
+TLE	Flawless Maneuver	306	1	R	1	Instant
+TLE	Flying Dolphin-Fish	223	1	C	2	Creature - Whale Fish
+TLE	Force of Negation	13	1	M	2	Instant
+TLE	Founding of Omashu	116	1	U	8	Enchantment - Saga
+TLE	Frantic Confrontation	117	1	U	8	Instant
+TLE	Frantic Search	159	1	C	2	Instant
+TLE	Freedom Fighter Recruit	118	1	C	8	Creature - Human Rebel Ally
+TLE	Frog-Squirrels	251	1	C	16	Creature - Frog Squirrel
+TLE	Gamble	312	1	R	8	Sorcery
+TLE	Giant Fly	107	1	C	4	Creature - Insect
+TLE	Gilacorn	231	1	C	4	Creature - Lizard
+TLE	Heartbeat of Spring	42	1	M	16	Enchantment
+TLE	Hei Bai, Forest Guardian	139	1	M	31	Legendary Creature - Bear Spirit
+TLE	Hei Bai, Forest Guardian	205	2	M	31	Legendary Creature - Bear Spirit
+TLE	Heroic Intervention	43	1	M	16	Instant
+TLE	Hippo-Cows	252	1	C	16	Creature - Hippo Ox
+TLE	Hog-Monkey Rampage	255	1	U	24	Instant
+TLE	Hook Swords	147	1	U	9	Artifact - Equipment
+TLE	Humble Defector	30	1	M	8	Creature - Human Rogue
+TLE	Imprisoned in the Moon	14	1	M	2	Enchantment - Aura
+TLE	Inspired Insurgent	77	1	C	1	Creature - Human Peasant Ally
+TLE	Inspiring Call	168	1	U	16	Instant
+TLE	Insurrection	31	1	M	8	Sorcery
+TLE	Intruder Alarm	15	1	M	2	Enchantment
+TLE	Iroh, Dragon of the West	119	1	R	8	Legendary Creature - Human Noble Ally
+TLE	Iroh, Dragon of the West	194	2	R	8	Legendary Creature - Human Noble Ally
+TLE	Iroh, Firebending Instructor	240	1	U	8	Legendary Creature - Human Noble Ally
+TLE	Iroh, Firebending Instructor	282	2	U	8	Legendary Creature - Human Noble Ally
+TLE	Jet, Rebel Leader	172	2	R	1	Legendary Creature - Human Rebel Ally
+TLE	Jet, Rebel Leader	78	1	R	1	Legendary Creature - Human Rebel Ally
+TLE	Join the Dance	50	1	M	17	Sorcery
+TLE	Katara's Reversal	63	1	R	2	Instant
+TLE	Katara, Heroic Healer	215	1	U	1	Legendary Creature - Human Warrior Ally
+TLE	Katara, Heroic Healer	269	2	U	1	Legendary Creature - Human Warrior Ally
+TLE	Katara, Seeking Revenge	148	1	U	6	Legendary Creature - Human Warrior Ally
+TLE	Katara, Waterbending Master	180	2	M	2	Legendary Creature - Human Warrior Ally
+TLE	Katara, Waterbending Master	93	1	M	2	Legendary Creature - Human Warrior Ally
+TLE	Kindly Customer	79	1	C	1	Creature - Human Citizen
+TLE	Koala-Sheep	80	1	C	1	Creature - Bear Sheep
+TLE	Koma, Cosmos Serpent	51	1	M	18	Legendary Creature - Serpent
+TLE	Komodo Rhino	241	1	C	8	Creature - Lizard Rhino
+TLE	Komodo Rhino	283	2	C	8	Creature - Lizard Rhino
+TLE	Kyoshi Warrior Exemplars	140	1	U	16	Creature - Human Warrior Ally
+TLE	Kyoshi Warrior Guard	216	1	C	1	Creature - Human Warrior Ally
+TLE	Lightning Bolt	32	1	M	8	Instant
+TLE	Lion Vulture	232	1	R	4	Creature - Cat Bird
+TLE	Lita, Mechanical Engineer	4	1	M	1	Legendary Artifact Creature - Artificer
+TLE	Lo and Li, Royal Advisors	108	1	R	6	Legendary Creature - Human Advisor
+TLE	Lo and Li, Royal Advisors	189	2	R	6	Legendary Creature - Human Advisor
+TLE	Longshot, Rebel Bowman	120	1	U	8	Legendary Creature - Human Rebel Ally
+TLE	Lost in Memories	121	1	R	8	Enchantment - Aura
+TLE	Lost in Memories	195	2	R	8	Enchantment - Aura
+TLE	Lost in the Spirit World	224	1	U	2	Sorcery
+TLE	Loyal Fire Sage	242	1	U	8	Creature - Human Cleric Ally
+TLE	Mai and Zuko	68	1	R	14	Legendary Creature - Human Noble Ally
+TLE	Many Partings	169	1	C	16	Sorcery
+TLE	Master's Guidance	141	1	R	16	Enchantment
+TLE	Master's Guidance	206	2	R	16	Enchantment
+TLE	Match the Odds	253	1	U	16	Sorcery - Lesson
+TLE	Mechanical Glider	256	1	C	0	Artifact - Equipment
+TLE	Meteorite	54	1	M	0	Artifact
+TLE	Mirrorwing Dragon	33	1	M	8	Creature - Dragon
+TLE	Moku, Meandering Drummer	122	1	U	8	Legendary Creature - Human Bard Ally
+TLE	Momo's Heist	72	1	R	8	Sorcery
+TLE	Momo, Rambunctious Rascal	217	1	U	1	Legendary Creature - Lemur Bat Ally
+TLE	Momo, Rambunctious Rascal	270	2	U	1	Legendary Creature - Lemur Bat Ally
+TLE	Monk Gyatso	173	2	R	1	Legendary Creature - Human Monk
+TLE	Monk Gyatso	81	1	R	1	Legendary Creature - Human Monk
+TLE	Mountain	289	1	L	8	Basic Land - Mountain
+TLE	Mountain	290	2	L	8	Basic Land - Mountain
+TLE	Mountain	291	3	L	8	Basic Land - Mountain
+TLE	Mountain	292	4	L	8	Basic Land - Mountain
+TLE	Mountain	293	5	L	8	Basic Land - Mountain
+TLE	Mountain	294	6	L	8	Basic Land - Mountain
+TLE	Mountain	295	7	L	8	Basic Land - Mountain
+TLE	Mountain	296	8	L	8	Basic Land - Mountain
+TLE	Mystic Remora	16	1	M	2	Enchantment
+TLE	Mystical Tutor	308	1	R	2	Instant
+TLE	Nightmares and Daydreams	94	1	R	2	Enchantment - Saga
+TLE	Noxious Gearhulk	25	1	M	4	Artifact Creature - Construct
+TLE	Nyla, Shirshu Sleuth	109	1	R	4	Legendary Creature - Mole Beast
+TLE	Nyla, Shirshu Sleuth	190	2	R	4	Legendary Creature - Mole Beast
+TLE	Obscuring Haze	313	1	R	16	Instant
+TLE	Overwhelming Victory	123	1	R	8	Instant - Lesson
+TLE	Overwhelming Victory	196	2	R	8	Instant - Lesson
+TLE	Path to Redemption	271	1	C	1	Enchantment - Aura
+TLE	Pipsqueak, Rebel Strongarm	82	1	U	1	Legendary Creature - Human Rebel Ally
+TLE	Plains	297	1	L	1	Basic Land - Plains
+TLE	Plains	298	2	L	1	Basic Land - Plains
+TLE	Plains	299	3	L	1	Basic Land - Plains
+TLE	Plains	300	4	L	1	Basic Land - Plains
+TLE	Plains	301	5	L	1	Basic Land - Plains
+TLE	Plains	302	6	L	1	Basic Land - Plains
+TLE	Plains	303	7	L	1	Basic Land - Plains
+TLE	Plains	304	8	L	1	Basic Land - Plains
+TLE	Princess Yue	95	1	U	2	Legendary Creature - Human Noble Ally
+TLE	Prosperity	17	1	M	2	Sorcery
+TLE	Purple Pentapus	233	1	C	4	Creature - Octopus Starfish
+TLE	Razor Rings	272	1	C	1	Instant
+TLE	Reckless Blaze	124	1	R	8	Sorcery - Lesson
+TLE	Reckless Blaze	197	2	R	8	Sorcery - Lesson
+TLE	Release to Memory	5	1	M	1	Instant
+TLE	Rending Volley	34	1	M	8	Instant
+TLE	Return of the Wildspeaker	44	1	M	16	Instant
+TLE	Rhys the Redeemed	52	1	M	17	Legendary Creature - Elf Warrior
+TLE	Rites of Flourishing	45	1	M	16	Enchantment
+TLE	Roku's Mastery	243	1	U	8	Instant
+TLE	Run Amok	258	1	C	8	Instant
+TLE	Run Amok	284	2	C	8	Instant
+TLE	Ruthless Waterbender	110	1	U	4	Creature - Human Soldier Ally
+TLE	Sakashima of a Thousand Faces	18	1	M	2	Legendary Creature - Human Rogue
+TLE	Scarring Memories	111	1	U	4	Sorcery - Lesson
+TLE	Scout's Warning	6	1	M	1	Instant
+TLE	Searing Blood	35	1	M	8	Instant
+TLE	Seismic Tutelage	254	1	R	16	Enchantment - Aura
+TLE	Shattering Spree	36	1	M	8	Sorcery
+TLE	Sledding Otter-Penguin	218	1	C	1	Creature - Otter Bird
+TLE	Sledding Otter-Penguin	273	2	C	1	Creature - Otter Bird
+TLE	Smellerbee, Rebel Fighter	125	1	R	8	Legendary Creature - Human Rebel Ally
+TLE	Smellerbee, Rebel Fighter	198	2	R	8	Legendary Creature - Human Rebel Ally
+TLE	Sokka and Suki	71	1	R	11	Legendary Creature - Human Warrior Ally
+TLE	Sokka's Charge	66	1	R	1	Enchantment
+TLE	Sokka's Sword Training	84	1	C	1	Instant - Lesson
+TLE	Sokka, Swordmaster	174	2	M	1	Legendary Creature - Human Warrior Ally
+TLE	Sokka, Swordmaster	83	1	M	1	Legendary Creature - Human Warrior Ally
+TLE	Sokka, Wolf Cove's Protector	219	1	U	1	Legendary Creature - Human Warrior Ally
+TLE	Sokka, Wolf Cove's Protector	274	2	U	1	Legendary Creature - Human Warrior Ally
+TLE	Sol Ring	316	1	R	0	Artifact
+TLE	Solid Ground	142	1	U	16	Enchantment
+TLE	Stand United	149	1	C	17	Instant
+TLE	Standstill	19	1	M	2	Enchantment
+TLE	Storm of Memories	126	1	R	8	Sorcery
+TLE	Storm of Memories	199	2	R	8	Sorcery
+TLE	Suki, Kyoshi Captain	175	2	R	1	Legendary Creature - Human Warrior Ally
+TLE	Suki, Kyoshi Captain	85	1	R	1	Legendary Creature - Human Warrior Ally
+TLE	Sunbaked Canyon	58	1	M	9	Land
+TLE	Sundial of the Infinite	55	1	M	0	Artifact
+TLE	Suspicious Bookcase	170	1	U	0	Artifact Creature - Wall
+TLE	Swampbenders	65	1	R	16	Creature - Human Druid Ally
+TLE	Swiftfoot Boots	317	1	R	0	Artifact - Equipment
+TLE	Tale of Katara and Toph	143	1	R	16	Enchantment
+TLE	Tale of Katara and Toph	207	2	R	16	Enchantment
+TLE	Tale of Momo	176	2	R	1	Sorcery
+TLE	Tale of Momo	86	1	R	1	Sorcery
+TLE	Tarnished Citadel	59	1	M	0	Land
+TLE	Taunting Challenge	46	1	M	16	Sorcery
+TLE	Tectonic Split	144	1	R	16	Enchantment
+TLE	Tectonic Split	208	2	R	16	Enchantment
+TLE	Teferi's Protection	7	1	M	1	Instant
+TLE	That's Rough Buddy	87	1	U	1	Instant - Lesson
+TLE	The Art of Tea	129	1	C	16	Instant - Lesson
+TLE	The Blue Spirit	178	2	R	2	Legendary Creature - Human Rogue Ally
+TLE	The Blue Spirit	90	1	R	2	Legendary Creature - Human Rogue Ally
+TLE	The Cabbage Merchant	134	1	R	16	Legendary Creature - Human Citizen
+TLE	The Cabbage Merchant	203	2	R	16	Legendary Creature - Human Citizen
+TLE	The Duke, Rebel Sentry	76	1	U	1	Legendary Creature - Human Rebel Ally
+TLE	The Great Henge	41	1	M	16	Legendary Artifact
+TLE	The Terror of Serpent's Pass	225	1	R	2	Legendary Creature - Serpent
+TLE	Three Dreams	8	1	M	1	Sorcery
+TLE	Thriving Bluff	260	1	C	8	Land
+TLE	Thriving Grove	261	1	C	16	Land
+TLE	Thriving Heath	262	1	C	1	Land
+TLE	Thriving Isle	263	1	C	2	Land
+TLE	Thriving Moor	264	1	C	4	Land
+TLE	Toph, Earthbending Master	145	1	M	16	Legendary Creature - Human Warrior Ally
+TLE	Toph, Earthbending Master	209	2	M	16	Legendary Creature - Human Warrior Ally
+TLE	Toph, Greatest Earthbender	70	1	R	24	Legendary Creature - Human Warrior Ally
+TLE	Toucan-Puffin	88	1	C	1	Creature - Bird
+TLE	Training Grounds	20	1	M	2	Enchantment
+TLE	Treetop Village	60	1	M	16	Land
+TLE	Tui and La, Moon and Ocean	181	2	R	2	Legendary Creature - Fish Spirit
+TLE	Tui and La, Moon and Ocean	96	1	R	2	Legendary Creature - Fish Spirit
+TLE	Tundra Wall	220	1	C	1	Creature - Wall
+TLE	Tundra Wall	275	2	C	1	Creature - Wall
+TLE	Turtle-Seals	226	1	C	2	Creature - Turtle Seal
+TLE	Unagi's Spray	97	1	C	2	Instant
+TLE	Uncle's Musings	73	1	R	16	Sorcery
+TLE	Valakut, the Molten Pinnacle	61	1	M	8	Land
+TLE	Valorous Stance	154	1	U	1	Instant
+TLE	Visions of Beyond	21	1	M	2	Instant
+TLE	Volcanic Torrent	37	1	M	8	Sorcery
+TLE	Wan Shi Tong, All-Knowing	182	2	M	2	Legendary Creature - Bird Spirit
+TLE	Wan Shi Tong, All-Knowing	98	1	M	2	Legendary Creature - Bird Spirit
+TLE	Warship Scout	244	1	C	8	Creature - Human Scout
+TLE	Warship Scout	285	2	C	8	Creature - Human Scout
+TLE	Warstorm Surge	38	1	M	8	Enchantment
+TLE	Water Whip	227	1	R	2	Sorcery - Lesson
+TLE	Waterbender's Restoration	183	2	R	2	Instant - Lesson
+TLE	Waterbender's Restoration	99	1	R	2	Instant - Lesson
+TLE	Whirlwind Technique	100	1	U	2	Instant - Lesson
+TLE	Wolf Cove Villager	221	1	C	1	Creature - Human Peasant
+TLE	Wolf Cove Villager	276	2	C	1	Creature - Human Peasant
+TLE	Worldly Tutor	314	1	R	16	Instant
+TLE	Zhao, the Seething Flame	245	1	U	8	Legendary Creature - Human Soldier
+TLE	Zhao, the Seething Flame	286	2	U	8	Legendary Creature - Human Soldier
+TLE	Zuko's Offense	247	1	C	8	Sorcery
+TLE	Zuko's Offense	288	2	C	8	Sorcery
+TLE	Zuko, Avatar Hunter	246	1	R	8	Legendary Creature - Human Noble
+TLE	Zuko, Avatar Hunter	287	2	R	8	Legendary Creature - Human Noble
+TLE	Zuko, Firebending Master	127	1	M	8	Legendary Creature - Human Noble Ally
+TLE	Zuko, Firebending Master	200	2	M	8	Legendary Creature - Human Noble Ally
+TLE	Zuko, Seeking Honor	150	1	U	12	Legendary Creature - Human Noble

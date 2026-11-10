@@ -1,0 +1,577 @@
+enemy	original	local	origin
+Abyssal Baron	decks/standard/demon_swamp.dck	decks/converted/abyssal-baron-1.dck	B / Heartless Act
+Adept Black Wizard	decks/standard/blackwizard_medium_demonicpact.dck	decks/converted/adept-black-wizard-1.dck	B / June, Bounty Hunter
+Adept Black Wizard	decks/standard/blackwizard_medium_fear.dck	decks/converted/adept-black-wizard-2.dck	B / June, Bounty Hunter
+Adept Black Wizard	decks/standard/blackwizard_medium_goblins.dck	decks/converted/adept-black-wizard-3.dck	B / Fire Nation Engineer
+Adept Black Wizard	decks/standard/blackwizard_easy_artifact.dck	decks/converted/adept-black-wizard-4.dck	B / Heartless Act
+Adept Black Wizard	decks/standard/blackwizard_easy_badmoon.dck	decks/converted/adept-black-wizard-5.dck	B / June, Bounty Hunter
+Adept Black Wizard	decks/standard/blackwizard_easy_mill.dck	decks/converted/adept-black-wizard-6.dck	B / Fire Nation Engineer
+Adept Blue Wizard	decks/standard/bluewizard_medium_donate.dck	decks/converted/adept-blue-wizard-1.dck	prototype Air
+Adept Blue Wizard	decks/standard/bluewizard_medium_dragons.dck	decks/converted/adept-blue-wizard-2.dck	U / Knowledge Seeker
+Adept Blue Wizard	decks/standard/bluewizard_easy_artifact.dck	decks/converted/adept-blue-wizard-3.dck	U / Knowledge Seeker
+Adept Blue Wizard	decks/standard/bluewizard_easy_control.dck	decks/converted/adept-blue-wizard-4.dck	U / Knowledge Seeker
+Adept Blue Wizard	decks/standard/bluewizard_easy_thassa.dck	decks/converted/adept-blue-wizard-5.dck	U / Forecasting Fortune Teller
+Adept Blue Wizard	decks/standard/bluewizard_medium_midrange.dck	decks/converted/adept-blue-wizard-6.dck	U / Forecasting Fortune Teller
+Adept Blue Wizard	decks/standard/bluewizard_medium_mill.dck	decks/converted/adept-blue-wizard-7.dck	U / Forecasting Fortune Teller
+Adept Green Wizard	decks/standard/greenwizard_medium_cheatramp.dck	decks/converted/adept-green-wizard-1.dck	G / Badgermole
+Adept Green Wizard	decks/standard/greenwizard_medium_nissa.dck	decks/converted/adept-green-wizard-2.dck	G / Badgermole
+Adept Green Wizard	decks/standard/greenwizard_medium_snakes.dck	decks/converted/adept-green-wizard-3.dck	G / Earthbending Lesson
+Adept Green Wizard	decks/standard/greenwizard_medium_trample.dck	decks/converted/adept-green-wizard-4.dck	G / Foggy Swamp Vinebender
+Adept Red Wizard	decks/standard/redwizard_medium_artifact.dck	decks/converted/adept-red-wizard-1.dck	R / Firebending Lesson
+Adept Red Wizard	decks/standard/redwizard_medium_giant.dck	decks/converted/adept-red-wizard-2.dck	R / Treetop Freedom Fighters
+Adept Red Wizard	decks/standard/redwizard_medium_circleofflame.dck	decks/converted/adept-red-wizard-3.dck	R / Treetop Freedom Fighters
+Adept Red Wizard	decks/standard/redwizard_medium_ralburn.dck	decks/converted/adept-red-wizard-4.dck	R / Fire Nation Cadets
+Adept Red Wizard	decks/standard/redwizard_medium_hasteburn.dck	decks/converted/adept-red-wizard-5.dck	R / Firebending Lesson
+Adept Red Wizard	decks/standard/redwizard_easy_burn.dck	decks/converted/adept-red-wizard-6.dck	R / Firebending Lesson
+Adept Red Wizard	decks/standard/redwizard_easy_dragons.dck	decks/converted/adept-red-wizard-7.dck	R / Fire Nation Cadets
+Adept Red Wizard	decks/standard/redwizard_easy_gauntletofmight.dck	decks/converted/adept-red-wizard-8.dck	R / Fire Nation Cadets
+Adept White Wizard	decks/standard/whitewizard_medium_aggro.dck	decks/converted/adept-white-wizard-1.dck	W / Invasion Reinforcements
+Adept White Wizard	decks/standard/whitewizard_medium_basri.dck	decks/converted/adept-white-wizard-2.dck	W / Invasion Reinforcements
+Adept White Wizard	decks/standard/whitewizard_medium_control.dck	decks/converted/adept-white-wizard-3.dck	W / Water Tribe Captain
+Adept White Wizard	decks/standard/whitewizard_medium_knight.dck	decks/converted/adept-white-wizard-4.dck	W / Invasion Reinforcements
+Adult Green Dragon	decks/standard/greendragon.dck	decks/converted/adult-green-dragon-1.dck	U / Boomerang Basics
+Adventurer	decks/standard/adventurer.dck	decks/converted/adventurer-1.dck	WU / Kyoshi Warriors, Forecasting Fortune Teller
+Aerie Guard	decks/standard/aerie_guard.dck	decks/converted/aerie-guard-1.dck	WU / Water Tribe Captain, Boomerang Basics
+Aether Channeler	decks/standard/aether_channeler.dck	decks/converted/aether-channeler-1.dck	WU / Invasion Reinforcements, Forecasting Fortune Teller
+Akroma	decks/boss/akroma.dck	decks/converted/akroma-1.dck	W / Appa, Steadfast Guardian, Airbending Lesson
+Amonkhet Minotaur Warrior	decks/standard/amonkhet_minotaur.dck	decks/converted/amonkhet-minotaur-warrior-1.dck	BR / June, Bounty Hunter, Treetop Freedom Fighters
+Amphin Warrior	decks/standard/amphin_warrior.dck	decks/converted/amphin-warrior-1.dck	RG / Firebending Lesson, Foggy Swamp Vinebender
+Ancient Demon	decks/standard/demon5.dck	decks/converted/ancient-demon-1.dck	UB / Boomerang Basics, Fire Nation Engineer
+Ancient Silver Dragon	decks/miniboss/bluedragon.dck	decks/converted/ancient-silver-dragon-1.dck	U / The Unagi of Kyoshi Island, Waterbending Lesson
+Ancient Vampire	decks/standard/ancientvampire.dck	decks/converted/ancient-vampire-1.dck	B / Fire Nation Engineer
+Angel Overseer	decks/standard/azoriusangel.dck	decks/converted/angel-overseer-1.dck	WU / Water Tribe Captain, Forecasting Fortune Teller
+Angel Warrior	decks/standard/angelwarrior.dck	decks/converted/angel-warrior-1.dck	W / Water Tribe Captain
+Angelic Page	decks/standard/angel.json	decks/converted/angelic-page-1.dck	W / Water Tribe Captain
+Ape	decks/standard/ape.json	decks/converted/ape-1.dck	RG / Firebending Lesson, Badgermole
+Apprentice Black Wizard	decks/standard/blackwizard_easy_bog.dck	decks/converted/apprentice-black-wizard-1.dck	B / Heartless Act
+Apprentice Black Wizard	decks/standard/blackwizard_easy_humans.dck	decks/converted/apprentice-black-wizard-2.dck	B / June, Bounty Hunter
+Apprentice Black Wizard	decks/standard/blackwizard_easy_pile.dck	decks/converted/apprentice-black-wizard-3.dck	B / Heartless Act
+Apprentice Black Wizard	decks/standard/blackwizard_easy_thrull.dck	decks/converted/apprentice-black-wizard-4.dck	B / June, Bounty Hunter
+Apprentice Black Wizard	decks/standard/blackwizard_easy.json	decks/converted/apprentice-black-wizard-5.dck	B / Fire Nation Engineer
+Apprentice Blue Wizard	decks/standard/bluewizard_apprentice_1.dck	decks/converted/apprentice-blue-wizard-1.dck	U / Knowledge Seeker
+Apprentice Blue Wizard	decks/standard/bluewizard_apprentice_2.dck	decks/converted/apprentice-blue-wizard-2.dck	U / Boomerang Basics
+Apprentice Blue Wizard	decks/standard/bluewizard_apprentice_3.dck	decks/converted/apprentice-blue-wizard-3.dck	U / Forecasting Fortune Teller
+Apprentice Blue Wizard	decks/standard/bluewizard_easy.json	decks/converted/apprentice-blue-wizard-4.dck	U / Knowledge Seeker
+Apprentice Green Wizard	decks/standard/greenwizard_easy_elf.dck	decks/converted/apprentice-green-wizard-1.dck	G / Foggy Swamp Vinebender
+Apprentice Green Wizard	decks/standard/greenwizard_easy_enchantment.dck	decks/converted/apprentice-green-wizard-2.dck	G / Foggy Swamp Vinebender
+Apprentice Green Wizard	decks/standard/greenwizard_easy_vanilla.dck	decks/converted/apprentice-green-wizard-3.dck	G / Foggy Swamp Vinebender
+Apprentice Green Wizard	decks/standard/greenwizard_easy.json	decks/converted/apprentice-green-wizard-4.dck	G / Earthbending Lesson
+Apprentice Red Wizard	decks/standard/redwizard_easy.json	decks/converted/apprentice-red-wizard-1.dck	R / Firebending Lesson
+Apprentice Red Wizard	decks/standard/redwizard_easy_1.dck	decks/converted/apprentice-red-wizard-2.dck	R / Treetop Freedom Fighters
+Apprentice Red Wizard	decks/standard/redwizard_easy_2.dck	decks/converted/apprentice-red-wizard-3.dck	R / Firebending Lesson
+Apprentice Red Wizard	decks/standard/redwizard_apprentice_1.dck	decks/converted/apprentice-red-wizard-4.dck	R / Fire Nation Cadets
+Apprentice Red Wizard	decks/standard/redwizard_easy_3.dck	decks/converted/apprentice-red-wizard-5.dck	R / Treetop Freedom Fighters
+Apprentice White Wizard	decks/standard/whitewizard_easy_ajani.dck	decks/converted/apprentice-white-wizard-1.dck	W / Water Tribe Captain
+Apprentice White Wizard	decks/standard/whitewizard_easy_wanderer.dck	decks/converted/apprentice-white-wizard-2.dck	W / Invasion Reinforcements
+Apprentice White Wizard	decks/standard/whitewizard_easy_angelhuman.dck	decks/converted/apprentice-white-wizard-3.dck	W / Invasion Reinforcements
+Arcane Golem	decks/standard/jodah.dck	decks/converted/arcane-golem-1.dck	RG / Treetop Freedom Fighters, Foggy Swamp Vinebender
+Archaeologist	decks/standard/archaeologist.dck	decks/converted/archaeologist-1.dck	WU / Kyoshi Warriors, Knowledge Seeker
+Archer	decks/standard/human_archer.dck	decks/converted/archer-1.dck	WG / Kyoshi Warriors, Earthbending Lesson
+Archer Elite	decks/standard/archerelite.dck	decks/converted/archer-elite-1.dck	WG / Kyoshi Warriors, Earthbending Lesson
+Archfiend	decks/standard/demon_landdestruction.dck	decks/converted/archfiend-1.dck	B / Fire Nation Engineer
+Archivist	decks/standard/archivist.dck	decks/converted/archivist-1.dck	U / Forecasting Fortune Teller
+Archmage	decks/standard/archmage.dck	decks/converted/archmage-1.dck	RG / Firebending Lesson, Foggy Swamp Vinebender
+Armadillo	decks/standard/armadillo.dck	decks/converted/armadillo-1.dck	WG / Kyoshi Warriors, Foggy Swamp Vinebender
+Armored Knight	decks/standard/armored_knight.dck	decks/converted/armored-knight-1.dck	WR / Invasion Reinforcements, Fire Nation Cadets
+Artifact Warrior	decks/standard/artifactwarrior.dck	decks/converted/artifact-warrior-1.dck	U / Forecasting Fortune Teller
+Ashmouth Devil	decks/standard/ashmouth_devil.dck	decks/converted/ashmouth-devil-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Auramancer	decks/standard/enchantress.dck	decks/converted/auramancer-1.dck	WU / Invasion Reinforcements, Boomerang Basics
+Axgard Dwarf	decks/standard/axgard_dwarf.dck	decks/converted/axgard-dwarf-1.dck	WR / Water Tribe Captain, Firebending Lesson
+Badger	decks/standard/badger.dck	decks/converted/badger-1.dck	G / Foggy Swamp Vinebender
+Bandit	decks/standard/bandit.dck	decks/converted/bandit-1.dck	BR / June, Bounty Hunter, Treetop Freedom Fighters
+Bandit Archer	decks/standard/banditarcher_blink.dck	decks/converted/bandit-archer-1.dck	BR / Fire Nation Engineer, Fire Nation Cadets
+Bandit Archer	decks/standard/banditarcher_damage.dck	decks/converted/bandit-archer-2.dck	BR / Fire Nation Engineer, Firebending Lesson
+Bandit Leader	decks/standard/banditleader_bolas.dck	decks/converted/bandit-leader-1.dck	BR / June, Bounty Hunter, Firebending Lesson
+Bandit Leader	decks/standard/banditleader_hellbent.dck	decks/converted/bandit-leader-2.dck	BR / June, Bounty Hunter, Firebending Lesson
+Bandit Leader	decks/standard/banditleader_rakdos.dck	decks/converted/bandit-leader-3.dck	BR / Fire Nation Engineer, Firebending Lesson
+Bandit Scoundrel	decks/standard/bandit_monor.dck	decks/converted/bandit-scoundrel-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Bandit Scoundrel	decks/standard/bandit_mutate.dck	decks/converted/bandit-scoundrel-2.dck	BR / Fire Nation Engineer, Fire Nation Cadets
+Bandit Scoundrel	decks/standard/bandit_zoo.dck	decks/converted/bandit-scoundrel-3.dck	BR / Fire Nation Engineer, Firebending Lesson
+Bandit Slingshot	decks/standard/banditslingshot_flyers.dck	decks/converted/bandit-slingshot-1.dck	BR / Heartless Act, Fire Nation Cadets
+Bandit Trapmaster	decks/standard/bandittrapper_hazezon.dck	decks/converted/bandit-trapmaster-1.dck	BR / Fire Nation Engineer, Treetop Freedom Fighters
+Barbarian	decks/standard/barbarian.dck	decks/converted/barbarian-1.dck	prototype Jet
+Bat	decks/standard/bat.dck	decks/converted/bat-1.dck	B / Heartless Act
+Bear	decks/standard/bear.json	decks/converted/bear-1.dck	G / Foggy Swamp Vinebender
+Beastmaster	decks/standard/beastmaster.dck	decks/converted/beastmaster-1.dck	WG / Invasion Reinforcements, Badgermole
+Beholder	decks/standard/beholder.dck	decks/converted/beholder-1.dck	UB / Boomerang Basics, June, Bounty Hunter
+Berserker	decks/standard/berserker.json	decks/converted/berserker-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Big Zombie	decks/standard/zombie_bad.json	decks/converted/big-zombie-1.dck	B / Fire Nation Engineer
+Bird	decks/standard/bird_blue.json	decks/converted/bird-1.dck	U / Knowledge Seeker
+Black Golem	decks/standard/blackconstruct.dck	decks/converted/black-golem-1.dck	B / Heartless Act
+Bloodgift Demon	decks/standard/demonwander.dck	decks/converted/bloodgift-demon-1.dck	WB / Kyoshi Warriors, Fire Nation Engineer
+Bloodied Skeleton	decks/standard/bloodiedskeleton.dck	decks/converted/bloodied-skeleton-1.dck	B / Fire Nation Engineer
+Blue Golem	decks/standard/blue_golem.dck	decks/converted/blue-golem-1.dck	U / Forecasting Fortune Teller
+Blue Prototype	decks/standard/prototype_blue.dck	decks/converted/blue-prototype-1.dck	U / Boomerang Basics
+Boar	decks/standard/boar.json	decks/converted/boar-1.dck	G / Foggy Swamp Vinebender
+Boar	decks/standard/boar_gruul.dck	decks/converted/boar-2.dck	G / Earthbending Lesson
+Boar	decks/standard/boar_monogreenlifegain.dck	decks/converted/boar-3.dck	G / Badgermole
+Bog Witch	decks/standard/witch.dck	decks/converted/bog-witch-1.dck	B / Fire Nation Engineer
+Boggart	decks/standard/eyeblight.dck	decks/converted/boggart-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Bone Dragon	decks/standard/bonedragon.dck	decks/converted/bone-dragon-1.dck	R / Treetop Freedom Fighters
+Bone Golem	decks/standard/bonegolem.dck	decks/converted/bone-golem-1.dck	WG / Kyoshi Warriors, Badgermole
+Brain Mole	decks/standard/millwizard.dck	decks/converted/brain-mole-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Bull	decks/standard/bull.dck	decks/converted/bull-1.dck	G / Foggy Swamp Vinebender
+Camel	decks/standard/camel.dck	decks/converted/camel-1.dck	W / Water Tribe Captain
+Caracal	decks/standard/caracal.dck	decks/converted/caracal-1.dck	G / Badgermole
+Cathar	decks/standard/cathar.dck	decks/converted/cathar-1.dck	WG / Kyoshi Warriors, Badgermole
+Cave Spider	decks/standard/cave_spider.dck	decks/converted/cave-spider-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Centaur	decks/standard/centaur.json	decks/converted/centaur-1.dck	WG / Water Tribe Captain, Badgermole
+Centaur Warrior	decks/standard/centaur_warrior.dck	decks/converted/centaur-warrior-1.dck	WG / Kyoshi Warriors, Earthbending Lesson
+Cephalid	decks/standard/cephalid.dck	decks/converted/cephalid-1.dck	WB / Invasion Reinforcements, June, Bounty Hunter
+Cerodon	decks/standard/cerodon.dck	decks/converted/cerodon-1.dck	U / Boomerang Basics
+Challenger 20	decks/standard/challenger_20_allied_fires.dck	decks/converted/challenger-20-1.dck	WB / Water Tribe Captain, Heartless Act
+Challenger 20	decks/standard/challenger_20_cavalcade_charge.dck	decks/converted/challenger-20-2.dck	UR / Knowledge Seeker, Firebending Lesson
+Challenger 20	decks/standard/challenger_20_final_adventure.dck	decks/converted/challenger-20-3.dck	UB / Knowledge Seeker, Heartless Act
+Challenger 20	decks/standard/challenger_20_flash_of_ferocity.dck	decks/converted/challenger-20-4.dck	UB / Knowledge Seeker, June, Bounty Hunter
+Challenger 21	decks/standard/challenger_21_azorius_control.dck	decks/converted/challenger-21-1.dck	WR / Kyoshi Warriors, Treetop Freedom Fighters
+Challenger 21	decks/standard/challenger_21_dimir_rogue.dck	decks/converted/challenger-21-2.dck	BG / Fire Nation Engineer, Badgermole
+Challenger 21	decks/standard/challenger_21_mono-green_stompy.dck	decks/converted/challenger-21-3.dck	RG / Treetop Freedom Fighters, Badgermole
+Challenger 21	decks/standard/challenger_21_mono-red_aggro.dck	decks/converted/challenger-21-4.dck	UB / Boomerang Basics, Heartless Act
+Challenger 22	decks/standard/challenger_22_dimir_control.dck	decks/converted/challenger-22-1.dck	UR / Knowledge Seeker, Treetop Freedom Fighters
+Challenger 22	decks/standard/challenger_22_gruul_stompy.dck	decks/converted/challenger-22-2.dck	WU / Kyoshi Warriors, Boomerang Basics
+Challenger 22	decks/standard/challenger_22_mono_white_aggro.dck	decks/converted/challenger-22-3.dck	WU / Water Tribe Captain, Forecasting Fortune Teller
+Challenger 22	decks/standard/challenger_22_rakdos_vampires.dck	decks/converted/challenger-22-4.dck	BG / Heartless Act, Earthbending Lesson
+Chandra	decks/miniboss/Fire of Kaladesh.dck	decks/converted/chandra-1.dck	R / Zuko, Firebending Master, Firebending Lesson
+Chandra's Acolyte	decks/standard/chandra1.dck	decks/converted/chandra-s-acolyte-1.dck	R / Fire Nation Cadets
+Chandra's Firestarter	decks/standard/chandra2.dck	decks/converted/chandra-s-firestarter-1.dck	R / Firebending Lesson
+Chandra's Hellhound	decks/standard/hellhound2.dck	decks/converted/chandra-s-hellhound-1.dck	R / Firebending Lesson
+Chandra's Immolator	decks/standard/chandra3.dck	decks/converted/chandra-s-immolator-1.dck	R / Firebending Lesson
+Chandra's Lavamancer	decks/standard/chandra4.dck	decks/converted/chandra-s-lavamancer-1.dck	R / Fire Nation Cadets
+Chandra's Pyromancer	decks/standard/chandra5.dck	decks/converted/chandra-s-pyromancer-1.dck	R / Fire Nation Cadets
+Chandra's Scorcher	decks/standard/chandra6.dck	decks/converted/chandra-s-scorcher-1.dck	R / Fire Nation Cadets
+Chicken	decks/standard/chicken.dck	decks/converted/chicken-1.dck	WG / Water Tribe Captain, Foggy Swamp Vinebender
+Chimera	decks/standard/chimera.dck	decks/converted/chimera-1.dck	WG / Invasion Reinforcements, Badgermole
+Clay Golem	decks/standard/golem_good.json	decks/converted/clay-golem-1.dck	W / Kyoshi Warriors
+Cleric	decks/standard/cleric.json	decks/converted/cleric-1.dck	W / Water Tribe Captain
+Cloaker	decks/standard/cloaker.dck	decks/converted/cloaker-1.dck	B / Fire Nation Engineer
+Cloud Giant	decks/standard/cloudgiant.dck	decks/converted/cloud-giant-1.dck	WG / Water Tribe Captain, Earthbending Lesson
+Cloud Guardian	decks/standard/cloudguard.dck	decks/converted/cloud-guardian-1.dck	WU / Kyoshi Warriors, Knowledge Seeker
+Conjurer	decks/miniboss/conjure.dck	decks/converted/conjurer-1.dck	U / Sakashima of a Thousand Faces, Clone
+Construct	decks/standard/artificer.dck	decks/converted/construct-1.dck	UR / Forecasting Fortune Teller, Treetop Freedom Fighters
+Construct	decks/standard/construct.json	decks/converted/construct-2.dck	UR / Boomerang Basics, Fire Nation Cadets
+Construct	decks/standard/rustic_construct.dck	decks/converted/construct-3.dck	UR / Knowledge Seeker, Firebending Lesson
+Copper Host Brutalizer	decks/miniboss/copperhostbrutalizer.dck	decks/converted/copper-host-brutalizer-1.dck	BG / Heartless Act, Badgermole
+Copper Host Infector	decks/standard/copperhostinfector.json	decks/converted/copper-host-infector-1.dck	G / Badgermole
+Corrupted Blue Wizard	decks/standard/bluewiz_corrupted.dck	decks/converted/corrupted-blue-wizard-1.dck	U / Boomerang Basics
+Corrupted Cleric	decks/standard/corruptedcleric.dck	decks/converted/corrupted-cleric-1.dck	WB / Water Tribe Captain, June, Bounty Hunter
+Corrupted Green Wizard	decks/standard/greenmage_corrupted.dck	decks/converted/corrupted-green-wizard-1.dck	G / Earthbending Lesson
+Corrupted Red Wizard	decks/standard/redwiz_corrupted.dck	decks/converted/corrupted-red-wizard-1.dck	R / Treetop Freedom Fighters
+Cosmic Horror	decks/standard/cosmic_horror.dck	decks/converted/cosmic-horror-1.dck	RG / Fire Nation Cadets, Earthbending Lesson
+Crab	decks/standard/crab.json	decks/converted/crab-1.dck	UB / Boomerang Basics, June, Bounty Hunter
+Crab	decks/standard/giant_crab.dck	decks/converted/crab-2.dck	UB / Forecasting Fortune Teller, Heartless Act
+Criosphinx	decks/standard/sphinx amonkhet.dck	decks/converted/criosphinx-1.dck	WU / Invasion Reinforcements, Boomerang Basics
+Crocodile	decks/standard/crocodile.dck	decks/converted/crocodile-1.dck	WU / Kyoshi Warriors, Forecasting Fortune Teller
+Curselord	decks/standard/curselord.dck	decks/converted/curselord-1.dck	UB / Forecasting Fortune Teller, Fire Nation Engineer
+Cyclops	decks/standard/cyclops.dck	decks/converted/cyclops-1.dck	R / Treetop Freedom Fighters
+Dark Enchanter	decks/miniboss/darkenchanter.dck	decks/converted/dark-enchanter-1.dck	B / Koh, the Face Stealer, Heartless Act
+Dark Knight	decks/standard/death_knight.dck	decks/converted/dark-knight-1.dck	B / Fire Nation Engineer
+Dark Spirit	decks/standard/dark_spirit.dck	decks/converted/dark-spirit-1.dck	B / Fire Nation Engineer
+Dawnhart Witch	decks/standard/dawnhart_witch.dck	decks/converted/dawnhart-witch-1.dck	WG / Invasion Reinforcements, Earthbending Lesson
+Death Knight	decks/standard/death_knight.dck	decks/converted/death-knight-1.dck	B / June, Bounty Hunter
+Demon	decks/standard/demon.json	decks/converted/demon-1.dck	B / Fire Nation Engineer
+Demon	decks/standard/demonshard.dck	decks/converted/demon-2.dck	B / Fire Nation Engineer
+Demon	decks/standard/demonblackred.dck	decks/converted/demon-3.dck	B / Heartless Act
+Demon	decks/standard/demonmonoblack.dck	decks/converted/demon-4.dck	B / June, Bounty Hunter
+Demon of Tibalt	decks/standard/tibalt_demon.dck	decks/converted/demon-of-tibalt-1.dck	B / June, Bounty Hunter
+Demoncaller	decks/standard/demoncaller.dck	decks/converted/demoncaller-1.dck	BR / June, Bounty Hunter, Firebending Lesson
+Devil	decks/standard/devil.json	decks/converted/devil-1.dck	R / Treetop Freedom Fighters
+Devil of Tibalt	decks/standard/tibalt_devil.dck	decks/converted/devil-of-tibalt-1.dck	R / Fire Nation Cadets
+Dimir Faerie	decks/standard/dimir_faerie.dck	decks/converted/dimir-faerie-1.dck	UB / Boomerang Basics, Heartless Act
+Dinosaur	decks/standard/dinosaur_w_r.dck	decks/converted/dinosaur-1.dck	WR / Invasion Reinforcements, Treetop Freedom Fighters
+Dinosaur Elite	decks/standard/dinosaurelite.dck	decks/converted/dinosaur-elite-1.dck	WR / Invasion Reinforcements, Treetop Freedom Fighters
+Disciple of Teferi	decks/standard/disciple_of_teferi.dck	decks/converted/disciple-of-teferi-1.dck	UR / Boomerang Basics, Treetop Freedom Fighters
+Djinn	decks/standard/djinn.json	decks/converted/djinn-1.dck	UR / Boomerang Basics, Treetop Freedom Fighters
+Dog	decks/standard/dog.json	decks/converted/dog-1.dck	W / Invasion Reinforcements
+Dog	decks/standard/dog.dck	decks/converted/dog-2.dck	W / Water Tribe Captain
+Dog	decks/standard/dog_w_beginner.dck	decks/converted/dog-3.dck	W / Kyoshi Warriors
+Doppelganger	decks/standard/mimic.dck	decks/converted/doppelganger-1.dck	U / Clone, Sakashima of a Thousand Faces
+Dragon	decks/standard/dragon.dck	decks/converted/dragon-1.dck	R / Firebending Lesson
+Dragonfly	decks/standard/insect.dck	decks/converted/dragonfly-1.dck	BG / Fire Nation Engineer, Earthbending Lesson
+Drake	decks/standard/drake_ur_beginner.dck	decks/converted/drake-1.dck	U / Knowledge Seeker
+Drake	decks/standard/drake_ur_mid.dck	decks/converted/drake-2.dck	U / Boomerang Basics
+Drake	decks/standard/drake_ur_unfair.dck	decks/converted/drake-3.dck	U / Forecasting Fortune Teller
+Dross Gladiator	decks/standard/drossgladiator.json	decks/converted/dross-gladiator-1.dck	B / Heartless Act
+Dross Grimnarch	decks/standard/drossgrimnarch.dck	decks/converted/dross-grimnarch-1.dck	UB / Knowledge Seeker, June, Bounty Hunter
+Dwarf	decks/standard/dwarf.json	decks/converted/dwarf-1.dck	WR / Invasion Reinforcements, Treetop Freedom Fighters
+Dwarf Demolisher	decks/standard/dwarfdemolisher.dck	decks/converted/dwarf-demolisher-1.dck	R / Fire Nation Cadets
+Dwarf Mercenary	decks/standard/dwarfmercenary.dck	decks/converted/dwarf-mercenary-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Dwarf Pilot	decks/standard/dwarfpilot.dck	decks/converted/dwarf-pilot-1.dck	WR / Water Tribe Captain, Firebending Lesson
+Dwarf Warlord	decks/standard/dwarf_whitecastle.dck	decks/converted/dwarf-warlord-1.dck	W / Kyoshi Warriors
+Earth Elemental	decks/standard/earth_elemental.dck	decks/converted/earth-elemental-1.dck	U / Boomerang Basics
+Efreet	decks/standard/efreet.dck	decks/converted/efreet-1.dck	UR / Boomerang Basics, Firebending Lesson
+Eldraine Faerie	decks/standard/eldraine_faerie.dck	decks/converted/eldraine-faerie-1.dck	UG / Knowledge Seeker, Badgermole
+Eldraine Knight	decks/standard/eldraine_knight.dck	decks/converted/eldraine-knight-1.dck	WR / Water Tribe Captain, Treetop Freedom Fighters
+Eldrazi	decks/standard/eldrazi.dck	decks/converted/eldrazi-1.dck	UB / Forecasting Fortune Teller, Heartless Act
+Eldrazi Devastator	decks/standard/eldrazilarge.dck	decks/converted/eldrazi-devastator-1.dck	UB / Knowledge Seeker, Heartless Act
+Eldrazi Floater	decks/standard/eldrazilarge.dck	decks/converted/eldrazi-floater-1.dck	UG / Forecasting Fortune Teller, Foggy Swamp Vinebender
+Elemental	decks/standard/elemental_air.dck	decks/converted/elemental-1.dck	U / Knowledge Seeker
+Elephant	decks/standard/elephant.json	decks/converted/elephant-1.dck	WG / Kyoshi Warriors, Badgermole
+Elesh Norn	decks/miniboss/copperhostbrutalizer.dck	decks/converted/elesh-norn-1.dck	W / Aang, Airbending Master, Invasion Reinforcements
+Elf	decks/standard/elf_bad.json	decks/converted/elf-1.dck	prototype Earth
+Elf Vagabond	decks/standard/elfvagabond.dck	decks/converted/elf-vagabond-1.dck	R / Fire Nation Cadets
+Elf warrior	decks/standard/elf_mid.json	decks/converted/elf-warrior-1.dck	G / Badgermole
+Elk	decks/standard/elk.dck	decks/converted/elk-1.dck	G / Foggy Swamp Vinebender
+Emrakul	decks/boss/emrakul.dck	decks/converted/emrakul-1.dck	G / Cityscape Leveler, Badgermole Cub, Shared Roots
+Esper Artificer	decks/standard/esper_artificer.dck	decks/converted/esper-artificer-1.dck	UB / Boomerang Basics, Fire Nation Engineer
+Evil Wall	decks/standard/hiddenwall.dck	decks/converted/evil-wall-1.dck	WG / Invasion Reinforcements, Foggy Swamp Vinebender
+Eye	decks/standard/eye.dck	decks/converted/eye-1.dck	B / Fire Nation Engineer
+Faerie	decks/standard/faerie.json	decks/converted/faerie-1.dck	BG / Heartless Act, Earthbending Lesson
+Faerie Dragon	decks/standard/faeriedragon.dck	decks/converted/faerie-dragon-1.dck	UB / Boomerang Basics, June, Bounty Hunter
+Falcon	decks/standard/falcon_w.dck	decks/converted/falcon-1.dck	W / Kyoshi Warriors
+Falcon-headed Aven Warrior	decks/standard/amonkhet_aven_w.dck	decks/converted/falcon-headed-aven-warrior-1.dck	W / Water Tribe Captain
+Fallen Angel	decks/standard/fallen_angel.dck	decks/converted/fallen-angel-1.dck	WB / Kyoshi Warriors, Heartless Act
+False Knight	decks/standard/death_knight.dck	decks/converted/false-knight-1.dck	B / Fire Nation Engineer
+False Monk	decks/standard/cultist.dck	decks/converted/false-monk-1.dck	B / Fire Nation Engineer
+Farmer	decks/standard/farmer.dck	decks/converted/farmer-1.dck	WG / Invasion Reinforcements, Earthbending Lesson
+Fire Dragon	decks/standard/firedragon.dck	decks/converted/fire-dragon-1.dck	R / Treetop Freedom Fighters
+Fire Elemental	decks/standard/fire_elemental.dck	decks/converted/fire-elemental-1.dck	R / Firebending Lesson
+Fire Giant	decks/standard/firegiant.dck	decks/converted/fire-giant-1.dck	R / Treetop Freedom Fighters
+Flame Elemental	decks/standard/flame_elemental.dck	decks/converted/flame-elemental-1.dck	R / Fire Nation Cadets
+Flesh Abomination	decks/standard/flesh_horror.dck	decks/converted/flesh-abomination-1.dck	B / June, Bounty Hunter
+Flying Witch	decks/standard/witch.dck	decks/converted/flying-witch-1.dck	B / June, Bounty Hunter
+Fog Trap	decks/standard/turbofog.dck	decks/converted/fog-trap-1.dck	WG / Water Tribe Captain, Earthbending Lesson
+Forest Giant	decks/standard/foresttitan.dck	decks/converted/forest-giant-1.dck	G / Earthbending Lesson
+Fox	decks/standard/fox.json	decks/converted/fox-1.dck	W / Invasion Reinforcements
+Fox	decks/standard/fox_greenwhite.dck	decks/converted/fox-2.dck	W / Invasion Reinforcements
+Frog	decks/standard/frog.json	decks/converted/frog-1.dck	UB / Knowledge Seeker, June, Bounty Hunter
+Froghemoth	decks/standard/froghemoth.dck	decks/converted/froghemoth-1.dck	RG / Firebending Lesson, Badgermole
+Frost Titan	decks/standard/frost_titan.dck	decks/converted/frost-titan-1.dck	WU / Invasion Reinforcements, Boomerang Basics
+Fungus	decks/standard/fungus.json	decks/converted/fungus-1.dck	G / Badgermole
+Furnace Goblin	decks/standard/furnacegoblin.json	decks/converted/furnace-goblin-1.dck	R / Treetop Freedom Fighters
+Furnace Tormentor	decks/standard/furnacetormentor.dck	decks/converted/furnace-tormentor-1.dck	RG / Treetop Freedom Fighters, Earthbending Lesson
+Gargoyle	decks/standard/gargoyle.json	decks/converted/gargoyle-1.dck	WR / Water Tribe Captain, Firebending Lesson
+Gargoyle 2	decks/standard/gargoyle.dck	decks/converted/gargoyle-2-1.dck	W / Invasion Reinforcements
+Garruk	decks/miniboss/garruk.dck	decks/converted/garruk-1.dck	G / The Earth King, Saber-Tooth Moose-Lion
+Geist	decks/standard/ghost_blue.dck	decks/converted/geist-1.dck	U / Knowledge Seeker
+Geistmage	decks/standard/geistmage.dck	decks/converted/geistmage-1.dck	U / Forecasting Fortune Teller
+Geonid Death-Cap	decks/standard/geonid.dck	decks/converted/geonid-death-cap-1.dck	G / Foggy Swamp Vinebender
+Ghalta	decks/boss/ghalta.dck	decks/converted/ghalta-1.dck	G / The Boulder, Ready to Rumble, Earthbending Lesson
+Ghost	decks/standard/ghost.json	decks/converted/ghost-1.dck	B / June, Bounty Hunter
+Ghoul	decks/standard/ghoul.dck	decks/converted/ghoul-1.dck	UB / Knowledge Seeker, June, Bounty Hunter
+Ghoul Gravecaller	decks/standard/ghoulgravecrawler.dck	decks/converted/ghoul-gravecaller-1.dck	UB / Knowledge Seeker, Fire Nation Engineer
+Giant Cyclops	decks/standard/luckyminotaur.dck	decks/converted/giant-cyclops-1.dck	UR / Boomerang Basics, Fire Nation Cadets
+Giant Fly	decks/standard/insect.dck	decks/converted/giant-fly-1.dck	G / Earthbending Lesson
+Giant Panda	decks/standard/giantpanda.dck	decks/converted/giant-panda-1.dck	G / Earthbending Lesson
+Giant Spider	decks/standard/spider_token.dck	decks/converted/giant-spider-1.dck	G / Foggy Swamp Vinebender
+Gitaxian Scientist	decks/standard/gitaxianscientist.dck	decks/converted/gitaxian-scientist-1.dck	UG / Boomerang Basics, Earthbending Lesson
+Gitaxian Underling	decks/standard/gitaxianunderling.json	decks/converted/gitaxian-underling-1.dck	U / Knowledge Seeker
+Gladiator	decks/standard/gladiator.dck	decks/converted/gladiator-1.dck	R / Firebending Lesson
+Goblin	decks/standard/goblin_warrior_easy.dck	decks/converted/goblin-1.dck	R / Fire Nation Cadets
+Goblin Artificer	decks/standard/goblin_artificer.dck	decks/converted/goblin-artificer-1.dck	R / Firebending Lesson
+Goblin Chief	decks/standard/goblin_chief_medium.dck	decks/converted/goblin-chief-1.dck	BR / June, Bounty Hunter, Treetop Freedom Fighters
+Goblin Fanatic	decks/standard/goblin_fanatic.dck	decks/converted/goblin-fanatic-1.dck	RG / Treetop Freedom Fighters, Earthbending Lesson
+Goblin King	decks/standard/goblinking.dck	decks/converted/goblin-king-1.dck	R / Treetop Freedom Fighters
+Goblin Pack	decks/standard/goblin_bad.json	decks/converted/goblin-pack-1.dck	R / Treetop Freedom Fighters
+Goblin	decks/standard/goblin_bad.json	decks/converted/goblin-pack-stage-goblin-1.dck	R / Firebending Lesson
+Goblin	decks/standard/goblin_bad.json	decks/converted/goblin-pack-stage-goblin-stage-goblin-1.dck	R / Firebending Lesson
+Goblin Rager	decks/standard/goblinrager.dck	decks/converted/goblin-rager-1.dck	R / Fire Nation Cadets
+Goblin Stalker	decks/standard/evilgoblin.dck	decks/converted/goblin-stalker-1.dck	BR / Heartless Act, Fire Nation Cadets
+Goblin Warrior	decks/standard/goblin_mid.json	decks/converted/goblin-warrior-1.dck	R / Firebending Lesson
+Golem	decks/standard/golem.json	decks/converted/golem-1.dck	WG / Kyoshi Warriors, Earthbending Lesson
+Golem	decks/standard/rustic_golem.dck	decks/converted/golem-2.dck	WG / Kyoshi Warriors, Foggy Swamp Vinebender
+Golem Sentinel	decks/standard/golem_sentinel.dck	decks/converted/golem-sentinel-1.dck	UR / Knowledge Seeker, Fire Nation Cadets
+Golem Sentinel	decks/standard/golem_sentinel_2.dck	decks/converted/golem-sentinel-2.dck	UR / Knowledge Seeker, Fire Nation Cadets
+Golem Sentinel	decks/standard/golem_sentinel_3.dck	decks/converted/golem-sentinel-3.dck	UR / Forecasting Fortune Teller, Firebending Lesson
+Golgari Elf	decks/standard/elf_golgari.dck	decks/converted/golgari-elf-1.dck	BG / Fire Nation Engineer, Earthbending Lesson
+Golgari Fungus	decks/standard/fungus_golgari.dck	decks/converted/golgari-fungus-1.dck	BG / Fire Nation Engineer, Foggy Swamp Vinebender
+Golgari Treefolk	decks/standard/treefolk_golgari.dck	decks/converted/golgari-treefolk-1.dck	BG / Heartless Act, Earthbending Lesson
+Gorgon	decks/standard/gorgon.dck	decks/converted/gorgon-1.dck	BG / Heartless Act, Foggy Swamp Vinebender
+Gorgon 2	decks/standard/gorgon_2.dck	decks/converted/gorgon-2-1.dck	BG / Fire Nation Engineer, Earthbending Lesson
+Gorilla	decks/standard/gorilla.dck	decks/converted/gorilla-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Grave Titan	decks/standard/gravetitan.dck	decks/converted/grave-titan-1.dck	B / Heartless Act
+Graven Revenant	decks/standard/giralfgisa.dck	decks/converted/graven-revenant-1.dck	B / Fire Nation Engineer
+Greater Sandwurm	decks/standard/sandwurm.dck	decks/converted/greater-sandwurm-1.dck	G / Foggy Swamp Vinebender
+Greater Zombie	decks/standard/zombie_greater.dck	decks/converted/greater-zombie-1.dck	B / Heartless Act
+Green Beast	decks/standard/beast_green.json	decks/converted/green-beast-1.dck	G / Foggy Swamp Vinebender
+Green Golem	decks/standard/greengolem.dck	decks/converted/green-golem-1.dck	U / Forecasting Fortune Teller
+Green Prototype	decks/standard/prototype_green.dck	decks/converted/green-prototype-1.dck	G / Badgermole
+Griffin	decks/standard/griffin.json	decks/converted/griffin-1.dck	W / Kyoshi Warriors
+Griselbrand	decks/boss/griselbrand.dck	decks/converted/griselbrand-1.dck	B / Noxious Gearhulk, Feed the Swarm
+Grolnok	decks/miniboss/frogboss.dck	decks/converted/grolnok-1.dck	UG / The Lion-Turtle, Waterbending Lesson
+Guardian Angel	decks/miniboss/angel_rainbow_encounter.dck	decks/converted/guardian-angel-1.dck	WU / Aang, Swift Savior, Airbending Lesson
+Harpy	decks/standard/harpy.dck	decks/converted/harpy-1.dck	B / June, Bounty Hunter
+Harpy 2	decks/standard/harpy_2.dck	decks/converted/harpy-2-1.dck	UB / Forecasting Fortune Teller, Heartless Act
+Heart-Piercer Manticore	decks/standard/manticore.dck	decks/converted/heart-piercer-manticore-1.dck	U / Knowledge Seeker
+Hedgehog	decks/standard/hedgehog.dck	decks/converted/hedgehog-1.dck	G / Earthbending Lesson
+Hellhound	decks/standard/hellhound.dck	decks/converted/hellhound-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Hellion	decks/standard/hellion.dck	decks/converted/hellion-1.dck	R / Fire Nation Cadets
+Hermit Crab	decks/standard/hermitcrab.dck	decks/converted/hermit-crab-1.dck	UG / Forecasting Fortune Teller, Badgermole
+Hidden Bush	decks/standard/plant.dck	decks/converted/hidden-bush-1.dck	UG / Boomerang Basics, Badgermole
+Hidden Snake	decks/standard/snake.json	decks/converted/hidden-snake-1.dck	UG / Knowledge Seeker, Earthbending Lesson
+High Cultist	decks/standard/cultist.dck	decks/converted/high-cultist-1.dck	B / Fire Nation Engineer
+High Elf	decks/standard/elf_good.json	decks/converted/high-elf-1.dck	BG / Fire Nation Engineer, Foggy Swamp Vinebender
+High Vampire	decks/standard/vampire.json	decks/converted/high-vampire-1.dck	B / Fire Nation Engineer
+Hippo	decks/standard/hippo.dck	decks/converted/hippo-1.dck	G / Earthbending Lesson
+Holy Apparition	decks/standard/seraphim.dck	decks/converted/holy-apparition-1.dck	W / Invasion Reinforcements
+Holy Paladin	decks/standard/holypaladin.dck	decks/converted/holy-paladin-1.dck	W / Water Tribe Captain
+Homarid	decks/standard/homarid.dck	decks/converted/homarid-1.dck	BG / June, Bounty Hunter, Foggy Swamp Vinebender
+Horror	decks/standard/horror.dck	decks/converted/horror-1.dck	UB / Forecasting Fortune Teller, June, Bounty Hunter
+Horror of Tibalt	decks/standard/tibalt_horror.dck	decks/converted/horror-of-tibalt-1.dck	UB / Forecasting Fortune Teller, June, Bounty Hunter
+Horse	decks/standard/horse.dck	decks/converted/horse-1.dck	WG / Water Tribe Captain, Earthbending Lesson
+Horseman	decks/standard/horsemanship.dck	decks/converted/horseman-1.dck	WU / Kyoshi Warriors, Knowledge Seeker
+Hulking Brute	decks/standard/hulkingbrute.dck	decks/converted/hulking-brute-1.dck	B / June, Bounty Hunter
+Human	decks/standard/human_bad.json	decks/converted/human-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Human Bard	decks/standard/humanbard.dck	decks/converted/human-bard-1.dck	WR / Water Tribe Captain, Firebending Lesson
+Human Captain	decks/standard/humanelite.dck	decks/converted/human-captain-1.dck	prototype Allies
+Human elite	decks/standard/human_good.json	decks/converted/human-elite-1.dck	W / Water Tribe Captain
+Human guard	decks/standard/human_mid.json	decks/converted/human-guard-1.dck	WB / Invasion Reinforcements, June, Bounty Hunter
+Human Looter	decks/standard/peasantrole.dck	decks/converted/human-looter-1.dck	WG / Water Tribe Captain, Earthbending Lesson
+Human Mercenary	decks/standard/humanmercenary.dck	decks/converted/human-mercenary-1.dck	WG / Water Tribe Captain, Badgermole
+Hydra	decks/standard/hydra.json	decks/converted/hydra-1.dck	G / Foggy Swamp Vinebender
+Ibis	decks/standard/bird_gu.dck	decks/converted/ibis-1.dck	UG / Forecasting Fortune Teller, Foggy Swamp Vinebender
+Ibis-headed Aven Warrior	decks/standard/amonkhet_aven_u.dck	decks/converted/ibis-headed-aven-warrior-1.dck	U / Forecasting Fortune Teller
+Ice Elemental	decks/standard/ice_elemental.dck	decks/converted/ice-elemental-1.dck	R / Fire Nation Cadets
+Illusionist	decks/standard/illusion.dck	decks/converted/illusionist-1.dck	U / Boomerang Basics
+Immersturm Demon	decks/standard/immersturm_demon.dck	decks/converted/immersturm-demon-1.dck	BR / Fire Nation Engineer, Firebending Lesson
+Jace	decks/miniboss/jace.dck	decks/converted/jace-1.dck	U / Wan Shi Tong, Librarian, Accumulate Wisdom
+Jellyfish	decks/standard/jellyfish.dck	decks/converted/jellyfish-1.dck	U / Boomerang Basics
+Jin-Gitaxias	decks/miniboss/copperhostbrutalizer.dck	decks/converted/jin-gitaxias-1.dck	U / The Mechanist, Aerial Artisan, Invasion Submersible
+Juggernaut	decks/standard/juggernaut.dck	decks/converted/juggernaut-1.dck	UR / Forecasting Fortune Teller, Treetop Freedom Fighters
+Kavu	decks/standard/kavu.dck	decks/converted/kavu-1.dck	RG / Treetop Freedom Fighters, Earthbending Lesson
+Kavu	decks/standard/kavu_domain.dck	decks/converted/kavu-2.dck	WG / Water Tribe Captain, Foggy Swamp Vinebender
+Khan	decks/standard/mardu.dck	decks/converted/khan-1.dck	WR / Invasion Reinforcements, Firebending Lesson
+Khenra Warrior	decks/standard/jackal.dck	decks/converted/khenra-warrior-1.dck	RG / Treetop Freedom Fighters, Earthbending Lesson
+Kiora	decks/miniboss/kiora.dck	decks/converted/kiora-1.dck	UG / Koma, Cosmos Serpent, Shared Roots
+Knight	decks/standard/knight.json	decks/converted/knight-1.dck	W / Water Tribe Captain
+Knight Mercenary	decks/standard/knightmercenary.dck	decks/converted/knight-mercenary-1.dck	WU / Invasion Reinforcements, Knowledge Seeker
+Kobold Dragoncaller	decks/standard/kobolddragoncaller.dck	decks/converted/kobold-dragoncaller-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Kobold Pyromancer	decks/standard/pyromancer.dck	decks/converted/kobold-pyromancer-1.dck	BR / Heartless Act, Firebending Lesson
+Kobold Shaman	decks/standard/roshnakhtheroic.dck	decks/converted/kobold-shaman-1.dck	BR / June, Bounty Hunter, Firebending Lesson
+Kobold Slinger	decks/standard/kobold.dck	decks/converted/kobold-slinger-1.dck	BR / June, Bounty Hunter, Treetop Freedom Fighters
+Kobold Trapmaster	decks/standard/koboldtrapmaster.dck	decks/converted/kobold-trapmaster-1.dck	BR / Fire Nation Engineer, Fire Nation Cadets
+Kobold Warrior	decks/standard/kobold.dck	decks/converted/kobold-warrior-1.dck	BR / Heartless Act, Fire Nation Cadets
+Kobold Worker	decks/standard/koboldworker.dck	decks/converted/kobold-worker-1.dck	BR / Heartless Act, Fire Nation Cadets
+Kor Warrior	decks/standard/kor_warrior.dck	decks/converted/kor-warrior-1.dck	WR / Invasion Reinforcements, Firebending Lesson
+Kozilek	decks/miniboss/copperhostbrutalizer.dck	decks/converted/kozilek-1.dck	G / Planetarium of Wan Shi Tong, Shared Roots, Cityscape Leveler
+Ladybug	decks/standard/ladybug.dck	decks/converted/ladybug-1.dck	G / Foggy Swamp Vinebender
+Lathliss	decks/boss/lathliss.dck	decks/converted/lathliss-1.dck	R / Ran and Shaw, Firebending Lesson
+Leonin Warrior	decks/standard/leoninwarrior.dck	decks/converted/leonin-warrior-1.dck	WG / Water Tribe Captain, Foggy Swamp Vinebender
+Leonin Weaponmaster	decks/standard/leoninswordsmith.dck	decks/converted/leonin-weaponmaster-1.dck	WG / Invasion Reinforcements, Foggy Swamp Vinebender
+Lich	decks/standard/lich.dck	decks/converted/lich-1.dck	B / June, Bounty Hunter
+Lightning Elemental	decks/standard/lightning_elemental.dck	decks/converted/lightning-elemental-1.dck	R / Firebending Lesson
+Liliana	decks/miniboss/liliana_zombies.dck	decks/converted/liliana-1.dck	B / Koh, the Face Stealer, Epic Downfall
+Liliana's Alchemist	decks/standard/dimir_ninja.dck	decks/converted/liliana-s-alchemist-1.dck	BG / Fire Nation Engineer, Earthbending Lesson
+Liliana's Herbalist	decks/standard/lilianas_herbalist.dck	decks/converted/liliana-s-herbalist-1.dck	BG / Heartless Act, Badgermole
+Lion	decks/standard/lion.dck	decks/converted/lion-1.dck	W / Water Tribe Captain
+Loamspeaker	decks/standard/loamspeaker.dck	decks/converted/loamspeaker-1.dck	UG / Knowledge Seeker, Badgermole
+Lord Pestilence	decks/standard/trap.dck	decks/converted/lord-pestilence-1.dck	B / Heartless Act
+Lorthos	decks/boss/lorthos.dck	decks/converted/lorthos-1.dck	U / The Terror of Serpent's Pass, Giant Koi
+Maelstrom Angel	decks/standard/maelstromangel.dck	decks/converted/maelstrom-angel-1.dck	W / Invasion Reinforcements
+Mageripper	decks/standard/mageripper.dck	decks/converted/mageripper-1.dck	RG / Fire Nation Cadets, Foggy Swamp Vinebender
+Magma Elemental	decks/standard/magma_elemental.dck	decks/converted/magma-elemental-1.dck	R / Treetop Freedom Fighters
+Magma Fire Elemental	decks/standard/magma_elemental.dck	decks/converted/magma-fire-elemental-1.dck	R / Firebending Lesson
+Master Black Wizard	decks/standard/blackwizard_hard_gravepact.dck	decks/converted/master-black-wizard-1.dck	B / Fire Nation Engineer
+Master Black Wizard	decks/standard/blackwizard_hard_knight.dck	decks/converted/master-black-wizard-2.dck	B / June, Bounty Hunter
+Master Black Wizard	decks/standard/blackwizard_hard_liliana.dck	decks/converted/master-black-wizard-3.dck	B / June, Bounty Hunter
+Master Black Wizard	decks/standard/blackwizard_hard_sacrifice.dck	decks/converted/master-black-wizard-4.dck	B / June, Bounty Hunter
+Master Blue Wizard	decks/standard/bluewizard_hard_control.dck	decks/converted/master-blue-wizard-1.dck	U / Knowledge Seeker
+Master Blue Wizard	decks/standard/bluewizard_hard_tempo.dck	decks/converted/master-blue-wizard-2.dck	U / Forecasting Fortune Teller
+Master Blue Wizard	decks/standard/bluewizard_hard_artifact.dck	decks/converted/master-blue-wizard-3.dck	U / Forecasting Fortune Teller
+Master Blue Wizard	decks/standard/bluewizard_hard_bounce.dck	decks/converted/master-blue-wizard-4.dck	U / Boomerang Basics
+Master Green Wizard	decks/standard/greenwizard_hard_ramp.dck	decks/converted/master-green-wizard-1.dck	G / Badgermole
+Master Green Wizard	decks/standard/greenwizard_hard_rampbis.dck	decks/converted/master-green-wizard-2.dck	G / Foggy Swamp Vinebender
+Master Green Wizard	decks/standard/greenwizard_hard_sapproling.dck	decks/converted/master-green-wizard-3.dck	G / Earthbending Lesson
+Master Red Wizard	decks/standard/redwizard_hard_burn.dck	decks/converted/master-red-wizard-1.dck	R / Fire Nation Cadets
+Master Red Wizard	decks/standard/redwizard_hard_dragons.dck	decks/converted/master-red-wizard-2.dck	R / Fire Nation Cadets
+Master Red Wizard	decks/standard/redwizard_hard_fight.dck	decks/converted/master-red-wizard-3.dck	R / Firebending Lesson
+Master Red Wizard	decks/standard/redwizard_hard_lavaaxe.dck	decks/converted/master-red-wizard-4.dck	R / Treetop Freedom Fighters
+Master White Wizard	decks/standard/whitewizard_hard_humility.dck	decks/converted/master-white-wizard-1.dck	W / Kyoshi Warriors
+Master White Wizard	decks/standard/whitewizard_hard_hatebears.dck	decks/converted/master-white-wizard-2.dck	W / Kyoshi Warriors
+Master White Wizard	decks/standard/whitewizard_hard_humansoldier.dck	decks/converted/master-white-wizard-3.dck	W / Kyoshi Warriors
+Master White Wizard	decks/standard/whitewizard_hard_armaggedon.dck	decks/converted/master-white-wizard-4.dck	W / Invasion Reinforcements
+Master White Wizard	decks/standard/whitewizard_hard_enchantments.dck	decks/converted/master-white-wizard-5.dck	W / Invasion Reinforcements
+Merfolk	decks/standard/merfolk_bad.json	decks/converted/merfolk-1.dck	U / Boomerang Basics
+Merfolk Avatar	decks/standard/merfolk_good.json	decks/converted/merfolk-avatar-1.dck	UG / Forecasting Fortune Teller, Earthbending Lesson
+Merfolk Elite	decks/standard/merfolk_elite.dck	decks/converted/merfolk-elite-1.dck	UG / Knowledge Seeker, Earthbending Lesson
+Merfolk Fighter	decks/standard/merfolk_lords.dck	decks/converted/merfolk-fighter-1.dck	UG / Knowledge Seeker, Earthbending Lesson
+Merfolk Lord	decks/standard/merfolk_lord2.dck	decks/converted/merfolk-lord-1.dck	UG / Forecasting Fortune Teller, Badgermole
+Merfolk Soldier	decks/standard/merfolk_v_goblins.dck	decks/converted/merfolk-soldier-1.dck	U / Forecasting Fortune Teller
+Merfolk warrior	decks/standard/merfolk_mid.json	decks/converted/merfolk-warrior-1.dck	U / Boomerang Basics
+Metallic Sliver	decks/standard/sliver_metallicsliver.dck	decks/converted/metallic-sliver-1.dck	BR / Heartless Act, Treetop Freedom Fighters
+Mighty Djinn	decks/standard/mighty_djinn.dck	decks/converted/mighty-djinn-1.dck	U / Knowledge Seeker
+Mimic	decks/standard/mimic.dck	decks/converted/mimic-1.dck	UB / Knowledge Seeker, June, Bounty Hunter
+Mindclaw Shaman	decks/standard/mindclaw_shaman.dck	decks/converted/mindclaw-shaman-1.dck	BR / Heartless Act, Firebending Lesson
+Minor Demon	decks/standard/demon4.dck	decks/converted/minor-demon-1.dck	B / Heartless Act
+Minotaur	decks/standard/minotaur.json	decks/converted/minotaur-1.dck	R / Firebending Lesson
+Minotaur	decks/standard/minotaurblackredmadness.dck	decks/converted/minotaur-2.dck	R / Fire Nation Cadets
+Minotaur	decks/standard/minotaurmid.dck	decks/converted/minotaur-3.dck	R / Treetop Freedom Fighters
+Minotaur	decks/standard/minotaurmonored.dck	decks/converted/minotaur-4.dck	R / Treetop Freedom Fighters
+Minotaur Flayer	decks/standard/minotaur.dck	decks/converted/minotaur-flayer-1.dck	BR / June, Bounty Hunter, Treetop Freedom Fighters
+Minotaur Warcaller	decks/standard/minotaur_monored_castle.dck	decks/converted/minotaur-warcaller-1.dck	R / Treetop Freedom Fighters
+Monk	decks/standard/monk.json	decks/converted/monk-1.dck	W / Kyoshi Warriors
+Monkey	decks/standard/ragavan.dck	decks/converted/monkey-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Mountain Ogre	decks/standard/ogre_large.dck	decks/converted/mountain-ogre-1.dck	BR / June, Bounty Hunter, Treetop Freedom Fighters
+Mummy	decks/standard/mummy.dck	decks/converted/mummy-1.dck	WB / Kyoshi Warriors, Fire Nation Engineer
+Myr Superion	decks/miniboss/myr_superion.dck	decks/converted/myr-superion-1.dck	U / The Mechanist, Aerial Artisan, Cityscape Leveler
+Naga Warrior	decks/standard/nagawarrior.dck	decks/converted/naga-warrior-1.dck	BR / June, Bounty Hunter, Firebending Lesson
+Nahiri	decks/miniboss/nahiri.dck	decks/converted/nahiri-1.dck	W / Sokka, Swordmaster, Sokka's Sword Training, Mechanical Glider
+Naked Mole Rat	decks/standard/shrinemole.dck	decks/converted/naked-mole-rat-1.dck	G / Badgermole
+Nantuko Guard	decks/standard/nantuko_morpher.dck	decks/converted/nantuko-guard-1.dck	UB / Boomerang Basics, Heartless Act
+Necrogoyf	decks/standard/necrogoyf.dck	decks/converted/necrogoyf-1.dck	B / Fire Nation Engineer
+Necromancer	decks/standard/reanimator.dck	decks/converted/necromancer-1.dck	B / Heartless Act
+Nezumi Leader	decks/standard/rat_leader.dck	decks/converted/nezumi-leader-1.dck	B / Heartless Act
+Nezumi Ninja	decks/standard/humanoidrat.dck	decks/converted/nezumi-ninja-1.dck	B / June, Bounty Hunter
+Nightmare	decks/standard/nightmare.dck	decks/converted/nightmare-1.dck	RG / Firebending Lesson, Badgermole
+Nissa	decks/miniboss/copperhostbrutalizer.dck	decks/converted/nissa-1.dck	G / Toph, Earthbending Master, Earthbending Lesson
+Octopus	decks/standard/octopus.dck	decks/converted/octopus-1.dck	U / Knowledge Seeker
+Ooze	decks/standard/ooze.json	decks/converted/ooze-1.dck	UG / Knowledge Seeker, Foggy Swamp Vinebender
+Ooze	decks/standard/ooze_greenblackred.dck	decks/converted/ooze-2.dck	UG / Knowledge Seeker, Earthbending Lesson
+Ooze	decks/standard/ooze_monogreen.dck	decks/converted/ooze-3.dck	UG / Forecasting Fortune Teller, Badgermole
+Ooze	decks/standard/ooze_greenblue.dck	decks/converted/ooze-4.dck	UG / Boomerang Basics, Foggy Swamp Vinebender
+Ooze Boss	decks/miniboss/ooze_boss.dck	decks/converted/ooze-boss-1.dck	G / Badgermole, Rocky Rebuke
+Orc Brute	decks/standard/orc_brute.dck	decks/converted/orc-brute-1.dck	BR / Fire Nation Engineer, Fire Nation Cadets
+Orc Hunter	decks/standard/orc_hunter.dck	decks/converted/orc-hunter-1.dck	BR / June, Bounty Hunter, Firebending Lesson
+Orc Warrior	decks/standard/orc_warrior.dck	decks/converted/orc-warrior-1.dck	BR / Heartless Act, Firebending Lesson
+Orthodoxy Angel	decks/standard/phyrexianangel.dck	decks/converted/orthodoxy-angel-1.dck	WG / Water Tribe Captain, Badgermole
+Orthodoxy Duelist	decks/standard/phyrexianduelist.json	decks/converted/orthodoxy-duelist-1.dck	WB / Invasion Reinforcements, Fire Nation Engineer
+Orzhov Cleric	decks/standard/cleric_orzhov.dck	decks/converted/orzhov-cleric-1.dck	WB / Invasion Reinforcements, Fire Nation Engineer
+Owl	decks/standard/owl.dck	decks/converted/owl-1.dck	UB / Knowledge Seeker, Fire Nation Engineer
+Parrot	decks/standard/parrot.dck	decks/converted/parrot-1.dck	UB / Boomerang Basics, Fire Nation Engineer
+Penguin	decks/standard/penguin.dck	decks/converted/penguin-1.dck	G / Badgermole
+Penguin Elite	decks/standard/penguinelite.dck	decks/converted/penguin-elite-1.dck	G / Foggy Swamp Vinebender
+Pharaoh	decks/standard/pharaoh.dck	decks/converted/pharaoh-1.dck	WB / Invasion Reinforcements, Fire Nation Engineer
+Phoenix	decks/standard/phoenix.dck	decks/converted/phoenix-1.dck	R / Firebending Lesson
+Pirate	decks/standard/pirate.dck	decks/converted/pirate-1.dck	UR / Forecasting Fortune Teller, Fire Nation Cadets
+Pirate 2	decks/standard/pirate2.dck	decks/converted/pirate-2-1.dck	UR / Boomerang Basics, Firebending Lesson
+Pirate 3	decks/standard/pirate3.dck	decks/converted/pirate-3-1.dck	BR / Heartless Act, Fire Nation Cadets
+Pirate Captain	decks/standard/pirate_captain.dck	decks/converted/pirate-captain-1.dck	BR / Fire Nation Engineer, Fire Nation Cadets
+Pirate Captain 2	decks/standard/pirate_captain_2.dck	decks/converted/pirate-captain-2-1.dck	B / Heartless Act
+Plague Rat Swarm	decks/standard/rat_poisonrat.dck	decks/converted/plague-rat-swarm-1.dck	B / Heartless Act
+Plaguelord	decks/standard/zombiepoisoner.dck	decks/converted/plaguelord-1.dck	UB / Forecasting Fortune Teller, June, Bounty Hunter
+Plant	decks/standard/plant.json	decks/converted/plant-1.dck	G / Badgermole
+Plant	decks/standard/plant.dck	decks/converted/plant-2.dck	G / Badgermole
+Poisonous Snake	decks/standard/poisonoussnake.dck	decks/converted/poisonous-snake-1.dck	G / Earthbending Lesson
+Polar Bear	decks/standard/polarbear.dck	decks/converted/polar-bear-1.dck	G / Earthbending Lesson
+Porcupine	decks/standard/porcupine.dck	decks/converted/porcupine-1.dck	RG / Firebending Lesson, Foggy Swamp Vinebender
+Priest Fanatic	decks/standard/fanaticpriest.dck	decks/converted/priest-fanatic-1.dck	W / Invasion Reinforcements
+Pyromancer	decks/standard/pyromancer.dck	decks/converted/pyromancer-1.dck	R / Firebending Lesson
+Raccoon	decks/standard/enchantment_aggro.dck	decks/converted/raccoon-1.dck	WG / Water Tribe Captain, Foggy Swamp Vinebender
+Rakdos Devil	decks/standard/rakdos_devil.dck	decks/converted/rakdos-devil-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Rakdos Wizard	decks/standard/rakdos_vamps.dck	decks/converted/rakdos-wizard-1.dck	BG / Heartless Act, Earthbending Lesson
+Raptor	decks/standard/dinosaur_rw_enrage.dck	decks/converted/raptor-1.dck	WR / Invasion Reinforcements, Firebending Lesson
+Raven	decks/standard/raven.dck	decks/converted/raven-1.dck	UB / Knowledge Seeker, Heartless Act
+Reassembling Skeleton	decks/standard/reassemblingskeleton.dck	decks/converted/reassembling-skeleton-1.dck	B / Heartless Act
+Recruiter Sliver	decks/standard/sliver_recruitersliver.dck	decks/converted/recruiter-sliver-1.dck	UR / Knowledge Seeker, Firebending Lesson
+Red Beast	decks/standard/beast_red.json	decks/converted/red-beast-1.dck	R / Firebending Lesson
+Rhino	decks/standard/rhino.dck	decks/converted/rhino-1.dck	WG / Kyoshi Warriors, Badgermole
+Rogue	decks/standard/rogue.json	decks/converted/rogue-1.dck	UB / Boomerang Basics, Fire Nation Engineer
+Royal King	decks/standard/whiteking.dck	decks/converted/royal-king-1.dck	W / Invasion Reinforcements
+Royal Sentinel	decks/standard/trap.dck	decks/converted/royal-sentinel-1.dck	UB / Boomerang Basics, Heartless Act
+Runelord	decks/standard/runelord.dck	decks/converted/runelord-1.dck	B / Fire Nation Engineer
+Sand Ghoul	decks/standard/sandghoul.dck	decks/converted/sand-ghoul-1.dck	W / Water Tribe Captain
+Sand Golem	decks/standard/sandgolem.dck	decks/converted/sand-golem-1.dck	W / Water Tribe Captain
+Satyr	decks/standard/satyr.dck	decks/converted/satyr-1.dck	RG / Fire Nation Cadets, Badgermole
+Satyr Grove Guardian	decks/standard/satyr_hard.dck	decks/converted/satyr-grove-guardian-1.dck	RG / Fire Nation Cadets, Earthbending Lesson
+Scarab	decks/standard/scarab.dck	decks/converted/scarab-1.dck	B / Heartless Act
+Scarecrow	decks/standard/scarecrow.dck	decks/converted/scarecrow-1.dck	B / Fire Nation Engineer
+Scarecrow Captain	decks/miniboss/scarecrowcaptain.dck	decks/converted/scarecrow-captain-1.dck	W / Lita, Mechanical Engineer, Mechanical Glider
+Scorpion	decks/standard/scorpion.dck	decks/converted/scorpion-1.dck	BG / Fire Nation Engineer, Foggy Swamp Vinebender
+Scourgemaster	decks/standard/demon_hellbent.dck	decks/converted/scourgemaster-1.dck	B / June, Bounty Hunter
+Scourgemaster	decks/standard/demon_humansac.dck	decks/converted/scourgemaster-2.dck	B / Heartless Act
+Sea Monster	decks/standard/sea_monster.dck	decks/converted/sea-monster-1.dck	U / Boomerang Basics
+Shade	decks/standard/shade.dck	decks/converted/shade-1.dck	B / Heartless Act
+Shaman	decks/standard/shaman.json	decks/converted/shaman-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Shaman of Zedruu	decks/standard/shamanelite.dck	decks/converted/shaman-of-zedruu-1.dck	RG / Firebending Lesson, Badgermole
+Simic Wizard	decks/standard/simicwizard_intruderalarm.dck	decks/converted/simic-wizard-1.dck	UG / Boomerang Basics, Earthbending Lesson
+Simic Wizard	decks/standard/simicwizard_evolve.dck	decks/converted/simic-wizard-2.dck	UG / Boomerang Basics, Earthbending Lesson
+Skeleton	decks/standard/skeleton.dck	decks/converted/skeleton-1.dck	B / Heartless Act
+Skeleton Champion	decks/standard/skeleton_champion.dck	decks/converted/skeleton-champion-1.dck	B / Fire Nation Engineer
+Skeleton Soldier	decks/standard/skeleton_2.dck	decks/converted/skeleton-soldier-1.dck	B / Fire Nation Engineer
+Slimefoot	decks/miniboss/slimefoot.dck	decks/converted/slimefoot-1.dck	G / The Cabbage Merchant, Unlucky Cabbage Merchant
+Slivdrazi Experiment	decks/standard/sliver_slivdrazi.dck	decks/converted/slivdrazi-experiment-1.dck	UR / Knowledge Seeker, Fire Nation Cadets
+Sliver	decks/standard/sliver.json	decks/converted/sliver-1.dck	RG / Fire Nation Cadets, Earthbending Lesson
+Sliver Queen	decks/miniboss/sliver_queen.dck	decks/converted/sliver-queen-1.dck	WG / Rhys the Redeemed, Invasion Reinforcements, Kyoshi Warriors
+Sliver_Black	decks/standard/sliver_black.dck	decks/converted/sliver-black-1.dck	BR / Fire Nation Engineer, Firebending Lesson
+Sliver_Blue	decks/standard/sliver_blue.dck	decks/converted/sliver-blue-1.dck	UB / Boomerang Basics, June, Bounty Hunter
+Sliver_Green	decks/standard/sliver_green.dck	decks/converted/sliver-green-1.dck	WG / Invasion Reinforcements, Foggy Swamp Vinebender
+Sliver_Red	decks/standard/sliver_red.dck	decks/converted/sliver-red-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Sliver_White	decks/standard/sliver_white.dck	decks/converted/sliver-white-1.dck	UG / Knowledge Seeker, Badgermole
+Slobad	decks/miniboss/slobad.dck	decks/converted/slobad-1.dck	R / Fire Nation Turret, Meteorite, Lightning Bolt
+Snail	decks/standard/slug.dck	decks/converted/snail-1.dck	B / June, Bounty Hunter
+Snake	decks/standard/snake.json	decks/converted/snake-1.dck	UG / Knowledge Seeker, Foggy Swamp Vinebender
+Snow Wizard	decks/standard/simicwizard_snow.dck	decks/converted/snow-wizard-1.dck	UG / Forecasting Fortune Teller, Foggy Swamp Vinebender
+Sorin	decks/miniboss/sorin.dck	decks/converted/sorin-1.dck	B / Mai, Scornful Striker, Heartless Act
+Sphinx	decks/standard/sphinx amonkhet.dck	decks/converted/sphinx-1.dck	WU / Invasion Reinforcements, Boomerang Basics
+Spider	decks/standard/spider.json	decks/converted/spider-1.dck	BG / Fire Nation Engineer, Badgermole
+Spiked Ravager	decks/standard/demon_demonicpact.dck	decks/converted/spiked-ravager-1.dck	B / June, Bounty Hunter
+Spirit	decks/standard/spirit.dck	decks/converted/spirit-1.dck	U / Boomerang Basics
+Squirrel	decks/standard/squirrel.dck	decks/converted/squirrel-1.dck	BG / Heartless Act, Foggy Swamp Vinebender
+Stegosaurus	decks/standard/dinosaur_gruul_etali.dck	decks/converted/stegosaurus-1.dck	RG / Treetop Freedom Fighters, Foggy Swamp Vinebender
+Storm Titan	decks/standard/stormtitan.dck	decks/converted/storm-titan-1.dck	U / Knowledge Seeker
+Stray Cat	decks/standard/cat_greenblack.dck	decks/converted/stray-cat-1.dck	W / Kyoshi Warriors
+Stray Cat	decks/standard/straycat.dck	decks/converted/stray-cat-2.dck	W / Invasion Reinforcements
+Stray Cat	decks/standard/cat_greenwhite.dck	decks/converted/stray-cat-3.dck	W / Invasion Reinforcements
+Stray Cat	decks/standard/cat_greenwhite2.dck	decks/converted/stray-cat-4.dck	W / Kyoshi Warriors
+Sun Giant	decks/standard/sun titan.dck	decks/converted/sun-giant-1.dck	W / Invasion Reinforcements
+Sunmare	decks/standard/horse.dck	decks/converted/sunmare-1.dck	WG / Kyoshi Warriors, Badgermole
+Supreme Elemental	decks/standard/supremeelemental.dck	decks/converted/supreme-elemental-1.dck	UG / Boomerang Basics, Badgermole
+Swamp Troll	decks/standard/swamptroll.dck	decks/converted/swamp-troll-1.dck	BG / Fire Nation Engineer, Earthbending Lesson
+Symbiote	decks/standard/symbiote.dck	decks/converted/symbiote-1.dck	BG / June, Bounty Hunter, Foggy Swamp Vinebender
+Tarkir Djinn	decks/standard/djinn_tarkir.dck	decks/converted/tarkir-djinn-1.dck	UR / Knowledge Seeker, Firebending Lesson
+Teferi	decks/miniboss/teferi_boss.dck	decks/converted/teferi-1.dck	U / Katara, Waterbending Master, Waterbending Lesson
+The Cheff	decks/miniboss/thecheff.dck	decks/converted/the-cheff-1.dck	G / The Cabbage Merchant, Bosco, Just a Bear
+The Hydra of Shandalaar	decks/miniboss/hydraboss.dck	decks/converted/the-hydra-of-shandalaar-1.dck	RG / Bumi, Unleashed, Earthbending Lesson
+Tibalt	decks/miniboss/tibalt.dck	decks/converted/tibalt-1.dck	prototype Ozai
+Tiger	decks/standard/tiger.dck	decks/converted/tiger-1.dck	G / Earthbending Lesson
+Tomb Guardian	decks/standard/tombguardian.dck	decks/converted/tomb-guardian-1.dck	B / Fire Nation Engineer
+Torturer	decks/miniboss/torturer.dck	decks/converted/torturer-1.dck	BR / Azula, Ruthless Firebender, Firebending Lesson
+Treefolk	decks/standard/treefolk.json	decks/converted/treefolk-1.dck	G / Earthbending Lesson
+Treefolk Elite	decks/standard/treefolkelite.dck	decks/converted/treefolk-elite-1.dck	G / Foggy Swamp Vinebender
+Treefolk Guardian	decks/standard/treefolk.dck	decks/converted/treefolk-guardian-1.dck	G / Earthbending Lesson
+Triceratops	decks/standard/dinosaur_gw_ramp.dck	decks/converted/triceratops-1.dck	WG / Water Tribe Captain, Badgermole
+Troll	decks/standard/troll.json	decks/converted/troll-1.dck	RG / Treetop Freedom Fighters, Badgermole
+Turtle	decks/standard/turtle.json	decks/converted/turtle-1.dck	U / Boomerang Basics
+Undead Goblin	decks/standard/monobgoblins.dck	decks/converted/undead-goblin-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Undead Roamer	decks/standard/undeadroamer.dck	decks/converted/undead-roamer-1.dck	B / Fire Nation Engineer
+Undead Shuffler	decks/standard/undeadshuffler.dck	decks/converted/undead-shuffler-1.dck	B / June, Bounty Hunter
+Unholy Knight	decks/standard/unholyknight.dck	decks/converted/unholy-knight-1.dck	B / Heartless Act
+Unholy Skull	decks/standard/unholyskull.dck	decks/converted/unholy-skull-1.dck	UB / Boomerang Basics, Heartless Act
+Unraveling Crawler	decks/standard/unravelingcrawler.dck	decks/converted/unraveling-crawler-1.dck	BG / Heartless Act, Foggy Swamp Vinebender
+Urabrask	decks/miniboss/copperhostbrutalizer.dck	decks/converted/urabrask-1.dck	R / Iroh, Firebending Instructor, Fire Nation Cadets
+Valyx Feaster of Torment	decks/miniboss/valyx.dck	decks/converted/valyx-feaster-of-torment-1.dck	BR / Fire Lord Ozai, Cruel Administrator
+Vampire	decks/standard/vampire.dck	decks/converted/vampire-1.dck	B / Heartless Act
+Vampire Lord	decks/standard/vampire_blood_token_fly.dck	decks/converted/vampire-lord-1.dck	BR / Heartless Act, Treetop Freedom Fighters
+Viashino	decks/standard/viashino.dck	decks/converted/viashino-1.dck	BG / Fire Nation Engineer, Badgermole
+Viper	decks/standard/snake.dck	decks/converted/viper-1.dck	BG / June, Bounty Hunter, Earthbending Lesson
+Volcano Dragon	decks/standard/junddragon.dck	decks/converted/volcano-dragon-1.dck	R / Fire Nation Cadets
+Volcano Elemental	decks/standard/br_elemental.dck	decks/converted/volcano-elemental-1.dck	BR / Fire Nation Engineer, Firebending Lesson
+Vorinclex	decks/miniboss/copperhostbrutalizer.dck	decks/converted/vorinclex-1.dck	RG / Toph, Greatest Earthbender, Rocky Rebuke
+Vulture	decks/standard/vulture.dck	decks/converted/vulture-1.dck	B / June, Bounty Hunter
+Walking Brain	decks/standard/walkingbrain.dck	decks/converted/walking-brain-1.dck	U / Knowledge Seeker
+Walter, the Stray Camel	decks/miniboss/walter.dck	decks/converted/walter-the-stray-camel-1.dck	W / Appa, the Vigilant, Water Tribe Captain
+Wandering Giant	decks/standard/wanderinggiant.dck	decks/converted/wandering-giant-1.dck	WR / Kyoshi Warriors, Treetop Freedom Fighters
+Wandering Treefolk	decks/standard/wanderingtreefolk.dck	decks/converted/wandering-treefolk-1.dck	G / Earthbending Lesson
+Warrior	decks/standard/human_warrior_amonkhet.dck	decks/converted/warrior-1.dck	RG / Treetop Freedom Fighters, Foggy Swamp Vinebender
+Wasp	decks/standard/wasp.dck	decks/converted/wasp-1.dck	BG / Heartless Act, Foggy Swamp Vinebender
+Water Elemental	decks/standard/water_elemental.dck	decks/converted/water-elemental-1.dck	U / Forecasting Fortune Teller
+Weak Demon	decks/standard/weakdemon.dck	decks/converted/weak-demon-1.dck	B / Fire Nation Engineer
+Werebear	decks/standard/bearboss.dck	decks/converted/werebear-1.dck	G / Badgermole
+Werewolf	decks/standard/werewolf.dck	decks/converted/werewolf-1.dck	RG / Firebending Lesson, Badgermole
+White Dwarf	decks/standard/white_dwarf.dck	decks/converted/white-dwarf-1.dck	W / Kyoshi Warriors
+Wild Rat	decks/standard/infectrat.dck	decks/converted/wild-rat-1.dck	B / June, Bounty Hunter
+Wild Rat	decks/standard/rat.json	decks/converted/wild-rat-2.dck	B / Heartless Act
+Wild Rat	decks/standard/ratswarm.dck	decks/converted/wild-rat-3.dck	B / June, Bounty Hunter
+Wild-Magic Sorcerer	decks/standard/wild-magic_sorcerer.dck	decks/converted/wild-magic-sorcerer-1.dck	RG / Treetop Freedom Fighters, Earthbending Lesson
+Witch	decks/standard/witch.dck	decks/converted/witch-1.dck	B / Heartless Act
+Wolf	decks/standard/wolfboss.dck	decks/converted/wolf-1.dck	G / Badgermole
+Wolf Pup	decks/standard/wolf.json	decks/converted/wolf-pup-1.dck	G / Foggy Swamp Vinebender
+Worm	decks/standard/worm.dck	decks/converted/worm-1.dck	G / Foggy Swamp Vinebender
+Wounded Sliver	decks/boss/sliver_shandalar.dck	decks/converted/wounded-sliver-1.dck	WR / Jet, Freedom Fighter, Inspired Insurgent
+Wraith	decks/standard/wraithswampwalk.dck	decks/converted/wraith-1.dck	B / Fire Nation Engineer
+Wurm	decks/standard/wurm.json	decks/converted/wurm-1.dck	G / Earthbending Lesson
+Xira	decks/miniboss/xira.dck	decks/converted/xira-1.dck	B / Phoenix Fleet Airship, Fire Nation Engineer
+Yeti	decks/standard/yeti.dck	decks/converted/yeti-1.dck	UR / Boomerang Basics, Firebending Lesson
+Zedruu	decks/miniboss/zedruubis.dck	decks/converted/zedruu-1.dck	WUR / Sokka, Tenacious Tactician, Wandering Musicians
+Zombie	decks/standard/zombie_black_easy.dck	decks/converted/zombie-1.dck	B / June, Bounty Hunter
+Zombie Lord	decks/standard/zombie_black_medium.dck	decks/converted/zombie-lord-1.dck	B / Fire Nation Engineer
+Zombie Master	decks/standard/zombie_black_hard.dck	decks/converted/zombie-master-1.dck	B / June, Bounty Hunter
+Map baronlegant	decks/standard/baronlegant.dck	decks/converted/map-baronlegant-1.dck	WR / Invasion Reinforcements, Fire Nation Cadets
+Map barronlevilain	decks/standard/barronlevilain.dck	decks/converted/map-barronlevilain-1.dck	W / Invasion Reinforcements
+Map greensquirrel	decks/standard/greensquirrel.dck	decks/converted/map-greensquirrel-1.dck	WG / Kyoshi Warriors, Foggy Swamp Vinebender
+Map greenape	decks/standard/greenape.dck	decks/converted/map-greenape-1.dck	G / Earthbending Lesson
+Map mimic_multicolor	decks/standard/mimic_multicolor.dck	decks/converted/map-mimic-multicolor-1.dck	UR / Boomerang Basics, Firebending Lesson
+Map jungle_king	decks/miniboss/jungle_king.dck	decks/converted/map-jungle-king-1.dck	RG / Fire Nation Cadets, Foggy Swamp Vinebender
+Map desertwarrior	decks/standard/desertwarrior.dck	decks/converted/map-desertwarrior-1.dck	WR / Invasion Reinforcements, Treetop Freedom Fighters
+Map vampire_br	decks/standard/vampire_br.dck	decks/converted/map-vampire-br-1.dck	BR / June, Bounty Hunter, Fire Nation Cadets
+Map vampire_wb	decks/standard/vampire_wb.dck	decks/converted/map-vampire-wb-1.dck	WB / Invasion Reinforcements, Fire Nation Engineer
+Map vampire_monob	decks/standard/vampire_monob.dck	decks/converted/map-vampire-monob-1.dck	B / Fire Nation Engineer

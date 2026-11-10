@@ -26,11 +26,11 @@
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="351.97" y="765.697" width="47.6667" height="46.6667">
    <properties>
     <property name="direction" value="right" />
-    <property name="teleport" value="../common/maps/map/graveyard_crypt/graveyard_5.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/graveyard_crypt/graveyard_5.tmx" />
    </properties>
   </object>
   <object id="47" template="../../../../common/maps/obj/gold.tx" x="149.333" y="224.667" />
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="457" y="234" />
+  <object id="48" template="../../obj/treasure.tx" x="457" y="234" />
   <object id="49" template="../../../../common/maps/obj/gold.tx" x="458.5" y="521" />
   <object id="50" template="../../../../common/maps/obj/enemy.tx" x="207.069" y="231.808">
    <properties>
@@ -210,13 +210,13 @@
   </object>
   <object id="68" template="../../../../common/maps/obj/manashards.tx" x="456" y="401.667" />
   <object id="69" template="../../../../common/maps/obj/manashards.tx" x="154" y="505.333" />
-  <object id="70" template="../../../../common/maps/obj/booster.tx" x="438.333" y="663.667">
+  <object id="70" template="../../obj/booster.tx" x="438.333" y="663.667">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="71" template="../../../../common/maps/obj/treasure.tx" x="154.333" y="377.333" />
-  <object id="72" template="../../../../common/maps/obj/booster.tx" x="156.667" y="660.333">
+  <object id="71" template="../../obj/treasure.tx" x="154.333" y="377.333" />
+  <object id="72" template="../../obj/booster.tx" x="156.667" y="660.333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -230,12 +230,12 @@
   </object>
   <object id="74" template="../../../../common/maps/obj/waypoint.tx" x="304.333" y="774.333" />
   <object id="75" template="../../../../common/maps/obj/waypoint.tx" x="307.667" y="240.667" />
-  <object id="76" template="../../../../common/maps/obj/booster.tx" x="287.667" y="47.6667">
+  <object id="76" template="../../obj/booster.tx" x="287.667" y="47.6667">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
-  <object id="79" template="../../../../common/maps/obj/treasure.tx" x="303.667" y="47.3333" />
+  <object id="79" template="../../obj/treasure.tx" x="303.667" y="47.3333" />
   <object id="80" template="../../../../common/maps/obj/gold.tx" x="321" y="46" />
   <object id="81" name="switch" type="dialog" gid="4426" x="192" y="340" width="16" height="16">
    <properties>

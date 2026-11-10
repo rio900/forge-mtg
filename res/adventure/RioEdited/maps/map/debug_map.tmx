@@ -65,7 +65,7 @@
 }]</property>
    </properties>
   </object>
-  <object id="54" template="../../../common/maps/obj/treasure.tx" x="336" y="176">
+  <object id="54" template="../obj/treasure.tx" x="336" y="176">
    <properties>
     <property name="reward">[
   {
@@ -80,10 +80,10 @@
     <property name="sprite" value="sprites/3life.atlas" />
    </properties>
   </object>
-  <object id="69" template="../../../common/maps/obj/treasure.tx" x="64" y="336" />
-  <object id="74" template="../../../common/maps/obj/treasure.tx" x="240" y="64" />
-  <object id="70" template="../../../common/maps/obj/booster.tx" x="48" y="336" />
-  <object id="72" template="../../../common/maps/obj/booster.tx" x="208" y="64" />
+  <object id="69" template="../obj/treasure.tx" x="64" y="336" />
+  <object id="74" template="../obj/treasure.tx" x="240" y="64" />
+  <object id="70" template="../obj/booster.tx" x="48" y="336" />
+  <object id="72" template="../obj/booster.tx" x="208" y="64" />
   <object id="71" template="../../../common/maps/obj/gold.tx" x="64" y="352" />
   <object id="79" template="../../../common/maps/obj/gate.tx" x="144" y="208" width="32" height="16" visible="1">
    <properties>
@@ -365,14 +365,9 @@
     <property name="spawn.Normal" type="bool" value="false" />
    </properties>
   </object>
-  <object id="86" template="../../../common/maps/obj/treasure.tx" x="336" y="368" visible="0">
+  <object id="86" template="../obj/treasure.tx" x="336" y="368" visible="0">
    <properties>
-    <property name="reward">[{
- "type": "randomCard",
- "colors": [ "colorID" ],
- "count": 8
-}]
-</property>
+    <property name="reward">[{"type":"randomCard","colors":["colorID"],"count":8,"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="87" template="../../../common/maps/obj/enemy.tx" x="48" y="384">
@@ -406,18 +401,18 @@
     <property name="spawn.Normal" type="bool" value="true" />
    </properties>
   </object>
-  <object id="90" template="../../../common/maps/obj/treasure.tx" x="32" y="400">
+  <object id="90" template="../obj/treasure.tx" x="32" y="400">
    <properties>
     <property name="spawn.Hard" type="bool" value="false" />
    </properties>
   </object>
-  <object id="92" template="../../../common/maps/obj/treasure.tx" x="32" y="416">
+  <object id="92" template="../obj/treasure.tx" x="32" y="416">
    <properties>
     <property name="spawn.Hard" type="bool" value="false" />
     <property name="spawn.Normal" type="bool" value="false" />
    </properties>
   </object>
-  <object id="91" template="../../../common/maps/obj/treasure.tx" x="32" y="384" />
+  <object id="91" template="../obj/treasure.tx" x="32" y="384" />
   <object id="94" template="../../../common/maps/obj/enemy.tx" x="400" y="240">
    <properties>
     <property name="dialog">[
@@ -464,7 +459,7 @@
    <properties>
     <property name="portalState" value="active" />
     <property name="sprite" value="sprites/portal.atlas" />
-    <property name="teleport" value="../common/maps/map/debug_map.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/debug_map.tmx" />
     <property name="teleportObjectId" value="99" />
    </properties>
   </object>
@@ -472,7 +467,7 @@
    <properties>
     <property name="portalState" value="active" />
     <property name="sprite" value="sprites/portal.atlas" />
-    <property name="teleport" value="../common/maps/map/debug_map.tmx" />
+    <property name="teleport" value="../RioEdited/maps/map/debug_map.tmx" />
     <property name="teleportObjectId" value="98" />
    </properties>
   </object>

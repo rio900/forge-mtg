@@ -28,14 +28,14 @@
     <property name="teleport" value="" />
    </properties>
   </object>
-  <object id="48" template="../../../../common/maps/obj/treasure.tx" x="97.167" y="55.9167" />
+  <object id="48" template="../../obj/treasure.tx" x="97.167" y="55.9167" />
   <object id="52" template="../../../../common/maps/obj/gold.tx" x="143.634" y="54.4911" />
   <object id="55" template="../../../../common/maps/obj/enemy.tx" x="126.667" y="81.4997">
    <properties>
     <property name="enemy" value="Adept Black Wizard" />
    </properties>
   </object>
-  <object id="61" template="../../../../common/maps/obj/booster.tx" x="144.333" y="78.3333">
+  <object id="61" template="../../obj/booster.tx" x="144.333" y="78.3333">
    <properties>
     <property name="reward">[{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["DMU","BRO","NEO","MID","VOW","SNC","ONE","MOM","MAT","WOE","AFR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
@@ -84,7 +84,7 @@
   <object id="80" template="../../../../common/maps/obj/waypoint.tx" x="355.333" y="158.333" />
   <object id="81" template="../../../../common/maps/obj/waypoint.tx" x="340.667" y="36.6667" />
   <object id="82" template="../../../../common/maps/obj/waypoint.tx" x="214.667" y="41.3333" />
-  <object id="84" template="../../../../common/maps/obj/treasure.tx" x="444.667" y="161" />
+  <object id="84" template="../../obj/treasure.tx" x="444.667" y="161" />
   <object id="85" template="../../../../common/maps/obj/manashards.tx" x="366.333" y="70.3333" />
   <object id="86" template="../../../../common/maps/obj/manashards.tx" x="41.3333" y="68.6667" />
   <object id="87" template="../../../../common/maps/obj/collision.tx" x="0.333333" y="-17.3333" width="481" height="16" />
