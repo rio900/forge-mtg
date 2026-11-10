@@ -1,0 +1,37 @@
+[metadata]
+Name=Map mimic_multicolor
+[Main]
+3 Brokers Charm|SNC|1
+1 Maestros Charm|SNC|1
+4 Obscura Charm|SNC|1
+2 Riveteers Charm|SNC|1
+2 Cabaretti Charm|SNC|1
+1 Rowan's Grim Search|WOE|1
+4 Hobgoblin Captain|AFR|1
+1 Season of Renewal|NEO|1
+2 Thirst for Knowledge|NEO|1
+2 You Happen On a Glade|AFR|1
+1 Rally Maneuver|AFR|1
+1 Stern Lesson|BRO|1
+4 Likeness Looter|WOE|1
+4 Ghitu Amplifier|DMU|1
+4 Khenra Spellspear|MOM|1
+4 Iron Golem|AFR|1
+1 Dwarven Forge-Chanter|BRO|1
+4 Evolving Wilds|AFR|1
+2 Idyllic Beachfront|DMU|1
+2 Sunlit Marsh|DMU|1
+2 Sacred Peaks|DMU|1
+1 Radiant Grove|DMU|1
+1 Contaminated Aquifer|DMU|1
+1 Molten Tributary|DMU|1
+1 Tangled Islet|DMU|1
+1 Geothermal Bog|DMU|1
+1 Haunted Mire|DMU|1
+1 Wooded Ridgeline|DMU|1
+4 Crystal Grotto|DMU|1
+2 Island|AFR|1
+1 Mountain|AFR|1
+1 Swamp|AFR|1
+1 Forest|AFR|1
+1 Plains|AFR|1

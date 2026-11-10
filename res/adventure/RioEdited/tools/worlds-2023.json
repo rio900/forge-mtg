@@ -1,0 +1,554 @@
+{
+  "Chye Hwee Heng": {
+    "archetype": "Mono-Red Aggro",
+    "sections": {
+      "Main": {
+        "Mishra's Foundry": 3,
+        "Sokenzan, Crucible of Defiance": 2,
+        "Mountain": 18,
+        "Squee, Dubious Monarch": 2,
+        "Goddric, Cloaked Reveler": 3,
+        "Feldon, Ronom Excavator": 2,
+        "Bloodthirsty Adversary": 3,
+        "Charming Scoundrel": 2,
+        "Falkenrath Pit Fighter": 3,
+        "Shivan Devastator": 3,
+        "Monastery Swiftspear": 4,
+        "Invasion of Tarkir": 4,
+        "Kumano Faces Kakkazan": 4,
+        "Nahiri's Warcrafting": 1,
+        "Witchstalker Frenzy": 1,
+        "Lightning Strike": 2,
+        "Play with Fire": 3
+      },
+      "Sideboard": {
+        "Koth, Fire of Resistance": 2,
+        "Chandra, Dressed to Kill": 2,
+        "Twisted Fealty": 2,
+        "Nahiri's Warcrafting": 1,
+        "Obliterating Bolt": 2,
+        "Lithomantic Barrage": 4,
+        "Witchstalker Frenzy": 1,
+        "The Elder Dragon War": 1
+      }
+    }
+  },
+  "Bart van Etten": {
+    "archetype": "Esper Legends",
+    "sections": {
+      "Main": {
+        "Takenuma, Abandoned Mire": 2,
+        "Shattered Sanctum": 2,
+        "Caves of Koilos": 3,
+        "Plaza of Heroes": 4,
+        "Otawara, Soaring City": 3,
+        "Eiganjo, Seat of the Empire": 3,
+        "Darkslick Shores": 3,
+        "Plains": 1,
+        "Seachrome Coast": 4,
+        "Underground River": 2,
+        "Sheoldred, the Apocalypse": 3,
+        "Ertai Resurrected": 3,
+        "Lord Skitter, Sewer King": 2,
+        "Raffine, Scheming Seer": 4,
+        "Dennick, Pious Apprentice": 4,
+        "Faerie Mastermind": 4,
+        "Rona, Herald of Invasion": 2,
+        "Thalia, Guardian of Thraben": 4,
+        "Skrelv, Defector Mite": 4,
+        "Go for the Throat": 3
+      },
+      "Sideboard": {
+        "Ao, the Dawn Sky": 2,
+        "Sheoldred, the Apocalypse": 1,
+        "Loran of the Third Path": 2,
+        "Lord Skitter, Sewer King": 1,
+        "Virtue of Persistence": 1,
+        "Disdainful Stroke": 4,
+        "Cut Down": 4
+      }
+    }
+  },
+  "Greg Orange": {
+    "archetype": "Bant Control",
+    "sections": {
+      "Main": {
+        "Eiganjo, Seat of the Empire": 1,
+        "Jetmir's Garden": 2,
+        "Boseiju, Who Endures": 1,
+        "Dreamroot Cascade": 3,
+        "Yavimaya Coast": 4,
+        "Raffine's Tower": 3,
+        "Mirrex": 1,
+        "Island": 1,
+        "Plains": 6,
+        "Otawara, Soaring City": 1,
+        "Spara's Headquarters": 4,
+        "Horned Loch-Whale": 3,
+        "The Wandering Emperor": 4,
+        "Sunfall": 3,
+        "Lay Down Arms": 4,
+        "Memory Deluge": 1,
+        "Brokers Charm": 1,
+        "Dissipate": 1,
+        "Negate": 1,
+        "Make Disappear": 2,
+        "March of Otherworldly Light": 2,
+        "Syncopate": 3,
+        "Leyline Binding": 4,
+        "Up the Beanstalk": 4
+      },
+      "Sideboard": {
+        "The Eternal Wanderer": 1,
+        "Hullbreaker Horror": 1,
+        "Chrome Host Seedshark": 3,
+        "Sunset Revelry": 1,
+        "Memory Deluge": 1,
+        "Knockout Blow": 2,
+        "Negate": 2,
+        "Disdainful Stroke": 2,
+        "Destroy Evil": 1,
+        "Elspeth's Smite": 1
+      }
+    }
+  },
+  "Weng Heng Soh": {
+    "archetype": "Mono-White Humans",
+    "sections": {
+      "Main": {
+        "Eiganjo, Seat of the Empire": 2,
+        "Mishra's Foundry": 3,
+        "Plains": 17,
+        "Knight-Errant of Eos": 2,
+        "Adeline, Resplendent Cathar": 4,
+        "Extraction Specialist": 3,
+        "Coppercoat Vanguard": 4,
+        "Intrepid Adversary": 3,
+        "Spellbook Vendor": 4,
+        "Thalia, Guardian of Thraben": 4,
+        "Hopeful Initiate": 4,
+        "Recruitment Officer": 4,
+        "Skrelv, Defector Mite": 2,
+        "Ossification": 4
+      },
+      "Sideboard": {
+        "The Wandering Emperor": 1,
+        "Anointed Peacekeeper": 2,
+        "Loran of the Third Path": 1,
+        "Brutal Cathar": 2,
+        "Cathar Commando": 1,
+        "Knockout Blow": 2,
+        "Destroy Evil": 2,
+        "Wedding Announcement": 2,
+        "Invasion of Gobakhan": 2
+      }
+    }
+  },
+  "Hiroshi Onizuka": {
+    "archetype": "Grixis Midrange",
+    "sections": {
+      "Main": {
+        "Shivan Reef": 3,
+        "Mirrex": 1,
+        "Sokenzan, Crucible of Defiance": 1,
+        "Darkslick Shores": 4,
+        "Blackcleave Cliffs": 4,
+        "Shipwreck Marsh": 3,
+        "Xander's Lounge": 3,
+        "Swamp": 1,
+        "Haunted Ridge": 3,
+        "Takenuma, Abandoned Mire": 1,
+        "Otawara, Soaring City": 1,
+        "Mountain": 1,
+        "Ertai Resurrected": 1,
+        "Sheoldred, the Apocalypse": 2,
+        "Decadent Dragon": 1,
+        "Gix, Yawgmoth Praetor": 2,
+        "Corpse Appraiser": 4,
+        "Florian, Voldaren Scion": 2,
+        "Bloodtithe Harvester": 4,
+        "Tenacious Underdog": 3,
+        "Faerie Mastermind": 3,
+        "Kaito Shizuki": 1,
+        "Virtue of Persistence": 1,
+        "Make Disappear": 4,
+        "Go for the Throat": 4,
+        "Cut Down": 2
+      },
+      "Sideboard": {
+        "Decadent Dragon": 2,
+        "Graveyard Trespasser": 1,
+        "Virtue of Persistence": 2,
+        "Glistening Deluge": 2,
+        "Duress": 2,
+        "Negate": 2,
+        "Disdainful Stroke": 2,
+        "Cut Down": 2
+      }
+    }
+  },
+  "Pedro Mocelin": {
+    "archetype": "Golgari Midrange",
+    "sections": {
+      "Main": {
+        "Boseiju, Who Endures": 1,
+        "Deathcap Glade": 4,
+        "Field of Ruin": 1,
+        "Mishra's Foundry": 2,
+        "Restless Cottage": 4,
+        "Llanowar Wastes": 4,
+        "Takenuma, Abandoned Mire": 1,
+        "Swamp": 5,
+        "Forest": 4,
+        "Sheoldred, the Apocalypse": 3,
+        "Blossoming Tortoise": 3,
+        "Graveyard Trespasser": 2,
+        "Glissa Sunslayer": 3,
+        "Lord Skitter, Sewer King": 1,
+        "Misery's Shadow": 1,
+        "Mosswood Dreadknight": 4,
+        "Tenacious Underdog": 2,
+        "Nissa, Ascended Animist": 1,
+        "Liliana of the Veil": 3,
+        "Virtue of Persistence": 2,
+        "Tear Asunder": 1,
+        "Sheoldred's Edict": 2,
+        "Go for the Throat": 4,
+        "Cut Down": 2
+      },
+      "Sideboard": {
+        "Nissa, Ascended Animist": 1,
+        "Tranquil Frillback": 2,
+        "Gix's Command": 2,
+        "Path of Peril": 2,
+        "Duress": 3,
+        "The End": 1,
+        "Cut Down": 1,
+        "The Stone Brain": 2,
+        "Unlicensed Hearse": 1
+      }
+    }
+  },
+  "Autumn Burchett": {
+    "archetype": "Azorius Soldiers",
+    "sections": {
+      "Main": {
+        "Seachrome Coast": 4,
+        "Otawara, Soaring City": 1,
+        "Plains": 5,
+        "Fortified Beachhead": 4,
+        "Eiganjo, Seat of the Empire": 1,
+        "Deserted Beach": 1,
+        "Island": 3,
+        "Adarkar Wastes": 4,
+        "Knight-Errant of Eos": 3,
+        "Skystrike Officer": 3,
+        "Resolute Reinforcements": 4,
+        "Zephyr Sentinel": 4,
+        "Harbin, Vanguard Aviator": 3,
+        "Valiant Veteran": 4,
+        "Yotian Frontliner": 1,
+        "Skrelv, Defector Mite": 2,
+        "Recruitment Officer": 4,
+        "Protect the Negotiators": 3,
+        "Destroy Evil": 1,
+        "Make Disappear": 4,
+        "Invasion of Gobakhan": 1
+      },
+      "Sideboard": {
+        "The Wandering Emperor": 3,
+        "Extraction Specialist": 2,
+        "Knockout Blow": 2,
+        "Destroy Evil": 2,
+        "Disdainful Stroke": 2,
+        "Lantern Flare": 2,
+        "Spell Pierce": 1,
+        "Ossification": 1
+      }
+    }
+  },
+  "Chris Ferber": {
+    "archetype": "Rakdos Sacrifice",
+    "sections": {
+      "Main": {
+        "Mountain": 4,
+        "Swamp": 1,
+        "Takenuma, Abandoned Mire": 1,
+        "Sokenzan, Crucible of Defiance": 1,
+        "The Mycosynth Gardens": 1,
+        "Sulfurous Springs": 4,
+        "Haunted Ridge": 4,
+        "Mirrex": 2,
+        "Blackcleave Cliffs": 4,
+        "Goddric, Cloaked Reveler": 3,
+        "Razorlash Transmogrant": 2,
+        "Vraan, Executioner Thane": 2,
+        "Syr Ginger, the Meal Ender": 2,
+        "Bloodtithe Harvester": 4,
+        "Voldaren Epicure": 4,
+        "Kumano Faces Kakkazan": 3,
+        "Annihilating Glare": 3,
+        "Torch the Tower": 3,
+        "Urabrask's Forge": 4,
+        "Oni-Cult Anvil": 4,
+        "Experimental Synthesizer": 4
+      },
+      "Sideboard": {
+        "Liliana of the Veil": 1,
+        "Ob Nixilis, the Adversary": 2,
+        "Virtue of Persistence": 1,
+        "Extract the Truth": 1,
+        "Duress": 3,
+        "Lithomantic Barrage": 1,
+        "Vampires' Vengeance": 2,
+        "Go for the Throat": 2,
+        "Agatha's Soul Cauldron": 1,
+        "The Stone Brain": 1
+      }
+    }
+  },
+  "Brandon Ortiz": {
+    "archetype": "Domain Ramp",
+    "sections": {
+      "Main": {
+        "Swamp": 2,
+        "Spara's Headquarters": 4,
+        "Restless Cottage": 2,
+        "Mountain": 1,
+        "Plains": 3,
+        "Mirrex": 2,
+        "Jetmir's Garden": 1,
+        "Island": 1,
+        "Forest": 4,
+        "Boseiju, Who Endures": 1,
+        "Raffine's Tower": 2,
+        "Ziatora's Proving Ground": 3,
+        "Atraxa, Grand Unifier": 3,
+        "Etali, Primal Conqueror": 1,
+        "Archangel of Wrath": 4,
+        "Topiary Stomper": 4,
+        "Invasion of Zendikar": 4,
+        "Herd Migration": 4,
+        "Virtue of Persistence": 2,
+        "Sunfall": 2,
+        "Bushwhack": 2,
+        "Leyline Binding": 4,
+        "Touch the Spirit Realm": 1,
+        "Up the Beanstalk": 1,
+        "Ossification": 3
+      },
+      "Sideboard": {
+        "Nissa, Ascended Animist": 1,
+        "Elesh Norn, Mother of Machines": 2,
+        "Thrun, Breaker of Silence": 2,
+        "Obstinate Baloth": 2,
+        "Sunfall": 1,
+        "The End": 1,
+        "Disdainful Stroke": 3,
+        "Tear Asunder": 1,
+        "Up the Beanstalk": 2
+      }
+    }
+  },
+  "Shota Yasooka": {
+    "archetype": "Sultai Faeries",
+    "sections": {
+      "Main": {
+        "Takenuma, Abandoned Mire": 1,
+        "Otawara, Soaring City": 1,
+        "Restless Cottage": 4,
+        "Underground River": 3,
+        "Deathcap Glade": 2,
+        "Dreamroot Cascade": 2,
+        "Shipwreck Marsh": 4,
+        "Darkslick Shores": 4,
+        "Island": 2,
+        "Boseiju, Who Endures": 1,
+        "Yavimaya Coast": 2,
+        "Sheoldred, the Apocalypse": 3,
+        "Graveyard Trespasser": 2,
+        "Picklock Prankster": 2,
+        "Faerie Mastermind": 4,
+        "Sleep-Cursed Faerie": 4,
+        "Kaito Shizuki": 2,
+        "Ego Drain": 4,
+        "Ice Out": 1,
+        "Spell Stutter": 4,
+        "Siphon Insight": 1,
+        "Negate": 1,
+        "Go for the Throat": 4,
+        "Cut Down": 2
+      },
+      "Sideboard": {
+        "Kaito Shizuki": 1,
+        "Blue Sun's Twilight": 2,
+        "Duress": 2,
+        "Negate": 1,
+        "Parasitic Grasp": 2,
+        "Sheoldred's Edict": 1,
+        "Disdainful Stroke": 1,
+        "Siphon Insight": 1,
+        "Cut Down": 1,
+        "The Filigree Sylex": 2,
+        "Unlicensed Hearse": 1
+      }
+    }
+  },
+  "Jean-Emmanuel Depraz": {
+    "archetype": "Esper Legends",
+    "sections": {
+      "Main": {
+        "Plaza of Heroes": 4,
+        "Otawara, Soaring City": 3,
+        "Seachrome Coast": 4,
+        "Eiganjo, Seat of the Empire": 2,
+        "Caves of Koilos": 4,
+        "Swamp": 1,
+        "Shipwreck Marsh": 2,
+        "Shattered Sanctum": 1,
+        "Takenuma, Abandoned Mire": 2,
+        "Darkslick Shores": 4,
+        "Ertai Resurrected": 2,
+        "Sheoldred, the Apocalypse": 4,
+        "Raffine, Scheming Seer": 4,
+        "Lord Skitter, Sewer King": 2,
+        "Thalia, Guardian of Thraben": 4,
+        "Dennick, Pious Apprentice": 4,
+        "Rona, Herald of Invasion": 2,
+        "Faerie Mastermind": 3,
+        "Skrelv, Defector Mite": 4,
+        "Go for the Throat": 3,
+        "Make Disappear": 1
+      },
+      "Sideboard": {
+        "Ao, the Dawn Sky": 2,
+        "Blot Out": 1,
+        "Disdainful Stroke": 2,
+        "Negate": 1,
+        "Cut Down": 4,
+        "Surge of Salvation": 1,
+        "Wedding Announcement": 4
+      }
+    }
+  },
+  "Jitse Goutbeek": {
+    "archetype": "Selesnya Enchantments",
+    "sections": {
+      "Main": {
+        "Forest": 6,
+        "Brushland": 4,
+        "Razorverge Thicket": 4,
+        "Boseiju, Who Endures": 1,
+        "Plains": 4,
+        "Eiganjo, Seat of the Empire": 1,
+        "Katilda, Dawnhart Martyr": 4,
+        "Jukai Naturalist": 4,
+        "Spirited Companion": 4,
+        "Generous Visitor": 4,
+        "The Restoration of Eiganjo": 4,
+        "Teachings of the Kirin": 4,
+        "Commune with Spirits": 4,
+        "Virtue of Loyalty": 1,
+        "Rite of Harmony": 2,
+        "Seed of Hope": 1,
+        "Royal Treatment": 1,
+        "Hallowed Haunting": 3,
+        "Ossification": 4
+      },
+      "Sideboard": {
+        "The Wandering Emperor": 1,
+        "Elesh Norn, Mother of Machines": 2,
+        "Vanquish the Horde": 2,
+        "Knockout Blow": 1,
+        "Rite of Harmony": 2,
+        "Destroy Evil": 2,
+        "Hallowed Haunting": 1,
+        "Wedding Announcement": 2,
+        "Circle of Confinement": 2
+      }
+    }
+  },
+  "Théo Jacques-Griffin": {
+    "archetype": "Dimir Faeries",
+    "sections": {
+      "Main": {
+        "Otawara, Soaring City": 1,
+        "Takenuma, Abandoned Mire": 1,
+        "Island": 4,
+        "Shipwreck Marsh": 4,
+        "Darkslick Shores": 4,
+        "Swamp": 4,
+        "Mirrex": 2,
+        "Underground River": 4,
+        "Sheoldred, the Apocalypse": 1,
+        "Gix, Yawgmoth Praetor": 2,
+        "Graveyard Trespasser": 1,
+        "Halo Forager": 2,
+        "Faerie Mastermind": 4,
+        "Faerie Dreamthief": 2,
+        "Sleep-Cursed Faerie": 4,
+        "Kaito Shizuki": 3,
+        "Liliana of the Veil": 1,
+        "Ego Drain": 4,
+        "Spell Stutter": 4,
+        "Go for the Throat": 2,
+        "Sheoldred's Edict": 1,
+        "Make Disappear": 1,
+        "Cut Down": 1,
+        "Faerie Fencing": 3
+      },
+      "Sideboard": {
+        "Liliana of the Veil": 1,
+        "Sheoldred, the Apocalypse": 2,
+        "Graveyard Trespasser": 1,
+        "Gix's Command": 1,
+        "Glistening Deluge": 1,
+        "Duress": 2,
+        "The End": 1,
+        "Disdainful Stroke": 2,
+        "Negate": 1,
+        "Parasitic Grasp": 1,
+        "Cut Down": 2
+      }
+    }
+  },
+  "Reid Duke": {
+    "archetype": "Domain Ramp",
+    "sections": {
+      "Main": {
+        "Ziatora's Proving Ground": 4,
+        "Jetmir's Garden": 4,
+        "Boseiju, Who Endures": 1,
+        "Swamp": 3,
+        "Mirrex": 2,
+        "Island": 1,
+        "Plains": 2,
+        "Spara's Headquarters": 4,
+        "Forest": 4,
+        "Atraxa, Grand Unifier": 3,
+        "Archangel of Wrath": 4,
+        "Topiary Stomper": 4,
+        "Invasion of Zendikar": 4,
+        "Herd Migration": 4,
+        "Virtue of Persistence": 3,
+        "Sunfall": 4,
+        "Go for the Throat": 1,
+        "Courier's Briefcase": 2,
+        "Leyline Binding": 4,
+        "Up the Beanstalk": 2
+      },
+      "Sideboard": {
+        "Obstinate Baloth": 1,
+        "Chrome Host Seedshark": 1,
+        "Duress": 2,
+        "Knockout Blow": 2,
+        "Disdainful Stroke": 3,
+        "Negate": 1,
+        "Destroy Evil": 1,
+        "Anoint with Affliction": 2,
+        "Elspeth's Smite": 1,
+        "Up the Beanstalk": 1
+      }
+    }
+  }
+}

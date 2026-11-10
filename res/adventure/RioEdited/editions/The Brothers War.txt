@@ -1,0 +1,4 @@
+[metadata]
+Code=BRO
+Date=2022-11-18
+Booster=9 Common:fromsheet("BRO cards"), 3 Uncommon:fromSheet("BRO cards"), 1 RareMythic:fromSheet("BRO cards"), 1 fromSheet("BRO lands"), 1 Uncommon:fromSets("BRO")

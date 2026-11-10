@@ -1,0 +1,577 @@
+enemy	original	local	origin
+Abyssal Baron	decks/standard/demon_swamp.dck	decks/converted/abyssal-baron-1.dck	adapted
+Adept Black Wizard	decks/standard/blackwizard_medium_demonicpact.dck	decks/converted/adept-black-wizard-1.dck	adapted
+Adept Black Wizard	decks/standard/blackwizard_medium_fear.dck	decks/converted/adept-black-wizard-2.dck	adapted
+Adept Black Wizard	decks/standard/blackwizard_medium_goblins.dck	decks/converted/adept-black-wizard-3.dck	adapted
+Adept Black Wizard	decks/standard/blackwizard_easy_artifact.dck	decks/converted/adept-black-wizard-4.dck	adapted
+Adept Black Wizard	decks/standard/blackwizard_easy_badmoon.dck	decks/converted/adept-black-wizard-5.dck	adapted
+Adept Black Wizard	decks/standard/blackwizard_easy_mill.dck	decks/converted/adept-black-wizard-6.dck	adapted
+Adept Blue Wizard	decks/standard/bluewizard_medium_donate.dck	decks/converted/adept-blue-wizard-1.dck	adapted
+Adept Blue Wizard	decks/standard/bluewizard_medium_dragons.dck	decks/converted/adept-blue-wizard-2.dck	adapted
+Adept Blue Wizard	decks/standard/bluewizard_easy_artifact.dck	decks/converted/adept-blue-wizard-3.dck	adapted
+Adept Blue Wizard	decks/standard/bluewizard_easy_control.dck	decks/converted/adept-blue-wizard-4.dck	adapted
+Adept Blue Wizard	decks/standard/bluewizard_easy_thassa.dck	decks/converted/adept-blue-wizard-5.dck	adapted
+Adept Blue Wizard	decks/standard/bluewizard_medium_midrange.dck	decks/converted/adept-blue-wizard-6.dck	adapted
+Adept Blue Wizard	decks/standard/bluewizard_medium_mill.dck	decks/converted/adept-blue-wizard-7.dck	adapted
+Adept Green Wizard	decks/standard/greenwizard_medium_cheatramp.dck	decks/converted/adept-green-wizard-1.dck	adapted
+Adept Green Wizard	decks/standard/greenwizard_medium_nissa.dck	decks/converted/adept-green-wizard-2.dck	adapted
+Adept Green Wizard	decks/standard/greenwizard_medium_snakes.dck	decks/converted/adept-green-wizard-3.dck	adapted
+Adept Green Wizard	decks/standard/greenwizard_medium_trample.dck	decks/converted/adept-green-wizard-4.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_medium_artifact.dck	decks/converted/adept-red-wizard-1.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_medium_giant.dck	decks/converted/adept-red-wizard-2.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_medium_circleofflame.dck	decks/converted/adept-red-wizard-3.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_medium_ralburn.dck	decks/converted/adept-red-wizard-4.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_medium_hasteburn.dck	decks/converted/adept-red-wizard-5.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_easy_burn.dck	decks/converted/adept-red-wizard-6.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_easy_dragons.dck	decks/converted/adept-red-wizard-7.dck	adapted
+Adept Red Wizard	decks/standard/redwizard_easy_gauntletofmight.dck	decks/converted/adept-red-wizard-8.dck	adapted
+Adept White Wizard	decks/standard/whitewizard_medium_aggro.dck	decks/converted/adept-white-wizard-1.dck	adapted
+Adept White Wizard	decks/standard/whitewizard_medium_basri.dck	decks/converted/adept-white-wizard-2.dck	adapted
+Adept White Wizard	decks/standard/whitewizard_medium_control.dck	decks/converted/adept-white-wizard-3.dck	adapted
+Adept White Wizard	decks/standard/whitewizard_medium_knight.dck	decks/converted/adept-white-wizard-4.dck	adapted
+Adult Green Dragon	decks/standard/greendragon.dck	decks/converted/adult-green-dragon-1.dck	adapted
+Adventurer	decks/standard/adventurer.dck	decks/converted/adventurer-1.dck	adapted
+Aerie Guard	decks/standard/aerie_guard.dck	decks/converted/aerie-guard-1.dck	adapted
+Aether Channeler	decks/standard/aether_channeler.dck	decks/converted/aether-channeler-1.dck	adapted
+Akroma	decks/boss/akroma.dck	decks/converted/akroma-1.dck	adapted
+Amonkhet Minotaur Warrior	decks/standard/amonkhet_minotaur.dck	decks/converted/amonkhet-minotaur-warrior-1.dck	adapted
+Amphin Warrior	decks/standard/amphin_warrior.dck	decks/converted/amphin-warrior-1.dck	adapted
+Ancient Demon	decks/standard/demon5.dck	decks/converted/ancient-demon-1.dck	adapted
+Ancient Silver Dragon	decks/miniboss/bluedragon.dck	decks/converted/ancient-silver-dragon-1.dck	adapted
+Ancient Vampire	decks/standard/ancientvampire.dck	decks/converted/ancient-vampire-1.dck	adapted
+Angel Overseer	decks/standard/azoriusangel.dck	decks/converted/angel-overseer-1.dck	adapted
+Angel Warrior	decks/standard/angelwarrior.dck	decks/converted/angel-warrior-1.dck	adapted
+Angelic Page	decks/standard/angel.json	decks/converted/angelic-page-1.dck	adapted
+Ape	decks/standard/ape.json	decks/converted/ape-1.dck	adapted
+Apprentice Black Wizard	decks/standard/blackwizard_easy_bog.dck	decks/converted/apprentice-black-wizard-1.dck	adapted
+Apprentice Black Wizard	decks/standard/blackwizard_easy_humans.dck	decks/converted/apprentice-black-wizard-2.dck	adapted
+Apprentice Black Wizard	decks/standard/blackwizard_easy_pile.dck	decks/converted/apprentice-black-wizard-3.dck	adapted
+Apprentice Black Wizard	decks/standard/blackwizard_easy_thrull.dck	decks/converted/apprentice-black-wizard-4.dck	adapted
+Apprentice Black Wizard	decks/standard/blackwizard_easy.json	decks/converted/apprentice-black-wizard-5.dck	adapted
+Apprentice Blue Wizard	decks/standard/bluewizard_apprentice_1.dck	decks/converted/apprentice-blue-wizard-1.dck	adapted
+Apprentice Blue Wizard	decks/standard/bluewizard_apprentice_2.dck	decks/converted/apprentice-blue-wizard-2.dck	adapted
+Apprentice Blue Wizard	decks/standard/bluewizard_apprentice_3.dck	decks/converted/apprentice-blue-wizard-3.dck	adapted
+Apprentice Blue Wizard	decks/standard/bluewizard_easy.json	decks/converted/apprentice-blue-wizard-4.dck	adapted
+Apprentice Green Wizard	decks/standard/greenwizard_easy_elf.dck	decks/converted/apprentice-green-wizard-1.dck	adapted
+Apprentice Green Wizard	decks/standard/greenwizard_easy_enchantment.dck	decks/converted/apprentice-green-wizard-2.dck	adapted
+Apprentice Green Wizard	decks/standard/greenwizard_easy_vanilla.dck	decks/converted/apprentice-green-wizard-3.dck	adapted
+Apprentice Green Wizard	decks/standard/greenwizard_easy.json	decks/converted/apprentice-green-wizard-4.dck	adapted
+Apprentice Red Wizard	decks/standard/redwizard_easy.json	decks/converted/apprentice-red-wizard-1.dck	adapted
+Apprentice Red Wizard	decks/standard/redwizard_easy_1.dck	decks/converted/apprentice-red-wizard-2.dck	adapted
+Apprentice Red Wizard	decks/standard/redwizard_easy_2.dck	decks/converted/apprentice-red-wizard-3.dck	adapted
+Apprentice Red Wizard	decks/standard/redwizard_apprentice_1.dck	decks/converted/apprentice-red-wizard-4.dck	adapted
+Apprentice Red Wizard	decks/standard/redwizard_easy_3.dck	decks/converted/apprentice-red-wizard-5.dck	adapted
+Apprentice White Wizard	decks/standard/whitewizard_easy_ajani.dck	decks/converted/apprentice-white-wizard-1.dck	adapted
+Apprentice White Wizard	decks/standard/whitewizard_easy_wanderer.dck	decks/converted/apprentice-white-wizard-2.dck	adapted
+Apprentice White Wizard	decks/standard/whitewizard_easy_angelhuman.dck	decks/converted/apprentice-white-wizard-3.dck	adapted
+Arcane Golem	decks/standard/jodah.dck	decks/converted/arcane-golem-1.dck	adapted
+Archaeologist	decks/standard/archaeologist.dck	decks/converted/archaeologist-1.dck	adapted
+Archer	decks/standard/human_archer.dck	decks/converted/archer-1.dck	adapted
+Archer Elite	decks/standard/archerelite.dck	decks/converted/archer-elite-1.dck	adapted
+Archfiend	decks/standard/demon_landdestruction.dck	decks/converted/archfiend-1.dck	adapted
+Archivist	decks/standard/archivist.dck	decks/converted/archivist-1.dck	adapted
+Archmage	decks/standard/archmage.dck	decks/converted/archmage-1.dck	adapted
+Armadillo	decks/standard/armadillo.dck	decks/converted/armadillo-1.dck	adapted
+Armored Knight	decks/standard/armored_knight.dck	decks/converted/armored-knight-1.dck	adapted
+Artifact Warrior	decks/standard/artifactwarrior.dck	decks/converted/artifact-warrior-1.dck	adapted
+Ashmouth Devil	decks/standard/ashmouth_devil.dck	decks/selected/ashmouth_devil.dck	prototype
+Auramancer	decks/standard/enchantress.dck	decks/converted/auramancer-1.dck	adapted
+Axgard Dwarf	decks/standard/axgard_dwarf.dck	decks/converted/axgard-dwarf-1.dck	adapted
+Badger	decks/standard/badger.dck	decks/converted/badger-1.dck	adapted
+Bandit	decks/standard/bandit.dck	decks/converted/bandit-1.dck	adapted
+Bandit Archer	decks/standard/banditarcher_blink.dck	decks/converted/bandit-archer-1.dck	adapted
+Bandit Archer	decks/standard/banditarcher_damage.dck	decks/converted/bandit-archer-2.dck	adapted
+Bandit Leader	decks/standard/banditleader_bolas.dck	decks/converted/bandit-leader-1.dck	adapted
+Bandit Leader	decks/standard/banditleader_hellbent.dck	decks/converted/bandit-leader-2.dck	adapted
+Bandit Leader	decks/standard/banditleader_rakdos.dck	decks/converted/bandit-leader-3.dck	adapted
+Bandit Scoundrel	decks/standard/bandit_monor.dck	decks/converted/bandit-scoundrel-1.dck	adapted
+Bandit Scoundrel	decks/standard/bandit_mutate.dck	decks/converted/bandit-scoundrel-2.dck	adapted
+Bandit Scoundrel	decks/standard/bandit_zoo.dck	decks/converted/bandit-scoundrel-3.dck	adapted
+Bandit Slingshot	decks/standard/banditslingshot_flyers.dck	decks/converted/bandit-slingshot-1.dck	adapted
+Bandit Trapmaster	decks/standard/bandittrapper_hazezon.dck	decks/converted/bandit-trapmaster-1.dck	adapted
+Barbarian	decks/standard/barbarian.dck	decks/selected/barbarian.dck	prototype
+Bat	decks/standard/bat.dck	decks/converted/bat-1.dck	adapted
+Bear	decks/standard/bear.json	decks/converted/bear-1.dck	adapted
+Beastmaster	decks/standard/beastmaster.dck	decks/converted/beastmaster-1.dck	adapted
+Beholder	decks/standard/beholder.dck	decks/converted/beholder-1.dck	adapted
+Berserker	decks/standard/berserker.json	decks/converted/berserker-1.dck	adapted
+Big Zombie	decks/standard/zombie_bad.json	decks/selected/big_zombie.dck	prototype
+Bird	decks/standard/bird_blue.json	decks/converted/bird-1.dck	adapted
+Black Golem	decks/standard/blackconstruct.dck	decks/converted/black-golem-1.dck	adapted
+Bloodgift Demon	decks/standard/demonwander.dck	decks/converted/bloodgift-demon-1.dck	adapted
+Bloodied Skeleton	decks/standard/bloodiedskeleton.dck	decks/converted/bloodied-skeleton-1.dck	adapted
+Blue Golem	decks/standard/blue_golem.dck	decks/converted/blue-golem-1.dck	adapted
+Blue Prototype	decks/standard/prototype_blue.dck	decks/converted/blue-prototype-1.dck	adapted
+Boar	decks/standard/boar.json	decks/converted/boar-1.dck	adapted
+Boar	decks/standard/boar_gruul.dck	decks/converted/boar-2.dck	adapted
+Boar	decks/standard/boar_monogreenlifegain.dck	decks/converted/boar-3.dck	adapted
+Bog Witch	decks/standard/witch.dck	decks/converted/bog-witch-1.dck	adapted
+Boggart	decks/standard/eyeblight.dck	decks/converted/boggart-1.dck	adapted
+Bone Dragon	decks/standard/bonedragon.dck	decks/converted/bone-dragon-1.dck	adapted
+Bone Golem	decks/standard/bonegolem.dck	decks/converted/bone-golem-1.dck	adapted
+Brain Mole	decks/standard/millwizard.dck	decks/converted/brain-mole-1.dck	adapted
+Bull	decks/standard/bull.dck	decks/converted/bull-1.dck	adapted
+Camel	decks/standard/camel.dck	decks/converted/camel-1.dck	adapted
+Caracal	decks/standard/caracal.dck	decks/converted/caracal-1.dck	adapted
+Cathar	decks/standard/cathar.dck	decks/converted/cathar-1.dck	adapted
+Cave Spider	decks/standard/cave_spider.dck	decks/converted/cave-spider-1.dck	adapted
+Centaur	decks/standard/centaur.json	decks/converted/centaur-1.dck	adapted
+Centaur Warrior	decks/standard/centaur_warrior.dck	decks/converted/centaur-warrior-1.dck	adapted
+Cephalid	decks/standard/cephalid.dck	decks/converted/cephalid-1.dck	adapted
+Cerodon	decks/standard/cerodon.dck	decks/converted/cerodon-1.dck	adapted
+Challenger 20	decks/standard/challenger_20_allied_fires.dck	decks/converted/challenger-20-1.dck	Jean-Emmanuel Depraz
+Challenger 20	decks/standard/challenger_20_cavalcade_charge.dck	decks/converted/challenger-20-2.dck	Jitse Goutbeek
+Challenger 20	decks/standard/challenger_20_final_adventure.dck	decks/converted/challenger-20-3.dck	Théo Jacques-Griffin
+Challenger 20	decks/standard/challenger_20_flash_of_ferocity.dck	decks/converted/challenger-20-4.dck	Reid Duke
+Challenger 21	decks/standard/challenger_21_azorius_control.dck	decks/converted/challenger-21-1.dck	Chye Hwee Heng
+Challenger 21	decks/standard/challenger_21_dimir_rogue.dck	decks/converted/challenger-21-2.dck	Bart van Etten
+Challenger 21	decks/standard/challenger_21_mono-green_stompy.dck	decks/converted/challenger-21-3.dck	Greg Orange
+Challenger 21	decks/standard/challenger_21_mono-red_aggro.dck	decks/converted/challenger-21-4.dck	Weng Heng Soh
+Challenger 22	decks/standard/challenger_22_dimir_control.dck	decks/converted/challenger-22-1.dck	Hiroshi Onizuka
+Challenger 22	decks/standard/challenger_22_gruul_stompy.dck	decks/converted/challenger-22-2.dck	Pedro Mocelin
+Challenger 22	decks/standard/challenger_22_mono_white_aggro.dck	decks/converted/challenger-22-3.dck	Autumn Burchett
+Challenger 22	decks/standard/challenger_22_rakdos_vampires.dck	decks/converted/challenger-22-4.dck	Chris Ferber
+Chandra	decks/miniboss/Fire of Kaladesh.dck	decks/selected/chandra.dck	prototype
+Chandra's Acolyte	decks/standard/chandra1.dck	decks/converted/chandra-s-acolyte-1.dck	adapted
+Chandra's Firestarter	decks/standard/chandra2.dck	decks/converted/chandra-s-firestarter-1.dck	adapted
+Chandra's Hellhound	decks/standard/hellhound2.dck	decks/converted/chandra-s-hellhound-1.dck	adapted
+Chandra's Immolator	decks/standard/chandra3.dck	decks/converted/chandra-s-immolator-1.dck	adapted
+Chandra's Lavamancer	decks/standard/chandra4.dck	decks/converted/chandra-s-lavamancer-1.dck	adapted
+Chandra's Pyromancer	decks/standard/chandra5.dck	decks/converted/chandra-s-pyromancer-1.dck	adapted
+Chandra's Scorcher	decks/standard/chandra6.dck	decks/converted/chandra-s-scorcher-1.dck	adapted
+Chicken	decks/standard/chicken.dck	decks/converted/chicken-1.dck	adapted
+Chimera	decks/standard/chimera.dck	decks/converted/chimera-1.dck	adapted
+Clay Golem	decks/standard/golem_good.json	decks/converted/clay-golem-1.dck	adapted
+Cleric	decks/standard/cleric.json	decks/converted/cleric-1.dck	adapted
+Cloaker	decks/standard/cloaker.dck	decks/converted/cloaker-1.dck	adapted
+Cloud Giant	decks/standard/cloudgiant.dck	decks/converted/cloud-giant-1.dck	adapted
+Cloud Guardian	decks/standard/cloudguard.dck	decks/converted/cloud-guardian-1.dck	adapted
+Conjurer	decks/miniboss/conjure.dck	decks/converted/conjurer-1.dck	adapted
+Construct	decks/standard/artificer.dck	decks/converted/construct-1.dck	adapted
+Construct	decks/standard/construct.json	decks/converted/construct-2.dck	adapted
+Construct	decks/standard/rustic_construct.dck	decks/converted/construct-3.dck	adapted
+Copper Host Brutalizer	decks/miniboss/copperhostbrutalizer.dck	decks/converted/copper-host-brutalizer-1.dck	adapted
+Copper Host Infector	decks/standard/copperhostinfector.json	decks/converted/copper-host-infector-1.dck	adapted
+Corrupted Blue Wizard	decks/standard/bluewiz_corrupted.dck	decks/converted/corrupted-blue-wizard-1.dck	adapted
+Corrupted Cleric	decks/standard/corruptedcleric.dck	decks/converted/corrupted-cleric-1.dck	adapted
+Corrupted Green Wizard	decks/standard/greenmage_corrupted.dck	decks/converted/corrupted-green-wizard-1.dck	adapted
+Corrupted Red Wizard	decks/standard/redwiz_corrupted.dck	decks/converted/corrupted-red-wizard-1.dck	adapted
+Cosmic Horror	decks/standard/cosmic_horror.dck	decks/converted/cosmic-horror-1.dck	adapted
+Crab	decks/standard/crab.json	decks/converted/crab-1.dck	adapted
+Crab	decks/standard/giant_crab.dck	decks/converted/crab-2.dck	adapted
+Criosphinx	decks/standard/sphinx amonkhet.dck	decks/converted/criosphinx-1.dck	adapted
+Crocodile	decks/standard/crocodile.dck	decks/converted/crocodile-1.dck	adapted
+Curselord	decks/standard/curselord.dck	decks/converted/curselord-1.dck	adapted
+Cyclops	decks/standard/cyclops.dck	decks/converted/cyclops-1.dck	adapted
+Dark Enchanter	decks/miniboss/darkenchanter.dck	decks/converted/dark-enchanter-1.dck	Pedro Mocelin
+Dark Knight	decks/standard/death_knight.dck	decks/converted/dark-knight-1.dck	adapted
+Dark Spirit	decks/standard/dark_spirit.dck	decks/converted/dark-spirit-1.dck	adapted
+Dawnhart Witch	decks/standard/dawnhart_witch.dck	decks/converted/dawnhart-witch-1.dck	adapted
+Death Knight	decks/standard/death_knight.dck	decks/converted/death-knight-1.dck	adapted
+Demon	decks/standard/demon.json	decks/converted/demon-1.dck	adapted
+Demon	decks/standard/demonshard.dck	decks/converted/demon-2.dck	adapted
+Demon	decks/standard/demonblackred.dck	decks/converted/demon-3.dck	adapted
+Demon	decks/standard/demonmonoblack.dck	decks/converted/demon-4.dck	adapted
+Demon of Tibalt	decks/standard/tibalt_demon.dck	decks/converted/demon-of-tibalt-1.dck	adapted
+Demoncaller	decks/standard/demoncaller.dck	decks/converted/demoncaller-1.dck	adapted
+Devil	decks/standard/devil.json	decks/converted/devil-1.dck	adapted
+Devil of Tibalt	decks/standard/tibalt_devil.dck	decks/converted/devil-of-tibalt-1.dck	adapted
+Dimir Faerie	decks/standard/dimir_faerie.dck	decks/converted/dimir-faerie-1.dck	Théo Jacques-Griffin
+Dinosaur	decks/standard/dinosaur_w_r.dck	decks/converted/dinosaur-1.dck	adapted
+Dinosaur Elite	decks/standard/dinosaurelite.dck	decks/converted/dinosaur-elite-1.dck	adapted
+Disciple of Teferi	decks/standard/disciple_of_teferi.dck	decks/converted/disciple-of-teferi-1.dck	adapted
+Djinn	decks/standard/djinn.json	decks/converted/djinn-1.dck	adapted
+Dog	decks/standard/dog.json	decks/converted/dog-1.dck	adapted
+Dog	decks/standard/dog.dck	decks/converted/dog-2.dck	adapted
+Dog	decks/standard/dog_w_beginner.dck	decks/converted/dog-3.dck	adapted
+Doppelganger	decks/standard/mimic.dck	decks/converted/doppelganger-1.dck	adapted
+Dragon	decks/standard/dragon.dck	decks/converted/dragon-1.dck	adapted
+Dragonfly	decks/standard/insect.dck	decks/converted/dragonfly-1.dck	adapted
+Drake	decks/standard/drake_ur_beginner.dck	decks/converted/drake-1.dck	adapted
+Drake	decks/standard/drake_ur_mid.dck	decks/converted/drake-2.dck	adapted
+Drake	decks/standard/drake_ur_unfair.dck	decks/converted/drake-3.dck	adapted
+Dross Gladiator	decks/standard/drossgladiator.json	decks/converted/dross-gladiator-1.dck	adapted
+Dross Grimnarch	decks/standard/drossgrimnarch.dck	decks/converted/dross-grimnarch-1.dck	adapted
+Dwarf	decks/standard/dwarf.json	decks/converted/dwarf-1.dck	adapted
+Dwarf Demolisher	decks/standard/dwarfdemolisher.dck	decks/converted/dwarf-demolisher-1.dck	adapted
+Dwarf Mercenary	decks/standard/dwarfmercenary.dck	decks/converted/dwarf-mercenary-1.dck	adapted
+Dwarf Pilot	decks/standard/dwarfpilot.dck	decks/converted/dwarf-pilot-1.dck	adapted
+Dwarf Warlord	decks/standard/dwarf_whitecastle.dck	decks/converted/dwarf-warlord-1.dck	adapted
+Earth Elemental	decks/standard/earth_elemental.dck	decks/converted/earth-elemental-1.dck	adapted
+Efreet	decks/standard/efreet.dck	decks/converted/efreet-1.dck	adapted
+Eldraine Faerie	decks/standard/eldraine_faerie.dck	decks/converted/eldraine-faerie-1.dck	adapted
+Eldraine Knight	decks/standard/eldraine_knight.dck	decks/converted/eldraine-knight-1.dck	adapted
+Eldrazi	decks/standard/eldrazi.dck	decks/converted/eldrazi-1.dck	adapted
+Eldrazi Devastator	decks/standard/eldrazilarge.dck	decks/converted/eldrazi-devastator-1.dck	adapted
+Eldrazi Floater	decks/standard/eldrazilarge.dck	decks/converted/eldrazi-floater-1.dck	adapted
+Elemental	decks/standard/elemental_air.dck	decks/converted/elemental-1.dck	adapted
+Elephant	decks/standard/elephant.json	decks/converted/elephant-1.dck	adapted
+Elesh Norn	decks/miniboss/copperhostbrutalizer.dck	decks/converted/elesh-norn-1.dck	adapted
+Elf	decks/standard/elf_bad.json	decks/selected/elf.dck	prototype
+Elf Vagabond	decks/standard/elfvagabond.dck	decks/converted/elf-vagabond-1.dck	adapted
+Elf warrior	decks/standard/elf_mid.json	decks/converted/elf-warrior-1.dck	adapted
+Elk	decks/standard/elk.dck	decks/converted/elk-1.dck	adapted
+Emrakul	decks/boss/emrakul.dck	decks/converted/emrakul-1.dck	adapted
+Esper Artificer	decks/standard/esper_artificer.dck	decks/converted/esper-artificer-1.dck	adapted
+Evil Wall	decks/standard/hiddenwall.dck	decks/converted/evil-wall-1.dck	adapted
+Eye	decks/standard/eye.dck	decks/converted/eye-1.dck	adapted
+Faerie	decks/standard/faerie.json	decks/converted/faerie-1.dck	Shota Yasooka
+Faerie Dragon	decks/standard/faeriedragon.dck	decks/converted/faerie-dragon-1.dck	adapted
+Falcon	decks/standard/falcon_w.dck	decks/converted/falcon-1.dck	adapted
+Falcon-headed Aven Warrior	decks/standard/amonkhet_aven_w.dck	decks/converted/falcon-headed-aven-warrior-1.dck	adapted
+Fallen Angel	decks/standard/fallen_angel.dck	decks/converted/fallen-angel-1.dck	adapted
+False Knight	decks/standard/death_knight.dck	decks/converted/false-knight-1.dck	adapted
+False Monk	decks/standard/cultist.dck	decks/converted/false-monk-1.dck	adapted
+Farmer	decks/standard/farmer.dck	decks/converted/farmer-1.dck	adapted
+Fire Dragon	decks/standard/firedragon.dck	decks/converted/fire-dragon-1.dck	adapted
+Fire Elemental	decks/standard/fire_elemental.dck	decks/converted/fire-elemental-1.dck	adapted
+Fire Giant	decks/standard/firegiant.dck	decks/converted/fire-giant-1.dck	adapted
+Flame Elemental	decks/standard/flame_elemental.dck	decks/converted/flame-elemental-1.dck	adapted
+Flesh Abomination	decks/standard/flesh_horror.dck	decks/converted/flesh-abomination-1.dck	adapted
+Flying Witch	decks/standard/witch.dck	decks/converted/flying-witch-1.dck	adapted
+Fog Trap	decks/standard/turbofog.dck	decks/converted/fog-trap-1.dck	adapted
+Forest Giant	decks/standard/foresttitan.dck	decks/converted/forest-giant-1.dck	adapted
+Fox	decks/standard/fox.json	decks/converted/fox-1.dck	adapted
+Fox	decks/standard/fox_greenwhite.dck	decks/converted/fox-2.dck	adapted
+Frog	decks/standard/frog.json	decks/converted/frog-1.dck	adapted
+Froghemoth	decks/standard/froghemoth.dck	decks/converted/froghemoth-1.dck	adapted
+Frost Titan	decks/standard/frost_titan.dck	decks/converted/frost-titan-1.dck	adapted
+Fungus	decks/standard/fungus.json	decks/converted/fungus-1.dck	adapted
+Furnace Goblin	decks/standard/furnacegoblin.json	decks/converted/furnace-goblin-1.dck	adapted
+Furnace Tormentor	decks/standard/furnacetormentor.dck	decks/converted/furnace-tormentor-1.dck	adapted
+Gargoyle	decks/standard/gargoyle.json	decks/converted/gargoyle-1.dck	adapted
+Gargoyle 2	decks/standard/gargoyle.dck	decks/converted/gargoyle-2-1.dck	adapted
+Garruk	decks/miniboss/garruk.dck	decks/converted/garruk-1.dck	adapted
+Geist	decks/standard/ghost_blue.dck	decks/converted/geist-1.dck	adapted
+Geistmage	decks/standard/geistmage.dck	decks/converted/geistmage-1.dck	adapted
+Geonid Death-Cap	decks/standard/geonid.dck	decks/converted/geonid-death-cap-1.dck	adapted
+Ghalta	decks/boss/ghalta.dck	decks/converted/ghalta-1.dck	adapted
+Ghost	decks/standard/ghost.json	decks/converted/ghost-1.dck	adapted
+Ghoul	decks/standard/ghoul.dck	decks/converted/ghoul-1.dck	adapted
+Ghoul Gravecaller	decks/standard/ghoulgravecrawler.dck	decks/converted/ghoul-gravecaller-1.dck	adapted
+Giant Cyclops	decks/standard/luckyminotaur.dck	decks/converted/giant-cyclops-1.dck	adapted
+Giant Fly	decks/standard/insect.dck	decks/converted/giant-fly-1.dck	adapted
+Giant Panda	decks/standard/giantpanda.dck	decks/converted/giant-panda-1.dck	adapted
+Giant Spider	decks/standard/spider_token.dck	decks/converted/giant-spider-1.dck	adapted
+Gitaxian Scientist	decks/standard/gitaxianscientist.dck	decks/converted/gitaxian-scientist-1.dck	adapted
+Gitaxian Underling	decks/standard/gitaxianunderling.json	decks/converted/gitaxian-underling-1.dck	adapted
+Gladiator	decks/standard/gladiator.dck	decks/converted/gladiator-1.dck	adapted
+Goblin	decks/standard/goblin_warrior_easy.dck	decks/converted/goblin-1.dck	adapted
+Goblin Artificer	decks/standard/goblin_artificer.dck	decks/converted/goblin-artificer-1.dck	adapted
+Goblin Chief	decks/standard/goblin_chief_medium.dck	decks/converted/goblin-chief-1.dck	adapted
+Goblin Fanatic	decks/standard/goblin_fanatic.dck	decks/converted/goblin-fanatic-1.dck	adapted
+Goblin King	decks/standard/goblinking.dck	decks/converted/goblin-king-1.dck	adapted
+Goblin Pack	decks/standard/goblin_bad.json	decks/converted/goblin-pack-1.dck	adapted
+Goblin	decks/standard/goblin_bad.json	decks/converted/goblin-pack-stage-goblin-1.dck	adapted
+Goblin	decks/standard/goblin_bad.json	decks/converted/goblin-pack-stage-goblin-stage-goblin-1.dck	adapted
+Goblin Rager	decks/standard/goblinrager.dck	decks/converted/goblin-rager-1.dck	adapted
+Goblin Stalker	decks/standard/evilgoblin.dck	decks/converted/goblin-stalker-1.dck	adapted
+Goblin Warrior	decks/standard/goblin_mid.json	decks/converted/goblin-warrior-1.dck	adapted
+Golem	decks/standard/golem.json	decks/converted/golem-1.dck	adapted
+Golem	decks/standard/rustic_golem.dck	decks/converted/golem-2.dck	adapted
+Golem Sentinel	decks/standard/golem_sentinel.dck	decks/converted/golem-sentinel-1.dck	adapted
+Golem Sentinel	decks/standard/golem_sentinel_2.dck	decks/converted/golem-sentinel-2.dck	adapted
+Golem Sentinel	decks/standard/golem_sentinel_3.dck	decks/converted/golem-sentinel-3.dck	adapted
+Golgari Elf	decks/standard/elf_golgari.dck	decks/converted/golgari-elf-1.dck	adapted
+Golgari Fungus	decks/standard/fungus_golgari.dck	decks/converted/golgari-fungus-1.dck	adapted
+Golgari Treefolk	decks/standard/treefolk_golgari.dck	decks/converted/golgari-treefolk-1.dck	adapted
+Gorgon	decks/standard/gorgon.dck	decks/converted/gorgon-1.dck	adapted
+Gorgon 2	decks/standard/gorgon_2.dck	decks/converted/gorgon-2-1.dck	adapted
+Gorilla	decks/standard/gorilla.dck	decks/converted/gorilla-1.dck	adapted
+Grave Titan	decks/standard/gravetitan.dck	decks/converted/grave-titan-1.dck	adapted
+Graven Revenant	decks/standard/giralfgisa.dck	decks/converted/graven-revenant-1.dck	adapted
+Greater Sandwurm	decks/standard/sandwurm.dck	decks/converted/greater-sandwurm-1.dck	adapted
+Greater Zombie	decks/standard/zombie_greater.dck	decks/converted/greater-zombie-1.dck	adapted
+Green Beast	decks/standard/beast_green.json	decks/converted/green-beast-1.dck	adapted
+Green Golem	decks/standard/greengolem.dck	decks/converted/green-golem-1.dck	adapted
+Green Prototype	decks/standard/prototype_green.dck	decks/converted/green-prototype-1.dck	adapted
+Griffin	decks/standard/griffin.json	decks/converted/griffin-1.dck	adapted
+Griselbrand	decks/boss/griselbrand.dck	decks/converted/griselbrand-1.dck	adapted
+Grolnok	decks/miniboss/frogboss.dck	decks/converted/grolnok-1.dck	adapted
+Guardian Angel	decks/miniboss/angel_rainbow_encounter.dck	decks/converted/guardian-angel-1.dck	Reid Duke
+Harpy	decks/standard/harpy.dck	decks/converted/harpy-1.dck	adapted
+Harpy 2	decks/standard/harpy_2.dck	decks/converted/harpy-2-1.dck	adapted
+Heart-Piercer Manticore	decks/standard/manticore.dck	decks/converted/heart-piercer-manticore-1.dck	adapted
+Hedgehog	decks/standard/hedgehog.dck	decks/converted/hedgehog-1.dck	adapted
+Hellhound	decks/standard/hellhound.dck	decks/converted/hellhound-1.dck	adapted
+Hellion	decks/standard/hellion.dck	decks/converted/hellion-1.dck	adapted
+Hermit Crab	decks/standard/hermitcrab.dck	decks/converted/hermit-crab-1.dck	adapted
+Hidden Bush	decks/standard/plant.dck	decks/converted/hidden-bush-1.dck	adapted
+Hidden Snake	decks/standard/snake.json	decks/converted/hidden-snake-1.dck	adapted
+High Cultist	decks/standard/cultist.dck	decks/converted/high-cultist-1.dck	adapted
+High Elf	decks/standard/elf_good.json	decks/converted/high-elf-1.dck	adapted
+High Vampire	decks/standard/vampire.json	decks/converted/high-vampire-1.dck	adapted
+Hippo	decks/standard/hippo.dck	decks/converted/hippo-1.dck	adapted
+Holy Apparition	decks/standard/seraphim.dck	decks/converted/holy-apparition-1.dck	adapted
+Holy Paladin	decks/standard/holypaladin.dck	decks/converted/holy-paladin-1.dck	adapted
+Homarid	decks/standard/homarid.dck	decks/converted/homarid-1.dck	adapted
+Horror	decks/standard/horror.dck	decks/converted/horror-1.dck	adapted
+Horror of Tibalt	decks/standard/tibalt_horror.dck	decks/converted/horror-of-tibalt-1.dck	adapted
+Horse	decks/standard/horse.dck	decks/converted/horse-1.dck	adapted
+Horseman	decks/standard/horsemanship.dck	decks/converted/horseman-1.dck	adapted
+Hulking Brute	decks/standard/hulkingbrute.dck	decks/converted/hulking-brute-1.dck	adapted
+Human	decks/standard/human_bad.json	decks/converted/human-1.dck	adapted
+Human Bard	decks/standard/humanbard.dck	decks/converted/human-bard-1.dck	adapted
+Human Captain	decks/standard/humanelite.dck	decks/converted/human-captain-1.dck	Autumn Burchett
+Human elite	decks/standard/human_good.json	decks/converted/human-elite-1.dck	adapted
+Human guard	decks/standard/human_mid.json	decks/converted/human-guard-1.dck	adapted
+Human Looter	decks/standard/peasantrole.dck	decks/converted/human-looter-1.dck	adapted
+Human Mercenary	decks/standard/humanmercenary.dck	decks/converted/human-mercenary-1.dck	adapted
+Hydra	decks/standard/hydra.json	decks/converted/hydra-1.dck	adapted
+Ibis	decks/standard/bird_gu.dck	decks/converted/ibis-1.dck	adapted
+Ibis-headed Aven Warrior	decks/standard/amonkhet_aven_u.dck	decks/converted/ibis-headed-aven-warrior-1.dck	adapted
+Ice Elemental	decks/standard/ice_elemental.dck	decks/converted/ice-elemental-1.dck	adapted
+Illusionist	decks/standard/illusion.dck	decks/converted/illusionist-1.dck	adapted
+Immersturm Demon	decks/standard/immersturm_demon.dck	decks/converted/immersturm-demon-1.dck	adapted
+Jace	decks/miniboss/jace.dck	decks/converted/jace-1.dck	adapted
+Jellyfish	decks/standard/jellyfish.dck	decks/converted/jellyfish-1.dck	adapted
+Jin-Gitaxias	decks/miniboss/copperhostbrutalizer.dck	decks/converted/jin-gitaxias-1.dck	adapted
+Juggernaut	decks/standard/juggernaut.dck	decks/converted/juggernaut-1.dck	adapted
+Kavu	decks/standard/kavu.dck	decks/converted/kavu-1.dck	adapted
+Kavu	decks/standard/kavu_domain.dck	decks/converted/kavu-2.dck	adapted
+Khan	decks/standard/mardu.dck	decks/converted/khan-1.dck	adapted
+Khenra Warrior	decks/standard/jackal.dck	decks/converted/khenra-warrior-1.dck	adapted
+Kiora	decks/miniboss/kiora.dck	decks/converted/kiora-1.dck	adapted
+Knight	decks/standard/knight.json	decks/converted/knight-1.dck	adapted
+Knight Mercenary	decks/standard/knightmercenary.dck	decks/converted/knight-mercenary-1.dck	adapted
+Kobold Dragoncaller	decks/standard/kobolddragoncaller.dck	decks/converted/kobold-dragoncaller-1.dck	adapted
+Kobold Pyromancer	decks/standard/pyromancer.dck	decks/converted/kobold-pyromancer-1.dck	adapted
+Kobold Shaman	decks/standard/roshnakhtheroic.dck	decks/converted/kobold-shaman-1.dck	adapted
+Kobold Slinger	decks/standard/kobold.dck	decks/converted/kobold-slinger-1.dck	adapted
+Kobold Trapmaster	decks/standard/koboldtrapmaster.dck	decks/converted/kobold-trapmaster-1.dck	adapted
+Kobold Warrior	decks/standard/kobold.dck	decks/converted/kobold-warrior-1.dck	adapted
+Kobold Worker	decks/standard/koboldworker.dck	decks/converted/kobold-worker-1.dck	adapted
+Kor Warrior	decks/standard/kor_warrior.dck	decks/converted/kor-warrior-1.dck	adapted
+Kozilek	decks/miniboss/copperhostbrutalizer.dck	decks/converted/kozilek-1.dck	adapted
+Ladybug	decks/standard/ladybug.dck	decks/converted/ladybug-1.dck	adapted
+Lathliss	decks/boss/lathliss.dck	decks/converted/lathliss-1.dck	adapted
+Leonin Warrior	decks/standard/leoninwarrior.dck	decks/converted/leonin-warrior-1.dck	adapted
+Leonin Weaponmaster	decks/standard/leoninswordsmith.dck	decks/converted/leonin-weaponmaster-1.dck	adapted
+Lich	decks/standard/lich.dck	decks/converted/lich-1.dck	adapted
+Lightning Elemental	decks/standard/lightning_elemental.dck	decks/converted/lightning-elemental-1.dck	adapted
+Liliana	decks/miniboss/liliana_zombies.dck	decks/converted/liliana-1.dck	adapted
+Liliana's Alchemist	decks/standard/dimir_ninja.dck	decks/converted/liliana-s-alchemist-1.dck	adapted
+Liliana's Herbalist	decks/standard/lilianas_herbalist.dck	decks/converted/liliana-s-herbalist-1.dck	adapted
+Lion	decks/standard/lion.dck	decks/converted/lion-1.dck	adapted
+Loamspeaker	decks/standard/loamspeaker.dck	decks/converted/loamspeaker-1.dck	adapted
+Lord Pestilence	decks/standard/trap.dck	decks/converted/lord-pestilence-1.dck	adapted
+Lorthos	decks/boss/lorthos.dck	decks/converted/lorthos-1.dck	adapted
+Maelstrom Angel	decks/standard/maelstromangel.dck	decks/converted/maelstrom-angel-1.dck	adapted
+Mageripper	decks/standard/mageripper.dck	decks/converted/mageripper-1.dck	adapted
+Magma Elemental	decks/standard/magma_elemental.dck	decks/converted/magma-elemental-1.dck	adapted
+Magma Fire Elemental	decks/standard/magma_elemental.dck	decks/converted/magma-fire-elemental-1.dck	adapted
+Master Black Wizard	decks/standard/blackwizard_hard_gravepact.dck	decks/converted/master-black-wizard-1.dck	adapted
+Master Black Wizard	decks/standard/blackwizard_hard_knight.dck	decks/converted/master-black-wizard-2.dck	adapted
+Master Black Wizard	decks/standard/blackwizard_hard_liliana.dck	decks/converted/master-black-wizard-3.dck	adapted
+Master Black Wizard	decks/standard/blackwizard_hard_sacrifice.dck	decks/converted/master-black-wizard-4.dck	adapted
+Master Blue Wizard	decks/standard/bluewizard_hard_control.dck	decks/converted/master-blue-wizard-1.dck	adapted
+Master Blue Wizard	decks/standard/bluewizard_hard_tempo.dck	decks/converted/master-blue-wizard-2.dck	adapted
+Master Blue Wizard	decks/standard/bluewizard_hard_artifact.dck	decks/converted/master-blue-wizard-3.dck	adapted
+Master Blue Wizard	decks/standard/bluewizard_hard_bounce.dck	decks/converted/master-blue-wizard-4.dck	adapted
+Master Green Wizard	decks/standard/greenwizard_hard_ramp.dck	decks/converted/master-green-wizard-1.dck	adapted
+Master Green Wizard	decks/standard/greenwizard_hard_rampbis.dck	decks/converted/master-green-wizard-2.dck	adapted
+Master Green Wizard	decks/standard/greenwizard_hard_sapproling.dck	decks/converted/master-green-wizard-3.dck	adapted
+Master Red Wizard	decks/standard/redwizard_hard_burn.dck	decks/converted/master-red-wizard-1.dck	adapted
+Master Red Wizard	decks/standard/redwizard_hard_dragons.dck	decks/converted/master-red-wizard-2.dck	adapted
+Master Red Wizard	decks/standard/redwizard_hard_fight.dck	decks/converted/master-red-wizard-3.dck	adapted
+Master Red Wizard	decks/standard/redwizard_hard_lavaaxe.dck	decks/converted/master-red-wizard-4.dck	adapted
+Master White Wizard	decks/standard/whitewizard_hard_humility.dck	decks/converted/master-white-wizard-1.dck	adapted
+Master White Wizard	decks/standard/whitewizard_hard_hatebears.dck	decks/converted/master-white-wizard-2.dck	adapted
+Master White Wizard	decks/standard/whitewizard_hard_humansoldier.dck	decks/converted/master-white-wizard-3.dck	adapted
+Master White Wizard	decks/standard/whitewizard_hard_armaggedon.dck	decks/converted/master-white-wizard-4.dck	adapted
+Master White Wizard	decks/standard/whitewizard_hard_enchantments.dck	decks/converted/master-white-wizard-5.dck	adapted
+Merfolk	decks/standard/merfolk_bad.json	decks/converted/merfolk-1.dck	adapted
+Merfolk Avatar	decks/standard/merfolk_good.json	decks/converted/merfolk-avatar-1.dck	adapted
+Merfolk Elite	decks/standard/merfolk_elite.dck	decks/converted/merfolk-elite-1.dck	adapted
+Merfolk Fighter	decks/standard/merfolk_lords.dck	decks/converted/merfolk-fighter-1.dck	adapted
+Merfolk Lord	decks/standard/merfolk_lord2.dck	decks/converted/merfolk-lord-1.dck	adapted
+Merfolk Soldier	decks/standard/merfolk_v_goblins.dck	decks/converted/merfolk-soldier-1.dck	adapted
+Merfolk warrior	decks/standard/merfolk_mid.json	decks/converted/merfolk-warrior-1.dck	adapted
+Metallic Sliver	decks/standard/sliver_metallicsliver.dck	decks/converted/metallic-sliver-1.dck	adapted
+Mighty Djinn	decks/standard/mighty_djinn.dck	decks/converted/mighty-djinn-1.dck	adapted
+Mimic	decks/standard/mimic.dck	decks/converted/mimic-1.dck	adapted
+Mindclaw Shaman	decks/standard/mindclaw_shaman.dck	decks/converted/mindclaw-shaman-1.dck	adapted
+Minor Demon	decks/standard/demon4.dck	decks/converted/minor-demon-1.dck	adapted
+Minotaur	decks/standard/minotaur.json	decks/converted/minotaur-1.dck	adapted
+Minotaur	decks/standard/minotaurblackredmadness.dck	decks/converted/minotaur-2.dck	adapted
+Minotaur	decks/standard/minotaurmid.dck	decks/converted/minotaur-3.dck	adapted
+Minotaur	decks/standard/minotaurmonored.dck	decks/converted/minotaur-4.dck	adapted
+Minotaur Flayer	decks/standard/minotaur.dck	decks/converted/minotaur-flayer-1.dck	adapted
+Minotaur Warcaller	decks/standard/minotaur_monored_castle.dck	decks/converted/minotaur-warcaller-1.dck	adapted
+Monk	decks/standard/monk.json	decks/converted/monk-1.dck	adapted
+Monkey	decks/standard/ragavan.dck	decks/converted/monkey-1.dck	adapted
+Mountain Ogre	decks/standard/ogre_large.dck	decks/converted/mountain-ogre-1.dck	adapted
+Mummy	decks/standard/mummy.dck	decks/converted/mummy-1.dck	adapted
+Myr Superion	decks/miniboss/myr_superion.dck	decks/converted/myr-superion-1.dck	adapted
+Naga Warrior	decks/standard/nagawarrior.dck	decks/converted/naga-warrior-1.dck	adapted
+Nahiri	decks/miniboss/nahiri.dck	decks/converted/nahiri-1.dck	adapted
+Naked Mole Rat	decks/standard/shrinemole.dck	decks/converted/naked-mole-rat-1.dck	adapted
+Nantuko Guard	decks/standard/nantuko_morpher.dck	decks/converted/nantuko-guard-1.dck	adapted
+Necrogoyf	decks/standard/necrogoyf.dck	decks/converted/necrogoyf-1.dck	adapted
+Necromancer	decks/standard/reanimator.dck	decks/converted/necromancer-1.dck	adapted
+Nezumi Leader	decks/standard/rat_leader.dck	decks/converted/nezumi-leader-1.dck	adapted
+Nezumi Ninja	decks/standard/humanoidrat.dck	decks/converted/nezumi-ninja-1.dck	adapted
+Nightmare	decks/standard/nightmare.dck	decks/converted/nightmare-1.dck	adapted
+Nissa	decks/miniboss/copperhostbrutalizer.dck	decks/converted/nissa-1.dck	adapted
+Octopus	decks/standard/octopus.dck	decks/converted/octopus-1.dck	adapted
+Ooze	decks/standard/ooze.json	decks/converted/ooze-1.dck	adapted
+Ooze	decks/standard/ooze_greenblackred.dck	decks/converted/ooze-2.dck	adapted
+Ooze	decks/standard/ooze_monogreen.dck	decks/converted/ooze-3.dck	adapted
+Ooze	decks/standard/ooze_greenblue.dck	decks/converted/ooze-4.dck	adapted
+Ooze Boss	decks/miniboss/ooze_boss.dck	decks/converted/ooze-boss-1.dck	adapted
+Orc Brute	decks/standard/orc_brute.dck	decks/converted/orc-brute-1.dck	adapted
+Orc Hunter	decks/standard/orc_hunter.dck	decks/converted/orc-hunter-1.dck	adapted
+Orc Warrior	decks/standard/orc_warrior.dck	decks/converted/orc-warrior-1.dck	adapted
+Orthodoxy Angel	decks/standard/phyrexianangel.dck	decks/converted/orthodoxy-angel-1.dck	adapted
+Orthodoxy Duelist	decks/standard/phyrexianduelist.json	decks/converted/orthodoxy-duelist-1.dck	adapted
+Orzhov Cleric	decks/standard/cleric_orzhov.dck	decks/converted/orzhov-cleric-1.dck	adapted
+Owl	decks/standard/owl.dck	decks/converted/owl-1.dck	adapted
+Parrot	decks/standard/parrot.dck	decks/converted/parrot-1.dck	adapted
+Penguin	decks/standard/penguin.dck	decks/converted/penguin-1.dck	adapted
+Penguin Elite	decks/standard/penguinelite.dck	decks/converted/penguin-elite-1.dck	adapted
+Pharaoh	decks/standard/pharaoh.dck	decks/converted/pharaoh-1.dck	adapted
+Phoenix	decks/standard/phoenix.dck	decks/converted/phoenix-1.dck	adapted
+Pirate	decks/standard/pirate.dck	decks/converted/pirate-1.dck	adapted
+Pirate 2	decks/standard/pirate2.dck	decks/converted/pirate-2-1.dck	adapted
+Pirate 3	decks/standard/pirate3.dck	decks/converted/pirate-3-1.dck	adapted
+Pirate Captain	decks/standard/pirate_captain.dck	decks/converted/pirate-captain-1.dck	adapted
+Pirate Captain 2	decks/standard/pirate_captain_2.dck	decks/converted/pirate-captain-2-1.dck	adapted
+Plague Rat Swarm	decks/standard/rat_poisonrat.dck	decks/converted/plague-rat-swarm-1.dck	adapted
+Plaguelord	decks/standard/zombiepoisoner.dck	decks/converted/plaguelord-1.dck	adapted
+Plant	decks/standard/plant.json	decks/converted/plant-1.dck	adapted
+Plant	decks/standard/plant.dck	decks/converted/plant-2.dck	adapted
+Poisonous Snake	decks/standard/poisonoussnake.dck	decks/converted/poisonous-snake-1.dck	adapted
+Polar Bear	decks/standard/polarbear.dck	decks/converted/polar-bear-1.dck	adapted
+Porcupine	decks/standard/porcupine.dck	decks/converted/porcupine-1.dck	adapted
+Priest Fanatic	decks/standard/fanaticpriest.dck	decks/converted/priest-fanatic-1.dck	adapted
+Pyromancer	decks/standard/pyromancer.dck	decks/converted/pyromancer-1.dck	adapted
+Raccoon	decks/standard/enchantment_aggro.dck	decks/converted/raccoon-1.dck	adapted
+Rakdos Devil	decks/standard/rakdos_devil.dck	decks/converted/rakdos-devil-1.dck	adapted
+Rakdos Wizard	decks/standard/rakdos_vamps.dck	decks/converted/rakdos-wizard-1.dck	adapted
+Raptor	decks/standard/dinosaur_rw_enrage.dck	decks/converted/raptor-1.dck	adapted
+Raven	decks/standard/raven.dck	decks/converted/raven-1.dck	adapted
+Reassembling Skeleton	decks/standard/reassemblingskeleton.dck	decks/converted/reassembling-skeleton-1.dck	adapted
+Recruiter Sliver	decks/standard/sliver_recruitersliver.dck	decks/converted/recruiter-sliver-1.dck	adapted
+Red Beast	decks/standard/beast_red.json	decks/converted/red-beast-1.dck	adapted
+Rhino	decks/standard/rhino.dck	decks/converted/rhino-1.dck	adapted
+Rogue	decks/standard/rogue.json	decks/converted/rogue-1.dck	adapted
+Royal King	decks/standard/whiteking.dck	decks/converted/royal-king-1.dck	adapted
+Royal Sentinel	decks/standard/trap.dck	decks/converted/royal-sentinel-1.dck	adapted
+Runelord	decks/standard/runelord.dck	decks/converted/runelord-1.dck	adapted
+Sand Ghoul	decks/standard/sandghoul.dck	decks/converted/sand-ghoul-1.dck	adapted
+Sand Golem	decks/standard/sandgolem.dck	decks/converted/sand-golem-1.dck	adapted
+Satyr	decks/standard/satyr.dck	decks/converted/satyr-1.dck	adapted
+Satyr Grove Guardian	decks/standard/satyr_hard.dck	decks/converted/satyr-grove-guardian-1.dck	adapted
+Scarab	decks/standard/scarab.dck	decks/converted/scarab-1.dck	adapted
+Scarecrow	decks/standard/scarecrow.dck	decks/converted/scarecrow-1.dck	adapted
+Scarecrow Captain	decks/miniboss/scarecrowcaptain.dck	decks/converted/scarecrow-captain-1.dck	adapted
+Scorpion	decks/standard/scorpion.dck	decks/converted/scorpion-1.dck	adapted
+Scourgemaster	decks/standard/demon_hellbent.dck	decks/converted/scourgemaster-1.dck	adapted
+Scourgemaster	decks/standard/demon_humansac.dck	decks/converted/scourgemaster-2.dck	adapted
+Sea Monster	decks/standard/sea_monster.dck	decks/converted/sea-monster-1.dck	adapted
+Shade	decks/standard/shade.dck	decks/converted/shade-1.dck	adapted
+Shaman	decks/standard/shaman.json	decks/converted/shaman-1.dck	adapted
+Shaman of Zedruu	decks/standard/shamanelite.dck	decks/converted/shaman-of-zedruu-1.dck	adapted
+Simic Wizard	decks/standard/simicwizard_intruderalarm.dck	decks/converted/simic-wizard-1.dck	adapted
+Simic Wizard	decks/standard/simicwizard_evolve.dck	decks/converted/simic-wizard-2.dck	adapted
+Skeleton	decks/standard/skeleton.dck	decks/converted/skeleton-1.dck	adapted
+Skeleton Champion	decks/standard/skeleton_champion.dck	decks/converted/skeleton-champion-1.dck	adapted
+Skeleton Soldier	decks/standard/skeleton_2.dck	decks/converted/skeleton-soldier-1.dck	adapted
+Slimefoot	decks/miniboss/slimefoot.dck	decks/converted/slimefoot-1.dck	adapted
+Slivdrazi Experiment	decks/standard/sliver_slivdrazi.dck	decks/converted/slivdrazi-experiment-1.dck	adapted
+Sliver	decks/standard/sliver.json	decks/converted/sliver-1.dck	adapted
+Sliver Queen	decks/miniboss/sliver_queen.dck	decks/converted/sliver-queen-1.dck	adapted
+Sliver_Black	decks/standard/sliver_black.dck	decks/converted/sliver-black-1.dck	adapted
+Sliver_Blue	decks/standard/sliver_blue.dck	decks/converted/sliver-blue-1.dck	adapted
+Sliver_Green	decks/standard/sliver_green.dck	decks/converted/sliver-green-1.dck	adapted
+Sliver_Red	decks/standard/sliver_red.dck	decks/converted/sliver-red-1.dck	adapted
+Sliver_White	decks/standard/sliver_white.dck	decks/converted/sliver-white-1.dck	adapted
+Slobad	decks/miniboss/slobad.dck	decks/converted/slobad-1.dck	adapted
+Snail	decks/standard/slug.dck	decks/converted/snail-1.dck	adapted
+Snake	decks/standard/snake.json	decks/converted/snake-1.dck	adapted
+Snow Wizard	decks/standard/simicwizard_snow.dck	decks/converted/snow-wizard-1.dck	adapted
+Sorin	decks/miniboss/sorin.dck	decks/converted/sorin-1.dck	adapted
+Sphinx	decks/standard/sphinx amonkhet.dck	decks/converted/sphinx-1.dck	adapted
+Spider	decks/standard/spider.json	decks/converted/spider-1.dck	adapted
+Spiked Ravager	decks/standard/demon_demonicpact.dck	decks/converted/spiked-ravager-1.dck	adapted
+Spirit	decks/standard/spirit.dck	decks/converted/spirit-1.dck	adapted
+Squirrel	decks/standard/squirrel.dck	decks/converted/squirrel-1.dck	adapted
+Stegosaurus	decks/standard/dinosaur_gruul_etali.dck	decks/converted/stegosaurus-1.dck	adapted
+Storm Titan	decks/standard/stormtitan.dck	decks/converted/storm-titan-1.dck	adapted
+Stray Cat	decks/standard/cat_greenblack.dck	decks/converted/stray-cat-1.dck	adapted
+Stray Cat	decks/standard/straycat.dck	decks/converted/stray-cat-2.dck	adapted
+Stray Cat	decks/standard/cat_greenwhite.dck	decks/converted/stray-cat-3.dck	adapted
+Stray Cat	decks/standard/cat_greenwhite2.dck	decks/converted/stray-cat-4.dck	adapted
+Sun Giant	decks/standard/sun titan.dck	decks/converted/sun-giant-1.dck	adapted
+Sunmare	decks/standard/horse.dck	decks/converted/sunmare-1.dck	adapted
+Supreme Elemental	decks/standard/supremeelemental.dck	decks/converted/supreme-elemental-1.dck	adapted
+Swamp Troll	decks/standard/swamptroll.dck	decks/converted/swamp-troll-1.dck	adapted
+Symbiote	decks/standard/symbiote.dck	decks/converted/symbiote-1.dck	adapted
+Tarkir Djinn	decks/standard/djinn_tarkir.dck	decks/converted/tarkir-djinn-1.dck	adapted
+Teferi	decks/miniboss/teferi_boss.dck	decks/converted/teferi-1.dck	adapted
+The Cheff	decks/miniboss/thecheff.dck	decks/converted/the-cheff-1.dck	adapted
+The Hydra of Shandalaar	decks/miniboss/hydraboss.dck	decks/converted/the-hydra-of-shandalaar-1.dck	adapted
+Tibalt	decks/miniboss/tibalt.dck	decks/converted/tibalt-1.dck	adapted
+Tiger	decks/standard/tiger.dck	decks/converted/tiger-1.dck	adapted
+Tomb Guardian	decks/standard/tombguardian.dck	decks/converted/tomb-guardian-1.dck	adapted
+Torturer	decks/miniboss/torturer.dck	decks/converted/torturer-1.dck	adapted
+Treefolk	decks/standard/treefolk.json	decks/converted/treefolk-1.dck	adapted
+Treefolk Elite	decks/standard/treefolkelite.dck	decks/converted/treefolk-elite-1.dck	adapted
+Treefolk Guardian	decks/standard/treefolk.dck	decks/converted/treefolk-guardian-1.dck	adapted
+Triceratops	decks/standard/dinosaur_gw_ramp.dck	decks/converted/triceratops-1.dck	adapted
+Troll	decks/standard/troll.json	decks/converted/troll-1.dck	adapted
+Turtle	decks/standard/turtle.json	decks/converted/turtle-1.dck	adapted
+Undead Goblin	decks/standard/monobgoblins.dck	decks/converted/undead-goblin-1.dck	adapted
+Undead Roamer	decks/standard/undeadroamer.dck	decks/converted/undead-roamer-1.dck	adapted
+Undead Shuffler	decks/standard/undeadshuffler.dck	decks/converted/undead-shuffler-1.dck	adapted
+Unholy Knight	decks/standard/unholyknight.dck	decks/converted/unholy-knight-1.dck	adapted
+Unholy Skull	decks/standard/unholyskull.dck	decks/converted/unholy-skull-1.dck	adapted
+Unraveling Crawler	decks/standard/unravelingcrawler.dck	decks/converted/unraveling-crawler-1.dck	adapted
+Urabrask	decks/miniboss/copperhostbrutalizer.dck	decks/converted/urabrask-1.dck	adapted
+Valyx Feaster of Torment	decks/miniboss/valyx.dck	decks/converted/valyx-feaster-of-torment-1.dck	adapted
+Vampire	decks/standard/vampire.dck	decks/converted/vampire-1.dck	adapted
+Vampire Lord	decks/standard/vampire_blood_token_fly.dck	decks/converted/vampire-lord-1.dck	adapted
+Viashino	decks/standard/viashino.dck	decks/converted/viashino-1.dck	adapted
+Viper	decks/standard/snake.dck	decks/converted/viper-1.dck	adapted
+Volcano Dragon	decks/standard/junddragon.dck	decks/converted/volcano-dragon-1.dck	adapted
+Volcano Elemental	decks/standard/br_elemental.dck	decks/converted/volcano-elemental-1.dck	adapted
+Vorinclex	decks/miniboss/copperhostbrutalizer.dck	decks/converted/vorinclex-1.dck	adapted
+Vulture	decks/standard/vulture.dck	decks/converted/vulture-1.dck	adapted
+Walking Brain	decks/standard/walkingbrain.dck	decks/converted/walking-brain-1.dck	adapted
+Walter, the Stray Camel	decks/miniboss/walter.dck	decks/converted/walter-the-stray-camel-1.dck	adapted
+Wandering Giant	decks/standard/wanderinggiant.dck	decks/converted/wandering-giant-1.dck	adapted
+Wandering Treefolk	decks/standard/wanderingtreefolk.dck	decks/converted/wandering-treefolk-1.dck	adapted
+Warrior	decks/standard/human_warrior_amonkhet.dck	decks/converted/warrior-1.dck	adapted
+Wasp	decks/standard/wasp.dck	decks/converted/wasp-1.dck	adapted
+Water Elemental	decks/standard/water_elemental.dck	decks/converted/water-elemental-1.dck	adapted
+Weak Demon	decks/standard/weakdemon.dck	decks/converted/weak-demon-1.dck	adapted
+Werebear	decks/standard/bearboss.dck	decks/converted/werebear-1.dck	adapted
+Werewolf	decks/standard/werewolf.dck	decks/converted/werewolf-1.dck	adapted
+White Dwarf	decks/standard/white_dwarf.dck	decks/converted/white-dwarf-1.dck	adapted
+Wild Rat	decks/standard/infectrat.dck	decks/converted/wild-rat-1.dck	adapted
+Wild Rat	decks/standard/rat.json	decks/converted/wild-rat-2.dck	adapted
+Wild Rat	decks/standard/ratswarm.dck	decks/converted/wild-rat-3.dck	adapted
+Wild-Magic Sorcerer	decks/standard/wild-magic_sorcerer.dck	decks/converted/wild-magic-sorcerer-1.dck	adapted
+Witch	decks/standard/witch.dck	decks/converted/witch-1.dck	adapted
+Wolf	decks/standard/wolfboss.dck	decks/converted/wolf-1.dck	adapted
+Wolf Pup	decks/standard/wolf.json	decks/converted/wolf-pup-1.dck	adapted
+Worm	decks/standard/worm.dck	decks/converted/worm-1.dck	adapted
+Wounded Sliver	decks/boss/sliver_shandalar.dck	decks/converted/wounded-sliver-1.dck	adapted
+Wraith	decks/standard/wraithswampwalk.dck	decks/converted/wraith-1.dck	adapted
+Wurm	decks/standard/wurm.json	decks/converted/wurm-1.dck	adapted
+Xira	decks/miniboss/xira.dck	decks/converted/xira-1.dck	adapted
+Yeti	decks/standard/yeti.dck	decks/converted/yeti-1.dck	adapted
+Zedruu	decks/miniboss/zedruubis.dck	decks/converted/zedruu-1.dck	adapted
+Zombie	decks/standard/zombie_black_easy.dck	decks/converted/zombie-1.dck	adapted
+Zombie Lord	decks/standard/zombie_black_medium.dck	decks/converted/zombie-lord-1.dck	adapted
+Zombie Master	decks/standard/zombie_black_hard.dck	decks/converted/zombie-master-1.dck	adapted
+Map baronlegant	decks/standard/baronlegant.dck	decks/converted/map-baronlegant-1.dck	adapted
+Map barronlevilain	decks/standard/barronlevilain.dck	decks/converted/map-barronlevilain-1.dck	adapted
+Map greensquirrel	decks/standard/greensquirrel.dck	decks/converted/map-greensquirrel-1.dck	adapted
+Map greenape	decks/standard/greenape.dck	decks/converted/map-greenape-1.dck	adapted
+Map mimic_multicolor	decks/standard/mimic_multicolor.dck	decks/converted/map-mimic-multicolor-1.dck	adapted
+Map jungle_king	decks/miniboss/jungle_king.dck	decks/converted/map-jungle-king-1.dck	adapted
+Map desertwarrior	decks/standard/desertwarrior.dck	decks/converted/map-desertwarrior-1.dck	adapted
+Map vampire_br	decks/standard/vampire_br.dck	decks/converted/map-vampire-br-1.dck	adapted
+Map vampire_wb	decks/standard/vampire_wb.dck	decks/converted/map-vampire-wb-1.dck	adapted
+Map vampire_monob	decks/standard/vampire_monob.dck	decks/converted/map-vampire-monob-1.dck	adapted

@@ -1,0 +1,4 @@
+[metadata]
+Code=SNC
+Date=2022-04-29
+Booster=10 Common:fromsheet("SNC cards"), 3 Uncommon:fromSheet("SNC cards"), 1 RareMythic:fromSheet("SNC cards"), 1 fromSheet("SNC lands")

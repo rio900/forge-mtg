@@ -1,0 +1,881 @@
+путь	статус	назначение
+audio/WizPAR1.mp3	копия Shandalar	Звук, локализация или значок игрового плана
+audio/WizPAR2.mp3	копия Shandalar	Звук, локализация или значок игрового плана
+audio/WizPAR3.mp3	копия Shandalar	Звук, локализация или значок игрового плана
+audio/WizPAR4.mp3	копия Shandalar	Звук, локализация или значок игрового плана
+blockdata/blocks.txt	новый	Допустимые блоки для событий
+config.json	изменён	Пул карт, режимы старта, события и издания
+decks/converted/abyssal-baron-1.dck	новый	Колода противника или особой встречи
+decks/converted/adept-black-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/adept-black-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/adept-black-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/adept-black-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/adept-black-wizard-5.dck	новый	Колода противника или особой встречи
+decks/converted/adept-black-wizard-6.dck	новый	Колода противника или особой встречи
+decks/converted/adept-blue-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/adept-blue-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/adept-blue-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/adept-blue-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/adept-blue-wizard-5.dck	новый	Колода противника или особой встречи
+decks/converted/adept-blue-wizard-6.dck	новый	Колода противника или особой встречи
+decks/converted/adept-blue-wizard-7.dck	новый	Колода противника или особой встречи
+decks/converted/adept-green-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/adept-green-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/adept-green-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/adept-green-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-5.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-6.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-7.dck	новый	Колода противника или особой встречи
+decks/converted/adept-red-wizard-8.dck	новый	Колода противника или особой встречи
+decks/converted/adept-white-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/adept-white-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/adept-white-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/adept-white-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/adult-green-dragon-1.dck	новый	Колода противника или особой встречи
+decks/converted/adventurer-1.dck	новый	Колода противника или особой встречи
+decks/converted/aerie-guard-1.dck	новый	Колода противника или особой встречи
+decks/converted/aether-channeler-1.dck	новый	Колода противника или особой встречи
+decks/converted/akroma-1.dck	новый	Колода противника или особой встречи
+decks/converted/amonkhet-minotaur-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/amphin-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/ancient-demon-1.dck	новый	Колода противника или особой встречи
+decks/converted/ancient-silver-dragon-1.dck	новый	Колода противника или особой встречи
+decks/converted/ancient-vampire-1.dck	новый	Колода противника или особой встречи
+decks/converted/angel-overseer-1.dck	новый	Колода противника или особой встречи
+decks/converted/angel-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/angelic-page-1.dck	новый	Колода противника или особой встречи
+decks/converted/ape-1.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-black-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-black-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-black-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-black-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-black-wizard-5.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-blue-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-blue-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-blue-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-blue-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-green-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-green-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-green-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-green-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-red-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-red-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-red-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-red-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-red-wizard-5.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-white-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-white-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/apprentice-white-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/arcane-golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/archaeologist-1.dck	новый	Колода противника или особой встречи
+decks/converted/archer-1.dck	новый	Колода противника или особой встречи
+decks/converted/archer-elite-1.dck	новый	Колода противника или особой встречи
+decks/converted/archfiend-1.dck	новый	Колода противника или особой встречи
+decks/converted/archivist-1.dck	новый	Колода противника или особой встречи
+decks/converted/archmage-1.dck	новый	Колода противника или особой встречи
+decks/converted/armadillo-1.dck	новый	Колода противника или особой встречи
+decks/converted/armored-knight-1.dck	новый	Колода противника или особой встречи
+decks/converted/artifact-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/auramancer-1.dck	новый	Колода противника или особой встречи
+decks/converted/axgard-dwarf-1.dck	новый	Колода противника или особой встречи
+decks/converted/badger-1.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-1.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-archer-1.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-archer-2.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-leader-1.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-leader-2.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-leader-3.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-scoundrel-1.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-scoundrel-2.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-scoundrel-3.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-slingshot-1.dck	новый	Колода противника или особой встречи
+decks/converted/bandit-trapmaster-1.dck	новый	Колода противника или особой встречи
+decks/converted/bat-1.dck	новый	Колода противника или особой встречи
+decks/converted/bear-1.dck	новый	Колода противника или особой встречи
+decks/converted/beastmaster-1.dck	новый	Колода противника или особой встречи
+decks/converted/beholder-1.dck	новый	Колода противника или особой встречи
+decks/converted/berserker-1.dck	новый	Колода противника или особой встречи
+decks/converted/bird-1.dck	новый	Колода противника или особой встречи
+decks/converted/black-golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/bloodgift-demon-1.dck	новый	Колода противника или особой встречи
+decks/converted/bloodied-skeleton-1.dck	новый	Колода противника или особой встречи
+decks/converted/blue-golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/blue-prototype-1.dck	новый	Колода противника или особой встречи
+decks/converted/boar-1.dck	новый	Колода противника или особой встречи
+decks/converted/boar-2.dck	новый	Колода противника или особой встречи
+decks/converted/boar-3.dck	новый	Колода противника или особой встречи
+decks/converted/bog-witch-1.dck	новый	Колода противника или особой встречи
+decks/converted/boggart-1.dck	новый	Колода противника или особой встречи
+decks/converted/bone-dragon-1.dck	новый	Колода противника или особой встречи
+decks/converted/bone-golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/brain-mole-1.dck	новый	Колода противника или особой встречи
+decks/converted/bull-1.dck	новый	Колода противника или особой встречи
+decks/converted/camel-1.dck	новый	Колода противника или особой встречи
+decks/converted/caracal-1.dck	новый	Колода противника или особой встречи
+decks/converted/cathar-1.dck	новый	Колода противника или особой встречи
+decks/converted/cave-spider-1.dck	новый	Колода противника или особой встречи
+decks/converted/centaur-1.dck	новый	Колода противника или особой встречи
+decks/converted/centaur-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/cephalid-1.dck	новый	Колода противника или особой встречи
+decks/converted/cerodon-1.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-20-1.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-20-2.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-20-3.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-20-4.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-21-1.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-21-2.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-21-3.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-21-4.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-22-1.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-22-2.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-22-3.dck	новый	Колода противника или особой встречи
+decks/converted/challenger-22-4.dck	новый	Колода противника или особой встречи
+decks/converted/chandra-s-acolyte-1.dck	новый	Колода противника или особой встречи
+decks/converted/chandra-s-firestarter-1.dck	новый	Колода противника или особой встречи
+decks/converted/chandra-s-hellhound-1.dck	новый	Колода противника или особой встречи
+decks/converted/chandra-s-immolator-1.dck	новый	Колода противника или особой встречи
+decks/converted/chandra-s-lavamancer-1.dck	новый	Колода противника или особой встречи
+decks/converted/chandra-s-pyromancer-1.dck	новый	Колода противника или особой встречи
+decks/converted/chandra-s-scorcher-1.dck	новый	Колода противника или особой встречи
+decks/converted/chicken-1.dck	новый	Колода противника или особой встречи
+decks/converted/chimera-1.dck	новый	Колода противника или особой встречи
+decks/converted/clay-golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/cleric-1.dck	новый	Колода противника или особой встречи
+decks/converted/cloaker-1.dck	новый	Колода противника или особой встречи
+decks/converted/cloud-giant-1.dck	новый	Колода противника или особой встречи
+decks/converted/cloud-guardian-1.dck	новый	Колода противника или особой встречи
+decks/converted/conjurer-1.dck	новый	Колода противника или особой встречи
+decks/converted/construct-1.dck	новый	Колода противника или особой встречи
+decks/converted/construct-2.dck	новый	Колода противника или особой встречи
+decks/converted/construct-3.dck	новый	Колода противника или особой встречи
+decks/converted/copper-host-brutalizer-1.dck	новый	Колода противника или особой встречи
+decks/converted/copper-host-infector-1.dck	новый	Колода противника или особой встречи
+decks/converted/corrupted-blue-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/corrupted-cleric-1.dck	новый	Колода противника или особой встречи
+decks/converted/corrupted-green-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/corrupted-red-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/cosmic-horror-1.dck	новый	Колода противника или особой встречи
+decks/converted/crab-1.dck	новый	Колода противника или особой встречи
+decks/converted/crab-2.dck	новый	Колода противника или особой встречи
+decks/converted/criosphinx-1.dck	новый	Колода противника или особой встречи
+decks/converted/crocodile-1.dck	новый	Колода противника или особой встречи
+decks/converted/curselord-1.dck	новый	Колода противника или особой встречи
+decks/converted/cyclops-1.dck	новый	Колода противника или особой встречи
+decks/converted/dark-enchanter-1.dck	новый	Колода противника или особой встречи
+decks/converted/dark-knight-1.dck	новый	Колода противника или особой встречи
+decks/converted/dark-spirit-1.dck	новый	Колода противника или особой встречи
+decks/converted/dawnhart-witch-1.dck	новый	Колода противника или особой встречи
+decks/converted/death-knight-1.dck	новый	Колода противника или особой встречи
+decks/converted/demon-1.dck	новый	Колода противника или особой встречи
+decks/converted/demon-2.dck	новый	Колода противника или особой встречи
+decks/converted/demon-3.dck	новый	Колода противника или особой встречи
+decks/converted/demon-4.dck	новый	Колода противника или особой встречи
+decks/converted/demon-of-tibalt-1.dck	новый	Колода противника или особой встречи
+decks/converted/demoncaller-1.dck	новый	Колода противника или особой встречи
+decks/converted/devil-1.dck	новый	Колода противника или особой встречи
+decks/converted/devil-of-tibalt-1.dck	новый	Колода противника или особой встречи
+decks/converted/dimir-faerie-1.dck	новый	Колода противника или особой встречи
+decks/converted/dinosaur-1.dck	новый	Колода противника или особой встречи
+decks/converted/dinosaur-elite-1.dck	новый	Колода противника или особой встречи
+decks/converted/disciple-of-teferi-1.dck	новый	Колода противника или особой встречи
+decks/converted/djinn-1.dck	новый	Колода противника или особой встречи
+decks/converted/dog-1.dck	новый	Колода противника или особой встречи
+decks/converted/dog-2.dck	новый	Колода противника или особой встречи
+decks/converted/dog-3.dck	новый	Колода противника или особой встречи
+decks/converted/doppelganger-1.dck	новый	Колода противника или особой встречи
+decks/converted/dragon-1.dck	новый	Колода противника или особой встречи
+decks/converted/dragonfly-1.dck	новый	Колода противника или особой встречи
+decks/converted/drake-1.dck	новый	Колода противника или особой встречи
+decks/converted/drake-2.dck	новый	Колода противника или особой встречи
+decks/converted/drake-3.dck	новый	Колода противника или особой встречи
+decks/converted/dross-gladiator-1.dck	новый	Колода противника или особой встречи
+decks/converted/dross-grimnarch-1.dck	новый	Колода противника или особой встречи
+decks/converted/dwarf-1.dck	новый	Колода противника или особой встречи
+decks/converted/dwarf-demolisher-1.dck	новый	Колода противника или особой встречи
+decks/converted/dwarf-mercenary-1.dck	новый	Колода противника или особой встречи
+decks/converted/dwarf-pilot-1.dck	новый	Колода противника или особой встречи
+decks/converted/dwarf-warlord-1.dck	новый	Колода противника или особой встречи
+decks/converted/earth-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/efreet-1.dck	новый	Колода противника или особой встречи
+decks/converted/eldraine-faerie-1.dck	новый	Колода противника или особой встречи
+decks/converted/eldraine-knight-1.dck	новый	Колода противника или особой встречи
+decks/converted/eldrazi-1.dck	новый	Колода противника или особой встречи
+decks/converted/eldrazi-devastator-1.dck	новый	Колода противника или особой встречи
+decks/converted/eldrazi-floater-1.dck	новый	Колода противника или особой встречи
+decks/converted/elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/elephant-1.dck	новый	Колода противника или особой встречи
+decks/converted/elesh-norn-1.dck	новый	Колода противника или особой встречи
+decks/converted/elf-vagabond-1.dck	новый	Колода противника или особой встречи
+decks/converted/elf-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/elk-1.dck	новый	Колода противника или особой встречи
+decks/converted/emrakul-1.dck	новый	Колода противника или особой встречи
+decks/converted/esper-artificer-1.dck	новый	Колода противника или особой встречи
+decks/converted/evil-wall-1.dck	новый	Колода противника или особой встречи
+decks/converted/eye-1.dck	новый	Колода противника или особой встречи
+decks/converted/faerie-1.dck	новый	Колода противника или особой встречи
+decks/converted/faerie-dragon-1.dck	новый	Колода противника или особой встречи
+decks/converted/falcon-1.dck	новый	Колода противника или особой встречи
+decks/converted/falcon-headed-aven-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/fallen-angel-1.dck	новый	Колода противника или особой встречи
+decks/converted/false-knight-1.dck	новый	Колода противника или особой встречи
+decks/converted/false-monk-1.dck	новый	Колода противника или особой встречи
+decks/converted/farmer-1.dck	новый	Колода противника или особой встречи
+decks/converted/fire-dragon-1.dck	новый	Колода противника или особой встречи
+decks/converted/fire-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/fire-giant-1.dck	новый	Колода противника или особой встречи
+decks/converted/flame-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/flesh-abomination-1.dck	новый	Колода противника или особой встречи
+decks/converted/flying-witch-1.dck	новый	Колода противника или особой встречи
+decks/converted/fog-trap-1.dck	новый	Колода противника или особой встречи
+decks/converted/forest-giant-1.dck	новый	Колода противника или особой встречи
+decks/converted/fox-1.dck	новый	Колода противника или особой встречи
+decks/converted/fox-2.dck	новый	Колода противника или особой встречи
+decks/converted/frog-1.dck	новый	Колода противника или особой встречи
+decks/converted/froghemoth-1.dck	новый	Колода противника или особой встречи
+decks/converted/frost-titan-1.dck	новый	Колода противника или особой встречи
+decks/converted/fungus-1.dck	новый	Колода противника или особой встречи
+decks/converted/furnace-goblin-1.dck	новый	Колода противника или особой встречи
+decks/converted/furnace-tormentor-1.dck	новый	Колода противника или особой встречи
+decks/converted/gargoyle-1.dck	новый	Колода противника или особой встречи
+decks/converted/gargoyle-2-1.dck	новый	Колода противника или особой встречи
+decks/converted/garruk-1.dck	новый	Колода противника или особой встречи
+decks/converted/geist-1.dck	новый	Колода противника или особой встречи
+decks/converted/geistmage-1.dck	новый	Колода противника или особой встречи
+decks/converted/geonid-death-cap-1.dck	новый	Колода противника или особой встречи
+decks/converted/ghalta-1.dck	новый	Колода противника или особой встречи
+decks/converted/ghost-1.dck	новый	Колода противника или особой встречи
+decks/converted/ghoul-1.dck	новый	Колода противника или особой встречи
+decks/converted/ghoul-gravecaller-1.dck	новый	Колода противника или особой встречи
+decks/converted/giant-cyclops-1.dck	новый	Колода противника или особой встречи
+decks/converted/giant-fly-1.dck	новый	Колода противника или особой встречи
+decks/converted/giant-panda-1.dck	новый	Колода противника или особой встречи
+decks/converted/giant-spider-1.dck	новый	Колода противника или особой встречи
+decks/converted/gitaxian-scientist-1.dck	новый	Колода противника или особой встречи
+decks/converted/gitaxian-underling-1.dck	новый	Колода противника или особой встречи
+decks/converted/gladiator-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-artificer-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-chief-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-fanatic-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-king-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-pack-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-pack-stage-goblin-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-pack-stage-goblin-stage-goblin-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-rager-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-stalker-1.dck	новый	Колода противника или особой встречи
+decks/converted/goblin-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/golem-2.dck	новый	Колода противника или особой встречи
+decks/converted/golem-sentinel-1.dck	новый	Колода противника или особой встречи
+decks/converted/golem-sentinel-2.dck	новый	Колода противника или особой встречи
+decks/converted/golem-sentinel-3.dck	новый	Колода противника или особой встречи
+decks/converted/golgari-elf-1.dck	новый	Колода противника или особой встречи
+decks/converted/golgari-fungus-1.dck	новый	Колода противника или особой встречи
+decks/converted/golgari-treefolk-1.dck	новый	Колода противника или особой встречи
+decks/converted/gorgon-1.dck	новый	Колода противника или особой встречи
+decks/converted/gorgon-2-1.dck	новый	Колода противника или особой встречи
+decks/converted/gorilla-1.dck	новый	Колода противника или особой встречи
+decks/converted/grave-titan-1.dck	новый	Колода противника или особой встречи
+decks/converted/graven-revenant-1.dck	новый	Колода противника или особой встречи
+decks/converted/greater-sandwurm-1.dck	новый	Колода противника или особой встречи
+decks/converted/greater-zombie-1.dck	новый	Колода противника или особой встречи
+decks/converted/green-beast-1.dck	новый	Колода противника или особой встречи
+decks/converted/green-golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/green-prototype-1.dck	новый	Колода противника или особой встречи
+decks/converted/griffin-1.dck	новый	Колода противника или особой встречи
+decks/converted/griselbrand-1.dck	новый	Колода противника или особой встречи
+decks/converted/grolnok-1.dck	новый	Колода противника или особой встречи
+decks/converted/guardian-angel-1.dck	новый	Колода противника или особой встречи
+decks/converted/harpy-1.dck	новый	Колода противника или особой встречи
+decks/converted/harpy-2-1.dck	новый	Колода противника или особой встречи
+decks/converted/heart-piercer-manticore-1.dck	новый	Колода противника или особой встречи
+decks/converted/hedgehog-1.dck	новый	Колода противника или особой встречи
+decks/converted/hellhound-1.dck	новый	Колода противника или особой встречи
+decks/converted/hellion-1.dck	новый	Колода противника или особой встречи
+decks/converted/hermit-crab-1.dck	новый	Колода противника или особой встречи
+decks/converted/hidden-bush-1.dck	новый	Колода противника или особой встречи
+decks/converted/hidden-snake-1.dck	новый	Колода противника или особой встречи
+decks/converted/high-cultist-1.dck	новый	Колода противника или особой встречи
+decks/converted/high-elf-1.dck	новый	Колода противника или особой встречи
+decks/converted/high-vampire-1.dck	новый	Колода противника или особой встречи
+decks/converted/hippo-1.dck	новый	Колода противника или особой встречи
+decks/converted/holy-apparition-1.dck	новый	Колода противника или особой встречи
+decks/converted/holy-paladin-1.dck	новый	Колода противника или особой встречи
+decks/converted/homarid-1.dck	новый	Колода противника или особой встречи
+decks/converted/horror-1.dck	новый	Колода противника или особой встречи
+decks/converted/horror-of-tibalt-1.dck	новый	Колода противника или особой встречи
+decks/converted/horse-1.dck	новый	Колода противника или особой встречи
+decks/converted/horseman-1.dck	новый	Колода противника или особой встречи
+decks/converted/hulking-brute-1.dck	новый	Колода противника или особой встречи
+decks/converted/human-1.dck	новый	Колода противника или особой встречи
+decks/converted/human-bard-1.dck	новый	Колода противника или особой встречи
+decks/converted/human-captain-1.dck	новый	Колода противника или особой встречи
+decks/converted/human-elite-1.dck	новый	Колода противника или особой встречи
+decks/converted/human-guard-1.dck	новый	Колода противника или особой встречи
+decks/converted/human-looter-1.dck	новый	Колода противника или особой встречи
+decks/converted/human-mercenary-1.dck	новый	Колода противника или особой встречи
+decks/converted/hydra-1.dck	новый	Колода противника или особой встречи
+decks/converted/ibis-1.dck	новый	Колода противника или особой встречи
+decks/converted/ibis-headed-aven-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/ice-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/illusionist-1.dck	новый	Колода противника или особой встречи
+decks/converted/immersturm-demon-1.dck	новый	Колода противника или особой встречи
+decks/converted/jace-1.dck	новый	Колода противника или особой встречи
+decks/converted/jellyfish-1.dck	новый	Колода противника или особой встречи
+decks/converted/jin-gitaxias-1.dck	новый	Колода противника или особой встречи
+decks/converted/juggernaut-1.dck	новый	Колода противника или особой встречи
+decks/converted/kavu-1.dck	новый	Колода противника или особой встречи
+decks/converted/kavu-2.dck	новый	Колода противника или особой встречи
+decks/converted/khan-1.dck	новый	Колода противника или особой встречи
+decks/converted/khenra-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/kiora-1.dck	новый	Колода противника или особой встречи
+decks/converted/knight-1.dck	новый	Колода противника или особой встречи
+decks/converted/knight-mercenary-1.dck	новый	Колода противника или особой встречи
+decks/converted/kobold-dragoncaller-1.dck	новый	Колода противника или особой встречи
+decks/converted/kobold-pyromancer-1.dck	новый	Колода противника или особой встречи
+decks/converted/kobold-shaman-1.dck	новый	Колода противника или особой встречи
+decks/converted/kobold-slinger-1.dck	новый	Колода противника или особой встречи
+decks/converted/kobold-trapmaster-1.dck	новый	Колода противника или особой встречи
+decks/converted/kobold-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/kobold-worker-1.dck	новый	Колода противника или особой встречи
+decks/converted/kor-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/kozilek-1.dck	новый	Колода противника или особой встречи
+decks/converted/ladybug-1.dck	новый	Колода противника или особой встречи
+decks/converted/lathliss-1.dck	новый	Колода противника или особой встречи
+decks/converted/leonin-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/leonin-weaponmaster-1.dck	новый	Колода противника или особой встречи
+decks/converted/lich-1.dck	новый	Колода противника или особой встречи
+decks/converted/lightning-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/liliana-1.dck	новый	Колода противника или особой встречи
+decks/converted/liliana-s-alchemist-1.dck	новый	Колода противника или особой встречи
+decks/converted/liliana-s-herbalist-1.dck	новый	Колода противника или особой встречи
+decks/converted/lion-1.dck	новый	Колода противника или особой встречи
+decks/converted/loamspeaker-1.dck	новый	Колода противника или особой встречи
+decks/converted/lord-pestilence-1.dck	новый	Колода противника или особой встречи
+decks/converted/lorthos-1.dck	новый	Колода противника или особой встречи
+decks/converted/maelstrom-angel-1.dck	новый	Колода противника или особой встречи
+decks/converted/mageripper-1.dck	новый	Колода противника или особой встречи
+decks/converted/magma-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/magma-fire-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-baronlegant-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-barronlevilain-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-desertwarrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-greenape-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-greensquirrel-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-jungle-king-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-mimic-multicolor-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-vampire-br-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-vampire-monob-1.dck	новый	Колода противника или особой встречи
+decks/converted/map-vampire-wb-1.dck	новый	Колода противника или особой встречи
+decks/converted/master-black-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/master-black-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/master-black-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/master-black-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/master-blue-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/master-blue-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/master-blue-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/master-blue-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/master-green-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/master-green-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/master-green-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/master-red-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/master-red-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/master-red-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/master-red-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/master-white-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/master-white-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/master-white-wizard-3.dck	новый	Колода противника или особой встречи
+decks/converted/master-white-wizard-4.dck	новый	Колода противника или особой встречи
+decks/converted/master-white-wizard-5.dck	новый	Колода противника или особой встречи
+decks/converted/merfolk-1.dck	новый	Колода противника или особой встречи
+decks/converted/merfolk-avatar-1.dck	новый	Колода противника или особой встречи
+decks/converted/merfolk-elite-1.dck	новый	Колода противника или особой встречи
+decks/converted/merfolk-fighter-1.dck	новый	Колода противника или особой встречи
+decks/converted/merfolk-lord-1.dck	новый	Колода противника или особой встречи
+decks/converted/merfolk-soldier-1.dck	новый	Колода противника или особой встречи
+decks/converted/merfolk-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/metallic-sliver-1.dck	новый	Колода противника или особой встречи
+decks/converted/mighty-djinn-1.dck	новый	Колода противника или особой встречи
+decks/converted/mimic-1.dck	новый	Колода противника или особой встречи
+decks/converted/mindclaw-shaman-1.dck	новый	Колода противника или особой встречи
+decks/converted/minor-demon-1.dck	новый	Колода противника или особой встречи
+decks/converted/minotaur-1.dck	новый	Колода противника или особой встречи
+decks/converted/minotaur-2.dck	новый	Колода противника или особой встречи
+decks/converted/minotaur-3.dck	новый	Колода противника или особой встречи
+decks/converted/minotaur-4.dck	новый	Колода противника или особой встречи
+decks/converted/minotaur-flayer-1.dck	новый	Колода противника или особой встречи
+decks/converted/minotaur-warcaller-1.dck	новый	Колода противника или особой встречи
+decks/converted/monk-1.dck	новый	Колода противника или особой встречи
+decks/converted/monkey-1.dck	новый	Колода противника или особой встречи
+decks/converted/mountain-ogre-1.dck	новый	Колода противника или особой встречи
+decks/converted/mummy-1.dck	новый	Колода противника или особой встречи
+decks/converted/myr-superion-1.dck	новый	Колода противника или особой встречи
+decks/converted/naga-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/nahiri-1.dck	новый	Колода противника или особой встречи
+decks/converted/naked-mole-rat-1.dck	новый	Колода противника или особой встречи
+decks/converted/nantuko-guard-1.dck	новый	Колода противника или особой встречи
+decks/converted/necrogoyf-1.dck	новый	Колода противника или особой встречи
+decks/converted/necromancer-1.dck	новый	Колода противника или особой встречи
+decks/converted/nezumi-leader-1.dck	новый	Колода противника или особой встречи
+decks/converted/nezumi-ninja-1.dck	новый	Колода противника или особой встречи
+decks/converted/nightmare-1.dck	новый	Колода противника или особой встречи
+decks/converted/nissa-1.dck	новый	Колода противника или особой встречи
+decks/converted/octopus-1.dck	новый	Колода противника или особой встречи
+decks/converted/ooze-1.dck	новый	Колода противника или особой встречи
+decks/converted/ooze-2.dck	новый	Колода противника или особой встречи
+decks/converted/ooze-3.dck	новый	Колода противника или особой встречи
+decks/converted/ooze-4.dck	новый	Колода противника или особой встречи
+decks/converted/ooze-boss-1.dck	новый	Колода противника или особой встречи
+decks/converted/orc-brute-1.dck	новый	Колода противника или особой встречи
+decks/converted/orc-hunter-1.dck	новый	Колода противника или особой встречи
+decks/converted/orc-warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/orthodoxy-angel-1.dck	новый	Колода противника или особой встречи
+decks/converted/orthodoxy-duelist-1.dck	новый	Колода противника или особой встречи
+decks/converted/orzhov-cleric-1.dck	новый	Колода противника или особой встречи
+decks/converted/owl-1.dck	новый	Колода противника или особой встречи
+decks/converted/parrot-1.dck	новый	Колода противника или особой встречи
+decks/converted/penguin-1.dck	новый	Колода противника или особой встречи
+decks/converted/penguin-elite-1.dck	новый	Колода противника или особой встречи
+decks/converted/pharaoh-1.dck	новый	Колода противника или особой встречи
+decks/converted/phoenix-1.dck	новый	Колода противника или особой встречи
+decks/converted/pirate-1.dck	новый	Колода противника или особой встречи
+decks/converted/pirate-2-1.dck	новый	Колода противника или особой встречи
+decks/converted/pirate-3-1.dck	новый	Колода противника или особой встречи
+decks/converted/pirate-captain-1.dck	новый	Колода противника или особой встречи
+decks/converted/pirate-captain-2-1.dck	новый	Колода противника или особой встречи
+decks/converted/plague-rat-swarm-1.dck	новый	Колода противника или особой встречи
+decks/converted/plaguelord-1.dck	новый	Колода противника или особой встречи
+decks/converted/plant-1.dck	новый	Колода противника или особой встречи
+decks/converted/plant-2.dck	новый	Колода противника или особой встречи
+decks/converted/poisonous-snake-1.dck	новый	Колода противника или особой встречи
+decks/converted/polar-bear-1.dck	новый	Колода противника или особой встречи
+decks/converted/porcupine-1.dck	новый	Колода противника или особой встречи
+decks/converted/priest-fanatic-1.dck	новый	Колода противника или особой встречи
+decks/converted/pyromancer-1.dck	новый	Колода противника или особой встречи
+decks/converted/raccoon-1.dck	новый	Колода противника или особой встречи
+decks/converted/rakdos-devil-1.dck	новый	Колода противника или особой встречи
+decks/converted/rakdos-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/raptor-1.dck	новый	Колода противника или особой встречи
+decks/converted/raven-1.dck	новый	Колода противника или особой встречи
+decks/converted/reassembling-skeleton-1.dck	новый	Колода противника или особой встречи
+decks/converted/recruiter-sliver-1.dck	новый	Колода противника или особой встречи
+decks/converted/red-beast-1.dck	новый	Колода противника или особой встречи
+decks/converted/rhino-1.dck	новый	Колода противника или особой встречи
+decks/converted/rogue-1.dck	новый	Колода противника или особой встречи
+decks/converted/royal-king-1.dck	новый	Колода противника или особой встречи
+decks/converted/royal-sentinel-1.dck	новый	Колода противника или особой встречи
+decks/converted/runelord-1.dck	новый	Колода противника или особой встречи
+decks/converted/sand-ghoul-1.dck	новый	Колода противника или особой встречи
+decks/converted/sand-golem-1.dck	новый	Колода противника или особой встречи
+decks/converted/satyr-1.dck	новый	Колода противника или особой встречи
+decks/converted/satyr-grove-guardian-1.dck	новый	Колода противника или особой встречи
+decks/converted/scarab-1.dck	новый	Колода противника или особой встречи
+decks/converted/scarecrow-1.dck	новый	Колода противника или особой встречи
+decks/converted/scarecrow-captain-1.dck	новый	Колода противника или особой встречи
+decks/converted/scorpion-1.dck	новый	Колода противника или особой встречи
+decks/converted/scourgemaster-1.dck	новый	Колода противника или особой встречи
+decks/converted/scourgemaster-2.dck	новый	Колода противника или особой встречи
+decks/converted/sea-monster-1.dck	новый	Колода противника или особой встречи
+decks/converted/shade-1.dck	новый	Колода противника или особой встречи
+decks/converted/shaman-1.dck	новый	Колода противника или особой встречи
+decks/converted/shaman-of-zedruu-1.dck	новый	Колода противника или особой встречи
+decks/converted/simic-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/simic-wizard-2.dck	новый	Колода противника или особой встречи
+decks/converted/skeleton-1.dck	новый	Колода противника или особой встречи
+decks/converted/skeleton-champion-1.dck	новый	Колода противника или особой встречи
+decks/converted/skeleton-soldier-1.dck	новый	Колода противника или особой встречи
+decks/converted/slimefoot-1.dck	новый	Колода противника или особой встречи
+decks/converted/slivdrazi-experiment-1.dck	новый	Колода противника или особой встречи
+decks/converted/sliver-1.dck	новый	Колода противника или особой встречи
+decks/converted/sliver-black-1.dck	новый	Колода противника или особой встречи
+decks/converted/sliver-blue-1.dck	новый	Колода противника или особой встречи
+decks/converted/sliver-green-1.dck	новый	Колода противника или особой встречи
+decks/converted/sliver-queen-1.dck	новый	Колода противника или особой встречи
+decks/converted/sliver-red-1.dck	новый	Колода противника или особой встречи
+decks/converted/sliver-white-1.dck	новый	Колода противника или особой встречи
+decks/converted/slobad-1.dck	новый	Колода противника или особой встречи
+decks/converted/snail-1.dck	новый	Колода противника или особой встречи
+decks/converted/snake-1.dck	новый	Колода противника или особой встречи
+decks/converted/snow-wizard-1.dck	новый	Колода противника или особой встречи
+decks/converted/sorin-1.dck	новый	Колода противника или особой встречи
+decks/converted/sphinx-1.dck	новый	Колода противника или особой встречи
+decks/converted/spider-1.dck	новый	Колода противника или особой встречи
+decks/converted/spiked-ravager-1.dck	новый	Колода противника или особой встречи
+decks/converted/spirit-1.dck	новый	Колода противника или особой встречи
+decks/converted/squirrel-1.dck	новый	Колода противника или особой встречи
+decks/converted/stegosaurus-1.dck	новый	Колода противника или особой встречи
+decks/converted/storm-titan-1.dck	новый	Колода противника или особой встречи
+decks/converted/stray-cat-1.dck	новый	Колода противника или особой встречи
+decks/converted/stray-cat-2.dck	новый	Колода противника или особой встречи
+decks/converted/stray-cat-3.dck	новый	Колода противника или особой встречи
+decks/converted/stray-cat-4.dck	новый	Колода противника или особой встречи
+decks/converted/sun-giant-1.dck	новый	Колода противника или особой встречи
+decks/converted/sunmare-1.dck	новый	Колода противника или особой встречи
+decks/converted/supreme-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/swamp-troll-1.dck	новый	Колода противника или особой встречи
+decks/converted/symbiote-1.dck	новый	Колода противника или особой встречи
+decks/converted/tarkir-djinn-1.dck	новый	Колода противника или особой встречи
+decks/converted/teferi-1.dck	новый	Колода противника или особой встречи
+decks/converted/the-cheff-1.dck	новый	Колода противника или особой встречи
+decks/converted/the-hydra-of-shandalaar-1.dck	новый	Колода противника или особой встречи
+decks/converted/tibalt-1.dck	новый	Колода противника или особой встречи
+decks/converted/tiger-1.dck	новый	Колода противника или особой встречи
+decks/converted/tomb-guardian-1.dck	новый	Колода противника или особой встречи
+decks/converted/torturer-1.dck	новый	Колода противника или особой встречи
+decks/converted/treefolk-1.dck	новый	Колода противника или особой встречи
+decks/converted/treefolk-elite-1.dck	новый	Колода противника или особой встречи
+decks/converted/treefolk-guardian-1.dck	новый	Колода противника или особой встречи
+decks/converted/triceratops-1.dck	новый	Колода противника или особой встречи
+decks/converted/troll-1.dck	новый	Колода противника или особой встречи
+decks/converted/turtle-1.dck	новый	Колода противника или особой встречи
+decks/converted/undead-goblin-1.dck	новый	Колода противника или особой встречи
+decks/converted/undead-roamer-1.dck	новый	Колода противника или особой встречи
+decks/converted/undead-shuffler-1.dck	новый	Колода противника или особой встречи
+decks/converted/unholy-knight-1.dck	новый	Колода противника или особой встречи
+decks/converted/unholy-skull-1.dck	новый	Колода противника или особой встречи
+decks/converted/unraveling-crawler-1.dck	новый	Колода противника или особой встречи
+decks/converted/urabrask-1.dck	новый	Колода противника или особой встречи
+decks/converted/valyx-feaster-of-torment-1.dck	новый	Колода противника или особой встречи
+decks/converted/vampire-1.dck	новый	Колода противника или особой встречи
+decks/converted/vampire-lord-1.dck	новый	Колода противника или особой встречи
+decks/converted/viashino-1.dck	новый	Колода противника или особой встречи
+decks/converted/viper-1.dck	новый	Колода противника или особой встречи
+decks/converted/volcano-dragon-1.dck	новый	Колода противника или особой встречи
+decks/converted/volcano-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/vorinclex-1.dck	новый	Колода противника или особой встречи
+decks/converted/vulture-1.dck	новый	Колода противника или особой встречи
+decks/converted/walking-brain-1.dck	новый	Колода противника или особой встречи
+decks/converted/walter-the-stray-camel-1.dck	новый	Колода противника или особой встречи
+decks/converted/wandering-giant-1.dck	новый	Колода противника или особой встречи
+decks/converted/wandering-treefolk-1.dck	новый	Колода противника или особой встречи
+decks/converted/warrior-1.dck	новый	Колода противника или особой встречи
+decks/converted/wasp-1.dck	новый	Колода противника или особой встречи
+decks/converted/water-elemental-1.dck	новый	Колода противника или особой встречи
+decks/converted/weak-demon-1.dck	новый	Колода противника или особой встречи
+decks/converted/werebear-1.dck	новый	Колода противника или особой встречи
+decks/converted/werewolf-1.dck	новый	Колода противника или особой встречи
+decks/converted/white-dwarf-1.dck	новый	Колода противника или особой встречи
+decks/converted/wild-magic-sorcerer-1.dck	новый	Колода противника или особой встречи
+decks/converted/wild-rat-1.dck	новый	Колода противника или особой встречи
+decks/converted/wild-rat-2.dck	новый	Колода противника или особой встречи
+decks/converted/wild-rat-3.dck	новый	Колода противника или особой встречи
+decks/converted/witch-1.dck	новый	Колода противника или особой встречи
+decks/converted/wolf-1.dck	новый	Колода противника или особой встречи
+decks/converted/wolf-pup-1.dck	новый	Колода противника или особой встречи
+decks/converted/worm-1.dck	новый	Колода противника или особой встречи
+decks/converted/wounded-sliver-1.dck	новый	Колода противника или особой встречи
+decks/converted/wraith-1.dck	новый	Колода противника или особой встречи
+decks/converted/wurm-1.dck	новый	Колода противника или особой встречи
+decks/converted/xira-1.dck	новый	Колода противника или особой встречи
+decks/converted/yeti-1.dck	новый	Колода противника или особой встречи
+decks/converted/zedruu-1.dck	новый	Колода противника или особой встречи
+decks/converted/zombie-1.dck	новый	Колода противника или особой встречи
+decks/converted/zombie-lord-1.dck	новый	Колода противника или особой встречи
+decks/converted/zombie-master-1.dck	новый	Колода противника или особой встречи
+decks/selected/ashmouth_devil.dck	новый	Колода противника или особой встречи
+decks/selected/barbarian.dck	новый	Колода противника или особой встречи
+decks/selected/big_zombie.dck	новый	Колода противника или особой встречи
+decks/selected/chandra.dck	новый	Колода противника или особой встречи
+decks/selected/elf.dck	новый	Колода противника или особой встречи
+decks/starter/Adventure - Low Azorius.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Black.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Blue.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Boros.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Dimir.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Golgari.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Green.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Gruul.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Izzet.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Orzhov.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Rakdos.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Red.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Selesnya.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low Simic.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/Adventure - Low White.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/commander/black_01.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/commander/blue_01.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/commander/green_01.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/commander/red_01.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/commander/white_01.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_black_e.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_black_h.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_black_n.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_blue_e.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_blue_h.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_blue_n.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_green_e.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_green_h.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_green_n.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_red_e.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_red_h.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_red_n.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_white_e.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_white_h.json	новый	Стартовая колода или шаблон Pile
+decks/starter/pile_white_n.json	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/AFR/B.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/AFR/G.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/AFR/R.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/AFR/U.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/AFR/W.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/MAT/B.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/MAT/G.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/MAT/R.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/MAT/U.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/MAT/W.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/NEO/B.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/NEO/G.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/NEO/R.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/NEO/U.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/NEO/W.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/SNC/B.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/SNC/G.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/SNC/R.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/SNC/U.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/SNC/W.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/VOW/B.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/VOW/G.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/VOW/R.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/VOW/U.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/VOW/W.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/WOE/B.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/WOE/G.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/WOE/R.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/WOE/U.dck	новый	Стартовая колода или шаблон Pile
+decks/starter/selected/WOE/W.dck	новый	Стартовая колода или шаблон Pile
+editions/Dominaria United.txt	новый	Состав бустера издания
+editions/Dungeons & Dragons Adventures in the Forgotten Realms.txt	новый	Состав бустера издания
+editions/Innistrad Crimson Vow.txt	новый	Состав бустера издания
+editions/Innistrad Midnight Hunt.txt	новый	Состав бустера издания
+editions/Kamigawa Neon Dynasty.txt	новый	Состав бустера издания
+editions/March of the Machine.txt	новый	Состав бустера издания
+editions/Phyrexia All Will Be One.txt	новый	Состав бустера издания
+editions/Streets of New Capenna.txt	новый	Состав бустера издания
+editions/The Brothers War.txt	новый	Состав бустера издания
+editions/Wilds of Eldraine.txt	новый	Состав бустера издания
+forge-adventure.ico	копия Shandalar	Звук, локализация или значок игрового плана
+forge-adventure.png	копия Shandalar	Звук, локализация или значок игрового плана
+languages/adventure-es-ES.properties	копия Shandalar	Звук, локализация или значок игрового плана
+languages/quests-es-ES.json	копия Shandalar	Звук, локализация или значок игрового плана
+maps/map/aerie/aerie_0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/aerie/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/barbariancamp_bandit.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/barbariancamp_goblin.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/barbariancamp_goblin_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/barbariancamp_goblin_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/barbariancamp_kobold.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/barbariancamp_kobold_mine.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/barbariancamp_orc.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/kor_encampment.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/barbariancamp/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/catlair/catlair_green_1_leonincamp.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/catlair/catlair_green_2_tigerforest.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/catlair/catlair_white_1_lionden.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/catlair/catlair_white_2_leonincamp.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/catlair/catlair_white_3_temple.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_amphin.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_bandit.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_barbarian.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_bear.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_bluewiz.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_devil.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_djinn.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_goblin.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_kavu.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_merfolk.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_minotaur.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_multilevel_3/cave_21C.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_multilevel_3/cave_21D.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_orc.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_rat.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/cave/cave_spider.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/debug_map.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/demontower/portal_2B.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/djinnpalace/djinnpalace_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/djinnpalace/djinnpalace_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/djinnpalace/djinnpalace_2B.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/djinnpalace/djinpalace_entrance.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/evilgrove/evilgrove_1_zombie.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/evilgrove/evilgrove_2_blackgolem.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/evilgrove/evilgrove_5_swamp.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/factory/factory_1_golems.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/factory/factory_2_ooze.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/factory/factory_4_large.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_blue_1_pirate.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_blue_2_canyon.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_blue_3_factory.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_blue_5_temple.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_1_snow.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_2_wizards.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_3_human.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_4_ooze.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_5_evil.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_6_study.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_colorless_7_multilevel4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_green_3_forestcastle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_green_4_scarecrowfarm.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_white_1_celestial.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_white_3_pharaoh.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/fort/fort_white_4_farm.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/graveyard_crypt/crypt_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/graveyard_crypt/crypt_4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/graveyard_crypt/crypt_5.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/graveyard_crypt/graveyard.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grolnok/grolnok.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grolnok/grolnok_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_10_bamboo.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_11_greendragon.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_12_faeriedragon.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_1_bears.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_2_wolf.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_4_gorilla.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_6_wizards.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_7_snake.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_8_hydra.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/grove_9_eldrazi.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/grove/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/hostiletown/yule_town.tmx	новый	Карточные награды зимнего поселения
+maps/map/jacetower/jacehold.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/lavaforge/lavaforge_1_sulfuricvortex.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/lavaforge/lavaforge_2_burningsands.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/lavaforge/lavaforge_3_vulcanodragon.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_13_doppelganger.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_14_horrors.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_1_djinn.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_2_blackwiz.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_3_redwiz.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_4_monastery.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_5_greenhouse.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_6_infernalgenesis.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_7_church.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_8_illusion.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_8_illusion_basement.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/magetower_9_ninjarats.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/magetower/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/black_castle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/black_castle_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/blue_castle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/blue_castle_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/green_castle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/green_castle_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/red_castle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/white_castle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/castles/white_castle_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/spawn.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_gideon/graveyard.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_gideon/steppe.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_gideon/town.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_liliana/bog.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_liliana/graveyard.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/temple_of_liliana/town.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story/templeofchandra.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_defend/waste_town_abandoned.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/bandit_cave.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/dig_site_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/frostbitten_cavern_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/library_of_varsil_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/library_of_varsil_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/library_of_varsil_4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/primal_jungle.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/main_story_explore/shard_mines.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/merfolkpool/merfolkpool_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/merfolkpool/merfolkpool_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/merfolkpool/merfolkpool_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/merfolkpool/merfolkpool_5.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/minibosses/kiora_island.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/minibosses/slime_hive.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/minibosses/slimefoot_boss.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/minibosses/teferi.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/minibosses/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/minibosses/xira.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/monastery/monastery_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/monastery/monastery_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/monastery/monastery_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/monastery/monastery_4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/monastery/monastery_5.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/monastery/unhallowed_abbey_1F.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/monastery/unhallowed_abbey_2F.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nahiri/cave_level_0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nahiri/nahiri_entrance_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nahiri/nahiricave.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nest/nest_blue_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/nest/nest_white_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/phyrexia/phyrexian_b1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/phyrexia/phyrexian_black1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/phyrexia/phyrexian_g1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/phyrexia/phyrexian_r1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/phyrexia/phyrexian_w1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/skep/skep_outer.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/skep/sliverqueen.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/skullcave/skullcave_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/skullcave/skullcave_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/tibalt/tibalt_f0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/tibalt/tibalt_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/tibalt/tibalt_f3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/tibalt/tibalt_f4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/towns/forest_town.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/forest_town_generic.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/forest_town_identity.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/forest_town_tribal.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/island_town.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/island_town_generic.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/island_town_identity.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/island_town_tribal.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/mountain_town.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/mountain_town_generic.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/mountain_town_identity.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/mountain_town_tribal.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/plains_town.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/plains_town_generic.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/plains_town_identity.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/plains_town_tribal.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/swamp_town.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/swamp_town_2.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/swamp_town_generic.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/swamp_town_identity.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/swamp_town_tribal.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/waste_town.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/waste_town_generic.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/waste_town_identity.tmx	новый	Три торговые точки и одна таверна
+maps/map/towns/waste_town_tribal.tmx	новый	Три торговые точки и одна таверна
+maps/map/vampirecastle/vampirecastle_4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/vampirecastle/vampirecastle_4B.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/vampirecastle/vampirecastle_4C.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/vampirecastle/vampirecastle_grave_1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/vampirecastle/vampirecastle_grave_2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/vampirecastle/vampirecastle_grave_3.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/vampirecastle/wastetown..tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/zedruu/zedruu.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/zedruu/zedruu_f0.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/zedruu/zedruu_f1.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/zedruu/zedruu_f2.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/map/zedruu/zedruu_f4.tmx	новый	Локальные награды, ссылки карт или шаблон свитка
+maps/obj/scroll.tx	новый	Локальные награды, ссылки карт или шаблон свитка
+tools/ExportCardIndex.java	новый	Экспорт правил и печатей Forge
+tools/README.md	новый	Запуск и обслуживание
+tools/Starts.java	новый	Проверка стартов в Forge
+tools/VerifyPlane.java	новый	Проверка колод, наград, магазинов, земель и бустеров в Forge
+tools/build_plane.py	новый	Пересборка overrides мира и колод
+tools/check_resources.py	новый	Статическая проверка ресурсов и сбор правил наград
+tools/encounter-rewards.json	новый	Исправленные условия выпадения трофеев с противников
+tools/enemy-mapping.tsv	новый	Соответствие исходных и новых колод
+tools/manifest.tsv	новый	Перечень файлов
+tools/reward-mapping.tsv	новый	Соответствие именных наград
+tools/validation.md	новый	Результаты испытаний
+tools/worlds-2023.json	новый	Исходные турнирные деклисты
+world/enemies.json	новый	Составы противников и награды
+world/items.json	новый	Предметы Shandalar и десять альбомов разрешённых земель
+world/points_of_interest.json	новый	Маршруты входа с карты мира в города RioEdited
+world/quests.json	исходный	Мир, задания и названия поселений
+world/shops.json	изменён	Ассортимент торговцев
+world/town_names_black.txt	исходный	Мир, задания и названия поселений
+world/town_names_blue.txt	исходный	Мир, задания и названия поселений
+world/town_names_green.txt	исходный	Мир, задания и названия поселений
+world/town_names_red.txt	исходный	Мир, задания и названия поселений
+world/town_names_waste.txt	исходный	Мир, задания и названия поселений
+world/town_names_white.txt	исходный	Мир, задания и названия поселений
+world/world.json	исходный	Мир, задания и названия поселений

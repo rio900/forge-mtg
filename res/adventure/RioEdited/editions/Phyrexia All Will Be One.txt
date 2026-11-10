@@ -1,0 +1,4 @@
+[metadata]
+Code=ONE
+Date=2023-02-10
+Booster=10 Common:fromsheet("ONE cards"), 3 Uncommon:fromSheet("ONE cards"), 1 RareMythic:fromSheet("ONE cards"), 1 BasicLand:fromSheet("ONE cards")

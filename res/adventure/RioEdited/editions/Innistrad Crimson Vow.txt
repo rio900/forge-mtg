@@ -1,0 +1,4 @@
+[metadata]
+Code=VOW
+Date=2021-11-19
+Booster=10 Common:fromSheet("VOW cards"), 3 Uncommon:fromSheet("VOW cards"), 1 RareMythic:fromSheet("VOW cards"), 1 BasicLand:fromSets("VOW")

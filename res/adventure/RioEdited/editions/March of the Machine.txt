@@ -1,0 +1,4 @@
+[metadata]
+Code=MOM
+Date=2023-04-21
+Booster=8 Common:!dfc:!fromSheet("MOM lands"):fromsheet("MOM cards"), 2 Uncommon:!dfc:!fromSheet("MOM battles"):fromSheet("MOM cards"), 1 fromSheet("MOM double-face"), 1 RareMythic:!fromSheet("MOM battles"):!dfc:fromSheet("MOM cards"), 1 fromSheet("MOM battles"), 1 Uncommon:fromSets("MOM"), 1 fromSheet("MOM lands")

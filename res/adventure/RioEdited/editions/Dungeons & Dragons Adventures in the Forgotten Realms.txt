@@ -1,0 +1,4 @@
+[metadata]
+Code=AFR
+Date=2021-07-23
+Booster=10 Common:fromSheet("AFR cards"), 3 Uncommon:fromSheet("AFR cards"), 1 RareMythic:fromSheet("AFR cards"), 1 BasicLand:fromSets("AFR")

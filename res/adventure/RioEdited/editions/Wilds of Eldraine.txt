@@ -1,0 +1,4 @@
+[metadata]
+Code=WOE
+Date=2023-09-08
+Booster=9 Common:fromsheet("WOE cards"), 3 Uncommon:fromSheet("WOE cards"), 1 Uncommon:fromSets("WOE"), 1 RareMythic:fromSheet("WOE cards"), 1 BasicLand:fromSheet("WOE cards")
