@@ -75,6 +75,23 @@ public class VerifyPlane {
         System.out.println("VERIFIED ALL DECK FILES "+checked.size());
         var storeFailures=new ArrayList<String>();
         for(var shop:WorldData.getShopList()) {
+            if(shop.name.startsWith("RioTown") && shop.rewards.size==4) {
+                var reserved=new HashSet<String>();
+                for(int i=0;i<3;i++)for(var choice:shop.rewards.get(i).cardUnion){
+                    var entry=choice.cardName.split("\\|");
+                    var pc=CardUtil.getCardByNameAndEdition(entry[0],entry[1]);
+                    check(pc.getRarity().toString().equals(i==0?"C":"U") && reserved.add(pc.getName()),shop.name+" "+pc);
+                }
+                var draw=shop.rewards.get(3);
+                var pool=CardUtil.getDeck(draw.sourceDeck,false,false,"",false,false).getMain().toFlatList();
+                var weights=new HashMap<String,Integer>();
+                for(var pc:CardUtil.getPredicateResult(pool,draw)){
+                    card(pc,shop.name);
+                    check(!reserved.contains(pc.getName()),shop.name+" duplicate "+pc);
+                    weights.merge(pc.getRarity().toString(),1,Integer::sum);
+                }
+                check(weights.equals(Map.of("C",30,"U",50,"R",18,"M",2)),shop.name+" "+weights);
+            }
             int count=0;boolean cardsOnly=true;
             for(var r:shop.rewards) {
                 if(r.type!=null && !Set.of("card","randomCard","Union","cardPackShop").contains(r.type))cardsOnly=false;

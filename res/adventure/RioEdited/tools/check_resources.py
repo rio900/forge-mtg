@@ -65,7 +65,11 @@ def main():
             names = [o.find("properties/property[@name='commonShopList']").get("value") for o in vendors]
             assert all(n in shops for n in names) and "RioTownBooster" in names, (rel, names)
             singles = [shops[n] for n in names if n.startswith("RioTown") and n not in ("RioTownEquipment", "RioTownBooster")]
-            assert len(singles) == 1 and [(r["count"], r["rarity"]) for r in singles[0]["rewards"]] == [(3, ["Common"]), (1, ["Uncommon"])], rel
+            assert len(singles) == 1, rel
+            slots = singles[0]["rewards"]
+            assert [rule["count"] for rule in slots] == [1, 1, 1, 1], rel
+            assert all(r["type"] == "Union" and r["cardUnion"] for r in slots[:3]), rel
+            assert (PLANE / slots[3]["sourceDeck"]).is_file(), rel
         if effective != f:
             original = ET.parse(f)
             assert [n.text for n in root.iter("data")] == [n.text for n in original.iter("data")], rel

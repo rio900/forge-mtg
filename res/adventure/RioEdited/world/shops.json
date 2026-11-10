@@ -8080,22 +8080,60 @@
     "sprite": "WhiteShop",
     "rewards": [
       {
-        "colors": [
-          "white"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Inspiring Overseer|SNC"
+          },
+          {
+            "cardName": "Spirited Companion|NEO"
+          },
+          {
+            "cardName": "Cathar Commando|MID"
+          },
+          {
+            "cardName": "Destroy Evil|DMU"
+          }
         ]
       },
       {
-        "colors": [
-          "white"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Annex Sentry|ONE"
+          },
+          {
+            "cardName": "Ambitious Farmhand|MID"
+          },
+          {
+            "cardName": "Coppercoat Vanguard|MAT"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Illuminator Virtuoso|SNC"
+          },
+          {
+            "cardName": "Jawbone Duelist|ONE"
+          },
+          {
+            "cardName": "Ingenious Smith|AFR"
+          },
+          {
+            "cardName": "Ossification|ONE"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/White.dck"
       }
     ]
   },
@@ -8106,28 +8144,54 @@
     "sprite": "WhiteShop",
     "rewards": [
       {
-        "colors": [
-          "white"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Inspiring Overseer|SNC"
+          },
+          {
+            "cardName": "Spirited Companion|NEO"
+          },
+          {
+            "cardName": "Cathar Commando|MID"
+          }
         ]
       },
       {
-        "colors": [
-          "white"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Annex Sentry|ONE"
+          },
+          {
+            "cardName": "Ambitious Farmhand|MID"
+          },
+          {
+            "cardName": "Coppercoat Vanguard|MAT"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Illuminator Virtuoso|SNC"
+          },
+          {
+            "cardName": "Jawbone Duelist|ONE"
+          },
+          {
+            "cardName": "Ingenious Smith|AFR"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/WhiteCreatures.dck"
       }
     ]
   },
@@ -8138,22 +8202,60 @@
     "sprite": "BlueShop",
     "rewards": [
       {
-        "colors": [
-          "blue"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Moon-Circuit Hacker|NEO"
+          },
+          {
+            "cardName": "Lantern Bearer|VOW"
+          },
+          {
+            "cardName": "Malcator's Watcher|ONE"
+          },
+          {
+            "cardName": "Consider|MID"
+          }
         ]
       },
       {
-        "colors": [
-          "blue"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Faerie Vandal|SNC"
+          },
+          {
+            "cardName": "Thopter Mechanic|BRO"
+          },
+          {
+            "cardName": "Picklock Prankster|WOE"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Stormchaser Drake|VOW"
+          },
+          {
+            "cardName": "Prosperous Thief|NEO"
+          },
+          {
+            "cardName": "Trawler Drake|ONE"
+          },
+          {
+            "cardName": "Fading Hope|MID"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Blue.dck"
       }
     ]
   },
@@ -8164,28 +8266,54 @@
     "sprite": "BlueShop",
     "rewards": [
       {
-        "colors": [
-          "blue"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Moon-Circuit Hacker|NEO"
+          },
+          {
+            "cardName": "Lantern Bearer|VOW"
+          },
+          {
+            "cardName": "Malcator's Watcher|ONE"
+          }
         ]
       },
       {
-        "colors": [
-          "blue"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Faerie Vandal|SNC"
+          },
+          {
+            "cardName": "Thopter Mechanic|BRO"
+          },
+          {
+            "cardName": "Picklock Prankster|WOE"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Stormchaser Drake|VOW"
+          },
+          {
+            "cardName": "Prosperous Thief|NEO"
+          },
+          {
+            "cardName": "Trawler Drake|ONE"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/BlueCreatures.dck"
       }
     ]
   },
@@ -8196,22 +8324,60 @@
     "sprite": "BlackShop",
     "rewards": [
       {
-        "colors": [
-          "black"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Shambling Ghast|AFR"
+          },
+          {
+            "cardName": "Phyrexian Rager|DMU"
+          },
+          {
+            "cardName": "Nezumi Informant|MOM"
+          },
+          {
+            "cardName": "Deadly Dispute|AFR"
+          }
         ]
       },
       {
-        "colors": [
-          "black"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Fell Stinger|VOW"
+          },
+          {
+            "cardName": "Morbid Opportunist|MID"
+          },
+          {
+            "cardName": "Cult Conscript|DMU"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Dockside Chef|NEO"
+          },
+          {
+            "cardName": "Gravelighter|NEO"
+          },
+          {
+            "cardName": "Knight of Dusk's Shadow|DMU"
+          },
+          {
+            "cardName": "Go for the Throat|BRO"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Black.dck"
       }
     ]
   },
@@ -8222,28 +8388,54 @@
     "sprite": "BlackShop",
     "rewards": [
       {
-        "colors": [
-          "black"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Shambling Ghast|AFR"
+          },
+          {
+            "cardName": "Phyrexian Rager|DMU"
+          },
+          {
+            "cardName": "Nezumi Informant|MOM"
+          }
         ]
       },
       {
-        "colors": [
-          "black"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Fell Stinger|VOW"
+          },
+          {
+            "cardName": "Morbid Opportunist|MID"
+          },
+          {
+            "cardName": "Cult Conscript|DMU"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Dockside Chef|NEO"
+          },
+          {
+            "cardName": "Gravelighter|NEO"
+          },
+          {
+            "cardName": "Knight of Dusk's Shadow|DMU"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/BlackCreatures.dck"
       }
     ]
   },
@@ -8254,22 +8446,60 @@
     "sprite": "RedShop",
     "rewards": [
       {
-        "colors": [
-          "red"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Voldaren Epicure|VOW"
+          },
+          {
+            "cardName": "Ratcatcher Trainee|WOE"
+          },
+          {
+            "cardName": "Witty Roastmaster|SNC"
+          },
+          {
+            "cardName": "Lightning Strike|DMU"
+          }
         ]
       },
       {
-        "colors": [
-          "red"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Monastery Swiftspear|BRO"
+          },
+          {
+            "cardName": "Phoenix Chick|DMU"
+          },
+          {
+            "cardName": "Battle Cry Goblin|AFR"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Electrostatic Infantry|DMU"
+          },
+          {
+            "cardName": "Rabbit Battery|NEO"
+          },
+          {
+            "cardName": "Reinforced Ronin|NEO"
+          },
+          {
+            "cardName": "Play with Fire|MID"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Red.dck"
       }
     ]
   },
@@ -8280,28 +8510,54 @@
     "sprite": "RedShop",
     "rewards": [
       {
-        "colors": [
-          "red"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Voldaren Epicure|VOW"
+          },
+          {
+            "cardName": "Ratcatcher Trainee|WOE"
+          },
+          {
+            "cardName": "Witty Roastmaster|SNC"
+          }
         ]
       },
       {
-        "colors": [
-          "red"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Monastery Swiftspear|BRO"
+          },
+          {
+            "cardName": "Phoenix Chick|DMU"
+          },
+          {
+            "cardName": "Battle Cry Goblin|AFR"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Electrostatic Infantry|DMU"
+          },
+          {
+            "cardName": "Rabbit Battery|NEO"
+          },
+          {
+            "cardName": "Reinforced Ronin|NEO"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/RedCreatures.dck"
       }
     ]
   },
@@ -8312,22 +8568,60 @@
     "sprite": "GreenShop",
     "rewards": [
       {
-        "colors": [
-          "green"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Jewel Thief|SNC"
+          },
+          {
+            "cardName": "Argothian Opportunist|BRO"
+          },
+          {
+            "cardName": "Fang of Shigeki|NEO"
+          },
+          {
+            "cardName": "Bite Down|DMU"
+          }
         ]
       },
       {
-        "colors": [
-          "green"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Cankerbloom|ONE"
+          },
+          {
+            "cardName": "Armored Scrapgorger|ONE"
+          },
+          {
+            "cardName": "Prosperous Innkeeper|AFR"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Tough Cookie|WOE"
+          },
+          {
+            "cardName": "Kami of Whispered Hopes|MOM"
+          },
+          {
+            "cardName": "Outland Liberator|MID"
+          },
+          {
+            "cardName": "Tail Swipe|DMU"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Green.dck"
       }
     ]
   },
@@ -8338,28 +8632,54 @@
     "sprite": "GreenShop",
     "rewards": [
       {
-        "colors": [
-          "green"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Jewel Thief|SNC"
+          },
+          {
+            "cardName": "Argothian Opportunist|BRO"
+          },
+          {
+            "cardName": "Fang of Shigeki|NEO"
+          }
         ]
       },
       {
-        "colors": [
-          "green"
-        ],
-        "cardTypes": [
-          "Creature"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Cankerbloom|ONE"
+          },
+          {
+            "cardName": "Armored Scrapgorger|ONE"
+          },
+          {
+            "cardName": "Prosperous Innkeeper|AFR"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Tough Cookie|WOE"
+          },
+          {
+            "cardName": "Kami of Whispered Hopes|MOM"
+          },
+          {
+            "cardName": "Outland Liberator|MID"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/GreenCreatures.dck"
       }
     ]
   },
@@ -8370,18 +8690,60 @@
     "sprite": "ColorlessShop",
     "rewards": [
       {
-        "colorType": "Colorless",
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Iron Apprentice|NEO"
+          },
+          {
+            "cardName": "Gingerbrute|WOE"
+          },
+          {
+            "cardName": "Skittering Surveyor|MOM"
+          },
+          {
+            "cardName": "Energy Refractor|BRO"
+          }
         ]
       },
       {
-        "colorType": "Colorless",
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Circuit Mender|NEO"
+          },
+          {
+            "cardName": "Patchwork Automaton|NEO"
+          },
+          {
+            "cardName": "Myr Convert|ONE"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Containment Construct|NEO"
+          },
+          {
+            "cardName": "Atraxa's Skitterfang|ONE"
+          },
+          {
+            "cardName": "Towashi Guide-Bot|NEO"
+          },
+          {
+            "cardName": "Levitating Statue|BRO"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Colorless.dck"
       }
     ]
   },
@@ -8392,24 +8754,54 @@
     "sprite": "ColorlessShop",
     "rewards": [
       {
-        "colorType": "Colorless",
-        "cardTypes": [
-          "Creature"
-        ],
-        "count": 3,
-        "rarity": [
-          "Common"
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Iron Apprentice|NEO"
+          },
+          {
+            "cardName": "Gingerbrute|WOE"
+          },
+          {
+            "cardName": "Skittering Surveyor|MOM"
+          }
         ]
       },
       {
-        "colorType": "Colorless",
-        "cardTypes": [
-          "Creature"
-        ],
+        "type": "Union",
         "count": 1,
-        "rarity": [
-          "Uncommon"
+        "cardUnion": [
+          {
+            "cardName": "Circuit Mender|NEO"
+          },
+          {
+            "cardName": "Patchwork Automaton|NEO"
+          },
+          {
+            "cardName": "Myr Convert|ONE"
+          }
         ]
+      },
+      {
+        "type": "Union",
+        "count": 1,
+        "cardUnion": [
+          {
+            "cardName": "Containment Construct|NEO"
+          },
+          {
+            "cardName": "Atraxa's Skitterfang|ONE"
+          },
+          {
+            "cardName": "Towashi Guide-Bot|NEO"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/ColorlessCreatures.dck"
       }
     ]
   },
