@@ -19,19 +19,23 @@ public class Playthrough {
         Gdx.app.postRunnable(future);
         return future.get(90, TimeUnit.SECONDS);
     }
-    static List<String> stock(TileMapScene tile) {
+    static ShopActor townVendor(TileMapScene tile) {
         for (int i=0;i<200;i++) if (tile.currentMap().getByID(i) instanceof ShopActor shop &&
-                shop.getShopData().name.startsWith("AvatarTown") && shop.getShopData().rewards.size==4) {
-            var cards=new ArrayList<String>();
-            for(var r:shop.getRewardData()) {
-                var c=r.getCard();
-                check(Set.of("TLA","TLE").contains(c.getEdition()),c.toString());
-                cards.add(c.getName()+"|"+c.getEdition());
-            }
-            check(new HashSet<>(cards).size()==4,"shop duplicates "+cards);
-            return cards;
+                shop.getShopData().name.startsWith("AvatarTown") && shop.getShopData().rewards.size==6) {
+            return shop;
         }
         throw new AssertionError("missing shop");
+    }
+    static List<String> stock(TileMapScene tile) {
+        var shop = townVendor(tile);
+        var cards=new ArrayList<String>();
+        for(var r:shop.getRewardData()) {
+            var c=r.getCard();
+            check(Set.of("TLA","TLE").contains(c.getEdition()),c.toString());
+            cards.add(c.getName()+"|"+c.getEdition());
+        }
+        check(cards.size()==6,"shop slot count "+cards);
+        return cards;
     }
     static void approach(forge.adventure.pointofintrest.PointOfInterest point) throws Exception {
         render(()->{
@@ -72,19 +76,65 @@ public class Playthrough {
         Thread.sleep(1800);
         check(render(()->w.save("AvatarTest",1)),"save");
         var points=w.getWorld().getAllPointOfInterest();
-        var town=points.stream().filter(p->p.getData().map.contains("/towns/")).findFirst().orElseThrow();
+        boolean shopTest = Boolean.getBoolean("avatar.test.shop");
+        var town=points.stream().filter(p->p.getData().map.contains(shopTest ? "/towns/waste_" : "/towns/")).findFirst().orElseThrow();
         var tile=render(TileMapScene::instance);
         List<String> first=null;
-        for(int i=0;i<2;i++){
-            if(i==0)approach(town);
+        if (shopTest) render(() -> { Current.player().setShards(2); return null; });
+        for(int i=0;i<(shopTest ? 3 : 2);i++){
+            if(i==0 && !shopTest)approach(town);
             else render(()->{WorldStage.getInstance().loadPOI(town);return null;});
-            var goods=render(()->{check(Forge.getCurrentScene()==tile,"town entrance");return stock(tile);});
-            if(first!=null)check(first.equals(goods),"reroll");
+            var goods=render(()->{check(Forge.getCurrentScene()==tile,"town entrance");if (shopTest) {
+                var vendor = townVendor(tile);
+                check(vendor.getName().startsWith("AvatarTownColorless"),vendor.getName());
+                var raw = vendor.getRewardData();
+                for (int slot=0; slot<3; slot++) check(raw.get(slot).getCard().getRules().getColorIdentity().isColorless(), "local slot " + slot);
+                var colored = new ArrayList<String>();
+                for (int slot=3; slot<6; slot++) {
+                    var pc = raw.get(slot).getCard();
+                    if (!pc.getRules().getColorIdentity().isColorless()) colored.add(pc.getName()+"|"+pc.getEdition());
+                }
+                System.out.println("PLAY colored global " + colored);
+                vendor.onPlayerCollide();
+            }
+            return stock(tile);});
+            if(first!=null)check(first.equals(goods),"reroll expected=" + first + " actual=" + goods);
             first=goods;
             System.out.println("PLAY town "+town.getData().name+" "+goods);
+            if (shopTest && i == 1) {
+                first = render(() -> {
+                    var vendor = townVendor(tile);
+                    var player = Current.player();
+                    int cost = vendor.getRestockPrice();
+                    check(cost == 2, "restock price " + cost);
+                    check(player.getShards() == cost, "test balance");
+                    var changes = vendor.getMapStage().getChanges();
+                    long seed = changes.getShopSeed(vendor.getObjectId());
+                    var scene = RewardScene.instance();
+                    check(Forge.getCurrentScene() == scene, "shop screen");
+                    var field = RewardScene.class.getDeclaredField("restockButton");
+                    field.setAccessible(true);
+                    var button = (com.badlogic.gdx.scenes.scene2d.ui.Button) field.get(scene);
+                    check(button.isVisible() && !button.isDisabled(), "restock button unavailable");
+                    var stage = button.getStage();
+                    stage.act(1 / 60f);
+                    var center = button.localToStageCoordinates(new com.badlogic.gdx.math.Vector2(
+                            button.getWidth() / 2, button.getHeight() / 2));
+                    stage.stageToScreenCoordinates(center);
+                    stage.touchDown(Math.round(center.x), Math.round(center.y), 0, 0);
+                    stage.touchUp(Math.round(center.x), Math.round(center.y), 0, 0);
+                    check(player.getShards() == 0 && button.isDisabled(), "payment or balance check");
+                    var refreshed = stock(tile);
+                    check(seed != changes.getShopSeed(vendor.getObjectId()), "unchanged shop seed");
+                    System.out.println("PLAY paid refresh " + cost + " -> 0: " + refreshed);
+                    return refreshed;
+                });
+            }
+            if (shopTest) render(() -> { RewardScene.instance().done(); check(Forge.getCurrentScene() == tile, "shop exit"); return null; });
             render(()->tile.currentMap().exitDungeon(false,false));
             Thread.sleep(900);
         }
+        if (shopTest) return;
         boolean dragon = Boolean.getBoolean("avatar.test.dragon");
         String bossName = dragon ? "Ancient Silver Dragon" : "Slobad";
         var location = points.stream().filter(p -> dragon

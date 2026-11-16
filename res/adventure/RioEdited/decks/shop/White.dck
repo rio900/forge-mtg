@@ -1,103 +1,409 @@
 [metadata]
 Name=White shop pool
 [Main]
-1 You Hear Something on Watch|AFR|1
-1 Befriending the Moths|NEO|1
-1 Flare of Faith|MID|1
-1 Homestead Courage|MID|1
-1 Celestus Sanctifier|MID|1
-1 Benalish Faithbonder|DMU|1
-1 Clockwork Drawbridge|DMU|1
-1 Wanderer's Intervention|NEO|1
-1 Savior of the Sleeping|WOE|1
-1 Besotted Knight|WOE|1
-1 Ancestral Katana|NEO|1
-1 Take Up the Shield|DMU|1
-1 Loran's Escape|BRO|1
-1 Basilica Shepherd|ONE|1
-1 Deadly Riposte|BRO|1
-1 Phalanx Vanguard|BRO|1
-1 Heron of Hope|VOW|1
-1 Incisor Glider|ONE|1
-1 Tocasia's Onulet|BRO|1
-1 Dapper Shieldmate|SNC|1
-1 Regent's Authority|NEO|1
-1 Kithkin Billyrider|MOM|1
-1 Armory Mice|WOE|1
-1 Mourning Patrol|MID|1
-1 Plunge into Winter|WOE|1
-1 Basilica Skullbomb|ONE|1
-1 Argivian Phalanx|DMU|1
-1 Tuinvale Guide|WOE|1
-1 Survivor of Korlis|BRO|1
-1 Sungold Barrage|MID|1
-1 The Fall of Lord Konda|NEO|1
-1 Rumor Gatherer|SNC|1
-1 Blade-Blizzard Kitsune|NEO|1
-1 Resistance Squad|VOW|1
-1 Valorous Stance|VOW|1
-1 Apostle of Invasion|ONE|1
-1 Combat Thresher|BRO|1
-1 Invasion of Belenon|MOM|1
-1 Norika Yamazaki, the Poet|NEO|1
-1 Great Desert Prospector|BRO|1
-1 Phyrexian Censor|MOM|1
-1 Refuse to Yield|SNC|1
-1 Norn's Inquisitor|MOM|1
-1 Knight of Dawn's Light|DMU|1
-1 Glass Casket|WOE|1
-1 Angelic Quartermaster|VOW|1
-1 Plated Onslaught|ONE|1
-1 Cheeky House-Mouse|WOE|1
-1 Odric's Outrider|MID|1
-1 Born to Drive|NEO|1
-1 Dutiful Griffin|WOE|1
-1 Selfless Samurai|NEO|1
-1 Against All Odds|ONE|1
-1 Wingmantle Chaplain|DMU|1
-1 Cathar's Call|MID|1
-1 Moon-Blessed Cleric|AFR|1
-1 Zhalfirin Lancer|MOM|1
-1 Thopter Architect|BRO|1
-1 Hexgold Hoverwings|ONE|1
-1 Arm the Cathars|VOW|1
-1 Loran, Disciple of History|BRO|1
-1 Harnessed Snubhorn|MAT|1
-1 Discerning Financier|WOE|1
-1 Solitary Sanctuary|WOE|1
-1 Angelic Observer|SNC|1
-1 Surge of Salvation|MOM|1
-1 Citizen's Crowbar|SNC|1
-1 Mass Production|BRO|1
-1 Circle of Confinement|VOW|1
-1 Seal from Existence|MOM|1
-1 Prayer of Binding|DMU|1
-1 Bride's Gown|VOW|1
-1 Dragon's Disciple|AFR|1
-1 Imperial Recovery Unit|NEO|1
-1 Love Song of Night and Day|DMU|1
-1 Veil of Assimilation|ONE|1
-1 Plate Armor|AFR|1
-1 Monk of the Open Hand|AFR|1
-1 Distracting Geist|VOW|1
-1 Ritual of Hope|MID|1
-1 Siege Veteran|BRO|1
-1 Leyline Binding|DMU|1
-1 Rescue Retriever|BRO|1
-1 Danitha, Benalia's Hope|DMU|1
-1 Lion Sash|NEO|1
-1 Kayla's Command|BRO|1
-1 Teleportation Circle|AFR|1
-1 Essence of Orthodoxy|MOM|1
-1 Mysterious Limousine|SNC|1
-1 Cloudsteel Kirin|NEO|1
-1 Expel the Interlopers|WOE|1
-1 Curse of Silence|MID|1
-1 Guardian of Ghirapur|MOM|1
-1 Voice of the Blessed|VOW|1
-1 Fateful Absence|MID|1
-1 Spellbook Vendor|WOE|1
-1 Tocasia's Welcome|BRO|1
-1 Urza Assembles the Titans|DMU|1
+3 You Hear Something on Watch|AFR|1
+3 Befriending the Moths|NEO|1
+3 Flare of Faith|MID|1
+3 Homestead Courage|MID|1
+3 Celestus Sanctifier|MID|1
+3 Benalish Faithbonder|DMU|1
+3 Clockwork Drawbridge|DMU|1
+3 Wanderer's Intervention|NEO|1
+3 Savior of the Sleeping|WOE|1
+3 Besotted Knight|WOE|1
+3 Ancestral Katana|NEO|1
+3 Take Up the Shield|DMU|1
+3 Loran's Escape|BRO|1
+3 Basilica Shepherd|ONE|1
+3 Deadly Riposte|BRO|1
+3 Phalanx Vanguard|BRO|1
+3 Heron of Hope|VOW|1
+3 Incisor Glider|ONE|1
+3 Tocasia's Onulet|BRO|1
+3 Dapper Shieldmate|SNC|1
+3 Regent's Authority|NEO|1
+3 Kithkin Billyrider|MOM|1
+3 Armory Mice|WOE|1
+3 Mourning Patrol|MID|1
+3 Plunge into Winter|WOE|1
+3 Basilica Skullbomb|ONE|1
+3 Argivian Phalanx|DMU|1
+3 Tuinvale Guide|WOE|1
+3 Survivor of Korlis|BRO|1
+3 Sungold Barrage|MID|1
+3 Mandible Justiciar|ONE|1
+3 Mothrider Patrol|NEO|1
+3 Union of the Third Path|BRO|1
+3 Potion of Healing|AFR|1
+3 Search Party Captain|MID|1
+3 Supernatural Rescue|VOW|1
+3 Kindly Ancestor|VOW|1
+3 Candletrap|MID|1
+3 Hopeful Vigil|WOE|1
+3 Sunder the Gateway|MOM|1
+3 Crawling Chorus|ONE|1
+3 Inspiring Overseer|SNC|1
+3 Kitsune Ace|NEO|1
+3 Attentive Skywarden|MOM|1
+3 Unruly Mob|MID|1
+3 Speakeasy Server|SNC|1
+3 Break the Spell|WOE|1
+3 Blessed Defiance|MID|1
+3 Intercessor's Arrest|NEO|1
+3 Aerial Boost|MOM|1
+3 Piercing Light|VOW|1
+3 Sigarda's Imprisonment|VOW|1
+3 Nebelgast Beguiler|VOW|1
+3 Leonin Lightbringer|ONE|1
+3 Kellan's Lightblades|WOE|1
+3 Sanctify|VOW|1
+3 Militia Rallier|VOW|1
+3 Celestial Unicorn|AFR|1
+3 Orthodoxy Enforcer|ONE|1
+3 Candlegrove Witch|MID|1
+3 Frostbridge Guard|WOE|1
+3 Enduring Bondwarden|MOM|1
+2 Return Triumphant|WOE|1
+2 Dwarfhold Champion|AFR|1
+2 Soul-Guide Gryff|MID|1
+2 Clarion Cathars|MID|1
+2 Fierce Retribution|VOW|1
+2 Imperial Oath|NEO|1
+2 Unholy Officiant|VOW|1
+2 Delver's Torch|AFR|1
+2 Angelic Intervention|MOM|1
+2 Destroy Evil|DMU|1
+2 Samite Herbalist|DMU|1
+2 Recommission|BRO|1
+2 Military Discipline|BRO|1
+2 Sinew Dancer|ONE|1
+2 Gathering Throng|SNC|1
+2 Duelist of Deep Faith|ONE|1
+2 Zealot's Conviction|ONE|1
+2 Revelation of Power|SNC|1
+2 Planar Disruption|ONE|1
+2 Eiganjo Exemplar|NEO|1
+2 Celebrity Fencer|SNC|1
+2 Half-Elf Monk|AFR|1
+2 Slumbering Keepguard|WOE|1
+2 Infected Defector|MOM|1
+2 Spirited Companion|NEO|1
+2 Goldwarden's Helm|ONE|1
+2 Traveling Minister|VOW|1
+2 Sunblade Samurai|NEO|1
+2 Charismatic Vanguard|DMU|1
+2 Disenchant|BRO|1
+2 Priest of Ancient Lore|AFR|1
+2 Era of Enlightenment|NEO|1
+2 Indoctrination Attendant|ONE|1
+2 Mirran Bardiche|ONE|1
+2 Powerstone Engineer|BRO|1
+2 Veteran Dungeoneer|AFR|1
+2 Mesa Cavalier|DMU|1
+2 Gavony Silversmith|MID|1
+2 Hold for Ransom|SNC|1
+2 Realmbreaker's Grasp|MOM|1
+2 Imperial Subduer|NEO|1
+2 Steadfast Paladin|AFR|1
+2 Phyrexian Pegasus|MOM|1
+2 Parish-Blade Trainee|VOW|1
+2 Sigiled Sentinel|MOM|1
+2 Flensing Raptor|ONE|1
+2 Unassuming Sage|WOE|1
+2 Dawnbringer Cleric|AFR|1
+2 Boon of Safety|SNC|1
+2 Hedgewitch's Mask|MID|1
+2 +2 Mace|AFR|1
+2 Swordsworn Cavalier|MOM|1
+2 Stockpiling Celebrant|WOE|1
+2 Knight of the New Coalition|MOM|1
+2 Rimefur Reindeer|WOE|1
+2 Alabaster Host Intercessor|MOM|1
+2 Inspired Charge|MOM|1
+2 Griffin Protector|DMU|1
+2 You're Ambushed on the Road|AFR|1
+2 Warlord's Elite|BRO|1
+2 Sky Crier|SNC|1
+2 Argivian Cavalier|DMU|1
+2 Kill Shot|SNC|1
+2 Gryff Rider|VOW|1
+2 Gavony Trapper|MID|1
+2 Charge of the Mites|ONE|1
+2 Protective Parents|WOE|1
+2 Golden-Scale Aeronaut|MOM|1
+2 Charmed Clothier|WOE|1
+2 Raffine's Informant|SNC|1
+2 Cooped Up|WOE|1
+2 Golden-Tail Disciple|NEO|1
+2 Nurturing Presence|VOW|1
+2 Seven-Tail Mentor|NEO|1
+2 Estwald Shieldbasher|VOW|1
+2 Repel the Vile|NEO|1
+2 Kor Halberd|MOM|1
+2 Thraben Exorcism|MID|1
+2 Buy Your Silence|SNC|1
+2 Moment of Valor|WOE|1
+2 Gloom Stalker|AFR|1
+2 Drogskol Infantry|VOW|1
+2 Dragonfly Suit|NEO|1
+2 Light the Way|NEO|1
+2 Devoted Paladin|AFR|1
+2 Bola Slinger|MOM|1
+2 Yotian Medic|BRO|1
+2 Arborea Pegasus|AFR|1
+2 Adamant Will|VOW|1
+2 Scrollshift|MOM|1
+2 Vanish into Eternity|ONE|1
+2 Backup Agent|SNC|1
+2 Archon's Glory|WOE|1
+2 Compleat Devotion|ONE|1
+2 Ritual Guardian|MID|1
+2 Captain's Call|DMU|1
+2 Raffine's Guidance|SNC|1
+2 Ambush Paratrooper|BRO|1
+2 The Fair Basilica|ONE|1
+2 Prison Sentence|BRO|1
+2 Heron-Blessed Geist|VOW|1
+2 Veteran's Powerblade|BRO|1
+2 Alabaster Host Sanctifier|MOM|1
+2 Paladin's Shield|AFR|1
+2 Airlift Chaplain|BRO|1
+2 Planar Ally|AFR|1
+2 Lunarch Veteran|MID|1
+2 Scrapwork Cohort|BRO|1
+2 Cathar Commando|MID|1
+2 Artillery Blast|DMU|1
+2 Citizen's Arrest|DMU|1
+2 Aeronaut Cavalry|BRO|1
+2 Minimus Containment|AFR|1
+2 Cut Short|MOM|1
+2 Ranger's Hawk|AFR|1
+2 Lucky Offering|NEO|1
+2 Vampire Slayer|VOW|1
+6 The Fall of Lord Konda|NEO|1
+6 Rumor Gatherer|SNC|1
+6 Blade-Blizzard Kitsune|NEO|1
+6 Resistance Squad|VOW|1
+6 Valorous Stance|VOW|1
+6 Apostle of Invasion|ONE|1
+6 Combat Thresher|BRO|1
+6 Invasion of Belenon|MOM|1
+6 Norika Yamazaki, the Poet|NEO|1
+6 Great Desert Prospector|BRO|1
+6 Phyrexian Censor|MOM|1
+6 Illuminator Virtuoso|SNC|1
+6 Refuse to Yield|SNC|1
+6 Norn's Inquisitor|MOM|1
+6 Knight of Dawn's Light|DMU|1
+6 Ossification|ONE|1
+6 Glass Casket|WOE|1
+6 Angelic Quartermaster|VOW|1
+6 Plated Onslaught|ONE|1
+6 Cheeky House-Mouse|WOE|1
+6 Odric's Outrider|MID|1
+6 Born to Drive|NEO|1
+6 Dutiful Griffin|WOE|1
+6 Selfless Samurai|NEO|1
+6 Annex Sentry|ONE|1
+6 Against All Odds|ONE|1
+6 Wingmantle Chaplain|DMU|1
+6 Cathar's Call|MID|1
+6 Moon-Blessed Cleric|AFR|1
+6 Zhalfirin Lancer|MOM|1
+6 Thopter Architect|BRO|1
+6 Hexgold Hoverwings|ONE|1
+6 Arm the Cathars|VOW|1
+6 Loran, Disciple of History|BRO|1
+6 Ambitious Farmhand|MID|1
+6 Harnessed Snubhorn|MAT|1
+6 Discerning Financier|WOE|1
+6 Solitary Sanctuary|WOE|1
+6 Angelic Observer|SNC|1
+6 Surge of Salvation|MOM|1
+6 Citizen's Crowbar|SNC|1
+6 Mass Production|BRO|1
+6 Circle of Confinement|VOW|1
+6 Seal from Existence|MOM|1
+6 Prayer of Binding|DMU|1
+6 Bride's Gown|VOW|1
+6 Dragon's Disciple|AFR|1
+6 Imperial Recovery Unit|NEO|1
+6 Love Song of Night and Day|DMU|1
+6 Veil of Assimilation|ONE|1
+6 Plate Armor|AFR|1
+6 Monk of the Open Hand|AFR|1
+6 Distracting Geist|VOW|1
+6 Ritual of Hope|MID|1
+6 Chaplain of Alms|MID|1
+6 Swooping Lookout|ONE|1
+6 Knight of Doves|WOE|1
+6 Resolute Reinforcements|DMU|1
+6 Cursed Courtier|WOE|1
+6 Gryffwing Cavalry|VOW|1
+6 White Dragon|AFR|1
+6 Touch the Spirit Realm|NEO|1
+6 Cleric Class|AFR|1
+6 Meticulous Excavation|BRO|1
+6 Yotian Frontliner|BRO|1
+6 Porcelain Zealot|ONE|1
+6 Go-Shintai of Shared Purpose|NEO|1
+6 Infested Fleshcutter|ONE|1
+6 Radiant Grace|VOW|1
+6 Banishing Slash|NEO|1
+6 Swooping Protector|SNC|1
+6 Ingenious Smith|AFR|1
+6 Sky-Blessed Samurai|NEO|1
+6 Sunset Revelry|MID|1
+6 Knockout Blow|SNC|1
+6 Resistance Reunited|ONE|1
+6 Portable Hole|AFR|1
+6 Lay Down Arms|BRO|1
+6 The Princess Takes Flight|WOE|1
+6 Bereaved Survivor|MID|1
+6 Tiller of Flesh|MOM|1
+6 When We Were Young|NEO|1
+6 Gavony Dawnguard|MID|1
+6 Dawnhart Geist|VOW|1
+6 Calamity's Wake|BRO|1
+6 Recruitment Officer|BRO|1
+6 Repair and Recharge|BRO|1
+6 Duelcraft Trainer|MID|1
+6 Beloved Beggar|MID|1
+6 Mage's Attendant|SNC|1
+6 Rally Maneuver|AFR|1
+6 Ballroom Brawlers|SNC|1
+6 Bladed Ambassador|ONE|1
+6 Pests of Honor|WOE|1
+6 Stroke of Midnight|WOE|1
+6 Eerie Interference|WOE|1
+6 Phyrexian Awakening|MOM|1
+6 Gallant Pie-Wielder|WOE|1
+6 Coalition Skyknight|DMU|1
+6 Divine Smite|AFR|1
+6 Patch Up|SNC|1
+6 Hotshot Mechanic|NEO|1
+6 Elspeth's Smite|MOM|1
+6 Coppercoat Vanguard|MAT|1
+6 Keen-Eared Sentry|AFR|1
+6 Invasion of Dominaria|MOM|1
+6 Blink Dog|AFR|1
+6 Seedpod Caretaker|MOM|1
+6 Borrowed Time|MID|1
+6 Food Coma|WOE|1
+5 Static Net|BRO|1
+5 Join Forces|DMU|1
+5 Twinblade Geist|VOW|1
+5 Michiko's Reign of Truth|NEO|1
+5 Loyal Gryff|MID|1
+5 Ollenbock Escort|VOW|1
+5 Jawbone Duelist|ONE|1
+5 Cloister Gargoyle|AFR|1
+4 Siege Veteran|BRO|1
+4 Leyline Binding|DMU|1
+4 Rescue Retriever|BRO|1
+4 Danitha, Benalia's Hope|DMU|1
+4 Lion Sash|NEO|1
+4 Kayla's Command|BRO|1
+4 Teleportation Circle|AFR|1
+4 Essence of Orthodoxy|MOM|1
+4 Mysterious Limousine|SNC|1
+3 Cloudsteel Kirin|NEO|1
+3 Expel the Interlopers|WOE|1
+3 Curse of Silence|MID|1
+3 Guardian of Ghirapur|MOM|1
+3 Voice of the Blessed|VOW|1
+3 Fateful Absence|MID|1
+3 Spellbook Vendor|WOE|1
+3 Tocasia's Welcome|BRO|1
+3 Urza Assembles the Titans|DMU|1
+3 Oswald Fiddlebender|AFR|1
+3 Archon of the Wild Rose|WOE|1
+3 White Sun's Twilight|ONE|1
+3 Vanquish the Horde|MID|1
+3 Temporary Lockdown|DMU|1
+3 Sigarda's Splendor|MID|1
+3 Metropolis Reformer|MAT|1
+3 Defiler of Faith|DMU|1
+3 Norn's Wellspring|ONE|1
+3 Serra Redeemer|DMU|1
+3 Skrelv's Hive|ONE|1
+3 Three Blind Mice|WOE|1
+3 Sigarda's Summons|VOW|1
+3 Kemba, Kha Enduring|ONE|1
+3 Loyal Warhound|AFR|1
+3 Soul Partition|BRO|1
+3 Dancing Sword|AFR|1
+3 By Invitation Only|VOW|1
+3 Knight-Errant of Eos|MOM|1
+3 Rabble Rousing|SNC|1
+3 The Eternal Wanderer|ONE|1
+3 Valiant Veteran|DMU|1
+3 Guardian of Faith|AFR|1
+3 Flumph|AFR|1
+3 Steel Seraph|BRO|1
+3 The Restoration of Eiganjo|NEO|1
+3 Dusk Legion Duelist|MOM|1
+3 Invasion of Gobakhan|MOM|1
+3 Light-Paws, Emperor's Voice|NEO|1
+3 Mite Overseer|ONE|1
+3 Guardian of New Benalia|DMU|1
+3 Depopulate|SNC|1
+3 Sunfall|MOM|1
+3 Kayla's Reconstruction|BRO|1
+3 Brilliant Restoration|NEO|1
+3 Wedding Announcement|VOW|1
+3 Adeline, Resplendent Cathar|MID|1
+3 Progenitor Exarch|MOM|1
+3 March of Otherworldly Light|NEO|1
+3 Cave of the Frost Dragon|AFR|1
+3 Loran of the Third Path|BRO|1
+3 Regal Bunnicorn|WOE|1
+3 Deification|MAT|1
+3 Paladin Class|AFR|1
+3 Thalia, Guardian of Thraben|VOW|1
+3 Katilda, Dawnhart Martyr|VOW|1
+3 A Tale for the Ages|WOE|1
+3 Werefox Bodyguard|WOE|1
+3 Extraction Specialist|SNC|1
+3 Lady of Laughter|WOE|1
+3 Giada, Font of Hope|SNC|1
+3 Invoke Justice|NEO|1
+3 Eiganjo, Seat of the Empire|NEO|1
+3 Farewell|NEO|1
+3 Hopeful Initiate|VOW|1
+3 Skrelv, Defector Mite|ONE|1
+3 Autonomous Assembler|BRO|1
+3 Spark Rupture|MAT|1
+3 Sungold Sentinel|MID|1
+3 Nadaar, Selfless Paladin|AFR|1
+3 Boon-Bringer Valkyrie|MOM|1
+3 Anointed Peacekeeper|DMU|1
+3 Welcoming Vampire|VOW|1
 1 Archangel Elspeth|MOM|1
 1 Cemetery Protector|VOW|1
+1 Serra Paragon|DMU|1
+1 Urza's Sylex|BRO|1
+1 Grand Master of Flowers|AFR|1
+1 Ao, the Dawn Sky|NEO|1
+1 Elesh Norn, Mother of Machines|ONE|1
+1 The Book of Exalted Deeds|AFR|1
+1 Icingdeath, Frost Tyrant|AFR|1
+1 In the Trenches|BRO|1
+1 Phyrexian Vindicator|ONE|1
+1 Faithbound Judge|VOW|1
+1 Platoon Dispenser|BRO|1
+1 Hallowed Haunting|VOW|1
+1 Sanctuary Warden|SNC|1
+1 Moonshaker Cavalry|WOE|1
+1 Intrepid Adversary|MID|1
+1 Halo Fountain|SNC|1
+1 Savior of Ollenbock|VOW|1
+1 Mondrak, Glory Dominus|ONE|1
+1 The Wandering Emperor|NEO|1
+1 Sigardian Savior|MID|1
+1 Elesh Norn|MOM|1
+1 Enduring Angel|MID|1
+1 Elspeth Resplendent|SNC|1
+1 Myrel, Shield of Argive|BRO|1
+1 Virtue of Loyalty|WOE|1
+1 Monastery Mentor|MOM|1

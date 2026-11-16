@@ -32,18 +32,18 @@
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="219" y="383" width="28" height="16" />
   <object id="41" template="../../../../common/maps/obj/shop.tx" x="97" y="305">
    <properties>
-    <property name="commonShopList" value="RioTownWhiteCreatures" /><property name="noRestock" type="bool" value="true" /></properties>
+    <property name="commonShopList" value="RioTownWhiteCreatures" /><property name="noRestock" type="bool" value="false" /></properties>
   </object>
   <object id="47" template="../../../../common/maps/obj/inn.tx" x="224" y="211" />
   <object id="48" template="../../../../common/maps/obj/shop.tx" x="290" y="225">
    <properties>
     <property name="signXOffset" type="float" value="-32" />
     <property name="signYOffset" type="float" value="0" />
-   <property name="commonShopList" value="Plains" /><property name="noRestock" type="bool" value="true" /></properties>
+   <property name="commonShopList" value="Plains" /><property name="noRestock" type="bool" value="false" /></properties>
   </object>
   <object id="51" template="../../../../common/maps/obj/shop.tx" x="192" y="306">
    <properties>
-    <property name="commonShopList" value="RioTownBooster" /><property name="noRestock" type="bool" value="true" /></properties>
+    <property name="commonShopList" value="RioTownBooster" /><property name="noRestock" type="bool" value="false" /></properties>
   </object>
   <object id="58" template="../../../../common/maps/obj/shardtrader.tx" x="128" y="130" />
   <object id="59" template="../../../../common/maps/obj/quest.tx" x="319" y="130" width="34" height="16">

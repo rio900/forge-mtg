@@ -59,8 +59,9 @@ def main():
     cfg = json.loads((PLANE / "config.json").read_text())
     assert PLANE.name == "AvatarEdited" and set(cfg["allowedEditions"]) == {"TLA", "TLE"}
     assert cfg["defaultBasicLandSet"] == "TLA" and cfg["allowedEvents"] == ["TLA"]
-    printings = {(r["name"], r["edition"], r["art_index"]) for r in csv.DictReader(
-        (PLANE / "tools/avatar-printings.tsv").open(), delimiter="\t")}
+    with (PLANE / "tools/avatar-printings.tsv").open() as stream:
+        catalog_rows = list(csv.DictReader(stream, delimiter="\t"))
+    printings = {(r["name"], r["edition"], r["art_index"]) for r in catalog_rows}
     banned = set(cfg["restrictedCards"])
     for f in PLANE.rglob("*.json"):
         json.loads(f.read_text())
@@ -75,6 +76,15 @@ def main():
                 counts[name] += int(quantity)
         if f.parent.name != "shop":
             assert all(n in BASICS or q <= 4 for n, q in counts.items()), f
+    masks = {"White":1, "Blue":2, "Black":4, "Red":8, "Green":16, "Colorless":0, "General":None}
+    for theme, mask in masks.items():
+        rarities = "URM" if mask is None else "CURM"
+        expected_names = {r["name"] for r in catalog_rows if r["name"] not in banned
+                          and r["edition"] in cfg["allowedEditions"] and r["rarity"] in rarities
+                          and (mask is None or int(r["color_identity_mask"]) == mask)}
+        path = PLANE / "decks/shop" / (theme + ".dck")
+        actual_names = {row.split(" ", 1)[1].split("|")[0] for row in path.read_text().splitlines() if row[:1].isdigit()}
+        assert actual_names == expected_names, (theme, actual_names ^ expected_names)
     mappings = list(csv.DictReader((PLANE / "tools/enemy-mapping.tsv").open(), delimiter="\t"))
     refs = {r["local"] for r in mappings}
     assert len(refs) == len(mappings) and all((PLANE / r).is_file() for r in refs)
@@ -97,15 +107,17 @@ def main():
             objects = list(root.iter("object"))
             vendors = [o for o in objects if Path(o.get("template", "")).stem in ("shop", "RotatingShop")]
             assert len(vendors) == 3 and sum(o.get("template", "").endswith("/inn.tx") for o in objects) == 1, rel
-            assert all(o.find("properties/property[@name='noRestock']").get("value") == "true" for o in vendors), rel
+            assert all(o.find("properties/property[@name='noRestock']").get("value") == "false" for o in vendors), rel
             names = [o.find("properties/property[@name='commonShopList']").get("value") for o in vendors]
             assert all(n in shops for n in names) and "AvatarTownBooster" in names, (rel, names)
             singles = [shops[n] for n in names if n.startswith("AvatarTown") and n not in ("AvatarTownEquipment", "AvatarTownBooster")]
             assert len(singles) == 1, rel
             slots = singles[0]["rewards"]
-            assert [rule["count"] for rule in slots] == [1, 1, 1, 1], rel
-            assert all(r["type"] == "Union" and r["cardUnion"] for r in slots[:3]), rel
-            assert (PLANE / slots[3]["sourceDeck"]).is_file(), rel
+            assert [rule["count"] for rule in slots] == [1] * 6, rel
+            color = singles[0]["name"].removeprefix("AvatarTown").removesuffix("Creatures")
+            for slot, pool in zip(slots, [color] * 3 + ["General"] * 3):
+                ref = f"decks/shop/{pool}.dck"
+                assert slot == {"type":"card", "count":1, "sourceDeck":ref} and (PLANE/ref).is_file(), rel
         if effective != f:
             original = ET.parse(f)
             assert [n.text for n in root.iter("data")] == [n.text for n in original.iter("data")], rel

@@ -1,65 +1,89 @@
 [metadata]
 Name=White shop pool
 [Main]
-2 Glider Kids|TLA|1
-2 Curious Farm Animals|TLA|1
-2 Tundra Wall|TLE|1
-2 Path to Redemption|TLA|1
-2 Kindly Customer|TLE|1
-2 Inspired Insurgent|TLE|1
-2 Sokka's Sword Training|TLE|1
-1 Jeong Jeong's Deserters|TLA|1
-1 Wolf Cove Villager|TLE|1
-1 Koala-Sheep|TLE|1
-1 Sledding Otter-Penguin|TLE|1
-1 Compassionate Healer|TLA|1
-1 Airbending Lesson|TLA|1
-1 Yip Yip!|TLA|1
-1 Sandbenders' Storm|TLA|1
-1 Toucan-Puffin|TLE|1
-1 Kyoshi Warrior Guard|TLE|1
-1 Water Tribe Captain|TLA|1
-1 Razor Rings|TLA|1
-1 Kyoshi Warriors|TLA|1
-1 Avatar Enthusiasts|TLA|1
-1 Rabaroo Troop|TLA|1
-1 Cloudshift|TLE|1
-3 Valorous Stance|TLE|1
-3 Water Tribe Rallier|TLA|1
-3 Fancy Footwork|TLA|1
-3 Master Piandao|TLA|1
-3 Gather the White Lotus|TLA|1
-3 Enter the Avatar State|TLA|1
-3 Southern Air Temple|TLA|1
-3 Sokka, Wolf Cove's Protector|TLE|1
-3 Momo, Rambunctious Rascal|TLE|1
-3 Vengeful Villagers|TLA|1
-3 Glider Staff|TLA|1
-3 Team Avatar|TLA|1
-2 That's Rough Buddy|TLE|1
-2 Katara, Heroic Healer|TLE|1
-2 The Duke, Rebel Sentry|TLE|1
-2 Momo, Playful Pet|TLA|1
-2 Earth Kingdom Protectors|TLA|1
-2 Invasion Reinforcements|TLA|1
-2 Pipsqueak, Rebel Strongarm|TLE|1
-1 Appa, the Vigilant|TLE|1
-1 Flawless Maneuver|TLE|1
-1 South Pole Voyager|TLA|1
-1 Aang's Iceberg|TLA|1
-1 Hakoda, Selfless Commander|TLA|1
-1 Duelist's Heritage|TLE|1
-1 Airbender Ascension|TLA|1
-1 Aang, Air Nomad|TLE|1
-1 Suki, Kyoshi Captain|TLE|1
-1 Momo, Friendly Flier|TLA|1
-1 Earthshape|TLE|1
-1 Avatar's Wrath|TLA|1
-1 Monk Gyatso|TLE|1
-1 Sokka's Charge|TLE|1
-1 Allied Teamwork|TLE|1
-1 Jet, Rebel Leader|TLE|1
-1 Enlightened Tutor|TLE|1
-1 Suki, Courageous Rescuer|TLA|1
-1 Aang, Airbending Master|TLE|1
+8 Glider Kids|TLA|1
+8 Curious Farm Animals|TLA|1
+8 Tundra Wall|TLE|1
+8 Path to Redemption|TLA|1
+8 Kindly Customer|TLE|1
+8 Inspired Insurgent|TLE|1
+8 Sokka's Sword Training|TLE|1
+8 Jeong Jeong's Deserters|TLA|1
+8 Wolf Cove Villager|TLE|1
+8 Koala-Sheep|TLE|1
+8 Sledding Otter-Penguin|TLE|1
+8 Compassionate Healer|TLA|1
+8 Thriving Heath|TLE|1
+8 Airbending Lesson|TLA|1
+8 Aardvark Sloth|TLE|1
+8 Yip Yip!|TLA|1
+8 Sandbenders' Storm|TLA|1
+8 Toucan-Puffin|TLE|1
+8 Aang's Defense|TLE|1
+8 Kyoshi Warrior Guard|TLE|1
+8 Water Tribe Captain|TLA|1
+7 Razor Rings|TLA|1
+7 Kyoshi Warriors|TLA|1
+7 Avatar Enthusiasts|TLA|1
+7 Acrobatic Leap|TLE|1
+7 Rabaroo Troop|TLA|1
+7 Cloudshift|TLE|1
+14 Valorous Stance|TLE|1
+14 Water Tribe Rallier|TLA|1
+14 Fancy Footwork|TLA|1
+14 Air Nomad Student|TLE|1
+14 Destined Confrontation|TLA|1
+14 Master Piandao|TLA|1
+14 Gather the White Lotus|TLA|1
+14 Earth Kingdom Jailer|TLA|1
+14 Airbender's Reversal|TLA|1
+14 Enter the Avatar State|TLA|1
+14 Southern Air Temple|TLA|1
+14 Sokka, Wolf Cove's Protector|TLE|1
+13 Momo, Rambunctious Rascal|TLE|1
+13 Vengeful Villagers|TLA|1
+13 Glider Staff|TLA|1
+13 Team Avatar|TLA|1
+13 Aang, the Last Airbender|TLA|1
+13 That's Rough Buddy|TLE|1
+13 Appa, Loyal Sky Bison|TLA|1
+13 Katara, Heroic Healer|TLE|1
+13 The Duke, Rebel Sentry|TLE|1
+13 Appa, Aang's Companion|TLE|1
+13 Momo, Playful Pet|TLA|1
+13 Earth Kingdom Protectors|TLA|1
+13 Invasion Reinforcements|TLA|1
+13 Pipsqueak, Rebel Strongarm|TLE|1
+7 Appa, the Vigilant|TLE|1
+7 Flawless Maneuver|TLE|1
+7 South Pole Voyager|TLA|1
+7 Aang's Iceberg|TLA|1
+7 Hakoda, Selfless Commander|TLA|1
+7 Duelist's Heritage|TLE|1
+6 Airbender Ascension|TLA|1
+6 Aang, Air Nomad|TLE|1
+6 Suki, Kyoshi Captain|TLE|1
+6 Momo, Friendly Flier|TLA|1
+6 Earthshape|TLE|1
+6 Avatar's Wrath|TLA|1
+6 Monk Gyatso|TLE|1
+6 Sokka's Charge|TLE|1
+6 Allied Teamwork|TLE|1
+6 Abandoned Air Temple|TLA|1
+6 Jet, Rebel Leader|TLE|1
+6 Enlightened Tutor|TLE|1
+6 Suki, Courageous Rescuer|TLA|1
+6 Tale of Momo|TLE|1
+2 Aang, Airbending Master|TLE|1
 1 Three Dreams|TLE|1
+1 Empty City Ruse|TLE|1
+1 The Legend of Yangchen|TLA|1
+1 Drannith Magistrate|TLE|1
+1 Brought Back|TLE|1
+1 Release to Memory|TLE|1
+1 Scout's Warning|TLE|1
+1 Sokka, Swordmaster|TLE|1
+1 Lita, Mechanical Engineer|TLE|1
+1 Appa, Steadfast Guardian|TLA|1
+1 Teferi's Protection|TLE|1
+1 United Front|TLA|1

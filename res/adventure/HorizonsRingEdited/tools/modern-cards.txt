@@ -1,0 +1,46 @@
+Fable of the Mirror-Breaker|NEO|R
+Sheoldred, the Apocalypse|DMU|M
+Goryo's Vengeance|BOK|R
+Atraxa, Grand Unifier|ONE|M
+Thoughtseize|LRW|R
+Force of Negation|MH1|R
+Faithful Mending|MID|U
+Fallaji Archaeologist|BRO|C
+Quantum Riddler|EOE|M
+Inquisition of Kozilek|ROE|U
+Teferi, Time Raveler|WAR|R
+Lightning Bolt|M11|C
+Monastery Swiftspear|2X2|C
+Through the Breach|CHK|R
+Emrakul, the Aeons Torn|ROE|M
+Mystical Dispute|ELD|U
+Arboreal Grazer|WAR|C
+Griselbrand|AVR|M
+Allosaurus Rider|CSP|R
+Pact of Negation|FUT|R
+Summoner's Pact|FUT|R
+Neoform|WAR|U
+Boseiju, Who Endures|NEO|R
+Otawara, Soaring City|NEO|R
+Takenuma, Abandoned Mire|NEO|R
+Eiganjo, Seat of the Empire|NEO|R
+Flickerwisp|EVE|U
+Mishra's Bauble|CSP|U
+Living End|TSP|R
+Shardless Agent|MH2|R
+Not Dead After All|WOE|C
+Agatha's Soul Cauldron|WOE|M
+Slickshot Show-Off|OTJ|R
+Ephemerate|MH1|C
+Hallowed Fountain|DIS|R
+Watery Grave|RAV|R
+Blood Crypt|DIS|R
+Stomping Ground|GPT|R
+Temple Garden|RAV|R
+Godless Shrine|GPT|R
+Steam Vents|GPT|R
+Overgrown Tomb|RAV|R
+Sacred Foundry|RAV|R
+Breeding Pool|DIS|R
+Dismember|NPH|U
+Soul-Guide Lantern|THB|U

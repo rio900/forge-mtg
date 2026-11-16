@@ -7348,54 +7348,34 @@
     "sprite": "WhiteShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Aang's Defense|TLE"
-          },
-          {
-            "cardName": "Aardvark Sloth|TLE"
-          },
-          {
-            "cardName": "Acrobatic Leap|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Aang, the Last Airbender|TLA"
-          },
-          {
-            "cardName": "Air Nomad Student|TLE"
-          },
-          {
-            "cardName": "Airbender's Reversal|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Appa, Aang's Companion|TLE"
-          },
-          {
-            "cardName": "Appa, Loyal Sky Bison|TLA"
-          },
-          {
-            "cardName": "Earth Kingdom Jailer|TLA"
-          }
-        ]
+        "sourceDeck": "decks/shop/White.dck"
       },
       {
         "type": "card",
         "count": 1,
         "sourceDeck": "decks/shop/White.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/White.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7406,54 +7386,34 @@
     "sprite": "WhiteShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Aardvark Sloth|TLE"
-          },
-          {
-            "cardName": "Avatar Enthusiasts|TLA"
-          },
-          {
-            "cardName": "Compassionate Healer|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Aang, the Last Airbender|TLA"
-          },
-          {
-            "cardName": "Air Nomad Student|TLE"
-          },
-          {
-            "cardName": "Appa, Aang's Companion|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Appa, Loyal Sky Bison|TLA"
-          },
-          {
-            "cardName": "Earth Kingdom Jailer|TLA"
-          },
-          {
-            "cardName": "Earth Kingdom Protectors|TLA"
-          }
-        ]
+        "sourceDeck": "decks/shop/White.dck"
       },
       {
         "type": "card",
         "count": 1,
-        "sourceDeck": "decks/shop/WhiteCreatures.dck"
+        "sourceDeck": "decks/shop/White.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/White.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7464,54 +7424,34 @@
     "sprite": "BlueShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Brainstorm|TLE"
-          },
-          {
-            "cardName": "Consider|TLE"
-          },
-          {
-            "cardName": "Deny Entry|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Accumulate Wisdom|TLA"
-          },
-          {
-            "cardName": "Benevolent River Spirit|TLA"
-          },
-          {
-            "cardName": "Boomerang Basics|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Coastal Piracy|TLE"
-          },
-          {
-            "cardName": "Crashing Wave|TLA"
-          },
-          {
-            "cardName": "Dutiful Knowledge Seeker|TLE"
-          }
-        ]
+        "sourceDeck": "decks/shop/Blue.dck"
       },
       {
         "type": "card",
         "count": 1,
         "sourceDeck": "decks/shop/Blue.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Blue.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7522,54 +7462,34 @@
     "sprite": "BlueShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "First-Time Flyer|TLA"
-          },
-          {
-            "cardName": "Flexible Waterbender|TLA"
-          },
-          {
-            "cardName": "Flying Dolphin-Fish|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Benevolent River Spirit|TLA"
-          },
-          {
-            "cardName": "Dutiful Knowledge Seeker|TLE"
-          },
-          {
-            "cardName": "Gran-Gran|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Katara, Bending Prodigy|TLA"
-          },
-          {
-            "cardName": "Knowledge Seeker|TLA"
-          },
-          {
-            "cardName": "Master Pakku|TLA"
-          }
-        ]
+        "sourceDeck": "decks/shop/Blue.dck"
       },
       {
         "type": "card",
         "count": 1,
-        "sourceDeck": "decks/shop/BlueCreatures.dck"
+        "sourceDeck": "decks/shop/Blue.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Blue.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7580,54 +7500,34 @@
     "sprite": "BlackShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Azula Always Lies|TLA"
-          },
-          {
-            "cardName": "Beetle-Headed Merchants|TLA"
-          },
-          {
-            "cardName": "Callous Inspector|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Azula, On the Hunt|TLA"
-          },
-          {
-            "cardName": "Bastion of Remembrance|TLE"
-          },
-          {
-            "cardName": "Buzzard-Wasp Colony|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Cat-Gator|TLA"
-          },
-          {
-            "cardName": "Epic Downfall|TLA"
-          },
-          {
-            "cardName": "Fatal Fissure|TLA"
-          }
-        ]
+        "sourceDeck": "decks/shop/Black.dck"
       },
       {
         "type": "card",
         "count": 1,
         "sourceDeck": "decks/shop/Black.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Black.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7638,54 +7538,34 @@
     "sprite": "BlackShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Beetle-Headed Merchants|TLA"
-          },
-          {
-            "cardName": "Callous Inspector|TLA"
-          },
-          {
-            "cardName": "Canyon Crawler|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Azula, On the Hunt|TLA"
-          },
-          {
-            "cardName": "Buzzard-Wasp Colony|TLA"
-          },
-          {
-            "cardName": "Cat-Gator|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Fire Nation Engineer|TLA"
-          },
-          {
-            "cardName": "Fire Navy Trebuchet|TLA"
-          },
-          {
-            "cardName": "Joo Dee, One of Many|TLA"
-          }
-        ]
+        "sourceDeck": "decks/shop/Black.dck"
       },
       {
         "type": "card",
         "count": 1,
-        "sourceDeck": "decks/shop/BlackCreatures.dck"
+        "sourceDeck": "decks/shop/Black.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Black.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7696,54 +7576,34 @@
     "sprite": "RedShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Boar-q-pine|TLA"
-          },
-          {
-            "cardName": "Bumi Bash|TLA"
-          },
-          {
-            "cardName": "Capital Guard|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Combustion Man|TLA"
-          },
-          {
-            "cardName": "Combustion Technique|TLA"
-          },
-          {
-            "cardName": "Crescent Island Temple|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Fire Nation Attacks|TLA"
-          },
-          {
-            "cardName": "Fire Nation's Conquest|TLE"
-          },
-          {
-            "cardName": "Fire Sages|TLA"
-          }
-        ]
+        "sourceDeck": "decks/shop/Red.dck"
       },
       {
         "type": "card",
         "count": 1,
         "sourceDeck": "decks/shop/Red.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Red.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7754,54 +7614,34 @@
     "sprite": "RedShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Boar-q-pine|TLA"
-          },
-          {
-            "cardName": "Capital Guard|TLE"
-          },
-          {
-            "cardName": "Deer-Dog|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Combustion Man|TLA"
-          },
-          {
-            "cardName": "Fire Sages|TLA"
-          },
-          {
-            "cardName": "Iroh, Firebending Instructor|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Jeong Jeong, the Deserter|TLA"
-          },
-          {
-            "cardName": "Longshot, Rebel Bowman|TLE"
-          },
-          {
-            "cardName": "Loyal Fire Sage|TLE"
-          }
-        ]
+        "sourceDeck": "decks/shop/Red.dck"
       },
       {
         "type": "card",
         "count": 1,
-        "sourceDeck": "decks/shop/RedCreatures.dck"
+        "sourceDeck": "decks/shop/Red.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Red.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7812,54 +7652,34 @@
     "sprite": "GreenShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Badgermole|TLA"
-          },
-          {
-            "cardName": "Cycle of Renewal|TLA"
-          },
-          {
-            "cardName": "Earthbending Lesson|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Allies at Last|TLA"
-          },
-          {
-            "cardName": "Animal Attendant|TLE"
-          },
-          {
-            "cardName": "Bosco, Just a Bear|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Bumi's Feast Lecture|TLE"
-          },
-          {
-            "cardName": "Bumi, King of Three Trials|TLA"
-          },
-          {
-            "cardName": "Cracked Earth Technique|TLE"
-          }
-        ]
+        "sourceDeck": "decks/shop/Green.dck"
       },
       {
         "type": "card",
         "count": 1,
         "sourceDeck": "decks/shop/Green.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Green.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7870,54 +7690,34 @@
     "sprite": "GreenShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Badgermole|TLA"
-          },
-          {
-            "cardName": "Foggy Swamp Vinebender|TLA"
-          },
-          {
-            "cardName": "Frog-Squirrels|TLE"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Animal Attendant|TLE"
-          },
-          {
-            "cardName": "Bosco, Just a Bear|TLE"
-          },
-          {
-            "cardName": "Bumi, King of Three Trials|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Earth Kingdom General|TLA"
-          },
-          {
-            "cardName": "Earthbending Student|TLE"
-          },
-          {
-            "cardName": "Eel-Hounds|TLE"
-          }
-        ]
+        "sourceDeck": "decks/shop/Green.dck"
       },
       {
         "type": "card",
         "count": 1,
-        "sourceDeck": "decks/shop/GreenCreatures.dck"
+        "sourceDeck": "decks/shop/Green.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Green.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7928,48 +7728,34 @@
     "sprite": "ColorlessShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Aang's Journey|TLA"
-          },
-          {
-            "cardName": "Barrels of Blasting Jelly|TLA"
-          },
-          {
-            "cardName": "Bender's Waterskin|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Energybending|TLA"
-          },
-          {
-            "cardName": "Fire Nation Warship|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Meteor Sword|TLA"
-          },
-          {
-            "cardName": "Suspicious Bookcase|TLE"
-          }
-        ]
+        "sourceDeck": "decks/shop/Colorless.dck"
       },
       {
         "type": "card",
         "count": 1,
         "sourceDeck": "decks/shop/Colorless.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Colorless.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },
@@ -7980,42 +7766,34 @@
     "sprite": "ColorlessShop",
     "rewards": [
       {
-        "type": "Union",
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Barrels of Blasting Jelly|TLA"
-          },
-          {
-            "cardName": "Bender's Waterskin|TLA"
-          },
-          {
-            "cardName": "Kyoshi Battle Fan|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Fire Nation Warship|TLA"
-          }
-        ]
-      },
-      {
-        "type": "Union",
-        "count": 1,
-        "cardUnion": [
-          {
-            "cardName": "Meteor Sword|TLA"
-          }
-        ]
+        "sourceDeck": "decks/shop/Colorless.dck"
       },
       {
         "type": "card",
         "count": 1,
-        "sourceDeck": "decks/shop/ColorlessCreatures.dck"
+        "sourceDeck": "decks/shop/Colorless.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/Colorless.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "sourceDeck": "decks/shop/General.dck"
       }
     ]
   },

@@ -1,0 +1,1699 @@
+[metadata]
+Name=OpenTown shop pool
+[Main]
+20 Phantom Carriage|MID|1
+20 Myr Convert|ONE|1
+20 Foreboding Statue|VOW|1
+20 Thrummingbird|ONE|1
+20 Hound Tamer|MID|1
+20 Zar Ojanen, Scion of Efrava|DMU|1
+20 Dusk Mangler|SNC|1
+20 Balmor, Battlemage Captain|DMU|1
+20 Knight of Dawn's Light|DMU|1
+20 Discerning Financier|WOE|1
+20 Swooping Lookout|ONE|1
+20 Faerie Vandal|SNC|1
+20 Walking Bulwark|DMU|1
+20 Valorous Stance|VOW|1
+20 Cheeky House-Mouse|WOE|1
+20 Stromkirk Bloodthief|MID|1
+20 Barrowin of Clan Undurr|AFR|1
+20 Blightreaper Thallid|MOM|1
+20 Radiant Grace|VOW|1
+20 Balduvian Atrocity|DMU|1
+20 Elegant Entourage|SNC|1
+20 Reclusive Taxidermist|VOW|1
+20 Webspinner Cuff|NEO|1
+20 Dokuchi Silencer|NEO|1
+20 Collective Nightmare|MOM|1
+20 Grizzly Ghoul|MID|1
+20 Shrouded Shepherd|WOE|1
+20 Psychic Pickpocket|SNC|1
+20 Bereaved Survivor|MID|1
+20 Wild Shape|AFR|1
+20 Power Word Kill|AFR|1
+20 Suspicious Bookcase|SNC|1
+20 Unnatural Restoration|ONE|1
+20 Frenzied Devils|VOW|1
+20 Paladin of Predation|ONE|1
+20 Yotian Tactician|BRO|1
+20 Merciless Repurposing|MOM|1
+20 Go-Shintai of Boundless Vigor|NEO|1
+20 Exotic Pets|SNC|1
+20 Fatal Grudge|SNC|1
+20 Devoted Grafkeeper|MID|1
+20 Vampire Scrivener|SNC|1
+20 Biolume Egg|VOW|1
+20 Spotter Thopter|BRO|1
+20 Old Flitterfang|WOE|1
+20 Hypnotic Grifter|SNC|1
+20 Twisted Sewer-Witch|WOE|1
+20 Lunar Frenzy|MID|1
+20 Mass Production|BRO|1
+20 Prosperous Innkeeper|AFR|1
+20 Threadbind Clique|WOE|1
+20 Wandering Mind|VOW|1
+20 Gold-Forged Thopteryx|MAT|1
+20 Metropolis Angel|SNC|1
+20 Lantern of the Lost|VOW|1
+20 Taken by Nightmares|WOE|1
+20 Najal, the Storm Runner|DMU|1
+20 Elvish Hydromancer|DMU|1
+20 Tiller of Flesh|MOM|1
+20 Wash Away|VOW|1
+20 Trickster's Talisman|AFR|1
+20 Death-Priest of Myrkul|AFR|1
+20 Cabaretti Charm|SNC|1
+20 Intrepid Outlander|AFR|1
+20 Faerie Dreamthief|WOE|1
+20 Wizard Class|AFR|1
+20 Dormant Grove|VOW|1
+20 Garna, Bloodfist of Keld|DMU|1
+20 High Fae Negotiator|WOE|1
+20 Fallaji Excavation|BRO|1
+20 Copper Host Crusher|MOM|1
+20 Nael, Avizoa Aeronaut|DMU|1
+20 Dungeon Map|AFR|1
+20 Bitter Chill|WOE|1
+20 Witchstalker Frenzy|WOE|1
+20 Blanchwood Armor|BRO|1
+20 An Offer You Can't Refuse|SNC|1
+20 Honeymoon Hearse|VOW|1
+20 Twisted Fealty|WOE|1
+20 Campus Renovation|MAT|1
+20 Banishing Slash|NEO|1
+20 Rally Maneuver|AFR|1
+20 Cleanup Crew|SNC|1
+20 Green Dragon|AFR|1
+20 Invasion of Kamigawa|MOM|1
+20 Tiger-Tribe Hunter|AFR|1
+20 The Long Reach of Night|NEO|1
+20 Slip Out the Back|SNC|1
+20 Bramble Wurm|VOW|1
+20 Firmament Sage|MID|1
+20 Fading Hope|MID|1
+20 Nezumi Prowler|NEO|1
+20 Blink Dog|AFR|1
+20 Catapult Fodder|VOW|1
+20 Arms Race|BRO|1
+20 Wedding Security|VOW|1
+20 Invasion of Dominaria|MOM|1
+20 Arbalest Engineers|BRO|1
+20 Towashi Guide-Bot|NEO|1
+20 Change the Equation|MOM|1
+20 Cobbled Lancer|VOW|1
+20 Obsessive Astronomer|MID|1
+20 Fangblade Brigand|MID|1
+20 Storyteller Pixie|WOE|1
+20 Phyrexian Awakening|MOM|1
+20 Argivian Avenger|BRO|1
+20 Queen Allenal of Ruadach|DMU|1
+20 Splashy Spellcaster|WOE|1
+20 Combat Thresher|BRO|1
+20 Nebelgast Intruder|MID|1
+20 Power of Persuasion|AFR|1
+20 Gretchen Titchwillow|AFR|1
+20 Shessra, Death's Whisper|AFR|1
+20 Ravenous Necrotitan|ONE|1
+20 The Princess Takes Flight|WOE|1
+20 Necrosquito|ONE|1
+20 Thopter Architect|BRO|1
+20 Founding the Third Path|DMU|1
+20 You Happen On a Glade|AFR|1
+20 Norn's Inquisitor|MOM|1
+20 Yotian Dissident|BRO|1
+20 Skullport Merchant|AFR|1
+20 Kumano Faces Kakkazan|NEO|1
+20 Flow of Knowledge|BRO|1
+20 Futurist Operative|NEO|1
+20 The Weatherseed Treaty|DMU|1
+20 Invasion of Zendikar|MOM|1
+20 Prosperous Thief|NEO|1
+20 Goblin Morningstar|AFR|1
+20 Burly Breaker|MID|1
+20 Turn the Earth|MID|1
+20 Heavyweight Demolisher|BRO|1
+20 Stormclaw Rager|MOM|1
+20 Covetous Castaway|MID|1
+20 Repair and Recharge|BRO|1
+20 Bronze Cudgels|NEO|1
+20 Wingmantle Chaplain|DMU|1
+20 Urabrask's Anointer|ONE|1
+20 Hearth Elemental|WOE|1
+20 Neva, Stalked by Nightmares|WOE|1
+20 Mysterious Tome|MID|1
+20 Silver-Fur Master|NEO|1
+20 Death-Rattle Oni|MAT|1
+20 Ruins Recluse|MOM|1
+20 Evangel of Synthesis|BRO|1
+20 Maestros Charm|SNC|1
+20 Cloaked Cadet|VOW|1
+20 Greta, Sweettooth Scourge|WOE|1
+20 Geistlight Snare|VOW|1
+20 Warhost's Frenzy|DMU|1
+20 Herbology Instructor|MOM|1
+20 Security Rhox|SNC|1
+20 Touch the Spirit Realm|NEO|1
+20 Rob the Archives|SNC|1
+20 Field of Ruin|MID|1
+20 Tempered in Solitude|NEO|1
+20 Loathsome Troll|AFR|1
+20 Defabricate|BRO|1
+20 Furnace Punisher|ONE|1
+20 Korvold and the Noble Thief|WOE|1
+20 Three Bowls of Porridge|WOE|1
+20 Ertai's Scorn|DMU|1
+20 Rowdy Research|WOE|1
+20 Historian's Wisdom|NEO|1
+20 Voidwing Hybrid|ONE|1
+20 Sharae of Numbing Depths|WOE|1
+20 Circuit Mender|NEO|1
+20 Bloodtithe Collector|MID|1
+20 Dragonspark Reactor|NEO|1
+20 Child of the Pack|VOW|1
+20 Wolfkin Outcast|VOW|1
+20 Distorted Curiosity|ONE|1
+20 Omen Hawker|MOM|1
+20 Moonsilver Key|MID|1
+20 Asari Captain|NEO|1
+20 Loyal Gryff|MID|1
+20 Critical Hit|AFR|1
+20 Demogorgon's Clutches|AFR|1
+20 Chaplain of Alms|MID|1
+20 Spellrune Painter|MID|1
+20 Innocent Traveler|VOW|1
+20 Venomous Brutalizer|ONE|1
+20 Sun-Blessed Guardian|MOM|1
+20 Unnatural Moonrise|MID|1
+20 Bloodsworn Squire|VOW|1
+20 Lunar Rejection|VOW|1
+20 Mossbeard Ancient|DMU|1
+20 Tangled Skyline|MOM|1
+20 Venom Connoisseur|SNC|1
+20 Naomi, Pillar of Order|NEO|1
+20 Whispering Wizard|VOW|1
+20 Great Desert Prospector|BRO|1
+20 Rite of Oblivion|MID|1
+20 Resistance Skywarden|ONE|1
+20 Invasion of Lorwyn|MOM|1
+20 Gallant Pie-Wielder|WOE|1
+20 Join the Dance|MID|1
+20 Sizzling Soloist|SNC|1
+20 Rumor Gatherer|SNC|1
+20 Krydle of Baldur's Gate|AFR|1
+20 Voltaic Visionary|VOW|1
+20 Queza, Augur of Agonies|SNC|1
+20 Purifying Dragon|MID|1
+20 Diver Skaab|VOW|1
+20 Skyfisher Spider|BRO|1
+20 Ominous Roost|MID|1
+20 Surge of Salvation|MOM|1
+20 Trelasarra, Moon Dancer|AFR|1
+20 Cleric Class|AFR|1
+20 Incubation Sac|ONE|1
+20 Gleeful Demolition|ONE|1
+20 Monastery Swiftspear|BRO|1
+20 Voldaren Ambusher|MID|1
+20 Keeper of the Cadence|BRO|1
+20 Gryffwing Cavalry|VOW|1
+20 Dragon Whelp|DMU|1
+20 Vivisection Evangelist|ONE|1
+20 Tamiyo's Logbook|ONE|1
+20 Hero of the Dunes|BRO|1
+20 Charforger|ONE|1
+20 Rampaging Geoderm|MOM|1
+20 Bladestitched Skaab|MID|1
+20 Brine Comber|VOW|1
+20 Lay Down Arms|BRO|1
+20 Nishoba Brawler|DMU|1
+20 Jawbone Duelist|ONE|1
+20 Swooping Protector|SNC|1
+20 Micromancer|DMU|1
+20 Armored Scrapgorger|ONE|1
+20 Scuttling Butler|SNC|1
+20 Slagstone Refinery|BRO|1
+20 Sardian Cliffstomper|BRO|1
+20 Mystic Skull|MID|1
+20 Streetwise Negotiator|MOM|1
+20 Burning Hands|AFR|1
+20 Fell Stinger|VOW|1
+20 Skyclave Aerialist|MOM|1
+20 Gutter Skulker|VOW|1
+20 Hunter's Mark|AFR|1
+20 You See a Pair of Goblins|AFR|1
+20 Sigardian Paladin|VOW|1
+20 Fires of Victory|DMU|1
+20 Ray of Frost|AFR|1
+20 Embereth Veteran|WOE|1
+20 Rebel Salvo|ONE|1
+20 Replication Specialist|NEO|1
+20 Okiba Salvage|NEO|1
+20 Spectrum Sentinel|BRO|1
+20 Odric's Outrider|MID|1
+20 Sawblade Slinger|VOW|1
+20 Howling Galefang|WOE|1
+20 Scorn-Blade Berserker|MOM|1
+20 Knight of Doves|WOE|1
+20 Prayer of Binding|DMU|1
+20 Referee Squad|MOM|1
+20 Take to the Streets|SNC|1
+20 Eccentric Apprentice|AFR|1
+20 Phoenix Chick|DMU|1
+20 Bilious Skulldweller|ONE|1
+20 Zephyr Sentinel|BRO|1
+20 Feed the Infection|ONE|1
+20 Johann, Apprentice Sorcerer|WOE|1
+20 Thran Power Suit|BRO|1
+20 Orochi Merge-Keeper|NEO|1
+20 Displacer Beast|AFR|1
+20 Oxidda Finisher|ONE|1
+20 Rending Flame|VOW|1
+20 Village Watch|MID|1
+20 Winterthorn Blessing|MID|1
+20 Sculpted Perfection|MOM|1
+20 Love Song of Night and Day|DMU|1
+20 Parasitic Grasp|VOW|1
+20 Calamity's Wake|BRO|1
+20 Blade-Blizzard Kitsune|NEO|1
+20 Runebound Wolf|VOW|1
+20 Riveteers Decoy|SNC|1
+20 The Fall of Lord Konda|NEO|1
+20 Sheoldred's Restoration|DMU|1
+20 Citizen's Crowbar|SNC|1
+20 Agatha's Champion|WOE|1
+20 Solitary Sanctuary|WOE|1
+20 Annex Sentry|ONE|1
+20 Lambholt Raconteur|VOW|1
+20 Obyra, Dreaming Duelist|WOE|1
+20 Coral Colony|DMU|1
+20 Cut Down|DMU|1
+20 No One Left Behind|BRO|1
+20 Junkyard Genius|BRO|1
+20 Seize the Storm|MID|1
+20 Imodane's Recruiter|WOE|1
+20 Dream Spoilers|WOE|1
+20 Sengir Connoisseur|DMU|1
+20 Invasion of Regatha|MOM|1
+20 Steel Exemplar|BRO|1
+20 Invasion of Muraganda|MOM|1
+20 Brazen Upstart|SNC|1
+20 Mirror-Shield Hoplite|MOM|1
+20 Markov Retribution|VOW|1
+20 Axgard Artisan|MOM|1
+20 Plate Armor|AFR|1
+20 Battlefield Butcher|BRO|1
+20 Ashnod's Harvester|BRO|1
+20 Cosmic Rebirth|MAT|1
+20 Eriette's Tempting Apple|WOE|1
+20 Redtooth Vanguard|WOE|1
+20 Acquisition Octopus|NEO|1
+20 Trawler Drake|ONE|1
+20 Tatyova, Steward of Tides|DMU|1
+20 Roadside Reliquary|NEO|1
+20 Fearless Skald|MOM|1
+20 Cleaving Skyrider|DMU|1
+20 Dockside Chef|NEO|1
+20 Yavimaya Iconoclast|DMU|1
+20 Infernal Grasp|MID|1
+20 Runic Shot|DMU|1
+20 Sylvok Battle-Chair|ONE|1
+20 Dissipate|MID|1
+20 Bronzeplate Boar|NEO|1
+20 White Dragon|AFR|1
+20 Vat Emergence|ONE|1
+20 Stonesplitter Bolt|WOE|1
+20 Bortuk Bonerattle|DMU|1
+20 Undercity Upheaval|MAT|1
+20 Heiko Yamazaki, the General|NEO|1
+20 Foul Play|MID|1
+20 Grisly Sigil|SNC|1
+20 Territorial Maro|DMU|1
+20 Temple of the Dragon Queen|AFR|1
+20 Pests of Honor|WOE|1
+20 Invasion of Azgol|MOM|1
+20 Reaper's Talisman|AFR|1
+20 Astral Wingspan|MOM|1
+20 Patch Up|SNC|1
+20 Prosthetic Injector|ONE|1
+20 Chittering Skitterling|ONE|1
+20 Spellscorn Coven|WOE|1
+20 Witness the Future|VOW|1
+20 Gloomshrieker|NEO|1
+20 Thermo-Alchemist|MID|1
+20 Angelic Observer|SNC|1
+20 Blood Hypnotist|VOW|1
+20 Malicious Malfunction|NEO|1
+20 Stormchaser Drake|VOW|1
+20 Bladed Ambassador|ONE|1
+20 Soul-Guide Lantern|WOE|1
+20 Rise of the Ants|MID|1
+20 Vilespawn Spider|VOW|1
+20 Relic of Legends|DMU|1
+20 Oni-Cult Anvil|NEO|1
+20 Graceful Takedown|WOE|1
+20 Nezumi Freewheeler|MOM|1
+20 Captive Weird|MOM|1
+20 Involuntary Employment|SNC|1
+20 Electrostatic Infantry|DMU|1
+20 Azusa's Many Journeys|NEO|1
+20 Thran Vigil|BRO|1
+20 Outland Liberator|MID|1
+20 Serum-Core Chimera|ONE|1
+20 Seer of Stolen Sight|MOM|1
+20 Disciplined Duelist|SNC|1
+20 Font of Progress|ONE|1
+20 Gift of Compleation|MOM|1
+20 Heirloom Mirror|MID|1
+20 Tail Swipe|DMU|1
+20 Invasion of Eldraine|MOM|1
+20 Rabbit Battery|NEO|1
+20 Shalai's Acolyte|DMU|1
+20 Exuberant Fuseling|ONE|1
+20 Kessig Naturalist|MID|1
+20 Marshal of Zhalfir|MOM|1
+20 Nimble Larcenist|SNC|1
+20 Viral Spawning|ONE|1
+20 Corruption of Towashi|MOM|1
+20 Brokers Charm|SNC|1
+20 Behold the Unspeakable|NEO|1
+20 Evolving Adaptive|ONE|1
+20 Life of Toshiro Umezawa|NEO|1
+20 Tattered Ratter|WOE|1
+20 Gnawing Vermin|BRO|1
+20 Unctus's Retrofitter|ONE|1
+20 Tura Kennerüd, Skyknight|DMU|1
+20 Filter Out|MAT|1
+20 Spinning Wheel Kick|NEO|1
+20 Groom's Finery|VOW|1
+20 Invasion of Ergamon|MOM|1
+20 Phyrexian Missionary|DMU|1
+20 Check for Traps|AFR|1
+20 Dread Fugue|VOW|1
+20 You Find Some Prisoners|AFR|1
+20 Symmetry Matrix|BRO|1
+20 Gadwick's First Duel|WOE|1
+20 Runaway Trash-Bot|NEO|1
+20 Rona, Sheoldred's Faithful|DMU|1
+20 Infectious Bite|ONE|1
+20 Markov Baron|MAT|1
+20 Galvanic Giant|WOE|1
+20 Call In a Professional|SNC|1
+20 Forge Boss|SNC|1
+20 Lightfoot Rogue|AFR|1
+20 Ruby, Daring Tracker|WOE|1
+20 Churning Reservoir|ONE|1
+20 Play with Fire|MID|1
+20 Djinn of the Fountain|DMU|1
+20 Hero's Downfall|VOW|1
+20 Gravelighter|NEO|1
+20 Deathbonnet Sprout|MID|1
+20 Choose Your Weapon|AFR|1
+20 Roaring Earth|NEO|1
+20 Hexgold Halberd|ONE|1
+20 Thirst for Discovery|VOW|1
+20 Invasion of Kylem|MOM|1
+20 Moon-Blessed Cleric|AFR|1
+20 Boundary Lands Ranger|WOE|1
+20 Protect the Negotiators|DMU|1
+20 Cathar's Call|MID|1
+20 Overwhelmed Archivist|MID|1
+20 Stroke of Midnight|WOE|1
+20 Invasion of New Capenna|MOM|1
+20 Resistance Reunited|ONE|1
+20 Linebreaker Baloth|DMU|1
+20 Loran, Disciple of History|BRO|1
+20 Audacity|BRO|1
+20 Vengeful Strangler|MID|1
+20 Harnessed Snubhorn|MAT|1
+20 Gingerbread Hunter|WOE|1
+20 Minor Misstep|ONE|1
+20 Faerie Fencing|WOE|1
+20 Druid Class|AFR|1
+20 Fallaji Vanguard|BRO|1
+20 Recruitment Officer|BRO|1
+20 Become Brutes|WOE|1
+20 Unlucky Witness|SNC|1
+20 Go-Shintai of Hidden Cruelty|NEO|1
+20 Atmosphere Surgeon|ONE|1
+20 Dutiful Griffin|WOE|1
+20 Kami of Whispered Hopes|MOM|1
+20 Cursed Courtier|WOE|1
+20 Awakened Awareness|NEO|1
+20 Covert Cutpurse|MID|1
+20 Refuse to Yield|SNC|1
+20 Chancellor of Tales|WOE|1
+20 Tanglespan Lookout|WOE|1
+20 Public Enemy|SNC|1
+20 Blossom Prancer|NEO|1
+20 Go-Shintai of Lost Wisdom|NEO|1
+20 Mishra, Excavation Prodigy|BRO|1
+20 Balduvian Berserker|DMU|1
+20 Lagrella, the Magpie|SNC|1
+20 Kappa Tech-Wrecker|NEO|1
+20 Borrowed Time|MID|1
+20 Beloved Beggar|MID|1
+20 High-Speed Hoverbike|NEO|1
+20 Sarinth Steelseeker|BRO|1
+20 Tandem Takedown|MOM|1
+20 Assassin's Ink|NEO|1
+20 Guild Thief|AFR|1
+20 Back for Seconds|WOE|1
+20 Flame Channeler|MID|1
+20 Corrupt|BRO|1
+20 Kolaghan Warmonger|MAT|1
+20 Ash, Party Crasher|WOE|1
+20 Animist's Might|MAT|1
+20 Veil of Assimilation|ONE|1
+20 Ballroom Brawlers|SNC|1
+20 Frostfist Strider|DMU|1
+20 Porcelain Zealot|ONE|1
+20 Xerex Strobe-Knight|MOM|1
+20 Royal Treatment|WOE|1
+20 Glittering Stockpile|SNC|1
+20 Tough Cookie|WOE|1
+20 Awaken the Sleeper|ONE|1
+20 Dragon's Disciple|AFR|1
+20 Reconstructed Thopter|BRO|1
+20 Seal from Existence|MOM|1
+20 Noxious Assault|ONE|1
+20 Obliterating Bolt|BRO|1
+20 Kalain, Reclusive Painter|AFR|1
+20 Cormela, Glamour Thief|SNC|1
+20 Static Net|BRO|1
+20 Fifty Feet of Rope|AFR|1
+20 Arm the Cathars|VOW|1
+20 Necrosynthesis|MID|1
+20 Plated Onslaught|ONE|1
+20 Farideh, Devil's Chosen|AFR|1
+20 Khenra Spellspear|MOM|1
+20 Red Dragon|AFR|1
+20 Markov Purifier|VOW|1
+20 Gaea's Courser|BRO|1
+20 Flame Discharge|NEO|1
+20 Sprouting Goblin|DMU|1
+20 Rootcoil Creeper|MID|1
+20 Uurg, Spawn of Turg|DMU|1
+20 Cephalopod Sentry|ONE|1
+20 Ashiok's Reaper|WOE|1
+20 Wingshield Agent|SNC|1
+20 Bride's Gown|VOW|1
+20 Ollenbock Escort|VOW|1
+20 Sudden Insight|AFR|1
+20 Split the Party|AFR|1
+20 Succumb to the Cold|WOE|1
+20 Warlock Class|AFR|1
+20 Enormous Energy Blade|NEO|1
+20 Lord Skitter's Butcher|WOE|1
+20 Divine Smite|AFR|1
+20 Ancient Lumberknot|VOW|1
+20 Mobilizer Mech|NEO|1
+20 Boarded Window|VOW|1
+20 Urza, Powerstone Prodigy|BRO|1
+20 Nahiri's Sacrifice|ONE|1
+20 Monstrous Rage|WOE|1
+20 Totentanz, Swarm Piper|WOE|1
+20 Coalition Skyknight|DMU|1
+20 Against All Odds|ONE|1
+20 Aron, Benalia's Ruin|DMU|1
+20 Panicked Bystander|VOW|1
+20 Hulking Bugbear|AFR|1
+20 Brood Weaver|MID|1
+20 Seraph of New Capenna|MOM|1
+20 Watchful Blisterzoa|ONE|1
+20 Targ Nar, Demon-Fang Gnoll|AFR|1
+20 Pilfer|DMU|1
+20 Ritual of Hope|MID|1
+20 A Little Chat|SNC|1
+20 Dungeon Crawler|AFR|1
+20 Splitting the Powerstone|BRO|1
+20 Essence Capture|NEO|1
+20 Troyan, Gutsy Explorer|WOE|1
+20 Ribskiff|ONE|1
+20 Ossification|ONE|1
+20 Undead Butler|VOW|1
+20 Iron Golem|AFR|1
+20 Shivan Branch-Burner|MOM|1
+20 Chaos Channeler|AFR|1
+20 Into the Night|VOW|1
+20 Elvish Vatkeeper|MOM|1
+20 Iron-Craw Crusher|BRO|1
+20 Tainted Indulgence|SNC|1
+20 Sacred Fire|MID|1
+20 Reality Heist|NEO|1
+20 Mask of the Jadecrafter|BRO|1
+20 Resistance Squad|VOW|1
+20 Courier's Briefcase|SNC|1
+20 Furnace Gremlin|MOM|1
+20 Pugnacious Pugilist|SNC|1
+20 Syr Armont, the Redeemer|WOE|1
+20 Rust Monster|AFR|1
+20 Inscribed Tablet|DMU|1
+20 Oakshade Stalker|VOW|1
+20 Invasion of Vryn|MOM|1
+20 Hotshot Mechanic|NEO|1
+20 Furnace Reins|MOM|1
+20 Darling of the Masses|SNC|1
+20 When We Were Young|NEO|1
+20 Twinferno|DMU|1
+20 Dreadhound|MID|1
+20 Horned Stoneseeker|BRO|1
+20 Join Forces|DMU|1
+20 You Meet in a Tavern|AFR|1
+20 Resolute Reinforcements|DMU|1
+20 Meticulous Excavation|BRO|1
+20 Soulcipher Board|VOW|1
+20 Syndicate Infiltrator|SNC|1
+20 Generous Visitor|NEO|1
+20 Cinderslash Ravager|ONE|1
+20 Keen-Eared Sentry|AFR|1
+20 Twinblade Geist|VOW|1
+20 Strength of the Coalition|DMU|1
+20 Storm the Seedcore|MOM|1
+20 Ramosian Greatsword|MOM|1
+20 Mech Hangar|NEO|1
+20 Skulking Killer|VOW|1
+20 Morbid Opportunist|MID|1
+20 Giant Cindermaw|BRO|1
+20 Night of the Sweets' Revenge|WOE|1
+20 Tyvar's Stand|ONE|1
+20 Boseiju Reaches Skyward|NEO|1
+20 Welcome to Sweettooth|WOE|1
+20 Pyre-Sledge Arsonist|SNC|1
+20 Skull Skaab|VOW|1
+20 Michiko's Reign of Truth|NEO|1
+20 Archghoul of Thraben|VOW|1
+20 Enthusiastic Mechanaut|NEO|1
+20 Eerie Interference|WOE|1
+20 Woodland Acolyte|WOE|1
+20 Fly|AFR|1
+20 Gurgling Anointer|BRO|1
+20 Glass Casket|WOE|1
+20 Imperial Recovery Unit|NEO|1
+20 Stoke the Flames|MOM|1
+20 Hama Pashar, Ruin Seeker|AFR|1
+20 Fleshtaker|MID|1
+20 Arc Spitter|SNC|1
+20 Containment Construct|NEO|1
+20 Slaughter Singer|ONE|1
+20 Markov Waltzer|VOW|1
+20 Invasion of Belenon|MOM|1
+20 Levitating Statue|BRO|1
+20 Invasion of Pyrulea|MOM|1
+20 Anchor to Reality|NEO|1
+20 Hero's Heirloom|DMU|1
+20 Hurler Cyclops|DMU|1
+20 Knight of Dusk's Shadow|DMU|1
+20 Aberrant Mind Sorcerer|AFR|1
+20 Sunrise Cavalier|MID|1
+20 Drown in Ichor|ONE|1
+20 Born to Drive|NEO|1
+20 Ceremonial Groundbreaker|SNC|1
+20 Glistening Deluge|MOM|1
+20 Braids's Frightful Return|DMU|1
+20 Unforgiving One|NEO|1
+20 Cathartic Pyre|MID|1
+20 Thirst for Knowledge|NEO|1
+20 Ego Drain|WOE|1
+20 Monk of the Open Hand|AFR|1
+20 Ambitious Farmhand|MID|1
+20 Portable Hole|AFR|1
+20 Scrappy Bruiser|MOM|1
+20 Mr. Orfeo, the Boulder|SNC|1
+20 Delver of Secrets|MID|1
+20 Illuminator Virtuoso|SNC|1
+20 Infestation Expert|VOW|1
+20 Vat of Rebirth|ONE|1
+20 Battle Cry Goblin|AFR|1
+20 Freelance Muscle|SNC|1
+20 Battery Bearer|BRO|1
+20 Atraxa's Skitterfang|ONE|1
+20 Food Coma|WOE|1
+20 Coppercoat Vanguard|MAT|1
+20 Wandering Troubadour|AFR|1
+20 Tamiyo's Immobilizer|ONE|1
+20 Phyrexian Gargantua|MOM|1
+20 Secluded Courtyard|NEO|1
+20 Baird, Argivian Recruiter|DMU|1
+20 Feywild Trickster|AFR|1
+20 Restless Bloodseeker|VOW|1
+20 Transplant Theorist|ONE|1
+20 Edgewall Inn|WOE|1
+20 Up the Beanstalk|WOE|1
+19 Invasion of Moag|MOM|1
+19 Sheoldred's Edict|ONE|1
+19 Dawnhart Mentor|MID|1
+19 Skaab Wrangler|MID|1
+19 Voice of the Vermin|SNC|1
+19 Jukai Naturalist|NEO|1
+19 Distracting Geist|VOW|1
+19 Reckless Handling|MAT|1
+19 Faithful Mending|MID|1
+19 Feast of the Victorious Dead|MAT|1
+19 Bloodtithe Harvester|VOW|1
+19 Rulik Mons, Warren Chief|DMU|1
+19 Obstinate Baloth|BRO|1
+19 Cult Conscript|DMU|1
+19 Go-Shintai of Ancient Wars|NEO|1
+19 Wicked Slumber|MOM|1
+19 Walking Skyscraper|NEO|1
+19 Black Dragon|AFR|1
+19 Archive Dragon|WOE|1
+19 Involuntary Cooldown|BRO|1
+19 Mutagen Connoisseur|MOM|1
+19 Reito Sentinel|NEO|1
+19 Riveteers Charm|SNC|1
+19 Expand the Sphere|ONE|1
+19 Su-Chi Cave Guard|BRO|1
+19 Invasion of Ulgrotha|MOM|1
+19 Seedpod Caretaker|MOM|1
+19 Dawnhart Geist|VOW|1
+19 Hungry for More|MID|1
+19 Apostle of Invasion|ONE|1
+19 Alluring Suitor|VOW|1
+19 Combat Research|DMU|1
+19 Tempest Hart|WOE|1
+19 Thopter Mechanic|BRO|1
+19 Gnottvold Hermit|MOM|1
+19 Bushwhack|BRO|1
+19 Radha, Coalition Warlord|DMU|1
+19 Torch Breath|SNC|1
+19 The Fall of Kroog|BRO|1
+19 Invigorating Hot Spring|NEO|1
+19 Barbarian Class|AFR|1
+19 Norika Yamazaki, the Poet|NEO|1
+19 Sandstalker Moloch|MOM|1
+19 Packsong Pup|VOW|1
+19 Duelcraft Trainer|MID|1
+19 Storm Skreelix|MID|1
+19 Bouncer's Beatdown|SNC|1
+19 Gavony Dawnguard|MID|1
+19 Cartographer's Survey|VOW|1
+19 Drider|AFR|1
+19 Elspeth's Smite|MOM|1
+19 Choking Miasma|DMU|1
+19 Brass Knuckles|SNC|1
+19 Corpse Cobble|MID|1
+19 Go for the Throat|BRO|1
+19 Blight Pile|DMU|1
+19 Boon of Boseiju|NEO|1
+19 Covert Technician|NEO|1
+19 Obscura Charm|SNC|1
+19 Tenacious Tomeseeker|WOE|1
+19 Tear Asunder|DMU|1
+19 Infested Fleshcutter|ONE|1
+19 Serum Snare|ONE|1
+19 Phyrexian Censor|MOM|1
+19 Third Path Iconoclast|BRO|1
+19 Rogues' Gallery|SNC|1
+19 Angelic Quartermaster|VOW|1
+19 Defend the Celestus|MID|1
+19 Crawling Infestation|VOW|1
+19 Disciples of Gix|BRO|1
+19 Transmogrant Altar|BRO|1
+19 The Witch's Vanity|WOE|1
+19 Cacophony Scamp|ONE|1
+19 Vampire Socialite|MID|1
+19 Forging the Anchor|BRO|1
+19 Slimefoot's Survey|DMU|1
+19 Purple Worm|AFR|1
+19 Mishra's Research Desk|BRO|1
+19 Crew Captain|SNC|1
+19 Ravenous Sailback|MOM|1
+19 Out of the Way|SNC|1
+19 Mage's Attendant|SNC|1
+19 Joint Exploration|DMU|1
+19 Contortionist Troupe|MID|1
+19 Ingenious Smith|AFR|1
+19 Invasion of Mercadia|MOM|1
+19 Edgar's Awakening|VOW|1
+19 Intrepid Trufflesnout|WOE|1
+19 Stimulus Package|SNC|1
+19 Diregraf Rebirth|MID|1
+19 Cradle Clearcutter|BRO|1
+19 Invasion of Xerex|MOM|1
+19 Whack|SNC|1
+19 Demolition Field|BRO|1
+19 Battlewing Mystic|DMU|1
+19 Gruesome Realization|BRO|1
+19 Selfless Samurai|NEO|1
+19 Laid to Rest|VOW|1
+19 Tolarian Contempt|MAT|1
+19 Patchwork Automaton|NEO|1
+19 Magma Pummeler|VOW|1
+19 Lagomos, Hand of Hatred|DMU|1
+19 Reinforced Ronin|NEO|1
+19 Ray of Enfeeblement|AFR|1
+19 Tori D'Avenant, Fury Rider|DMU|1
+19 Discover the Impossible|NEO|1
+19 Botanical Brawler|MOM|1
+19 Bruenor Battlehammer|AFR|1
+19 Belligerent of the Ball|WOE|1
+19 Take Flight|BRO|1
+19 Knockout Blow|SNC|1
+19 Oracle of Tragedy|MOM|1
+19 Vohar, Vodalian Desecrator|DMU|1
+19 Pyrrhic Blast|BRO|1
+19 Illicit Shipment|SNC|1
+19 Dryad's Revival|MID|1
+19 Mischievous Catgeist|VOW|1
+19 Frolicking Familiar|WOE|1
+19 Tainted Observer|ONE|1
+19 Charging Hooligan|WOE|1
+19 Corpse Appraiser|SNC|1
+19 Stormkeld Vanguard|WOE|1
+19 Hexgold Hoverwings|ONE|1
+19 Raff, Weatherlight Stalwart|DMU|1
+19 Sleep with the Fishes|SNC|1
+19 Cement Shoes|SNC|1
+19 Prodigy's Prototype|NEO|1
+19 Seismic Wave|NEO|1
+19 Monstrous War-Leech|DMU|1
+19 Rocco, Cabaretti Caterer|SNC|1
+19 Callous Sell-Sword|WOE|1
+19 Artistic Refusal|MOM|1
+19 Ghoulish Procession|MID|1
+19 Magmatic Sprinter|ONE|1
+19 Invasion of Amonkhet|MOM|1
+19 Joyful Stormsculptor|MOM|1
+19 Blue Dragon|AFR|1
+19 Cloister Gargoyle|AFR|1
+19 Go-Shintai of Shared Purpose|NEO|1
+19 Spiked Ripsaw|VOW|1
+19 Picnic Ruiner|WOE|1
+19 Magic Missile|AFR|1
+19 Sky-Blessed Samurai|NEO|1
+19 Nimraiser Paladin|ONE|1
+19 Yotian Frontliner|BRO|1
+19 Icewrought Sentry|WOE|1
+19 Haywire Mite|BRO|1
+19 Jodah's Codex|DMU|1
+19 Arcane Infusion|MID|1
+19 Twinshot Sniper|NEO|1
+19 Graveyard Shift|SNC|1
+19 Invasion of Kaladesh|MOM|1
+19 Hulking Metamorph|BRO|1
+19 Scheming Aspirant|ONE|1
+19 Render Inert|MOM|1
+19 Dawnhart Wardens|MID|1
+19 Yotia Declares War|DMU|1
+19 Colossal Skyturtle|NEO|1
+19 Sunset Revelry|MID|1
+19 Luxurious Libation|SNC|1
+19 Screaming Swarm|VOW|1
+19 Bladehold War-Whip|ONE|1
+19 Cankerbloom|ONE|1
+19 Circle of Confinement|VOW|1
+19 Leech Gauntlet|NEO|1
+19 Necrogen Communion|ONE|1
+19 Blot Out|MAT|1
+19 Two-Headed Hunter|WOE|1
+19 Grim Wanderer|AFR|1
+19 Provisions Merchant|WOE|1
+19 Zhalfirin Lancer|MOM|1
+19 Raffine's Silencer|SNC|1
+19 Collector's Vault|WOE|1
+19 Storyweave|NEO|1
+19 Ambulatory Edifice|ONE|1
+19 Halo Forager|MOM|1
+19 Riveteers Requisitioner|SNC|1
+19 Upriser Renegade|NEO|1
+19 Sanguine Statuette|VOW|1
+19 Elas il-Kor, Sadistic Pilgrim|DMU|1
+19 Sokenzan Smelter|NEO|1
+19 Baneblade Scoundrel|MID|1
+19 Experimental Confectioner|WOE|1
+19 Harried Artisan|MOM|1
+19 Picklock Prankster|WOE|1
+19 Fallaji Dragon Engine|BRO|1
+19 Compleated Huntmaster|MOM|1
+19 Night Clubber|SNC|1
+19 Ichorplate Golem|ONE|1
+19 Clear Shot|MID|1
+19 Necrogen Rotpriest|ONE|1
+19 Dreams of Steel and Oil|BRO|1
+19 Lurking Roper|AFR|1
+19 Rona's Vortex|DMU|1
+19 Vampires' Vengeance|VOW|1
+19 Ballista Watcher|VOW|1
+19 Alloy Animist|BRO|1
+19 Retrieve|VOW|1
+19 Tavern Swindler|SNC|1
+19 Hurloon Battle Hymn|DMU|1
+7 Valiant Veteran|DMU|1
+7 Tawnos, the Toymaker|BRO|1
+7 Ziatora's Proving Ground|SNC|1
+7 Lord Skitter, Sewer King|WOE|1
+7 March of Wretched Sorrow|NEO|1
+7 Odric, Blood-Cursed|VOW|1
+7 Leyline Binding|DMU|1
+7 Vraan, Executioner Thane|ONE|1
+7 Vindictive Flamestoker|ONE|1
+7 Orb of Dragonkind|AFR|1
+7 Jaxis, the Troublemaker|SNC|1
+7 Getaway Car|SNC|1
+7 Wildwood Mentor|WOE|1
+7 Hallowed Respite|MID|1
+7 Ayara, Widow of the Realm|MOM|1
+7 Mind Flayer|AFR|1
+7 Adeline, Resplendent Cathar|MID|1
+7 Ghalta and Mavren|MOM|1
+7 Kaito, Dancing Shadow|ONE|1
+7 The Mightstone and Weakstone|BRO|1
+7 Graf Reaver|VOW|1
+7 Stenn, Paranoid Partisan|DMU|1
+7 Mirran Safehouse|ONE|1
+7 Dancing Sword|AFR|1
+7 Gruff Triplets|WOE|1
+7 Urza's Command|BRO|1
+7 Maestros Ascendancy|SNC|1
+6 Biting-Palm Ninja|NEO|1
+6 Wight|AFR|1
+6 Gumdrop Poisoner|WOE|1
+6 Cut of the Profits|SNC|1
+6 Circle of Dreams Druid|AFR|1
+6 Workshop Warchief|SNC|1
+6 Spark Rupture|MAT|1
+6 Brotherhood's End|BRO|1
+6 Tribute to the World Tree|MOM|1
+6 Sunfall|MOM|1
+6 Errant, Street Artist|SNC|1
+6 Brokers Ascendancy|SNC|1
+6 Rundvelt Hordemaster|DMU|1
+6 Hiveheart Shaman|VOW|1
+6 Black Sun's Twilight|ONE|1
+6 Glistening Dawn|MOM|1
+6 Polukranos Reborn|MOM|1
+6 Archfiend of the Dross|ONE|1
+6 Pithing Needle|MID|1
+6 Hoarding Broodlord|MOM|1
+6 Fight Rigging|SNC|1
+6 Mechanized Warfare|BRO|1
+6 Deathcap Glade|VOW|1
+6 Shipwreck Marsh|MID|1
+6 Nemata, Primeval Warden|DMU|1
+6 Ogre-Head Helm|NEO|1
+6 Augur of Autumn|MID|1
+6 Dire-Strain Rampage|MID|1
+6 Bard Class|AFR|1
+6 Light-Paws, Emperor's Voice|NEO|1
+6 Thousand-Faced Shadow|NEO|1
+6 Hostile Takeover|SNC|1
+6 Scalding Viper|WOE|1
+6 Shakedown Heavy|SNC|1
+6 Voice of the Blessed|VOW|1
+6 Rona, Herald of Invasion|MOM|1
+6 A Tale for the Ages|WOE|1
+6 The Huntsman's Redemption|WOE|1
+6 Thrun, Breaker of Silence|ONE|1
+6 Willow Geist|MID|1
+6 Hidetsugu, Devouring Chaos|NEO|1
+6 Voldaren Bloodcaster|VOW|1
+6 Zenith Chronicler|ONE|1
+6 Thundering Raiju|NEO|1
+6 Sanguine Spy|SNC|1
+6 Defiler of Vigor|DMU|1
+6 Kayla's Command|BRO|1
+6 Unnatural Growth|MID|1
+6 Nahiri's Warcrafting|MOM|1
+6 Faerie Mastermind|MOM|1
+6 Invoke Calamity|NEO|1
+6 Expel the Interlopers|WOE|1
+6 Ozolith, the Shattered Spire|MOM|1
+6 Cave of the Frost Dragon|AFR|1
+6 Mindsplice Apparatus|ONE|1
+6 Kessig Wolfrider|VOW|1
+6 Charming Scoundrel|WOE|1
+6 Invasion of Karsus|MOM|1
+6 Devilish Valet|SNC|1
+6 Errant and Giada|MOM|1
+6 Skystrike Officer|BRO|1
+6 Consuming Tide|VOW|1
+6 Eater of Virtue|NEO|1
+6 Razorverge Thicket|ONE|1
+6 Llanowar Greenwidow|DMU|1
+6 Plargg and Nassari|MAT|1
+6 Danitha, New Benalia's Light|MAT|1
+6 Incandescent Aria|SNC|1
+6 Sundown Pass|VOW|1
+6 Paladin Class|AFR|1
+6 Fauna Shaman|BRO|1
+6 Tovolar, Dire Overlord|MID|1
+6 Tablet of Compleation|ONE|1
+6 Vodalian Hexcatcher|DMU|1
+6 Raffine's Tower|SNC|1
+6 Curse of Surveillance|MID|1
+6 Evolved Spinoderm|ONE|1
+6 Long Rest|AFR|1
+6 Werewolf Pack Leader|AFR|1
+6 The Restoration of Eiganjo|NEO|1
+6 Gelatinous Cube|AFR|1
+6 Karumonix, the Rat King|ONE|1
+6 Deification|MAT|1
+6 Thalia, Guardian of Thraben|VOW|1
+6 Kyodai, Soul of Kamigawa|NEO|1
+6 Anje, Maid of Dishonor|VOW|1
+6 Steel Seraph|BRO|1
+6 Twining Twins|WOE|1
+6 Boon-Bringer Valkyrie|MOM|1
+6 Yenna, Redtooth Regent|WOE|1
+6 Yavimaya Coast|DMU|1
+6 Cruel Somnophage|WOE|1
+6 Defiler of Instinct|DMU|1
+6 Tyvar, Jubilant Brawler|ONE|1
+6 Bramble Familiar|WOE|1
+6 Drana and Linvala|MOM|1
+6 Hall of Tagsin|BRO|1
+6 Storm the Festival|MID|1
+6 Mercurial Spelldancer|ONE|1
+6 Woodcaller Automaton|BRO|1
+6 Park Heights Pegasus|SNC|1
+6 Metropolis Reformer|MAT|1
+6 Ovika, Enigma Goliath|ONE|1
+6 Mask of Griselbrand|MID|1
+6 Fateful Absence|MID|1
+6 Farsight Ritual|WOE|1
+6 Jadar, Ghoulcaller of Nephalia|MID|1
+6 The Cruelty of Gix|DMU|1
+6 Regal Bunnicorn|WOE|1
+6 Arni Metalbrow|MAT|1
+6 Thunderous Debut|WOE|1
+6 Monk Class|AFR|1
+6 Urabrask's Forge|ONE|1
+6 Guardian of New Benalia|DMU|1
+6 Light Up the Night|MID|1
+6 Westgate Regent|AFR|1
+6 Unleash the Inferno|SNC|1
+6 Mysterious Limousine|SNC|1
+6 Faerie Slumber Party|WOE|1
+6 Archon of the Wild Rose|WOE|1
+6 Brushland|BRO|1
+6 Champion of the Perished|MID|1
+6 Greasefang, Okiba Boss|NEO|1
+6 Essence of Orthodoxy|MOM|1
+6 Topiary Stomper|SNC|1
+6 Teleportation Circle|AFR|1
+6 Dragonwing Glider|ONE|1
+6 Grazilaxx, Illithid Scholar|AFR|1
+6 Jhoira, Ageless Innovator|DMU|1
+6 Fateful Handoff|BRO|1
+6 Rotisserie Elemental|WOE|1
+6 Hall of Storm Giants|AFR|1
+6 Knight-Errant of Eos|MOM|1
+6 Urza, Prince of Kroog|BRO|1
+6 Falkenrath Forebear|VOW|1
+6 Hurkyl, Master Wizard|BRO|1
+6 Otawara, Soaring City|NEO|1
+6 Malevolent Hermit|MID|1
+6 Venser, Corpse Puppet|ONE|1
+6 Briarbridge Tracker|MID|1
+6 Restless Bivouac|WOE|1
+6 Quintorius, Loremaster|MOM|1
+6 Stormcarved Coast|VOW|1
+6 Thran Spider|BRO|1
+6 Three Blind Mice|WOE|1
+6 Guardian of Ghirapur|MOM|1
+6 True Polymorph|AFR|1
+6 Widespread Thieving|SNC|1
+6 Omnath, Locus of All|MOM|1
+6 Restless Vinestalk|WOE|1
+6 Loyal Warhound|AFR|1
+6 Evolved Sleeper|DMU|1
+6 Ill-Tempered Loner|VOW|1
+6 Likeness Looter|WOE|1
+6 Skrelv, Defector Mite|ONE|1
+6 Zalto, Fire Giant Duke|AFR|1
+6 Migloz, Maze Crusher|ONE|1
+6 Song of Totentanz|WOE|1
+6 Golden Argosy|DMU|1
+6 Redcap Gutter-Dweller|WOE|1
+6 Restless Fortress|WOE|1
+6 Sigarda's Splendor|MID|1
+6 Soul of Emancipation|SNC|1
+6 Katilda, Dawnhart Prime|MID|1
+6 Restless Spire|WOE|1
+6 Green Sun's Twilight|ONE|1
+6 Bloodfeather Phoenix|MOM|1
+6 Ledger Shredder|SNC|1
+6 Kaya, Intangible Slayer|ONE|1
+6 Reckoner Bankbuster|NEO|1
+6 Den of the Bugbear|AFR|1
+6 Red Sun's Twilight|ONE|1
+6 Grafted Butcher|MOM|1
+6 The Stasis Coffin|BRO|1
+6 Eye of Vecna|AFR|1
+6 Jetmir's Garden|SNC|1
+6 Old Rutstein|VOW|1
+6 Falkenrath Pit Fighter|MID|1
+6 Invoke the Ancients|NEO|1
+6 Jor Kadeen, First Goldwarden|ONE|1
+6 Voldaren Estate|VOW|1
+6 Ognis, the Dragon's Lash|SNC|1
+6 Defiler of Faith|DMU|1
+6 Cabaretti Ascendancy|SNC|1
+6 Invasion of Ixalan|MOM|1
+6 Ertai Resurrected|DMU|1
+6 Glissa, Herald of Predation|MOM|1
+6 Urborg Lhurgoyf|DMU|1
+6 Path of Peril|VOW|1
+6 Defiler of Dreams|DMU|1
+6 Terror of Towashi|MOM|1
+6 Ratadrabik of Urborg|DMU|1
+6 Serra Redeemer|DMU|1
+6 Creepy Puppeteer|VOW|1
+6 Galvanic Iteration|MID|1
+6 Defiler of Flesh|DMU|1
+6 Talion's Messenger|WOE|1
+6 Dreamshackle Geist|VOW|1
+6 Geth, Thane of Contracts|ONE|1
+6 Splendid Reclamation|VOW|1
+6 Patchwork Crawler|VOW|1
+6 Guardian of Faith|AFR|1
+6 Tribute to Horobi|NEO|1
+6 Painful Quandary|BRO|1
+6 Extraction Specialist|SNC|1
+6 Aether Channeler|DMU|1
+6 Gixian Puppeteer|BRO|1
+6 Orthion, Hero of Lavabrink|MOM|1
+6 Evolving Door|SNC|1
+6 Heartflame Duelist|WOE|1
+6 Ochre Jelly|AFR|1
+6 Aven Heartstabber|SNC|1
+6 Oswald Fiddlebender|AFR|1
+6 Dominating Vampire|VOW|1
+6 Cloudsteel Kirin|NEO|1
+6 Monument to Perfection|ONE|1
+6 Lizard Blades|NEO|1
+6 Vanquish the Horde|MID|1
+6 Llanowar Loamspeaker|DMU|1
+6 Imodane, the Pyrohammer|WOE|1
+6 The Raven Man|DMU|1
+6 Slaughter Specialist|MID|1
+6 Jolrael, Voice of Zhalfir|MAT|1
+6 Perennial Behemoth|BRO|1
+6 Delina, Wild Mage|AFR|1
+6 Dig Up|VOW|1
+6 The Apprentice's Folly|WOE|1
+6 Geistflame Reservoir|MID|1
+6 Sulfurous Springs|DMU|1
+6 Fortified Beachhead|BRO|1
+6 Leyline Immersion|MAT|1
+6 Wish|AFR|1
+6 Baral and Kari Zev|MOM|1
+6 Haunted Ridge|MID|1
+6 Plaza of Heroes|DMU|1
+6 The Stone Brain|BRO|1
+6 Chrome Host Seedshark|MOM|1
+6 Invasion of Arcavios|MOM|1
+6 Training Grounds|MAT|1
+6 Shattered Sanctum|VOW|1
+6 The Eternal Wanderer|ONE|1
+6 Adarkar Wastes|DMU|1
+6 Vesuvan Drifter|MAT|1
+6 Queen Kayla bin-Kroog|BRO|1
+6 Glorious Sunrise|VOW|1
+6 Tyrant of Kher Ridges|BRO|1
+6 Urza Assembles the Titans|DMU|1
+6 Kami of Transience|NEO|1
+6 Academy Loremaster|DMU|1
+6 Invasion of Theros|MOM|1
+6 March of Otherworldly Light|NEO|1
+6 Faunsbane Troll|WOE|1
+6 Nadaar, Selfless Paladin|AFR|1
+6 Black Market Tycoon|SNC|1
+6 Howlpack Piper|VOW|1
+6 Brilliant Restoration|NEO|1
+6 Eruth, Tormented Prophet|VOW|1
+6 Ghoulcaller's Harvest|MID|1
+6 Triskaidekaphile|MID|1
+6 The Kenriths' Royal Funeral|MAT|1
+6 Ragefire Hellkite|DMU|1
+6 Llanowar Wastes|BRO|1
+6 Olivia's Attendants|VOW|1
+6 Evelyn, the Covetous|SNC|1
+6 Threats Undetected|DMU|1
+6 Runo Stromkirk|VOW|1
+6 Graveyard Trespasser|MID|1
+6 Progenitor Exarch|MOM|1
+6 Scrap Welder|NEO|1
+6 Caves of Koilos|DMU|1
+6 Vadrik, Astral Archmage|MID|1
+6 Gix's Command|BRO|1
+6 Sorcerer Class|AFR|1
+6 White Sun's Twilight|ONE|1
+6 Invasion of Ikoria|MOM|1
+6 Inga and Esika|MOM|1
+6 Meteor Swarm|AFR|1
+6 Ziatora's Envoy|SNC|1
+6 Ludevic, Necrogenius|MID|1
+6 Isshin, Two Heavens as One|NEO|1
+6 Undercover Operative|SNC|1
+6 Reckless Stormseeker|MID|1
+6 Bloated Processor|MOM|1
+6 Mosswood Dreadknight|WOE|1
+6 Malevolent Witchkite|WOE|1
+6 Werefox Bodyguard|WOE|1
+6 Overgrown Farmland|MID|1
+6 Braids, Arisen Nightmare|DMU|1
+6 Dusk Legion Duelist|MOM|1
+6 Kayla's Reconstruction|BRO|1
+6 Anointed Peacekeeper|DMU|1
+6 Elusive Otter|WOE|1
+6 Farewell|NEO|1
+6 The Goose Mother|WOE|1
+6 Lord Skitter's Blessing|WOE|1
+6 Seachrome Coast|ONE|1
+6 Investigator's Journal|VOW|1
+6 Breach the Multiverse|MOM|1
+6 The Mycosynth Gardens|ONE|1
+6 Argoth, Sanctum of Nature|BRO|1
+6 Spring-Leaf Avenger|NEO|1
+6 Rampaging Raptor|MOM|1
+6 Yuan-Ti Malison|AFR|1
+6 Archpriest of Shadows|MOM|1
+6 Structural Assault|SNC|1
+6 Rabble Rousing|SNC|1
+6 Encroaching Mycosynth|ONE|1
+6 Rivaz of the Claw|DMU|1
+6 Dungeon Descent|AFR|1
+6 Orcus, Prince of Undeath|AFR|1
+6 Wedding Announcement|VOW|1
+6 Varis, Silverymoon Ranger|AFR|1
+6 Decadent Dragon|WOE|1
+6 Kogla and Yidaro|MOM|1
+6 Battlefield Forge|BRO|1
+6 Heliod, the Radiant Dawn|MOM|1
+6 Obscura Ascendancy|SNC|1
+6 Curse of Shaken Faith|MID|1
+6 Sleep-Cursed Faerie|WOE|1
+6 Extraordinary Journey|WOE|1
+6 Chaotic Transformation|DMU|1
+6 Elvish Archivist|WOE|1
+6 Phyrexian Dragon Engine|BRO|1
+6 King Darien XLVIII|DMU|1
+6 Conduit of Worlds|ONE|1
+6 Ancient Imperiosaur|MOM|1
+6 Gisa, Glorious Resurrector|MID|1
+6 Asmodeus the Archfiend|AFR|1
+6 Minion of the Mighty|AFR|1
+6 Ulvenwald Oddity|VOW|1
+6 Howling Moon|VOW|1
+6 The Blackstaff of Waterdeep|AFR|1
+6 Teachings of the Kirin|NEO|1
+6 Simian Simulacrum|BRO|1
+6 Invasion of Alara|MOM|1
+6 Gala Greeters|SNC|1
+6 Jirina, Dauntless General|MAT|1
+6 Razorlash Transmogrant|BRO|1
+6 Tameshi, Reality Architect|NEO|1
+6 City on Fire|MOM|1
+6 Hostile Negotiations|BRO|1
+6 Instrument of the Bards|AFR|1
+6 Florian, Voldaren Scion|MID|1
+6 Nashi, Moon's Legacy|MAT|1
+6 Weaver of Harmony|NEO|1
+6 Dollhouse of Horrors|VOW|1
+6 Underground River|BRO|1
+6 Lich-Knights' Conquest|WOE|1
+6 Melira, the Living Cure|ONE|1
+6 Forsworn Paladin|AFR|1
+6 Mechtitan Core|NEO|1
+6 Rogue Class|AFR|1
+6 Karplusan Forest|DMU|1
+6 Questing Druid|WOE|1
+6 Rem Karolus, Stalwart Slayer|MID|1
+6 Xander's Lounge|SNC|1
+6 Into the Fire|MOM|1
+6 Hurkyl's Final Meditation|BRO|1
+6 Rocco, Street Chef|MAT|1
+6 The Filigree Sylex|ONE|1
+6 Ogre Chitterlord|WOE|1
+6 Froghemoth|AFR|1
+6 Deathbloom Ritualist|BRO|1
+6 Rankle's Prank|WOE|1
+6 Titania's Command|BRO|1
+6 Stensia Uprising|VOW|1
+6 Blackcleave Cliffs|ONE|1
+6 Unlicensed Hearse|SNC|1
+6 Malcator, Purity Overseer|ONE|1
+6 Sungold Sentinel|MID|1
+6 Inventive Iteration|NEO|1
+6 Unctus, Grand Metatect|ONE|1
+6 Hobgoblin Bandit Lord|AFR|1
+6 Tangled Colony|WOE|1
+6 Takenuma, Abandoned Mire|NEO|1
+6 Lady of Laughter|WOE|1
+6 Flumph|AFR|1
+6 Invasion of Segovia|MOM|1
+6 Koth, Fire of Resistance|ONE|1
+6 Misery's Shadow|BRO|1
+6 Dreamroot Cascade|VOW|1
+6 Slobad, Iron Goblin|ONE|1
+6 Harbin, Vanguard Aviator|BRO|1
+6 Rite of Harmony|MID|1
+6 Vorpal Sword|AFR|1
+6 Maestros Diabolist|SNC|1
+6 Raging Battle Mouse|WOE|1
+6 Katilda, Dawnhart Martyr|VOW|1
+6 Raiyuu, Storm's Edge|NEO|1
+6 Sigarda, Font of Blessings|MAT|1
+6 Concealing Curtains|VOW|1
+6 Ayara's Oathsworn|MAT|1
+6 Visions of Phyrexia|BRO|1
+6 Mirrex|ONE|1
+6 Mishra, Tamer of Mak Fawa|BRO|1
+6 Curse of Hospitality|VOW|1
+6 Tenacious Underdog|SNC|1
+6 Hylda's Crown of Winter|WOE|1
+6 Siphon Insight|MID|1
+6 Suspicious Stowaway|MID|1
+6 Nahiri's Resolve|MAT|1
+6 Shadow of Mortality|SNC|1
+6 Goliath Hatchery|ONE|1
+6 Skeletal Swarming|AFR|1
+6 Risona, Asari Commander|NEO|1
+6 Ashnod, Flesh Mechanist|BRO|1
+6 Rescue Retriever|BRO|1
+6 Brutal Cathar|MID|1
+6 Silver Scrutiny|DMU|1
+6 Invasion of Tolvada|MOM|1
+6 Terror Ballista|BRO|1
+6 Rigo, Streetwise Mentor|SNC|1
+6 Tyrannical Pitlord|DMU|1
+6 Danitha, Benalia's Hope|DMU|1
+6 Rebuild the City|MAT|1
+6 Eiganjo, Seat of the Empire|NEO|1
+6 Feral Encounter|WOE|1
+6 Dying to Serve|VOW|1
+6 Edgar, Charmed Groom|VOW|1
+6 See Double|MOM|1
+6 Glissa Sunslayer|ONE|1
+6 Soulless Jailer|ONE|1
+6 Hamlet Vanguard|VOW|1
+6 Serum Sovereign|ONE|1
+6 Graaz, Unstoppable Juggernaut|ONE|1
+6 Quirion Beastcaller|DMU|1
+6 Pile On|MOM|1
+6 Lantern Flare|VOW|1
+6 Leaf-Crowned Visionary|DMU|1
+6 Shivan Reef|DMU|1
+6 Inspired Idea|VOW|1
+6 Reservoir Kraken|SNC|1
+6 Open the Way|MAT|1
+6 Niv-Mizzet, Supreme|MAT|1
+6 Teething Wurmlet|BRO|1
+6 Hoard Hauler|SNC|1
+6 Ranger Class|AFR|1
+6 Fleetfoot Dancer|SNC|1
+6 Mishra's Foundry|BRO|1
+6 Grafted Identity|MID|1
+6 Croaking Counterpart|MID|1
+6 Dorothea, Vengeful Victim|VOW|1
+6 Tatsunari, Toad Rider|NEO|1
+6 Bloodline Culling|MID|1
+6 Restless Cottage|WOE|1
+6 Argentum Masticore|ONE|1
+6 Surrak and Goreclaw|MOM|1
+6 Mirror Box|NEO|1
+6 Dennick, Pious Apprentice|MID|1
+6 Autonomous Assembler|BRO|1
+6 Transmogrant's Crown|BRO|1
+6 Invasion of Gobakhan|MOM|1
+6 Satoru Umezawa|NEO|1
+6 The Irencrag|WOE|1
+6 Endless Detour|SNC|1
+6 Boseiju, Who Endures|NEO|1
+6 Liesa, Forgotten Archangel|MID|1
+6 Pollen-Shield Hare|WOE|1
+6 Meria, Scholar of Antiquity|DMU|1
+6 Invasion of Kaldheim|MOM|1
+6 Sigarda's Summons|VOW|1
+6 Ingenious Prodigy|WOE|1
+6 Torens, Fist of the Angels|VOW|1
+6 Copperline Gorge|ONE|1
+6 Kinzu of the Bleak Coven|ONE|1
+6 Mite Overseer|ONE|1
+6 Mirrorhall Mimic|VOW|1
+6 Saryth, the Viper's Fang|MID|1
+6 Bloated Contaminator|ONE|1
+6 Burn Down the House|MID|1
+6 Kethek, Crucible Goliath|ONE|1
+6 Shigeki, Jukai Visionary|NEO|1
+6 Tovolar's Huntmaster|MID|1
+6 Temporal Firestorm|DMU|1
+6 Norn's Wellspring|ONE|1
+6 The End|WOE|1
+6 Tasha's Hideous Laughter|AFR|1
+6 Smoldering Egg|MID|1
+6 Gwenna, Eyes of Gaea|BRO|1
+6 Tocasia, Dig Site Mentor|BRO|1
+6 Archangel of Wrath|DMU|1
+6 Headless Rider|VOW|1
+6 Food Fight|WOE|1
+6 Cosmic Epiphany|DMU|1
+6 March of Reckless Joy|NEO|1
+6 Sphere of Annihilation|AFR|1
+6 Eiganjo Uprising|NEO|1
+6 Skrelv's Hive|ONE|1
+6 Keldon Flamesage|DMU|1
+6 Voldaren Thrillseeker|MOM|1
+6 Drizzt Do'Urden|AFR|1
+6 Satsuki, the Living Lore|NEO|1
+6 Cemetery Tampering|SNC|1
+6 Triumphant Adventurer|AFR|1
+6 Hinata, Dawn-Crowned|NEO|1
+6 Geology Enthusiast|BRO|1
+6 Hopeful Initiate|VOW|1
+6 Rhuk, Hexgold Nabber|ONE|1
+6 Jinnie Fay, Jetmir's Second|SNC|1
+6 Ezuri, Stalker of Spheres|ONE|1
+6 Patrician Geist|MID|1
+6 Hidetsugu and Kairi|MOM|1
+6 Goro-Goro, Disciple of Ryusei|NEO|1
+6 Lair of the Hydra|AFR|1
+6 Sludge Monster|MID|1
+6 Etali, Primal Conqueror|MOM|1
+6 Temporary Lockdown|DMU|1
+6 Angelfire Ignition|MID|1
+6 Spiteful Hexmage|WOE|1
+6 March of Burgeoning Life|NEO|1
+6 Radha's Firebrand|DMU|1
+6 Bloodvial Purveyor|VOW|1
+6 Old Stickfingers|MID|1
+6 Venerated Rotpriest|ONE|1
+6 The Monumental Facade|ONE|1
+6 Haughty Djinn|DMU|1
+6 Blue Sun's Twilight|ONE|1
+6 Ascendant Packleader|VOW|1
+6 Realmbreaker, the Invasion Tree|MOM|1
+6 Corpse Explosion|SNC|1
+6 Scheming Fence|SNC|1
+6 Mishra's Command|BRO|1
+6 Memory Deluge|MID|1
+6 Adult Gold Dragon|AFR|1
+6 Fighter Class|AFR|1
+6 Invasion of Fiora|MOM|1
+6 Syr Ginger, the Meal Ender|WOE|1
+6 Loran of the Third Path|BRO|1
+6 Siege Veteran|BRO|1
+6 Soul Partition|BRO|1
+6 Soul Transfer|NEO|1
+6 Void Rend|SNC|1
+6 Feldon, Ronom Excavator|BRO|1
+6 Sokenzan, Crucible of Defiance|NEO|1
+6 Rankle and Torbran|MOM|1
+6 Doomskar Warrior|MOM|1
+6 Hajar, Loyal Bodyguard|BRO|1
+6 Over the Top|BRO|1
+6 Vodalian Mindsinger|DMU|1
+6 Specter of Mortality|WOE|1
+6 Kotose, the Silent Spider|NEO|1
+6 Spellbook Vendor|WOE|1
+6 Horned Loch-Whale|WOE|1
+6 Interdisciplinary Mascot|MOM|1
+6 Winged Portent|VOW|1
+6 Transcendent Message|MOM|1
+6 March of Swirling Mist|NEO|1
+6 Lion Sash|NEO|1
+6 Riveteers Ascendancy|SNC|1
+6 Surgehacker Mech|NEO|1
+6 The Celestus|MID|1
+6 Sentinel of Lost Lore|WOE|1
+6 Spara's Headquarters|SNC|1
+6 Squee, Dubious Monarch|DMU|1
+6 Volo, Guide to Monsters|AFR|1
+6 Depopulate|SNC|1
+6 Professional Face-Breaker|SNC|1
+6 Wizard's Spellbook|AFR|1
+6 Curse of Leeches|MID|1
+6 Briar Hydra|DMU|1
+6 Obscura Interceptor|SNC|1
+6 Shadow-Rite Priest|DMU|1
+6 Complete the Circuit|MOM|1
+6 Phyrexian Arena|ONE|1
+6 The Temporal Anchor|BRO|1
+6 Hand of Vecna|AFR|1
+6 Welcoming Vampire|VOW|1
+6 Zephyr Singer|MOM|1
+6 Dreadfeast Demon|VOW|1
+6 Xorn|AFR|1
+6 Toluz, Clever Conductor|SNC|1
+6 Mukotai Soulripper|NEO|1
+6 The Seedcore|ONE|1
+6 Cut Your Losses|SNC|1
+6 Fable of the Mirror-Breaker|NEO|1
+6 Slogurk, the Overslime|MID|1
+6 The Elder Dragon War|DMU|1
+6 Stronghold Arena|DMU|1
+6 Treasure Chest|AFR|1
+6 Artificer's Dragon|BRO|1
+6 Treasure Vault|AFR|1
+6 Blade of Shared Souls|ONE|1
+6 Geralf, Visionary Stitcher|VOW|1
+6 Giada, Font of Hope|SNC|1
+6 Invoke Justice|NEO|1
+6 Darkslick Shores|ONE|1
+6 Drag to the Bottom|DMU|1
+6 Curse of Silence|MID|1
+6 Tocasia's Welcome|BRO|1
+6 Kemba, Kha Enduring|ONE|1
+6 Demonic Bargain|VOW|1
+6 Drannith Ruins|MAT|1
+6 Invoke Despair|NEO|1
+6 Terisian Mindbreaker|BRO|1
+6 Herd Migration|DMU|1
+6 Change of Fortune|VOW|1
+6 Dragon Turtle|AFR|1
+6 Devouring Sugarmaw|WOE|1
+6 Wiretapping|SNC|1
+6 Goddric, Cloaked Reveler|WOE|1
+6 Ivy, Gleeful Spellthief|DMU|1
+6 Liberator, Urza's Battlethopter|BRO|1
+6 Tazri, Stalwart Survivor|MAT|1
+6 By Invitation Only|VOW|1
+6 The Dragon-Kami Reborn|NEO|1
+6 Drafna, Founder of Lat-Nam|BRO|1
+6 Can't Stay Away|MID|1
+6 Deeproot Wayfinder|MOM|1
+6 Grolnok, the Omnivore|VOW|1
+6 Halana and Alena, Partners|VOW|1
+6 Djeru and Hazoret|MOM|1
+6 Hullbreaker Horror|VOW|1
+6 The Reality Chip|NEO|1
+6 Hive of the Eye Tyrant|AFR|1
+6 Deserted Beach|MID|1
+6 Invoke the Winds|NEO|1
+6 Urborg Scavengers|MAT|1
+6 Yargle and Multani|MOM|1
+6 Pia Nalaar, Consul of Revival|MAT|1
+6 Astor, Bearer of Blades|DMU|1
+6 Fade from History|BRO|1
+6 Rockfall Vale|MID|1
+6 Legions to Ashes|BRO|1
+6 The Phasing of Zhalfir|DMU|1
+1 The Book of Exalted Deeds|AFR|1
+1 Vorinclex|MOM|1
+1 Kroxa and Kunoros|MOM|1
+1 Teferi, Who Slows the Sunset|MID|1
+1 Blossoming Tortoise|WOE|1
+1 Blade of the Oni|NEO|1
+1 Zurgo and Ojutai|MOM|1
+1 Wrenn and Realmbreaker|MOM|1
+1 Serra Paragon|DMU|1
+1 Arlinn, the Pack's Hope|MID|1
+1 Saheeli, Filigree Master|BRO|1
+1 Borborygmos and Fblthp|MOM|1
+1 Explosive Singularity|NEO|1
+1 Ob Nixilis, Captive Kingpin|MAT|1
+1 Arcane Bombardment|SNC|1
+1 Phyrexian Fleshgorger|BRO|1
+1 Invasion of Innistrad|MOM|1
+1 Manaform Hellkite|VOW|1
+1 Kaito Shizuki|NEO|1
+1 Virtue of Persistence|WOE|1
+1 Agatha's Soul Cauldron|WOE|1
+1 Beseech the Mirror|WOE|1
+1 Even the Score|SNC|1
+1 Elspeth Resplendent|SNC|1
+1 Invasion of Tarkir|MOM|1
+1 Savior of Ollenbock|VOW|1
+1 Grand Master of Flowers|AFR|1
+1 Kairi, the Swirling Sky|NEO|1
+1 Hidetsugu Consumes All|NEO|1
+1 Tyrranax Rex|ONE|1
+1 Myrel, Shield of Argive|BRO|1
+1 Mondrak, Glory Dominus|ONE|1
+1 Lord Xander, the Collector|SNC|1
+1 Ichormoon Gauntlet|ONE|1
+1 Flameskull|AFR|1
+1 Chandra, Hope's Beacon|MOM|1
+1 Awaken the Woods|BRO|1
+1 Demilich|AFR|1
+1 Virtue of Strength|WOE|1
+1 Luxior, Giada's Gift|SNC|1
+1 Mordenkainen|AFR|1
+1 Vraska, Betrayal's Sting|ONE|1
+1 Will, Scion of Peace|WOE|1
+1 The Kami War|NEO|1
+1 Sol'Kanar the Tainted|DMU|1
+1 Moonshaker Cavalry|WOE|1
+1 Lier, Disciple of the Drowned|MID|1
+1 Ashiok, Wicked Manipulator|WOE|1
+1 Old Gnawbone|AFR|1
+1 Ajani, Sleeper Agent|DMU|1
+1 Monastery Mentor|MOM|1
+1 Halo Fountain|SNC|1
+1 Eriette of the Charmed Apple|WOE|1
+1 Minsc, Beloved Ranger|AFR|1
+1 Atsushi, the Blazing Sky|NEO|1
+1 Nissa, Resurgent Animist|MAT|1
+1 Bootleggers' Stash|SNC|1
+1 Meeting of the Five|SNC|1
+1 Teferi, Temporal Pilgrim|BRO|1
+1 Virtue of Courage|WOE|1
+1 Angel of Suffering|SNC|1
+1 Sheoldred, the Apocalypse|DMU|1
+1 All Will Be One|ONE|1
+1 Vivien on the Hunt|SNC|1
+1 Tamiyo, Compleated Sage|NEO|1
+1 Ao, the Dawn Sky|NEO|1
+1 Ob Nixilis, the Adversary|SNC|1
+1 Karn's Sylex|DMU|1
+1 Sarinth Greatwurm|BRO|1
+1 Virtue of Knowledge|WOE|1
+1 Sheoldred|MOM|1
+1 Beluna Grandsquall|WOE|1
+1 Titania, Voice of Gaea|BRO|1
+1 Jetmir, Nexus of Revels|SNC|1
+1 Urza, Lord Protector|BRO|1
+1 Rowan, Scion of War|WOE|1
+1 Hylda of the Icy Crown|WOE|1
+1 Kodama of the West Tree|NEO|1
+1 Skitterbeam Battalion|BRO|1
+1 Acererak the Archlich|AFR|1
+1 Lord of the Forsaken|MID|1
+1 Jerren, Corrupted Bishop|MID|1
+1 Nahiri, Forged in Fury|MAT|1
+1 Karn, Living Legacy|DMU|1
+1 Sarkhan, Soul Aflame|MAT|1
+1 Moonveil Regent|MID|1
+1 Tyvar the Bellicose|MAT|1
+1 Sanctuary Warden|SNC|1
+1 Jacob Hauken, Inspector|VOW|1
+1 Drivnod, Carnage Dominus|ONE|1
+1 Cemetery Prowler|VOW|1
+1 Volatile Arsonist|VOW|1
+1 The Tarrasque|AFR|1
+1 Shanna, Purifying Blade|DMU|1
+1 Poppet Stitcher|MID|1
+1 Kura, the Boundless Sky|NEO|1
+1 Karn, Legacy Reforged|MAT|1
+1 Rith, Liberated Primeval|DMU|1
+1 Cemetery Protector|VOW|1
+1 Urabrask|MOM|1
+1 Liliana of the Veil|DMU|1
+1 Toxrill, the Corrosive|VOW|1
+1 Invasion of Shandalar|MOM|1
+1 Intrepid Adversary|MID|1
+1 Cemetery Illuminator|VOW|1
+1 Soul of Windgrace|DMU|1
+1 Platoon Dispenser|BRO|1
+1 All-Seeing Arbiter|SNC|1
+1 Phyrexian Obliterator|ONE|1
+1 Invasion of New Phyrexia|MOM|1
+1 The World Spell|DMU|1
+1 Realm-Scorcher Hellkite|WOE|1
+1 The Book of Vile Darkness|AFR|1
+1 Calix, Guided by Fate|MAT|1
+1 Zimone and Dina|MOM|1
+1 Cemetery Gatekeeper|VOW|1
+1 Zariel, Archduke of Avernus|AFR|1
+1 Ziatora, the Incinerator|SNC|1
+1 Nahiri, the Unforgiving|ONE|1
+1 Draconic Destiny|BRO|1
+1 Vesuvan Duplimancy|DMU|1
+1 Cultivator Colossus|VOW|1
+1 Kellan, the Fae-Blooded|WOE|1
+1 Sphinx of Clear Skies|DMU|1
+1 Sorin the Mirthless|VOW|1
+1 Hallowed Haunting|VOW|1
+1 The Meathook Massacre|MID|1
+1 Jin-Gitaxias|MOM|1
+1 Urza's Sylex|BRO|1
+1 Urabrask, Heretic Praetor|SNC|1
+1 Virtue of Loyalty|WOE|1
+1 Sunstreak Phoenix|MID|1
+1 Gix, Yawgmoth Praetor|BRO|1
+1 Wrenn and Seven|MID|1
+1 Staff of Compleation|ONE|1
+1 Jugan Defends the Temple|NEO|1
+1 Bladecoil Serpent|BRO|1
+1 Nashi, Moon Sage's Scion|NEO|1
+1 Kiora, Sovereign of the Deep|MAT|1
+1 Ellywick Tumblestrum|AFR|1
+1 Zopandrel, Hunger Dominus|ONE|1
+1 Arcane Proxy|BRO|1
+1 Xanathar, Guild Kingpin|AFR|1
+1 Mishra, Claimed by Gix|BRO|1
+1 Jace, the Perfected Mind|ONE|1
+1 Tezzeret, Betrayer of Flesh|NEO|1
+1 Cemetery Desecrator|VOW|1
+1 Narset, Enlightened Exile|MAT|1
+1 Chandra, Dressed to Kill|VOW|1
+1 Nissa, Ascended Animist|ONE|1
+1 Titan of Industry|SNC|1
+1 In the Trenches|BRO|1
+1 Rootwire Amalgam|BRO|1
+1 Hostile Hostel|MID|1
+1 Jaya, Fiery Negotiator|DMU|1
+1 Asinine Antics|WOE|1
+1 Timeless Lotus|DMU|1
+1 One with the Multiverse|BRO|1
+1 Capricious Hellraiser|ONE|1
+1 Body Launderer|SNC|1
+1 Thalia and The Gitrog Monster|MOM|1
+1 Inferno of the Star Mounts|AFR|1
+1 Sword of Forge and Frontier|ONE|1
+1 Weatherlight Compleated|DMU|1
+1 Solphim, Mayhem Dominus|ONE|1
+1 Iymrith, Desert Doom|AFR|1
+1 Falco Spara, Pactweaver|SNC|1
+1 Enduring Angel|MID|1
+1 Avabruck Caretaker|VOW|1
+1 Samut, Vizier of Naktamun|MAT|1
+1 Archangel Elspeth|MOM|1
+1 Zur, Eternal Schemer|DMU|1
+1 Tekuthal, Inquiry Dominus|ONE|1
+1 Jin-Gitaxias, Progress Tyrant|NEO|1
+1 Talion, the Kindly Lord|WOE|1
+1 Silverback Elder|DMU|1
+1 Clay Champion|BRO|1
+1 Icingdeath, Frost Tyrant|AFR|1
+1 Surge Engine|BRO|1
+1 The Deck of Many Things|AFR|1
+1 Elesh Norn|MOM|1
+1 Portal to Phyrexia|BRO|1
+1 The Wandering Emperor|NEO|1
+1 Sigardian Savior|MID|1
+1 Lolth, Spider Queen|AFR|1
+1 Lukka, Bound to Ruin|ONE|1
+1 Elesh Norn, Mother of Machines|ONE|1
+1 Raffine, Scheming Seer|SNC|1
+1 Sword of Once and Future|MOM|1
+1 Necroduality|VOW|1
+1 Consuming Blob|MID|1
+1 Agatha of the Vile Cauldron|WOE|1
+1 Faithbound Judge|VOW|1
+1 Henrika Domnathi|VOW|1
+1 Atraxa, Grand Unifier|ONE|1
+1 Ebondeath, Dracolich|AFR|1
+1 Jodah, the Unifier|DMU|1
+1 Invasion of Ravnica|MOM|1
+1 Phyrexian Vindicator|ONE|1
+1 Spirit-Sister's Call|NEO|1
+1 Tiamat|AFR|1
+1 Cityscape Leveler|BRO|1
+1 Shivan Devastator|DMU|1
+1 Kaya, Geist Hunter|VOW|1
+1 Junji, the Midnight Sky|NEO|1
+1 Sigarda, Champion of Light|MID|1
+1 Olivia, Crimson Bride|VOW|1

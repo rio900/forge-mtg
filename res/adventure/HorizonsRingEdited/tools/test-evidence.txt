@@ -1,0 +1,143 @@
+AUDIT MH1 255 {C=101, L=5, M=15, R=54, U=80} [Snow-Covered Forest, Snow-Covered Island, Snow-Covered Mountain, Snow-Covered Plains, Snow-Covered Swamp] digital=[]
+AUDIT packs MH1 {MH1=1500}
+AUDIT MH2 310 {C=101, L=5, M=25, R=78, U=101} [Forest, Island, Mountain, Plains, Swamp] digital=[A-Dragon's Rage Channeler]
+AUDIT packs MH2 {MH2=1500}
+AUDIT LTR 291 {C=103, L=5, M=23, R=80, U=80} [Forest, Island, Mountain, Plains, Swamp] digital=[A-Orcish Bowmasters, A-The One Ring]
+AUDIT packs LTR {LTR=1500}
+AUDIT LTR Courageous 1 20 [LTR]
+AUDIT LTR Courageous 2 20 [LTR]
+AUDIT LTR Journey 1 20 [LTR]
+AUDIT LTR Journey 2 20 [LTR]
+AUDIT LTR Marauders 1 20 [LTR]
+AUDIT LTR Marauders 2 20 [LTR]
+AUDIT LTR Mordor 1 20 [LTR]
+AUDIT LTR Mordor 2 20 [LTR]
+AUDIT LTR Tricksy 1 20 [LTR]
+AUDIT LTR Tricksy 2 20 [LTR]
+AUDIT name-only Plains|ECL
+AUDIT name-only Forest|ECL
+AUDIT name-only Counterspell|PF26
+Validated 576 enemy deck references, 390 maps (296 reachable from POIs) and 222 distinct loot rules.
+VERIFIED Easy 464 enemies; 566 files
+VERIFIED Normal 464 enemies; 566 files
+VERIFIED Hard 464 enemies; 566 files
+VERIFIED Insane 464 enemies; 566 files
+VERIFIED ALL DECK FILES 576
+STOCK RingTownWhite [C, M, R, U]
+STOCK RingTownWhiteCreatures [C, M, R, U]
+STOCK RingTownBlue [C, M, R, U]
+STOCK RingTownBlueCreatures [C, M, R, U]
+STOCK RingTownBlack [C, M, R, U]
+STOCK RingTownBlackCreatures [C, M, R, U]
+STOCK RingTownRed [C, M, R, U]
+STOCK RingTownRedCreatures [C, M, R, U]
+STOCK RingTownGreen [C, M, R, U]
+STOCK RingTownGreenCreatures [C, M, R, U]
+STOCK RingTownColorless [C, M, R, U]
+STOCK RingTownColorlessCreatures [C, M, R, U]
+VERIFIED LOOT RULES 222
+VERIFIED SKETCHBOOKS 2 land editions=[MH2, LTR]
+PASS card instances=194510 shops=292
+VERIFIED Easy 464 enemies; 566 files
+VERIFIED Normal 464 enemies; 566 files
+VERIFIED Hard 464 enemies; 566 files
+VERIFIED Insane 464 enemies; 566 files
+VERIFIED ALL DECK FILES 576
+STOCK RingTownWhite [C, M, R, U]
+STOCK RingTownWhiteCreatures [C, M, R, U]
+STOCK RingTownBlue [C, M, R, U]
+STOCK RingTownBlueCreatures [C, M, R, U]
+STOCK RingTownBlack [C, M, R, U]
+STOCK RingTownBlackCreatures [C, M, R, U]
+STOCK RingTownRed [C, M, R, U]
+STOCK RingTownRedCreatures [C, M, R, U]
+STOCK RingTownGreen [C, M, R, U]
+STOCK RingTownGreenCreatures [C, M, R, U]
+STOCK RingTownColorless [C, M, R, U]
+STOCK RingTownColorlessCreatures [C, M, R, U]
+VERIFIED LOOT RULES 222
+VERIFIED SKETCHBOOKS 2 land editions=[MH2, LTR]
+PASS card instances=197576 shops=292
+EVENT sealed MH1
+EVENT draft MH1 picks=45
+EVENT sealed MH2
+EVENT draft MH2 picks=45
+EVENT sealed LTR
+EVENT draft LTR picks=45
+PLAY new world Horizons Test POIs=748
+PLAY town ../HorizonsRingEdited/maps/map/towns/forest_town_generic.tmx visit 0 [Bellowing Elk|MH1|1, Conifer Wurm|MH1|1, Entish Restoration|LTR|2, Yavimaya Elder|MH2|1]
+PLAY town ../HorizonsRingEdited/maps/map/towns/forest_town_generic.tmx visit 1 [Bellowing Elk|MH1|1, Conifer Wurm|MH1|1, Entish Restoration|LTR|2, Yavimaya Elder|MH2|1]
+PLAY boss conceded; match complete
+PLAY collected [Slagwoods Bridge|MH2|1, Prismatic Vista|MH1|1]
+CHAOS Random deck : [Random] outside=55 of 60
+CHAOS Timber Wolves|30A
+CHAOS Patron of the Orochi|BOK
+CHAOS Patron of the Orochi|BOK
+CHAOS Nissa's Revelation|GNT
+CHAOS Nissa's Revelation|GNT
+CUSTOM imported Counterspell|ICE
+Pilot round robin
+ninja		4 Wins(0 Byes)-0 Losses-0 Ties	=>	12 Points
+starter		3 Wins(0 Byes)-1 Losses-0 Ties	=>	9 Points
+elf		2 Wins(0 Byes)-2 Losses-0 Ties	=>	6 Points
+goblin		1 Wins(0 Byes)-3 Losses-0 Ties	=>	3 Points
+liliana		0 Wins(0 Byes)-4 Losses-0 Ties	=>	0 Points
+Liliana rematch
+Game Result: Game 1 ended in 8672 ms. Ai(1)-liliana has won!
+Game Result: Game 2 ended in 6174 ms. Ai(1)-liliana has won!
+Game Result: Game 3 ended in 4251 ms. Ai(2)-ninja has won!
+Game Result: Game 4 ended in 2116 ms. Ai(1)-liliana has won!
+NEGATIVE CONTROL rejected ICE
+
+Reward rolls (forced trigger, both variant settings)
+RESULT true rules=232 {boss={LTR=352, MH1=316, MH2=481}, chest={LTR=536, MH1=616, MH2=627}, enemy={LTR=3965, MH1=3680, MH2=5837}, map={LTR=941, MH1=934, MH2=1069}, prize packs={LTR=360, MH1=360, MH2=360}, quest={LTR=358, MH1=282, MH2=588}}
+RESULT false rules=232 {boss={LTR=344, MH1=336, MH2=489}, chest={LTR=554, MH1=610, MH2=606}, enemy={LTR=3968, MH1=3644, MH2=5842}, map={LTR=899, MH1=903, MH2=1142}, prize packs={LTR=360, MH1=360, MH2=360}, quest={LTR=326, MH1=315, MH2=559}}
+
+Six-card town stores
+useAllCardVariants=true, 12 town configurations
+PASS card instances=233947 shops=292
+useAllCardVariants=false, 12 town configurations
+PASS card instances=234475 shops=292
+PLAY town ../HorizonsRingEdited/maps/map/towns/forest_town_tribal.tmx visit 0 [Blossoming Calm|MH2|1, Springbloom Druid|MH1|1, Stalwarts of Osgiliath|LTR|1, Twin-Silk Spider|MH1|1, Wall of Blossoms|MH1|1, Wren's Run Hydra|MH2|1]
+PLAY town ../HorizonsRingEdited/maps/map/towns/forest_town_tribal.tmx visit 1 [Blossoming Calm|MH2|1, Springbloom Druid|MH1|1, Stalwarts of Osgiliath|LTR|1, Twin-Silk Spider|MH1|1, Wall of Blossoms|MH1|1, Wren's Run Hydra|MH2|1]
+PLAY shards 4 -> 2
+PLAY refreshed [Aeve, Progenitor Ooze|MH2|1, Mother Bear|MH1|1, Rising of the Day|LTR|1, Shortcut to Mushrooms|LTR|1, Slagwoods Bridge|MH2|1, Timeless Witness|MH2|1]
+PLAY town ../HorizonsRingEdited/maps/map/towns/forest_town_tribal.tmx visit 2 [Aeve, Progenitor Ooze|MH2|1, Mother Bear|MH1|1, Rising of the Day|LTR|1, Shortcut to Mushrooms|LTR|1, Slagwoods Bridge|MH2|1, Timeless Witness|MH2|1]
+
+Chaos via plane launcher overlay
+CHAOS verified 80 starts of 60 cards, outside=0
+PLAY Chaos starter verified 60 cards, outside=0
+
+Independent town shops, 2026-11-13
+useAllCardVariants=true 12 town vendors verified; PASS card instances=272087 shops=292
+useAllCardVariants=false 12 town vendors verified; PASS card instances=272171 shops=292
+PLAY town ../HorizonsRingEdited/maps/map/towns/waste_town_generic.tmx visit 0 [Extruder|MH2|1, Faramir, Prince of Ithilien|LTR|1, Inherited Envelope|LTR|1, Lembas|LTR|1, Old Man Willow|LTR|1, Zuran Orb|MH2|1]
+PLAY RingTownColorless colored general offers [Old Man Willow|LTR|1, Faramir, Prince of Ithilien|LTR|1]
+PLAY town ../HorizonsRingEdited/maps/map/towns/waste_town_generic.tmx visit 1 [Extruder|MH2|1, Faramir, Prince of Ithilien|LTR|1, Inherited Envelope|LTR|1, Lembas|LTR|1, Old Man Willow|LTR|1, Zuran Orb|MH2|1]
+PLAY RingTownColorless colored general offers [Old Man Willow|LTR|1, Faramir, Prince of Ithilien|LTR|1]
+PLAY shards 4 -> 2
+PLAY RingTownColorless colored general offers [The Mouth of Sauron|LTR|1, Caprichrome|MH2|1, Gimli, Mournful Avenger|LTR|1]
+PLAY refreshed [Caprichrome|MH2|1, Gimli, Mournful Avenger|LTR|1, Mirror of Galadriel|LTR|1, Steel Dromedary|MH2|1, The Mouth of Sauron|LTR|1, Vectis Gloves|MH2|1]
+PLAY town ../HorizonsRingEdited/maps/map/towns/waste_town_generic.tmx visit 2 [Caprichrome|MH2|1, Gimli, Mournful Avenger|LTR|1, Mirror of Galadriel|LTR|1, Steel Dromedary|MH2|1, The Mouth of Sauron|LTR|1, Vectis Gloves|MH2|1]
+PLAY RingTownColorless colored general offers [The Mouth of Sauron|LTR|1, Caprichrome|MH2|1, Gimli, Mournful Avenger|LTR|1]
+Modern shops, capitals and bosses (2026-11-15)
+useAllCardVariants=true
+ARENA Green collected Arboreal Grazer|WAR
+ARENA Black collected Shardless Agent|MH2
+ARENA Red collected Monastery Swiftspear|KTK
+ARENA White collected Griselbrand|AVR
+ARENA Blue collected Griselbrand|AVR
+MODERN verified all 44 actual card rolls and five arena pools
+PASS card instances=279705 shops=292
+useAllCardVariants=false
+ARENA Green collected Stomping Ground|GPT
+ARENA Black collected Temple Garden|RAV
+ARENA Red collected Thoughtseize|LRW
+ARENA White collected Emrakul, the Aeons Torn|ROE
+ARENA Blue collected Breeding Pool|DIS
+MODERN verified all 44 actual card rolls and five arena pools
+PASS card instances=279690 shops=292
+PLAY Modern purchase variants=false Mishra's Bauble|CSP|1
+PLAY Modern purchase variants=true Stomping Ground|GPT|1
+Add To Stack: Griselbrand cast Goryo's Vengeance targeting [Griselbrand (171)]
+Add To Stack: liliana triggered Sheoldred, the Apocalypse

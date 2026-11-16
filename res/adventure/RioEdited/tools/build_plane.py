@@ -39,12 +39,15 @@ def limit_town_shops(root, filename):
         if shop not in keep:
             group.remove(shop)
             continue
+        if Path(shop.get('template')).stem == 'RotatingShop':
+            shop.set('template', str(Path(shop.get('template')).with_name('shop.tx')))
+            shop.attrib.pop('type', None)
         props=shop.find('properties')
         if props is None:props=ET.SubElement(shop,'properties')
         for prop in list(props):
             if prop.get('name','').endswith('ShopList') or prop.get('name') in ('shopList','rotation','noRestock'):props.remove(prop)
         ET.SubElement(props,'property',name='commonShopList',value=keep[shop])
-        ET.SubElement(props,'property',name='noRestock',type='bool',value='true')
+        ET.SubElement(props,'property',name='noRestock',type='bool',value='false')
 
 BASIC = dict(zip('WUBRG', ['Plains', 'Island', 'Swamp', 'Mountain', 'Forest']))
 BITS = {c: 1 << i for i, c in enumerate(BASIC)}
@@ -471,59 +474,26 @@ class Builder:
             point['map']=route(target)
         emit(PLANE/'world/points_of_interest.json',dump(points))
 
-    def town_rewards(self, color, creatures):
-        # Three separate shortlists keep the guaranteed offers useful and distinct.
-        lists = {
-            'White': [('Inspiring Overseer','Spirited Companion','Cathar Commando'),
-                      ('Annex Sentry','Ambitious Farmhand','Coppercoat Vanguard'),
-                      ('Illuminator Virtuoso','Jawbone Duelist','Ingenious Smith')],
-            'Blue': [('Moon-Circuit Hacker','Lantern Bearer',"Malcator's Watcher"),
-                     ('Faerie Vandal','Thopter Mechanic','Picklock Prankster'),
-                     ('Stormchaser Drake','Prosperous Thief','Trawler Drake')],
-            'Black': [('Shambling Ghast','Phyrexian Rager','Nezumi Informant'),
-                      ('Fell Stinger','Morbid Opportunist','Cult Conscript'),
-                      ('Dockside Chef','Gravelighter',"Knight of Dusk's Shadow")],
-            'Red': [('Voldaren Epicure','Ratcatcher Trainee','Witty Roastmaster'),
-                    ('Monastery Swiftspear','Phoenix Chick','Battle Cry Goblin'),
-                    ('Electrostatic Infantry','Rabbit Battery','Reinforced Ronin')],
-            'Green': [('Jewel Thief','Argothian Opportunist','Fang of Shigeki'),
-                      ('Cankerbloom','Armored Scrapgorger','Prosperous Innkeeper'),
-                      ('Tough Cookie','Kami of Whispered Hopes','Outland Liberator')],
-            'Colorless': [('Iron Apprentice','Gingerbrute','Skittering Surveyor'),
-                          ('Circuit Mender','Patchwork Automaton','Myr Convert'),
-                          ('Containment Construct',"Atraxa's Skitterfang",'Towashi Guide-Bot')],
-        }
-        spells = {'White':('Destroy Evil','Ossification'), 'Blue':('Consider','Fading Hope'),
-                  'Black':('Deadly Dispute','Go for the Throat'), 'Red':('Lightning Strike','Play with Fire'),
-                  'Green':('Bite Down','Tail Swipe'), 'Colorless':('Energy Refractor','Levitating Statue')}
-        groups=[list(group) for group in lists[color]]
-        if not creatures:
-            common,uncommon=spells[color]
-            groups[0].append(common)
-            groups[2].append(uncommon)
-        rules=[]
-        reserved=set()
-        for group,rarity in zip(groups,'CUU'):
-            choices=[]
-            for name in group:
-                card=self.legal[name]
-                assert card.rarity==rarity and name not in reserved, (name,rarity)
-                reserved.add(name)
-                choices.append({'cardName':name+'|'+card.edition})
-            rules.append({'type':'Union','count':1,'cardUnion':choices})
-        mask={'White':1,'Blue':2,'Black':4,'Red':8,'Green':16,'Colorless':0}[color]
-        theme=color+('Creatures' if creatures else '')
-        rows=Counter()
-        for rarity,count in [('C',30),('U',50),('R',18),('M',2)]:
-            pool=sorted((c.name for c in self.spells if c.mask==mask and c.rarity==rarity
-                         and c.name not in reserved and (not creatures or 'Creature' in c.kinds)),
-                        key=lambda n:(stable(theme+n),n))
-            assert pool, (theme,rarity)
-            rows.update(pool[i%len(pool)] for i in range(count))
-        ref='decks/shop/'+theme+'.dck'
-        self.write_deck(ref,theme+' shop pool',{'Main':rows})
-        rules.append({'type':'card','count':1,'sourceDeck':ref})
-        return rules
+    def town_pool(self, theme, weights, mask=None):
+        eligible = [c for c in self.legal.values()
+                    if not c.removed and (mask is None or c.mask == mask)]
+        pools = {r: sorted((c.name for c in eligible if c.rarity == r),
+                           key=lambda name: (stable(theme+name), name)) for r in weights}
+        assert all(pools.values()), theme
+        scale = max(math.ceil(len(pool)/weights[r]) for r,pool in pools.items())
+        rows = Counter()
+        for rarity, names in pools.items():
+            copies, extra = divmod(weights[rarity]*scale, len(names))
+            rows.update({name: copies + (i < extra) for i,name in enumerate(names)})
+        path = 'decks/shop/'+theme+'.dck'
+        self.write_deck(path,theme+' shop pool',{'Main':rows})
+        return [{'type':'card','count':1,'sourceDeck':path} for _ in range(3)]
+
+    def town_stock(self):
+        shared = self.town_pool('OpenTown', {'U':80, 'R':19, 'M':1})
+        masks = {'White':1,'Blue':2,'Black':4,'Red':8,'Green':16,'Colorless':0}
+        return {color:self.town_pool(color, {'C':30,'U':50,'R':18,'M':2}, mask)+shared
+                for color,mask in masks.items()}
 
     def stores(self):
         shops=json.loads((ORIGINAL/'world/shops.json').read_text());self.reward(shops)
@@ -546,10 +516,10 @@ class Builder:
                         if 'subTypes' in rule:rule['subTypes']=['Horror']
                         if 'cardText' in rule:rule['cardText']='Powerstone'
         by_name={shop['name']:shop for shop in shops}
+        town_stock=self.town_stock()
         for color in TOWN_COLORS.values():
             for suffix in ('','Creatures'):
-                rewards=self.town_rewards(color,bool(suffix))
-                shops.append(dict(by_name[color],name='RioTown'+color+suffix,rewards=rewards))
+                shops.append(dict(by_name[color],name='RioTown'+color+suffix,rewards=town_stock[color]))
         shops.append(dict(by_name['BoosterPackShop'],name='RioTownBooster',unlimited=False,
                           rewards=[{'type':'cardPackShop','count':1,'editions':PACKS}]))
         shops.append(dict(by_name['Equipment'],name='RioTownEquipment',unlimited=False,

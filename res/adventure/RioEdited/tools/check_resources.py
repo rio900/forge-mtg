@@ -45,6 +45,10 @@ def main():
                 name, edition, art = entry.split("|")
                 assert edition in cfg["allowedEditions"] and name not in banned and int(art) > 0, (f, entry)
                 counts[name] += int(quantity)
+        # Shop pool quantities are draw weights, not playable deck counts.
+        if f.parent == PLANE / "decks/shop":
+            assert counts and all(q > 0 for q in counts.values()), f
+            continue
         assert all(n in BASICS or q <= 4 for n, q in counts.items()), f
     mappings = list(csv.DictReader((PLANE / "tools/enemy-mapping.tsv").open(), delimiter="\t"))
     refs = {r["local"] for r in mappings}
@@ -80,14 +84,20 @@ def main():
             objects = list(root.iter("object"))
             vendors = [o for o in objects if Path(o.get("template", "")).stem in ("shop", "RotatingShop")]
             assert len(vendors) == 3 and sum(o.get("template", "").endswith("/inn.tx") for o in objects) == 1, rel
+            for vendor in vendors:
+                assert Path(vendor.get("template")).name == "shop.tx", rel
+                restock = vendor.find("properties/property[@name='noRestock']")
+                assert restock is not None and restock.get("value") == "false", rel
             names = [o.find("properties/property[@name='commonShopList']").get("value") for o in vendors]
             assert all(n in shops for n in names) and "RioTownBooster" in names, (rel, names)
             singles = [shops[n] for n in names if n.startswith("RioTown") and n not in ("RioTownEquipment", "RioTownBooster")]
             assert len(singles) == 1, rel
             slots = singles[0]["rewards"]
-            assert [rule["count"] for rule in slots] == [1, 1, 1, 1], rel
-            assert all(r["type"] == "Union" and r["cardUnion"] for r in slots[:3]), rel
-            assert (PLANE / slots[3]["sourceDeck"]).is_file(), rel
+            assert [rule["count"] for rule in slots] == [1] * 6, rel
+            theme = singles[0]["name"].removeprefix("RioTown").removesuffix("Creatures")
+            paths = ["decks/shop/"+theme+".dck"]*3 + ["decks/shop/OpenTown.dck"]*3
+            for rule, path in zip(slots, paths):
+                assert rule == {"type":"card","count":1,"sourceDeck":path} and (PLANE/path).is_file(), rel
         if effective != f:
             original = ET.parse(f)
             assert [n.text for n in root.iter("data")] == [n.text for n in original.iter("data")], rel

@@ -46,7 +46,7 @@ def limit_town_shops(root, filename):
         for prop in list(props):
             if prop.get('name','').endswith('ShopList') or prop.get('name') in ('shopList','rotation','noRestock'):props.remove(prop)
         ET.SubElement(props,'property',name='commonShopList',value=keep[shop])
-        ET.SubElement(props,'property',name='noRestock',type='bool',value='true')
+        ET.SubElement(props,'property',name='noRestock',type='bool',value='false')
 
 BASIC = dict(zip('WUBRG', ['Plains', 'Island', 'Swamp', 'Mountain', 'Forest']))
 BITS = {c: 1 << i for i, c in enumerate(BASIC)}
@@ -231,7 +231,9 @@ class Builder:
             rows=Counter()
             for line in sheets[key].strip().splitlines():
                 count,name=line.split(' ',1)
-                rows[name.split('|')[0]]+=int(count)
+                name = name.split('|')[0]
+                # The installed Forge AI throws when evaluating Giant Koi's untargeted Pump effect.
+                rows['Serpent of the Pass' if name == 'Giant Koi' else name] += int(count)
             assert sum(rows.values())==20,key
             return rows
         for color,keys in themes.items():
@@ -239,14 +241,15 @@ class Builder:
             standard=sections(PLANE/'decks/pilot/Allies.dck')['Main'] if color=='W' else parts[0]+parts[1]
             self.write_deck('decks/starter/standard-'+color+'.dck','Allies' if color=='W' else keys[0]+' / '+keys[1],{'Main':standard})
             for i,diff in enumerate(CONFIG['difficulties']):
-                for mode,second in [('constructed',parts[(i+1)%4]),('pile',parts[(i+2)%4])]:
-                    first=parts[i] if mode=='constructed' else packet(themes['WUBRG'[('WUBRG'.index(color)+1)%5]][i])
-                    rows=first+second
-                    self.write_deck(f'decks/starter/{mode}-{diff["name"]}-{color}.dck',mode+' '+diff['name']+' '+color,{'Main':rows})
+                rows = parts[i] + parts[(i+1)%4]
+                if "Glider Kids" in rows and not rows["Plains"]:
+                    rows["First-Time Flyer"] += rows.pop("Glider Kids")
+                self.write_deck(f'decks/starter/constructed-{diff["name"]}-{color}.dck',
+                                'constructed '+diff['name']+' '+color, {'Main':rows})
             commanders={'W':'Suki, Kyoshi Captain','U':'Katara, Waterbending Master','B':'Koh, the Face Stealer',
                         'R':'Zuko, Firebending Master','G':'Toph, Earthbending Master'}
             commander=commanders[color]
-            options=[c for c in self.candidates(BITS[color]) if c.name!=commander]
+            options=[c for c in self.candidates(BITS[color]) if c.name not in {commander, 'Giant Koi'}]
             options.sort(key=lambda c:(-int(c.name in standard),-len(c.roles & self.db[commander].roles),c.mask==0,stable(c.name)))
             selected=[]
             for lo,hi,count in [(0,2,24),(3,3,15),(4,4,11),(5,20,12)]:
@@ -482,38 +485,19 @@ class Builder:
                 point['map']=ref.replace('../common/','../'+PLANE.name+'/',1)
         emit(PLANE/'world/points_of_interest.json',dump(points))
 
-    def town_rewards(self, color, creatures):
-        mask={'White':1,'Blue':2,'Black':4,'Red':8,'Green':16,'Colorless':0}[color]
-        pool=[c for c in self.spells if c.mask==mask and
-              (not creatures or ('Artifact' if mask==0 else 'Creature') in c.kinds)]
-        groups=[]
-        for rarity,slots in [('C',1),('U',2)]:
-            names=sorted(c.name for c in pool if c.rarity==rarity)
-            width=min(3,(len(names)-1)//slots)
-            assert width>=1,(color,rarity)
-            groups.extend(names[i*width:(i+1)*width] for i in range(slots))
-        rules=[]
-        reserved=set()
-        for group,rarity in zip(groups,'CUU'):
-            choices=[]
-            for name in group:
-                card=self.legal[name]
-                assert card.rarity==rarity and name not in reserved, (name,rarity)
-                reserved.add(name)
-                choices.append({'cardName':name+'|'+card.edition})
-            rules.append({'type':'Union','count':1,'cardUnion':choices})
-        mask={'White':1,'Blue':2,'Black':4,'Red':8,'Green':16,'Colorless':0}[color]
-        theme=color+('Creatures' if creatures else '')
-        rows=Counter()
-        for rarity,count in [('C',30),('U',50),('R',18),('M',2)]:
-            choices=sorted((c.name for c in pool if c.rarity==rarity and c.name not in reserved),
-                        key=lambda n:(stable(theme+n),n))
-            assert choices, (theme,rarity)
-            rows.update(choices[i%len(choices)] for i in range(count))
-        ref='decks/shop/'+theme+'.dck'
-        self.write_deck(ref,theme+' shop pool',{'Main':rows})
-        rules.append({'type':'card','count':1,'sourceDeck':ref})
-        return rules
+    def weighted_shop_slot(self, theme, pool, weights):
+        by_rarity = {r: sorted(c.name for c in pool if c.rarity == r) for r in weights}
+        assert all(by_rarity.values()), theme
+        # Give every eligible name a chance while preserving exact rarity percentages.
+        scale = max(math.ceil(len(names) / weights[r]) for r, names in by_rarity.items())
+        rows = Counter()
+        for rarity, names in by_rarity.items():
+            names.sort(key=lambda name: stable(theme + name))
+            copies, extra = divmod(weights[rarity] * scale, len(names))
+            rows.update({name: copies + (i < extra) for i, name in enumerate(names)})
+        ref = 'decks/shop/' + theme + '.dck'
+        self.write_deck(ref, theme + ' shop pool', {'Main': rows})
+        return {'type': 'card', 'count': 1, 'sourceDeck': ref}
 
     def stores(self):
         shops=json.loads((ORIGINAL/'world/shops.json').read_text());self.reward(shops)
@@ -536,9 +520,13 @@ class Builder:
                         if 'subTypes' in rule:rule['subTypes']=['Spirit']
                         if 'cardText' in rule:rule['cardText']='earthbend'
         by_name={shop['name']:shop for shop in shops}
+        global_slot = self.weighted_shop_slot('General', self.legal.values(), {'U': 80, 'R': 19, 'M': 1})
         for color in TOWN_COLORS.values():
+            mask = {'White': 1, 'Blue': 2, 'Black': 4, 'Red': 8, 'Green': 16, 'Colorless': 0}[color]
+            pool = [c for c in self.legal.values() if c.mask == mask]
+            local_slot = self.weighted_shop_slot(color, pool, {'C': 30, 'U': 50, 'R': 18, 'M': 2})
+            rewards = [local_slot] * 3 + [global_slot] * 3
             for suffix in ('','Creatures'):
-                rewards=self.town_rewards(color,bool(suffix))
                 shops.append(dict(by_name[color],name='AvatarTown'+color+suffix,rewards=rewards))
         shops.append(dict(by_name['BoosterPackShop'],name='AvatarTownBooster',unlimited=False,
                           rewards=[{'type':'cardPackShop','count':1,'editions':PACKS}]))

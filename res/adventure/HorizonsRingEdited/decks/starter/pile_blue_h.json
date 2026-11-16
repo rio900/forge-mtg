@@ -1,0 +1,110 @@
+{
+  "name": "Blue",
+  "mainDeck": [
+    {
+      "count": 15,
+      "cardName": "Island|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Plains|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Swamp|LTR"
+    },
+    {
+      "count": 9,
+      "colors": [
+        "blue"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "white",
+        "black"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "blue"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 3,
+      "colors": [
+        "white",
+        "black"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 9,
+      "colors": [
+        "blue"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        5,
+        6
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    }
+  ]
+}

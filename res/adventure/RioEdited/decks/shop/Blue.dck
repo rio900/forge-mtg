@@ -1,103 +1,399 @@
 [metadata]
 Name=Blue shop pool
 [Main]
-1 Academy Wall|DMU|1
-1 Stasis Field|MOM|1
-1 Moonsnare Specialist|NEO|1
-1 Eye of Malcator|ONE|1
-1 Backstreet Bruiser|SNC|1
-1 Armguard Familiar|NEO|1
-1 Disturbing Conversion|MOM|1
-1 Bring the Ending|ONE|1
-1 Impulse|DMU|1
-1 Clever Conjurer|AFR|1
-1 Secret Door|AFR|1
-1 Tidal Terror|MOM|1
-1 Air Marshal|BRO|1
-1 Voda Sea Scavenger|DMU|1
-1 Falcon Abomination|MID|1
-1 Expendable Lackey|SNC|1
-1 Rooftop Nuisance|SNC|1
-1 Mirrorshell Crab|NEO|1
-1 Ichor Synthesizer|ONE|1
-1 Stern Lesson|BRO|1
-1 Witness Protection|SNC|1
-1 Meldweb Strider|ONE|1
-1 Halo-Charged Skaab|MOM|1
-1 Security Bypass|SNC|1
-1 Vivisurgeon's Insight|ONE|1
-1 Pixie Guide|AFR|1
-1 Quick Study|WOE|1
-1 Suit Up|NEO|1
-1 Majestic Metamorphosis|SNC|1
-1 Soaring Drake|DMU|1
-1 Chancellor of Tales|WOE|1
-1 Futurist Operative|NEO|1
-1 Firmament Sage|MID|1
-1 Covert Technician|NEO|1
-1 Wicked Slumber|MOM|1
-1 Xerex Strobe-Knight|MOM|1
-1 Out of the Way|SNC|1
-1 Psychic Pickpocket|SNC|1
-1 Thirst for Discovery|VOW|1
-1 Behold the Unspeakable|NEO|1
-1 Blue Dragon|AFR|1
-1 Overwhelmed Archivist|MID|1
-1 Replication Specialist|NEO|1
-1 Filter Out|MAT|1
-1 Coral Colony|DMU|1
-1 Spotter Thopter|BRO|1
-1 Power of Persuasion|AFR|1
-1 Bitter Chill|WOE|1
-1 Flow of Knowledge|BRO|1
-1 Founding the Third Path|DMU|1
-1 Delver of Secrets|MID|1
-1 Wizard Class|AFR|1
-1 Soulcipher Board|VOW|1
-1 Zephyr Sentinel|BRO|1
-1 Tamiyo's Logbook|ONE|1
-1 Ertai's Scorn|DMU|1
-1 Screaming Swarm|VOW|1
-1 Omen Hawker|MOM|1
-1 Trickster's Talisman|AFR|1
-1 Watchful Blisterzoa|ONE|1
-1 Biolume Egg|VOW|1
-1 Rowdy Research|WOE|1
-1 Tamiyo's Immobilizer|ONE|1
-1 Oracle of Tragedy|MOM|1
-1 Gutter Skulker|VOW|1
-1 Mobilizer Mech|NEO|1
-1 Storyteller Pixie|WOE|1
-1 Awakened Awareness|NEO|1
-1 Ominous Roost|MID|1
-1 Thrummingbird|ONE|1
-1 Transplant Theorist|ONE|1
-1 Invasion of Vryn|MOM|1
-1 Anchor to Reality|NEO|1
-1 Discover the Impossible|NEO|1
-1 Aberrant Mind Sorcerer|AFR|1
-1 Succumb to the Cold|WOE|1
-1 Essence Capture|NEO|1
-1 Displacer Beast|AFR|1
-1 Referee Squad|MOM|1
-1 Astral Wingspan|MOM|1
-1 Training Grounds|MAT|1
-1 True Polymorph|AFR|1
-1 Faerie Mastermind|MOM|1
-1 Horned Loch-Whale|WOE|1
-1 Reservoir Kraken|SNC|1
-1 Cut Your Losses|SNC|1
-1 Cosmic Epiphany|DMU|1
-1 Grafted Identity|MID|1
-1 Errant, Street Artist|SNC|1
-1 Mind Flayer|AFR|1
-1 Inventive Iteration|NEO|1
-1 Mindsplice Apparatus|ONE|1
-1 Urza's Command|BRO|1
-1 Wiretapping|SNC|1
-1 Sludge Monster|MID|1
-1 Unctus, Grand Metatect|ONE|1
-1 See Double|MOM|1
-1 Dragon Turtle|AFR|1
-1 Jin-Gitaxias|MOM|1
+3 Academy Wall|DMU|1
+3 Stasis Field|MOM|1
+3 Moonsnare Specialist|NEO|1
+3 The Surgical Bay|ONE|1
+3 Eye of Malcator|ONE|1
+3 Backstreet Bruiser|SNC|1
+3 Armguard Familiar|NEO|1
+3 Disturbing Conversion|MOM|1
+3 Bring the Ending|ONE|1
+3 Impulse|DMU|1
+3 Clever Conjurer|AFR|1
+3 Secret Door|AFR|1
+3 Tidal Terror|MOM|1
+3 Air Marshal|BRO|1
+3 Voda Sea Scavenger|DMU|1
+3 Falcon Abomination|MID|1
+3 Expendable Lackey|SNC|1
+3 Rooftop Nuisance|SNC|1
+3 Mirrorshell Crab|NEO|1
+3 Ichor Synthesizer|ONE|1
+3 Stern Lesson|BRO|1
+3 Malcator's Watcher|ONE|1
+3 Witness Protection|SNC|1
+3 Meldweb Strider|ONE|1
+3 Halo-Charged Skaab|MOM|1
+3 Security Bypass|SNC|1
+3 Vivisurgeon's Insight|ONE|1
+3 Pixie Guide|AFR|1
+3 Quick Study|WOE|1
+3 Suit Up|NEO|1
+3 Majestic Metamorphosis|SNC|1
+3 Soaring Drake|DMU|1
+3 Syncopate|VOW|1
+3 Negate|DMU|1
+3 Spell Stutter|WOE|1
+3 Scion of Stygia|AFR|1
+2 Otherworldly Gaze|MID|1
+2 Saiba Cryptomancer|MOM|1
+2 Preening Champion|MOM|1
+2 Aquatic Alchemist|WOE|1
+2 Brokers Veteran|SNC|1
+2 Lat-Nam Adept|BRO|1
+2 Skywarp Skaab|VOW|1
+2 Moon-Circuit Hacker|NEO|1
+2 Beluna's Gatekeeper|WOE|1
+2 Network Disruptor|NEO|1
+2 Syphon Essence|VOW|1
+2 Larder Zombie|MID|1
+2 Ice Out|WOE|1
+2 Spell Pierce|NEO|1
+2 Zephyr Winder|MOM|1
+2 Quicksilver Fisher|ONE|1
+2 Mordenkainen's Polymorph|AFR|1
+2 Haunting Figment|DMU|1
+2 Glistener Seer|ONE|1
+2 Misleading Motes|WOE|1
+2 Sleight of Hand|WOE|1
+2 Planar Incision|NEO|1
+2 Third Path Savant|BRO|1
+2 Mocking Sprite|WOE|1
+2 Moment of Truth|MOM|1
+2 Shortcut Seeker|AFR|1
+2 Flip the Switch|MID|1
+2 Mightstone's Animation|BRO|1
+2 Gitaxian Anatomist|ONE|1
+2 Surgical Skullbomb|ONE|1
+2 Fear of Death|VOW|1
+2 Echo Inspector|SNC|1
+2 Volshe Tideturner|DMU|1
+2 Saiba Trespassers|NEO|1
+2 Dreadlight Monstrosity|VOW|1
+2 Freeze in Place|WOE|1
+2 Futurist Sentinel|NEO|1
+2 Urza's Rebuff|BRO|1
+2 Wanderlight Spirit|VOW|1
+2 Machine Over Matter|BRO|1
+2 Make Disappear|SNC|1
+2 Component Collector|MID|1
+2 Curate|BRO|1
+2 Chrome Prowler|ONE|1
+2 Merfolk Coralsmith|WOE|1
+2 Moonfolk Puzzlemaker|NEO|1
+2 Unblinking Observer|MID|1
+2 Selhoff Entomber|VOW|1
+2 Water Wings|WOE|1
+2 You Find the Villains' Lair|AFR|1
+2 Wing Commando|BRO|1
+2 Ephara's Dispersal|MOM|1
+2 Shore Up|DMU|1
+2 Oculus Whelp|MOM|1
+2 Furtive Analyst|MOM|1
+2 Disdainful Stroke|SNC|1
+2 Organ Hoarder|MID|1
+2 Essence Scatter|DMU|1
+2 Zhalfirin Shapecraft|MOM|1
+2 Startle|MID|1
+2 Devious Cover-Up|MID|1
+2 Sewer Crocodile|SNC|1
+2 Diminisher Witch|WOE|1
+2 Experimental Augury|ONE|1
+2 Steelclad Spirit|VOW|1
+2 Eyes of Gitaxias|MOM|1
+2 Stitched Assistant|VOW|1
+2 Combat Courier|BRO|1
+2 Case the Joint|SNC|1
+2 Escaped Experiment|ONE|1
+2 Stormrider Spirit|MID|1
+2 Geistwave|MID|1
+2 Alchemist's Retrieval|VOW|1
+2 Moonsnare Prototype|NEO|1
+2 Protocol Knight|MOM|1
+2 Contact Other Plane|AFR|1
+2 Snaremaster Sprite|WOE|1
+2 Wretched Throng|VOW|1
+2 Retrieval Agent|BRO|1
+2 Baithook Angler|MID|1
+2 Gitaxian Raptor|ONE|1
+2 Desynchronize|BRO|1
+2 Into the Fae Court|WOE|1
+2 Arcane Investigator|AFR|1
+2 Mnemonic Sphere|NEO|1
+2 Scattered Thoughts|VOW|1
+2 Scatter Ray|BRO|1
+2 Tolarian Terror|DMU|1
+2 Depth Charge Colossus|BRO|1
+2 Drownyard Amalgam|MID|1
+2 Prologue to Phyresis|ONE|1
+2 Fallaji Archaeologist|BRO|1
+2 Consider|MID|1
+2 Temporal Cleansing|MOM|1
+2 Skyswimmer Koi|NEO|1
+2 Expedition Lookout|MOM|1
+2 Tidepool Turtle|DMU|1
+2 Cradle of Safety|VOW|1
+2 Bar the Gate|AFR|1
+2 Djinni Windseer|AFR|1
+2 Chill of the Grave|VOW|1
+2 Cruel Witness|VOW|1
+2 Charmed Sleep|AFR|1
+2 Air-Cult Elemental|AFR|1
+2 Secrets of the Key|MID|1
+2 Tamiyo's Compleation|NEO|1
+2 You See a Guard Approach|AFR|1
+2 Vantress Transmuter|WOE|1
+2 Johann's Stopgap|WOE|1
+2 Disruption Protocol|NEO|1
+2 Repository Skaab|VOW|1
+2 Weakstone's Subjugation|BRO|1
+2 Serpentine Ambush|VOW|1
+2 Shipwreck Sifters|MID|1
+2 Talas Lookout|DMU|1
+2 Binding Geist|VOW|1
+2 Aspirant's Ascent|ONE|1
+2 Galedrifter|MID|1
+2 Meeting of Minds|MOM|1
+2 Thunderhead Squadron|MOM|1
+2 Assimilate Essence|MOM|1
+2 Shocking Grasp|AFR|1
+2 Run Out of Town|SNC|1
+2 The Modern Age|NEO|1
+2 Meldweb Curator|ONE|1
+2 Mesmerizing Dose|ONE|1
+2 Revenge of the Drowned|MID|1
+2 Lantern Bearer|VOW|1
+2 Rimeshield Frost Giant|AFR|1
+2 Stormkeld Prowler|WOE|1
+2 Short Circuit|NEO|1
+2 Impede Momentum|DMU|1
+2 Psionic Snoop|SNC|1
+2 Silver Raven|AFR|1
+2 Living Lectern|WOE|1
+2 Soulknife Spy|AFR|1
+2 Guardians of Oboro|NEO|1
+2 Locked in the Cemetery|MID|1
+2 Koilos Roc|BRO|1
+2 Obyra's Attendants|WOE|1
+2 You Come to a River|AFR|1
+6 Chancellor of Tales|WOE|1
+6 Futurist Operative|NEO|1
+6 Firmament Sage|MID|1
+6 Covert Technician|NEO|1
+6 Wicked Slumber|MOM|1
+6 Xerex Strobe-Knight|MOM|1
+6 Out of the Way|SNC|1
+6 Psychic Pickpocket|SNC|1
+6 Thirst for Discovery|VOW|1
+6 Behold the Unspeakable|NEO|1
+6 Blue Dragon|AFR|1
+6 Overwhelmed Archivist|MID|1
+6 Replication Specialist|NEO|1
+6 Faerie Vandal|SNC|1
+6 Filter Out|MAT|1
+6 Coral Colony|DMU|1
+6 Spotter Thopter|BRO|1
+6 Power of Persuasion|AFR|1
+6 Bitter Chill|WOE|1
+6 Flow of Knowledge|BRO|1
+6 Thopter Mechanic|BRO|1
+6 Founding the Third Path|DMU|1
+6 Delver of Secrets|MID|1
+6 Wizard Class|AFR|1
+6 Soulcipher Board|VOW|1
+6 Zephyr Sentinel|BRO|1
+6 Tamiyo's Logbook|ONE|1
+6 Ertai's Scorn|DMU|1
+6 Screaming Swarm|VOW|1
+6 Omen Hawker|MOM|1
+6 Trickster's Talisman|AFR|1
+6 Watchful Blisterzoa|ONE|1
+6 Biolume Egg|VOW|1
+6 Rowdy Research|WOE|1
+6 Tamiyo's Immobilizer|ONE|1
+6 Oracle of Tragedy|MOM|1
+6 Gutter Skulker|VOW|1
+6 Mobilizer Mech|NEO|1
+6 Storyteller Pixie|WOE|1
+6 Awakened Awareness|NEO|1
+6 Ominous Roost|MID|1
+6 Thrummingbird|ONE|1
+6 Transplant Theorist|ONE|1
+6 Picklock Prankster|WOE|1
+6 Invasion of Vryn|MOM|1
+6 Anchor to Reality|NEO|1
+6 Discover the Impossible|NEO|1
+6 Aberrant Mind Sorcerer|AFR|1
+6 Succumb to the Cold|WOE|1
+6 Essence Capture|NEO|1
+6 Displacer Beast|AFR|1
+6 Referee Squad|MOM|1
+6 Astral Wingspan|MOM|1
+6 Dissipate|MID|1
+6 Serum Snare|ONE|1
+6 Combat Research|DMU|1
+6 Geistlight Snare|VOW|1
+6 Forging the Anchor|BRO|1
+6 Fly|AFR|1
+6 Reality Heist|NEO|1
+5 Tenacious Tomeseeker|WOE|1
+5 Gadwick's First Duel|WOE|1
+5 Fading Hope|MID|1
+5 Covetous Castaway|MID|1
+5 Hypnotic Grifter|SNC|1
+5 Urza, Powerstone Prodigy|BRO|1
+5 Phantom Carriage|MID|1
+5 Frostfist Strider|DMU|1
+5 Sudden Insight|AFR|1
+5 Minor Misstep|ONE|1
+5 Sleep with the Fishes|SNC|1
+5 Public Enemy|SNC|1
+5 Split the Party|AFR|1
+5 Eccentric Apprentice|AFR|1
+5 Slip Out the Back|SNC|1
+5 Corruption of Towashi|MOM|1
+5 Keeper of the Cadence|BRO|1
+5 Mischievous Catgeist|VOW|1
+5 Galvanic Giant|WOE|1
+5 Whispering Wizard|VOW|1
+5 Atmosphere Surgeon|ONE|1
+5 Djinn of the Fountain|DMU|1
+5 Take Flight|BRO|1
+5 Stormchaser Drake|VOW|1
+5 Change the Equation|MOM|1
+5 Icewrought Sentry|WOE|1
+5 Involuntary Cooldown|BRO|1
+5 Mysterious Tome|MID|1
+5 Archive Dragon|WOE|1
+5 Prosperous Thief|NEO|1
+5 Distorted Curiosity|ONE|1
+5 Hulking Metamorph|BRO|1
+5 Cobbled Lancer|VOW|1
+5 Acquisition Octopus|NEO|1
+5 Defabricate|BRO|1
+5 Ray of Frost|AFR|1
+5 Witness the Future|VOW|1
+5 Skaab Wrangler|MID|1
+5 Wash Away|VOW|1
+5 Unctus's Retrofitter|ONE|1
+5 Thirst for Knowledge|NEO|1
+5 Artistic Refusal|MOM|1
+5 An Offer You Can't Refuse|SNC|1
+5 Lunar Rejection|VOW|1
+5 Go-Shintai of Lost Wisdom|NEO|1
+5 Micromancer|DMU|1
+5 Guild Thief|AFR|1
+5 Feywild Trickster|AFR|1
+5 Diver Skaab|VOW|1
+5 Nebelgast Intruder|MID|1
+5 Splitting the Powerstone|BRO|1
+5 Invasion of Kamigawa|MOM|1
+5 Font of Progress|ONE|1
+5 Trawler Drake|ONE|1
+5 Tolarian Contempt|MAT|1
+5 Splashy Spellcaster|WOE|1
+5 Wingshield Agent|SNC|1
+5 A Little Chat|SNC|1
+4 Training Grounds|MAT|1
+4 True Polymorph|AFR|1
+4 Faerie Mastermind|MOM|1
+4 Horned Loch-Whale|WOE|1
+4 Reservoir Kraken|SNC|1
+4 Cut Your Losses|SNC|1
+3 Cosmic Epiphany|DMU|1
+3 Grafted Identity|MID|1
+3 Errant, Street Artist|SNC|1
+3 Mind Flayer|AFR|1
+3 Inventive Iteration|NEO|1
+3 Mindsplice Apparatus|ONE|1
+3 Urza's Command|BRO|1
+3 Wiretapping|SNC|1
+3 Sludge Monster|MID|1
+3 Unctus, Grand Metatect|ONE|1
+3 See Double|MOM|1
+3 Dragon Turtle|AFR|1
+3 Geralf, Visionary Stitcher|VOW|1
+3 The Phasing of Zhalfir|DMU|1
+3 Interdisciplinary Mascot|MOM|1
+3 Hullbreaker Horror|VOW|1
+3 Curse of Surveillance|MID|1
+3 Yuan-Ti Malison|AFR|1
+3 Defiler of Dreams|DMU|1
+3 Farsight Ritual|WOE|1
+3 Ledger Shredder|SNC|1
+3 Serum Sovereign|ONE|1
+3 The Blackstaff of Waterdeep|AFR|1
+3 Encroaching Mycosynth|ONE|1
+3 Blade of Shared Souls|ONE|1
+3 Terisian Mindbreaker|BRO|1
+3 Skystrike Officer|BRO|1
+3 Drafna, Founder of Lat-Nam|BRO|1
+3 Malevolent Hermit|MID|1
+3 Extraordinary Journey|WOE|1
+3 The Temporal Anchor|BRO|1
+3 Wizard's Spellbook|AFR|1
+3 Otawara, Soaring City|NEO|1
+3 Invoke the Winds|NEO|1
+3 Tasha's Hideous Laughter|AFR|1
+3 Invasion of Arcavios|MOM|1
+3 Geology Enthusiast|BRO|1
+3 Hurkyl, Master Wizard|BRO|1
+3 Aether Channeler|DMU|1
+3 March of Swirling Mist|NEO|1
+3 Thousand-Faced Shadow|NEO|1
+3 Hurkyl's Final Meditation|BRO|1
+3 Silver Scrutiny|DMU|1
+3 Sleep-Cursed Faerie|WOE|1
+3 Transcendent Message|MOM|1
+3 The Reality Chip|NEO|1
+3 Mercurial Spelldancer|ONE|1
+3 Grazilaxx, Illithid Scholar|AFR|1
+3 Ingenious Prodigy|WOE|1
+3 Mirrorhall Mimic|VOW|1
+3 Haughty Djinn|DMU|1
+3 Triskaidekaphile|MID|1
+3 Patrician Geist|MID|1
+3 Talion's Messenger|WOE|1
+3 Consuming Tide|VOW|1
+3 Faerie Slumber Party|WOE|1
+3 Vesuvan Drifter|MAT|1
+3 Academy Loremaster|DMU|1
+3 Zephyr Singer|MOM|1
+3 Dreamshackle Geist|VOW|1
+3 Undercover Operative|SNC|1
+3 Inspired Idea|VOW|1
+3 Memory Deluge|MID|1
+3 Vodalian Hexcatcher|DMU|1
+3 Blue Sun's Twilight|ONE|1
+3 Hall of Storm Giants|AFR|1
+3 Patchwork Crawler|VOW|1
+3 Complete the Circuit|MOM|1
+3 Invasion of Segovia|MOM|1
+3 Chrome Host Seedshark|MOM|1
+2 Jin-Gitaxias|MOM|1
 1 Surge Engine|BRO|1
+1 Poppet Stitcher|MID|1
+1 Iymrith, Desert Doom|AFR|1
+1 Lier, Disciple of the Drowned|MID|1
+1 Jace, the Perfected Mind|ONE|1
+1 Tezzeret, Betrayer of Flesh|NEO|1
+1 Cemetery Illuminator|VOW|1
+1 Tekuthal, Inquiry Dominus|ONE|1
+1 Asinine Antics|WOE|1
+1 Arcane Proxy|BRO|1
+1 Necroduality|VOW|1
+1 Kairi, the Swirling Sky|NEO|1
+1 Sphinx of Clear Skies|DMU|1
+1 Even the Score|SNC|1
+1 Virtue of Knowledge|WOE|1
+1 Mordenkainen|AFR|1
+1 Vesuvan Duplimancy|DMU|1
+1 All-Seeing Arbiter|SNC|1
+1 Jacob Hauken, Inspector|VOW|1
+1 Ichormoon Gauntlet|ONE|1
+1 Demilich|AFR|1
+1 Jin-Gitaxias, Progress Tyrant|NEO|1
+1 Teferi, Temporal Pilgrim|BRO|1
+1 One with the Multiverse|BRO|1

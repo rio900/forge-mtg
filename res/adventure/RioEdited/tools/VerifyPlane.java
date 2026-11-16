@@ -89,22 +89,37 @@ public class VerifyPlane {
         System.out.println("VERIFIED ALL DECK FILES "+checked.size());
         var storeFailures=new ArrayList<String>();
         for(var shop:WorldData.getShopList()) {
-            if(shop.name.startsWith("RioTown") && shop.rewards.size==4) {
-                var reserved=new HashSet<String>();
-                for(int i=0;i<3;i++)for(var choice:shop.rewards.get(i).cardUnion){
-                    var entry=choice.cardName.split("\\|");
-                    var pc=CardUtil.getCardByNameAndEdition(entry[0],entry[1]);
-                    check(pc.getRarity().toString().equals(i==0?"C":"U") && reserved.add(pc.getName()),shop.name+" "+pc);
+            if(shop.name.startsWith("RioTown") && !Set.of("RioTownEquipment","RioTownBooster").contains(shop.name)) {
+                check(shop.rewards.size==6,shop.name);
+                String theme=shop.name.substring("RioTown".length()).replace("Creatures","");
+                int mask=Map.of("White",1,"Blue",2,"Black",4,"Red",8,"Green",16,"Colorless",0).get(theme);
+                for(int slot : new int[]{0,3}) {
+                    var draw=shop.rewards.get(slot);
+                    var pool=CardUtil.getDeck(draw.sourceDeck,false,false,"",false,false).getMain().toFlatList();
+                    var weights=new HashMap<String,Integer>();
+                    boolean hasCreature=false, hasNonCreature=false;
+                    for(var pc:CardUtil.getPredicateResult(pool,draw)){
+                        card(pc,shop.name);
+                        if(slot==0)check(pc.getRules().getColorIdentity().getColor()==mask,pc.getName());
+                        hasCreature |= pc.getRules().getType().isCreature();
+                        hasNonCreature |= !pc.getRules().getType().isCreature();
+                        weights.merge(pc.getRarity().toString(),1,Integer::sum);
+                    }
+                    int scale=weights.values().stream().mapToInt(Integer::intValue).sum()/100;
+                    var expected=slot==0 ? Map.of("C",30*scale,"U",50*scale,"R",18*scale,"M",2*scale)
+                                         : Map.of("U",80*scale,"R",19*scale,"M",scale);
+                    check(scale>0 && weights.equals(expected) && hasCreature && hasNonCreature,shop.name+" "+weights);
                 }
-                var draw=shop.rewards.get(3);
-                var pool=CardUtil.getDeck(draw.sourceDeck,false,false,"",false,false).getMain().toFlatList();
-                var weights=new HashMap<String,Integer>();
-                for(var pc:CardUtil.getPredicateResult(pool,draw)){
-                    card(pc,shop.name);
-                    check(!reserved.contains(pc.getName()),shop.name+" duplicate "+pc);
-                    weights.merge(pc.getRarity().toString(),1,Integer::sum);
+                for(int roll=0;roll<10;roll++){
+                    for(int slot=0;slot<6;slot++){
+                        var drawn=shop.rewards.get(slot).generate(false,false);
+                        check(drawn.size==1,shop.name+" slot "+slot);
+                        var pc=drawn.first().getCard();
+                        card(pc,shop.name);
+                        if(slot<3)check(pc.getRules().getColorIdentity().getColor()==mask,pc.getName());
+                        else check(Set.of("U","R","M").contains(pc.getRarity().toString()),pc.getName());
+                    }
                 }
-                check(weights.equals(Map.of("C",30,"U",50,"R",18,"M",2)),shop.name+" "+weights);
             }
             int count=0;boolean cardsOnly=true;
             for(var r:shop.rewards) {

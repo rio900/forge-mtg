@@ -32,12 +32,12 @@
   <object id="38" template="../../../../common/maps/obj/entry_up.tx" x="208" y="272" />
   <object id="41" template="../../../../common/maps/obj/shop.tx" x="129" y="146">
    <properties>
-    <property name="commonShopList" value="AvatarTownBlack" /><property name="noRestock" type="bool" value="true" /></properties>
+    <property name="commonShopList" value="AvatarTownBlack" /><property name="noRestock" type="bool" value="false" /></properties>
   </object>
   <object id="47" template="../../../../common/maps/obj/inn.tx" x="230" y="98" />
   <object id="48" template="../../../../common/maps/obj/shop.tx" x="336" y="80">
    <properties>
-    <property name="commonShopList" value="Swamp" /><property name="noRestock" type="bool" value="true" /></properties>
+    <property name="commonShopList" value="Swamp" /><property name="noRestock" type="bool" value="false" /></properties>
   </object>
   <object id="49" template="../../../../common/maps/obj/quest.tx" x="95" y="114" width="36" height="16">
    <properties>
@@ -49,7 +49,7 @@
    <properties>
     <property name="signXOffset" type="float" value="4" />
     <property name="signYOffset" type="float" value="-16" />
-   <property name="commonShopList" value="AvatarTownBooster" /><property name="noRestock" type="bool" value="true" /></properties>
+   <property name="commonShopList" value="AvatarTownBooster" /><property name="noRestock" type="bool" value="false" /></properties>
   </object>
  </objectgroup>
 </map>

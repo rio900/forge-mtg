@@ -1,103 +1,407 @@
 [metadata]
 Name=Red shop pool
 [Main]
-1 Witch's Mark|WOE|1
-1 Akki Ember-Keeper|NEO|1
-1 Farideh's Fireball|AFR|1
-1 War-Trained Slasher|MOM|1
-1 Shatter the Source|MOM|1
-1 Free from Flesh|ONE|1
-1 Hangar Scrounger|MOM|1
-1 Akki Ronin|NEO|1
-1 Dwarven Forge-Chanter|BRO|1
-1 Brimstone Vandal|MID|1
-1 Sure Strike|VOW|1
-1 Improvised Weaponry|AFR|1
-1 Ironhoof Boar|NEO|1
-1 Wrecking Crew|SNC|1
-1 Mounted Dreadknight|MID|1
-1 Goblin Javelineer|AFR|1
-1 The Shattered States Era|NEO|1
-1 Beamtown Beatstick|MOM|1
-1 Abandon the Post|MID|1
-1 Valor Singer|AFR|1
-1 Chimney Rabble|ONE|1
-1 Boots of Speed|AFR|1
-1 Weary Prisoner|VOW|1
-1 Voldaren Stinger|MID|1
-1 Lambholt Harrier|MID|1
-1 Scrapyard Steelbreaker|NEO|1
-1 Minecart Daredevil|WOE|1
-1 Furnace Skullbomb|ONE|1
-1 Crackling Emergence|NEO|1
-1 Sawblade Scamp|ONE|1
-1 Chaos Channeler|AFR|1
-1 Monstrous Rage|WOE|1
-1 Go-Shintai of Ancient Wars|NEO|1
-1 Bronzeplate Boar|NEO|1
-1 Ballista Watcher|VOW|1
-1 Purifying Dragon|MID|1
-1 Boundary Lands Ranger|WOE|1
-1 Honeymoon Hearse|VOW|1
-1 Barbarian Class|AFR|1
-1 Arms Race|BRO|1
-1 Vampires' Vengeance|VOW|1
-1 Cathartic Pyre|MID|1
-1 Goblin Morningstar|AFR|1
-1 Become Brutes|WOE|1
-1 Obliterating Bolt|BRO|1
-1 Exuberant Fuseling|ONE|1
-1 Lunar Frenzy|MID|1
-1 Voldaren Ambusher|MID|1
-1 Riveteers Requisitioner|SNC|1
-1 Invasion of Mercadia|MOM|1
-1 Urabrask's Anointer|ONE|1
-1 Torch Breath|SNC|1
-1 Village Watch|MID|1
-1 Seize the Storm|MID|1
-1 Nahiri's Sacrifice|ONE|1
-1 Fallaji Dragon Engine|BRO|1
-1 Awaken the Sleeper|ONE|1
-1 Hulking Bugbear|AFR|1
-1 Tiger-Tribe Hunter|AFR|1
-1 Tempered in Solitude|NEO|1
-1 Into the Night|VOW|1
-1 Lambholt Raconteur|VOW|1
-1 Heavyweight Demolisher|BRO|1
-1 Furnace Punisher|ONE|1
-1 Sizzling Soloist|SNC|1
-1 Churning Reservoir|ONE|1
-1 The Fall of Kroog|BRO|1
-1 Hurler Cyclops|DMU|1
-1 Sardian Cliffstomper|BRO|1
-1 Tattered Ratter|WOE|1
-1 Charging Hooligan|WOE|1
-1 Glittering Stockpile|SNC|1
-1 Shivan Branch-Burner|MOM|1
-1 Kumano Faces Kakkazan|NEO|1
-1 Magic Missile|AFR|1
-1 Markov Retribution|VOW|1
-1 Red Dragon|AFR|1
-1 Obsessive Astronomer|MID|1
-1 Seismic Wave|NEO|1
-1 Rob the Archives|SNC|1
-1 Hoard Hauler|SNC|1
-1 Falkenrath Pit Fighter|MID|1
-1 Vindictive Flamestoker|ONE|1
-1 Structural Assault|SNC|1
-1 Ragefire Hellkite|DMU|1
-1 Invasion of Karsus|MOM|1
-1 Reckless Stormseeker|MID|1
-1 Jaxis, the Troublemaker|SNC|1
-1 Song of Totentanz|WOE|1
-1 Invasion of Kaldheim|MOM|1
-1 Koth, Fire of Resistance|ONE|1
-1 Charming Scoundrel|WOE|1
-1 Redcap Gutter-Dweller|WOE|1
-1 Wish|AFR|1
-1 Lizard Blades|NEO|1
-1 Professional Face-Breaker|SNC|1
-1 Fable of the Mirror-Breaker|NEO|1
-1 Rampaging Raptor|MOM|1
-1 Draconic Destiny|BRO|1
+3 Witch's Mark|WOE|1
+3 Akki Ember-Keeper|NEO|1
+3 Farideh's Fireball|AFR|1
+3 War-Trained Slasher|MOM|1
+3 Shatter the Source|MOM|1
+3 Free from Flesh|ONE|1
+3 Hangar Scrounger|MOM|1
+3 Akki Ronin|NEO|1
+3 Dwarven Forge-Chanter|BRO|1
+3 Brimstone Vandal|MID|1
+3 Sure Strike|VOW|1
+3 Improvised Weaponry|AFR|1
+3 Ironhoof Boar|NEO|1
+3 Wrecking Crew|SNC|1
+3 Mounted Dreadknight|MID|1
+3 Goblin Javelineer|AFR|1
+3 The Shattered States Era|NEO|1
+3 Beamtown Beatstick|MOM|1
+3 Abandon the Post|MID|1
+3 Valor Singer|AFR|1
+3 Chimney Rabble|ONE|1
+3 Boots of Speed|AFR|1
+3 Weary Prisoner|VOW|1
+3 Voldaren Stinger|MID|1
+3 Lambholt Harrier|MID|1
+3 Scrapyard Steelbreaker|NEO|1
+3 Minecart Daredevil|WOE|1
+3 Furnace Skullbomb|ONE|1
+3 Crackling Emergence|NEO|1
+3 Sawblade Scamp|ONE|1
+3 Falkenrath Celebrants|VOW|1
+3 Yavimaya Steelcrusher|DMU|1
+3 Wrenn's Resolve|MOM|1
+3 Harried Spearguard|WOE|1
+2 Mirran Banesplitter|MOM|1
+2 Stolen Vitality|MID|1
+2 Dueling Rapier|AFR|1
+2 Lightning Strike|DMU|1
+2 Bellowing Bruiser|WOE|1
+2 Barbed Batterfist|ONE|1
+2 Electric Revelation|MID|1
+2 Kuldotha Cackler|ONE|1
+2 Excavation Explosion|BRO|1
+2 Gift of Wrath|NEO|1
+2 Akki War Paint|NEO|1
+2 Ral's Reinforcements|MOM|1
+2 Jaya's Firenado|DMU|1
+2 Strangle|SNC|1
+2 Simian Sling|NEO|1
+2 Voltage Surge|NEO|1
+2 Searing Barb|MOM|1
+2 Goblin Picker|DMU|1
+2 Blood Petal Celebrant|VOW|1
+2 Flowstone Kavu|DMU|1
+2 Unstoppable Ogre|NEO|1
+2 Hobgoblin Captain|AFR|1
+2 Immolation|MID|1
+2 Fearful Villager|VOW|1
+2 Armory Veteran|AFR|1
+2 Furnace Strider|ONE|1
+2 Exhibition Magician|SNC|1
+2 Thrashing Frontliner|MOM|1
+2 Belligerent Guest|VOW|1
+2 Akki Scrapchomper|MOM|1
+2 Festival Crasher|MID|1
+2 Burning Sun's Fury|MOM|1
+2 The Autonomous Furnace|ONE|1
+2 Vulshok Splitter|ONE|1
+2 Reckless Impulse|VOW|1
+2 Earth-Cult Elemental|AFR|1
+2 Blitz Automaton|BRO|1
+2 Burn the Accursed|MID|1
+2 Kami's Flare|NEO|1
+2 Bloody Betrayal|VOW|1
+2 Mishra's Domination|BRO|1
+2 Kami of Industry|NEO|1
+2 Mayhem Patrol|SNC|1
+2 Bladegraft Aspirant|ONE|1
+2 Cragsmasher Yeti|MOM|1
+2 Jaded Sell-Sword|AFR|1
+2 Harvesttide Infiltrator|MID|1
+2 Brazen Dwarf|AFR|1
+2 Lightning Wolf|VOW|1
+2 Molten Rebuke|ONE|1
+2 Roc Hunter|BRO|1
+2 Kessig Flamebreather|VOW|1
+2 Forgehammer Centurion|ONE|1
+2 Volcanic Spite|MOM|1
+2 Tavern Ruffian|MID|1
+2 Kick in the Door|AFR|1
+2 Molten Monstrosity|DMU|1
+2 Abrade|VOW|1
+2 Furious Bellow|DMU|1
+2 Pack's Betrayal|MID|1
+2 Marauding Dreadship|MOM|1
+2 Kindled Fury|NEO|1
+2 Penregon Strongbull|BRO|1
+2 Karsus Depthguard|MOM|1
+2 Falkenrath Perforator|MID|1
+2 Scrapwork Mutt|BRO|1
+2 Bitter Reunion|BRO|1
+2 Voldaren Epicure|VOW|1
+2 Ratcatcher Trainee|WOE|1
+2 Merry Bards|WOE|1
+2 Plundering Barbarian|AFR|1
+2 Famished Foragers|MID|1
+2 Axiom Engraver|ONE|1
+2 Volt Charge|ONE|1
+2 Redcap Heelslasher|MOM|1
+2 Flame-Blessed Bolt|VOW|1
+2 Raze the Effigy|MID|1
+2 Ready to Rumble|SNC|1
+2 Experimental Synthesizer|NEO|1
+2 Coming In Hot|MOM|1
+2 Lacerate Flesh|VOW|1
+2 Jackhammer|SNC|1
+2 Unexpected Windfall|AFR|1
+2 Dragon's Fire|AFR|1
+2 Sticky Fingers|SNC|1
+2 Redcap Thief|WOE|1
+2 Goldhound|SNC|1
+2 Blazing Crescendo|ONE|1
+2 Hammerhand|DMU|1
+2 Fallaji Chaindancer|BRO|1
+2 Ancestral Anger|VOW|1
+2 Torch the Tower|WOE|1
+2 Kindled Heroism|WOE|1
+2 Unruly Catapult|WOE|1
+2 Peerless Samurai|NEO|1
+2 Coalition Warbrute|DMU|1
+2 Frantic Firebolt|WOE|1
+2 Raze to the Ground|BRO|1
+2 Cut In|WOE|1
+2 Thrill of Possibility|DMU|1
+2 Mishra's Juggernaut|BRO|1
+2 You Come to the Gnoll Camp|AFR|1
+2 Price of Loyalty|AFR|1
+2 Skewer Slinger|WOE|1
+2 Trailblazing Historian|MOM|1
+2 Explosive Entry|NEO|1
+2 End the Festivities|VOW|1
+2 Whirling Strike|BRO|1
+2 Grand Ball Guest|WOE|1
+2 Plasma Jockey|SNC|1
+2 Witty Roastmaster|SNC|1
+2 Moonrager's Slash|MID|1
+2 Gnawing Crescendo|WOE|1
+2 Mishra's Onslaught|BRO|1
+2 Grabby Giant|WOE|1
+2 Hungry Ridgewolf|VOW|1
+2 Hazardous Blast|ONE|1
+2 Light 'Em Up|SNC|1
+2 Hexgold Slash|ONE|1
+2 Conscripted Infantry|BRO|1
+2 Daring Escape|SNC|1
+2 Towashi Songshaper|NEO|1
+2 Goblin Blast-Runner|BRO|1
+2 Swarming Goblins|AFR|1
+2 Ardent Elementalist|MID|1
+2 Hoarding Ogre|AFR|1
+2 Onakke Javelineer|MOM|1
+2 Daybreak Combatants|VOW|1
+2 Unleash Shell|BRO|1
+2 Neonate's Rush|MID|1
+2 Sibling Rivalry|BRO|1
+2 Shrapnel Slinger|ONE|1
+2 Tomakul Scrapsmith|BRO|1
+2 Flowstone Infusion|DMU|1
+2 Edgewall Pack|WOE|1
+2 Bespoke Battlegarb|WOE|1
+2 Meria's Outrider|DMU|1
+2 Ambitious Assault|NEO|1
+2 Furnace Host Charger|MOM|1
+2 Pyre Spawn|VOW|1
+2 Smash to Dust|DMU|1
+2 Antagonize|SNC|1
+2 Flick a Coin|WOE|1
+2 Big Score|SNC|1
+6 Chaos Channeler|AFR|1
+6 Monstrous Rage|WOE|1
+6 Go-Shintai of Ancient Wars|NEO|1
+6 Bronzeplate Boar|NEO|1
+6 Ballista Watcher|VOW|1
+6 Purifying Dragon|MID|1
+6 Boundary Lands Ranger|WOE|1
+6 Honeymoon Hearse|VOW|1
+6 Barbarian Class|AFR|1
+6 Arms Race|BRO|1
+6 Vampires' Vengeance|VOW|1
+6 Cathartic Pyre|MID|1
+6 Goblin Morningstar|AFR|1
+6 Become Brutes|WOE|1
+6 Obliterating Bolt|BRO|1
+6 Exuberant Fuseling|ONE|1
+6 Monastery Swiftspear|BRO|1
+6 Lunar Frenzy|MID|1
+6 Voldaren Ambusher|MID|1
+6 Riveteers Requisitioner|SNC|1
+6 Invasion of Mercadia|MOM|1
+6 Urabrask's Anointer|ONE|1
+6 Torch Breath|SNC|1
+6 Village Watch|MID|1
+6 Seize the Storm|MID|1
+6 Nahiri's Sacrifice|ONE|1
+6 Fallaji Dragon Engine|BRO|1
+6 Awaken the Sleeper|ONE|1
+6 Hulking Bugbear|AFR|1
+6 Tiger-Tribe Hunter|AFR|1
+6 Tempered in Solitude|NEO|1
+6 Into the Night|VOW|1
+6 Lambholt Raconteur|VOW|1
+6 Heavyweight Demolisher|BRO|1
+6 Furnace Punisher|ONE|1
+6 Sizzling Soloist|SNC|1
+6 Churning Reservoir|ONE|1
+6 The Fall of Kroog|BRO|1
+6 Electrostatic Infantry|DMU|1
+6 Hurler Cyclops|DMU|1
+6 Sardian Cliffstomper|BRO|1
+6 Tattered Ratter|WOE|1
+6 Charging Hooligan|WOE|1
+6 Glittering Stockpile|SNC|1
+6 Shivan Branch-Burner|MOM|1
+6 Kumano Faces Kakkazan|NEO|1
+6 Reinforced Ronin|NEO|1
+6 Magic Missile|AFR|1
+6 Markov Retribution|VOW|1
+6 Red Dragon|AFR|1
+6 Obsessive Astronomer|MID|1
+6 Seismic Wave|NEO|1
+6 Rob the Archives|SNC|1
+6 You Find Some Prisoners|AFR|1
+6 Pugnacious Pugilist|SNC|1
+5 Rabbit Battery|NEO|1
+5 Alluring Suitor|VOW|1
+5 Pyrrhic Blast|BRO|1
+5 Mishra, Excavation Prodigy|BRO|1
+5 Twinshot Sniper|NEO|1
+5 Blood Hypnotist|VOW|1
+5 Fangblade Brigand|MID|1
+5 Giant Cindermaw|BRO|1
+5 Sokenzan Smelter|NEO|1
+5 Flame Channeler|MID|1
+5 Hexgold Halberd|ONE|1
+5 Voltaic Visionary|VOW|1
+5 Heiko Yamazaki, the General|NEO|1
+5 Resistance Skywarden|ONE|1
+5 Invasion of Regatha|MOM|1
+5 Twisted Fealty|WOE|1
+5 Belligerent of the Ball|WOE|1
+5 Cacophony Scamp|ONE|1
+5 Furnace Reins|MOM|1
+5 Gleeful Demolition|ONE|1
+5 Sanguine Statuette|VOW|1
+5 Witchstalker Frenzy|WOE|1
+5 Two-Headed Hunter|WOE|1
+5 Scrappy Bruiser|MOM|1
+5 Rust Monster|AFR|1
+5 Stoke the Flames|MOM|1
+5 Frenzied Devils|VOW|1
+5 Upriser Renegade|NEO|1
+5 Embereth Veteran|WOE|1
+5 Hearth Elemental|WOE|1
+5 Stonesplitter Bolt|WOE|1
+5 Thermo-Alchemist|MID|1
+5 Oxidda Finisher|ONE|1
+5 Korvold and the Noble Thief|WOE|1
+5 Burning Hands|AFR|1
+5 Phoenix Chick|DMU|1
+5 Dragon Whelp|DMU|1
+5 Twinferno|DMU|1
+5 Flame Discharge|NEO|1
+5 Furnace Gremlin|MOM|1
+5 Yotia Declares War|DMU|1
+5 Magmatic Sprinter|ONE|1
+5 Axgard Artisan|MOM|1
+5 Fearless Skald|MOM|1
+5 Dragonspark Reactor|NEO|1
+5 Balduvian Berserker|DMU|1
+5 Horned Stoneseeker|BRO|1
+5 Reckless Handling|MAT|1
+5 Call In a Professional|SNC|1
+5 Battle Cry Goblin|AFR|1
+5 Unlucky Witness|SNC|1
+5 Spellrune Painter|MID|1
+5 Kolaghan Warmonger|MAT|1
+5 Mishra's Research Desk|BRO|1
+5 Play with Fire|MID|1
+5 Rebel Salvo|ONE|1
+5 Runebound Wolf|VOW|1
+5 Rending Flame|VOW|1
+5 You See a Pair of Goblins|AFR|1
+5 Magma Pummeler|VOW|1
+5 Critical Hit|AFR|1
+5 Involuntary Employment|SNC|1
+5 Ramosian Greatsword|MOM|1
+5 Pyre-Sledge Arsonist|SNC|1
+3 Hoard Hauler|SNC|1
+3 Falkenrath Pit Fighter|MID|1
+3 Vindictive Flamestoker|ONE|1
+3 Structural Assault|SNC|1
+3 Ragefire Hellkite|DMU|1
+3 Invasion of Karsus|MOM|1
+3 Reckless Stormseeker|MID|1
+3 Jaxis, the Troublemaker|SNC|1
+3 Song of Totentanz|WOE|1
+3 Invasion of Kaldheim|MOM|1
+3 Koth, Fire of Resistance|ONE|1
+3 Charming Scoundrel|WOE|1
+3 Redcap Gutter-Dweller|WOE|1
+3 Wish|AFR|1
+3 Lizard Blades|NEO|1
+3 Professional Face-Breaker|SNC|1
+3 Fable of the Mirror-Breaker|NEO|1
+3 Rampaging Raptor|MOM|1
+3 Slobad, Iron Goblin|ONE|1
+3 Dragonwing Glider|ONE|1
+3 Zalto, Fire Giant Duke|AFR|1
+3 Devilish Valet|SNC|1
+3 Curse of Shaken Faith|MID|1
+3 Minion of the Mighty|AFR|1
+3 City on Fire|MOM|1
+3 Light Up the Night|MID|1
+3 Burn Down the House|MID|1
+3 Stensia Uprising|VOW|1
+3 Feldon, Ronom Excavator|BRO|1
+3 Smoldering Egg|MID|1
+3 Chaotic Transformation|DMU|1
+3 Goddric, Cloaked Reveler|WOE|1
+3 Rundvelt Hordemaster|DMU|1
+3 The Elder Dragon War|DMU|1
+3 Change of Fortune|VOW|1
+3 Arni Metalbrow|MAT|1
+3 Orb of Dragonkind|AFR|1
+3 Plargg and Nassari|MAT|1
+3 Ill-Tempered Loner|VOW|1
+3 Dominating Vampire|VOW|1
+3 Orthion, Hero of Lavabrink|MOM|1
+3 Tyrant of Kher Ridges|BRO|1
+3 Artificer's Dragon|BRO|1
+3 Nahiri's Warcrafting|MOM|1
+3 Imodane, the Pyrohammer|WOE|1
+3 Visions of Phyrexia|BRO|1
+3 Defiler of Instinct|DMU|1
+3 Ogre Chitterlord|WOE|1
+3 Rhuk, Hexgold Nabber|ONE|1
+3 Thundering Raiju|NEO|1
+3 Scrap Welder|NEO|1
+3 Phyrexian Dragon Engine|BRO|1
+3 Brotherhood's End|BRO|1
+3 Mechanized Warfare|BRO|1
+3 Xorn|AFR|1
+3 Food Fight|WOE|1
+3 Curse of Hospitality|VOW|1
+3 Goro-Goro, Disciple of Ryusei|NEO|1
+3 Olivia's Attendants|VOW|1
+3 Red Sun's Twilight|ONE|1
+3 Hobgoblin Bandit Lord|AFR|1
+3 Over the Top|BRO|1
+3 Mishra's Command|BRO|1
+3 Keldon Flamesage|DMU|1
+3 Invoke Calamity|NEO|1
+3 Voldaren Thrillseeker|MOM|1
+3 Sokenzan, Crucible of Defiance|NEO|1
+3 March of Reckless Joy|NEO|1
+3 Creepy Puppeteer|VOW|1
+3 Meteor Swarm|AFR|1
+2 Kessig Wolfrider|VOW|1
+2 Bloodfeather Phoenix|MOM|1
+2 Squee, Dubious Monarch|DMU|1
+2 Raging Battle Mouse|WOE|1
+2 Ogre-Head Helm|NEO|1
+2 Rotisserie Elemental|WOE|1
+2 Into the Fire|MOM|1
+2 Delina, Wild Mage|AFR|1
+2 Radha's Firebrand|DMU|1
+2 Den of the Bugbear|AFR|1
+2 Geistflame Reservoir|MID|1
+2 Urabrask's Forge|ONE|1
+2 Draconic Destiny|BRO|1
 1 Sunstreak Phoenix|MID|1
+1 Shivan Devastator|DMU|1
+1 Urabrask, Heretic Praetor|SNC|1
+1 Virtue of Courage|WOE|1
+1 Atsushi, the Blazing Sky|NEO|1
+1 Chandra, Hope's Beacon|MOM|1
+1 Realm-Scorcher Hellkite|WOE|1
+1 Skitterbeam Battalion|BRO|1
+1 Moonveil Regent|MID|1
+1 Manaform Hellkite|VOW|1
+1 Cemetery Gatekeeper|VOW|1
+1 Capricious Hellraiser|ONE|1
+1 Zariel, Archduke of Avernus|AFR|1
+1 Jaya, Fiery Negotiator|DMU|1
+1 Chandra, Dressed to Kill|VOW|1
+1 Inferno of the Star Mounts|AFR|1
+1 Flameskull|AFR|1
+1 Volatile Arsonist|VOW|1
+1 Urabrask|MOM|1
+1 Solphim, Mayhem Dominus|ONE|1
+1 Invasion of Tarkir|MOM|1
+1 Arcane Bombardment|SNC|1
+1 All Will Be One|ONE|1
+1 Explosive Singularity|NEO|1

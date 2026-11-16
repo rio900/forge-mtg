@@ -67,6 +67,39 @@ public class VerifyPlane {
         }
         if(e.nextEnemy!=null)enemy(e.nextEnemy);
     }
+    static void checkLocal(PaperCard pc, String theme) {
+        card(pc, theme);
+        int mask = Map.of("White",1, "Blue",2, "Black",4, "Red",8, "Green",16, "Colorless",0)
+                .get(theme.replace("Creatures",""));
+        check(pc.getRules().getColorIdentity().getColor() == mask, theme + " identity " + pc);
+    }
+
+    static void verifyTown(ShopData shop) {
+        String theme = shop.name.substring("AvatarTown".length());
+        check(shop.rewards.size == 6, shop.name);
+        for (int index : List.of(2,5)) {
+            var draw = shop.rewards.get(index);
+            var pool = CardUtil.getDeck(draw.sourceDeck,false,false,"",false,false).getMain().toFlatList();
+            var weights = new HashMap<String,Integer>();
+            for (var pc : CardUtil.getPredicateResult(pool,draw)) {
+                if (index == 2) checkLocal(pc,theme); else card(pc,shop.name);
+                weights.merge(pc.getRarity().toString(),1,Integer::sum);
+            }
+            var percentages = index == 2 ? Map.of("C",30,"U",50,"R",18,"M",2) : Map.of("U",80,"R",19,"M",1);
+            int total = weights.values().stream().mapToInt(Integer::intValue).sum();
+            check(total > 0 && weights.keySet().equals(percentages.keySet()), theme + " " + weights);
+            percentages.forEach((r,p) -> check(weights.get(r)*100 == p*total, theme + " " + weights));
+        }
+        for (int i = 0; i < 6; i++) {
+            var goods = shop.rewards.get(i).generate(false,false);
+            check(goods.size == 1, shop.name + " slot " + i);
+            var pc = goods.first().getCard();
+            card(pc, shop.name);
+            if (i < 3) checkLocal(pc,theme);
+            else check(Set.of("U","R","M").contains(pc.getRarity().toString()), shop.name);
+        }
+    }
+
     public static void main(String[] args) throws Exception {
         TestProfile.require();
         GuiBase.setInterface(new GuiDesktop());FModel.initialize(null,null);
@@ -88,23 +121,8 @@ public class VerifyPlane {
         System.out.println("VERIFIED ALL DECK FILES "+checked.size()+"; deck reward checks="+deckRewardChecks);
         var storeFailures=new ArrayList<String>();
         for(var shop:WorldData.getShopList()) {
-            if(shop.name.startsWith("AvatarTown") && shop.rewards.size==4) {
-                var reserved=new HashSet<String>();
-                for(int i=0;i<3;i++)for(var choice:shop.rewards.get(i).cardUnion){
-                    var entry=choice.cardName.split("\\|");
-                    var pc=CardUtil.getCardByNameAndEdition(entry[0],entry[1]);
-                    check(pc.getRarity().toString().equals(i==0?"C":"U") && reserved.add(pc.getName()),shop.name+" "+pc);
-                }
-                var draw=shop.rewards.get(3);
-                var pool=CardUtil.getDeck(draw.sourceDeck,false,false,"",false,false).getMain().toFlatList();
-                var weights=new HashMap<String,Integer>();
-                for(var pc:CardUtil.getPredicateResult(pool,draw)){
-                    card(pc,shop.name);
-                    check(!reserved.contains(pc.getName()),shop.name+" duplicate "+pc);
-                    weights.merge(pc.getRarity().toString(),1,Integer::sum);
-                }
-                check(weights.equals(Map.of("C",30,"U",50,"R",18,"M",2)),shop.name+" "+weights);
-            }
+            if (shop.name.startsWith("AvatarTown") && !Set.of("AvatarTownBooster","AvatarTownEquipment").contains(shop.name))
+                verifyTown(shop);
             int count=0;boolean cardsOnly=true;
             for(var r:shop.rewards) {
                 if(r.type!=null && !Set.of("card","randomCard","Union","cardPackShop").contains(r.type))cardsOnly=false;

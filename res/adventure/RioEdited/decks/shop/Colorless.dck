@@ -1,91 +1,179 @@
 [metadata]
 Name=Colorless shop pool
 [Main]
-1 Urn of Godfire|MOM|1
-1 Stuffed Bear|MID|1
-1 Automatic Librarian|DMU|1
-1 Chrome Cat|SNC|1
-1 Halo Hopper|MOM|1
-1 Spare Dagger|AFR|1
-1 Stone Retrieval Unit|BRO|1
-1 Supply Drop|BRO|1
-1 Shrine Steward|NEO|1
-1 Myr Kinsmith|ONE|1
-1 Network Terminal|NEO|1
-1 Shield-Wall Sentinel|DMU|1
-1 Goblin Firebomb|BRO|1
-1 Blood Servitor|VOW|1
-1 Dune Mover|ONE|1
-1 Kitesail|MOM|1
-1 Flywheel Racer|MOM|1
-1 Crossroads Candleguide|MID|1
-1 Automated Artificer|NEO|1
-1 Papercraft Decoy|NEO|1
-1 Myr Custodian|ONE|1
-1 Quick-Draw Dagger|SNC|1
-1 Vanquisher's Axe|DMU|1
-1 Mimic|AFR|1
-1 Salvaged Manaworker|DMU|1
-1 Brute Suit|NEO|1
-1 Ceremonial Knife|VOW|1
-1 Phyrexian Archivist|MOM|1
-1 Ninja's Kunai|NEO|1
-1 Scarecrow Guide|WOE|1
-2 Lantern of the Lost|VOW|1
-2 Suspicious Bookcase|SNC|1
-2 Reconstructed Thopter|BRO|1
-2 Reito Sentinel|NEO|1
-2 Ichorplate Golem|ONE|1
-2 Argivian Avenger|BRO|1
-2 Iron Golem|AFR|1
-2 Thran Power Suit|BRO|1
-2 Runaway Trash-Bot|NEO|1
-2 Collector's Vault|WOE|1
-2 Symmetry Matrix|BRO|1
-2 Ribskiff|ONE|1
-1 High-Speed Hoverbike|NEO|1
-1 Moonsilver Key|MID|1
-1 Inscribed Tablet|DMU|1
-1 Dungeon Map|AFR|1
-1 Relic of Legends|DMU|1
-1 Hero's Heirloom|DMU|1
-1 Foreboding Statue|VOW|1
-1 Jodah's Codex|DMU|1
-1 Slagstone Refinery|BRO|1
-1 Prosthetic Injector|ONE|1
-1 Eriette's Tempting Apple|WOE|1
-1 Walking Bulwark|DMU|1
-1 Spectrum Sentinel|BRO|1
-1 Su-Chi Cave Guard|BRO|1
-1 Brass Knuckles|SNC|1
-1 Bronze Cudgels|NEO|1
-1 Boarded Window|VOW|1
-1 Soul-Guide Lantern|WOE|1
-1 Cement Shoes|SNC|1
-1 Walking Skyscraper|NEO|1
-1 Arc Spitter|SNC|1
-1 Three Bowls of Porridge|WOE|1
-1 Mystic Skull|MID|1
-1 Steel Exemplar|BRO|1
-1 Scuttling Butler|SNC|1
-1 Fifty Feet of Rope|AFR|1
-1 The Stone Brain|BRO|1
-1 The Mightstone and Weakstone|BRO|1
-1 Pithing Needle|MID|1
-1 Mechtitan Core|NEO|1
-1 The Celestus|MID|1
-1 The Irencrag|WOE|1
-1 Graaz, Unstoppable Juggernaut|ONE|1
-1 Argentum Masticore|ONE|1
-1 Mirran Safehouse|ONE|1
-1 Eye of Vecna|AFR|1
-1 Eater of Virtue|NEO|1
-1 Hylda's Crown of Winter|WOE|1
-1 Getaway Car|SNC|1
-1 Syr Ginger, the Meal Ender|WOE|1
-1 Golden Argosy|DMU|1
-1 Realmbreaker, the Invasion Tree|MOM|1
-1 Soulless Jailer|ONE|1
-1 Investigator's Journal|VOW|1
-1 Staff of Compleation|ONE|1
+4 Urn of Godfire|MOM|1
+4 Tocasia's Dig Site|BRO|1
+4 Stuffed Bear|MID|1
+4 Automatic Librarian|DMU|1
+4 Chrome Cat|SNC|1
+4 Brokers Hideout|SNC|1
+3 Halo Hopper|MOM|1
+3 Terramorphic Expanse|ONE|1
+3 Spare Dagger|AFR|1
+3 Stone Retrieval Unit|BRO|1
+3 Supply Drop|BRO|1
+3 Shrine Steward|NEO|1
+3 Crystal Grotto|DMU|1
+3 Cabaretti Courtyard|SNC|1
+3 Myr Kinsmith|ONE|1
+3 Network Terminal|NEO|1
+3 Shield-Wall Sentinel|DMU|1
+3 Goblin Firebomb|BRO|1
+3 Blood Servitor|VOW|1
+3 Dune Mover|ONE|1
+3 Obscura Storefront|SNC|1
+3 Kitesail|MOM|1
+3 Flywheel Racer|MOM|1
+3 Crossroads Candleguide|MID|1
+3 Automated Artificer|NEO|1
+3 Energy Refractor|BRO|1
+3 Papercraft Decoy|NEO|1
+3 Myr Custodian|ONE|1
+3 Quick-Draw Dagger|SNC|1
+3 Vanquisher's Axe|DMU|1
+3 Mimic|AFR|1
+3 Salvaged Manaworker|DMU|1
+3 Riveteers Overlook|SNC|1
+3 Brute Suit|NEO|1
+3 Ceremonial Knife|VOW|1
+3 Phyrexian Archivist|MOM|1
+3 Ninja's Kunai|NEO|1
+3 Evolving Wilds|AFR|1
+3 Scarecrow Guide|WOE|1
+3 Greataxe|AFR|1
+3 Coastal Bulwark|BRO|1
+3 Meteorite|DMU|1
+3 Thundersteel Colossus|NEO|1
+3 Gilded Pinions|SNC|1
+3 Jack-o'-Lantern|MID|1
+3 Spiked Pit Trap|AFR|1
+3 Searchlight Companion|NEO|1
+3 Maestros Theater|SNC|1
+3 Tower Worker|BRO|1
+3 Paragon of Modernity|SNC|1
+3 Leather Armor|AFR|1
+3 Swiftgear Drake|BRO|1
+3 Gingerbrute|WOE|1
+3 Halo Scarab|SNC|1
+3 Aeronaut's Wings|BRO|1
+3 Uncharted Haven|NEO|1
+3 Skittering Surveyor|MOM|1
+3 Mine Worker|BRO|1
+3 Wedding Invitation|VOW|1
+3 Ominous Parcel|SNC|1
+3 Dramatist's Puppet|NEO|1
+3 Power Plant Worker|BRO|1
+3 Ecologist's Terrarium|NEO|1
+3 Candy Trail|WOE|1
+3 Phyrexian Atlas|ONE|1
+3 Honored Heirloom|VOW|1
+3 Silver Bolt|MID|1
+3 Iron Apprentice|NEO|1
+7 Lantern of the Lost|VOW|1
+7 Suspicious Bookcase|SNC|1
+7 Reconstructed Thopter|BRO|1
+7 Reito Sentinel|NEO|1
+7 Ichorplate Golem|ONE|1
+7 Towashi Guide-Bot|NEO|1
+7 Argivian Avenger|BRO|1
+7 Iron Golem|AFR|1
+7 Thran Power Suit|BRO|1
+7 Demolition Field|BRO|1
+7 Runaway Trash-Bot|NEO|1
+7 Collector's Vault|WOE|1
+7 Secluded Courtyard|NEO|1
+7 Symmetry Matrix|BRO|1
+7 Ribskiff|ONE|1
+7 High-Speed Hoverbike|NEO|1
+7 Moonsilver Key|MID|1
+7 Inscribed Tablet|DMU|1
+7 Dungeon Map|AFR|1
+7 Edgewall Inn|WOE|1
+7 Relic of Legends|DMU|1
+7 Atraxa's Skitterfang|ONE|1
+7 Field of Ruin|MID|1
+7 Patchwork Automaton|NEO|1
+7 Hero's Heirloom|DMU|1
+7 Circuit Mender|NEO|1
+7 Foreboding Statue|VOW|1
+7 Jodah's Codex|DMU|1
+7 Mech Hangar|NEO|1
+7 Temple of the Dragon Queen|AFR|1
+7 Slagstone Refinery|BRO|1
+7 Prosthetic Injector|ONE|1
+7 Eriette's Tempting Apple|WOE|1
+7 Walking Bulwark|DMU|1
+7 Spectrum Sentinel|BRO|1
+7 Su-Chi Cave Guard|BRO|1
+7 Levitating Statue|BRO|1
+7 Brass Knuckles|SNC|1
+6 Bronze Cudgels|NEO|1
+6 Boarded Window|VOW|1
+6 Soul-Guide Lantern|WOE|1
+6 Myr Convert|ONE|1
+6 Cement Shoes|SNC|1
+6 Walking Skyscraper|NEO|1
+6 Arc Spitter|SNC|1
+6 Three Bowls of Porridge|WOE|1
+6 Roadside Reliquary|NEO|1
+6 Mystic Skull|MID|1
+6 Steel Exemplar|BRO|1
+6 Scuttling Butler|SNC|1
+6 Fifty Feet of Rope|AFR|1
+6 Containment Construct|NEO|1
+3 The Stone Brain|BRO|1
+3 The Mightstone and Weakstone|BRO|1
+3 The Monumental Facade|ONE|1
+3 Pithing Needle|MID|1
+3 Mechtitan Core|NEO|1
+3 The Celestus|MID|1
+3 The Irencrag|WOE|1
+3 Graaz, Unstoppable Juggernaut|ONE|1
+3 Argentum Masticore|ONE|1
+3 Voldaren Estate|VOW|1
+3 Mirran Safehouse|ONE|1
+3 Eye of Vecna|AFR|1
+3 Drannith Ruins|MAT|1
+3 Eater of Virtue|NEO|1
+3 Hylda's Crown of Winter|WOE|1
+3 Mirrex|ONE|1
+3 Getaway Car|SNC|1
+3 Syr Ginger, the Meal Ender|WOE|1
+3 The Seedcore|ONE|1
+3 Golden Argosy|DMU|1
+3 Realmbreaker, the Invasion Tree|MOM|1
+3 Soulless Jailer|ONE|1
+3 Investigator's Journal|VOW|1
+3 The Stasis Coffin|BRO|1
+3 Plaza of Heroes|DMU|1
+3 Mirror Box|NEO|1
+3 Dungeon Descent|AFR|1
+3 Mishra's Foundry|BRO|1
+3 Liberator, Urza's Battlethopter|BRO|1
+3 Thran Spider|BRO|1
+3 Dollhouse of Horrors|VOW|1
+3 The Filigree Sylex|ONE|1
+3 Unlicensed Hearse|SNC|1
+3 Surgehacker Mech|NEO|1
+3 Hall of Tagsin|BRO|1
+3 Tablet of Compleation|ONE|1
+3 Monument to Perfection|ONE|1
+3 Zenith Chronicler|ONE|1
+3 Reckoner Bankbuster|NEO|1
+3 Hand of Vecna|AFR|1
+2 The Mycosynth Gardens|ONE|1
+2 Treasure Vault|AFR|1
+2 Treasure Chest|AFR|1
+2 Staff of Compleation|ONE|1
 1 Luxior, Giada's Gift|SNC|1
+1 Cityscape Leveler|BRO|1
+1 The Deck of Many Things|AFR|1
+1 Invasion of Ravnica|MOM|1
+1 Sword of Forge and Frontier|ONE|1
+1 Weatherlight Compleated|DMU|1
+1 Portal to Phyrexia|BRO|1
+1 Agatha's Soul Cauldron|WOE|1
+1 Karn's Sylex|DMU|1
+1 Karn, Legacy Reforged|MAT|1
+1 Karn, Living Legacy|DMU|1
+1 Sword of Once and Future|MOM|1

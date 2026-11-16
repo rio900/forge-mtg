@@ -1,0 +1,4 @@
+[metadata]
+Code=LTR
+Date=2023-06-23
+Booster=10 Common:fromsheet("LTR cards"), 3 Uncommon:fromSheet("LTR cards"), 1 RareMythic:fromSheet("LTR cards"), 1 BasicLand:fromSheet("LTR cards")

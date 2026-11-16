@@ -1,0 +1,110 @@
+{
+  "name": "Avatar Pile Easy R",
+  "mainDeck": [
+    {
+      "count": 18,
+      "cardName": "Mountain|TLA"
+    },
+    {
+      "count": 9,
+      "cardName": "Forest|TLA"
+    },
+    {
+      "count": 9,
+      "colors": [
+        "red"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "TLA",
+        "TLE"
+      ],
+      "colorType": "MonoColor"
+    },
+    {
+      "count": 6,
+      "colors": [
+        "green"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "TLA",
+        "TLE"
+      ],
+      "colorType": "MonoColor"
+    },
+    {
+      "count": 6,
+      "colors": [
+        "red"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "TLA",
+        "TLE"
+      ],
+      "colorType": "MonoColor"
+    },
+    {
+      "count": 3,
+      "colors": [
+        "green"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "TLA",
+        "TLE"
+      ],
+      "colorType": "MonoColor"
+    },
+    {
+      "count": 9,
+      "colors": [
+        "red"
+      ],
+      "rarity": [
+        "rare"
+      ],
+      "manaCosts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "editions": [
+        "TLA",
+        "TLE"
+      ],
+      "colorType": "MonoColor"
+    }
+  ]
+}

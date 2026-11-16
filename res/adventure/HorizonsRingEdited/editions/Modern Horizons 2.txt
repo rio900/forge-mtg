@@ -1,0 +1,4 @@
+[metadata]
+Code=MH2
+Date=2021-06-18
+Booster=10 Common:fromSheet("MH2 cards"), 3 Uncommon:fromSheet("MH2 cards"), 1 RareMythic:fromSheet("MH2 cards"), 1 fromSheet("MH2 Lands")

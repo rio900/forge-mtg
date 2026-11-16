@@ -140,11 +140,11 @@
         "G": "decks/starter/constructed-Easy-G.dck"
       },
       "pileDecks": {
-        "W": "decks/starter/pile-Easy-W.dck",
-        "U": "decks/starter/pile-Easy-U.dck",
-        "B": "decks/starter/pile-Easy-B.dck",
-        "R": "decks/starter/pile-Easy-R.dck",
-        "G": "decks/starter/pile-Easy-G.dck"
+        "W": "decks/starter/pile-Easy-W.json",
+        "U": "decks/starter/pile-Easy-U.json",
+        "B": "decks/starter/pile-Easy-B.json",
+        "R": "decks/starter/pile-Easy-R.json",
+        "G": "decks/starter/pile-Easy-G.json"
       },
       "commanderDecks": {
         "W": "decks/starter/commander-W.dck",
@@ -186,11 +186,11 @@
         "G": "decks/starter/constructed-Normal-G.dck"
       },
       "pileDecks": {
-        "W": "decks/starter/pile-Normal-W.dck",
-        "U": "decks/starter/pile-Normal-U.dck",
-        "B": "decks/starter/pile-Normal-B.dck",
-        "R": "decks/starter/pile-Normal-R.dck",
-        "G": "decks/starter/pile-Normal-G.dck"
+        "W": "decks/starter/pile-Normal-W.json",
+        "U": "decks/starter/pile-Normal-U.json",
+        "B": "decks/starter/pile-Normal-B.json",
+        "R": "decks/starter/pile-Normal-R.json",
+        "G": "decks/starter/pile-Normal-G.json"
       },
       "commanderDecks": {
         "W": "decks/starter/commander-W.dck",
@@ -230,11 +230,11 @@
         "G": "decks/starter/constructed-Hard-G.dck"
       },
       "pileDecks": {
-        "W": "decks/starter/pile-Hard-W.dck",
-        "U": "decks/starter/pile-Hard-U.dck",
-        "B": "decks/starter/pile-Hard-B.dck",
-        "R": "decks/starter/pile-Hard-R.dck",
-        "G": "decks/starter/pile-Hard-G.dck"
+        "W": "decks/starter/pile-Hard-W.json",
+        "U": "decks/starter/pile-Hard-U.json",
+        "B": "decks/starter/pile-Hard-B.json",
+        "R": "decks/starter/pile-Hard-R.json",
+        "G": "decks/starter/pile-Hard-G.json"
       },
       "commanderDecks": {
         "W": "decks/starter/commander-W.dck",
@@ -271,11 +271,11 @@
         "G": "decks/starter/constructed-Insane-G.dck"
       },
       "pileDecks": {
-        "W": "decks/starter/pile-Insane-W.dck",
-        "U": "decks/starter/pile-Insane-U.dck",
-        "B": "decks/starter/pile-Insane-B.dck",
-        "R": "decks/starter/pile-Insane-R.dck",
-        "G": "decks/starter/pile-Insane-G.dck"
+        "W": "decks/starter/pile-Insane-W.json",
+        "U": "decks/starter/pile-Insane-U.json",
+        "B": "decks/starter/pile-Insane-B.json",
+        "R": "decks/starter/pile-Insane-R.json",
+        "G": "decks/starter/pile-Insane-G.json"
       },
       "commanderDecks": {
         "W": "decks/starter/commander-W.dck",

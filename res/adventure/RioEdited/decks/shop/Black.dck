@@ -1,103 +1,413 @@
 [metadata]
 Name=Black shop pool
 [Main]
-1 Devour Intellect|AFR|1
-1 Eaten Alive|MID|1
-1 Reckoner's Bargain|NEO|1
-1 Disfigure|BRO|1
-1 Flitting Guerrilla|MOM|1
-1 Incriminate|SNC|1
-1 Hoard Robber|AFR|1
-1 Kill-Zone Acrobat|BRO|1
-1 Precipitous Drop|AFR|1
-1 Grisly Ritual|VOW|1
-1 Annihilating Glare|ONE|1
-1 Sweettooth Witch|WOE|1
-1 No Way Out|MID|1
-1 Grim Bounty|AFR|1
-1 Demon's Due|SNC|1
-1 Gixian Skullflayer|BRO|1
-1 Unhallowed Phalanx|VOW|1
-1 Hired Hexblade|AFR|1
-1 Chainflail Centipede|NEO|1
-1 Nezumi Bladeblesser|NEO|1
-1 Virus Beetle|NEO|1
-1 Trench Stalker|BRO|1
-1 Kami of Restless Shadows|NEO|1
-1 Sugar Rush|WOE|1
-1 Eriette's Whisper|WOE|1
-1 Fake Your Own Death|SNC|1
-1 Vampire's Kiss|VOW|1
-1 Doomed Dissenter|VOW|1
-1 Ichor Drinker|MOM|1
-1 Bleed Dry|VOW|1
-1 Dokuchi Silencer|NEO|1
-1 Stromkirk Bloodthief|MID|1
-1 Necrosynthesis|MID|1
-1 Collective Nightmare|MOM|1
-1 Restless Bloodseeker|VOW|1
-1 Merciless Repurposing|MOM|1
-1 Pilfer|DMU|1
-1 Bilious Skulldweller|ONE|1
-1 High Fae Negotiator|WOE|1
-1 Black Dragon|AFR|1
-1 Dream Spoilers|WOE|1
-1 Death-Rattle Oni|MAT|1
-1 Taken by Nightmares|WOE|1
-1 Bloodtithe Collector|MID|1
-1 Back for Seconds|WOE|1
-1 The Long Reach of Night|NEO|1
-1 Skulking Killer|VOW|1
-1 Lord Skitter's Butcher|WOE|1
-1 Ray of Enfeeblement|AFR|1
-1 Gruesome Realization|BRO|1
-1 Rogues' Gallery|SNC|1
-1 Corrupt|BRO|1
-1 Ghoulish Procession|MID|1
-1 Gnawing Vermin|BRO|1
-1 Markov Baron|MAT|1
-1 Transmogrant Altar|BRO|1
-1 Feed the Infection|ONE|1
-1 Vat of Rebirth|ONE|1
-1 Parasitic Grasp|VOW|1
-1 Blight Pile|DMU|1
-1 Vat Emergence|ONE|1
-1 Ashnod's Harvester|BRO|1
-1 Twisted Sewer-Witch|WOE|1
-1 Skullport Merchant|AFR|1
-1 Assassin's Ink|NEO|1
-1 Necrosquito|ONE|1
-1 Thran Vigil|BRO|1
-1 Phyrexian Gargantua|MOM|1
-1 Dreams of Steel and Oil|BRO|1
-1 Old Flitterfang|WOE|1
-1 Tavern Swindler|SNC|1
-1 Lightfoot Rogue|AFR|1
-1 Undead Butler|VOW|1
-1 Leech Gauntlet|NEO|1
-1 Cut Down|DMU|1
-1 Demogorgon's Clutches|AFR|1
-1 Braids's Frightful Return|DMU|1
-1 Invasion of Ulgrotha|MOM|1
-1 Ambulatory Edifice|ONE|1
-1 Edgar's Awakening|VOW|1
-1 Demonic Bargain|VOW|1
-1 Cut of the Profits|SNC|1
-1 Grafted Butcher|MOM|1
-1 Vraan, Executioner Thane|ONE|1
-1 Westgate Regent|AFR|1
-1 Shakedown Heavy|SNC|1
-1 Invasion of Fiora|MOM|1
-1 Breach the Multiverse|MOM|1
-1 Curse of Leeches|MID|1
-1 Asmodeus the Archfiend|AFR|1
-1 The Raven Man|DMU|1
-1 Terror of Towashi|MOM|1
-1 Karumonix, the Rat King|ONE|1
-1 The Cruelty of Gix|DMU|1
-1 Gixian Puppeteer|BRO|1
-1 Razorlash Transmogrant|BRO|1
-1 Hoarding Broodlord|MOM|1
-1 Archpriest of Shadows|MOM|1
+3 Devour Intellect|AFR|1
+3 Eaten Alive|MID|1
+3 Reckoner's Bargain|NEO|1
+3 Disfigure|BRO|1
+3 Flitting Guerrilla|MOM|1
+3 Incriminate|SNC|1
+3 Hoard Robber|AFR|1
+3 Kill-Zone Acrobat|BRO|1
+3 Precipitous Drop|AFR|1
+3 Grisly Ritual|VOW|1
+3 Annihilating Glare|ONE|1
+3 Sweettooth Witch|WOE|1
+3 No Way Out|MID|1
+3 Grim Bounty|AFR|1
+3 Demon's Due|SNC|1
+3 Gixian Skullflayer|BRO|1
+3 Nezumi Informant|MOM|1
+3 Unhallowed Phalanx|VOW|1
+3 Hired Hexblade|AFR|1
+3 Chainflail Centipede|NEO|1
+3 Nezumi Bladeblesser|NEO|1
+3 Virus Beetle|NEO|1
+3 Trench Stalker|BRO|1
+3 Kami of Restless Shadows|NEO|1
+3 Sugar Rush|WOE|1
+3 Eriette's Whisper|WOE|1
+3 Fake Your Own Death|SNC|1
+3 Vampire's Kiss|VOW|1
+3 Doomed Dissenter|VOW|1
+3 Ichor Drinker|MOM|1
+3 Bleed Dry|VOW|1
+3 Courier Bat|VOW|1
+3 Olivia's Midnight Ambush|MID|1
+3 Vampire Spawn|AFR|1
+3 Dig Up the Body|SNC|1
+3 Thraxodemon|BRO|1
+3 Fates' Reversal|AFR|1
+3 Battle-Rage Blessing|DMU|1
+3 Zombie Ogre|AFR|1
+3 Consuming Aetherborn|MOM|1
+3 Final Flourish|MOM|1
+3 Bloodcrazed Socialite|VOW|1
+3 Gloomfang Mauler|MOM|1
+3 Hobbling Zombie|MID|1
+3 Pointed Discussion|VOW|1
+3 Splatter Goblin|DMU|1
+3 Defenestrate|MID|1
+3 Kami of Terrible Secrets|NEO|1
+3 Gix's Caress|BRO|1
+3 Overwhelming Remorse|BRO|1
+3 Rat Out|WOE|1
+3 Corrupt Court Official|SNC|1
+3 Desperate Farmer|VOW|1
+3 Eerie Soultender|DMU|1
+3 Ichor Shade|MOM|1
+3 Morkrut Behemoth|MID|1
+3 Unseal the Necropolis|MOM|1
+3 Powerstone Fracture|BRO|1
+3 Okiba Reckoner Raid|NEO|1
+3 Fleshless Gladiator|ONE|1
+3 Return to Action|NEO|1
+3 Bat Whisperer|MID|1
+3 Reckoner Shakedown|NEO|1
+3 Baleful Beholder|AFR|1
+2 Phyrexian Rager|DMU|1
+2 Blood Fountain|VOW|1
+2 Arrogant Outlaw|MID|1
+2 Dredging Claw|BRO|1
+2 Not Dead After All|WOE|1
+2 Crooked Custodian|SNC|1
+2 Injector Crocodile|MOM|1
+2 Rowan's Grim Search|WOE|1
+2 Siege Zombie|MID|1
+2 Stinging Hivemaster|ONE|1
+2 Undercity Scrounger|NEO|1
+2 Midnight Assassin|SNC|1
+2 Moment of Defiance|BRO|1
+2 Testament Bearer|ONE|1
+2 Blightbelly Rat|ONE|1
+2 Novice Occultist|MID|1
+2 Failed Conversion|MOM|1
+2 Gluttonous Guest|VOW|1
+2 Tattered Apparition|DMU|1
+2 Ravenous Gigamole|BRO|1
+2 Inkrise Infiltrator|NEO|1
+2 You Are Already Dead|NEO|1
+2 Ashnod's Intervention|BRO|1
+2 Anoint with Affliction|ONE|1
+2 Phyrexian Vivisector|DMU|1
+2 Twisted Embrace|NEO|1
+2 Etched Familiar|MOM|1
+2 Mukotai Ambusher|NEO|1
+2 Stingblade Assassin|WOE|1
+2 Sheoldred's Headcleaver|ONE|1
+2 Whisper of the Dross|ONE|1
+2 Shatter the Oath|WOE|1
+2 Traumatic Revelation|MOM|1
+2 Dokuchi Shadow-Walker|NEO|1
+2 Kaito's Pursuit|NEO|1
+2 Cutthroat Contender|SNC|1
+2 Aim for the Head|VOW|1
+2 Clattering Skeletons|AFR|1
+2 Deadly Dispute|AFR|1
+2 Persistent Specimen|VOW|1
+2 Murder|SNC|1
+2 Clawing Torment|NEO|1
+2 Extinguish the Light|DMU|1
+2 Writhing Necromass|DMU|1
+2 Gulping Scraptrap|ONE|1
+2 Scrapwork Rager|BRO|1
+2 Rot-Tide Gargantua|VOW|1
+2 Dross Skullbomb|ONE|1
+2 Voracious Vermin|WOE|1
+2 Herald of Hadar|AFR|1
+2 Revel Ruiner|SNC|1
+2 Warehouse Tabby|WOE|1
+2 Extract the Truth|SNC|1
+2 Ecstatic Awakener|MID|1
+2 Infectious Inquiry|ONE|1
+2 Crawl from the Cellar|MID|1
+2 Thieves' Tools|AFR|1
+2 Feign Death|AFR|1
+2 Fell Horseman|WOE|1
+2 Feed the Cauldron|WOE|1
+2 Rotten Reunion|MID|1
+2 Cutthroat Centurion|ONE|1
+2 Gixian Infiltrator|BRO|1
+2 Emergency Weld|BRO|1
+2 Wicked Visitor|WOE|1
+2 Vampire Interloper|MID|1
+2 Shadow Prophecy|DMU|1
+2 Candy Grapple|WOE|1
+2 The Dross Pits|ONE|1
+2 Vraska's Fall|ONE|1
+2 Debt to the Kami|NEO|1
+2 Shady Traveler|MID|1
+2 Dreg Recycler|MOM|1
+2 Deadly Derision|MOM|1
+2 Sepulcher Ghoul|AFR|1
+2 Tenured Oilcaster|MOM|1
+2 Manticore|AFR|1
+2 Pestilent Syphoner|ONE|1
+2 Bladebrand|MID|1
+2 Girder Goons|SNC|1
+2 Vanquish the Weak|MOM|1
+2 Ragged Recluse|VOW|1
+2 Battlefly Swarm|DMU|1
+2 Barrow Naughty|WOE|1
+2 Gift of Fangs|VOW|1
+2 Lethal Exploit|NEO|1
+2 Bonepicker Skirge|ONE|1
+2 Diregraf Horde|MID|1
+2 Mintstrosity|WOE|1
+2 Gibbering Barricade|DMU|1
+2 Mirrodin Avenged|MOM|1
+2 Undying Malice|VOW|1
+2 Bone Splinters|DMU|1
+2 Hopeless Nightmare|WOE|1
+2 Diregraf Scavenger|VOW|1
+2 Conceited Witch|WOE|1
+2 Join the Maestros|SNC|1
+2 Mindleech Ghoul|VOW|1
+2 Eyes of the Beholder|AFR|1
+2 Blood Pact|MID|1
+2 Bladed Battle-Fan|MOM|1
+2 Scream Puff|WOE|1
+2 Corrupted Conviction|MOM|1
+2 Etched Host Doombringer|MOM|1
+2 Toxic Abomination|DMU|1
+2 Deal Gone Bad|SNC|1
+2 Offer Immortality|ONE|1
+2 Yuan-Ti Fang-Blade|AFR|1
+2 Shambling Ghast|AFR|1
+2 Cruel Grimnarch|ONE|1
+2 Clay Revenant|BRO|1
+2 Carrion Locust|BRO|1
+2 Duress|MID|1
+2 Goring Warplow|BRO|1
+6 Dokuchi Silencer|NEO|1
+6 Stromkirk Bloodthief|MID|1
+6 Necrosynthesis|MID|1
+6 Collective Nightmare|MOM|1
+6 Restless Bloodseeker|VOW|1
+6 Merciless Repurposing|MOM|1
+6 Pilfer|DMU|1
+6 Cult Conscript|DMU|1
+6 Bilious Skulldweller|ONE|1
+6 High Fae Negotiator|WOE|1
+6 Black Dragon|AFR|1
+6 Dream Spoilers|WOE|1
+6 Death-Rattle Oni|MAT|1
+6 Taken by Nightmares|WOE|1
+6 Bloodtithe Collector|MID|1
+6 Back for Seconds|WOE|1
+6 The Long Reach of Night|NEO|1
+6 Skulking Killer|VOW|1
+6 Lord Skitter's Butcher|WOE|1
+6 Ray of Enfeeblement|AFR|1
+6 Gruesome Realization|BRO|1
+6 Rogues' Gallery|SNC|1
+6 Corrupt|BRO|1
+6 Ghoulish Procession|MID|1
+6 Gnawing Vermin|BRO|1
+6 Markov Baron|MAT|1
+6 Transmogrant Altar|BRO|1
+6 Knight of Dusk's Shadow|DMU|1
+6 Feed the Infection|ONE|1
+6 Gravelighter|NEO|1
+6 Vat of Rebirth|ONE|1
+6 Go for the Throat|BRO|1
+6 Parasitic Grasp|VOW|1
+6 Blight Pile|DMU|1
+6 Vat Emergence|ONE|1
+6 Ashnod's Harvester|BRO|1
+6 Morbid Opportunist|MID|1
+6 Twisted Sewer-Witch|WOE|1
+6 Skullport Merchant|AFR|1
+6 Assassin's Ink|NEO|1
+6 Necrosquito|ONE|1
+6 Thran Vigil|BRO|1
+6 Phyrexian Gargantua|MOM|1
+6 Dreams of Steel and Oil|BRO|1
+6 Old Flitterfang|WOE|1
+6 Tavern Swindler|SNC|1
+6 Lightfoot Rogue|AFR|1
+6 Undead Butler|VOW|1
+6 Leech Gauntlet|NEO|1
+6 Cut Down|DMU|1
+6 Demogorgon's Clutches|AFR|1
+6 Braids's Frightful Return|DMU|1
+6 Invasion of Ulgrotha|MOM|1
+6 Ambulatory Edifice|ONE|1
+6 Edgar's Awakening|VOW|1
+6 Compleated Huntmaster|MOM|1
+6 No One Left Behind|BRO|1
+6 Faerie Dreamthief|WOE|1
+6 Covert Cutpurse|MID|1
+6 Blot Out|MAT|1
+6 Life of Toshiro Umezawa|NEO|1
+6 Baneblade Scoundrel|MID|1
+6 Go-Shintai of Hidden Cruelty|NEO|1
+6 Nezumi Prowler|NEO|1
+6 Malicious Malfunction|NEO|1
+6 Disciples of Gix|BRO|1
+6 Warlock Class|AFR|1
+6 Dusk Mangler|SNC|1
+6 Sheoldred's Edict|ONE|1
+6 Fell Stinger|VOW|1
+6 Dockside Chef|NEO|1
+6 Hero's Downfall|VOW|1
+6 Foul Play|MID|1
+6 Grim Wanderer|AFR|1
+6 Battlefield Butcher|BRO|1
+6 Reaper's Talisman|AFR|1
+6 Scheming Aspirant|ONE|1
+6 Dreadhound|MID|1
+6 Faerie Fencing|WOE|1
+6 Sengir Connoisseur|DMU|1
+6 Catapult Fodder|VOW|1
+6 Check for Traps|AFR|1
+6 Heirloom Mirror|MID|1
+6 Gurgling Anointer|BRO|1
+6 Innocent Traveler|VOW|1
+6 Unforgiving One|NEO|1
+6 Enormous Energy Blade|NEO|1
+6 Vengeful Strangler|MID|1
+6 Dungeon Crawler|AFR|1
+6 Night Clubber|SNC|1
+6 Glistening Deluge|MOM|1
+6 Drown in Ichor|ONE|1
+6 Experimental Confectioner|WOE|1
+6 Scorn-Blade Berserker|MOM|1
+6 Vampire Scrivener|SNC|1
+5 Nimraiser Paladin|ONE|1
+5 Dread Fugue|VOW|1
+5 Death-Priest of Myrkul|AFR|1
+5 Gift of Compleation|MOM|1
+5 Illicit Shipment|SNC|1
+5 Wedding Security|VOW|1
+5 Groom's Finery|VOW|1
+5 Whack|SNC|1
+5 Necrogen Communion|ONE|1
+5 Okiba Salvage|NEO|1
+5 Chittering Skitterling|ONE|1
+5 Infernal Grasp|MID|1
+5 Invasion of Eldraine|MOM|1
+5 Ego Drain|WOE|1
+5 Graveyard Shift|SNC|1
+5 Bloodsworn Squire|VOW|1
+5 Grisly Sigil|SNC|1
+5 Render Inert|MOM|1
+5 Power Word Kill|AFR|1
+5 Seer of Stolen Sight|MOM|1
+5 The Witch's Vanity|WOE|1
+5 Raffine's Silencer|SNC|1
+5 Ashiok's Reaper|WOE|1
+5 Drider|AFR|1
+5 Archghoul of Thraben|VOW|1
+5 Ravenous Necrotitan|ONE|1
+4 Demonic Bargain|VOW|1
+4 Cut of the Profits|SNC|1
+4 Grafted Butcher|MOM|1
+3 Vraan, Executioner Thane|ONE|1
+3 Westgate Regent|AFR|1
+3 Takenuma, Abandoned Mire|NEO|1
+3 Shakedown Heavy|SNC|1
+3 Invasion of Fiora|MOM|1
+3 Breach the Multiverse|MOM|1
+3 Curse of Leeches|MID|1
+3 Asmodeus the Archfiend|AFR|1
+3 The Raven Man|DMU|1
+3 Terror of Towashi|MOM|1
+3 Karumonix, the Rat King|ONE|1
+3 The Cruelty of Gix|DMU|1
+3 Gixian Puppeteer|BRO|1
+3 Razorlash Transmogrant|BRO|1
+3 Hoarding Broodlord|MOM|1
+3 Archpriest of Shadows|MOM|1
+3 Ashnod, Flesh Mechanist|BRO|1
+3 Wight|AFR|1
+3 Tenacious Underdog|SNC|1
+3 Fateful Handoff|BRO|1
+3 Tribute to Horobi|NEO|1
+3 Archfiend of the Dross|ONE|1
+3 Black Sun's Twilight|ONE|1
+3 Dying to Serve|VOW|1
+3 Drag to the Bottom|DMU|1
+3 Graf Reaver|VOW|1
+3 The End|WOE|1
+3 Bloated Processor|MOM|1
+3 Lich-Knights' Conquest|WOE|1
+3 Kinzu of the Bleak Coven|ONE|1
+3 Transmogrant's Crown|BRO|1
+3 Forsworn Paladin|AFR|1
+3 Tyrannical Pitlord|DMU|1
+3 Concealing Curtains|VOW|1
+3 Dreadfeast Demon|VOW|1
+3 Sphere of Annihilation|AFR|1
+3 Slaughter Specialist|MID|1
+3 Voldaren Bloodcaster|VOW|1
+3 Misery's Shadow|BRO|1
+3 Gix's Command|BRO|1
+3 Falkenrath Forebear|VOW|1
+3 Champion of the Perished|MID|1
+3 Gisa, Glorious Resurrector|MID|1
+3 Urborg Scavengers|MAT|1
+3 Hive of the Eye Tyrant|AFR|1
+3 Sanguine Spy|SNC|1
+3 Bloodvial Purveyor|VOW|1
+3 Pile On|MOM|1
+3 Invoke Despair|NEO|1
+3 Gumdrop Poisoner|WOE|1
+3 Specter of Mortality|WOE|1
+3 Headless Rider|VOW|1
+3 Rankle's Prank|WOE|1
+3 Evolved Sleeper|DMU|1
+3 Painful Quandary|BRO|1
+3 Bloodline Culling|MID|1
+3 Tangled Colony|WOE|1
+3 Soul Transfer|NEO|1
+3 Shadow of Mortality|SNC|1
+3 Terror Ballista|BRO|1
+3 Defiler of Flesh|DMU|1
+3 Vorpal Sword|AFR|1
+3 Cemetery Tampering|SNC|1
+3 Geth, Thane of Contracts|ONE|1
+3 Lord Skitter, Sewer King|WOE|1
+3 Braids, Arisen Nightmare|DMU|1
+3 Phyrexian Arena|ONE|1
+3 Shadow-Rite Priest|DMU|1
+3 Jadar, Ghoulcaller of Nephalia|MID|1
+3 March of Wretched Sorrow|NEO|1
+3 Graveyard Trespasser|MID|1
+3 Ayara's Oathsworn|MAT|1
+3 Hostile Negotiations|BRO|1
+3 Biting-Palm Ninja|NEO|1
+3 Gelatinous Cube|AFR|1
+3 Mukotai Soulripper|NEO|1
+3 Lord Skitter's Blessing|WOE|1
+3 Mask of Griselbrand|MID|1
+3 Malevolent Witchkite|WOE|1
+3 Spiteful Hexmage|WOE|1
 1 Cemetery Desecrator|VOW|1
 1 Lord of the Forsaken|MID|1
+1 Invasion of Innistrad|MOM|1
+1 Jerren, Corrupted Bishop|MID|1
+1 Lolth, Spider Queen|AFR|1
+1 Beseech the Mirror|WOE|1
+1 Henrika Domnathi|VOW|1
+1 Sheoldred, the Apocalypse|DMU|1
+1 Sorin the Mirthless|VOW|1
+1 Nashi, Moon Sage's Scion|NEO|1
+1 Body Launderer|SNC|1
+1 Phyrexian Obliterator|ONE|1
+1 Ebondeath, Dracolich|AFR|1
+1 The Book of Vile Darkness|AFR|1
+1 Acererak the Archlich|AFR|1
+1 Phyrexian Fleshgorger|BRO|1
+1 Vraska, Betrayal's Sting|ONE|1
+1 Drivnod, Carnage Dominus|ONE|1
+1 Ashiok, Wicked Manipulator|WOE|1
+1 Gix, Yawgmoth Praetor|BRO|1
+1 Junji, the Midnight Sky|NEO|1
+1 Angel of Suffering|SNC|1
+1 Hostile Hostel|MID|1
+1 Blade of the Oni|NEO|1
+1 Virtue of Persistence|WOE|1
+1 The Meathook Massacre|MID|1
+1 Liliana of the Veil|DMU|1
+1 Sheoldred|MOM|1

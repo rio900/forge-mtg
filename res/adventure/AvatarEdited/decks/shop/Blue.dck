@@ -1,57 +1,84 @@
 [metadata]
 Name=Blue shop pool
 [Main]
-2 Giant Koi|TLA|1
-2 Waterbending Lesson|TLA|1
-2 Unagi's Spray|TLE|1
-2 Iguana Parrot|TLA|1
-2 Flying Dolphin-Fish|TLE|1
-2 Rowdy Snowballers|TLA|1
-2 Octopus Form|TLA|1
-2 Forecasting Fortune Teller|TLA|1
-2 It'll Quench Ya!|TLA|1
-2 Lost Days|TLA|1
-2 Frantic Search|TLE|1
-2 Turtle-Seals|TLE|1
-1 First-Time Flyer|TLA|1
-1 Dramatic Reversal|TLE|1
-1 Otter-Penguin|TLA|1
-1 Flexible Waterbender|TLA|1
-1 Watery Grasp|TLA|1
-1 Geyser Leaper|TLA|1
-4 Knowledge Seeker|TLA|1
-4 Ember Island Production|TLA|1
-3 Lost in the Spirit World|TLE|1
-3 Princess Yue|TLE|1
-3 Honest Work|TLA|1
-3 Teo, Spirited Glider|TLA|1
-3 Serpent of the Pass|TLA|1
-3 North Pole Patrol|TLA|1
-3 Invasion Submersible|TLA|1
-3 The Spirit Oasis|TLA|1
-3 Katara, Bending Prodigy|TLA|1
-3 Whirlwind Technique|TLE|1
-3 Gran-Gran|TLA|1
-3 Waterbending Scroll|TLA|1
-3 Master Pakku|TLA|1
-3 Sokka's Haiku|TLA|1
-1 Nightmares and Daydreams|TLE|1
-1 The Mechanist, Aerial Artisan|TLA|1
-1 Mystical Tutor|TLE|1
-1 Katara's Reversal|TLE|1
-1 The Terror of Serpent's Pass|TLE|1
-1 Yue, the Moon Spirit|TLA|1
-1 Baboon Spirit|TLE|1
-1 The Unagi of Kyoshi Island|TLA|1
-1 Tiger-Seal|TLA|1
-1 Spirit Water Revival|TLA|1
-1 Waterbender's Restoration|TLE|1
-1 Water Whip|TLE|1
-1 Fierce Guardianship|TLE|1
-1 The Blue Spirit|TLE|1
-1 Waterbender Ascension|TLA|1
-1 Chakra Meditation|TLE|1
-1 Tui and La, Moon and Ocean|TLE|1
-1 Ty Lee, Chi Blocker|TLA|1
+13 Giant Koi|TLA|1
+13 Waterbending Lesson|TLA|1
+13 Unagi's Spray|TLE|1
+13 Iguana Parrot|TLA|1
+13 Flying Dolphin-Fish|TLE|1
+13 Rowdy Snowballers|TLA|1
+12 Brainstorm|TLE|1
+12 Octopus Form|TLA|1
+12 Forecasting Fortune Teller|TLA|1
+12 Deny Entry|TLE|1
+12 It'll Quench Ya!|TLA|1
+12 Lost Days|TLA|1
+12 Frantic Search|TLE|1
+12 Turtle-Seals|TLE|1
+12 Consider|TLE|1
+12 First-Time Flyer|TLA|1
+12 Dramatic Reversal|TLE|1
+12 Otter-Penguin|TLA|1
+12 Flexible Waterbender|TLA|1
+12 Thriving Isle|TLE|1
+12 Watery Grasp|TLA|1
+12 Geyser Leaper|TLA|1
+21 Knowledge Seeker|TLA|1
+21 Benevolent River Spirit|TLA|1
+21 Coastal Piracy|TLE|1
+21 Accumulate Wisdom|TLA|1
+21 Ember Island Production|TLA|1
+21 Lost in the Spirit World|TLE|1
+21 Boomerang Basics|TLA|1
+21 Princess Yue|TLE|1
+21 Honest Work|TLA|1
+21 Teo, Spirited Glider|TLA|1
+20 Serpent of the Pass|TLA|1
+20 North Pole Patrol|TLA|1
+20 Invasion Submersible|TLA|1
+20 The Spirit Oasis|TLA|1
+20 Katara, Bending Prodigy|TLA|1
+20 Whirlwind Technique|TLE|1
+20 Gran-Gran|TLA|1
+20 Waterbending Scroll|TLA|1
+20 Master Pakku|TLA|1
+20 Sokka's Haiku|TLA|1
+20 Dutiful Knowledge Seeker|TLE|1
+20 Crashing Wave|TLA|1
+9 Nightmares and Daydreams|TLE|1
+9 The Mechanist, Aerial Artisan|TLA|1
+9 Mystical Tutor|TLE|1
+9 Katara's Reversal|TLE|1
+9 The Terror of Serpent's Pass|TLE|1
+9 Yue, the Moon Spirit|TLA|1
+9 Baboon Spirit|TLE|1
+9 The Unagi of Kyoshi Island|TLA|1
+9 Tiger-Seal|TLA|1
+9 Spirit Water Revival|TLA|1
+8 Waterbender's Restoration|TLE|1
+8 Water Whip|TLE|1
+8 Fierce Guardianship|TLE|1
+8 The Blue Spirit|TLE|1
+8 Agna Qel'a|TLA|1
+8 Waterbender Ascension|TLA|1
+8 Chakra Meditation|TLE|1
+8 Tui and La, Moon and Ocean|TLE|1
+8 Ty Lee, Chi Blocker|TLA|1
 1 Training Grounds|TLE|1
 1 Agent of Treachery|TLE|1
+1 Visions of Beyond|TLE|1
+1 Prosperity|TLE|1
+1 Secret of Bloodbending|TLA|1
+1 Clone|TLE|1
+1 Imprisoned in the Moon|TLE|1
+1 Sakashima of a Thousand Faces|TLE|1
+1 Wan Shi Tong, Librarian|TLA|1
+1 Intruder Alarm|TLE|1
+1 Clone Legion|TLE|1
+1 Standstill|TLE|1
+1 Mystic Remora|TLE|1
+1 Bribery|TLE|1
+1 Wan Shi Tong, All-Knowing|TLE|1
+1 The Legend of Kuruk|TLA|1
+1 Force of Negation|TLE|1
+1 Katara, Waterbending Master|TLE|1

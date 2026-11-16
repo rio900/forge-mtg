@@ -22,7 +22,7 @@ public class Starts {
   int failures=0;
   for(var level:cfg.getConfigData().difficulties){
    Current.player().updateDifficulty(level);
-   for(var mode:List.of(AdventureModes.Standard,AdventureModes.Constructed,AdventureModes.Pile,AdventureModes.Commander)){
+   for(var mode:List.of(AdventureModes.Standard,AdventureModes.Constructed,AdventureModes.Pile,AdventureModes.Chaos,AdventureModes.Commander)){
     for(String set:(mode==AdventureModes.Standard?cfg.starterEditions():new String[]{"DMU"}))for(String color:cfg.colorIds()){
      try{
       var deck=cfg.starterDeck(forge.card.ColorSet.fromNames(color.toCharArray()),level,mode,0,FModel.getMagicDb().getEditions().get(set));
@@ -30,6 +30,7 @@ public class Starts {
        var leaders=deck.getCommanders(); if(leaders.size()!=1||!leaders.get(0).getRules().canBeCommander()||cards.size()!=100)throw new AssertionError("commander");
        int leader=leaders.get(0).getRules().getColorIdentity().getColor(); var seen=new HashSet<String>(); for(var card:cards)if((card.getRules().getColorIdentity().getColor() & ~leader)!=0||(!card.getRules().getType().isBasicLand() && !seen.add(card.getName())))throw new AssertionError(card.getName());
       }
+      if(mode==AdventureModes.Chaos && cards.size()!=60)throw new AssertionError("Chaos deck size");
       if(mode==AdventureModes.Standard && cfg.getConfigData().starterDecksByEdition.containsKey(set)){
        if(cards.size()!=40 || cards.stream().filter(c->c.getRules().getType().isLand()).count()!=17)throw new AssertionError("mana base");
        int mask=forge.card.ColorSet.fromNames(color.toCharArray()).getColor();

@@ -1,103 +1,404 @@
 [metadata]
 Name=Green shop pool
 [Main]
-1 Giant Growth|BRO|1
-1 Seed of Hope|MOM|1
-1 Howl of the Hunt|MID|1
-1 Serpent-Blade Assailant|MOM|1
-1 Wildwood Escort|MOM|1
-1 Pestilent Wolf|MID|1
-1 Wolf Strike|VOW|1
-1 Ferocious Werefox|WOE|1
-1 War Historian|MOM|1
-1 Favor of Jukai|NEO|1
-1 Gaea's Might|DMU|1
-1 Iridescent Blademaster|MOM|1
-1 Placid Rottentail|MOM|1
-1 For the Family|SNC|1
-1 Spider Food|WOE|1
-1 Deathbloom Gardener|DMU|1
-1 Snarespinner|DMU|1
-1 Spoils of the Hunt|AFR|1
-1 Citanul Stalwart|BRO|1
-1 Broken Wings|SNC|1
-1 Bramble Armor|MID|1
-1 Caldaia Strongarm|SNC|1
-1 Snarling Wolf|MID|1
-1 Burrowing Razormaw|BRO|1
-1 Bestial Bloodline|WOE|1
-1 Boulderbranch Golem|BRO|1
-1 Eccentric Farmer|MID|1
-1 Return to Nature|MID|1
-1 Bull's Strength|AFR|1
-1 Weaver of Blossoms|VOW|1
-1 Lurking Roper|AFR|1
-1 Laid to Rest|VOW|1
-1 Wolfkin Outcast|VOW|1
-1 Riveteers Decoy|SNC|1
-1 Invasion of Muraganda|MOM|1
-1 Go-Shintai of Boundless Vigor|NEO|1
-1 Generous Visitor|NEO|1
-1 Sarinth Steelseeker|BRO|1
-1 Purple Worm|AFR|1
-1 Streetwise Negotiator|MOM|1
-1 Contortionist Troupe|MID|1
-1 Intrepid Trufflesnout|WOE|1
-1 Iron-Craw Crusher|BRO|1
-1 Cradle Clearcutter|BRO|1
-1 Wandering Troubadour|AFR|1
-1 Viral Spawning|ONE|1
-1 Azusa's Many Journeys|NEO|1
-1 The Weatherseed Treaty|DMU|1
-1 Haywire Mite|BRO|1
-1 Blossom Prancer|NEO|1
-1 Undercity Upheaval|MAT|1
-1 Paladin of Predation|ONE|1
-1 Sawblade Slinger|VOW|1
-1 Blanchwood Armor|BRO|1
-1 You Happen On a Glade|AFR|1
-1 Storyweave|NEO|1
-1 Storm the Seedcore|MOM|1
-1 Dormant Grove|VOW|1
-1 Spinning Wheel Kick|NEO|1
-1 Boseiju Reaches Skyward|NEO|1
-1 Audacity|BRO|1
-1 Orochi Merge-Keeper|NEO|1
-1 Provisions Merchant|WOE|1
-1 Oakshade Stalker|VOW|1
-1 Dryad's Revival|MID|1
-1 Cleanup Crew|SNC|1
-1 Brood Weaver|MID|1
-1 Green Dragon|AFR|1
-1 Slimefoot's Survey|DMU|1
-1 Tangled Skyline|MOM|1
-1 Take to the Streets|SNC|1
-1 Webspinner Cuff|NEO|1
-1 Turn the Earth|MID|1
-1 Ravenous Sailback|MOM|1
-1 Graceful Takedown|WOE|1
-1 Unnatural Restoration|ONE|1
-1 Noxious Assault|ONE|1
-1 Redtooth Vanguard|WOE|1
-1 Intrepid Outlander|AFR|1
-1 Sylvok Battle-Chair|ONE|1
-1 Augur of Autumn|MID|1
-1 Thrun, Breaker of Silence|ONE|1
-1 Invasion of Ixalan|MOM|1
-1 Feral Encounter|WOE|1
-1 Leaf-Crowned Visionary|DMU|1
-1 Briarbridge Tracker|MID|1
-1 Teething Wurmlet|BRO|1
-1 Deeproot Wayfinder|MOM|1
-1 Invasion of Ikoria|MOM|1
-1 Unnatural Growth|MID|1
-1 Howling Moon|VOW|1
-1 Surrak and Goreclaw|MOM|1
-1 Perennial Behemoth|BRO|1
-1 Fight Rigging|SNC|1
-1 Evolved Spinoderm|ONE|1
-1 Shigeki, Jukai Visionary|NEO|1
-1 Goliath Hatchery|ONE|1
-1 Ancient Imperiosaur|MOM|1
+3 Giant Growth|BRO|1
+3 Seed of Hope|MOM|1
+3 Howl of the Hunt|MID|1
+3 Serpent-Blade Assailant|MOM|1
+3 Wildwood Escort|MOM|1
+3 Pestilent Wolf|MID|1
+3 Wolf Strike|VOW|1
+3 Ferocious Werefox|WOE|1
+3 War Historian|MOM|1
+3 Favor of Jukai|NEO|1
+3 Jewel Thief|SNC|1
+3 Gaea's Might|DMU|1
+3 Iridescent Blademaster|MOM|1
+3 Placid Rottentail|MOM|1
+3 For the Family|SNC|1
+3 Spider Food|WOE|1
+3 Deathbloom Gardener|DMU|1
+3 Snarespinner|DMU|1
+3 Spoils of the Hunt|AFR|1
+3 Citanul Stalwart|BRO|1
+3 Broken Wings|SNC|1
+3 Bramble Armor|MID|1
+3 Argothian Opportunist|BRO|1
+3 Caldaia Strongarm|SNC|1
+3 Snarling Wolf|MID|1
+3 Burrowing Razormaw|BRO|1
+3 Bestial Bloodline|WOE|1
+3 Boulderbranch Golem|BRO|1
+3 Eccentric Farmer|MID|1
+3 Return to Nature|MID|1
+3 Bull's Strength|AFR|1
+3 Weaver of Blossoms|VOW|1
+3 The Hunter Maze|ONE|1
+3 Adaptive Sporesinger|ONE|1
+3 Prizefight|SNC|1
+3 Crystal Carapace|MOM|1
+3 Glittermonger|SNC|1
+3 Circle of the Moon Druid|AFR|1
+3 Hookhand Mariner|VOW|1
+3 Barkweave Crusher|DMU|1
+3 Bamboo Grove Archer|NEO|1
+3 Gnoll Hunter|AFR|1
+3 Sunbathing Rootwalla|DMU|1
+3 Titanic Growth|ONE|1
+3 Portent Tracker|MOM|1
+3 Toadstool Admirer|WOE|1
+3 Most Wanted|SNC|1
+3 Flourishing Hunter|VOW|1
+3 Rootrider Faun|WOE|1
+3 Carnivorous Canopy|ONE|1
+3 Tireless Hauler|MID|1
+3 Tyrranax Atrocity|ONE|1
+3 Rhox Pummeler|SNC|1
+3 Skyscythe Engulfer|ONE|1
+3 Fairgrounds Trumpeter|MOM|1
+3 Hexbane Tortoise|DMU|1
+3 Timberland Ancient|MOM|1
+3 Plummet|AFR|1
+3 Gnarlroot Pallbearer|BRO|1
+3 Jukai Trainee|NEO|1
+3 Season of Renewal|NEO|1
+3 Gaea's Gift|BRO|1
+3 Curse of the Werefox|WOE|1
+3 Rust Goliath|BRO|1
+3 Predation Steward|ONE|1
+3 Ranger's Longbow|AFR|1
+3 Inspiring Bard|AFR|1
+3 Hamlet Glutton|WOE|1
+3 Hollow Scavenger|WOE|1
+3 Magnigoth Sentry|DMU|1
+3 Contagious Vorrac|ONE|1
+3 Apprentice Sharpshooter|VOW|1
+3 Thirsting Roots|ONE|1
+3 Bearer of Memory|NEO|1
+2 Bite Down|DMU|1
+2 Tawnos's Tinkering|BRO|1
+2 Rural Recruit|VOW|1
+2 Shadowbeast Sighting|MID|1
+2 Beanstalk Wurm|WOE|1
+2 Tales of Master Seshiro|NEO|1
+2 Leaping Ambush|WOE|1
+2 Neverwinter Dryad|AFR|1
+2 Toxic Scorpion|VOW|1
+2 Witch's Web|VOW|1
+2 Mulch|VOW|1
+2 Maze's Mantle|ONE|1
+2 Hoarding Recluse|BRO|1
+2 Skybeast Tracker|WOE|1
+2 Ichorspit Basilisk|ONE|1
+2 Warm Welcome|SNC|1
+2 Argothian Sprite|BRO|1
+2 Geothermal Kami|NEO|1
+2 Llanowar Stalker|DMU|1
+2 Spore Crawler|VOW|1
+2 Overgrown Pest|MOM|1
+2 Bulette|AFR|1
+2 Dire Wolf Prowler|AFR|1
+2 Fang of Shigeki|NEO|1
+2 Dawnhart Rejuvenator|MID|1
+2 Hill Giant Herdgorger|AFR|1
+2 Moldgraf Millipede|VOW|1
+2 Plague Nurse|ONE|1
+2 Scaled Herbalist|AFR|1
+2 Capenna Express|SNC|1
+2 Civic Gardener|SNC|1
+2 Sporeback Wolf|VOW|1
+2 Chomping Kavu|MOM|1
+2 Maze Skullbomb|ONE|1
+2 Master's Rebuke|NEO|1
+2 Grafted Growth|NEO|1
+2 Converter Beast|MOM|1
+2 Might of the Old Ways|MID|1
+2 Crushing Canopy|VOW|1
+2 Lattice-Blade Mantis|ONE|1
+2 Verdant Outrider|WOE|1
+2 Vengeant Earth|MOM|1
+2 Find the Path|AFR|1
+2 Owlbear|AFR|1
+2 Path to the Festival|MID|1
+2 Epic Confrontation|BRO|1
+2 Redtooth Genealogist|WOE|1
+2 You Find a Cursed Idol|AFR|1
+2 Dawnhart Disciple|VOW|1
+2 Compelled Duel|AFR|1
+2 Attended Socialite|SNC|1
+2 Sheltering Boughs|VOW|1
+2 Wasteful Harvest|BRO|1
+2 Coiling Stalker|NEO|1
+2 Tapping at the Window|MID|1
+2 Atraxa's Fall|MOM|1
+2 Territorial Witchstalker|WOE|1
+2 Oil-Gorger Troll|ONE|1
+2 Duel for Dominance|MID|1
+2 Copper Longlegs|ONE|1
+2 Cosmic Hunger|MOM|1
+2 Elturgard Ranger|AFR|1
+2 Yavimaya Sojourner|DMU|1
+2 Elfhame Wurm|DMU|1
+2 Arachnoid Adaptation|MOM|1
+2 Harvesttide Sentry|MID|1
+2 Shoot Down|BRO|1
+2 Fertilid's Favor|MOM|1
+2 Timberland Guide|MID|1
+2 Careful Cultivation|NEO|1
+2 Heir of the Ancient Fang|NEO|1
+2 Floriferous Vinewall|DMU|1
+2 Return from the Wilds|WOE|1
+2 Sylvan Shepherd|AFR|1
+2 Bird Admirer|MID|1
+2 Troublemaker Ouphe|WOE|1
+2 Tomakul Honor Guard|BRO|1
+2 Social Climber|SNC|1
+2 Commune with Nature|WOE|1
+2 Fade into Antiquity|NEO|1
+2 Perimeter Patrol|BRO|1
+2 Brave the Wilds|WOE|1
+2 Bounding Wolf|MID|1
+2 Commune with Spirits|NEO|1
+2 Massive Might|VOW|1
+2 Rustvine Cultivator|ONE|1
+2 Branchblight Stalker|ONE|1
+2 Nature's Embrace|VOW|1
+2 Jukai Preserver|NEO|1
+2 Greater Tanuki|NEO|1
+2 Harmonious Emergence|NEO|1
+2 High-Rise Sawjack|SNC|1
+2 Underdark Basilisk|AFR|1
+2 Fog of War|BRO|1
+2 Blanchwood Prowler|BRO|1
+2 Tamiyo's Safekeeping|NEO|1
+2 Candlelit Cavalry|MID|1
+2 Ruthless Predation|ONE|1
+2 Wary Thespian|MOM|1
+6 Outland Liberator|MID|1
+6 Lurking Roper|AFR|1
+6 Laid to Rest|VOW|1
+6 Wolfkin Outcast|VOW|1
+6 Riveteers Decoy|SNC|1
+6 Invasion of Muraganda|MOM|1
+6 Go-Shintai of Boundless Vigor|NEO|1
+6 Generous Visitor|NEO|1
+6 Sarinth Steelseeker|BRO|1
+6 Purple Worm|AFR|1
+6 Streetwise Negotiator|MOM|1
+6 Contortionist Troupe|MID|1
+6 Intrepid Trufflesnout|WOE|1
+6 Iron-Craw Crusher|BRO|1
+6 Cradle Clearcutter|BRO|1
+6 Wandering Troubadour|AFR|1
+6 Viral Spawning|ONE|1
+6 Azusa's Many Journeys|NEO|1
+6 Tough Cookie|WOE|1
+6 The Weatherseed Treaty|DMU|1
+6 Haywire Mite|BRO|1
+6 Blossom Prancer|NEO|1
+6 Undercity Upheaval|MAT|1
+6 Paladin of Predation|ONE|1
+6 Sawblade Slinger|VOW|1
+6 Blanchwood Armor|BRO|1
+6 You Happen On a Glade|AFR|1
+6 Storyweave|NEO|1
+6 Storm the Seedcore|MOM|1
+6 Dormant Grove|VOW|1
+6 Spinning Wheel Kick|NEO|1
+6 Boseiju Reaches Skyward|NEO|1
+6 Audacity|BRO|1
+6 Orochi Merge-Keeper|NEO|1
+6 Provisions Merchant|WOE|1
+6 Oakshade Stalker|VOW|1
+6 Dryad's Revival|MID|1
+6 Cleanup Crew|SNC|1
+6 Brood Weaver|MID|1
+6 Green Dragon|AFR|1
+6 Slimefoot's Survey|DMU|1
+6 Tangled Skyline|MOM|1
+6 Take to the Streets|SNC|1
+6 Webspinner Cuff|NEO|1
+6 Turn the Earth|MID|1
+6 Ravenous Sailback|MOM|1
+6 Graceful Takedown|WOE|1
+6 Unnatural Restoration|ONE|1
+6 Noxious Assault|ONE|1
+6 Redtooth Vanguard|WOE|1
+6 Intrepid Outlander|AFR|1
+6 Sylvok Battle-Chair|ONE|1
+6 Territorial Maro|DMU|1
+6 Infectious Bite|ONE|1
+6 Defend the Celestus|MID|1
+6 Welcome to Sweettooth|WOE|1
+6 Venom Connoisseur|SNC|1
+6 Historian's Wisdom|NEO|1
+6 Kami of Whispered Hopes|MOM|1
+6 Copper Host Crusher|MOM|1
+6 Tanglespan Lookout|WOE|1
+6 Bushwhack|BRO|1
+6 Reclusive Taxidermist|VOW|1
+6 Burly Breaker|MID|1
+6 Retrieve|VOW|1
+6 Evolving Adaptive|ONE|1
+6 Up the Beanstalk|WOE|1
+6 Kappa Tech-Wrecker|NEO|1
+6 Deathbonnet Sprout|MID|1
+6 Wild Shape|AFR|1
+6 Hunter's Mark|AFR|1
+6 Clear Shot|MID|1
+6 Fallaji Excavation|BRO|1
+6 Armored Scrapgorger|ONE|1
+6 Expand the Sphere|ONE|1
+6 Packsong Pup|VOW|1
+6 Royal Treatment|WOE|1
+6 Mask of the Jadecrafter|BRO|1
+6 Dawnhart Mentor|MID|1
+6 Tail Swipe|DMU|1
+6 Hound Tamer|MID|1
+6 Animist's Might|MAT|1
+6 Choose Your Weapon|AFR|1
+6 Alloy Animist|BRO|1
+6 Druid Class|AFR|1
+6 Night of the Sweets' Revenge|WOE|1
+6 Obstinate Baloth|BRO|1
+6 You Meet in a Tavern|AFR|1
+6 Cloaked Cadet|VOW|1
+6 Cankerbloom|ONE|1
+6 Stormkeld Vanguard|WOE|1
+6 Sandstalker Moloch|MOM|1
+6 Loathsome Troll|AFR|1
+6 Tandem Takedown|MOM|1
+6 Voice of the Vermin|SNC|1
+6 Gaea's Courser|BRO|1
+6 Bramble Wurm|VOW|1
+6 Freelance Muscle|SNC|1
+6 Agatha's Champion|WOE|1
+6 Nishoba Brawler|DMU|1
+6 Spiked Ripsaw|VOW|1
+6 Venomous Brutalizer|ONE|1
+6 Tyvar's Stand|ONE|1
+6 Linebreaker Baloth|DMU|1
+6 Luxurious Libation|SNC|1
+5 Bouncer's Beatdown|SNC|1
+5 Prosperous Innkeeper|AFR|1
+5 Cartographer's Survey|VOW|1
+5 Roaring Earth|NEO|1
+5 Ruins Recluse|MOM|1
+5 Howling Galefang|WOE|1
+5 Infestation Expert|VOW|1
+5 Elegant Entourage|SNC|1
+5 Boon of Boseiju|NEO|1
+5 Mossbeard Ancient|DMU|1
+5 Crawling Infestation|VOW|1
+5 Rise of the Ants|MID|1
+5 Incubation Sac|ONE|1
+5 Invasion of Zendikar|MOM|1
+4 Augur of Autumn|MID|1
+4 Thrun, Breaker of Silence|ONE|1
+4 Invasion of Ixalan|MOM|1
+4 Feral Encounter|WOE|1
+4 Leaf-Crowned Visionary|DMU|1
+4 Briarbridge Tracker|MID|1
+4 Teething Wurmlet|BRO|1
+4 Deeproot Wayfinder|MOM|1
+4 Invasion of Ikoria|MOM|1
+3 Unnatural Growth|MID|1
+3 Howling Moon|VOW|1
+3 Surrak and Goreclaw|MOM|1
+3 Perennial Behemoth|BRO|1
+3 Fight Rigging|SNC|1
+3 Evolved Spinoderm|ONE|1
+3 Shigeki, Jukai Visionary|NEO|1
+3 Goliath Hatchery|ONE|1
+3 Ancient Imperiosaur|MOM|1
+3 Wildwood Mentor|WOE|1
+3 Instrument of the Bards|AFR|1
+3 Titania's Command|BRO|1
+3 Varis, Silverymoon Ranger|AFR|1
+3 Tovolar's Huntmaster|MID|1
+3 Defiler of Vigor|DMU|1
+3 Hiveheart Shaman|VOW|1
+3 Glorious Sunrise|VOW|1
+3 Splendid Reclamation|VOW|1
+3 Long Rest|AFR|1
+3 Threats Undetected|DMU|1
+3 Willow Geist|MID|1
+3 Kami of Transience|NEO|1
+3 Gwenna, Eyes of Gaea|BRO|1
+3 Doomskar Warrior|MOM|1
+3 Spring-Leaf Avenger|NEO|1
+3 Tribute to the World Tree|MOM|1
+3 Gruff Triplets|WOE|1
+3 Sentinel of Lost Lore|WOE|1
+3 Ochre Jelly|AFR|1
+3 Boseiju, Who Endures|NEO|1
+3 Bramble Familiar|WOE|1
+3 Gala Greeters|SNC|1
+3 Saryth, the Viper's Fang|MID|1
+3 Ascendant Packleader|VOW|1
+3 Evolving Door|SNC|1
+3 Simian Simulacrum|BRO|1
+3 Briar Hydra|DMU|1
+3 Ozolith, the Shattered Spire|MOM|1
+3 Ranger Class|AFR|1
+3 Open the Way|MAT|1
+3 Workshop Warchief|SNC|1
+3 Bloated Contaminator|ONE|1
+3 Teachings of the Kirin|NEO|1
+3 Llanowar Greenwidow|DMU|1
+3 The Huntsman's Redemption|WOE|1
+3 Circle of Dreams Druid|AFR|1
+3 Werewolf Pack Leader|AFR|1
+3 Hamlet Vanguard|VOW|1
+3 Weaver of Harmony|NEO|1
+3 Ulvenwald Oddity|VOW|1
+3 Woodcaller Automaton|BRO|1
+3 Venerated Rotpriest|ONE|1
+3 Thunderous Debut|WOE|1
+3 Elvish Archivist|WOE|1
+3 Leyline Immersion|MAT|1
+3 Lair of the Hydra|AFR|1
+3 Llanowar Loamspeaker|DMU|1
+3 Fauna Shaman|BRO|1
+3 Herd Migration|DMU|1
+3 Conduit of Worlds|ONE|1
+3 Fade from History|BRO|1
+3 Invoke the Ancients|NEO|1
+3 Glistening Dawn|MOM|1
+3 Froghemoth|AFR|1
+3 The Dragon-Kami Reborn|NEO|1
+3 Green Sun's Twilight|ONE|1
+3 Howlpack Piper|VOW|1
+3 Topiary Stomper|SNC|1
+3 March of Burgeoning Life|NEO|1
+3 Argoth, Sanctum of Nature|BRO|1
+3 Quirion Beastcaller|DMU|1
+3 Storm the Festival|MID|1
 1 Zopandrel, Hunger Dominus|ONE|1
 1 Nissa, Ascended Animist|ONE|1
+1 Invasion of Shandalar|MOM|1
+1 Wrenn and Seven|MID|1
+1 Titan of Industry|SNC|1
+1 Blossoming Tortoise|WOE|1
+1 Awaken the Woods|BRO|1
+1 Ellywick Tumblestrum|AFR|1
+1 Cultivator Colossus|VOW|1
+1 Jugan Defends the Temple|NEO|1
+1 Wrenn and Realmbreaker|MOM|1
+1 Consuming Blob|MID|1
+1 Rootwire Amalgam|BRO|1
+1 Vorinclex|MOM|1
+1 Kodama of the West Tree|NEO|1
+1 The Tarrasque|AFR|1
+1 Bootleggers' Stash|SNC|1
+1 Titania, Voice of Gaea|BRO|1
+1 The World Spell|DMU|1
+1 Nissa, Resurgent Animist|MAT|1
+1 Virtue of Strength|WOE|1
+1 Avabruck Caretaker|VOW|1
+1 Vivien on the Hunt|SNC|1
+1 Old Gnawbone|AFR|1
+1 Silverback Elder|DMU|1
+1 Cemetery Prowler|VOW|1
+1 Tyrranax Rex|ONE|1
+1 Kura, the Boundless Sky|NEO|1

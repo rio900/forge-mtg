@@ -1,0 +1,111 @@
+{
+  "name": "Black",
+  "mainDeck": [
+    {
+      "count": 15,
+      "cardName": "Swamp|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Mountain|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Island|LTR"
+    },
+    {
+      "count": 9,
+      "colors": [
+        "black"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "black"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 3,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 9,
+      "colors": [
+        "black"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        5,
+        6
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    }
+  ]
+}

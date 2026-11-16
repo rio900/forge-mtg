@@ -1,0 +1,111 @@
+{
+  "name": "Red",
+  "mainDeck": [
+    {
+      "count": 15,
+      "cardName": "Mountain|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Forest|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Swamp|LTR"
+    },
+    {
+      "count": 9,
+      "colors": [
+        "red"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "green",
+        "black"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "red"
+      ],
+      "rarity": [
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 3,
+      "colors": [
+        "green",
+        "black"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 9,
+      "colors": [
+        "red"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        5,
+        6
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    }
+  ]
+}

@@ -581,18 +581,19 @@ decks/selected/barbarian.dck	новый	Колода противника или
 decks/selected/big_zombie.dck	новый	Колода противника или особой встречи
 decks/selected/chandra.dck	новый	Колода противника или особой встречи
 decks/selected/elf.dck	новый	Колода противника или особой встречи
-decks/shop/Black.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/BlackCreatures.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/Blue.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/BlueCreatures.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/Colorless.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/ColorlessCreatures.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/Green.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/GreenCreatures.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/Red.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/RedCreatures.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/White.dck	новый	Взвешенный пул четвёртой карты городского магазина
-decks/shop/WhiteCreatures.dck	новый	Взвешенный пул четвёртой карты городского магазина
+decks/shop/Black.dck	новый	Взвешенный пул трёх местных карт городского магазина
+decks/shop/BlackCreatures.dck	новый	Прежний пул существ, архивный
+decks/shop/Blue.dck	новый	Взвешенный пул трёх местных карт городского магазина
+decks/shop/BlueCreatures.dck	новый	Прежний пул существ, архивный
+decks/shop/Colorless.dck	новый	Взвешенный пул трёх местных карт городского магазина
+decks/shop/ColorlessCreatures.dck	новый	Прежний пул существ, архивный
+decks/shop/Green.dck	новый	Взвешенный пул трёх местных карт городского магазина
+decks/shop/GreenCreatures.dck	новый	Прежний пул существ, архивный
+decks/shop/OpenTown.dck	новый	Взвешенный пул трёх карт любого цвета
+decks/shop/Red.dck	новый	Взвешенный пул трёх местных карт городского магазина
+decks/shop/RedCreatures.dck	новый	Прежний пул существ, архивный
+decks/shop/White.dck	новый	Взвешенный пул трёх местных карт городского магазина
+decks/shop/WhiteCreatures.dck	новый	Прежний пул существ, архивный
 decks/starter/Adventure - Low Azorius.dck	новый	Стартовая колода или шаблон Pile
 decks/starter/Adventure - Low Black.dck	новый	Стартовая колода или шаблон Pile
 decks/starter/Adventure - Low Blue.dck	новый	Стартовая колода или шаблон Pile

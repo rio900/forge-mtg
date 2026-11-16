@@ -1,0 +1,116 @@
+{
+  "name": "White",
+  "mainDeck": [
+    {
+      "count": 15,
+      "cardName": "Plains|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Forest|LTR"
+    },
+    {
+      "count": 6,
+      "cardName": "Island|LTR"
+    },
+    {
+      "count": 9,
+      "colors": [
+        "white"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "green",
+        "blue"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        1,
+        2
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 6,
+      "colors": [
+        "white"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 3,
+      "colors": [
+        "green",
+        "blue"
+      ],
+      "rarity": [
+        "Uncommon",
+        "Common"
+      ],
+      "manaCosts": [
+        3,
+        4
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    },
+    {
+      "count": 9,
+      "colors": [
+        "white"
+      ],
+      "rarity": [
+        "rare"
+      ],
+      "manaCosts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "editions": [
+        "MH1",
+        "MH2",
+        "LTR"
+      ]
+    }
+  ]
+}
