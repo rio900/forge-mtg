@@ -25,7 +25,9 @@
       "editions": [
         "MH1",
         "MH2",
-        "LTR"
+        "LTR",
+        "MH3",
+        "2XM"
       ]
     },
     {
@@ -44,7 +46,9 @@
       "editions": [
         "MH1",
         "MH2",
-        "LTR"
+        "LTR",
+        "MH3",
+        "2XM"
       ]
     },
     {
@@ -63,7 +67,9 @@
       "editions": [
         "MH1",
         "MH2",
-        "LTR"
+        "LTR",
+        "MH3",
+        "2XM"
       ]
     },
     {
@@ -81,7 +87,9 @@
       "editions": [
         "MH1",
         "MH2",
-        "LTR"
+        "LTR",
+        "MH3",
+        "2XM"
       ]
     },
     {
@@ -102,7 +110,9 @@
       "editions": [
         "MH1",
         "MH2",
-        "LTR"
+        "LTR",
+        "MH3",
+        "2XM"
       ]
     }
   ]

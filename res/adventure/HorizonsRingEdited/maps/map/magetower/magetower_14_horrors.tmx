@@ -65,7 +65,7 @@
   <object id="94" template="../../../../common/maps/obj/manashards.tx" x="209.123" y="58.295" />
   <object id="97" template="../../obj/booster.tx" x="208.716" y="71.4606">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"],"colors":["Blue"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["Blue"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["Blue"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"],"colors":["Blue"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["Blue"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["Blue"]}]</property>
    </properties>
   </object>
   <object id="100" template="../../obj/treasure.tx" x="194.105" y="57.4273">
@@ -88,18 +88,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A big switch is embedded into the wall.", 
+    "text":"A big switch is embedded into the wall.", "loctext":"adv.horizons.dialog.1bd54d2dddf76b2e", 
     "options":[ 
 	{ 
-		"text":"You hear some loud sounds from the center.",
+		"text":"You hear some loud sounds from the center.", "loctext":"adv.horizons.dialog.6dab6d5214d83850",
 		"action":[{"deleteMapObject":-1},{"advanceMapFlag":"gate"}],
-		"name":"Flip the switch" 
+		"name":"Flip the switch", "locname":"adv.horizons.dialog.a0182875a754682a" 
 			"options":[{
 			"condition":[{"getMapFlag":{"key":"gate","op":"&gt;=","val":2}}],
 			"action":[{"deleteMapObject":102}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -110,18 +110,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A big switch is embedded into the wall.", 
+    "text":"A big switch is embedded into the wall.", "loctext":"adv.horizons.dialog.1bd54d2dddf76b2e", 
     "options":[ 
 	{ 
-		"text":"You hear some loud sounds from the center.",
+		"text":"You hear some loud sounds from the center.", "loctext":"adv.horizons.dialog.6dab6d5214d83850",
 		"action":[{"deleteMapObject":-1},{"advanceMapFlag":"gate"}],
-		"name":"Flip the switch" 
+		"name":"Flip the switch", "locname":"adv.horizons.dialog.a0182875a754682a" 
 			"options":[{
 			"condition":[{"getMapFlag":{"key":"gate","op":"&gt;=","val":2}}],
 			"action":[{"deleteMapObject":102}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	

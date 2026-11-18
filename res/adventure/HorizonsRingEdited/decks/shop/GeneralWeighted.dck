@@ -1,576 +1,1048 @@
 [metadata]
 Name=GeneralWeighted shop pool
 [Main]
-21 Abiding Grace|MH2|1
-21 Abominable Treefolk|MH1|1
-6 Academy Manufactor|MH2|1
-6 Aeve, Progenitor Ooze|MH2|1
-1 Agatha's Soul Cauldron|WOE|1
-6 Allosaurus Rider|CSP|1
-21 Alpine Guide|MH1|1
-6 Altar of Dementia|MH1|1
-21 Altar of the Goyf|MH2|1
-1 Andúril, Flame of the West|LTR|1
-21 Angelic Curator|MH2|1
-1 Aragorn and Arwen, Wed|LTR|1
-6 Aragorn, Company Leader|LTR|1
-1 Aragorn, the Uniter|LTR|1
-21 Arcbound Javelineer|MH2|1
-21 Arcbound Shikari|MH2|1
-21 Arcbound Whelp|MH2|1
-21 Archfiend of Sorrows|MH2|1
-6 Archmage's Charm|MH1|1
-1 Archon of Cruelty|MH2|1
-21 Arcus Acolyte|MH2|1
-6 Aria of Flame|MH1|1
-6 Arid Mesa|MH2|1
-21 Arwen Undómiel|LTR|1
-1 Arwen, Mortal Queen|LTR|1
-6 Asmoranomardicadaistinaculdacar|MH2|1
-6 Assault on Osgiliath|LTR|1
-6 Astral Drift|MH1|1
-1 Atraxa, Grand Unifier|ONE|1
-6 Ayula's Influence|MH1|1
-6 Ayula, Queen Among Bears|MH1|1
-6 Barad-dûr|LTR|1
-21 Barbed Spike|MH2|1
-21 Barren Moor|MH1|1
-21 Barrow-Blade|LTR|1
-21 Batterbone|MH2|1
-21 Battle Screech|MH1|1
-6 Bazaar Trademage|MH1|1
-6 Bilbo's Ring|LTR|1
-21 Bilbo, Retired Burglar|LTR|1
-21 Bill Ferny, Bree Swindler|LTR|1
-21 Bill the Pony|LTR|1
-21 Birthing Boughs|MH1|1
-21 Bitter Downfall|LTR|1
-21 Blazing Rootwalla|MH2|1
-21 Blessed Respite|MH2|1
-21 Blizzard Strix|MH1|1
-6 Blood Crypt|DIS|1
-6 Bloodbraid Marauder|MH2|1
-21 Blossoming Calm|MH2|1
-21 Bone Shredder|MH2|1
-21 Book of Mazarbul|LTR|1
-6 Borne Upon a Wind|LTR|1
-6 Boromir, Warden of the Tower|LTR|1
-6 Boseiju, Who Endures|NEO|1
-6 Braids, Cabal Minion|MH2|1
-21 Brainstone|MH2|1
-21 Break the Ice|MH2|1
-6 Breeding Pool|DIS|1
-6 Breya's Apprentice|MH2|1
-21 Butterbur, Bree Innkeeper|LTR|1
-1 Cabal Coffers|MH2|1
-6 Cabal Therapist|MH1|1
-6 Calibrated Blast|MH2|1
-6 Call of the Ring|LTR|1
-21 Caprichrome|MH2|1
-21 Captain Ripley Vance|MH2|1
-21 Carrion Feeder|MH1|1
-6 Carth the Lion|MH2|1
-21 Celeborn the Wise|LTR|1
-6 Chainer, Nightmare Adept|MH2|1
-6 Chance Encounter|MH2|1
-1 Chatterfang, Squirrel General|MH2|1
-6 Chef's Kiss|MH2|1
-6 Chitterspitter|MH2|1
-21 Clattering Augur|MH2|1
-6 Cloudshredder Sliver|MH1|1
-6 Collected Conjuring|MH1|1
-6 Collector Ouphe|MH1|1
-21 Combine Chrysalis|MH2|1
-21 Conifer Wurm|MH1|1
-21 Constable of the Realm|MH2|1
-6 Cordial Vampire|MH1|1
-21 Council's Deliberation|LTR|1
-1 Counterspell|MH2|1
-1 Counterspell|MH2|2
-6 Crashing Footfalls|MH1|1
-21 Crypt Rats|MH1|1
-21 Cunning Evasion|MH1|1
-6 Cursed Totem|MH2|1
-1 Dakkon, Shadow Slayer|MH2|1
-6 Damn|MH2|1
-6 Dauthi Voidwalker|MH2|1
-1 Dawn of a New Age|LTR|1
-6 Dead of Winter|MH1|1
-6 Deep Forest Hermit|MH1|1
-6 Delighted Halfling|LTR|1
-21 Denethor, Ruling Steward|LTR|1
-6 Dermotaxi|MH2|1
-6 Diamond Lion|MH2|1
-21 Dismantling Blow|MH1|1
-21 Dismember|NPH|1
-6 Display of Power|LTR|1
-6 Doors of Durin|LTR|1
-21 Dragon's Rage Channeler|MH2|1
-21 Dregscape Sliver|MH1|1
-6 Dress Down|MH2|1
-21 Dúnedain Rangers|LTR|1
-6 Eagle of Deliverance|LTR|1
-1 Echo of Eons|MH1|1
-6 Eiganjo, Seat of the Empire|NEO|1
-6 Eladamri's Call|MH1|1
-6 Elanor Gardner|LTR|1
-21 Elrond, Lord of Rivendell|LTR|1
-6 Elrond, Master of Healing|LTR|1
-6 Elven Chorus|LTR|1
-6 Elvish Mariner|LTR|1
-1 Emrakul, the Aeons Torn|ROE|1
-6 Enchantress's Presence|MH2|1
-6 Endling|MH1|1
-1 Endurance|MH2|1
-21 Ent-Draught Basin|LTR|1
-21 Entish Restoration|LTR|1
-21 Erkenbrand, Lord of Westfold|LTR|1
-6 Esper Sentinel|MH2|1
-21 Etchings of the Chosen|MH1|1
-21 Ethersworn Sphinx|MH2|1
-21 Everdream|MH1|1
-21 Exclude|MH1|1
-21 Extruder|MH2|1
-6 Fable of the Mirror-Breaker|NEO|1
-21 Face of Divinity|MH1|1
-21 Fact or Fiction|MH1|1
-21 Fae Offering|MH2|1
-21 Faithful Mending|MID|1
-6 Fall of Cair Andros|LTR|1
-6 Fall of Gil-galad|LTR|1
-6 Fallen Shinobi|MH1|1
-6 Fangorn, Tree Shepherd|LTR|1
-21 Faramir, Field Commander|LTR|1
-6 Faramir, Prince of Ithilien|LTR|1
-21 Farmstead Gleaner|MH1|1
-21 Fast // Furious|MH2|1
-21 Fear, Fire, Foes!|LTR|1
-21 Feast of Sanity|MH2|1
-21 Feaster of Fools|MH1|1
-21 Fiery Inscription|LTR|1
-6 Fiery Islet|MH1|1
-21 Filigree Attendant|MH2|1
-6 Fire // Ice|MH2|1
-21 Firebolt|MH1|1
-6 Fires of Mount Doom|LTR|1
-21 First Sliver's Chosen|MH1|1
-21 Flame Blitz|MH2|1
-21 Flame Rift|MH2|1
-6 Flame of Anor|LTR|1
-21 Flametongue Yearling|MH2|1
-21 Flay Essence|MH2|1
-21 Flickerwisp|EVE|1
-6 Flowering of the White Tree|LTR|1
-6 Flusterstorm|MH1|1
-21 Foray of Orcs|LTR|1
-6 Force of Despair|MH1|1
-6 Force of Negation|MH1|1
-6 Force of Rage|MH1|1
-6 Force of Vigor|MH1|1
-6 Force of Virtue|MH1|1
-6 Forge Anew|LTR|1
-21 Forgotten Cave|MH1|1
-21 Foundation Breaker|MH2|1
-6 Fractured Sanity|MH2|1
-21 Friendly Rivalry|LTR|1
-21 Frodo Baggins|LTR|1
-6 Frodo, Determined Hero|LTR|1
-6 Frodo, Sauron's Bane|LTR|1
-21 Frostwalk Bastion|MH1|1
-1 Fury|MH2|1
-6 Future Sight|MH1|1
-6 Gaea's Will|MH2|1
-6 Galadriel of Lothlórien|LTR|1
-6 Galadriel, Gift-Giver|LTR|1
-6 Gandalf the Grey|LTR|1
-1 Gandalf the White|LTR|1
-21 Gandalf's Sanction|LTR|1
-21 Gandalf, Friend of the Shire|LTR|1
-6 Gandalf, White Rider|LTR|1
-1 Garth One-Eye|MH2|1
-6 General Ferrous Rokiric|MH2|1
-21 Generous Gift|MH1|1
-6 Genesis|MH1|1
-1 Geyadrone Dihada|MH2|1
-21 Ghost-Lit Drifter|MH2|1
-21 Gift of Strands|LTR|1
-21 Gimli, Counter of Kills|LTR|1
-6 Gimli, Mournful Avenger|LTR|1
-6 Giver of Runes|MH1|1
-21 Glacial Revelation|MH1|1
-1 Glamdring|LTR|1
-6 Glimpse of Tomorrow|MH2|1
-21 Glinting Creeper|MH2|1
-21 Glorfindel, Dauntless Rescuer|LTR|1
-21 Glorious Enforcer|MH2|1
-6 Glóin, Dwarf Emissary|LTR|1
-6 Goblin Bombardment|MH2|1
-6 Goblin Engineer|MH1|1
-21 Goblin Fireleaper|LTR|1
-21 Goblin Matron|MH1|1
-21 Goblin Oriflamme|MH1|1
-21 Goblin Traprunner|MH2|1
-6 Godless Shrine|GPT|1
-6 Goldberry, River-Daughter|LTR|1
-21 Gollum's Bite|LTR|1
-21 Gollum, Patient Plotter|LTR|1
-6 Gollum, Scheming Guide|LTR|1
-21 Good-Fortune Unicorn|MH1|1
-21 Gorbag of Minas Morgul|LTR|1
-21 Gorilla Shaman|MH2|1
-6 Goryo's Vengeance|BOK|1
-21 Gothmog, Morgul Lieutenant|LTR|1
-21 Graceful Restoration|MH2|1
-21 Graveshifter|MH1|1
-21 Greed|MH2|1
-1 Grief|MH2|1
-1 Griselbrand|AVR|1
-21 Grishnákh, Brash Instigator|LTR|1
-1 Grist, the Hunger Tide|MH2|1
-21 Grond, the Gatebreaker|LTR|1
-21 Gríma Wormtongue|LTR|1
-21 Gwaihir the Windlord|LTR|1
-6 Hall of Heliod's Generosity|MH1|1
-6 Hallowed Fountain|DIS|1
-6 Harmonic Prodigy|MH2|1
-21 Healer's Flock|MH2|1
-21 Herd Baloth|MH2|1
-1 Hew the Entwood|LTR|1
-1 Hexdrinker|MH1|1
-6 Hogaak, Arisen Necropolis|MH1|1
-21 Hollowhead Sliver|MH1|1
-6 Horn of Gondor|LTR|1
-6 Horn of the Mark|LTR|1
-21 Horses of the Bruinen|LTR|1
-21 Hunting Pack|MH2|1
-6 Ice-Fang Coatl|MH1|1
-21 Icehide Golem|MH1|1
-6 Ignoble Hierarch|MH2|1
-1 Imperial Recruiter|MH2|1
-6 Inevitable Betrayal|MH2|1
-21 Ingenious Infiltrator|MH1|1
-21 Inquisition of Kozilek|ROE|1
-21 Ioreth of the Healing House|LTR|1
-6 Isildur's Fateful Strike|LTR|1
-21 Junk Winder|MH2|1
-1 Kaldra Compleat|MH2|1
-20 Kaleidoscorch|MH2|1
-6 Karmic Guide|MH2|1
-6 Kaya's Guile|MH1|1
-1 Kess, Dissident Mage|MH1|1
-6 King of the Oathbreakers|LTR|1
-20 King of the Pride|MH1|1
-20 Landroval, Horizon Witness|LTR|1
-1 Last March of the Ents|LTR|1
-20 Lavabelly Sliver|MH1|1
-20 Lazotep Chancellor|MH2|1
-20 Legion Vanguard|MH2|1
-20 Legolas, Counter of Kills|LTR|1
-6 Legolas, Master Archer|LTR|1
-20 Lesser Masticore|MH1|1
-6 Lightning Skelemental|MH1|1
-20 Liquimetal Torque|MH2|1
-6 Living End|TSP|1
-20 Llanowar Tribe|MH1|1
-6 Lobelia Sackville-Baggins|LTR|1
-20 Lonely Sandbar|MH1|1
-20 Long List of the Ents|LTR|1
-6 Lonis, Cryptozoologist|MH2|1
-5 Lost Isle Calling|LTR|1
-20 Lost to Legend|LTR|1
-5 Lotho, Corrupt Shirriff|LTR|1
-20 Lucid Dreams|MH2|1
-5 Magus of the Bridge|MH2|1
-20 March from the Black Gate|LTR|1
-5 Marit Lage's Slumber|MH1|1
-5 Marsh Flats|MH2|1
-5 Master of Death|MH2|1
-20 Mauhúr, Uruk-hai Captain|LTR|1
-20 Meneldor, Swift Savior|LTR|1
-20 Meriadoc Brandybuck|LTR|1
-5 Merry, Esquire of Rohan|LTR|1
-20 Millikin|MH2|1
-5 Minas Tirith Garrison|LTR|1
-5 Minas Tirith|LTR|1
-5 Mines of Moria|LTR|1
-1 Mirari's Wake|MH2|1
-5 Mirkwood Channeler|LTR|1
-5 Mirrodin Besieged|MH1|1
-20 Mirror of Galadriel|LTR|1
-20 Mishra's Bauble|CSP|1
-1 Mishra's Factory|MH2|1
-1 Mishra's Factory|MH2|2
-5 Mist-Syndicate Naga|MH1|1
-5 Misty Rainforest|MH2|1
-5 Mithril Coat|LTR|1
-5 Moderation|MH2|1
-20 Mogg Salvage|MH2|1
-20 Monoskelion|MH2|1
-5 Moria Marauder|LTR|1
-1 Morophon, the Boundless|MH1|1
-1 Mount Doom|LTR|1
-1 Mox Tantalite|MH1|1
-20 Munitions Expert|MH1|1
-1 Murktide Regent|MH2|1
-20 Mystic Redaction|MH2|1
-20 Mystical Dispute|ELD|1
-20 Nantuko Cultivator|MH1|1
-20 Nazgûl|LTR|1
-5 Necrogoyf|MH2|1
-20 Necromancer's Familiar|MH2|1
-20 Neoform|WAR|1
-5 Nether Spirit|MH1|1
-5 Nettlecyst|MH2|1
-5 Nevinyrral's Disk|MH2|1
-5 Nurturing Peatland|MH1|1
-5 Nykthos Paragon|MH2|1
-20 Oath of the Grey Host|LTR|1
-5 Obsidian Charmaw|MH2|1
-20 Old Man Willow|LTR|1
-5 On Thin Ice|MH1|1
-5 One Ring to Rule Them All|LTR|1
-20 Oneirophage|MH1|1
-5 Orcish Bowmasters|LTR|1
-20 Ore-Scale Guardian|MH1|1
-5 Otawara, Soaring City|NEO|1
-5 Out of Time|MH2|1
-5 Overgrown Tomb|RAV|1
-5 Pact of Negation|FUT|1
-1 Palantír of Orthanc|LTR|1
-5 Pashalik Mons|MH1|1
-20 Patchwork Gnomes|MH2|1
-5 Patriarch's Bidding|MH2|1
-20 Peregrin Took|LTR|1
-5 Persist|MH2|1
-5 Phial of Galadriel|LTR|1
-20 Pillage|MH1|1
-5 Pippin, Guard of the Citadel|LTR|1
-5 Piru, the Volatile|MH2|1
-5 Plague Engineer|MH1|1
-5 Planebound Accomplice|MH1|1
-20 Power Depot|MH2|1
-5 Press the Enemy|LTR|1
-5 Priest of Fell Rites|MH2|1
-20 Prince Imrahil the Fair|LTR|1
-20 Prismatic Ending|MH2|1
-5 Prismatic Vista|MH1|1
-5 Profane Tutor|MH2|1
-20 Prophetic Titan|MH2|1
-1 Quantum Riddler|EOE|1
-20 Quickbeam, Upstart Ent|LTR|1
-20 Quirion Ranger|MH2|1
-1 Radagast the Brown|LTR|1
-20 Radiant Epicure|MH2|1
-1 Ragavan, Nimble Pilferer|MH2|1
-20 Rakdos Headliner|MH2|1
-20 Ranger's Firebrand|LTR|1
-1 Ranger-Captain of Eos|MH1|1
-5 Rangers of Ithilien|LTR|1
-20 Ravenous Giant|MH1|1
-20 Ravenous Squirrel|MH2|1
-20 Raving Visionary|MH2|1
-5 Reap the Past|MH1|1
-20 Rebuild|MH1|1
-20 Regrowth|MH1|1
-20 Reprieve|LTR|1
-5 Resurgent Belief|MH2|1
-5 Riders of the Mark|LTR|1
-20 Ringsight|LTR|1
-5 Ringwraiths|LTR|1
-5 Riptide Laboratory|MH2|1
-5 Rise and Shine|MH2|1
-20 Rise of the Witch-king|LTR|1
-5 Rishadan Dockhand|MH2|1
-20 Rising of the Day|LTR|1
-5 Rivendell|LTR|1
-20 Road // Ruin|MH2|1
-20 Rosie Cotton of South Lane|LTR|1
-20 Rotwidow Pack|MH1|1
-20 Ruination Rioter|MH1|1
-5 Sacred Foundry|RAV|1
-20 Saddled Rimestag|MH1|1
-20 Sadistic Obsession|MH1|1
-20 Said // Done|MH2|1
-5 Samwise Gamgee|LTR|1
-20 Samwise the Stouthearted|LTR|1
-5 Sanctifier en-Vec|MH2|1
-20 Sanctuary Raptor|MH2|1
-1 Sanctum Prelate|MH2|1
-5 Sanctum Weaver|MH2|1
-5 Saradoc, Master of Buckland|LTR|1
-1 Saruman of Many Colors|LTR|1
-20 Saruman the White|LTR|1
-20 Saruman's Trickery|LTR|1
-5 Sauron's Ransom|LTR|1
-1 Sauron, the Dark Lord|LTR|1
-1 Sauron, the Lidless Eye|LTR|1
-5 Sauron, the Necromancer|LTR|1
-5 Scalding Tarn|MH2|1
-20 Scale Up|MH1|1
-1 Scion of Draco|MH2|1
-20 Scour the Desert|MH2|1
-5 Scrapyard Recombiner|MH1|1
-5 Scroll of Isildur|LTR|1
-20 Scurry Oak|MH2|1
-20 Scuttletide|MH2|1
-20 Scuttling Sliver|MH1|1
-20 Sea Drake|MH2|1
-20 Seal of Cleansing|MH2|1
-20 Seal of Removal|MH2|1
-5 Search the Premises|MH2|1
-1 Seasoned Pyromancer|MH1|1
-20 Secluded Steppe|MH1|1
-1 Serra the Benevolent|MH1|1
-1 Serra's Emissary|MH2|1
-20 Shadow Summoning|LTR|1
-1 Shadow of the Enemy|LTR|1
-20 Shadowfax, Lord of Horses|LTR|1
-5 Shagrat, Loot Bearer|LTR|1
-5 Shardless Agent|MH2|1
-5 Sharkey, Tyrant of the Shire|LTR|1
-20 Shatter Assumptions|MH1|1
-5 Shelob, Child of Ungoliant|LTR|1
-1 Sheoldred, the Apocalypse|DMU|1
-20 Shire Shirriff|LTR|1
-20 Shortcut to Mushrooms|LTR|1
-5 Silent Clearing|MH1|1
-5 Sisay, Weatherlight Captain|MH1|1
-20 Skirge Familiar|MH2|1
-20 Skyblade's Boon|MH2|1
-20 Slag Strider|MH2|1
-5 Slickshot Show-Off|OTJ|1
-20 Sling-Gang Lieutenant|MH1|1
-20 Smiting Helix|MH1|1
-5 Sméagol, Helpful Guide|LTR|1
-5 Sol Talisman|MH2|1
-5 Solitary Confinement|MH2|1
-1 Solitude|MH2|1
-20 Soul Snare|MH2|1
-20 Soul-Guide Lantern|THB|1
-20 Soulherder|MH1|1
-20 Specimen Collector|MH2|1
-1 Spiteful Banditry|LTR|1
-5 Spiteful Sliver|MH1|1
-20 Splicer's Skill|MH1|1
-20 Spreading Insurrection|MH2|1
-5 Squirrel Mob|MH2|1
-20 Squirrel Nest|MH1|1
-20 Squirrel Sanctuary|MH2|1
-20 Squirrel Sovereign|MH2|1
-5 Steam Vents|GPT|1
-20 Steel Dromedary|MH2|1
-5 Sterling Grove|MH2|1
-20 Stern Scolding|LTR|1
-20 Stew the Coneys|LTR|1
-5 Sting, the Glinting Dagger|LTR|1
-5 Stomping Ground|GPT|1
-20 Stone of Erech|LTR|1
-1 Storm of Saruman|LTR|1
-20 Strider, Ranger of the North|LTR|1
-20 Strike It Rich|MH2|1
-1 Subtlety|MH2|1
-20 Sudden Edict|MH2|1
-5 Summoner's Pact|FUT|1
-5 Sunbaked Canyon|MH1|1
-5 Suspend|MH2|1
-1 Svyelun of Sea and Sky|MH2|1
-20 Sweep the Skies|MH2|1
-1 Sword of Hearth and Home|MH2|1
-1 Sword of Sinew and Steel|MH1|1
-1 Sword of Truth and Justice|MH1|1
-5 Sylvan Anthem|MH2|1
-5 Sythis, Harvest's Hand|MH2|1
-5 Takenuma, Abandoned Mire|NEO|1
-20 Tale of Tinúviel|LTR|1
-20 Talisman of Conviction|MH1|1
-20 Talisman of Creativity|MH1|1
-20 Talisman of Curiosity|MH1|1
-20 Talisman of Hierarchy|MH1|1
-20 Talisman of Resilience|MH1|1
-5 Tectonic Reformation|MH1|1
-5 Teferi, Time Raveler|WAR|1
-20 Tempered Sliver|MH1|1
-5 Temple Garden|RAV|1
-20 Terramorph|MH2|1
-5 Territorial Kavu|MH2|1
-5 The Balrog, Durin's Bane|LTR|1
-5 The Balrog, Flame of Udûn|LTR|1
-20 The Bath Song|LTR|1
-5 The Battle of Bywater|LTR|1
-1 The First Sliver|MH1|1
-20 The Grey Havens|LTR|1
-20 The Mouth of Sauron|LTR|1
-1 The One Ring|LTR|1
-5 The Ring Goes South|LTR|1
-5 The Shire|LTR|1
-20 The Underworld Cookbook|MH2|1
-1 The Watcher in the Water|LTR|1
-5 There and Back Again|LTR|1
-5 Thought Monitor|MH2|1
-5 Thoughtseize|LRW|1
-20 Thraben Watcher|MH2|1
-1 Thrasta, Tempest's Roar|MH2|1
-20 Throatseeker|MH1|1
-20 Throes of Chaos|MH1|1
-5 Through the Breach|CHK|1
-20 Thundering Djinn|MH1|1
-20 Théoden, King of Rohan|LTR|1
-20 Tide Shaper|MH2|1
-5 Timeless Dragon|MH2|1
-20 Timeless Witness|MH2|1
-20 Tireless Provisioner|MH2|1
-1 Titania, Protector of Argoth|MH2|1
-1 Tom Bombadil|LTR|1
-1 Tourach, Dread Cantor|MH2|1
-5 Trailblazer's Boots|LTR|1
-20 Tranquil Thicket|MH1|1
-20 Tribute Mage|MH1|1
-20 Twisted Reflection|MH1|1
-20 Uglúk of the White Hand|LTR|1
-1 Unbound Flourishing|MH1|1
-20 Undead Augur|MH1|1
-20 Underworld Hermit|MH2|1
-5 Unmarked Grave|MH2|1
-5 Unsettled Mariner|MH1|1
-5 Upheaval|MH2|1
-20 Urza's Rage|MH1|1
-5 Urza's Saga|MH2|1
-1 Urza, Lord High Artificer|MH1|1
-20 Valiant Changeling|MH1|1
-20 Vectis Gloves|MH2|1
-20 Vedalken Infiltrator|MH2|1
-20 Vengeful Devil|MH1|1
-5 Verdant Catacombs|MH2|1
-5 Verdant Command|MH2|1
-20 Vesperlark|MH1|1
-20 Vile Entomber|MH2|1
-5 Vindicate|MH2|1
-5 Void Mirror|MH2|1
-20 Voracious Fell Beast|LTR|1
-20 Wall of Blossoms|MH1|1
-5 War of the Last Alliance|LTR|1
-5 Warg Rider|LTR|1
-20 Watcher for Tomorrow|MH1|1
-5 Waterlogged Grove|MH1|1
-5 Watery Grave|RAV|1
-20 Webweaver Changeling|MH1|1
-5 Winds of Abandon|MH1|1
-20 Wing Shards|MH1|1
-1 Witch-king of Angmar|LTR|1
-5 Witch-king, Bringer of Ruin|LTR|1
-5 Wonder|MH2|1
-20 Wren's Run Hydra|MH2|1
-1 Wrenn and Six|MH1|1
-20 Yavimaya Elder|MH2|1
-5 Yavimaya, Cradle of Growth|MH2|1
-1 Yawgmoth, Thran Physician|MH1|1
-20 You Cannot Pass!|LTR|1
-20 Young Necromancer|MH2|1
-5 Yusri, Fortune's Flame|MH2|1
-5 Zabaz, the Glimmerwasp|MH2|1
-20 Zhalfirin Decoy|MH1|1
-20 Zuran Orb|MH2|1
-20 Éomer of the Riddermark|LTR|1
-5 Éomer, Marshal of Rohan|LTR|1
-5 Éowyn, Fearless Knight|LTR|1
-20 Éowyn, Lady of Rohan|LTR|1
+794 Abhorrent Oculus|DSK|1
+9528 Abiding Grace|MH2|1
+9528 Abominable Treefolk|MH1|1
+2382 Abstruse Appropriation|MH3|1
+2382 Academy Manufactor|MH2|1
+2382 Academy Ruins|2XM|1
+2382 Ad Nauseam|2XM|1
+2382 Adaptive Automaton|2XM|1
+2382 Aether Revolt|MH3|1
+2382 Aeve, Progenitor Ooze|MH2|1
+794 Agatha's Soul Cauldron|WOE|1
+9528 Ajani Fells the Godsire|MH3|1
+397 Ajani, Nacatl Pariah|MH3|1
+4367 Allosaurus Rider|CSP|1
+9528 Alpine Guide|MH1|1
+2382 Altar of Dementia|MH1|1
+9528 Altar of the Goyf|MH2|1
+9528 Amped Raptor|MH3|1
+2382 Amphibian Downpour|MH3|1
+397 Andúril, Flame of the West|LTR|1
+9528 Angel of the Ruins|MH3|1
+9528 Angelic Curator|MH2|1
+9528 Annoyed Altisaur|MH3|1
+397 Aragorn and Arwen, Wed|LTR|1
+2382 Aragorn, Company Leader|LTR|1
+397 Aragorn, the Uniter|LTR|1
+9528 Arcbound Condor|MH3|1
+9528 Arcbound Javelineer|MH2|1
+9528 Arcbound Shikari|MH2|1
+9528 Arcbound Whelp|MH2|1
+397 Archangel of Thune|2XM|1
+9528 Archfiend of Sorrows|MH2|1
+2382 Archmage's Charm|MH1|1
+397 Archon of Cruelty|MH2|1
+2382 Archway of Innovation|MH3|1
+397 Arcum Dagsson|2XM|1
+9528 Arcus Acolyte|MH2|1
+2382 Arena of Glory|MH3|1
+2382 Argent Dais|MH3|1
+2382 Aria of Flame|MH1|1
+2382 Arid Mesa|MH2|1
+2382 Arixmethes, Slumbering Isle|2XM|1
+397 Arna Kennerüd, Skycaptain|MH3|1
+9528 Arwen Undómiel|LTR|1
+397 Arwen, Mortal Queen|LTR|1
+9528 Ash Barrens|2XM|1
+397 Ashling, Flame Dancer|MH3|1
+2382 Asmoranomardicadaistinaculdacar|MH2|1
+2382 Assault on Osgiliath|LTR|1
+2382 Astral Drift|MH1|1
+17954 Atraxa, Grand Unifier|ONE|1
+397 Atraxa, Praetors' Voice|2XM|1
+9528 Auriok Salvagers|2XM|1
+2382 Austere Command|2XM|1
+397 Avacyn, Angel of Hope|2XM|1
+397 Avenger of Zendikar|2XM|1
+2382 Awakening Zone|2XM|1
+2382 Ayula's Influence|MH1|1
+2382 Ayula, Queen Among Bears|MH1|1
+2382 Baleful Strix|2XM|1
+2382 Barad-dûr|LTR|1
+9528 Barbarian Ring|MH3|1
+9528 Barbed Spike|MH2|1
+9528 Barren Moor|MH1|1
+9528 Barrow-Blade|LTR|1
+9528 Basalt Monolith|2XM|1
+2382 Basilisk Collar|2XM|1
+9528 Batterbone|MH2|1
+397 Batterskull|2XM|1
+9528 Battle Screech|MH1|1
+2382 Bazaar Trademage|MH1|1
+2382 Beacon of Unrest|2XM|1
+9528 Bespoke Battlewagon|MH3|1
+2382 Bilbo's Ring|LTR|1
+9528 Bilbo, Retired Burglar|LTR|1
+9528 Bill Ferny, Bree Swindler|LTR|1
+9528 Bill the Pony|LTR|1
+9528 Birthing Boughs|MH1|1
+397 Birthing Ritual|MH3|1
+9528 Bitter Downfall|LTR|1
+2382 Blade Splicer|2XM|1
+2382 Blasphemous Act|2XM|1
+9528 Blazing Rootwalla|MH2|1
+9528 Blessed Respite|MH2|1
+397 Blightsteel Colossus|2XM|1
+2382 Blinkmoth Nexus|2XM|1
+9528 Blizzard Strix|MH1|1
+4367 Blood Crypt|DIS|1
+2382 Blood Moon|2XM|1
+2382 Bloodbraid Marauder|MH2|1
+9528 Bloodshot Trainee|2XM|1
+9528 Bloodsoaked Insight|MH3|1
+2382 Bloodspore Thrinax|2XM|1
+2382 Bloodstained Mire|MH3|1
+9528 Blossoming Calm|MH2|1
+9528 Boggart Trawler|MH3|1
+9528 Bone Shredder|MH2|1
+9528 Book of Mazarbul|LTR|1
+2382 Boon Reflection|2XM|1
+2382 Borne Upon a Wind|LTR|1
+2382 Boromir, Warden of the Tower|LTR|1
+4367 Boseiju, Who Endures|NEO|1
+2382 Bosh, Iron Golem|2XM|1
+2382 Braids, Cabal Minion|MH2|1
+2382 Braids, Conjurer Adept|2XM|1
+9528 Brainstone|MH2|1
+9528 Brainsurge|MH3|1
+2382 Branching Evolution|MH3|1
+9528 Break the Ice|MH2|1
+9528 Breaker of Creation|MH3|1
+4367 Breeding Pool|DIS|1
+2382 Breya's Apprentice|MH2|1
+397 Breya, Etherium Shaper|2XM|1
+397 Breya, Etherium Shaper|MH3|1
+9528 Bridgeworks Battle|MH3|1
+9528 Brimstone Volley|2XM|1
+2382 Brudiclad, Telchor Engineer|2XM|1
+9528 Buried Alive|MH3|1
+9528 Buried Ruin|2XM|1
+9528 Butterbur, Bree Innkeeper|LTR|1
+397 Cabal Coffers|MH2|1
+2382 Cabal Therapist|MH1|1
+2382 Calibrated Blast|MH2|1
+2382 Call of the Ring|LTR|1
+9528 Caprichrome|MH2|1
+9528 Captain Ripley Vance|MH2|1
+9528 Carrion Feeder|MH1|1
+2382 Carth the Lion|MH2|1
+2382 Cascade Bluffs|2XM|1
+9528 Celeborn the Wise|LTR|1
+9528 Cephalid Coliseum|MH3|1
+2382 Chainer, Nightmare Adept|MH2|1
+2382 Champion of Lambholt|2XM|1
+2382 Chance Encounter|MH2|1
+9528 Charitable Levy|MH3|1
+397 Chatterfang, Squirrel General|MH2|1
+2382 Chef's Kiss|MH2|1
+9528 Chief of the Foundry|2XM|1
+2382 Chitterspitter|MH2|1
+2382 Chord of Calling|2XM|1
+397 Chrome Mox|2XM|1
+2382 Chthonian Nightmare|MH3|1
+9528 Clattering Augur|MH2|1
+9528 Clone Shell|2XM|1
+2382 Cloudshredder Sliver|MH1|1
+9528 Cogwork Assembler|2XM|1
+2382 Collected Conjuring|MH1|1
+9528 Collective Resistance|MH3|1
+2382 Collector Ouphe|MH1|1
+9528 Combine Chrysalis|MH2|1
+9528 Conifer Wurm|MH1|1
+2382 Conjurer's Closet|2XM|1
+9528 Consign to Memory|MH3|1
+9528 Constable of the Realm|MH2|1
+9528 Consuming Corruption|MH3|1
+9528 Copycrook|MH3|1
+2382 Cordial Vampire|MH1|1
+9528 Coretapper|2XM|1
+9528 Council's Deliberation|LTR|1
+2382 Council's Judgment|2XM|1
+397 Counterspell|MH2|1
+397 Counterspell|MH2|2
+2382 Crabomination|MH3|1
+2382 Cragganwick Cremator|2XM|1
+9528 Cranial Plating|2XM|1
+2382 Crashing Footfalls|MH1|1
+397 Crop Rotation|2XM|1
+397 Crop Rotation|2XM|2
+9528 Crypt Rats|MH1|1
+9528 Culling Dais|2XM|1
+9528 Cunning Evasion|MH1|1
+2382 Cursed Mirror|MH3|1
+2382 Cursed Totem|MH2|1
+9528 Cursed Wombat|MH3|1
+2382 Cyclonic Rift|2XM|1
+397 Dakkon, Shadow Slayer|MH2|1
+2382 Damn|MH2|1
+397 Dark Confidant|2XM|1
+397 Dark Depths|2XM|1
+9528 Darksteel Citadel|2XM|1
+397 Darksteel Forge|2XM|1
+2382 Dauthi Voidwalker|MH2|1
+397 Dawn of a New Age|LTR|1
+2382 Dead of Winter|MH1|1
+2382 Death's Shadow|2XM|1
+9528 Deathreap Ritual|2XM|1
+9528 Decree of Justice|MH3|1
+9528 Deep Analysis|MH3|1
+2382 Deep Forest Hermit|MH1|1
+2382 Deepglow Skate|2XM|1
+2382 Delighted Halfling|LTR|1
+9528 Denethor, Ruling Steward|LTR|1
+9528 Depth Defiler|MH3|1
+2382 Dermotaxi|MH2|1
+2382 Deserted Temple|MH3|1
+2382 Detective's Phoenix|MH3|1
+2382 Devourer of Destiny|MH3|1
+2382 Diamond Lion|MH2|1
+2382 Disciple of Bolas|2XM|1
+9528 Disciple of Freyalise|MH3|1
+9528 Disciple of the Vault|2XM|1
+9528 Dismantle|2XM|1
+9528 Dismantling Blow|MH1|1
+37318 Dismember|NPH|1
+2382 Display of Power|LTR|1
+2382 Disruptor Flute|MH3|1
+9528 Distinguished Conjurer|MH3|1
+2382 Doomed Necromancer|2XM|1
+2382 Doors of Durin|LTR|1
+397 Doubling Season|2XM|1
+9528 Dragon's Rage Channeler|MH2|1
+9528 Dread Return|2XM|1
+9528 Dreadmobile|MH3|1
+2382 Dreamtide Whale|MH3|1
+9528 Dregscape Sliver|MH1|1
+2382 Dress Down|MH2|1
+9528 Drown in Sorrow|2XM|1
+9528 Drowner of Truth|MH3|1
+2382 Dualcaster Mage|2XM|1
+2382 Duplicant|2XM|1
+9528 Dúnedain Rangers|LTR|1
+2382 Eagle of Deliverance|LTR|1
+397 Echo of Eons|MH1|1
+2382 Echoes of Eternity|MH3|1
+4367 Eiganjo, Seat of the Empire|NEO|1
+2382 Eladamri's Call|MH1|1
+397 Eladamri, Korvecdal|MH3|1
+2382 Elanor Gardner|LTR|1
+2382 Eldrazi Linebreaker|MH3|1
+9528 Eldrazi Ravager|MH3|1
+9528 Elrond, Lord of Rivendell|LTR|1
+2382 Elrond, Master of Healing|LTR|1
+2382 Elven Chorus|LTR|1
+2382 Elvish Mariner|LTR|1
+2382 Emerald Medallion|MH3|1
+9528 Emissary of Soulfire|MH3|1
+2382 Emperor of Bones|MH3|1
+9528 Emrakul's Messenger|MH3|1
+794 Emrakul, the Aeons Torn|ROE|1
+397 Emrakul, the World Anew|MH3|1
+2382 Enchantress's Presence|MH2|1
+2382 Endless Atlas|2XM|1
+2382 Endling|MH1|1
+397 Endurance|MH2|1
+2382 Engineered Explosives|2XM|1
+9528 Enlarge|2XM|1
+397 Ensnaring Bridge|2XM|1
+9528 Ent-Draught Basin|LTR|1
+9528 Entish Restoration|LTR|1
+9528 Envoy of the Ancestors|MH3|1
+9528 Erkenbrand, Lord of Westfold|LTR|1
+2382 Esper Sentinel|MH2|1
+9528 Esperzoa|2XM|1
+9528 Essence Reliquary|MH3|1
+2382 Estrid's Invocation|MH3|1
+9528 Etched Slith|MH3|1
+9528 Etchings of the Chosen|MH1|1
+9528 Etherium Pteramander|MH3|1
+2382 Ethersworn Canonist|2XM|1
+9528 Ethersworn Sphinx|MH2|1
+9528 Everdream|MH1|1
+9528 Exclude|MH1|1
+2382 Exploration|2XM|1
+9528 Extruder|MH2|1
+4367 Fable of the Mirror-Breaker|NEO|1
+9528 Face of Divinity|MH1|1
+9528 Fact or Fiction|MH1|1
+9528 Fae Offering|MH2|1
+37318 Faithful Mending|MID|1
+2382 Falkenrath Aristocrat|2XM|1
+2382 Fall of Cair Andros|LTR|1
+2382 Fall of Gil-galad|LTR|1
+2382 Fallen Shinobi|MH1|1
+2382 Fanatic of Rhonas|MH3|1
+2382 Fangorn, Tree Shepherd|LTR|1
+9528 Fangs of Kalonia|MH3|1
+9528 Faramir, Field Commander|LTR|1
+2382 Faramir, Prince of Ithilien|LTR|1
+9528 Farmstead Gleaner|MH1|1
+9528 Fast // Furious|MH2|1
+397 Fatal Push|2XM|1
+397 Fatal Push|2XM|2
+9528 Fear, Fire, Foes!|LTR|1
+9528 Feast of Sanity|MH2|1
+9528 Feaster of Fools|MH1|1
+9528 Fell the Profane|MH3|1
+9528 Fencing Ace|2XM|1
+2382 Fetid Heath|2XM|1
+9528 Fiery Inscription|LTR|1
+2382 Fiery Islet|MH1|1
+9528 Filigree Attendant|MH2|1
+2382 Fire // Ice|MH2|1
+2382 Fire-Lit Thicket|2XM|1
+9528 Firebolt|MH1|1
+2382 Fires of Mount Doom|LTR|1
+9528 First Sliver's Chosen|MH1|1
+9528 Flame Blitz|MH2|1
+9528 Flame Rift|MH2|1
+2382 Flame of Anor|LTR|1
+9528 Flametongue Yearling|MH2|1
+2382 Flare of Cultivation|MH3|1
+2382 Flare of Denial|MH3|1
+2382 Flare of Duplication|MH3|1
+2382 Flare of Fortitude|MH3|1
+2382 Flare of Malice|MH3|1
+9528 Flay Essence|MH2|1
+9528 Fledgling Dragon|MH3|1
+37318 Flickerwisp|2XM|1
+2382 Flooded Grove|2XM|1
+2382 Flooded Strand|MH3|1
+2382 Flowering of the White Tree|LTR|1
+2382 Flusterstorm|MH1|1
+2382 Flusterstorm|MH3|1
+9528 Foray of Orcs|LTR|1
+2382 Force of Despair|MH1|1
+4367 Force of Negation|MH1|1
+2382 Force of Rage|MH1|1
+2382 Force of Vigor|MH1|1
+2382 Force of Virtue|MH1|1
+397 Force of Will|2XM|1
+2382 Forge Anew|LTR|1
+9528 Forgotten Cave|MH1|1
+9528 Foundation Breaker|MH2|1
+2382 Fractured Sanity|MH2|1
+9528 Friendly Rivalry|LTR|1
+9528 Frodo Baggins|LTR|1
+2382 Frodo, Determined Hero|LTR|1
+2382 Frodo, Sauron's Bane|LTR|1
+9528 Frogmyr Enforcer|MH3|1
+9528 Frostwalk Bastion|MH1|1
+2382 Fulminator Mage|2XM|1
+9528 Furnace Hellkite|MH3|1
+397 Fury|MH2|1
+2382 Future Sight|MH1|1
+2382 Gaea's Will|MH2|1
+2382 Galadriel of Lothlórien|LTR|1
+2382 Galadriel, Gift-Giver|LTR|1
+9528 Galvanic Blast|2XM|1
+2382 Gandalf the Grey|LTR|1
+397 Gandalf the White|LTR|1
+9528 Gandalf's Sanction|LTR|1
+9528 Gandalf, Friend of the Shire|LTR|1
+2382 Gandalf, White Rider|LTR|1
+397 Garth One-Eye|MH2|1
+397 Geist of Saint Traft|2XM|1
+9528 Gelatinous Genesis|2XM|1
+2382 General Ferrous Rokiric|MH2|1
+9528 Generous Gift|MH1|1
+2382 Genesis|MH1|1
+2382 Genku, Future Shaper|MH3|1
+397 Geth, Lord of the Vault|2XM|1
+397 Geyadrone Dihada|MH2|1
+9528 Ghor-Clan Rampager|2XM|1
+9528 Ghost-Lit Drifter|MH2|1
+9528 Ghostfire Slice|MH3|1
+9528 Gift of Strands|LTR|1
+9528 Gimli, Counter of Kills|LTR|1
+2382 Gimli, Mournful Avenger|LTR|1
+2382 Giver of Runes|MH1|1
+9528 Glacial Revelation|MH1|1
+397 Glamdring|LTR|1
+9528 Glaring Fleshraker|MH3|1
+9528 Glassdust Hulk|2XM|1
+9528 Glasswing Grace|MH3|1
+2382 Glimmervoid|2XM|1
+2382 Glimpse of Tomorrow|MH2|1
+9528 Glinting Creeper|MH2|1
+9528 Glorfindel, Dauntless Rescuer|LTR|1
+9528 Glorious Enforcer|MH2|1
+9528 Glyph Elemental|MH3|1
+2382 Glóin, Dwarf Emissary|LTR|1
+2382 Goblin Bombardment|MH2|1
+2382 Goblin Engineer|MH1|1
+9528 Goblin Fireleaper|LTR|1
+2382 Goblin Guide|2XM|1
+9528 Goblin Matron|MH1|1
+9528 Goblin Oriflamme|MH1|1
+9528 Goblin Traprunner|MH2|1
+4367 Godless Shrine|GPT|1
+2382 Godo, Bandit Warlord|2XM|1
+2382 Goldberry, River-Daughter|LTR|1
+9528 Golden-Tail Trainer|MH3|1
+9528 Golem Artisan|2XM|1
+9528 Gollum's Bite|LTR|1
+9528 Gollum, Patient Plotter|LTR|1
+2382 Gollum, Scheming Guide|LTR|1
+9528 Good-Fortune Unicorn|MH1|1
+9528 Gorbag of Minas Morgul|LTR|1
+9528 Gorilla Shaman|MH2|1
+4367 Goryo's Vengeance|BOK|1
+9528 Gothmog, Morgul Lieutenant|LTR|1
+9528 Graceful Restoration|MH2|1
+2382 Grand Architect|2XM|1
+2382 Graven Cairns|2XM|1
+9528 Graveshifter|MH1|1
+2382 Greater Good|2XM|1
+9528 Greed|MH2|1
+397 Grief|MH2|1
+2382 Grim Lavamancer|2XM|1
+9528 Grim Servant|MH3|1
+9374 Griselbrand|AVR|1
+9528 Grishnákh, Brash Instigator|LTR|1
+397 Grist, Voracious Larva|MH3|1
+397 Grist, the Hunger Tide|MH2|1
+9528 Grond, the Gatebreaker|LTR|1
+9528 Gríma Wormtongue|LTR|1
+9528 Guardian of the Forgotten|MH3|1
+2382 Guide of Souls|MH3|1
+9528 Gwaihir the Windlord|LTR|1
+2382 Hall of Heliod's Generosity|MH1|1
+4367 Hallowed Fountain|DIS|1
+2382 Hammer of Nazahn|2XM|1
+2382 Hanna, Ship's Navigator|2XM|1
+2382 Harbinger of the Seas|MH3|1
+2382 Harmonic Prodigy|MH2|1
+9528 Healer's Flock|MH2|1
+2382 Heartbeat of Spring|2XM|1
+2382 Heat Shimmer|2XM|1
+9528 Herd Baloth|MH2|1
+397 Herigast, Erupting Nullkite|MH3|1
+397 Hew the Entwood|LTR|1
+397 Hexdrinker|MH1|1
+9528 Hidden Stockpile|2XM|1
+2382 High Market|2XM|1
+9528 Hinder|2XM|1
+2382 Hogaak, Arisen Necropolis|MH1|1
+9528 Hollowhead Sliver|MH1|1
+9528 Hope-Ender Coatl|MH3|1
+2382 Horn of Gondor|LTR|1
+2382 Horn of the Mark|LTR|1
+9528 Horrid Shadowspinner|MH3|1
+9528 Horses of the Bruinen|LTR|1
+9528 Hunting Pack|MH2|1
+9528 Hydra Trainer|MH3|1
+9528 Hydroelectric Specimen|MH3|1
+2382 Ice-Fang Coatl|MH1|1
+9528 Icehide Golem|MH1|1
+9528 Idol of False Gods|MH3|1
+2382 Ignoble Hierarch|MH2|1
+397 Imperial Recruiter|2XM|1
+397 Imperial Recruiter|MH2|1
+2382 Imskir Iron-Eater|MH3|1
+9528 Indebted Spirit|MH3|1
+2382 Inevitable Betrayal|MH2|1
+9528 Ingenious Infiltrator|MH1|1
+2382 Inkwell Leviathan|2XM|1
+37318 Inquisition of Kozilek|ROE|1
+2382 Invert Polarity|MH3|1
+9528 Invigorate|2XM|1
+2382 Ion Storm|2XM|1
+9528 Ioreth of the Healing House|LTR|1
+2382 Isildur's Fateful Strike|LTR|1
+2382 Isochron Scepter|2XM|1
+9528 It That Heralds the End|MH3|1
+9528 Izzet Charm|2XM|1
+9528 Izzet Generatorium|MH3|1
+397 Jace, the Mind Sculptor|2XM|1
+2382 Jet Medallion|MH3|1
+4367 Jetmir's Garden|SNC|1
+9528 Jhoira's Familiar|2XM|1
+2382 Jhoira, Weatherlight Captain|2XM|1
+9528 Junk Diver|MH3|1
+9528 Junk Winder|MH2|1
+2382 K'rrik, Son of Yawgmoth|MH3|1
+397 Kaalia of the Vast|2XM|1
+397 Kaalia of the Vast|MH3|1
+397 Kaldra Compleat|MH2|1
+9528 Kaleidoscorch|MH2|1
+2382 Kappa Cannoneer|MH3|1
+2382 Karmic Guide|MH2|1
+397 Karn Liberated|2XM|1
+397 Karrthus, Tyrant of Jund|2XM|1
+2382 Kaya's Guile|MH1|1
+2382 Kemba, Kha Regent|2XM|1
+397 Kess, Dissident Mage|MH1|1
+2382 King of the Oathbreakers|LTR|1
+9528 King of the Pride|MH1|1
+2382 Kozilek's Command|MH3|1
+9528 Kozilek's Unsealing|MH3|1
+397 Kozilek, the Broken Reality|MH3|1
+2382 Kudo, King Among Bears|MH3|1
+9528 Kuldotha Flamefiend|2XM|1
+2382 Kuldotha Forgemaster|2XM|1
+2382 Laelia, the Blade Reforged|MH3|1
+397 Land Tax|2XM|1
+9528 Landroval, Horizon Witness|LTR|1
+397 Last March of the Ents|LTR|1
+9528 Lavabelly Sliver|MH1|1
+9528 Lazotep Chancellor|MH2|1
+9528 Legion Leadership|MH3|1
+9528 Legion Vanguard|MH2|1
+9528 Legolas, Counter of Kills|LTR|1
+2382 Legolas, Master Archer|LTR|1
+2382 Leonin Abunas|2XM|1
+9528 Lesser Masticore|MH1|1
+9528 Lethal Throwdown|MH3|1
+2382 Liege of the Tangle|2XM|1
+397 Lightning Greaves|2XM|1
+397 Lightning Greaves|2XM|2
+2382 Lightning Skelemental|MH1|1
+9528 Lion Umbra|MH3|1
+9528 Liquimetal Torque|MH2|1
+4367 Living End|TSP|1
+9528 Llanowar Tribe|MH1|1
+2382 Lobelia Sackville-Baggins|LTR|1
+9528 Lonely Sandbar|MH1|1
+9528 Long List of the Ents|LTR|1
+2382 Lonis, Cryptozoologist|MH2|1
+2382 Lost Isle Calling|LTR|1
+9528 Lost to Legend|LTR|1
+2382 Lotho, Corrupt Shirriff|LTR|1
+9528 Lucid Dreams|MH2|1
+2382 Lux Cannon|2XM|1
+397 Maelstrom Nexus|2XM|1
+2382 Maelstrom Pulse|2XM|1
+2382 Magus of the Abyss|2XM|1
+2382 Magus of the Bridge|MH2|1
+2382 Magus of the Will|2XM|1
+397 Mana Echoes|2XM|1
+2382 Mana Reflection|2XM|1
+9528 Manamorphose|2XM|1
+9528 March from the Black Gate|LTR|1
+9528 Marionette Apprentice|MH3|1
+2382 Marit Lage's Slumber|MH1|1
+2382 Marsh Flats|MH2|1
+9528 Master Splicer|2XM|1
+2382 Master Transmuter|2XM|1
+2382 Master of Death|MH2|1
+2382 Master of Etherium|2XM|1
+2382 Masterwork of Ingenuity|2XM|1
+9528 Mauhúr, Uruk-hai Captain|LTR|1
+2382 Maze of Ith|2XM|1
+2382 Mazirek, Kraul Death Priest|2XM|1
+2382 Meddling Mage|2XM|1
+9528 Meltdown|MH3|1
+9528 Meneldor, Swift Savior|LTR|1
+2382 Merciless Eviction|2XM|1
+9528 Meriadoc Brandybuck|LTR|1
+2382 Merry, Esquire of Rohan|LTR|1
+2382 Mesmeric Orb|2XM|1
+9528 Metastatic Evangel|MH3|1
+9528 Meteoric Mace|MH3|1
+9528 Millikin|MH2|1
+2382 Minas Tirith Garrison|LTR|1
+2382 Minas Tirith|LTR|1
+9528 Mindless Conscription|MH3|1
+2382 Mines of Moria|LTR|1
+397 Mirari's Wake|MH2|1
+2382 Mirkwood Channeler|LTR|1
+2382 Mirrodin Besieged|MH1|1
+9528 Mirror of Galadriel|LTR|1
+37318 Mishra's Bauble|2XM|1
+9528 Mishra's Factory|2XM|1
+397 Mishra's Factory|MH2|1
+397 Mishra's Factory|MH2|2
+2382 Mist-Syndicate Naga|MH1|1
+2382 Misty Rainforest|MH2|1
+2382 Mithril Coat|LTR|1
+2382 Moderation|MH2|1
+9528 Mogg Mob|MH3|1
+9528 Mogg Salvage|MH2|1
+9528 Monoskelion|MH2|1
+9528 Monstrous Vortex|MH3|1
+2382 Monumental Henge|MH3|1
+794 Moonshadow|ECL|1
+2382 Moria Marauder|LTR|1
+9528 Morkrut Banshee|2XM|1
+397 Morophon, the Boundless|MH1|1
+397 Mount Doom|LTR|1
+397 Mox Opal|2XM|1
+397 Mox Tantalite|MH1|1
+9528 Munitions Expert|MH1|1
+397 Murktide Regent|MH2|1
+9528 Muster the Departed|MH3|1
+2382 Myr Battlesphere|2XM|1
+9528 Myrsmith|2XM|1
+2382 Mystic Gate|2XM|1
+9131 Mystic Redaction|MH2|1
+37318 Mystical Dispute|ELD|1
+9131 Nadier's Nightblade|MH3|1
+2382 Nadu, Winged Wisdom|MH3|1
+9131 Nantuko Cultivator|MH1|1
+9131 Nazgûl|LTR|1
+397 Necrodominance|MH3|1
+2382 Necrogoyf|MH2|1
+9131 Necromancer's Familiar|MH2|1
+37318 Neoform|WAR|1
+9131 Nesting Grounds|MH3|1
+2382 Nether Spirit|MH1|1
+397 Nethergoyf|MH3|1
+2382 Nettlecyst|MH2|1
+2382 Nevinyrral's Disk|MH2|1
+2382 Noble Hierarch|2XM|1
+9131 Null Elemental Blast|MH3|1
+2382 Nulldrifter|MH3|1
+2382 Nurturing Peatland|MH1|1
+2382 Nykthos Paragon|MH2|1
+9131 O-Naginata|2XM|1
+9131 Oath of the Grey Host|LTR|1
+2382 Oblivion Stone|2XM|1
+2382 Obsidian Charmaw|MH2|1
+397 Ocelot Pride|MH3|1
+9131 Old Man Willow|LTR|1
+2382 On Thin Ice|MH1|1
+9131 Ondu Knotmaster|MH3|1
+2382 One Ring to Rule Them All|LTR|1
+9131 Oneirophage|MH1|1
+2382 Open the Vaults|2XM|1
+2382 Ophiomancer|MH3|1
+2382 Orcish Bowmasters|LTR|1
+9131 Ore-Scale Guardian|MH1|1
+2382 Orim's Chant|MH3|1
+4367 Otawara, Soaring City|NEO|1
+9131 Oubliette|2XM|1
+2382 Out of Time|MH2|1
+9131 Ovalchase Daredevil|2XM|1
+4367 Overgrown Tomb|RAV|1
+794 Overlord of the Balemurk|DSK|1
+4367 Pact of Negation|FUT|1
+9131 Painsmith|2XM|1
+397 Palantír of Orthanc|LTR|1
+2382 Party Thrasher|MH3|1
+2382 Pashalik Mons|MH1|1
+9131 Patchwork Gnomes|MH2|1
+9131 Path of Annihilation|MH3|1
+9131 Path to Exile|2XM|1
+2382 Patriarch's Bidding|MH2|1
+2382 Pearl Medallion|MH3|1
+2382 Pearl-Ear, Imperial Advisor|MH3|1
+9131 Pentad Prism|2XM|1
+9131 Peregrin Took|LTR|1
+2382 Persist|MH2|1
+2382 Phelia, Exuberant Shepherd|MH3|1
+2382 Phial of Galadriel|LTR|1
+397 Phlage, Titan of Fire's Fury|MH3|1
+9131 Phyrexian Ironworks|MH3|1
+2382 Phyrexian Metamorph|2XM|1
+2382 Phyrexian Revoker|2XM|1
+397 Phyrexian Tower|MH3|1
+9131 Pillage|MH1|1
+9131 Pinnacle Monk|MH3|1
+2382 Pippin, Guard of the Citadel|LTR|1
+2382 Piru, the Volatile|MH2|1
+2382 Plague Engineer|MH1|1
+9131 Planar Genesis|MH3|1
+2382 Planebound Accomplice|MH1|1
+2382 Polluted Delta|MH3|1
+9131 Pongify|2XM|1
+9131 Power Depot|MH2|1
+2382 Powerbalance|MH3|1
+2382 Press the Enemy|LTR|1
+2382 Priest of Fell Rites|MH2|1
+9131 Priest of Titania|MH3|1
+2382 Primal Prayers|MH3|1
+9131 Prince Imrahil the Fair|LTR|1
+9131 Prismatic Ending|MH2|1
+2382 Prismatic Vista|MH1|1
+2382 Profane Tutor|MH2|1
+2382 Progenitor Mimic|2XM|1
+9131 Propagator Drone|MH3|1
+9131 Prophetic Titan|MH2|1
+9131 Proud Pack-Rhino|MH3|1
+2382 Psychic Frog|MH3|1
+2382 Puresteel Paladin|2XM|1
+9131 Pyretic Rebirth|MH3|1
+9131 Pyrewild Shaman|2XM|1
+9374 Quantum Riddler|EOE|1
+9131 Quest for the Necropolis|MH3|1
+9131 Quickbeam, Upstart Ent|LTR|1
+9131 Quirion Ranger|MH2|1
+397 Radagast the Brown|LTR|1
+9131 Radiant Epicure|MH2|1
+4367 Raffine's Tower|SNC|1
+397 Ragavan, Nimble Pilferer|MH2|1
+2382 Rage Reflection|2XM|1
+9131 Rakdos Headliner|MH2|1
+9131 Ral and the Implicit Maze|MH3|1
+397 Ral, Monsoon Mage|MH3|1
+9131 Ranger's Firebrand|LTR|1
+397 Ranger-Captain of Eos|MH1|1
+2382 Rangers of Ithilien|LTR|1
+2382 Ratchet Bomb|2XM|1
+9131 Ravenous Giant|MH1|1
+9131 Ravenous Intruder|2XM|1
+9131 Ravenous Squirrel|MH2|1
+2382 Ravenous Trap|2XM|1
+9131 Raving Visionary|MH2|1
+9131 Razorgrass Ambush|MH3|1
+2382 Reap the Past|MH1|1
+9131 Rebuild|MH1|1
+9131 Reckless Pyrosurfer|MH3|1
+9131 Reclamation Sage|2XM|1
+397 Recruiter of the Guard|MH3|1
+9131 Reef Worm|MH3|1
+9131 Regrowth|MH1|1
+9131 Reiterating Bolt|MH3|1
+9131 Reprieve|LTR|1
+2382 Reshape|2XM|1
+2382 Resurgent Belief|MH2|1
+9131 Revitalizing Repast|MH3|1
+2382 Rhys the Redeemed|2XM|1
+9131 Riddlesmith|2XM|1
+2382 Riders of the Mark|LTR|1
+397 Riku of Two Reflections|2XM|1
+9131 Ringsight|LTR|1
+2382 Ringwraiths|LTR|1
+2382 Ripples of Undeath|MH3|1
+2382 Riptide Laboratory|MH2|1
+2382 Rise and Shine|MH2|1
+9131 Rise of the Witch-king|LTR|1
+2382 Rishadan Dockhand|MH2|1
+9131 Rising of the Day|LTR|1
+2382 Rivendell|LTR|1
+9131 Road // Ruin|MH2|1
+9131 Roil Cartographer|MH3|1
+2382 Rolling Earthquake|2XM|1
+2382 Rosheen, Roaring Prophet|MH3|1
+9131 Rosie Cotton of South Lane|LTR|1
+9131 Rotwidow Pack|MH1|1
+2382 Ruby Medallion|MH3|1
+2382 Rugged Prairie|2XM|1
+9131 Ruination Rioter|MH1|1
+9131 Rush of Inspiration|MH3|1
+9131 Rush of Knowledge|2XM|1
+4367 Sacred Foundry|RAV|1
+9131 Saddled Rimestag|MH1|1
+9131 Sadistic Obsession|MH1|1
+9131 Said // Done|MH2|1
+2382 Salvage Titan|2XM|1
+2382 Samwise Gamgee|LTR|1
+9131 Samwise the Stouthearted|LTR|1
+2382 Sanctifier en-Vec|MH2|1
+9131 Sanctuary Raptor|MH2|1
+397 Sanctum Prelate|MH2|1
+2382 Sanctum Weaver|MH2|1
+9131 Sandstone Oracle|2XM|1
+2382 Sapphire Medallion|MH3|1
+2382 Saradoc, Master of Buckland|LTR|1
+397 Saruman of Many Colors|LTR|1
+9131 Saruman the White|LTR|1
+9131 Saruman's Trickery|LTR|1
+2382 Sauron's Ransom|LTR|1
+397 Sauron, the Dark Lord|LTR|1
+397 Sauron, the Lidless Eye|LTR|1
+2382 Sauron, the Necromancer|LTR|1
+2382 Savageborn Hydra|2XM|1
+2382 Scalding Tarn|MH2|1
+9131 Scale Up|MH1|1
+397 Scion of Draco|MH2|1
+9131 Scour the Desert|MH2|1
+2382 Scrapyard Recombiner|MH1|1
+2382 Scroll of Isildur|LTR|1
+2382 Sculpting Steel|2XM|1
+9131 Scurry Oak|MH2|1
+9131 Scurry of Gremlins|MH3|1
+9131 Scuttletide|MH2|1
+9131 Scuttling Sliver|MH1|1
+9131 Sea Drake|MH2|1
+9131 Seal of Cleansing|MH2|1
+9131 Seal of Removal|MH2|1
+2382 Search the Premises|MH2|1
+397 Seasoned Pyromancer|MH1|1
+9131 Secluded Steppe|MH1|1
+9131 Selesnya Guildmage|2XM|1
+397 Sen Triplets|2XM|1
+9131 Sentinel of the Pearl Trident|2XM|1
+9131 Serra Sphinx|2XM|1
+397 Serra the Benevolent|MH1|1
+397 Serra's Emissary|MH2|1
+2382 Sevinne's Reclamation|MH3|1
+9131 Shadow Summoning|LTR|1
+397 Shadow of the Enemy|LTR|1
+397 Shadow of the Second Sun|MH3|1
+9131 Shadowfax, Lord of Horses|LTR|1
+2382 Shagrat, Loot Bearer|LTR|1
+2382 Shamanic Revelation|2XM|1
+4367 Shardless Agent|MH2|1
+2382 Sharkey, Tyrant of the Shire|LTR|1
+2382 Sharuum the Hegemon|2XM|1
+9131 Shatter Assumptions|MH1|1
+2382 Shelob, Child of Ungoliant|LTR|1
+9374 Sheoldred, the Apocalypse|DMU|1
+2382 Shifting Woodland|MH3|1
+2382 Shilgengar, Sire of Famine|MH3|1
+9131 Shire Shirriff|LTR|1
+9131 Shortcut to Mushrooms|LTR|1
+9131 Shrieking Drake|MH3|1
+9131 Signature Slam|MH3|1
+2382 Silent Clearing|MH1|1
+9131 Sink into Stupor|MH3|1
+2382 Sisay, Weatherlight Captain|MH1|1
+2382 Six|MH3|1
+9131 Skirge Familiar|MH2|1
+2382 Skirsdag High Priest|2XM|1
+397 Skithiryx, the Blight Dragon|2XM|1
+9131 Skittering Precursor|MH3|1
+9131 Skullmulcher|2XM|1
+9131 Skyblade's Boon|MH2|1
+9131 Slag Strider|MH2|1
+4367 Slickshot Show-Off|OTJ|1
+9131 Sling-Gang Lieutenant|MH1|1
+9131 Smiting Helix|MH1|1
+2382 Sméagol, Helpful Guide|LTR|1
+397 Sneak Attack|2XM|1
+9131 Snow-Covered Wastes|MH3|1
+2382 Sol Talisman|MH2|1
+9131 Solar Transformer|MH3|1
+2382 Solitary Confinement|MH2|1
+397 Solitude|MH2|1
+397 Sorin of House Markov|MH3|1
+9131 Soul Snare|MH2|1
+37318 Soul-Guide Lantern|THB|1
+9131 Soulherder|MH1|1
+2382 Sowing Mycospawn|MH3|1
+4367 Spara's Headquarters|SNC|1
+9131 Spawn-Gang Commander|MH3|1
+9131 Specimen Collector|MH2|1
+2382 Spellskite|2XM|1
+9131 Sphinx Summoner|2XM|1
+9131 Sphinx of the Guildpact|2XM|1
+397 Spiteful Banditry|LTR|1
+2382 Spiteful Sliver|MH1|1
+9131 Splicer's Skill|MH1|1
+9131 Spreading Insurrection|MH2|1
+2382 Springheart Nantuko|MH3|1
+9131 Springleaf Drum|2XM|1
+1985 Spymaster's Vault|MH3|1
+1985 Squirrel Mob|MH2|1
+9131 Squirrel Nest|MH1|1
+9131 Squirrel Sanctuary|MH2|1
+9131 Squirrel Sovereign|MH2|1
+9131 Static Prison|MH3|1
+4367 Steam Vents|GPT|1
+9131 Steel Dromedary|MH2|1
+1985 Sterling Grove|MH2|1
+9131 Stern Scolding|LTR|1
+9131 Stew the Coneys|LTR|1
+1985 Sting, the Glinting Dagger|LTR|1
+4367 Stomping Ground|GPT|1
+9131 Stone of Erech|LTR|1
+1985 Stoneforge Mystic|2XM|1
+1985 Stonehewer Giant|2XM|1
+397 Storm of Saruman|LTR|1
+9131 Strength of the Harvest|MH3|1
+9131 Strider, Ranger of the North|LTR|1
+9131 Strike It Rich|MH2|1
+1985 Strix Serenade|MH3|1
+9131 Stump Stomp|MH3|1
+397 Subtlety|MH2|1
+9131 Sudden Edict|MH2|1
+4367 Summoner's Pact|FUT|1
+1985 Sunbaked Canyon|MH1|1
+9131 Sundering Eruption|MH3|1
+1985 Sundering Titan|2XM|1
+1985 Sunforger|2XM|1
+1985 Sunken Ruins|2XM|1
+9131 Suppression Ray|MH3|1
+1985 Suspend|MH2|1
+397 Svyelun of Sea and Sky|MH2|1
+9131 Sweep the Skies|MH2|1
+1985 Swiftblade Vindicator|2XM|1
+397 Sword of Body and Mind|2XM|1
+397 Sword of Feast and Famine|2XM|1
+397 Sword of Fire and Ice|2XM|1
+397 Sword of Hearth and Home|MH2|1
+397 Sword of Light and Shadow|2XM|1
+397 Sword of Sinew and Steel|MH1|1
+397 Sword of Truth and Justice|MH1|1
+397 Sword of War and Peace|2XM|1
+1985 Sword of the Meek|2XM|1
+1985 Sylvan Anthem|MH2|1
+1985 Sylvan Safekeeper|MH3|1
+1985 Sythis, Harvest's Hand|MH2|1
+4367 Takenuma, Abandoned Mire|NEO|1
+9131 Tale of Tinúviel|LTR|1
+9131 Talisman of Conviction|MH1|1
+9131 Talisman of Creativity|MH1|1
+9131 Talisman of Curiosity|MH1|1
+9131 Talisman of Hierarchy|MH1|1
+9131 Talisman of Resilience|MH1|1
+9131 Tamiyo Meets the Story Circle|MH3|1
+397 Tamiyo, Inquisitive Student|MH3|1
+1985 Tectonic Reformation|MH1|1
+4367 Teferi, Time Raveler|WAR|1
+9131 Tempered Sliver|MH1|1
+1985 Tempered Steel|2XM|1
+4367 Temple Garden|RAV|1
+1985 Terastodon|2XM|1
+9131 Terramorph|MH2|1
+1985 Territorial Kavu|MH2|1
+9131 Territory Culler|MH3|1
+1985 The Balrog, Durin's Bane|LTR|1
+1985 The Balrog, Flame of Udûn|LTR|1
+9131 The Bath Song|LTR|1
+1985 The Battle of Bywater|LTR|1
+9131 The Creation of Avacyn|MH3|1
+397 The First Sliver|MH1|1
+9131 The Grey Havens|LTR|1
+9131 The Hunger Tide Rises|MH3|1
+9131 The Mouth of Sauron|LTR|1
+1985 The Necrobloom|MH3|1
+397 The One Ring|LTR|1
+1985 The Ring Goes South|LTR|1
+397 The Scarab God|2XM|1
+1985 The Shire|LTR|1
+9131 The Underworld Cookbook|MH2|1
+397 The Watcher in the Water|LTR|1
+1985 There and Back Again|LTR|1
+1985 Thespian's Stage|2XM|1
+1985 Thief of Existence|MH3|1
+9131 Thirst for Knowledge|2XM|1
+9131 Thopter Engineer|2XM|1
+9131 Thopter Foundry|2XM|1
+1985 Thought Monitor|MH2|1
+1985 Thought Reflection|2XM|1
+4367 Thoughtseize|2XM|1
+9131 Thraben Watcher|MH2|1
+1985 Thragtusk|2XM|1
+397 Thrasta, Tempest's Roar|MH2|1
+9131 Throatseeker|MH1|1
+9131 Throes of Chaos|MH1|1
+9131 Throne of Geth|2XM|1
+4367 Through the Breach|CHK|1
+9131 Thundering Djinn|MH1|1
+9131 Théoden, King of Rohan|LTR|1
+9131 Tide Shaper|MH2|1
+1985 Time Sieve|2XM|1
+1985 Timeless Dragon|MH2|1
+9131 Timeless Witness|MH2|1
+9131 Tireless Provisioner|MH2|1
+397 Titania, Protector of Argoth|MH2|1
+9131 Titans' Vanguard|MH3|1
+397 Tom Bombadil|LTR|1
+9131 Topple the Statue|2XM|1
+397 Tourach, Dread Cantor|MH2|1
+1985 Toxic Deluge|2XM|1
+1985 Toxic Deluge|MH3|1
+1985 Trailblazer's Boots|LTR|1
+9131 Tranquil Thicket|MH1|1
+9131 Trash for Treasure|2XM|1
+9131 Treasure Keeper|2XM|1
+9131 Treasure Mage|2XM|1
+9131 Tribute Mage|MH1|1
+9131 Trickster's Elk|MH3|1
+397 Trinisphere|2XM|1
+9131 Triton Wavebreaker|MH3|1
+1985 Tuktuk the Explorer|2XM|1
+1985 Twilight Mire|2XM|1
+9131 Twisted Reflection|MH1|1
+9131 Twisted Riddlekeeper|MH3|1
+397 Ugin's Binding|MH3|1
+397 Ugin's Labyrinth|MH3|1
+9131 Uglúk of the White Hand|LTR|1
+397 Ulamog, the Defiler|MH3|1
+9131 Ulvenwald Mysteries|2XM|1
+397 Unbound Flourishing|MH1|1
+9131 Undead Augur|MH1|1
+9131 Underworld Hermit|MH2|1
+9131 Unlicensed Disintegration|2XM|1
+1985 Unmarked Grave|MH2|1
+1985 Unsettled Mariner|MH1|1
+9131 Unstable Amulet|MH3|1
+1985 Upheaval|MH2|1
+9131 Urza's Cave|MH3|1
+1985 Urza's Incubator|MH3|1
+9131 Urza's Rage|MH1|1
+1985 Urza's Saga|MH2|1
+397 Urza, Lord High Artificer|MH1|1
+9131 Valiant Changeling|MH1|1
+9131 Valor in Akros|2XM|1
+9131 Valorous Stance|2XM|1
+9131 Vampire Hexmage|2XM|1
+9131 Vectis Gloves|MH2|1
+9131 Vedalken Infiltrator|MH2|1
+9131 Vengeful Devil|MH1|1
+397 Vengevine|2XM|1
+1985 Verdant Catacombs|MH2|1
+1985 Verdant Command|MH2|1
+9131 Vesperlark|MH1|1
+9131 Veteran Explorer|2XM|1
+9131 Vexing Bauble|MH3|1
+1985 Vexing Shusher|2XM|1
+9131 Victimize|MH3|1
+9131 Vile Entomber|MH2|1
+1985 Vindicate|MH2|1
+1985 Vish Kal, Blood Arbiter|2XM|1
+1985 Voice of Resurgence|2XM|1
+1985 Void Mirror|MH2|1
+1985 Volatile Stormdrake|MH3|1
+9131 Voltstorm Angel|MH3|1
+9131 Voracious Fell Beast|LTR|1
+1985 Walking Ballista|2XM|1
+9131 Wall of Blossoms|MH1|1
+1985 War of the Last Alliance|LTR|1
+1985 Warg Rider|LTR|1
+1985 Warren Soultrader|MH3|1
+9131 Wastescape Battlemage|MH3|1
+9131 Watcher for Tomorrow|MH1|1
+1985 Waterlogged Grove|MH1|1
+9131 Waterlogged Teachings|MH3|1
+4367 Watery Grave|RAV|1
+9131 Weapons Trainer|2XM|1
+9131 Webweaver Changeling|MH1|1
+9131 Welding Jar|2XM|1
+1985 Well of Ideas|2XM|1
+1985 Wheel of Potential|MH3|1
+1985 White Orchid Phantom|MH3|1
+1985 Wight of the Reliquary|MH3|1
+1985 Winds of Abandon|MH1|1
+1985 Windswept Heath|MH3|1
+9131 Wing Shards|MH1|1
+1985 Winter Moon|MH3|1
+9131 Wirewood Symbiote|MH3|1
+9131 Witch Enchanter|MH3|1
+397 Witch-king of Angmar|LTR|1
+1985 Witch-king, Bringer of Ruin|LTR|1
+1985 Wonder|MH2|1
+1985 Wooded Bastion|2XM|1
+1985 Wooded Foothills|MH3|1
+9131 Woodland Champion|2XM|1
+9131 Worn Powerstone|MH3|1
+1985 Wound Reflection|2XM|1
+1985 Wrath of God|2XM|1
+1985 Wrath of the Skies|MH3|1
+9131 Wren's Run Hydra|MH2|1
+397 Wrenn and Six|MH1|1
+9131 Wumpus Aberration|MH3|1
+397 Wurmcoil Engine|2XM|1
+9131 Wurmcoil Larva|MH3|1
+4367 Xander's Lounge|SNC|1
+9131 Yavimaya Elder|MH2|1
+9131 Yavimaya's Embrace|2XM|1
+1985 Yavimaya, Cradle of Growth|MH2|1
+397 Yawgmoth, Thran Physician|MH1|1
+9131 You Cannot Pass!|LTR|1
+9131 Young Necromancer|MH2|1
+1985 Yusri, Fortune's Flame|MH2|1
+1985 Zabaz, the Glimmerwasp|MH2|1
+9131 Zhalfirin Decoy|MH1|1
+4367 Ziatora's Proving Ground|SNC|1
+9131 Zuran Orb|MH2|1
+9131 Éomer of the Riddermark|LTR|1
+1985 Éomer, Marshal of Rohan|LTR|1
+1985 Éowyn, Fearless Knight|LTR|1
+9131 Éowyn, Lady of Rohan|LTR|1

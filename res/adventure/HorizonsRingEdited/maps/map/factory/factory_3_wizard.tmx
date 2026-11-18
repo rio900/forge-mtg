@@ -71,7 +71,7 @@
   <object id="72" template="../../../../common/maps/obj/gold.tx" x="392.667" y="81.3333" />
   <object id="74" template="../../obj/booster.tx" x="27.5" y="107.5">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="75" template="../../obj/treasure.tx" x="171.5" y="215.5">

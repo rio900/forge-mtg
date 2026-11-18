@@ -428,7 +428,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -448,7 +450,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -530,7 +534,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -666,7 +672,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -708,12 +716,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Blossoming Calm|MH2"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -731,24 +733,29 @@
         "count": 1
       },
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Karmic Guide|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Serra's Emissary|MH2"
-      },
-      {
         "type": "item",
         "probability": 1,
         "count": 1,
         "itemNames": [
           "White Key"
         ]
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "equipment": [
@@ -833,7 +840,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -944,7 +953,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -983,64 +994,33 @@
     "life": 18,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 5,
-        "colors": [
-          "Blue"
-        ],
-        "rarity": [
-          "common",
-          "uncommon",
-          "rare",
-          "Mythic Rare"
-        ],
-        "subTypes": [
-          "Dragon"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.7,
         "count": 10,
         "addMaxCount": 90
       },
       {
-        "probability": 0.4,
-        "count": 1,
-        "rarity": [
-          "Rare",
-          "Mythic Rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "addMaxCount": 5,
-        "rarity": [
-          "uncommon",
-          "common",
-          "Rare"
-        ],
-        "cardTypes": [
-          "Land"
-        ],
-        "colorType": "Colorless",
-        "cardText": "\\{R\\}"
-      },
-      {
         "type": "shards",
         "probability": 1,
         "count": 5,
         "addMaxCount": 5
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "U",
@@ -1094,7 +1074,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1154,7 +1136,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1304,7 +1288,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1391,7 +1377,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1452,7 +1440,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1525,7 +1515,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1599,7 +1591,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1673,7 +1667,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -1746,7 +1742,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2277,7 +2275,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2347,7 +2347,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2520,7 +2522,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2605,7 +2609,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -2674,7 +2680,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2729,7 +2737,7 @@
         ]
       },
       {
-        "type": "deckCard",
+        "type": "card",
         "probability": 0.5,
         "count": 1,
         "addMaxCount": 2,
@@ -2742,6 +2750,17 @@
           "Enchantment",
           "Instant",
           "Sorcery"
+        ],
+        "editions": [
+          "MH1",
+          "MH2",
+          "LTR",
+          "MH3",
+          "2XM"
+        ],
+        "colors": [
+          "Black",
+          "Red"
         ]
       },
       {
@@ -2754,7 +2773,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2837,7 +2858,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2918,7 +2941,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2982,7 +3007,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -2995,7 +3022,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -3073,7 +3102,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -3277,7 +3308,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -3355,7 +3388,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -3603,7 +3638,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -3976,7 +4013,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -4150,7 +4189,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -4170,7 +4211,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -4257,7 +4300,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -4607,7 +4652,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -4797,7 +4844,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -4926,7 +4975,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -4997,7 +5048,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5010,7 +5063,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5091,7 +5146,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5104,7 +5161,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5185,7 +5244,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5198,7 +5259,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5240,72 +5303,6 @@
     "life": 70,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Seasoned Pyromancer|MH1"
-      },
-      {
-        "type": "Union",
-        "probability": 1,
-        "count": 4,
-        "cardUnion": [
-          {
-            "count": 1,
-            "subTypes": [
-              "Chandra"
-            ]
-          },
-          {
-            "count": 1,
-            "colors": [
-              "red"
-            ],
-            "superTypes": [
-              "Legend",
-              "Legendary"
-            ],
-            "cardText": "Chandra"
-          },
-          {
-            "count": 1,
-            "cardName": "Tectonic Reformation|MH1"
-          },
-          {
-            "count": 1,
-            "cardName": "There and Back Again|LTR"
-          },
-          {
-            "count": 1,
-            "cardName": "Altar of the Goyf|MH2"
-          },
-          {
-            "count": 1,
-            "cardName": "Tectonic Reformation|MH1"
-          }
-        ]
-      },
-      {
-        "count": 1,
-        "cardName": "Faithless Salvaging|MH2"
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 4,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -5316,6 +5313,23 @@
         "probability": 1,
         "count": 1,
         "itemName": "Chandra's Stone"
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "R",
@@ -5407,7 +5421,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5485,7 +5501,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5505,13 +5523,20 @@
         ]
       },
       {
-        "type": "deckCard",
+        "type": "card",
         "probability": 0.1,
         "count": 2,
         "rarity": [
           "rare"
         ],
-        "colorType": "Colorless"
+        "colorType": "Colorless",
+        "editions": [
+          "MH1",
+          "MH2",
+          "LTR",
+          "MH3",
+          "2XM"
+        ]
       },
       {
         "type": "randomCard",
@@ -5619,7 +5644,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5727,7 +5754,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5836,7 +5865,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -5904,7 +5935,7 @@
         ]
       },
       {
-        "type": "deckCard",
+        "type": "card",
         "probability": 0.5,
         "count": 1,
         "addMaxCount": 2,
@@ -5917,6 +5948,16 @@
           "Enchantment",
           "Instant",
           "Sorcery"
+        ],
+        "editions": [
+          "MH1",
+          "MH2",
+          "LTR",
+          "MH3",
+          "2XM"
+        ],
+        "colors": [
+          "Red"
         ]
       },
       {
@@ -5945,7 +5986,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6054,7 +6097,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6155,7 +6200,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6298,7 +6345,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6353,7 +6402,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6366,7 +6417,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6528,75 +6581,6 @@
     "life": 35,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 5
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Mirrodin Besieged|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Tribute Mage|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Haradrim Spearmaster|LTR"
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.25,
-        "count": 1,
-        "addMaxCount": 1,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 10,
@@ -6616,6 +6600,23 @@
         "probability": 1,
         "count": 20,
         "addMaxCount": 20
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "UB",
@@ -6765,7 +6766,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6831,7 +6834,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -6844,7 +6849,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -7304,7 +7311,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -7341,7 +7350,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -7444,53 +7455,33 @@
     "life": 35,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "addMaxCount": 4,
-        "colors": [
-          "Black",
-          "Green"
-        ],
-        "rarity": [
-          "rare",
-          "Uncommon"
-        ],
-        "cardTypes": [
-          "Enchantment"
-        ],
-        "colorType": "Any"
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 50,
         "addMaxCount": 300
       },
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Enchantress's Presence|MH2"
-      },
-      {
         "type": "shards",
         "probability": 1,
         "count": 10,
         "addMaxCount": 10
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "GB",
@@ -7570,7 +7561,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -7650,7 +7643,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -7737,7 +7732,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -7822,7 +7819,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -7886,7 +7885,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -7899,7 +7900,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -8506,7 +8509,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -8712,7 +8717,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -8846,7 +8853,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -8859,7 +8868,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -8942,7 +8953,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9024,7 +9037,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9109,7 +9124,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9269,7 +9286,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9567,7 +9586,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9654,7 +9675,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9745,7 +9768,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9835,7 +9860,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -9932,7 +9959,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -10074,65 +10103,27 @@
     "life": 80,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "rarity": [
-          "common"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.75,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 10,
         "addMaxCount": 90
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "W",
@@ -10323,7 +10314,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -10362,63 +10355,26 @@
         "addMaxCount": 2500
       },
       {
-        "probability": 1,
-        "count": 5,
-        "addMaxCount": 10,
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "life",
         "probability": 1,
         "count": 1
       },
       {
-        "type": "Union",
-        "probability": 1,
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
         "count": 1,
-        "cardUnion": [
-          {
-            "count": 1,
-            "cardName": "Fact or Fiction|MH1"
-          },
-          {
-            "count": 1,
-            "cardName": "Mox Tantalite|MH1"
-          },
-          {
-            "count": 1,
-            "cardName": "Delighted Halfling|LTR"
-          },
-          {
-            "count": 1,
-            "cardName": "Grief|MH2"
-          },
-          {
-            "count": 1,
-            "cardName": "Esper Sentinel|MH2"
-          },
-          {
-            "count": 1,
-            "cardName": "Ragavan, Nimble Pilferer|MH2"
-          },
-          {
-            "count": 1,
-            "cardName": "Subtlety|MH2"
-          },
-          {
-            "count": 1,
-            "cardName": "Echo of Eons|MH1"
-          },
-          {
-            "count": 1,
-            "cardName": "Echo of Eons|MH1"
-          }
-        ]
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "equipment": [
@@ -10456,19 +10412,19 @@
         "type": "card",
         "probability": 0.5,
         "count": 1,
-        "cardName": "Barren Moor|MH1"
+        "cardName": "Contaminated Landscape|MH3"
       },
       {
         "type": "card",
         "probability": 0.5,
         "count": 1,
-        "cardName": "Razortide Bridge|MH2"
+        "cardName": "Mystic Gate|2XM"
       },
       {
         "type": "card",
         "probability": 0.5,
         "count": 1,
-        "cardName": "Mistvault Bridge|MH2"
+        "cardName": "Sunken Ruins|2XM"
       },
       {
         "type": "deckCard",
@@ -10512,7 +10468,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -10586,7 +10544,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -10948,7 +10908,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11036,7 +10998,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11119,7 +11083,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11203,7 +11169,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11286,7 +11254,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11358,7 +11328,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11452,7 +11424,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11609,7 +11583,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11718,7 +11694,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11826,7 +11804,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -11868,7 +11848,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12174,7 +12156,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12222,7 +12206,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12351,7 +12337,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12433,7 +12421,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12610,7 +12600,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12648,48 +12640,6 @@
     "life": 25,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Chitterspitter|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Grist, the Hunger Tide|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Long List of the Ents|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Orchard Strider|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Patriarch's Bidding|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.3,
-        "count": 1,
-        "cardName": "Yavimaya, Cradle of Growth|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Herd Baloth|MH2"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -12711,6 +12661,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "GB",
@@ -12782,7 +12749,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12867,7 +12836,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12912,7 +12883,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -12990,12 +12963,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Thrasta, Tempest's Roar|MH2"
-      },
-      {
         "type": "item",
         "probability": 1,
         "count": 1,
@@ -13008,18 +12975,6 @@
         "addMaxCount": 250
       },
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Regrowth|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Long List of the Ents|LTR"
-      },
-      {
         "type": "shards",
         "probability": 1,
         "count": 10,
@@ -13029,6 +12984,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "equipment": [
@@ -13114,7 +13086,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -13406,7 +13380,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -13529,7 +13505,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -13599,7 +13577,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -13612,7 +13592,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -13724,7 +13706,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -13792,7 +13776,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -13963,7 +13949,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -14203,7 +14191,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ],
         "colors": [
           "red"
@@ -14566,7 +14556,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -14653,7 +14645,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -14778,7 +14772,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -14873,7 +14869,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -15077,7 +15075,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -15314,7 +15314,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -15351,12 +15353,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Archon of Cruelty|MH2"
-      },
-      {
         "type": "item",
         "probability": 1,
         "count": 1,
@@ -15369,18 +15365,6 @@
         "addMaxCount": 250
       },
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Unmarked Grave|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Dead of Winter|MH1"
-      },
-      {
         "type": "shards",
         "probability": 1,
         "count": 10,
@@ -15390,6 +15374,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "equipment": [
@@ -15424,63 +15425,10 @@
     "life": 50,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 4,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Land"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 500,
         "addMaxCount": 1000
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Legolas, Counter of Kills|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Sméagol, Helpful Guide|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Yawgmoth, Thran Physician|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Damn|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Sméagol, Helpful Guide|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Excavating Anurid|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Shelob, Child of Ungoliant|LTR"
       },
       {
         "type": "item",
@@ -15498,6 +15446,23 @@
         "probability": 1,
         "count": 50,
         "addMaxCount": 50
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "BGU",
@@ -15525,20 +15490,21 @@
     "life": 50,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
+        "type": "card",
         "count": 2,
-        "addMaxCount": 4
+        "sourceDeck": "decks/arena/Support.dck"
       },
       {
-        "type": "randomCard",
-        "probability": 1,
+        "type": "card",
         "count": 1,
-        "addMaxCount": 4,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ]
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "WUBRG",
@@ -15611,7 +15577,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -15697,7 +15665,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -15784,7 +15754,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -15924,7 +15896,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -16218,7 +16192,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -16350,7 +16326,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -16674,7 +16652,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -16898,7 +16878,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -17202,7 +17184,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -17288,7 +17272,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -17477,7 +17463,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -17655,7 +17643,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -17691,42 +17681,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Press the Enemy|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "The Bath Song|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Counterspell|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Said // Done|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "So Shiny|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Counterspell|MH2"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -17748,6 +17702,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "UW",
@@ -17839,68 +17810,30 @@
     "life": 80,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "rarity": [
-          "common"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.75,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 10,
         "addMaxCount": 90
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
-    "colors": "W",
+    "colors": "U",
     "questTags": [
       "Phyrexian",
       "Copper Host",
@@ -18226,65 +18159,10 @@
     "life": 40,
     "rewards": [
       {
-        "probability": 1,
-        "count": 2,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
         "addMaxCount": 5000
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "The Bath Song|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Marit Lage's Slumber|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Combine Chrysalis|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "The Bath Song|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Combine Chrysalis|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Combine Chrysalis|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 4,
-        "cardName": "Arwen Undómiel|LTR"
       },
       {
         "type": "item",
@@ -18302,6 +18180,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "UG",
@@ -18429,7 +18324,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -18988,68 +18885,30 @@
     "life": 80,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "rarity": [
-          "common"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.75,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 10,
         "addMaxCount": 90
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
-    "colors": "W",
+    "colors": "C",
     "questTags": [
       "Phyrexian",
       "Copper Host",
@@ -19136,12 +18995,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Unholy Heat|MH2"
-      },
-      {
         "type": "item",
         "probability": 1,
         "count": 1,
@@ -19154,18 +19007,6 @@
         "addMaxCount": 250
       },
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Obsidian Charmaw|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Gimli, Counter of Kills|LTR"
-      },
-      {
         "type": "life",
         "probability": 1,
         "count": 1
@@ -19175,6 +19016,23 @@
         "probability": 1,
         "count": 10,
         "addMaxCount": 20
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "equipment": [
@@ -19224,7 +19082,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -19368,7 +19228,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -19465,7 +19327,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -19510,72 +19374,6 @@
     "life": 70,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Isildur's Fateful Strike|LTR"
-      },
-      {
-        "type": "Union",
-        "probability": 1,
-        "count": 4,
-        "cardUnion": [
-          {
-            "count": 1,
-            "subTypes": [
-              "Liliana"
-            ]
-          },
-          {
-            "count": 1,
-            "colors": [
-              "black"
-            ],
-            "superTypes": [
-              "Legend",
-              "Legendary"
-            ],
-            "cardText": "Liliana"
-          },
-          {
-            "count": 1,
-            "cardName": "Oath of the Grey Host|LTR"
-          },
-          {
-            "count": 1,
-            "cardName": "There and Back Again|LTR"
-          },
-          {
-            "count": 1,
-            "cardName": "Altar of the Goyf|MH2"
-          },
-          {
-            "count": 1,
-            "cardName": "Tectonic Reformation|MH1"
-          }
-        ]
-      },
-      {
-        "count": 1,
-        "cardName": "Bone Shards|MH2"
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 4,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -19586,6 +19384,23 @@
         "probability": 1,
         "count": 1,
         "itemName": "Liliana's Stone"
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "B",
@@ -19889,7 +19704,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -19962,7 +19779,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -20002,12 +19821,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Junk Winder|MH2"
-      },
-      {
         "type": "item",
         "probability": 1,
         "count": 1,
@@ -20032,15 +19845,20 @@
       },
       {
         "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Fractured Sanity|MH2"
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
       },
       {
         "type": "card",
-        "probability": 0.5,
         "count": 1,
-        "cardName": "Force of Negation|MH1"
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "equipment": [
@@ -20101,7 +19919,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -20246,7 +20066,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -20358,21 +20180,6 @@
     "life": 20,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "colors": [
-          "Black"
-        ],
-        "rarity": [
-          "Uncommon",
-          "Rare",
-          "Mythic Rare"
-        ],
-        "colorType": "MonoColor"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 50,
@@ -20383,6 +20190,23 @@
         "probability": 1,
         "count": 2,
         "addMaxCount": 4
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.05,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "B",
@@ -20412,21 +20236,6 @@
     "life": 20,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "colors": [
-          "Blue"
-        ],
-        "rarity": [
-          "Uncommon",
-          "Rare",
-          "Mythic Rare"
-        ],
-        "colorType": "MonoColor"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 50,
@@ -20437,6 +20246,23 @@
         "probability": 1,
         "count": 2,
         "addMaxCount": 4
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.05,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "U",
@@ -20465,21 +20291,6 @@
     "life": 20,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "colors": [
-          "Green"
-        ],
-        "rarity": [
-          "Uncommon",
-          "Rare",
-          "Mythic Rare"
-        ],
-        "colorType": "MonoColor"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 50,
@@ -20490,6 +20301,23 @@
         "probability": 1,
         "count": 2,
         "addMaxCount": 4
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.05,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "G",
@@ -20519,21 +20347,6 @@
     "life": 20,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "colors": [
-          "Red"
-        ],
-        "rarity": [
-          "Uncommon",
-          "Rare",
-          "Mythic Rare"
-        ],
-        "colorType": "MonoColor"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 50,
@@ -20544,6 +20357,23 @@
         "probability": 1,
         "count": 2,
         "addMaxCount": 4
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.05,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "R",
@@ -20575,21 +20405,6 @@
     "life": 20,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "colors": [
-          "White"
-        ],
-        "rarity": [
-          "Uncommon",
-          "Rare",
-          "Mythic Rare"
-        ],
-        "colorType": "MonoColor"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 50,
@@ -20600,6 +20415,23 @@
         "probability": 1,
         "count": 2,
         "addMaxCount": 4
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.05,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "W",
@@ -21190,7 +21022,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -21277,7 +21111,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -21336,7 +21172,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -21427,7 +21265,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -21512,7 +21352,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -21660,7 +21502,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -21704,7 +21548,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -21802,7 +21648,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -21891,12 +21739,6 @@
     "life": 25,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 1,
-        "addMaxCount": 4
-      },
-      {
         "type": "gold",
         "probability": 0.7,
         "count": 100,
@@ -21904,19 +21746,20 @@
       },
       {
         "type": "card",
-        "probability": 1,
-        "count": 3,
-        "rarity": [
-          "Uncommon"
-        ]
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
       },
       {
         "type": "card",
-        "probability": 0.5,
-        "count": 3,
-        "rarity": [
-          "Rare"
-        ]
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "C",
@@ -21994,7 +21837,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -22031,42 +21876,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Foundry Helix|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Gimli's Axe|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Barrow-Blade|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Unholy Heat|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Quarrel's End|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Sword of Sinew and Steel|MH1"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -22088,6 +21897,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "RW",
@@ -22227,7 +22053,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -22579,68 +22407,30 @@
     "life": 80,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "rarity": [
-          "common"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.75,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 10,
         "addMaxCount": 90
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
-    "colors": "W",
+    "colors": "G",
     "questTags": [
       "Phyrexian",
       "Copper Host",
@@ -22805,54 +22595,6 @@
         "addMaxCount": 5000
       },
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Elrond, Master of Healing|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Aeve, Progenitor Ooze|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Gollum's Bite|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Aeve, Progenitor Ooze|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Sauron, the Necromancer|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Ayula, Queen Among Bears|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Many Partings|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Terramorph|MH2"
-      },
-      {
         "type": "shards",
         "probability": 1,
         "count": 50,
@@ -22862,6 +22604,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "GB",
@@ -23114,7 +22873,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -23197,7 +22958,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -23280,7 +23043,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -23494,7 +23259,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -23570,7 +23337,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -23725,7 +23494,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -24263,7 +24034,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -24286,7 +24059,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -24488,7 +24263,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -24895,7 +24672,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -24937,7 +24716,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -25334,7 +25115,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -25483,7 +25266,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -25621,7 +25406,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -25707,7 +25494,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -25858,35 +25647,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Land"
-        ]
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Morophon, the Boundless|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Farmstead Gleaner|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Shire Scarecrow|LTR"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 500,
@@ -25903,6 +25663,23 @@
         "probability": 1,
         "count": 20,
         "addMaxCount": 30
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "WUBRG",
@@ -26109,7 +25886,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -26155,7 +25934,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -26262,7 +26043,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -26349,7 +26132,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -26518,7 +26303,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       }
     ],
@@ -26587,59 +26374,10 @@
     "life": 40,
     "rewards": [
       {
-        "probability": 1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
         "addMaxCount": 5000
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Deep Forest Hermit|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Sméagol, Helpful Guide|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Galadriel, Gift-Giver|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Old Man Willow|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Galadriel, Gift-Giver|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Elven Chorus|LTR"
       },
       {
         "type": "item",
@@ -26657,6 +26395,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "BG",
@@ -26773,18 +26528,6 @@
         "addMaxCount": 1000
       },
       {
-        "type": "card",
-        "probability": 1,
-        "count": 5,
-        "addMaxCount": 10,
-        "subTypes": [
-          "Sliver"
-        ],
-        "cardTypes": [
-          "Creature"
-        ]
-      },
-      {
         "type": "life",
         "probability": 1,
         "count": 1
@@ -26794,6 +26537,23 @@
         "probability": 1,
         "count": 50,
         "addMaxCount": 50
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "equipment": [
@@ -27101,57 +26861,10 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Land"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
         "addMaxCount": 5000
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Bottle Golems|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Goblin Engineer|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Goblin Engineer|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Nevinyrral's Disk|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Goblin Engineer|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "The Bath Song|LTR"
       },
       {
         "type": "item",
@@ -27169,6 +26882,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "R",
@@ -27282,7 +27012,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -27382,48 +27114,6 @@
     "life": 55,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Urza's Saga|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Grief|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Shelob's Ambush|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Blossoming Calm|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Kaya's Guile|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Shelob's Ambush|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Unmarked Grave|MH2"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -27439,6 +27129,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "GB",
@@ -27569,7 +27276,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -27860,7 +27569,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -28171,13 +27882,13 @@
         "type": "card",
         "probability": 0.5,
         "count": 1,
-        "cardName": "Elven Chorus|LTR"
+        "cardName": "Doubling Season|2XM"
       },
       {
         "type": "card",
         "probability": 0.5,
         "count": 1,
-        "cardName": "Genesis|MH1"
+        "cardName": "Skullmulcher|2XM"
       },
       {
         "type": "card",
@@ -28227,7 +27938,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -28393,42 +28106,6 @@
         "addMaxCount": 1000
       },
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Blossoming Calm|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Dawn of a New Age|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "String of Disappearances|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Moderation|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Abiding Grace|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Moderation|MH2"
-      },
-      {
         "type": "item",
         "probability": 1,
         "count": 1,
@@ -28444,6 +28121,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "WU",
@@ -28477,85 +28171,6 @@
     "life": 50,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 5
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Asmoranomardicadaistinaculdacar|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Academy Manufactor|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Chatterfang, Squirrel General|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Combine Chrysalis|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Deep Forest Hermit|MH1"
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.25,
-        "count": 1,
-        "addMaxCount": 1,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Land"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 100,
@@ -28572,6 +28187,23 @@
         "probability": 1,
         "count": 10,
         "addMaxCount": 30
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "GBR",
@@ -28600,12 +28232,6 @@
     "life": 30,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 150,
@@ -28613,14 +28239,20 @@
       },
       {
         "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
         "probability": 1,
-        "count": 4,
-        "colors": [
-          "Green"
-        ],
-        "rarity": [
-          "Mythic Rare"
-        ]
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "G",
@@ -28647,63 +28279,10 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Land"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
         "addMaxCount": 5000
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Rakdos Headliner|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "There and Back Again|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Rakdos Headliner|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Fury|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Éomer, Marshal of Rohan|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Mount Doom|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Quarrel's End|LTR"
       },
       {
         "type": "item",
@@ -28724,6 +28303,23 @@
         "probability": 1,
         "count": 50,
         "addMaxCount": 50
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "R",
@@ -28851,7 +28447,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -28893,42 +28491,33 @@
     "life": 30,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 8
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "rarity": [
-          "Rare"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 50,
         "addMaxCount": 100
       },
       {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "rarity": [
-          "uncommon",
-          "common"
-        ],
-        "cardTypes": [
-          "Land"
-        ]
-      },
-      {
         "type": "shards",
         "probability": 1,
         "count": 20,
         "addMaxCount": 20
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "B",
@@ -29139,7 +28728,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29289,7 +28880,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29423,7 +29016,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29482,7 +29077,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29552,7 +29149,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29631,7 +29230,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29688,7 +29289,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29746,7 +29349,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29759,7 +29364,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -29802,68 +29409,30 @@
     "life": 80,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "rarity": [
-          "common"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.75,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 10,
         "addMaxCount": 90
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
-    "colors": "W",
+    "colors": "R",
     "questTags": [
       "Phyrexian",
       "Copper Host",
@@ -29886,46 +29455,21 @@
     "life": 80,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
+        "type": "card",
         "count": 2,
-        "addMaxCount": 4,
-        "rarity": [
-          "common"
-        ]
+        "sourceDeck": "decks/arena/Support.dck"
       },
       {
-        "type": "deckCard",
+        "type": "card",
+        "count": 1,
         "probability": 1,
-        "count": 2,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
+        "sourceDeck": "decks/arena/Premium.dck"
       },
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 1,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "B",
@@ -30043,7 +29587,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -30133,7 +29679,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -30207,7 +29755,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -30303,13 +29853,20 @@
         ]
       },
       {
-        "type": "deckCard",
+        "type": "card",
         "probability": 0.1,
         "count": 2,
         "rarity": [
           "rare"
         ],
-        "colorType": "Colorless"
+        "colorType": "Colorless",
+        "editions": [
+          "MH1",
+          "MH2",
+          "LTR",
+          "MH3",
+          "2XM"
+        ]
       },
       {
         "type": "randomCard",
@@ -30359,66 +29916,30 @@
     "life": 80,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2,
-        "addMaxCount": 4,
-        "rarity": [
-          "common"
-        ]
-      },
-      {
-        "type": "deckCard",
-        "probability": 0.75,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "uncommon"
-        ],
-        "cardTypes": [
-          "Creature",
-          "Artifact",
-          "Enchantment",
-          "Instant",
-          "Sorcery"
-        ]
-      },
-      {
-        "probability": 0.5,
-        "count": 1,
-        "addMaxCount": 2,
-        "rarity": [
-          "rare",
-          "mythicrare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
-        "probability": 0.1,
-        "count": 1,
-        "rarity": [
-          "rare"
-        ],
-        "type": "card",
-        "editions": [
-          "MH1",
-          "MH2",
-          "LTR"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 0.3,
         "count": 10,
         "addMaxCount": 90
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
-    "colors": "W",
+    "colors": "G",
     "questTags": [
       "Phyrexian",
       "Copper Host",
@@ -30573,58 +30094,27 @@
         "addMaxCount": 5000
       },
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Elrond, Master of Healing|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Aeve, Progenitor Ooze|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Gollum's Bite|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Aeve, Progenitor Ooze|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Sauron, the Necromancer|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Ayula, Queen Among Bears|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Many Partings|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Terramorph|MH2"
-      },
-      {
         "type": "shards",
         "probability": 1,
         "count": 10,
         "addMaxCount": 20
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "W",
@@ -30989,7 +30479,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -31216,7 +30708,9 @@
         "editions": [
           "MH1",
           "MH2",
-          "LTR"
+          "LTR",
+          "MH3",
+          "2XM"
         ]
       },
       {
@@ -31478,15 +30972,27 @@
     "life": 28,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 2
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 500,
         "addMaxCount": 150
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "GRW",
@@ -31624,63 +31130,10 @@
     "life": 35,
     "rewards": [
       {
-        "type": "deckCard",
-        "probability": 1,
-        "count": 4,
-        "rarity": [
-          "rare"
-        ],
-        "cardTypes": [
-          "Land"
-        ]
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
         "addMaxCount": 5000
-      },
-      {
-        "type": "card",
-        "probability": 1,
-        "count": 1,
-        "cardName": "Guardian Kirin|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Shelob, Child of Ungoliant|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Shelob, Child of Ungoliant|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Tireless Provisioner|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Gollum's Bite|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Grist, the Hunger Tide|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Diabolic Edict|MH1"
       },
       {
         "type": "item",
@@ -31698,6 +31151,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "BGR",
@@ -31810,42 +31280,6 @@
     "life": 40,
     "rewards": [
       {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Spinehorn Minotaur|MH1"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "The Battle of Bywater|LTR"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Extruder|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Out of Time|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "So Shiny|MH2"
-      },
-      {
-        "type": "card",
-        "probability": 0.5,
-        "count": 1,
-        "cardName": "Gandalf's Sanction|LTR"
-      },
-      {
         "type": "gold",
         "probability": 1,
         "count": 1000,
@@ -31867,6 +31301,23 @@
         "type": "life",
         "probability": 1,
         "count": 1
+      },
+      {
+        "type": "card",
+        "count": 2,
+        "sourceDeck": "decks/arena/Support.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 1,
+        "sourceDeck": "decks/arena/Premium.dck"
+      },
+      {
+        "type": "card",
+        "count": 1,
+        "probability": 0.35,
+        "sourceDeck": "decks/arena/Any.dck"
       }
     ],
     "colors": "WUBR",

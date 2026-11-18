@@ -26,7 +26,7 @@ case ${1:-check} in
     "${run[@]}" ChaosProbe
     ;;
   build)
-    "${run[@]}" ExportCardIndex index.tsv MH1,MH2,LTR
+    "${run[@]}" ExportCardIndex index.tsv MH1,MH2,LTR,MH3,2XM
     python3 -B "$toolsdir/build_plane.py" index.tsv
     python3 "$toolsdir/check_resources.py"
     ;;

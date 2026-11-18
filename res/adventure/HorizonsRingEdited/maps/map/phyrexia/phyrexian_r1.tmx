@@ -100,7 +100,7 @@
   <object id="85" template="../../obj/treasure.tx" x="162" y="128.273" />
   <object id="86" template="../../obj/booster.tx" x="182.25" y="113">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"],"colors":["red"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["red"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["red"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"],"colors":["red"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["red"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["red"]}]</property>
    </properties>
   </object>
   <object id="87" template="../../../../common/maps/obj/enemy.tx" x="134.5" y="519.5">

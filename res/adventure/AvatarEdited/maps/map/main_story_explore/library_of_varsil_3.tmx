@@ -91,18 +91,18 @@
   </object>
   <object id="26" template="../../../../common/maps/obj/dialog.tx" x="144" y="240">
    <properties>
-    <property name="dialog">[{"text":"'Shandalaar's Most Burnable Cities'. Well, this one sounds like light reading...","loctext":"adv.main_story_explore_library_of_varsil_3.26.d.n0.text","options":[{"name":"(Continue)","locname":"adv.shared.continue_paren","action":[{"deleteMapObject":-1,"grantRewards":[{"type":"card","count":1,"cardName":"Zuko's Offense|TLE"}]}]}]}]</property>
+    <property name="dialog">[{"text":"«Какие города Шандалара лучше горят». Не та книга, которую хочется найти рядом с масляной лампой.","loctext":null,"options":[{"name":"Дальше","locname":null,"action":[{"deleteMapObject":-1,"grantRewards":[{"type":"card","count":1,"cardName":"Zuko's Offense|TLE"}]}]}]}]</property>
    </properties>
   </object>
   <object id="27" template="../../../../common/maps/obj/dialog.tx" x="64" y="240">
    <properties>
     <property name="dialog">[
 {
-   "text": "Here you find a collection of biographies of wizards you've never heard of. None of them seem to have done anything significant.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.27.d.n0.text",
+   "text": "Жизнеописания магов, о которых ты никогда не слышал. По первым страницам трудно понять, чем они прославились.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -111,29 +111,29 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Diaries of soldiers, all from a similar time period but from several armies, are found here. Between all of them it seems that one could piece together a comprehensive account of common battles.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.28.d.n0.text",
+   "text": "Дневники солдат из разных армий. Сопоставив записи за один день, можно восстановить ход целого сражения.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
   </object>
   <object id="30" template="../../../../common/maps/obj/dialog.tx" x="368" y="240">
    <properties>
-    <property name="dialog">[{"text":"'The Art of the Subtle Counterspell' is very useful reading if you have the time for it.","loctext":"adv.main_story_explore_library_of_varsil_3.30.d.n0.text","options":[{"name":"(Continue)","locname":"adv.shared.continue_paren","action":[{"deleteMapObject":-1},{"grantRewards":[{"type":"card","count":1,"cardName":"It'll Quench Ya!|TLA"}]}]}]}]</property>
+    <property name="dialog">[{"text":"«Искусство незаметного контрзаклинания». Хорошая книга, если найдётся спокойный вечер.","loctext":null,"options":[{"name":"Дальше","locname":null,"action":[{"deleteMapObject":-1},{"grantRewards":[{"type":"card","count":1,"cardName":"It'll Quench Ya!|TLA"}]}]}]}]</property>
    </properties>
   </object>
   <object id="31" template="../../../../common/maps/obj/dialog.tx" x="400" y="199">
    <properties>
     <property name="dialog">[
 {
-   "text": "Logs of caravan manifests are collected here. The contents all appear to be mundane, but someone has circled several items and scribbled notes in handwriting so messy that it is basically illegible.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.31.d.n0.text",
+   "text": "Караванные накладные. Несколько товаров обведены, а на полях видны чужие пометки.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -142,22 +142,22 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "'Being a Report on an Urgent Threat to All Civilized Nations' is a rather wordy title for a scouting report, but that is what you find here.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.32.d.n0.text",
+   "text": "«О неотложной угрозе всем цивилизованным народам». За пышным названием скрывается донесение разведчика.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren",
-      "text": "The report, relatively recent by the standards of this library, describes a Sliver hive which dwarfs the largest cities of Shandalar. It includes a detailed map to the location.",
-      "loctext": "adv.main_story_explore_library_of_varsil_3.32.d.n1.text",
+      "name": "Дальше",
+      "locname": null,
+      "text": "Разведчик нашёл улей щепок больше крупнейшего города Шандалара. К донесению приложена карта.",
+      "loctext": null,
       "options": [
-         {"name": "(Put down the report)", "locname": "adv.main_story_explore_library_of_varsil_3.32.d.n3.name"},
+         {"name": "Отложить донесение", "locname": null},
          {
-            "name": "Perhaps it's still there? Let's make a note of the location.",
-            "locname": "adv.main_story_explore_library_of_varsil_3.32.d.n5.name", 
+            "name": "А вдруг улей всё ещё там? Записать координаты.",
+            "locname": null,
             "action": [{"deleteMapObject":-1}, {"issueQuest":34}],
-            "text": "You mark of the location of the Skep on your own map in case you decide to investigate later.",
-            "loctext": "adv.main_story_explore_library_of_varsil_3.32.d.n4.text",
-            "options": [{"name": "(Continue)", "locname": "adv.shared.continue_paren"}]
+            "text": "Ты отмечаешь на своей карте улей Скеп. Сюда можно прийти позже.",
+            "loctext": null,
+            "options": [{"name": "Дальше", "locname": null}]
          }
       ]
    }]
@@ -169,11 +169,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Here you find a collection of biographies of wizards you've never heard of. None of them seem to have done anything significant.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.34.d.n0.text",
+   "text": "Жизнеописания магов, о которых ты никогда не слышал. По первым страницам трудно понять, чем они прославились.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -182,11 +182,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Here you find a collection of copied plans for various goblin inventions. The transcriber added notes alongside each rating each on a scale between 'Will definitely explode' to 'Won't work well enough to explode'.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.35.d.n0.text",
+   "text": "Копии чертежей гоблинских изобретений. Переписчик каждому выставил оценку.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -195,11 +195,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "'How to Train your Badger', by Greensleeves... What's more ridiculous, the subject matter, or the pen name?",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.36.d.n0.text",
+   "text": "«Как выдрессировать барсука». Автор — Зелёный Рукав. Хочется увидеть хотя бы один его урок.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -234,11 +234,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "'Pardic Heat' is, of all things to be found here, a romance novel. It tells the tale of a kindling fire between star-crossed mages.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.37.d.n0.text",
+   "text": "«Жар Пардика». Любовный роман о двух магах, между которыми в буквальном смысле пробежала искра.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -247,11 +247,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "'Common Forms of Mimics' would actually be a relatively useful book to read, if it wasn't trying so hard to eat you.",
-   "loctext": "adv.main_story_explore_library_of_varsil_3.50.d.n0.text",
+   "text": "«Обычные обличья мимиков». Книгу стоило бы прочесть, если бы она не пыталась укусить тебя за палец.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"battleWithActorID":49}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"battleWithActorID":49}]}]
 }
 ]</property>
    </properties>
@@ -273,12 +273,12 @@
                 "not": true
             }
         ],
-        "text": "\"...s35 maintained insistence on not having been summoned previously. Upon initiation of stage seven, however, s35 exhibited lessened signs of sickness and appeared to at least subconsciously anticipate danger approaching in stage twelve once we summoned s36 to...\"",
-        "loctext": "adv.main_story_explore_library_of_varsil_3.51.d.n0.text",
+        "text": "«Образец 35 отрицает прежние призывы. На седьмой стадии недомогание слабее. Ещё до призыва образца 36 он, кажется, уже ждёт опасности…»",
+        "loctext": null,
         "options": [
             {
-                "name": "(Continue)",
-                "locname": "adv.shared.continue_paren",
+                "name": "Дальше",
+                "locname": null,
                 "action": [
                     {
                         "setQuestFlag": {
@@ -287,8 +287,8 @@
                         }
                     }
                 ],
-                "text": "This seems to be the research that you were looking for.",
-                "loctext": "adv.main_story_explore_library_of_varsil_3.51.d.n1.text",
+                "text": "Похоже, именно эти записи нужны Доновану.",
+                "loctext": null,
                 "options": [
                     {
                         "condition": [
@@ -297,14 +297,14 @@
                                 "not": true
                             }
                         ],
-                        "name": "Take the documents",
-                        "locname": "adv.main_story_explore_library_of_varsil_3.51.d.n4.name",
-                        "text": "There is likely more to be found here, but you have what Sir Donovan requested and could leave the way you came in.",
-                        "loctext": "adv.main_story_explore_library_of_varsil_3.51.d.n3.text",
+                        "name": "Забрать документы",
+                        "locname": null,
+                        "text": "Записи для Донована у тебя. Можно осмотреть другие полки или вернуться тем же путём.",
+                        "loctext": null,
                         "options": [
                             {
-                                "name": "(Continue)",
-                                "locname": "adv.shared.continue_paren"
+                                "name": "Дальше",
+                                "locname": null
                             }
                         ]
                     },
@@ -314,14 +314,14 @@
                                 "checkQuestFlag": "defeatedLibraryOfVarsilBoss"
                             }
                         ],
-                        "name": "Take the documents",
-                        "locname": "adv.main_story_explore_library_of_varsil_3.51.d.n7.name",
-                        "text": "With the massive mech upstairs already defeated, your work here is done.",
-                        "loctext": "adv.main_story_explore_library_of_varsil_3.51.d.n6.text",
+                        "name": "Забрать документы",
+                        "locname": null,
+                        "text": "Огромная машина наверху уже побеждена. Здесь дело закончено.",
+                        "loctext": null,
                         "options": [
                             {
-                                "name": "(Continue)",
-                                "locname": "adv.shared.continue_paren"
+                                "name": "Дальше",
+                                "locname": null
                             }
                         ]
                     }

@@ -61,7 +61,7 @@
  "startBattleWithCard": [ "Mox Sapphire" ]
 }</property>
     <property name="enemy" value="Lorthos" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="50" />
    </properties>
   </object>

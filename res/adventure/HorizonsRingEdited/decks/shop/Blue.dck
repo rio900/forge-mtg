@@ -1,133 +1,216 @@
 [metadata]
 Name=Blue shop pool
 [Main]
-3 Aeromoeba|MH2|1
-3 Archmage's Charm|MH1|1
-3 Arwen's Gift|LTR|1
-3 Bazaar Trademage|MH1|1
-3 Bewitching Leechcraft|LTR|1
-6 Bill Ferny, Bree Swindler|LTR|1
-3 Birthday Escape|LTR|1
-6 Blizzard Strix|MH1|1
-3 Borne Upon a Wind|LTR|1
-3 Burdened Aerialist|MH2|1
-3 Captain of Umbar|LTR|1
-3 Chillerpillar|MH1|1
-3 Choking Tethers|MH1|1
-6 Council's Deliberation|LTR|1
-1 Counterspell|MH2|1
-1 Counterspell|MH2|2
-6 Cunning Evasion|MH1|1
-3 Deceive the Messenger|LTR|1
-3 Dreadful as the Storm|LTR|1
-3 Dress Down|MH2|1
-1 Echo of Eons|MH1|1
-6 Elrond, Lord of Rivendell|LTR|1
-3 Elvish Mariner|LTR|1
-3 Etherium Spinner|MH2|1
-6 Everdream|MH1|1
-6 Exclude|MH1|1
-3 Eyekite|MH1|1
-6 Fact or Fiction|MH1|1
-2 Faerie Seer|MH1|1
-2 Fallaji Archaeologist|BRO|1
-6 Filigree Attendant|MH2|1
-2 Floodhound|MH2|1
-3 Flusterstorm|MH1|1
-3 Force of Negation|MH1|1
-2 Foul Watcher|MH2|1
-3 Fractured Sanity|MH2|1
-3 Future Sight|MH1|1
-6 Gandalf, Friend of the Shire|LTR|1
-6 Ghost-Lit Drifter|MH2|1
-2 Glorious Gale|LTR|1
-3 Goldberry, River-Daughter|LTR|1
-2 Grey Havens Navigator|LTR|1
-2 Hard Evidence|MH2|1
-2 Hithlain Knots|LTR|1
-6 Horses of the Bruinen|LTR|1
-2 Iceberg Cancrix|MH1|1
-3 Inevitable Betrayal|MH2|1
-6 Ioreth of the Healing House|LTR|1
-2 Isolation at Orthanc|LTR|1
-2 Ithilien Kingfisher|LTR|1
-6 Junk Winder|MH2|1
-2 Knights of Dol Amroth|LTR|1
-5 Lonely Sandbar|MH1|1
-2 Lose Focus|MH2|1
-3 Lost Isle Calling|LTR|1
-5 Lucid Dreams|MH2|1
-2 Lórien Revealed|LTR|1
-2 Man-o'-War|MH1|1
-3 Marit Lage's Slumber|MH1|1
-5 Meneldor, Swift Savior|LTR|1
-2 Mental Journey|MH2|1
-2 Minas Tirith Garrison|LTR|1
-2 Mirrodin Besieged|MH1|1
-2 Mist-Syndicate Naga|MH1|1
-2 Moonblade Shinobi|MH1|1
-1 Murktide Regent|MH2|1
-5 Mystic Redaction|MH2|1
-5 Mystical Dispute|ELD|1
-2 Nimrodel Watcher|LTR|1
-5 Oneirophage|MH1|1
-2 Otawara, Soaring City|NEO|1
-2 Pact of Negation|FUT|1
-2 Parcel Myr|MH2|1
-2 Pelargir Survivor|LTR|1
-2 Phantasmal Dreadmaw|MH2|1
-2 Phantasmal Form|MH1|1
-2 Phantom Ninja|MH1|1
-2 Pondering Mage|MH1|1
-2 Press the Enemy|LTR|1
-2 Prohibit|MH1|1
-1 Quantum Riddler|EOE|1
-2 Rain of Revelation|MH1|1
-2 Rangers of Ithilien|LTR|1
-5 Raving Visionary|MH2|1
-5 Rebuild|MH1|1
-2 Recalibrate|MH2|1
-2 Riptide Laboratory|MH2|1
-2 Rise and Shine|MH2|1
-2 Rishadan Dockhand|MH2|1
-2 Rivendell|LTR|1
-5 Said // Done|MH2|1
-5 Saruman the White|LTR|1
-5 Saruman's Trickery|LTR|1
-2 Scour All Possibilities|MH1|1
-2 Scroll of Isildur|LTR|1
-5 Scuttletide|MH2|1
-5 Scuttling Sliver|MH1|1
-5 Sea Drake|MH2|1
-5 Seal of Removal|MH2|1
-2 Shattered Ego|MH2|1
-2 Smoke Shroud|MH1|1
-2 So Shiny|MH2|1
-2 Soothing of Sméagol|LTR|1
-5 Specimen Collector|MH2|1
-2 Spell Snuff|MH1|1
-2 Steelfin Whale|MH2|1
-2 Step Through|MH2|1
-5 Stern Scolding|LTR|1
-1 Storm of Saruman|LTR|1
-2 Stream of Thought|MH1|1
-2 String of Disappearances|MH1|1
-1 Subtlety|MH2|1
-2 Surrounded by Orcs|LTR|1
-2 Suspend|MH2|1
-1 Svyelun of Sea and Sky|MH2|1
-5 Sweep the Skies|MH2|1
-5 The Bath Song|LTR|1
-1 The Watcher in the Water|LTR|1
-2 Thought Monitor|MH2|1
-5 Tide Shaper|MH2|1
-2 Treason of Isengard|LTR|1
-5 Tribute Mage|MH1|1
-2 Upheaval|MH2|1
-1 Urza, Lord High Artificer|MH1|1
-5 Vedalken Infiltrator|MH2|1
-5 Watcher for Tomorrow|MH1|1
-2 Willow-Wind|LTR|1
-2 Windcaller Aven|MH1|1
-2 Winter's Rest|MH1|1
-2 Wonder|MH2|1
+398 Abhorrent Oculus|DSK|1
+597 Academy Ruins|2XM|1
+597 Aeromoeba|MH2|1
+597 Aether Spike|MH3|1
+597 Amphibian Downpour|MH3|1
+597 Apprentice Wizard|2XM|1
+597 Archmage's Charm|MH1|1
+597 Archway of Innovation|MH3|1
+199 Arcum Dagsson|2XM|1
+597 Argivian Restoration|2XM|1
+597 Arwen's Gift|LTR|1
+597 Bazaar Trademage|MH1|1
+1194 Bespoke Battlewagon|MH3|1
+597 Bewitching Leechcraft|LTR|1
+1194 Bill Ferny, Bree Swindler|LTR|1
+597 Birthday Escape|LTR|1
+1194 Blizzard Strix|MH1|1
+597 Borne Upon a Wind|LTR|1
+597 Braids, Conjurer Adept|2XM|1
+199 Brainstorm|2XM|1
+199 Brainstorm|2XM|2
+1194 Brainsurge|MH3|1
+597 Burdened Aerialist|MH2|1
+597 Captain of Umbar|LTR|1
+1194 Cephalid Coliseum|MH3|1
+597 Chillerpillar|MH1|1
+597 Choking Tethers|MH1|1
+597 Cloudreader Sphinx|2XM|1
+1194 Consign to Memory|MH3|1
+1194 Copycrook|MH3|1
+597 Corridor Monitor|2XM|1
+597 Corrupted Shapeshifter|MH3|1
+1194 Council's Deliberation|LTR|1
+199 Counterspell|MH2|1
+199 Counterspell|MH2|2
+1194 Cunning Evasion|MH1|1
+597 Cyclonic Rift|2XM|1
+597 Deceive the Messenger|LTR|1
+597 Deem Inferior|MH3|1
+1194 Deep Analysis|MH3|1
+597 Deepglow Skate|2XM|1
+1194 Depth Defiler|MH3|1
+597 Dreadful as the Storm|LTR|1
+597 Dreamtide Whale|MH3|1
+597 Dress Down|MH2|1
+597 Drownyard Lurker|MH3|1
+199 Echo of Eons|MH1|1
+597 Electrozoa|MH3|1
+1194 Elrond, Lord of Rivendell|LTR|1
+597 Elvish Mariner|LTR|1
+1194 Emrakul's Messenger|MH3|1
+1194 Esperzoa|2XM|1
+597 Estrid's Invocation|MH3|1
+597 Etherium Spinner|MH2|1
+1194 Everdream|MH1|1
+1194 Exclude|MH1|1
+597 Eyekite|MH1|1
+1194 Fact or Fiction|MH1|1
+597 Faerie Mechanist|2XM|1
+597 Faerie Seer|MH1|1
+3383 Fallaji Archaeologist|BRO|1
+1194 Filigree Attendant|MH2|1
+597 Flare of Denial|MH3|1
+597 Floodhound|MH2|1
+597 Flusterstorm|MH1|1
+597 Flusterstorm|MH3|1
+995 Force of Negation|MH1|1
+199 Force of Will|2XM|1
+597 Foul Watcher|MH2|1
+597 Fractured Sanity|MH2|1
+597 Frogify|2XM|1
+597 Future Sight|MH1|1
+1194 Gandalf, Friend of the Shire|LTR|1
+1194 Ghost-Lit Drifter|MH2|1
+597 Glorious Gale|LTR|1
+597 Goldberry, River-Daughter|LTR|1
+597 Grand Architect|2XM|1
+597 Grey Havens Navigator|LTR|1
+597 Harbinger of the Seas|MH3|1
+597 Hard Evidence|MH2|1
+1194 Hinder|2XM|1
+597 Hithlain Knots|LTR|1
+1194 Hope-Ender Coatl|MH3|1
+1194 Horses of the Bruinen|LTR|1
+1194 Hydroelectric Specimen|MH3|1
+597 Iceberg Cancrix|MH1|1
+597 Inevitable Betrayal|MH2|1
+597 Inkwell Leviathan|2XM|1
+1194 Ioreth of the Healing House|LTR|1
+597 Isolation at Orthanc|LTR|1
+597 Ithilien Kingfisher|LTR|1
+199 Jace, the Mind Sculptor|2XM|1
+1194 Junk Winder|MH2|1
+597 Kappa Cannoneer|MH3|1
+597 Knights of Dol Amroth|LTR|1
+1194 Kozilek's Unsealing|MH3|1
+1194 Lonely Sandbar|MH1|1
+597 Lose Focus|MH2|1
+597 Lost Isle Calling|LTR|1
+1194 Lucid Dreams|MH2|1
+597 Lórien Revealed|LTR|1
+597 Man-o'-War|MH1|1
+597 Marit Lage's Slumber|MH1|1
+597 Master Transmuter|2XM|1
+398 Master of Etherium|2XM|1
+1194 Meneldor, Swift Savior|LTR|1
+597 Mental Journey|MH2|1
+597 Metallic Rebuke|2XM|1
+398 Minas Tirith Garrison|LTR|1
+398 Mirrodin Besieged|MH1|1
+398 Mist-Syndicate Naga|MH1|1
+597 Moonblade Shinobi|MH1|1
+199 Murktide Regent|MH2|1
+1194 Mystic Redaction|MH2|1
+4577 Mystical Dispute|ELD|1
+597 Nimrodel Watcher|LTR|1
+398 Nulldrifter|MH3|1
+1194 Oneirophage|MH1|1
+995 Otawara, Soaring City|NEO|1
+995 Pact of Negation|FUT|1
+597 Parasitic Strix|2XM|1
+597 Parcel Myr|MH2|1
+597 Pelargir Survivor|LTR|1
+597 Petrifying Meddler|MH3|1
+597 Phantasmal Dreadmaw|MH2|1
+597 Phantasmal Form|MH1|1
+597 Phantom Ninja|MH1|1
+398 Phyrexian Metamorph|2XM|1
+597 Pondering Mage|MH1|1
+1194 Pongify|2XM|1
+398 Press the Enemy|LTR|1
+597 Prohibit|MH1|1
+1198 Quantum Riddler|EOE|1
+597 Rain of Revelation|MH1|1
+398 Rangers of Ithilien|LTR|1
+1194 Raving Visionary|MH2|1
+1194 Rebuild|MH1|1
+597 Recalibrate|MH2|1
+1194 Reef Worm|MH3|1
+597 Relic Runner|2XM|1
+398 Reshape|2XM|1
+1194 Riddlesmith|2XM|1
+398 Riptide Laboratory|MH2|1
+398 Rise and Shine|MH2|1
+398 Rishadan Dockhand|MH2|1
+398 Rivendell|LTR|1
+1194 Roil Cartographer|MH3|1
+1194 Rush of Knowledge|2XM|1
+597 Sage of the Unknowable|MH3|1
+1194 Said // Done|MH2|1
+1194 Saruman the White|LTR|1
+1194 Saruman's Trickery|LTR|1
+597 Scour All Possibilities|MH1|1
+398 Scroll of Isildur|LTR|1
+1194 Scuttletide|MH2|1
+1194 Scuttling Sliver|MH1|1
+1194 Sea Drake|MH2|1
+1194 Seal of Removal|MH2|1
+1194 Sentinel of the Pearl Trident|2XM|1
+1194 Serra Sphinx|2XM|1
+597 Serum Visionary|MH3|1
+199 Shadow of the Second Sun|MH3|1
+597 Shattered Ego|MH2|1
+1194 Shrieking Drake|MH3|1
+597 Sift|2XM|1
+1194 Sink into Stupor|MH3|1
+597 Smoke Shroud|MH1|1
+597 So Shiny|MH2|1
+597 Soothing of Sméagol|LTR|1
+1194 Specimen Collector|MH2|1
+597 Spell Snuff|MH1|1
+398 Spellskite|2XM|1
+597 Steel Sabotage|2XM|1
+597 Steelfin Whale|MH2|1
+597 Step Through|MH2|1
+1194 Stern Scolding|LTR|1
+199 Storm of Saruman|LTR|1
+597 Stream of Thought|MH1|1
+597 String of Disappearances|MH1|1
+398 Strix Serenade|MH3|1
+199 Subtlety|MH2|1
+597 Surrounded by Orcs|LTR|1
+398 Suspend|MH2|1
+199 Svyelun of Sea and Sky|MH2|1
+1194 Sweep the Skies|MH2|1
+1194 Tamiyo Meets the Story Circle|MH3|1
+398 Tempest Harvester|MH3|1
+1194 The Bath Song|LTR|1
+199 The Watcher in the Water|LTR|1
+1194 Thirst for Knowledge|2XM|1
+398 Thought Monitor|MH2|1
+398 Thought Reflection|2XM|1
+1194 Tide Shaper|MH2|1
+398 Treason of Isengard|LTR|1
+1194 Treasure Mage|2XM|1
+1194 Tribute Mage|MH1|1
+1194 Triton Wavebreaker|MH3|1
+398 Tune the Narrative|MH3|1
+1194 Twisted Riddlekeeper|MH3|1
+199 Ugin's Binding|MH3|1
+398 Unfathomable Truths|MH3|1
+398 Upheaval|MH2|1
+199 Urza, Lord High Artificer|MH1|1
+398 Utter Insignificance|MH3|1
+995 Vedalken Infiltrator|MH2|1
+398 Vedalken Infuser|2XM|1
+398 Volatile Stormdrake|MH3|1
+995 Watcher for Tomorrow|MH1|1
+398 Well of Ideas|2XM|1
+398 Willow-Wind|LTR|1
+398 Windcaller Aven|MH1|1
+398 Winter's Rest|MH1|1
+398 Wonder|MH2|1

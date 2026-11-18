@@ -1,0 +1,4 @@
+[metadata]
+Code=2XM
+Date=2020-08-07
+Booster=8 Common:fromsheet("2XM cards"):!name(Mana Crypt), 3 Uncommon:fromsheet("2XM cards"):!name(Mana Crypt), 2 RareMythic:fromsheet("2XM cards"):!name(Mana Crypt), 2 fromSheet("2XM Foils"):!name(Mana Crypt)

@@ -110,38 +110,38 @@
   <object id="224" template="../../../../../common/maps/obj/enemy.tx" x="64" y="224">
    <properties>
     <property name="dialog">[ {
-  "text":"HELLO AGAIN PLANESWALKER {var=player_name}.", 
+  "text":"HELLO AGAIN PLANESWALKER {var=player_name}.", "loctext":"adv.horizons.dialog.01114dcc2f54c9bf", 
    "options":[
     { 
-		"name":"Yeah, yeah, defeat Liliana. Got it.",
+		"name":"Yeah, yeah, defeat Liliana. Got it.", "locname":"adv.horizons.dialog.a5829d51ecc85744",
 		"condition":[ { "checkMapFlag": "intro" }] 
 	},
 	{
-	  "name":"Why am I here?",
-	  "text":"YOU HAVE FREED THE LEGENDARY PLANESWALKER LILIANA FROM CAPTIVITY...",
+	  "name":"Why am I here?", "locname":"adv.horizons.dialog.e39da7a4f461c53e",
+	  "text":"YOU HAVE FREED THE LEGENDARY PLANESWALKER LILIANA FROM CAPTIVITY...", "loctext":"adv.horizons.dialog.a97f758c86c9b10d",
 	  "options":[
 		{ 
-			"name":"Okay, yeah, I remember this now.",
+			"name":"Okay, yeah, I remember this now.", "locname":"adv.horizons.dialog.361e82b827a07cbf",
 			"condition":[ { "checkMapFlag": "intro" }] 
 		},   
 		{      
-			"name":"I did, just like you asked.",
-			"text":"...BUT HER MIND IS STILL IMPRISONED."
+			"name":"I did, just like you asked.", "locname":"adv.horizons.dialog.d3ace72bb8357ade",
+			"text":"...BUT HER MIND IS STILL IMPRISONED.", "loctext":"adv.horizons.dialog.012069092c5f9e96"
 			"options":[
 			{ 	
-				"name":"Okay, yeah, I remember this now.",
+				"name":"Okay, yeah, I remember this now.", "locname":"adv.horizons.dialog.361e82b827a07cbf",
 				"condition":[ { "checkMapFlag": "intro" }] 
 			},
 			{      
-				"name":"So... what now?",
-				"text":"DEFEAT LILIANA AND I CAN HELP HER RECOVER, SO THAT SHE MAY AID YOU IN BATTLES YET TO COME. TAKE HEED, {var=player_name}, THIS WILL BE A DIFFICULT TASK.",
+				"name":"So... what now?", "locname":"adv.horizons.dialog.d8179e88e449d63f",
+				"text":"DEFEAT LILIANA AND I CAN HELP HER RECOVER, SO THAT SHE MAY AID YOU IN BATTLES YET TO COME. TAKE HEED, {var=player_name}, THIS WILL BE A DIFFICULT TASK.", "loctext":"adv.horizons.dialog.d2cbae3f43e39565",
 				"options":[
 				{
-					"text":"THE PORTALS BEHIND ME LEAD TO PARTS OF HER REALM. ONCE ACTIVATED, YOU MAY USE THEM TO TRAVEL MORE QUICKLY."
-					"name":"Thank you for the warning.",
+					"text":"THE PORTALS BEHIND ME LEAD TO PARTS OF HER REALM. ONCE ACTIVATED, YOU MAY USE THEM TO TRAVEL MORE QUICKLY.", "loctext":"adv.horizons.dialog.fca1718e9d263ef0"
+					"name":"Thank you for the warning.", "locname":"adv.horizons.dialog.1f410bc082b80b51",
 					"options":[
 					{
-						"name":"(Continue)",
+						"name":"(Continue)", "locname":"adv.horizons.dialog.d628f64ba4af25ac",
 						"action":[{"advanceMapFlag":"intro"}]
 					}]
 				}]

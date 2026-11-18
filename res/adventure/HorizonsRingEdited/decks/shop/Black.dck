@@ -1,135 +1,219 @@
 [metadata]
 Name=Black shop pool
 [Main]
-7 Archfiend of Sorrows|MH2|1
-2 Archon of Cruelty|MH2|1
-3 Azra Smokeshaper|MH1|1
-3 Barad-dûr|LTR|1
-7 Barren Moor|MH1|1
-7 Bitter Downfall|LTR|1
-3 Bone Shards|MH2|1
-7 Bone Shredder|MH2|1
-3 Braids, Cabal Minion|MH2|1
-7 Break the Ice|MH2|1
-1 Cabal Coffers|MH2|1
-3 Cabal Initiate|MH2|1
-3 Cabal Therapist|MH1|1
-3 Call of the Ring|LTR|1
-7 Carrion Feeder|MH1|1
-3 Changeling Outcast|MH1|1
-3 Cirith Ungol Patrol|LTR|1
-3 Claim the Precious|LTR|1
-7 Clattering Augur|MH2|1
-3 Cordial Vampire|MH1|1
-7 Crypt Rats|MH1|1
-3 Dauthi Voidwalker|MH2|1
-3 Dead of Winter|MH1|1
-3 Defile|MH1|1
-3 Diabolic Edict|MH1|1
-3 Discerning Taste|MH2|1
-7 Dismember|NPH|1
-7 Dregscape Sliver|MH1|1
-3 Dunland Crebain|LTR|1
-3 Easterling Vanguard|LTR|1
-3 Echoing Return|MH2|1
-3 Endling|MH1|1
-7 Feast of Sanity|MH2|1
-7 Feaster of Fools|MH1|1
-3 First-Sphere Gargantua|MH1|1
-7 Flay Essence|MH2|1
-3 Force of Despair|MH1|1
-3 Gilt-Blade Prowler|MH2|1
-3 Gluttonous Slug|MH1|1
-7 Gollum's Bite|LTR|1
-7 Gollum, Patient Plotter|LTR|1
-3 Gollum, Scheming Guide|LTR|1
-7 Gorbag of Minas Morgul|LTR|1
-3 Goryo's Vengeance|BOK|1
-6 Gothmog, Morgul Lieutenant|LTR|1
-6 Graveshifter|MH1|1
-6 Greed|MH2|1
-1 Grief|MH2|1
-1 Griselbrand|AVR|1
-6 Grond, the Gatebreaker|LTR|1
-6 Gríma Wormtongue|LTR|1
-3 Haunt of the Dead Marshes|LTR|1
-3 Headless Specter|MH1|1
-3 Hell Mongrel|MH2|1
-6 Inquisition of Kozilek|ROE|1
-3 Isildur's Fateful Strike|LTR|1
-3 Kitchen Imp|MH2|1
-3 Lash of the Balrog|LTR|1
-6 Legion Vanguard|MH2|1
-3 Living End|TSP|1
-3 Loathsome Curator|MH2|1
-3 Lobelia Sackville-Baggins|LTR|1
-3 Magus of the Bridge|MH2|1
-6 March from the Black Gate|LTR|1
-3 Mind Rake|MH1|1
-3 Mirkwood Bats|LTR|1
-3 Mob|MH1|1
-3 Mordor Muster|LTR|1
-3 Mordor Trebuchet|LTR|1
-3 Morgul-Knife Wound|LTR|1
-3 Nasty End|LTR|1
-6 Nazgûl|LTR|1
-3 Necrogoyf|MH2|1
-6 Necromancer's Familiar|MH2|1
-3 Nested Shambler|MH2|1
-3 Nether Spirit|MH1|1
-3 Ninja of the New Moon|MH1|1
-3 Not Dead After All|WOE|1
-6 Oath of the Grey Host|LTR|1
-3 One Ring to Rule Them All|LTR|1
-3 Orcish Bowmasters|LTR|1
-3 Orcish Medicine|LTR|1
-3 Patriarch's Bidding|MH2|1
-3 Persist|MH2|1
-3 Plague Engineer|MH1|1
-3 Profane Tutor|MH2|1
-3 Putrid Goblin|MH1|1
-6 Radiant Epicure|MH2|1
-3 Rank Officer|MH1|1
-3 Ransack the Lab|MH1|1
-3 Return from Extinction|MH1|1
-3 Ringwraiths|LTR|1
-6 Sadistic Obsession|MH1|1
-3 Sam's Desperate Rescue|LTR|1
-3 Sauron, the Necromancer|LTR|1
-1 Shadow of the Enemy|LTR|1
-6 Shatter Assumptions|MH1|1
-3 Shelob's Ambush|LTR|1
-1 Sheoldred, the Apocalypse|DMU|1
-3 Silumgar Scavenger|MH1|1
-3 Sinister Starfish|MH2|1
-6 Skirge Familiar|MH2|1
-6 Sling-Gang Lieutenant|MH1|1
-3 Snarling Warg|LTR|1
-6 Sudden Edict|MH2|1
-3 Takenuma, Abandoned Mire|NEO|1
-3 The Black Breath|LTR|1
-2 The Torment of Gollum|LTR|1
-3 Thoughtseize|LRW|1
-6 Throatseeker|MH1|1
-2 Tizerus Charger|MH2|1
-2 Tourach's Canticle|MH2|1
-1 Tourach, Dread Cantor|MH2|1
-2 Tragic Fall|MH2|1
-2 Troll of Khazad-dûm|LTR|1
-2 Umezawa's Charm|MH1|1
-6 Undead Augur|MH1|1
-6 Underworld Hermit|MH2|1
-2 Unearth|MH1|1
-3 Unmarked Grave|MH2|1
-2 Uruk-hai Berserker|LTR|1
-2 Venomous Changeling|MH1|1
-2 Vermin Gorger|MH2|1
-6 Vile Entomber|MH2|1
-6 Voracious Fell Beast|LTR|1
-3 Warg Rider|LTR|1
-2 Warteye Witch|MH1|1
-1 Witch-king of Angmar|LTR|1
-3 Witch-king, Bringer of Ruin|LTR|1
-2 World-Weary|MH2|1
-1 Yawgmoth, Thran Physician|MH1|1
-6 Young Necromancer|MH2|1
+36 Accursed Marauder|MH3|1
+36 Ad Nauseam|2XM|1
+72 Arcbound Condor|MH3|1
+72 Archfiend of Sorrows|MH2|1
+9 Archon of Cruelty|MH2|1
+36 Azra Smokeshaper|MH1|1
+36 Barad-dûr|LTR|1
+72 Barren Moor|MH1|1
+36 Beacon of Unrest|2XM|1
+72 Bitter Downfall|LTR|1
+72 Boggart Trawler|MH3|1
+36 Bone Picker|2XM|1
+36 Bone Shards|MH2|1
+72 Bone Shredder|MH2|1
+36 Braids, Cabal Minion|MH2|1
+72 Break the Ice|MH2|1
+36 Breathe Your Last|MH3|1
+72 Buried Alive|MH3|1
+9 Cabal Coffers|MH2|1
+36 Cabal Initiate|MH2|1
+36 Cabal Therapist|MH1|1
+36 Call of the Ring|LTR|1
+72 Carrion Feeder|MH1|1
+36 Cast Down|2XM|1
+36 Changeling Outcast|MH1|1
+36 Chthonian Nightmare|MH3|1
+36 Cirith Ungol Patrol|LTR|1
+36 Claim the Precious|LTR|1
+72 Clattering Augur|MH2|1
+72 Consuming Corruption|MH3|1
+36 Cordial Vampire|MH1|1
+36 Costly Plunder|2XM|1
+36 Crabomination|MH3|1
+72 Cranial Plating|2XM|1
+72 Crypt Rats|MH1|1
+9 Dark Confidant|2XM|1
+36 Dauthi Voidwalker|MH2|1
+36 Dead of Winter|MH1|1
+36 Death's Shadow|2XM|1
+36 Defiant Salvager|2XM|1
+36 Defile|MH1|1
+36 Diabolic Edict|MH1|1
+36 Dire Fleet Hoarder|2XM|1
+36 Discerning Taste|MH2|1
+36 Disciple of Bolas|2XM|1
+72 Disciple of the Vault|2XM|1
+279 Dismember|NPH|1
+36 Divest|2XM|1
+36 Doomed Necromancer|2XM|1
+72 Dread Return|2XM|1
+72 Dreadmobile|MH3|1
+36 Dreamdrinker Vampire|MH3|1
+72 Dregscape Sliver|MH1|1
+36 Driver of the Dead|2XM|1
+36 Drossclaw|MH3|1
+72 Drown in Sorrow|2XM|1
+36 Dunland Crebain|LTR|1
+36 Easterling Vanguard|LTR|1
+36 Echoing Return|MH2|1
+36 Emperor of Bones|MH3|1
+36 Endling|MH1|1
+72 Etched Slith|MH3|1
+72 Etherium Pteramander|MH3|1
+36 Eviscerator's Insight|MH3|1
+36 Executioner's Capsule|2XM|1
+9 Fatal Push|2XM|1
+9 Fatal Push|2XM|2
+72 Feast of Sanity|MH2|1
+72 Feaster of Fools|MH1|1
+72 Fell the Profane|MH3|1
+36 Fetid Gargantua|MH3|1
+36 First-Sphere Gargantua|MH1|1
+36 Flare of Malice|MH3|1
+72 Flay Essence|MH2|1
+36 Force of Despair|MH1|1
+9 Geth, Lord of the Vault|2XM|1
+36 Gilt-Blade Prowler|MH2|1
+36 Glaze Fiend|2XM|1
+36 Gluttonous Slug|MH1|1
+72 Gollum's Bite|LTR|1
+72 Gollum, Patient Plotter|LTR|1
+36 Gollum, Scheming Guide|LTR|1
+72 Gorbag of Minas Morgul|LTR|1
+63 Goryo's Vengeance|BOK|1
+72 Gothmog, Morgul Lieutenant|LTR|1
+36 Gravedig|MH3|1
+72 Graveshifter|MH1|1
+72 Greed|MH2|1
+9 Grief|MH2|1
+72 Grim Servant|MH3|1
+77 Griselbrand|AVR|1
+72 Grond, the Gatebreaker|LTR|1
+72 Gríma Wormtongue|LTR|1
+36 Haunt of the Dead Marshes|LTR|1
+36 Headless Specter|MH1|1
+36 Heartless Pillage|2XM|1
+36 Hell Mongrel|MH2|1
+279 Inquisition of Kozilek|ROE|1
+36 Isildur's Fateful Strike|LTR|1
+36 K'rrik, Son of Yawgmoth|MH3|1
+36 Kami of Jealous Thirst|MH3|1
+36 Kitchen Imp|MH2|1
+36 Lash of the Balrog|LTR|1
+72 Legion Vanguard|MH2|1
+72 Lethal Throwdown|MH3|1
+63 Living End|TSP|1
+36 Loathsome Curator|MH2|1
+36 Lobelia Sackville-Baggins|LTR|1
+36 Magus of the Abyss|2XM|1
+36 Magus of the Bridge|MH2|1
+36 Magus of the Will|2XM|1
+72 March from the Black Gate|LTR|1
+72 Marionette Apprentice|MH3|1
+36 Metalspinner's Puzzleknot|2XM|1
+36 Mind Rake|MH1|1
+72 Mindless Conscription|MH3|1
+36 Mirkwood Bats|LTR|1
+36 Mob|MH1|1
+18 Moonshadow|ECL|1
+36 Mordor Muster|LTR|1
+36 Mordor Trebuchet|LTR|1
+36 Morgul-Knife Wound|LTR|1
+72 Morkrut Banshee|2XM|1
+72 Nadier's Nightblade|MH3|1
+36 Nasty End|LTR|1
+72 Nazgûl|LTR|1
+9 Necrodominance|MH3|1
+27 Necrogoyf|MH2|1
+72 Necromancer's Familiar|MH2|1
+36 Nested Shambler|MH2|1
+27 Nether Spirit|MH1|1
+9 Nethergoyf|MH3|1
+36 Ninja of the New Moon|MH1|1
+207 Not Dead After All|WOE|1
+72 Oath of the Grey Host|LTR|1
+27 One Ring to Rule Them All|LTR|1
+27 Ophiomancer|MH3|1
+27 Orcish Bowmasters|LTR|1
+36 Orcish Medicine|LTR|1
+72 Oubliette|2XM|1
+72 Ovalchase Daredevil|2XM|1
+18 Overlord of the Balemurk|DSK|1
+72 Painsmith|2XM|1
+27 Patriarch's Bidding|MH2|1
+27 Persist|MH2|1
+9 Phyrexian Tower|MH3|1
+27 Plague Engineer|MH1|1
+27 Profane Tutor|MH2|1
+36 Putrid Goblin|MH1|1
+63 Quest for the Necropolis|MH3|1
+63 Radiant Epicure|MH2|1
+36 Rank Officer|MH1|1
+36 Ransack the Lab|MH1|1
+27 Ravenous Trap|2XM|1
+36 Refurbished Familiar|MH3|1
+36 Retrofitted Transmogrant|MH3|1
+36 Return from Extinction|MH1|1
+27 Ringwraiths|LTR|1
+27 Ripples of Undeath|MH3|1
+63 Sadistic Obsession|MH1|1
+27 Salvage Titan|2XM|1
+36 Sam's Desperate Rescue|LTR|1
+27 Sauron, the Necromancer|LTR|1
+36 Scurrilous Sentry|MH3|1
+9 Shadow of the Enemy|LTR|1
+63 Shatter Assumptions|MH1|1
+36 Shelob's Ambush|LTR|1
+68 Sheoldred, the Apocalypse|DMU|1
+36 Silumgar Scavenger|2XM|1
+36 Silumgar Scavenger|MH1|1
+36 Sinister Starfish|MH2|1
+63 Skirge Familiar|MH2|1
+27 Skirsdag High Priest|2XM|1
+9 Skithiryx, the Blight Dragon|2XM|1
+63 Sling-Gang Lieutenant|MH1|1
+36 Snarling Warg|LTR|1
+27 Spymaster's Vault|MH3|1
+63 Sudden Edict|MH2|1
+36 Supernatural Stamina|2XM|1
+63 Takenuma, Abandoned Mire|NEO|1
+36 The Black Breath|LTR|1
+63 The Creation of Avacyn|MH3|1
+36 The Torment of Gollum|LTR|1
+63 Thoughtseize|2XM|1
+63 Throatseeker|MH1|1
+36 Tizerus Charger|MH2|1
+36 Tourach's Canticle|MH2|1
+9 Tourach, Dread Cantor|MH2|1
+27 Toxic Deluge|2XM|1
+27 Toxic Deluge|MH3|1
+36 Tragic Fall|MH2|1
+36 Troll of Khazad-dûm|LTR|1
+27 Twisted Abomination|2XM|1
+27 Umezawa's Charm|MH1|1
+63 Undead Augur|MH1|1
+63 Underworld Hermit|MH2|1
+27 Unearth|MH1|1
+27 Unmarked Grave|MH2|1
+27 Uruk-hai Berserker|LTR|1
+63 Vampire Hexmage|2XM|1
+27 Venomous Changeling|MH1|1
+27 Vermin Gorger|MH2|1
+63 Victimize|MH3|1
+63 Vile Entomber|MH2|1
+63 Voracious Fell Beast|LTR|1
+27 Warg Rider|LTR|1
+27 Warren Soultrader|MH3|1
+27 Warteye Witch|MH1|1
+9 Witch-king of Angmar|LTR|1
+27 Witch-king, Bringer of Ruin|LTR|1
+27 Wither and Bloom|MH3|1
+27 World-Weary|MH2|1
+27 Wound Reflection|2XM|1
+63 Wurmcoil Larva|MH3|1
+9 Yawgmoth, Thran Physician|MH1|1
+63 Young Necromancer|MH2|1

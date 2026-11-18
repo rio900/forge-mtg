@@ -3,7 +3,7 @@ Name=Bandit Trapmaster
 [Main]
 2 Igneous Elemental|MH1|1
 2 Lava Dart|MH1|1
-4 Shadow of the Enemy|LTR|1
+2 Bloodsoaked Insight|MH3|1
 2 One Ring to Rule Them All|LTR|1
 1 Warg Rider|LTR|1
 4 Riders of the Mark|LTR|1
@@ -12,9 +12,11 @@ Name=Bandit Trapmaster
 4 Geomancer's Gambit|MH1|1
 4 Goblin Fireleaper|LTR|1
 2 Shelob's Ambush|LTR|1
+2 Shadow of the Enemy|LTR|1
 1 Underworld Hermit|MH2|1
 1 Éomer of the Riddermark|LTR|1
-2 Haradrim Spearmaster|LTR|1
+1 Haradrim Spearmaster|LTR|1
+1 Laelia, the Blade Reforged|MH3|1
 4 Drossforge Bridge|MH2|1
-11 Mountain|MH2|1
-9 Swamp|MH2|1
+11 Mountain|2XM|1
+9 Swamp|2XM|1

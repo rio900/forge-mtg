@@ -277,7 +277,7 @@
   </object>
   <object id="189" template="../../../obj/treasure.tx" x="880" y="80">
    <properties>
-    <property name="reward">[{"type":"randomCard","count":8,"editions":["MH1","MH2","LTR"],"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"type":"randomCard","count":8,"editions":["2XM"],"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
     <property name="spawn.Easy" type="bool" value="false" />
    </properties>
   </object>
@@ -513,7 +513,7 @@
   </object>
   <object id="203" template="../../../obj/scroll.tx" x="592" y="528">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;:&quot;card&quot;,&quot;cardName&quot;:&quot;Bone Shards|MH2&quot;,&quot;count&quot;:1}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;card&quot;,&quot;cardName&quot;:&quot;Lethal Throwdown|MH3&quot;,&quot;count&quot;:1}]" />
    </properties>
   </object>
   <object id="205" template="../../../obj/treasure.tx" x="688" y="16">
@@ -1405,9 +1405,9 @@
    <properties>
     <property name="defeatDialog">[
 {
-   "text":"You pry the key away from the mayor's cold, dead (and dead again) hands. Now that you have it, there's not much between you and Liliana.",
+   "text":"You pry the key away from the mayor's cold, dead (and dead again) hands. Now that you have it, there's not much between you and Liliana.", "loctext":"adv.horizons.dialog.4c9784acd455bcb5",
    "options":[
-	{"name":"(continue)"
+	{"name":"(continue)", "locname":"adv.horizons.dialog.1d22fb9df33b3b89"
 	}
 	{"action":[{"deleteMapObject": 278}, {"deleteMapObject": -1}]}
 	]
@@ -1415,10 +1415,10 @@
 ]</property>
     <property name="dialog">[
   {
-    "text":"The mayor can only keep away from you for so long before you manage to fight through the crowd and reach him.",
+    "text":"The mayor can only keep away from you for so long before you manage to fight through the crowd and reach him.", "loctext":"adv.horizons.dialog.94396361b1b2294b",
     "options":[
-      { "name":"Walk away" },
-      { "name":"Attack the Mayor",
+      { "name":"Walk away", "locname":"adv.horizons.dialog.e3fe4de30bdc814f" },
+      { "name":"Attack the Mayor", "locname":"adv.horizons.dialog.bd12533fb9a7e41b",
 	  "action":[{"battleWithActorID":-1}]}
         
    }
@@ -2054,7 +2054,7 @@
   </object>
   <object id="286" template="../../../obj/treasure.tx" x="848" y="80">
    <properties>
-    <property name="reward">[{"count":2,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Gollum's Bite|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Witch-king, Bringer of Ruin|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"March from the Black Gate|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sudden Edict|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Unmarked Grave|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Archon of Cruelty|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Feaster of Fools|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Damn|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"One Ring to Rule Them All|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sauron, the Necromancer|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Grief|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Cabal Coffers|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Power Depot|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Silent Clearing|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Nurturing Peatland|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Silent Clearing|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Nurturing Peatland|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Power Depot|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Silent Clearing|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Nurturing Peatland|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Power Depot|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
+    <property name="reward">[{"count":2,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Fatal Push|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Witch-king, Bringer of Ruin|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"March from the Black Gate|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sudden Edict|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Buried Alive|MH3","editions":["MH3"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Archon of Cruelty|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Feaster of Fools|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Damn|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Chthonian Nightmare|MH3","editions":["MH3"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sauron, the Necromancer|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Grief|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Cabal Coffers|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunken Ruins|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Silent Clearing|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Nurturing Peatland|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Silent Clearing|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Nurturing Peatland|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunken Ruins|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Silent Clearing|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Nurturing Peatland|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunken Ruins|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
     <property name="spawn.Easy" type="bool" value="false" />
     <property name="spawn.Normal" type="bool" value="false" />
    </properties>

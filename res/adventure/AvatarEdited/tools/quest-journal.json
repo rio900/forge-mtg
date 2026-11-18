@@ -1,0 +1,2175 @@
+{
+  "1": {
+    "name": "Дорога в Ба-Синг-Се",
+    "description": "У переправы застрял караван с зерном для Ба-Синг-Се. В дорожной книге указан противник — $(enemy_1). Победи дважды и вернись за своей долей.",
+    "stages": {
+      "1": {
+        "name": "Патруль у переправы",
+        "description": "Ищи противника в пустоши. Цель — $(enemy_1). Выиграй два боя."
+      },
+      "2": {
+        "name": "Зерно для каравана",
+        "description": "Вернись к караванщику в город, где вы договорились о плате."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "У ворот караванщик возится с порванным мешком. «Подставь ладонь, зерно сыплется! Вот спасибо. С такими потерями до Ба-Синг-Се доедет один мешок из трёх».",
+      "/offerDialog/options/0/name": "А что случилось с остальными?",
+      "/offerDialog/options/0/text": "«Один промок у переправы. За вторым я сам полез, да пришлось бросить. Смотри, кого дозорный нарисовал в дорожной книге: $(enemy_1)».",
+      "/offerDialog/options/0/options/0/name": "И сколько раз мне придётся драться?",
+      "/offerDialog/options/0/options/0/text": "«Дважды. Пока ты прикрываешь переправу, мы перетащим зерно на сухой берег. Деньги за охрану поделим здесь, у ворот».",
+      "/offerDialog/options/0/options/0/options/0/name": "По рукам. Я прикрою переправу. (Принять)",
+      "/offerDialog/options/0/options/0/options/1/name": "Два боя за долю охранника? Поищи другого. (Отказаться)",
+      "/offerDialog/options/0/options/1/name": "А если просто нанять городскую стражу?",
+      "/offerDialog/options/0/options/1/text": "«Пробовал. Они охраняют зерно только по эту сторону ворот. Если бы оно уже было тут, разве я стоял бы с пустой телегой?»",
+      "/offerDialog/options/0/options/1/options/0/name": "Тогда удачи тебе. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/1/name": "Ладно. Напомни, что делать у воды?",
+      "/offerDialog/options/0/options/1/options/1/text": "«Выиграй два боя у переправы. Цель отмечена в книге: $(enemy_1). Когда закончишь, возвращайся за своей долей».",
+      "/offerDialog/options/0/options/1/options/1/options/0/name": "Далековато. Я пас. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/1/options/1/name": "Придержи мою долю. Я берусь. (Принять)",
+      "/failureDialog/text": "Караван ушёл другой дорогой. У ворот ещё долго будут вспоминать брошенный груз. Местная репутация −2.",
+      "/failureDialog/options/0/name": "Закрыть задание",
+      "/declinedDialog/text": "«Что ж, тогда хоть помоги затянуть узел. Не хочу потерять ещё и этот мешок».",
+      "/declinedDialog/options/0/name": "Завязать мешок и уйти",
+      "/stages/0/prologue/text": "За воротами след колёс уходит в пустошь. На полях дорожной книги рядом с рисунком стоит пометка: $(enemy_1).",
+      "/stages/0/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/text": "Последняя телега перебралась на сухой берег. Караванщик ждёт в городе. Отметь поручение в журнале, если нужна дорога назад.",
+      "/stages/1/prologue/options/0/name": "Вернуться за платой",
+      "/stages/1/epilogue/text": "Караванщик отсчитывает твою долю на перевёрнутом ведре. На этот раз в телеге все мешки до одного.",
+      "/stages/1/epilogue/options/0/name": "Забрать награду"
+    }
+  },
+  "2": {
+    "name": "Письмо за перевал",
+    "description": "Даже самому быстрому почтовому ястребу не доверят это письмо. Адресат ждёт в $(poi_1). Доставь письмо лично.",
+    "stages": {
+      "1": {
+        "name": "Дальняя доставка",
+        "description": "Доставь письмо в $(poi_1)."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Писец вытирает с носа чернила. «Ястребом нельзя, только в руки. Доставишь письмо? Адрес — $(poi_1), край — $(biome_1)».",
+      "/offerDialog/options/0/name": "Почему нельзя отправить с птицей?",
+      "/offerDialog/options/0/text": "«После одной истории с заколдованной печатью она и собственной тени не доверяет».",
+      "/offerDialog/options/0/options/0/name": "Тогда ей вряд ли понравится маг на пороге.",
+      "/offerDialog/options/0/options/0/text": "«Печать цела, письмо настоящее. Просто доставь его по старинке».",
+      "/offerDialog/options/0/options/0/options/0/name": "Звучит опасно. Откажусь.",
+      "/offerDialog/options/0/options/0/options/1/name": "Рискну. Давай письмо.",
+      "/offerDialog/options/1/name": "Сегодня почта обойдётся без меня.",
+      "/offerDialog/options/2/name": "Давно пора размять ноги. Берусь.",
+      "/epilogue/text": "Дорога позади. Под дорожной пылью печать по-прежнему цела.",
+      "/epilogue/options/0/name": "Продолжить",
+      "/epilogue/options/0/text": "Из окна наверху высовывается женщина. «У тебя моё письмо! Давай сюда!»",
+      "/epilogue/options/0/options/0/name": "Поднять письмо к окну порывом ветра.",
+      "/epilogue/options/0/options/0/text": "«Так и знала! Маг!» Ставни захлопываются. На стук никто не отвечает.",
+      "/epilogue/options/0/options/0/options/0/name": "Надо было сперва попросить плату. (Завершить) Репутация +1.",
+      "/epilogue/options/0/options/0/options/1/name": "Попробовать выломать дверь.",
+      "/epilogue/options/0/options/0/options/1/text": "Соседи уже выглянули на шум. Даже мальчишка с ведром перестал свистеть. Репутация −1.",
+      "/epilogue/options/0/options/0/options/1/options/0/name": "Не стоит устраивать сцену. (Завершить)",
+      "/epilogue/options/0/options/1/name": "Вот письмо. Как его передать?",
+      "/epilogue/options/0/options/1/text": "На верёвке спускается ведёрко. На дне звенит кошель. «Письмо клади сюда!»",
+      "/epilogue/options/0/options/1/options/0/name": "Забрать монеты и положить письмо в ведро.",
+      "/epilogue/options/0/options/1/options/0/text": "Местная репутация +2.",
+      "/epilogue/options/0/options/1/options/0/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Дорога к $(poi_1) оказалась слишком долгой. Письмо придётся вернуть.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/prologue/text": "До адресата далеко. Может, срезать путь с помощью магии? Вспомнив хозяйку письма, ты затягиваешь ремни на сандалиях.",
+      "/stages/0/prologue/options/0/name": "Отправиться в путь"
+    }
+  },
+  "3": {
+    "name": "Лавка под красным фонарём",
+    "description": "Торговец уже вывесил фонарь над дверью, а полки ещё пусты. Забери товар в $(poi_2) и вернись к хозяину.",
+    "stages": {
+      "1": {
+        "name": "В путь",
+        "description": "Выйди из города."
+      },
+      "2": {
+        "name": "Забрать товар",
+        "description": "Забери партию товара в $(poi_2)."
+      },
+      "3": {
+        "name": "Открыть лавку",
+        "description": "Отвези товар обратно в $(poi_1)."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "В чайной торговец примеряет красный фонарь к пустой полке. «Огонь есть. Теперь бы ещё чем торговать».",
+      "/offerDialog/options/0/name": "Вы обознались. (Отказаться)",
+      "/offerDialog/options/1/name": "Что привезти и сколько платите?",
+      "/offerDialog/options/1/text": "«Весь мой товар остался в $(poi_2). Привезёшь мешок — можно открываться».",
+      "/offerDialog/options/1/options/0/name": "А моя доля?",
+      "/offerDialog/options/1/options/0/text": "«Выберу тебе кое-что с прилавка».",
+      "/offerDialog/options/1/options/0/options/0/name": "По рукам. (Принять)",
+      "/offerDialog/options/1/options/0/options/1/name": "Мне нужнее монеты. (Отказаться)",
+      "/offerDialog/options/1/options/1/name": "С открытием! Но везти товар придётся кому-то другому.",
+      "/failureDialog/text": "Фонарь погас раньше, чем лавка открылась. Местная репутация −5.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "Отметь задание в журнале, чтобы найти дорогу.",
+      "/stages/0/epilogue/options/0/name": "Отправиться в путь",
+      "/stages/1/epilogue/text": "Среди тюков лежит скромная книга приёмов. Должно быть, за ней тебя и послали.",
+      "/stages/1/epilogue/options/0/name": "Забрать товар и отправиться обратно.",
+      "/stages/1/epilogue/options/0/text": "Шов на мешке разошёлся. На землю шлёпается раскрытая книга.",
+      "/stages/1/epilogue/options/0/options/0/name": "Посмотреть, что внутри.",
+      "/stages/1/epilogue/options/0/options/0/text": "В начале книги знакомые приёмы. Ими полон любой учебный двор.",
+      "/stages/1/epilogue/options/0/options/0/options/0/name": "Тихонько взять одну карту.",
+      "/stages/1/epilogue/options/0/options/0/options/0/text": "Тебе достаётся самый скромный приём.",
+      "/stages/1/epilogue/options/0/options/0/options/0/options/0/name": "Хозяин ведь обещал образец. (Уйти)",
+      "/stages/1/epilogue/options/0/options/0/options/1/name": "Переложить товар в целую сумку.",
+      "/stages/1/epilogue/options/0/options/0/options/2/name": "Заглянуть ближе к концу.",
+      "/stages/1/epilogue/options/0/options/0/options/2/text": "Под обложкой попадаются редкие записи. Через твоё плечо в книгу уже заглядывает местный мальчишка.",
+      "/stages/1/epilogue/options/0/options/0/options/2/options/0/name": "Переложить товар и продолжить путь.",
+      "/stages/1/epilogue/options/0/options/0/options/2/options/1/name": "Пусть смотрит. Взять карту и уйти.",
+      "/stages/1/epilogue/options/0/options/0/options/2/options/1/text": "Местная репутация −2.",
+      "/stages/1/epilogue/options/0/options/0/options/2/options/1/options/0/name": "Продолжить путь",
+      "/stages/1/epilogue/options/0/options/1/name": "Убрать книгу в сумку и идти дальше.",
+      "/stages/2/epilogue/text": "Под фонарём уже стоят полки. Хозяин принимает мешок и откладывает для тебя первую карту.",
+      "/stages/2/epilogue/options/0/name": "Завершить задание"
+    }
+  },
+  "4": {
+    "name": "След у водопоя",
+    "description": "Следопыт нашёл отпечатки у воды. Цель — $(enemy_2). Перехвати её, пока след свеж, и вернись за наградой.",
+    "stages": {
+      "1": {
+        "name": "Начать погоню",
+        "description": "Выйди из города на поиски."
+      },
+      "2": {
+        "name": "Перехватить цель",
+        "description": "Цель — $(enemy_2). Найди её до побега и выиграй бой с первой попытки."
+      },
+      "3": {
+        "name": "Получить награду",
+        "description": "Вернись в город, где началась погоня."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Эльф разворачивает карту водопоев. «У этого следа перестали пить даже страусовые лошади. Цель — $(enemy_2). Выручишь?»",
+      "/offerDialog/options/0/name": "Цель знакома: $(enemy_2). Берусь.",
+      "/offerDialog/options/1/name": "Сегодня у меня другие дела.",
+      "/offerDialog/options/1/text": "Эльф сворачивает карту. Местная репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/2/name": "Награда объявлена?",
+      "/offerDialog/options/2/text": "«Официально — нет. Но приёмы и осколки маны я могу дать из своих запасов».",
+      "/offerDialog/options/2/options/0/name": "Договорились. (Принять)",
+      "/offerDialog/options/2/options/1/name": "За цель $(enemy_2) маловато. Откажусь.",
+      "/offerDialog/options/2/options/1/text": "Эльф молча прячет кошель. Местная репутация −2.",
+      "/offerDialog/options/2/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "На обратном пути у водопоя снова толпятся животные. В городе тебя уже ждут с наградой. Репутация +3.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "След остыл. Цель $(enemy_2) ещё даст о себе знать. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "5": {
+    "name": "Кости для могильщика",
+    "description": "Смотритель кладбища предлагает срочную охоту. Цель — $(enemy_2). Выиграй бой и вернись к воротам за платой.",
+    "stages": {
+      "1": {
+        "name": "Начать погоню",
+        "description": "Выйди из города на поиски."
+      },
+      "2": {
+        "name": "Перехватить цель",
+        "description": "Цель — $(enemy_2). Найди её до побега и выиграй бой с первой попытки."
+      },
+      "3": {
+        "name": "Получить награду",
+        "description": "Вернись в город, где началась погоня."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "У кладбищенской стены шуршит плащ. «Мне нужны кости. Вот чьи: $(enemy_2). Надолго это дело не откладывай».",
+      "/offerDialog/options/0/name": "Показывай дорогу. (Принять)",
+      "/offerDialog/options/1/name": "Мне не по себе. (Отказаться)",
+      "/offerDialog/options/1/text": "Из-под капюшона не доносится ни звука. Местная репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/2/name": "За срочность полагается доплата.",
+      "/offerDialog/options/2/text": "«Десять осколков маны. И кости можешь оставить себе».",
+      "/offerDialog/options/2/options/0/name": "Где искать? (Принять)",
+      "/offerDialog/options/2/options/1/name": "За цель $(enemy_2) маловато. Откажусь.",
+      "/offerDialog/options/2/options/1/text": "Смотритель отворачивается. От стены тянет холодом. Местная репутация −2.",
+      "/offerDialog/options/2/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "У ворот двое помощников уносят останки. Смотритель уже отсчитал твою долю. Репутация +3.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Цель $(enemy_2) ушла. Одна могила останется пустой. Местная репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "6": {
+    "name": "Пыль за заставой",
+    "description": "На равнинной заставе подняли тревогу. Цель погони — $(enemy_2). Догони беглеца, победи и доложи страже.",
+    "stages": {
+      "1": {
+        "name": "Начать погоню",
+        "description": "Выйди из города на поиски."
+      },
+      "2": {
+        "name": "Перехватить цель",
+        "description": "Цель — $(enemy_2). Найди её до побега и выиграй бой с первой попытки."
+      },
+      "3": {
+        "name": "Получить награду",
+        "description": "Вернись в город, где началась погоня."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Возле чайной стражник приклеивает к столбу портрет беглеца. Клей ещё не высох.",
+      "/offerDialog/options/0/name": "Продолжить",
+      "/offerDialog/options/0/text": "За углом кто-то сдирает такой же лист. Похож на портрет до последней веснушки.",
+      "/offerDialog/options/0/options/0/name": "Пройти мимо. (Отказаться)",
+      "/offerDialog/options/0/options/0/text": "Беглец замечает твой взгляд и исчезает. Репутация −1.",
+      "/offerDialog/options/0/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/0/options/1/name": "Подойти поближе.",
+      "/offerDialog/options/0/options/1/text": "Услышав шаги, $(enemy_2) бросается бежать.",
+      "/offerDialog/options/0/options/1/options/0/name": "Пусть бежит. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/0/text": "Цель $(enemy_2) теряется в толпе у ворот. Репутация −1.",
+      "/offerDialog/options/0/options/1/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/0/options/1/options/1/name": "Броситься вдогонку. (Принять)",
+      "/offerDialog/options/0/options/2/name": "Громко кашлянуть.",
+      "/offerDialog/options/0/options/2/text": "Беглец $(enemy_2) роняет сумку и со всех ног мчится к воротам.",
+      "/offerDialog/options/0/options/2/options/0/name": "Осмотреть сумку.",
+      "/offerDialog/options/0/options/2/options/0/text": "Беглец ушёл. В сумке монеты и чужие безделушки. Репутация −2.",
+      "/offerDialog/options/0/options/2/options/0/options/0/name": "Уйти с находкой. (Отказаться)",
+      "/offerDialog/options/0/options/2/options/1/name": "Броситься вдогонку. (Принять)",
+      "/epilogue/text": "В казарме капитан сверяет твой рассказ с портретом: $(enemy_2). Затем отсчитывает награду. Репутация +3.",
+      "/epilogue/options/0/name": "В ладони лежит награда, а в сумке всё ещё звенят краденые вещи.",
+      "/epilogue/options/0/text": "Капитан знает о пропаже?",
+      "/epilogue/options/0/options/0/name": "Вернуть краденое. (Завершить)",
+      "/epilogue/options/0/options/0/text": "Капитан отдаёт честь. «Благодарю». Репутация +1.",
+      "/epilogue/options/0/options/0/options/0/name": "Продолжить",
+      "/epilogue/options/0/options/1/name": "Умолчать о находке. (Завершить)",
+      "/epilogue/options/0/options/1/text": "Капитан провожает тебя долгим взглядом. Репутация −1.",
+      "/epilogue/options/0/options/1/options/0/name": "Продолжить",
+      "/failureDialog/text": "Цель $(enemy_2) ушла за заставу. Местная репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "7": {
+    "name": "Тихие пески",
+    "description": "Проводники обходят священные пески стороной. Выйди по следу цели $(enemy_2), выиграй бой и принеси весть в город.",
+    "stages": {
+      "1": {
+        "name": "Начать погоню",
+        "description": "Выйди из города на поиски."
+      },
+      "2": {
+        "name": "Перехватить цель",
+        "description": "Цель — $(enemy_2). Найди её до побега и выиграй бой с первой попытки."
+      },
+      "3": {
+        "name": "Получить награду",
+        "description": "Вернись в город, где началась погоня."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "За порогом прохладной чайной ждёт проводник-вьяшино. На его поясе тихо звенят ракушки.",
+      "/offerDialog/options/0/name": "Вы меня ищете?",
+      "/offerDialog/options/0/text": "«Шаман Изка ищет того, кто осквернил пески. Поможешь».",
+      "/offerDialog/options/0/options/0/name": "Покажи след. (Принять)",
+      "/offerDialog/options/0/options/1/name": "С песками я не в ладу. (Отказаться)",
+      "/offerDialog/options/0/options/1/text": "Хвост проводника взметает пыль. «Сзил запомнит». Репутация −2.",
+      "/offerDialog/options/0/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Обойти проводника. (Отказаться)",
+      "/offerDialog/options/1/text": "Хвост дёргается, но путь свободен. Репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "Проводник склоняет голову. «Шаман благодарит тебя. Пусть песок хранит твои следы». Репутация +3.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Сегодня возмездие миновало цель $(enemy_2). Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "8": {
+    "name": "Урок на расстоянии",
+    "description": "У наставника есть упражнение, которое во дворе не покажешь. Твой противник — $(enemy_2). Успей провести бой и расскажи, чем он кончился.",
+    "stages": {
+      "1": {
+        "name": "Начать погоню",
+        "description": "Выйди из города на поиски."
+      },
+      "2": {
+        "name": "Перехватить цель",
+        "description": "Цель — $(enemy_2). Найди её до побега и выиграй бой с первой попытки."
+      },
+      "3": {
+        "name": "Получить награду",
+        "description": "Вернись в город, где началась погоня."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Учитель подталкивает вперёд паренька в слишком длинном халате. «Вы ведь бывали в настоящем бою?»",
+      "/offerDialog/options/0/name": "Бывало и такое.",
+      "/offerDialog/options/0/text": "«Видишь, ученик? Дорожная пыль красноречивее парадного пояса».",
+      "/offerDialog/options/0/options/0/name": "Дать о себе знать кашлем.",
+      "/offerDialog/options/0/options/0/text": "«Он мечтает стать боевым магом. Пусть посмотрит твоими глазами на бой с $(enemy_2). Может, передумает».",
+      "/offerDialog/options/0/options/0/options/0/name": "Лучше найдите другого наставника. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/0/text": "Учитель исчезает. Ученику приходится идти пешком. Репутация −1.",
+      "/offerDialog/options/0/options/0/options/1/name": "Пусть смотрит. Где цель $(enemy_2)? Берусь.",
+      "/offerDialog/options/1/name": "Бывали. Но сегодня я занят. (Отказаться)",
+      "/offerDialog/options/1/text": "Учитель исчезает. Ученику приходится идти пешком. Репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/2/name": "А кто спрашивает?",
+      "/offerDialog/options/2/text": "«Морелит Великий. Спрашиваю от лица ученика». Ученик вдруг находит свои сандалии очень интересными.",
+      "/offerDialog/options/2/options/0/name": "Мастер иллюзий! Чем могу помочь?",
+      "/offerDialog/options/2/options/0/text": "Морелит довольно кивает. «Покажи ученику один настоящий бой. Цель — $(enemy_2)». Репутация +1.",
+      "/offerDialog/options/2/options/0/options/0/name": "Лучше найдите другого наставника. (Отказаться)",
+      "/offerDialog/options/2/options/0/options/0/text": "«Заметь, ученик: боевые маги ещё и грубияны».",
+      "/offerDialog/options/2/options/0/options/0/options/0/name": "Сдержаться и уйти.",
+      "/offerDialog/options/2/options/0/options/1/name": "Пусть смотрит. Где цель $(enemy_2)? Берусь.",
+      "/offerDialog/options/2/options/1/name": "Великий? Что-то не заметно. (Отказаться)",
+      "/offerDialog/options/2/options/1/text": "Морелит исчезает вместе с учеником. На рынке сразу становится тише. Репутация −2.",
+      "/offerDialog/options/2/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "В спину будто смотрят два человека: один ликует, другой сердито покашливает. Репутация +3.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "За спиной чудится смешок. Местная репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "Едва ворота скрываются за поворотом, между лопатками начинает щекотать. Ученик смотрит.",
+      "/stages/0/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "9": {
+    "name": "След на камне",
+    "description": "Ветер уже сдувает пыль со следов. Цель — $(enemy_2). Перехвати её в пустоши и возвращайся за платой.",
+    "stages": {
+      "1": {
+        "name": "Начать погоню",
+        "description": "Выйди из города на поиски."
+      },
+      "2": {
+        "name": "Перехватить цель",
+        "description": "Цель — $(enemy_2). Найди её до побега и выиграй бой с первой попытки."
+      },
+      "3": {
+        "name": "Получить награду",
+        "description": "Вернись в город, где началась погоня."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "У чайной висит доска объявлений. Записки держатся на рыбьих косточках и медных гвоздиках.",
+      "/offerDialog/options/0/name": "У меня уже есть дело. (Уйти)",
+      "/offerDialog/options/1/name": "Прочитать объявления.",
+      "/offerDialog/options/1/text": "Чернила кое-где размыло дождём. Несколько листков уцелели под навесом.",
+      "/offerDialog/options/1/options/0/name": "Рассмотреть свежий рисунок.",
+      "/offerDialog/options/1/options/0/text": "Ни слова, только портрет. В углу метка цели — $(enemy_2).",
+      "/offerDialog/options/1/options/0/options/0/name": "Художнику бы в столицу. (Уйти)",
+      "/offerDialog/options/1/options/0/options/1/name": "Посмотреть внимательнее.",
+      "/offerDialog/options/1/options/0/options/1/text": "В голове звучат чужие слова. «НАЙДИ. {COLOR=red}ПОБЕДИ!{ENDCOLOR}»",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "«ДА». (Принять)",
+      "/offerDialog/options/1/options/0/options/1/options/1/name": "«НАГРАДА?»",
+      "/offerDialog/options/1/options/0/options/1/options/1/text": "«{COLOR=red}ПОБЕДИ.{ENDCOLOR} ПОЛУЧИШЬ».",
+      "/offerDialog/options/1/options/0/options/1/options/1/options/0/name": "«ДА». (Принять)",
+      "/offerDialog/options/1/options/0/options/1/options/1/options/1/name": "Отойти от доски. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/options/2/name": "Отступить на шаг и прислушаться.",
+      "/offerDialog/options/1/options/0/options/1/options/2/text": "«{COLOR=red}Победи…{ENDCOLOR}» Ещё шаг — и в голове опять тихо.",
+      "/offerDialog/options/1/options/0/options/1/options/2/options/0/name": "Уйти подальше. (Отказаться)",
+      "/offerDialog/options/1/options/1/name": "Прочитать старую записку в два цвета.",
+      "/offerDialog/options/1/options/1/text": "Это предложение руки и сердца. Начинается оно словами «кому придётся». Уже не очень удачно.",
+      "/offerDialog/options/1/options/1/options/0/name": "Читать дальше.",
+      "/offerDialog/options/1/options/1/options/0/text": "Поперёк мелких стихов второй рукой выведено: «Даже не надейся». Кто-то старательно обвёл точку.",
+      "/offerDialog/options/1/options/1/options/0/options/0/name": "Покачать головой и уйти.",
+      "/offerDialog/options/1/options/1/options/1/name": "Оставить переписку её авторам.",
+      "/offerDialog/options/1/options/2/name": "Рассмотреть пёструю афишу.",
+      "/offerDialog/options/1/options/2/text": "{RAINBOW=2;2;1;0.8}Цирк Шандалара! Скоро и под вашим небом!",
+      "/offerDialog/options/1/options/2/options/0/name": "Цирк подождёт. (Уйти)",
+      "/epilogue/text": "Работодателя нигде нет. Под доской стоит коробка с наградой. Сегодня она предназначена тебе. Репутация +3.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Цель $(enemy_2) ушла. Местная репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "10": {
+    "name": "Свет для молодых побегов",
+    "description": "В лесу пора высаживать саженцы, но к делянке опасно подходить. Очисти $(poi_1) от врагов и вернись с вестью.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в лесу — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Друид несёт связку саженцев во влажной рогоже. «Поможешь спасти лес?»",
+      "/offerDialog/options/0/name": "А чем я, по-твоему, занят? (Отказаться)",
+      "/offerDialog/options/0/text": "Друид смотрит тебе вслед. Репутация −1.",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Кого сегодня спасаем? Черепахоуток?",
+      "/offerDialog/options/1/text": "«И их тоже. Только начнём мы с тех, кто занял лес».",
+      "/offerDialog/options/1/options/0/name": "С кого именно?",
+      "/offerDialog/options/1/options/0/text": "«Вот место: $(poi_1). Пока там враги, молодым росткам не выжить».",
+      "/offerDialog/options/1/options/0/options/0/name": "Это я могу. Показывай дорогу. (Принять)",
+      "/offerDialog/options/1/options/0/options/1/name": "Сегодня у меня другие заботы. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "«И до них дойдёт очередь». Друид подхватывает саженцы. Репутация −1.",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/2/name": "Начинаю привыкать к этой работе. Что случилось?",
+      "/offerDialog/options/2/text": "«Делянку у $(poi_1) заняли враги. Освободи её, и у саженцев появится шанс».",
+      "/offerDialog/options/2/options/0/name": "Значит, сперва бой, потом посадки. (Принять)",
+      "/offerDialog/options/2/options/1/name": "Сегодня вряд ли успею.",
+      "/offerDialog/options/2/options/1/text": "«У леса долгая память», — тихо говорит друид. Репутация −1.",
+      "/offerDialog/options/2/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "У ворот друид уже распутывает корни. «Теперь можно сажать». Репутация +3.",
+      "/epilogue/options/0/name": "А моя половина сделки?",
+      "/epilogue/options/0/text": "Друид хмурится и протягивает свёрток, стянутый лозой. Репутация −1.",
+      "/epilogue/options/0/options/0/name": "Завершить задание",
+      "/epilogue/options/1/name": "Пусть приживутся.",
+      "/epilogue/options/1/text": "В твою ладонь ложится свёрток, перевязанный зелёной лозой.",
+      "/epilogue/options/1/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Делянка у $(poi_1) остаётся занятой. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "11": {
+    "name": "Крыша для переселенцев",
+    "description": "Семьи из Царства Земли ищут, где пережить холода. Освободи $(poi_1) от врагов и сообщи поселенцу, что можно въезжать.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в отмеченном районе — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Выйти наружу",
+        "description": "Покинь расчищенное место."
+      },
+      "3": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "С гружёной телеги спрыгивает человек с детским башмаком в руке. «Один пропал, другой нашли. А теперь нам ещё и дом искать. Поможешь?»",
+      "/offerDialog/options/0/name": "С башмаком или с домом?",
+      "/offerDialog/options/0/text": "«С домом. Башмак я и сам найду». Он оглядывается на телегу.",
+      "/offerDialog/options/0/options/0/name": "Что за дом?",
+      "/offerDialog/options/0/options/0/text": "«Несколько семей сложились на землю. Только место, где мы хотим осесть, уже занято».",
+      "/offerDialog/options/0/options/0/options/0/name": "И вы хотите освободить его?",
+      "/offerDialog/options/0/options/0/options/0/text": "«Да. Видишь печать? В грамоте прямо сказано: $(poi_1)». Чернила ещё пачкают ему пальцы.",
+      "/offerDialog/options/0/options/0/options/0/options/0/name": "Отметь место на карте. (Принять)",
+      "/offerDialog/options/0/options/0/options/0/options/1/name": "Придётся поискать кого-то ещё. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/1/name": "А почему сами не справитесь?",
+      "/offerDialog/options/0/options/0/options/1/text": "«Если я полезу в драку, кто присмотрит за детьми и телегой?»",
+      "/offerDialog/options/0/options/0/options/1/options/0/name": "Сторожи телегу. Место я освобожу. (Принять)",
+      "/offerDialog/options/0/options/0/options/1/options/1/name": "Придётся поискать кого-то ещё. (Отказаться)",
+      "/offerDialog/options/1/name": "Мне пора. (Отказаться)",
+      "/epilogue/text": "Поселенец хохочет и торопит возницу. В $(poi_3) твоя репутация выросла на 1. Репутация +1.",
+      "/epilogue/options/0/name": "Можете въезжать. Веник всё-таки прихватите. (Завершить)",
+      "/failureDialog/text": "Участок $(poi_1) останется за прежними обитателями. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "12": {
+    "name": "Первая борозда",
+    "description": "Пахари ждут у края равнины. Победи всех врагов в $(poi_1), затем покинь расчищенное место.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в степи — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Выйти наружу",
+        "description": "Покинь расчищенное место."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Пахарь крошит в ладони комок глины. «Народ прибывает, а поле всё то же. Возьмём ещё полосу — прокормим всех».",
+      "/offerDialog/options/0/name": "Расскажи, чем помочь.",
+      "/offerDialog/options/0/text": "«Мне бы вспахать землю. Пока там враги, ни я, ни мой буйвол туда не сунемся».",
+      "/offerDialog/options/0/options/0/name": "Я расчищу поле. (Принять)",
+      "/offerDialog/options/0/options/1/name": "На такое я не подписываюсь. (Отказаться)",
+      "/offerDialog/options/0/options/2/name": "Готовь плуг. (Принять)",
+      "/offerDialog/options/1/name": "С этим я не помогу. (Отказаться)",
+      "/offerDialog/options/1/text": "Пахарь отряхивает ладони и уходит. Репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "Последний враг отступает. У межи уже ждёт буйвол в упряжи, а на плуге лежит твоя плата.",
+      "/epilogue/options/0/name": "Удачного урожая. (Завершить)",
+      "/failureDialog/text": "До поля $(poi_1) плуг так и не дошёл. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "13": {
+    "name": "Ониксовый компас",
+    "description": "Стрелка компаса тянется к болотам. Отправляйся в $(poi_2), победи всех врагов и расскажи, куда она тебя привела.",
+    "stages": {
+      "1": {
+        "name": "Покинуть город",
+        "description": "Выйди из города на поиски."
+      },
+      "2": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в болотном краю — $(poi_2). Победи всех противников внутри."
+      },
+      "3": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "На болотной тропе стоит гном в безукоризненно белом халате. «Ты. Подойди».",
+      "/offerDialog/options/0/name": "Подойти молча.",
+      "/offerDialog/options/0/text": "Гном суёт тебе увесистый мешочек. «Компас укажет дорогу. Убери всё, на что укажет стрелка».",
+      "/offerDialog/options/0/options/0/name": "Короткое поручение. Понял. (Принять)",
+      "/offerDialog/options/0/options/0/text": "Гном не замечает шутки.",
+      "/offerDialog/options/0/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/0/options/1/name": "Взвесить мешочек на ладони.",
+      "/offerDialog/options/0/options/1/text": "«Ты слушаешь? Шевелись!» Репутация −1.",
+      "/offerDialog/options/0/options/1/options/0/name": "Уронить мешочек. «Что?» (Отказаться)",
+      "/offerDialog/options/0/options/1/options/0/text": "Гном хватает компас и удаляется, осыпая проклятьями каждую лужу. Репутация −1.",
+      "/offerDialog/options/0/options/1/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/0/options/1/options/1/name": "Слушаюсь. (Принять)",
+      "/offerDialog/options/0/options/1/options/1/text": "«Вот так-то лучше». Репутация +1.",
+      "/offerDialog/options/0/options/1/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Сперва дорасти до приказов. (Отказаться)",
+      "/offerDialog/options/1/text": "Гном сердито топает прочь. Репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/2/name": "Что вам нужно?",
+      "/offerDialog/options/2/text": "«Слушай. Иди за стрелкой. Убери всё, на что она укажет. Когда перестанет указывать — верни компас».",
+      "/offerDialog/options/2/options/0/name": "Взвесить мешочек на ладони.",
+      "/offerDialog/options/2/options/0/text": "«Ты слушаешь? Шевелись!» Репутация −1.",
+      "/offerDialog/options/2/options/0/options/0/name": "Уронить мешочек. «Что?» (Отказаться)",
+      "/offerDialog/options/2/options/0/options/0/text": "Гном хватает компас и удаляется, осыпая проклятьями каждую лужу. Репутация −1.",
+      "/offerDialog/options/2/options/0/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/2/options/0/options/1/name": "Слушаюсь. (Принять)",
+      "/offerDialog/options/2/options/0/options/1/text": "«Вот так-то лучше». Репутация +1.",
+      "/offerDialog/options/2/options/0/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/2/options/1/name": "Понял. (Принять)",
+      "/epilogue/text": "У ворот ждёт другой гном, чуть выше ростом. «Компас, будь добр».",
+      "/epilogue/options/0/name": "Обменять тяжёлый мешочек на лёгкий кошель. (Завершить)",
+      "/failureDialog/text": "Ты бросаешь поиски в $(poi_2). Оникс прямо в ладони рассыпается чёрным песком. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "За воротами ты вынимаешь компас. На чёрном камне горит единственная алая стрелка.",
+      "/stages/0/epilogue/options/0/name": "Запомнить направление и убрать компас.",
+      "/stages/0/epilogue/options/1/name": "Рассмотреть камень.",
+      "/stages/0/epilogue/options/1/text": "На гладком ониксе ни делений, ни рун. Только стрелка.",
+      "/stages/0/epilogue/options/1/options/0/name": "Спрятать компас и идти дальше.",
+      "/stages/0/epilogue/options/1/options/1/name": "Коснуться стрелки.",
+      "/stages/0/epilogue/options/1/options/1/text": "Сколько ни поворачивай камень, стрелка глядит в одну сторону. Даже пальцем её не сдвинуть.",
+      "/stages/0/epilogue/options/1/options/1/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "В чёрной глади больше нет стрелки. Пора возвращать компас."
+    }
+  },
+  "14": {
+    "name": "Пепел на снегу",
+    "description": "Жители видели над перевалом столб пепла. Поднимись в горы, очисти $(poi_1) от врагов и вернись с докладом.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в горном краю — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Старик перехватывает тебя у ворот. «$(playername)! Стой. Я видел, как горит наша деревня».",
+      "/offerDialog/options/0/name": "Мы знакомы?",
+      "/offerDialog/options/0/text": "«Нет. Но во сне я видел огонь, разрушенные крыши и тебя».",
+      "/offerDialog/options/0/options/0/name": "В здешних горах огнём мало кого удивишь.",
+      "/offerDialog/options/0/options/0/text": "«Ты не понимаешь. Дитя Латлисс ищет логово. Следующая остановка — наши крыши». Репутация −1.",
+      "/offerDialog/options/0/options/0/options/0/name": "Дракон? Вот это поединок!",
+      "/offerDialog/options/0/options/0/options/0/text": "«Поединок ты выиграешь. От деревни к тому времени останется печная труба».",
+      "/offerDialog/options/0/options/0/options/0/options/0/name": "Что же делать?",
+      "/offerDialog/options/0/options/0/options/0/options/0/text": "«Сперва дракон осмотрит $(poi_1). Освободи ему логово заранее, и он сложит крылья вдали от наших домов».",
+      "/offerDialog/options/0/options/0/options/0/options/0/options/0/name": "Расчищать $(poi_1) для дракона? Нет.",
+      "/offerDialog/options/0/options/0/options/0/options/0/options/1/name": "Покажи на карте. (Принять)",
+      "/offerDialog/options/0/options/0/options/0/options/1/name": "Придётся поискать кого-то ещё. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/1/name": "С драконами я связываться не буду. (Отказаться)",
+      "/offerDialog/options/0/options/1/name": "Расскажи, что ещё ты видел.",
+      "/offerDialog/options/0/options/1/text": "«Дитя Латлисс ищет логово. В моём сне оно летело прямо сюда». Репутация +1.",
+      "/offerDialog/options/0/options/1/options/0/name": "С драконами я связываться не буду. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/1/name": "Дракон? Вот это поединок!",
+      "/offerDialog/options/0/options/1/options/1/text": "«Поединок ты выиграешь. От деревни к тому времени останется печная труба».",
+      "/offerDialog/options/0/options/1/options/1/options/0/name": "Что же делать?",
+      "/offerDialog/options/0/options/1/options/1/options/0/text": "«Сперва дракон осмотрит $(poi_1). Освободи ему логово заранее, и он сложит крылья вдали от наших домов».",
+      "/offerDialog/options/0/options/1/options/1/options/0/options/0/name": "Покажи на карте. (Принять)",
+      "/offerDialog/options/0/options/1/options/1/options/0/options/1/name": "Расчищать $(poi_1) для дракона? Нет.",
+      "/offerDialog/options/1/name": "Рискну оставить всё как есть. (Отказаться)",
+      "/offerDialog/options/1/text": "«Уходи! Пока ещё можешь!» Репутация −2.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "За воротами старик уже в седле. Он наклоняется и вручает тебе кошель. Репутация +3.",
+      "/epilogue/options/0/name": "Собрался в дорогу?",
+      "/epilogue/options/0/text": "«Я видел, как деревня горит. Удалось ли тебе изменить будущее, мне ещё не снилось».",
+      "/epilogue/options/0/options/0/name": "Поглядеть на чистое небо и войти в город. (Завершить)",
+      "/failureDialog/text": "Логово $(poi_1) остаётся занятым. Репутация −3.",
+      "/failureDialog/options/0/name": "Дальше",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "В $(poi_1) стих шум боя. Любопытно было бы увидеть дракона, но встречать нового хозяина в дверях, пожалуй, лишнее.",
+      "/stages/0/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "15": {
+    "name": "Причал на острове",
+    "description": "Рыбаки привязали лодки вдали от берега. Победи всех врагов в $(poi_1) и сообщи в городе, что к острову снова можно причалить.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в островном краю — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Человек в простом халате обращается к тебе вполголоса. На обшлаг ушло больше шёлка, чем на весь твой плащ.",
+      "/offerDialog/options/0/name": "Чем могу помочь?",
+      "/offerDialog/options/0/text": "«Лазарь, к вашим услугам. Служу в доме, имя которого предпочту опустить».",
+      "/offerDialog/options/0/options/0/name": "Что нужно этому дому?",
+      "/offerDialog/options/0/options/0/text": "«Тишина. Несколько дней на острове без свидетелей. Место выбрано, но берег занят».",
+      "/offerDialog/options/0/options/0/options/0/name": "Значит, требуется освободить берег?",
+      "/offerDialog/options/0/options/0/options/0/text": "«Именно. Мои господа умеют благодарить».",
+      "/offerDialog/options/0/options/0/options/0/options/0/name": "Договорились. (Принять)",
+      "/offerDialog/options/0/options/0/options/0/options/1/name": "Придётся поискать кого-то ещё. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/1/name": "Пусть оставят остров его жителям. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/1/text": "Лазарь отвешивает поклон такой глубины, какой едва хватило бы для кивка.",
+      "/offerDialog/options/0/options/0/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/0/options/1/name": "Хочу знать, на кого работаю.",
+      "/offerDialog/options/0/options/1/text": "«Вы работаете на меня. Моё имя вы знаете».",
+      "/offerDialog/options/0/options/1/options/0/name": "Имени маловато. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/1/name": "Хорошо, Лазарь. Что требуется?",
+      "/offerDialog/options/0/options/1/options/1/text": "«Приготовьте остров к приезду хозяев. Когда они сойдут на берег, там должно быть тихо».",
+      "/offerDialog/options/0/options/1/options/1/options/0/name": "У меня мало времени. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/1/options/0/text": "Лазарь кивает и продолжает поиски.",
+      "/offerDialog/options/0/options/1/options/1/options/1/name": "Я расчищу поле. (Принять)",
+      "/offerDialog/options/1/name": "Сейчас неудобно. (Отказаться)",
+      "/offerDialog/options/1/text": "Лазарь едва склоняет голову. Репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "На условленном месте ждёт награда. С воды уже доносится плеск вёсел частной лодки.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Делянка у $(poi_1) остаётся занятой. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "16": {
+    "name": "Долг пустоши",
+    "description": "В караванной книге остался один закрытый маршрут. Очисти $(poi_1) от врагов и вернись к тому, кто ведёт книгу.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в пустоши — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "В чайной за твоим столом садится незнакомец. Он расправляет долговую расписку, сложенную раз восемь.",
+      "/offerDialog/options/0/name": "Чем помочь?",
+      "/offerDialog/options/0/text": "«Надеюсь, вы умеете сражаться. Для моего дела одних счётов мало».",
+      "/offerDialog/options/0/options/0/name": "Подождать, пока он заговорит.",
+      "/offerDialog/options/0/options/0/text": "«Мне досталась земля. Пока ждал наследства, я заложил её, а теперь кредиторы хотят получить долг».",
+      "/offerDialog/options/0/options/0/options/0/name": "Кажется, понимаю.",
+      "/offerDialog/options/0/options/0/options/0/text": "«Есть одна беда. На земле стоит $(poi_1), а внутри завелись враги. Без вас мне её не продать».",
+      "/offerDialog/options/0/options/0/options/0/options/0/name": "Всё, что найду внутри, моё. (Принять)",
+      "/offerDialog/options/0/options/0/options/0/options/1/name": "Придётся поискать кого-то ещё. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/1/name": "А почему сами не справитесь?",
+      "/offerDialog/options/0/options/0/options/1/text": "«Покупателя я нашёл. Осталось очистить $(poi_1). Справитесь?»",
+      "/offerDialog/options/0/options/0/options/1/options/0/name": "Берусь. Надеюсь, в наследство достались и деньги. (Принять)",
+      "/offerDialog/options/0/options/0/options/1/options/1/name": "Придётся поискать кого-то ещё. (Отказаться)",
+      "/offerDialog/options/1/name": "Вы ошиблись человеком. (Отказаться)",
+      "/offerDialog/options/1/text": "За соседним столом прислушиваются, но незнакомец уходит без спора. Репутация −1.",
+      "/offerDialog/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "За участок $(poi_1) нашёлся покупатель. Наследник отмеряет твою долю. Впервые за вечер его руки не дрожат.",
+      "/epilogue/options/0/name": "Продавай, пока там никто другой не поселился. (Завершить)",
+      "/failureDialog/text": "Участок $(poi_1) остаётся как был. Кредиторам придётся подождать. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "17": {
+    "name": "Находки в камышах",
+    "description": "Собиратель костей ищет образцы с болот. Цель — $(enemy_1). Одержи три победы и вернись к заказчику.",
+    "stages": {
+      "1": {
+        "name": "Три поединка",
+        "description": "Ищи противника на болотах. Цель — $(enemy_1). Одержи три победы."
+      },
+      "2": {
+        "name": "Вернуться в город",
+        "description": "Сообщи заказчику о трёх победах."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "У чайной висит доска объявлений. Записки держатся на рыбьих косточках и медных гвоздиках.",
+      "/offerDialog/options/0/name": "У меня уже есть дело. (Уйти)",
+      "/offerDialog/options/1/name": "Прочитать объявления.",
+      "/offerDialog/options/1/text": "Чернила кое-где размыло дождём. Несколько листков уцелели под навесом.",
+      "/offerDialog/options/1/options/0/name": "Прочитать рекламу сбоку.",
+      "/offerDialog/options/1/options/0/text": "«Самокопирующаяся бумага Гимджи. Хватит и на письмо домой, и на всю переписку Ба-Синг-Се!»",
+      "/offerDialog/options/1/options/0/options/0/name": "Лучше напишу на обороте старого письма. (Уйти)",
+      "/offerDialog/options/1/options/1/name": "Осмотреть сложенный лист под гвоздём.",
+      "/offerDialog/options/1/options/1/text": "Ровным почерком выведено: «Возьмите один экземпляр».",
+      "/offerDialog/options/1/options/1/options/0/name": "Странная записка. Оставить её на месте.",
+      "/offerDialog/options/1/options/1/options/1/name": "Оторвать один экземпляр.",
+      "/offerDialog/options/1/options/1/options/1/text": "В руке у тебя записка. Под гвоздём висит точно такая же, вплоть до кляксы.",
+      "/offerDialog/options/1/options/1/options/1/options/0/name": "Положить лист и уйти.",
+      "/offerDialog/options/1/options/1/options/1/options/1/name": "Развернуть записку.",
+      "/offerDialog/options/1/options/1/options/1/options/1/text": "«$(playername), нужны три образца. Цель — $(enemy_1). Приноси добычу в чайную».",
+      "/offerDialog/options/1/options/1/options/1/options/1/options/0/name": "Даже имя верное. Берусь.",
+      "/offerDialog/options/1/options/1/options/1/options/1/options/1/name": "Пустить клочки по ветру. (Отказаться)",
+      "/offerDialog/options/1/options/2/name": "Прочитать короткую записку красными чернилами.",
+      "/offerDialog/options/1/options/2/text": "«{COLOR=red}Клыки при мне. Готов в дорогу.{ENDCOLOR}»",
+      "/offerDialog/options/1/options/2/options/0/name": "Это вовсе не чернила. Отойти от доски.",
+      "/epilogue/text": "Ты везёшь добычу в город. При словах «$(enemy_1)» прохожие без вопросов уступают дорогу.",
+      "/epilogue/options/0/name": "Поискать того, кто ждёт груз.",
+      "/epilogue/options/0/text": "У чайной за двумя тележками присматривает некромант. Одна тележка предусмотрительно пуста.",
+      "/epilogue/options/0/options/0/name": "Груз с пометкой «$(enemy_1)» отправляется в телегу. Ты получаешь награду. Репутация +3.",
+      "/epilogue/options/0/options/1/name": "Заглянуть в телеги.",
+      "/epilogue/options/0/options/1/text": "На одной телеге образцы с пометкой «$(enemy_1)», на другой — одинаковые мешочки с платой.",
+      "/epilogue/options/0/options/1/options/0/name": "Обратиться к возчику.",
+      "/epilogue/options/0/options/1/options/0/text": "«Груз сюда. Возьми один мешочек». Видимо, за утро он сказал это уже раз сто.",
+      "/epilogue/options/0/options/1/options/0/options/0/name": "Сдать груз «$(enemy_1)» и взять плату. Репутация +3.",
+      "/failureDialog/text": "Три победы над целью $(enemy_1) оказались слишком дорогой ценой. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "Три боя позади, цель $(enemy_1) снята. Отметь задание в журнале, чтобы найти дорогу за наградой.",
+      "/stages/0/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "18": {
+    "name": "Три круга на воде",
+    "description": "На островной доске висит задача на сосредоточенность. Выйди из города и одержи три победы. Твой противник — $(enemy_2).",
+    "stages": {
+      "1": {
+        "name": "Выйти из города",
+        "description": "Покинь город и начни поиски."
+      },
+      "2": {
+        "name": "Три поединка",
+        "description": "Ищи противника на островах. Цель — $(enemy_2). Одержи три победы."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "У чайной висит доска объявлений. Записки держатся на рыбьих косточках и медных гвоздиках.",
+      "/offerDialog/options/0/name": "У меня уже есть дело. (Уйти)",
+      "/offerDialog/options/1/name": "Прочитать объявления.",
+      "/offerDialog/options/1/text": "Чернила кое-где размыло дождём. Несколько листков уцелели под навесом.",
+      "/offerDialog/options/1/options/0/name": "Прочитать рекламу сбоку.",
+      "/offerDialog/options/1/options/0/text": "«Спокойная вода отражает луну. Удержи внимание в трёх поединках. Цель — $(enemy_2)».",
+      "/offerDialog/options/1/options/0/options/0/name": "Слишком туманно. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/name": "Попробую. (Принять)",
+      "/offerDialog/options/1/options/1/name": "Осмотреть лист синих чернил.",
+      "/offerDialog/options/1/options/1/text": "Кто-то приписал: «Три раза? Цель — $(enemy_2)? И зачем?»",
+      "/offerDialog/options/1/options/1/options/0/name": "Вот именно. (Отказаться)",
+      "/offerDialog/options/1/options/1/options/1/name": "Узнаю на месте. (Принять)",
+      "/epilogue/text": "«Три поединка, ни одного лишнего движения». За спиной парит джинн. Он направляет к тебе несколько сокровищ.",
+      "/epilogue/options/0/name": "Осторожно принять награду.",
+      "/epilogue/options/0/text": "Джинн растворяется в дымке. Там, где стоял твой противник $(enemy_2), тоже пусто.",
+      "/epilogue/options/0/options/0/name": "Это и было испытанием? Репутация +3. (Завершить)",
+      "/failureDialog/text": "Ты вычёркиваешь цель $(enemy_2) из журнала. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "19": {
+    "name": "Тропы лесничего",
+    "description": "В лесу снова опасно ходить поодиночке. Цель — $(enemy_1). Выиграй три боя и сообщи лесничему, что тропы свободны.",
+    "stages": {
+      "1": {
+        "name": "Три поединка",
+        "description": "Ищи противника в лесу. Цель — $(enemy_1). Одержи три победы."
+      },
+      "2": {
+        "name": "Вернуться в город",
+        "description": "Сообщи заказчику о трёх победах."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Эльф ставит у двери лук. Тетива промокла. «Опять весь день в лесу?» — спрашивают из-за чайника.",
+      "/offerDialog/options/0/name": "Не вмешиваться. (Уйти)",
+      "/offerDialog/options/1/name": "Прислушаться.",
+      "/offerDialog/options/1/text": "Охотник садится, обхватив чашку обеими руками. «Весь день. И завтра опять».",
+      "/offerDialog/options/1/options/0/name": "За кем охотитесь?",
+      "/offerDialog/options/1/options/0/text": "Эльфы переглядываются и пересаживаются подальше. Видимо, вопрос был лишним. Репутация −1.",
+      "/offerDialog/options/1/options/0/options/0/name": "Оставить их в покое.",
+      "/offerDialog/options/1/options/1/name": "Подождать, пока охотник продолжит.",
+      "/offerDialog/options/1/options/1/text": "«Лес уже не может всех прокормить. Чаще всего попадается $(enemy_1). Нам бы ещё одну пару рук».",
+      "/offerDialog/options/1/options/1/options/0/name": "Могу выйти вместо вас.",
+      "/offerDialog/options/1/options/1/options/0/text": "Охотник оценивает твои дорожные сапоги. «Ладно. За три победы заплатим».",
+      "/offerDialog/options/1/options/1/options/0/options/0/name": "Беру три. Цель — $(enemy_1). (Принять)",
+      "/offerDialog/options/1/options/1/options/0/options/1/name": "Я передумал. (Отказаться)",
+      "/offerDialog/options/1/options/1/options/0/options/1/text": "Охотники возвращаются к разговору. Репутация −1.",
+      "/offerDialog/options/1/options/1/options/0/options/2/name": "Сколько платите?",
+      "/offerDialog/options/1/options/1/options/0/options/2/text": "«Для начала три победы. Из общинной кассы заплатим щедро».",
+      "/offerDialog/options/1/options/1/options/0/options/2/options/0/name": "Когда назовёшь сумму, тогда и поговорим. (Отказаться)",
+      "/offerDialog/options/1/options/1/options/0/options/2/options/1/name": "А если одержу шесть? (Принять)",
+      "/offerDialog/options/1/options/1/options/0/options/2/options/1/text": "«Только три. Весной лес должен встретить всех своих обитателей».",
+      "/offerDialog/options/1/options/1/options/0/options/2/options/1/options/0/name": "Кивнуть и собраться в путь.",
+      "/offerDialog/options/1/options/1/options/1/name": "Сегодня охота на $(enemy_1) меня не манит. (Отказаться)",
+      "/offerDialog/options/1/options/2/name": "Доесть и уйти.",
+      "/epilogue/text": "Лесничий выдаёт награду из общинной кассы. «Видел молодую поросль у тропы? Весной она пойдёт в рост». Репутация +3.",
+      "/epilogue/options/0/name": "Продолжить",
+      "/failureDialog/text": "Ты вычёркиваешь из журнала цель $(enemy_1). Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "20": {
+    "name": "Право идти с караваном",
+    "description": "Сэр Каллус ищет на равнине оруженосца. Докажи ему своё мастерство в трёх поединках. Твой противник — $(enemy_1). Затем вернись на площадь.",
+    "stages": {
+      "1": {
+        "name": "Три поединка",
+        "description": "Ищи противника на равнинах. Цель — $(enemy_1). Одержи три победы."
+      },
+      "2": {
+        "name": "Вернуться в город",
+        "description": "Сообщи заказчику о трёх победах."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Посреди площади гремит человек в латах: «Кто достоин стать оруженосцем?» Торговка чаем придерживает дребезжащие чашки.",
+      "/offerDialog/options/0/name": "Подойти поближе.",
+      "/offerDialog/options/0/text": "«По виду ты подходишь. Но достоин ли ты?»",
+      "/offerDialog/options/0/options/0/name": "Достоин чего?",
+      "/offerDialog/options/0/options/0/text": "«Стать оруженосцем сэра Каллуса! Ну?»",
+      "/offerDialog/options/0/options/0/options/0/name": "А кто такой сэр Каллус?",
+      "/offerDialog/options/0/options/0/options/0/text": "«Я, конечно! Ищу ученика, достойного моего искусства».",
+      "/offerDialog/options/0/options/0/options/0/options/0/name": "Допустим. А дальше?",
+      "/offerDialog/options/0/options/0/options/0/options/0/text": "«Докажи это. Три честных победы. Цель — $(enemy_1)».",
+      "/offerDialog/options/0/options/0/options/0/options/0/options/0/name": "Это было только предположение. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/0/options/0/options/1/name": "Принимаю вызов.",
+      "/offerDialog/options/0/options/0/options/0/options/1/name": "Если встречу кого-нибудь, сообщу. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/1/name": "Нет. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/1/text": "Прямой ответ сбивает рыцаря с мысли. Впрочем, на площади уже появился новый слушатель.",
+      "/offerDialog/options/0/options/0/options/1/options/0/name": "Продолжить",
+      "/offerDialog/options/0/options/1/name": "А вы-то кто?",
+      "/offerDialog/options/0/options/1/text": "«Сэр Каллус, разумеется!»",
+      "/offerDialog/options/0/options/1/options/0/name": "А вы достойны?",
+      "/offerDialog/options/0/options/1/options/0/text": "«Я действительно сэр Каллус». У него начинают подрагивать усы.",
+      "/offerDialog/options/0/options/1/options/0/options/0/name": "Так достойны ли вы, сэр Каллус?",
+      "/offerDialog/options/0/options/1/options/0/options/0/text": "«Я-то? Собственных уроков? Разумеется! И докажу!»",
+      "/offerDialog/options/0/options/1/options/0/options/0/options/0/name": "Как именно?",
+      "/offerDialog/options/0/options/1/options/0/options/0/options/0/text": "«Три победы. Та же цель — $(enemy_1). Потом встречаемся здесь».",
+      "/offerDialog/options/0/options/1/options/0/options/0/options/0/options/0/name": "Отлично. Теперь справитесь сами. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/0/options/0/options/0/options/0/text": "Сэр Каллус хмурится. Так его ещё не отсылали. Репутация −1.",
+      "/offerDialog/options/0/options/1/options/0/options/0/options/0/options/0/options/0/name": "Ну, в путь!",
+      "/offerDialog/options/0/options/1/options/0/options/0/options/0/options/1/name": "Принимаю вызов.",
+      "/offerDialog/options/0/options/1/options/0/options/1/name": "Хорошо, с этим разобрались.",
+      "/offerDialog/options/0/options/1/options/0/options/1/text": "Рыцарь моргает. «Так ты примешь вызов? Три победы, цель — $(enemy_1)».",
+      "/offerDialog/options/0/options/1/options/0/options/1/options/0/name": "Принимаю вызов.",
+      "/offerDialog/options/0/options/1/options/0/options/1/options/1/name": "Мне неинтересно. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/0/options/2/name": "Доброго дня, сэр Каллус. (Отказаться)",
+      "/offerDialog/options/1/name": "Пройти мимо, пока он не заметил.",
+      "/epilogue/text": "Каллуса на площади нет. Зато лавочники встречают тебя так, будто ты освободил город от осады.",
+      "/epilogue/options/0/name": "Неужели всем так досаждал $(enemy_1)?",
+      "/epilogue/options/0/text": "«Нет, сэр Каллус! С тех пор как ты ушёл, его не слышно». Репутация +3.",
+      "/epilogue/options/0/options/0/name": "Продолжить",
+      "/failureDialog/text": "Уроки Каллуса тебя больше не манят. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "21": {
+    "name": "Полевой журнал механика",
+    "description": "Механик оставил три пустые строки в журнале наблюдений. Цель в пустоши — $(enemy_1). Одержи три победы и принеси ему отчёт.",
+    "stages": {
+      "1": {
+        "name": "Три поединка",
+        "description": "Ищи противника в пустоши. Цель — $(enemy_1). Одержи три победы."
+      },
+      "2": {
+        "name": "Вернуться в город",
+        "description": "Сообщи заказчику о трёх победах."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«Во имя науки!» — кричат из чайной вслед убегающей девушке. В дверях появляется гном с мерной лентой.",
+      "/offerDialog/options/0/name": "Понаблюдать.",
+      "/offerDialog/options/0/text": "Гном сворачивает ленту. «Может, вы поможете с одним опытом?»",
+      "/offerDialog/options/0/options/0/name": "Смотря с каким.",
+      "/offerDialog/options/0/options/0/text": "«Верно. С плугом вы вряд ли ходите…» Он листает блокнот, испещрённый рисунками шестерёнок.",
+      "/offerDialog/options/0/options/0/options/0/name": "В другой раз. (Отказаться)",
+      "/offerDialog/options/0/options/0/options/0/text": "Гном уходит с головой в записи и, похоже, даже не слышит ответа.",
+      "/offerDialog/options/0/options/0/options/0/options/0/name": "Тихонько уйти.",
+      "/offerDialog/options/0/options/0/options/1/name": "Дождаться, пока он найдёт нужную страницу.",
+      "/offerDialog/options/0/options/0/options/1/text": "«Вот! Нужны три образца для изучения. Здесь водится $(enemy_1). Добудешь?»",
+      "/offerDialog/options/0/options/0/options/1/options/0/name": "Это по мне. (Принять)",
+      "/offerDialog/options/0/options/0/options/1/options/1/name": "Пожалуй, останусь при магии. (Отказаться)",
+      "/offerDialog/options/1/name": "Пройти своей дорогой.",
+      "/epilogue/text": "При виде груза с пометкой «$(enemy_1)» гном роняет ленту и хватает блокнот. Репутация +3.",
+      "/epilogue/options/0/name": "Учёный уже поглощён работой. На столе остался приготовленный для тебя свёрток.",
+      "/failureDialog/text": "Образцы $(enemy_1) учёному придётся добыть самому. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "22": {
+    "name": "Обереги перевала",
+    "description": "Хранитель горного святилища ждёт у тропы. Твоя цель — $(enemy_1). После трёх побед вернись к хранителю.",
+    "stages": {
+      "1": {
+        "name": "Три поединка",
+        "description": "Ищи противника в горах. Цель — $(enemy_1). Одержи три победы."
+      },
+      "2": {
+        "name": "Вернуться в город",
+        "description": "Сообщи заказчику о трёх победах."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "У чайной висит доска объявлений. Записки держатся на рыбьих косточках и медных гвоздиках.",
+      "/offerDialog/options/0/name": "У меня уже есть дело. (Уйти)",
+      "/offerDialog/options/1/name": "Прочитать объявления.",
+      "/offerDialog/options/1/text": "Чернила кое-где размыло дождём. Несколько листков уцелели под навесом.",
+      "/offerDialog/options/1/options/0/name": "Прочитать рекламу сбоку.",
+      "/offerDialog/options/1/options/0/text": "«Камни Гимджи. Каждый маг земли подтвердит: хороший камень на дороге не валяется».",
+      "/offerDialog/options/1/options/0/options/0/name": "Лучше напишу на обороте старого письма. (Уйти)",
+      "/offerDialog/options/1/options/1/name": "Прочитать короткую записку красными чернилами.",
+      "/offerDialog/options/1/options/1/text": "«{COLOR=red}Нужны три победы. Цель — $(enemy_1). За наградой к шаману.{ENDCOLOR}»",
+      "/offerDialog/options/1/options/1/options/0/name": "Ясно и просто. (Принять)",
+      "/offerDialog/options/1/options/1/options/1/name": "Обойдусь без встречи с шаманом и $(enemy_1). (Отказаться)",
+      "/epilogue/text": "В шатре пахнет можжевельником. «Прислушайся. Духи перевала больше не тревожатся». Репутация +3.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Ты прекращаешь поиски цели $(enemy_1). Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "23": {
+    "name": "Последний гонг",
+    "description": "На столичной арене вывесили список участников. Доберись до $(poi_1) и выиграй турнир.",
+    "stages": {
+      "1": {
+        "name": "Найти арену",
+        "description": "Отправляйся в $(poi_1)."
+      },
+      "2": {
+        "name": "Выиграть турнир",
+        "description": "Стань победителем местной арены."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«КТО ЛУЧШИЙ В ШАНДАЛАРЕ?» Девчонка у столба без всякого рупора перекрикивает весь базар.",
+      "/offerDialog/options/0/name": "Я тебя слышу. Что случилось?",
+      "/offerDialog/options/0/text": "Она сбивается: «Э-э…» Затем достаёт из рукава мятый листок.",
+      "/offerDialog/options/0/options/0/name": "Взять у неё листок.",
+      "/offerDialog/options/0/options/0/text": "«МОЁ!» Она отвоёвывает листок. «Докажи своё мастерство на арене $(poi_1)!» Репутация −1.",
+      "/offerDialog/options/0/options/0/options/0/name": "Где угодно тише, чем здесь. Берусь.",
+      "/offerDialog/options/0/options/0/options/1/name": "Пойду поищу тихий двор. (Отказаться)",
+      "/offerDialog/options/0/options/1/name": "Подождать, пока она прочтёт.",
+      "/offerDialog/options/0/options/1/text": "«Идите в $(poi_1)… выступайте… выигрывайте призы». Она гордо разглаживает листок. «Ну как?»",
+      "/offerDialog/options/0/options/1/options/0/name": "Договорились. Еду на арену.",
+      "/offerDialog/options/0/options/1/options/1/name": "Далековато. Спасибо. (Отказаться)",
+      "/offerDialog/options/0/options/1/options/1/text": "Она набирает воздуха. «КТО ЛУЧШИЙ В ШАНДАЛАРЕ?»",
+      "/offerDialog/options/0/options/1/options/1/options/0/name": "Прикрыть уши и поспешить дальше.",
+      "/offerDialog/options/1/name": "Прикрыть уши и пройти мимо. (Отказаться)",
+      "/epilogue/text": "Трибуны гремят, как обвал. Репутация в $(poi_1) +3.",
+      "/epilogue/options/0/name": "Завершить задание",
+      "/failureDialog/text": "Сегодня арена оказалась сильнее. Репутация в $(poi_1) −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "В $(poi_1) слышен гул трибун. Кажется, полгорода уже заняло места.",
+      "/stages/0/epilogue/options/0/name": "Дальше",
+      "/stages/0/epilogue/options/0/text": "Воздух над ареной дрожит от маны собравшихся магов.",
+      "/stages/0/epilogue/options/0/options/0/name": "Пора выходить на арену."
+    }
+  },
+  "24": {
+    "name": "Гул под песком",
+    "description": "Из улья Ксиры слышен гул даже после заката. Победи Ксиру и всех защитников улья, затем вернись с докладом.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в пустоши — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«Слышишь этот гул? Ксира снова устроила бал в улье. Ты когда-нибудь пробовал уснуть под танец сотни шершней?»",
+      "/offerDialog/options/0/name": "Балы насекомых пропущу. (Отказаться)",
+      "/offerDialog/options/0/text": "«Возвращайся, когда будешь готов».",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Дать угадаю. Вы хотите тишины?",
+      "/offerDialog/options/1/text": "«Каждую ночь одно и то же. Окна дребезжат, дети не спят, а шершни продолжают плясать».",
+      "/offerDialog/options/1/options/0/name": "Может, попросить Ксиру закончить пораньше?",
+      "/offerDialog/options/1/options/0/text": "«Уже просили. Придётся идти в улей и победить и её, и свиту».",
+      "/offerDialog/options/1/options/0/options/0/name": "Отметь улей. Берусь. (Сложное задание)",
+      "/offerDialog/options/1/options/0/options/1/name": "Поищи другого распорядителя бала. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "«Значит, опять спать с ватой в ушах».",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Уйти",
+      "/epilogue/text": "Тебя встречают у ворот с чаем и благодарностями. Репутация в $(poi_2) +3.",
+      "/epilogue/options/0/name": "Рад помочь. (Завершить)",
+      "/failureDialog/text": "Улей по-прежнему гудит по ночам.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "25": {
+    "name": "Дым из мастерской",
+    "description": "В пустоши снова дымят трубы фабрики Слобада. Победи хозяина и всех его мастеров, затем сообщи об этом в городе.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в пустоши — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«От фабрики Слобада идёт чёрный дым. Вчера железная лапа пробила стену мастерской. На стене до сих пор её отпечаток».",
+      "/offerDialog/options/0/name": "Сейчас некогда. (Отказаться)",
+      "/offerDialog/options/0/text": "«Возвращайся, когда будешь готов».",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Дать угадаю. Вы хотите тишины?",
+      "/offerDialog/options/1/text": "«Внутри целая смена мастеров и боевых машин. Если они выйдут за ворота, наш частокол их не удержит».",
+      "/offerDialog/options/1/options/0/name": "Нужно победить Слобада на фабрике?",
+      "/offerDialog/options/1/options/0/text": "«И всех его мастеров. Берегись машин, даже когда стоят без движения».",
+      "/offerDialog/options/1/options/0/options/0/name": "Отметь фабрику. Берусь. (Сложное задание)",
+      "/offerDialog/options/1/options/0/options/0/text": "«Вернёшься — спроси алхимика Мейвена. Я приготовлю тебе плату».",
+      "/offerDialog/options/1/options/0/options/1/name": "Подыщите другого мастера. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "Мейвен стряхивает с рукава сажу. «Значит, ждём».",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "Тебя встречают у ворот с чаем и благодарностями. Репутация в $(poi_2) +3.",
+      "/epilogue/options/0/name": "Рад помочь. (Завершить)",
+      "/failureDialog/text": "Фабрика продолжает дымить. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "26": {
+    "name": "Споры над болотом",
+    "description": "Зелёная пыль оседает на лодках болотных жителей. Найди логово Слаймфута, победи его и всех обитателей логова, затем возвращайся.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в болотном краю — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«Видишь пыльцу на воде? Это споры Слаймфута. Уже и на рыбачьих сетях растут грибы».",
+      "/offerDialog/options/0/name": "Сейчас некогда. (Отказаться)",
+      "/offerDialog/options/0/text": "«Загляни, когда наберёшься смелости». Репутация −1.",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Где пустил корни Слаймфут?",
+      "/offerDialog/options/1/text": "«Глубоко в трясине. Поначалу мы срезали грибы ножами. Теперь они вырастают за ночь выше лодки».",
+      "/offerDialog/options/1/options/0/name": "Значит, придётся идти на болото?",
+      "/offerDialog/options/1/options/0/text": "«Да. Освободи логово от Слаймфута и его поросли. Береги руки: слизь разъедает даже толстые перчатки».",
+      "/offerDialog/options/1/options/0/options/0/name": "Выхожу, старейшина Талдор. (Сложное задание)",
+      "/offerDialog/options/1/options/0/options/1/name": "Мне это пока не по силам. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "Талдор вздыхает. «Вот ведь молодёжь…»",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "Тебя встречают у ворот с чаем и благодарностями. Репутация в $(poi_2) +3.",
+      "/epilogue/options/0/name": "Рад помочь. (Завершить)",
+      "/failureDialog/text": "Над болотом по-прежнему висят споры. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "27": {
+    "name": "Под сточными решётками",
+    "description": "В старых стоках поднялась слизь. Спустись вниз, победи материнскую слизь и остальных врагов, затем вернись в город.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в пустоши — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«У колодца пахнет старым стоком. Вчера из-под решётки полезла слизь. Совет просит помощи».",
+      "/offerDialog/options/0/name": "Сейчас некогда. (Отказаться)",
+      "/offerDialog/options/0/text": "«Возвращайся, когда будешь готов».",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Дать угадаю. Вы хотите тишины?",
+      "/offerDialog/options/1/text": "«Пройди по старому коллектору и найди гнездо. Пока там материнская слизь, чистить решётки бесполезно».",
+      "/offerDialog/options/1/options/0/name": "Спуститься в стоки и уничтожить слизь?",
+      "/offerDialog/options/1/options/0/text": "«Да. Победи материнскую слизь и всех врагов внутри. Ступай осторожно: мостки там скользкие».",
+      "/offerDialog/options/1/options/0/options/0/name": "Отметь вход. Берусь. (Сложное задание)",
+      "/offerDialog/options/1/options/0/options/1/name": "Мои доспехи и так в пятнах. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "Торговец мрачно разглядывает решётку. «Всему приходит конец».",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "Тебя встречают у ворот с чаем и благодарностями. Репутация в $(poi_2) +3.",
+      "/epilogue/options/0/name": "Рад помочь. (Завершить)",
+      "/failureDialog/text": "Слизь остаётся в старых стоках. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "28": {
+    "name": "По ту сторону портала",
+    "description": "Шандалар мало похож на земли четырёх народов. Выслушай тех, кто знает здешние дороги.",
+    "stages": {},
+    "dialog": {
+      "/prologue/text": "Темно. Тихо. Ты падаешь, но с каждым вдохом всё медленнее.",
+      "/prologue/options/0/name": "Где я? (Обучение и основной сюжет)",
+      "/prologue/options/0/text": "Свет вспыхивает белее полуденного солнца. Ты на каменном полу. Собственное прошлое вспомнить труднее, чем пережить падение.",
+      "/prologue/options/0/options/0/name": "Поговорить с магом.",
+      "/prologue/options/0/options/0/text": "В пещере потрескивает костёр. Рядом стоит человек в капюшоне. Похоже, он ждал именно тебя.",
+      "/prologue/options/1/name": "Найти мироходцев. (Будущий режим)",
+      "/prologue/options/1/text": "Криком через всю пустошь их не дозовёшься. Разыщи ближайший город и расспроси жителей.",
+      "/prologue/options/1/options/0/name": "Продолжить",
+      "/prologue/options/1/options/0/text": "Новая цель: войди в любой город пустоши.",
+      "/prologue/options/1/options/0/options/0/name": "Закрыть",
+      "/prologue/options/2/name": "Прославить своё имя. (Будущий режим)",
+      "/prologue/options/2/text": "Для громкого имени пригодятся сильные приёмы. Начни с собственной коллекции.",
+      "/prologue/options/2/options/0/name": "Закрыть",
+      "/prologue/options/3/name": "Я уже знаю дорогу. (Новая игра+)",
+      "/prologue/options/3/text": "Маг кивает на открывшийся портал. Дальше дорога твоя.",
+      "/prologue/options/3/options/0/name": "Продолжить",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "29": {
+    "name": "Слово местных",
+    "description": "В пустоши помнят пропавших мироходцев. Найди там город и заслужи у его жителей репутацию хотя бы +5.",
+    "stages": {
+      "1": {
+        "name": "Поселение в пустоши",
+        "description": "Войди в любой город пустоши."
+      },
+      "2": {
+        "name": "Заслужить доверие",
+        "description": "Доведи репутацию хотя бы до +5 в любом городе пустоши."
+      }
+    },
+    "dialog": {
+      "/epilogue/text": "Теперь за столом тебе наливают чай, но о мироходцах местные знают не больше твоего.",
+      "/epilogue/options/0/name": "Продолжить",
+      "/epilogue/options/0/text": "Наконец к твоей скамье подсаживают проезжего купца. Он видел кое-что в дороге.",
+      "/epilogue/options/0/options/0/name": "Выслушать купца.",
+      "/epilogue/options/0/options/0/text": "«Хожу с запада на восток и обратно. Срезал недавно путь. Вернулся быстро, но больше туда не поеду».",
+      "/epilogue/options/0/options/0/options/0/name": "Что случилось?",
+      "/epilogue/options/0/options/0/options/0/text": "«На третий вечер я увидел деревню. Пахло дождём, и я обрадовался крыше. Только встречать меня никто не вышел».",
+      "/epilogue/options/0/options/0/options/0/options/0/name": "И что дальше?",
+      "/epilogue/options/0/options/0/options/0/options/0/text": "«Все двери заперты. Вдруг за углом — плеск. Смотрю: мерфолк водит руками, будто разводит воду перед лодкой».",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/name": "Какое заклинание?",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/text": "«Я не из Племени Воды. Знаю только, что перед ним открылась дыра. Он туда нырнул. Или шагнул. Сам попробуй разгляди!»",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/name": "Портал?",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Похоже. Представь, сколько сэкономишь на перевозке товара! Я и решил подождать, не вернётся ли он».",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "И дождался?",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Открылась другая дыра. Из неё полезли демоны. До следующего склада я гнал, даже лошадей не менял».",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "Мироходцы тоже пересекают границы миров. Купец отмечает деревню на твоей карте.",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "Новая цель: доберись до заброшенного города.",
+      "/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Закрыть",
+      "/epilogue/options/0/options/0/options/0/options/0/options/1/name": "Можно покороче?",
+      "/epilogue/options/0/options/0/options/0/options/0/options/1/text": "«Мерфолк исчез в дыре. Другая открылась, оттуда полезла нечисть. Я дал дёру. Так короче?»",
+      "/epilogue/options/0/options/0/options/0/options/0/options/1/options/0/name": "Где это было?",
+      "/epilogue/options/0/options/0/options/0/options/0/options/1/options/0/text": "Купец молча ставит точку на карте и берётся за чашку. Репутация −1.",
+      "/epilogue/options/0/options/0/options/0/options/0/options/1/options/0/options/0/name": "Продолжить",
+      "/epilogue/options/0/options/0/options/0/options/0/options/1/options/0/options/0/text": "Новая цель: доберись до заброшенного города.",
+      "/epilogue/options/0/options/0/options/0/options/0/options/1/options/0/options/0/options/0/name": "Закрыть",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/1/prologue/text": "В городе пустоши никто не оборачивается на пришельца. Здесь пыль на плаще обычнее чистого шёлка.",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/text": "Кентавр-почтальон ловко огибает огра с каменной глыбой. Письма под мышкой, посылка за спиной — и ни одной помятой печати.",
+      "/stages/1/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/options/0/text": "На вывесках предлагают карты, помощь с урожаем и гадания. У гадалки почему-то висит замок.",
+      "/stages/1/prologue/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/options/0/options/0/text": "Каждый здесь чем-нибудь торгует. Но ответами на твои вопросы прилавки не завалены.",
+      "/stages/1/prologue/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/options/0/options/0/options/0/text": "Завоюй доверие горожан. Репутацию дают за выполненные поручения, которые можно взять в ратуше.",
+      "/stages/1/prologue/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/options/0/options/0/options/0/options/0/text": "Цель: заслужить репутацию +5 в любом городе пустоши.",
+      "/stages/1/prologue/options/0/options/0/options/0/options/0/options/0/options/0/name": "Уйти"
+    }
+  },
+  "30": {
+    "name": "Первые дороги Шандалара",
+    "description": "Осмотрись в поселении, найди подземелье, выиграй дуэль и разыщи пещеру. После разведки загляни в город.",
+    "stages": {
+      "1": {
+        "name": "Город",
+        "description": "Войди в поселение и осмотрись."
+      },
+      "2": {
+        "name": "За ворота",
+        "description": "Покинь город."
+      },
+      "3": {
+        "name": "Подземелье",
+        "description": "Войди в любое подземелье."
+      },
+      "4": {
+        "name": "Первый поединок",
+        "description": "Победи любого врага в дуэли."
+      },
+      "5": {
+        "name": "К людям",
+        "description": "Зайди в ближайший город."
+      }
+    },
+    "dialog": {
+      "/epilogue/text": "Утром людно даже в маленьком городке. Одни везут чай, другие раскатывают над прилавками полосатые навесы.",
+      "/epilogue/options/0/name": "Продолжить",
+      "/epilogue/options/0/text": "У продавцов карт свои вывески. По ним можно понять, чем торгует лавка.",
+      "/epilogue/options/0/options/0/name": "Продолжить",
+      "/epilogue/options/0/options/0/text": "Из гостиницы доносится гул голосов. Там могут пригодиться монеты испытаний.",
+      "/epilogue/options/0/options/0/options/0/name": "Продолжить",
+      "/epilogue/options/0/options/0/options/0/text": "У ратуши висит доска поручений. Можно заработать и заодно разведать окрестности.",
+      "/epilogue/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/prologue/text": "В Шандаларе есть два главных вида мест для посещения: города и подземелья.",
+      "/stages/0/prologue/options/0/name": "Продолжить",
+      "/stages/0/prologue/options/0/text": "Стрелка возле героя укажет дорогу к городу. По пути можно обойти противников стороной.",
+      "/stages/0/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/0/prologue/options/0/options/0/text": "Совет путника: держись дороги. По ней идёшь быстрее, а засады встречаются реже.",
+      "/stages/0/prologue/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/text": "В одном краю города похожи друг на друга. Основные услуги найдутся почти в каждом.",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/text": "В гостинице бывают события. Там можно продать карты или временно увеличить здоровье. Знак вопроса указывает, где взять поручение.",
+      "/stages/1/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/options/0/text": "В дружественном городе здоровье восстанавливается бесплатно. Осмотрись и выходи, когда будешь готов.",
+      "/stages/1/prologue/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/prologue/text": "Теперь стрелка указывает на подземелье. В него можно войти и без поручения.",
+      "/stages/2/prologue/options/0/name": "Продолжить",
+      "/stages/3/prologue/text": "Внутри ждут противники и сокровища. Осматривай закоулки: там встречаются золото, осколки маны и карты.",
+      "/stages/3/prologue/options/0/name": "Продолжить",
+      "/stages/3/prologue/options/0/text": "Выиграй одну дуэль. Чтобы начать бой, подойди к врагу в подземелье или на карте мира.",
+      "/stages/3/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/3/prologue/options/0/options/0/text": "Поражение отнимет часть здоровья и золота. Запомни приёмы соперника: это пригодится в следующем бою.",
+      "/stages/3/prologue/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/3/prologue/options/0/options/0/options/0/text": "Враг, победивший тебя в подземелье, останется там. Можно вызвать его снова или вернуться в город за лечением.",
+      "/stages/3/prologue/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/3/prologue/options/0/options/0/options/0/options/0/text": "Некоторые цели выполняются одновременно. Сейчас можно искать пещеру и подходящего соперника в любом порядке.",
+      "/stages/3/prologue/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/3/epilogue/text": "За победу дают добычу. Одни враги оставляют карты из своей колоды, у других выбор шире.",
+      "/stages/3/epilogue/options/0/name": "Продолжить",
+      "/stages/4/epilogue/text": "Пещера устроена как подземелье, но в заданиях это два разных типа мест. Проверь, куда ведёт стрелка.",
+      "/stages/4/epilogue/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/text": "Если победы ещё нет, здесь найдётся соперник. После поединка возвращайся в город.",
+      "/stages/4/epilogue/options/0/options/0/name": "Продолжить",
+      "/stages/5/prologue/text": "Заглядывай в города по пути. Можно продать лишние карты, проверить витрины и взять новое поручение.",
+      "/stages/5/prologue/options/0/name": "Продолжить"
+    }
+  },
+  "31": {
+    "name": "Карты в дорогу",
+    "description": "Узнай, как пополнять коллекцию перед долгой дорогой по Шандалару.",
+    "stages": {},
+    "dialog": {
+      "/declinedDialog/text": "«Захочешь посмотреть карты — заходи. Стол для партии всегда найдётся».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "32": {
+    "name": "Огни в пустом городе",
+    "description": "Торговец видел свет порталов над заброшенными крышами. Доберись до города и поищи следы на месте.",
+    "stages": {
+      "1": {
+        "name": "По следу торговца",
+        "description": "Доберись до отмеченного места."
+      },
+      "2": {
+        "name": "Следы порталов",
+        "description": "Обыщи место и разыщи улики."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Передумаешь — у меня ещё есть карта заброшенного города».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "33": {
+    "name": "По следу реликвии",
+    "description": "В рассказе о порталах кроется подсказка о древнем артефакте. Исследуй отмеченное место.",
+    "stages": {
+      "1": {
+        "name": "По следу торговца",
+        "description": "Доберись до отмеченного места."
+      },
+      "2": {
+        "name": "Следы порталов",
+        "description": "Обыщи место и разыщи улики."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Пока поберегу записи о реликвии. Возвращайся, если понадобятся».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "34": {
+    "name": "Дорога к улью",
+    "description": "Разыщи Скеп — крупнейший улей щепок в Шандаларе.",
+    "stages": {
+      "1": {
+        "name": "Найти Скеп",
+        "description": "Доберись до улья Скеп."
+      }
+    },
+    "dialog": {
+      "/prologue/text": "Эта глава пока даёт лишь дорогу к улью Скеп. За посещение награды нет.",
+      "/prologue/options/0/name": "Закрыть",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "35": {
+    "name": "Хозяйка прилива",
+    "description": "Найди убежище Киоры, победи её и остальных врагов. Вернись к заказчику.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в убежище Киоры — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Старейшина ставит на стол мокрый фонарь. «Он висел высоко над пристанью. Нынче вода достала до фитиля. Киора тревожит глубины».",
+      "/offerDialog/options/0/name": "Сейчас некогда. (Отказаться)",
+      "/offerDialog/options/0/text": "«Возвращайся, когда будешь готов».",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Что задумала Киора?",
+      "/offerDialog/options/1/text": "«Под волнами спят титаны. Если она их разбудит, наш посёлок уйдёт под воду. За ним и другие берега Шандалара».",
+      "/offerDialog/options/1/options/0/name": "Как её остановить?",
+      "/offerDialog/options/1/options/0/text": "«Найди её убежище. Я бы сперва заговорил с ней, но к бою готовься всерьёз».",
+      "/offerDialog/options/1/options/0/options/0/name": "Я остановлю Киору. (Принять)",
+      "/offerDialog/options/1/options/0/options/0/text": "«Тогда ещё есть надежда. Хочу снова зажечь этот фонарь».",
+      "/offerDialog/options/1/options/0/options/1/name": "Мне это не по силам. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "Старейшина качает головой и уносит мокрый фонарь.",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "Весть о победе над Киорой разлетелась раньше твоего возвращения. Репутация в $(poi_2) +3.",
+      "/epilogue/options/0/name": "Рад помочь. (Завершить)",
+      "/failureDialog/text": "Киора продолжает тревожить глубины. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "36": {
+    "name": "Когда замолчат часы",
+    "description": "Разыщи убежище Тефери и победи всех внутри. Принеси в город весть о победе.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в убежище Тефери — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Учёный показывает два одинаковых листа календаря. «Вчера был этот день. Сегодня опять. Кажется, Тефери распустил нить времени».",
+      "/offerDialog/options/0/name": "Сейчас некогда. (Отказаться)",
+      "/offerDialog/options/0/text": "«Возвращайся, когда будешь готов».",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Что он сделал?",
+      "/offerDialog/options/1/text": "«Прошлое стало проникать в настоящее. Я встретил у моста себя самого, на десять лет моложе. Очень неприятный юноша».",
+      "/offerDialog/options/1/options/0/name": "Можно это исправить?",
+      "/offerDialog/options/1/options/0/text": "«Нужно добраться до Тефери. Попробуй убедить его, но будь готов отстоять своё в бою».",
+      "/offerDialog/options/1/options/0/options/0/name": "Пора навестить Тефери. (Принять)",
+      "/offerDialog/options/1/options/0/options/0/text": "«Ступай осторожно. И если встретишь меня помоложе, не одалживай ему денег».",
+      "/offerDialog/options/1/options/0/options/1/name": "Мне это не по силам. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "Учёный прячет календарь. «Скоро и он станет ни к чему».",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "Тебя встречают у ворот с чаем и благодарностями. Репутация в $(poi_2) +3.",
+      "/epilogue/options/0/name": "Рад помочь. (Завершить)",
+      "/failureDialog/text": "Тефери продолжает свои опыты. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "37": {
+    "name": "Рассказ у чайника",
+    "description": "Путник просит проверить лагерь фирексийцев. Найди его, победи всех врагов и вернись с известиями.",
+    "stages": {
+      "1": {
+        "name": "Победить всех врагов",
+        "description": "Отмеченное место в лагере фирексийцев — $(poi_1). Победи всех противников внутри."
+      },
+      "2": {
+        "name": "Доложить о победе",
+        "description": "Вернись в город к заказчику."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«Железные, понимаешь? Под берёзой сидели. И ни один не пригнулся, когда я в них кружкой кинул!» Тим снова икает.",
+      "/offerDialog/options/0/name": "Сейчас некогда. (Отказаться)",
+      "/offerDialog/options/0/text": "«Возвращайся, когда будешь готов».",
+      "/offerDialog/options/0/options/0/name": "Продолжить",
+      "/offerDialog/options/1/name": "Тим, какие ещё фирексийцы?",
+      "/offerDialog/options/1/text": "«Зубья вместо суставов, чёрное масло на траве! Я бы их с жестянщиками не спутал».",
+      "/offerDialog/options/1/options/0/name": "Ты уверен? Фирексийцев здесь давно не видели.",
+      "/offerDialog/options/1/options/0/text": "«А ты сходи в лагерь! Сам посмотри. И прогони их с нашей земли!»",
+      "/offerDialog/options/1/options/0/options/0/name": "Проверю. А ты пока попей чаю. (Принять)",
+      "/offerDialog/options/1/options/0/options/0/text": "«Чаю так чаю. Только про железных не забудь!»",
+      "/offerDialog/options/1/options/0/options/1/name": "Сегодня не успею. (Отказаться)",
+      "/offerDialog/options/1/options/0/options/1/text": "Тим смотрит на дно кружки, будто там ещё кто-то обязан ему поверить.",
+      "/offerDialog/options/1/options/0/options/1/options/0/name": "Продолжить",
+      "/epilogue/text": "В $(poi_2) только Тим хлопает тебя по плечу. «Вот! Я же говорил!» Ищет кружку и вспоминает, куда её кинул. Репутация +3.",
+      "/epilogue/options/0/name": "Помахать Тиму. (Завершить)",
+      "/failureDialog/text": "Лагерь стоит на прежнем месте. Репутация в $(poi_2) −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "38": {
+    "name": "Набат у ворот",
+    "description": "Гоблины напали на $(poi_3). Выиграй три боя с налётчиками, победи одного из вожаков и возвращайся.",
+    "stages": {
+      "1": {
+        "name": "Отразить нападение",
+        "description": "Выиграй три боя с гоблинами."
+      },
+      "2": {
+        "name": "Решающий бой",
+        "description": "Победи вожака гоблинов."
+      },
+      "3": {
+        "name": "Вернуться к защитникам",
+        "description": "Забери награду в $(poi_3)."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "У ворот $(poi_3) отчаянно звонят в колокол.",
+      "/offerDialog/options/0/name": "Вернуться к воротам.",
+      "/offerDialog/options/0/text": "«Гоблины у города! Все, кто может держать оружие, к воротам!»",
+      "/offerDialog/options/0/options/0/name": "Оставить это страже. (Отказ, репутация −1)",
+      "/offerDialog/options/0/options/1/name": "Встать на защиту города. (Принять)",
+      "/epilogue/text": "На улицах $(poi_3) собирают плату защитнику. Репутация +2, золото +500.",
+      "/epilogue/options/0/name": "Задание выполнено",
+      "/failureDialog/text": "Орда захватила часть $(poi_3). Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "У стен $(poi_3) остались самые упорные гоблины. Победи одного из вожаков.",
+      "/stages/0/epilogue/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "Налётчики пятятся от стен $(poi_3). Пора доложить о победе.",
+      "/stages/1/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "39": {
+    "name": "Тревога у пристани",
+    "description": "Мерфолки высадились у $(poi_3). Выиграй три боя с налётчиками, затем одолей их чемпиона и вернись в город.",
+    "stages": {
+      "1": {
+        "name": "Отразить нападение",
+        "description": "Выиграй три боя с мерфолками."
+      },
+      "2": {
+        "name": "Решающий бой",
+        "description": "Победи чемпиона мерфолков."
+      },
+      "3": {
+        "name": "Вернуться к защитникам",
+        "description": "Забери награду в $(poi_3)."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "«Все к пристани! Из воды показались мерфолки. Столько пловцов я ещё не видел».",
+      "/offerDialog/options/0/name": "Мерфолки? Здесь?",
+      "/offerDialog/options/0/text": "«Мы послали людей за артефактом. Обратно они вернулись с пустыми руками. И, похоже, привели за собой погоню».",
+      "/offerDialog/options/0/options/0/name": "Сами заварили, сами расхлёбывайте. (Отказ, репутация −1)",
+      "/offerDialog/options/0/options/1/name": "Присоединиться к защите. (Принять)",
+      "/epilogue/text": "Мерфолки отошли от $(poi_3). Репутация +2, золото +500.",
+      "/epilogue/options/0/name": "Задание выполнено",
+      "/failureDialog/text": "Город $(poi_3) оказался во власти мерфолков. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "Налётчики отступили. Теперь тебя ищут их чемпионы.",
+      "/stages/0/epilogue/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "Город $(poi_3) в безопасности. Вернись к защитникам.",
+      "/stages/1/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "40": {
+    "name": "Дозор до рассвета",
+    "description": "Нежить подступает к $(poi_3). Выиграй три боя с нежитью, затем победи некроманта и вернись к защитникам.",
+    "stages": {
+      "1": {
+        "name": "Отразить нападение",
+        "description": "Выиграй три боя с нежитью."
+      },
+      "2": {
+        "name": "Решающий бой",
+        "description": "Победи некроманта."
+      },
+      "3": {
+        "name": "Вернуться к защитникам",
+        "description": "Забери награду в $(poi_3)."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "За стеной $(poi_3) лежат тела. «Они встают, — говорит староста. — Каждый раз, когда караульный отворачивается».",
+      "/offerDialog/options/0/name": "Похоже на работу некроманта.",
+      "/offerDialog/options/0/text": "«Можешь остановить его? С ночи сражаемся с одними и теми же мертвецами».",
+      "/offerDialog/options/0/options/0/name": "Мне пора. (Отказ, репутация −1)",
+      "/offerDialog/options/0/options/1/name": "Ударить, пока мёртвые лежат. (Принять)",
+      "/epilogue/text": "Сегодня в $(poi_3) мёртвые останутся лежать. Репутация +2, золото +500.",
+      "/epilogue/options/0/name": "Задание выполнено",
+      "/failureDialog/text": "В $(poi_3) стало меньше живых. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "После каждого боя тёмная нить делается виднее. Теперь можно выйти прямо на некроманта.",
+      "/stages/0/epilogue/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "Город $(poi_3) в безопасности. Вернись к защитникам.",
+      "/stages/1/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "41": {
+    "name": "Стрелы у лесной заставы",
+    "description": "Эльфы атакуют $(poi_3). Одержи три победы над нападающими, затем победи элитного бойца и вернись к заставе.",
+    "stages": {
+      "1": {
+        "name": "Отразить нападение",
+        "description": "Выиграй три боя с эльфами."
+      },
+      "2": {
+        "name": "Решающий бой",
+        "description": "Победи элитного эльфа."
+      },
+      "3": {
+        "name": "Вернуться к защитникам",
+        "description": "Забери награду в $(poi_3)."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "Человек прижимает к груди глиняный горшок. «Рассудишь нас с соседями?» В горшке зеленеет крошечное деревце.",
+      "/offerDialog/options/0/name": "О чём спор?",
+      "/offerDialog/options/0/text": "«Я взял один черенок. Дерево громадное! Ну кто заметит?» Судя по крикам за стеной, эльфы заметили.",
+      "/offerDialog/options/0/options/0/name": "Верни черенок, и поскорее. (Отказ, репутация −1)",
+      "/offerDialog/options/0/options/1/name": "Помогу отбиться. А потом поговорим о дереве. (Принять)",
+      "/epilogue/text": "Эльфы ещё сердятся за священное дерево, но сняли осаду $(poi_3). Репутация +2, золото +500.",
+      "/epilogue/options/0/name": "Задание выполнено",
+      "/failureDialog/text": "Из-за одного горшка пострадал целый город — $(poi_3). Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "Против тебя вышли лучшие эльфийские охотники и друиды. Следующий поединок будет труднее.",
+      "/stages/0/epilogue/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "Город $(poi_3) в безопасности. Вернись к защитникам.",
+      "/stages/1/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "42": {
+    "name": "Командир осады",
+    "description": "Вражеские солдаты осаждают $(poi_3). Выиграй три боя с солдатами, одолей командира и доложи о победе.",
+    "stages": {
+      "1": {
+        "name": "Отразить нападение",
+        "description": "Выиграй три боя с солдатами."
+      },
+      "2": {
+        "name": "Решающий бой",
+        "description": "Победи командира солдат."
+      },
+      "3": {
+        "name": "Вернуться к защитникам",
+        "description": "Забери награду в $(poi_3)."
+      }
+    },
+    "dialog": {
+      "/offerDialog/text": "В $(poi_3) затворяют ставни. На горизонте под чужим знаменем движется войско.",
+      "/offerDialog/options/0/name": "Оценить обстановку.",
+      "/offerDialog/options/0/text": "Взять город силой будет нелегко. Удержать его — тоже. Куда ты встанешь, когда распахнутся ворота?",
+      "/offerDialog/options/0/options/0/name": "Это чужая война. (Отказ, репутация −1)",
+      "/offerDialog/options/0/options/1/name": "Защитить город. (Принять)",
+      "/epilogue/text": "В $(poi_3) осталось прежнее знамя. Совет благодарит тебя за свободу города. Репутация +2, золото +500.",
+      "/epilogue/options/0/name": "Задание выполнено",
+      "/failureDialog/text": "Над $(poi_3) подняли чужое знамя. Скоро прибудут сборщики податей. Репутация −2.",
+      "/failureDialog/options/0/name": "Задание провалено",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/epilogue/text": "Солдаты дрогнули. Победи их командира, пока он не собрал строй заново.",
+      "/stages/0/epilogue/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "Город $(poi_3) в безопасности. Вернись к защитникам.",
+      "/stages/1/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "43": {
+    "name": "Первое поручение",
+    "description": "В городах ищи жителей со знаком вопроса. Выполни одно поручение, а затем ещё три.",
+    "stages": {
+      "1": {
+        "name": "Первое поручение",
+        "description": "Выполни одно побочное задание. Ищи знак вопроса в городе."
+      },
+      "2": {
+        "name": "Ещё три поручения",
+        "description": "Выполни ещё три побочных задания."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/prologue/text": "Пока отслеживаешь это задание, стрелка ведёт к тем, кто раздаёт поручения. Взяв поручение, выбери его в журнале, чтобы увидеть путь к цели.",
+      "/stages/0/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/text": "Первое поручение выполнено. Кошель немного потяжелел, а дорога будто стала короче.",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/text": "Торговцы готовы немного уступить тебе в цене. Спроси в городе о других поручениях.",
+      "/stages/1/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "Человек в чёрном плаще с серебряной застёжкой окликает тебя. «Эй! В записке сказано: $(playerrace). Это ты только что закончил работу?»",
+      "/stages/1/epilogue/options/0/name": "Да, всё верно.",
+      "/stages/1/epilogue/options/0/text": "«Отлично. У меня для тебя другое дело. И я рассчитываю на согласие».",
+      "/stages/1/epilogue/options/0/options/0/name": "Продолжить"
+    }
+  },
+  "44": {
+    "name": "Пропавший обоз",
+    "description": "В $(poi_1) ждут обоз с осколками маны. Восстанови путь каравана, обыщи пещеру разбойников и вернись с известиями.",
+    "stages": {
+      "1": {
+        "name": "За ворота",
+        "description": "Покинь $(poi_1)."
+      },
+      "2": {
+        "name": "След каравана",
+        "description": "Расспроси об обозе в $(poi_2)."
+      },
+      "3": {
+        "name": "Укрытие разбойников",
+        "description": "Найди пещеру разбойников."
+      },
+      "4": {
+        "name": "Обыск пещеры",
+        "description": "Победи всех внутри и поищи груз."
+      },
+      "5": {
+        "name": "Вернуться с вестью",
+        "description": "Расскажи о находках в $(poi_1)."
+      }
+    },
+    "dialog": {
+      "/prologue/text": "«Сэр Донован. Мне срочно нужны осколки маны. Даже если скупить все запасы в $(poi_1), их не хватит».",
+      "/prologue/options/0/name": "Могу продать немного своих.",
+      "/prologue/options/0/text": "«Я уже заплатил. Караван должен был прибыть несколько дней назад. Найди его».",
+      "/prologue/options/0/options/0/name": "Понимаю.",
+      "/prologue/options/0/options/0/text": "Донован протягивает лист. «Здесь маршрут и условное слово для возницы. Пока нет груза, моя работа стоит».",
+      "/prologue/options/0/options/0/options/0/name": "Взять маршрут каравана.",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/1/prologue/text": "За воротами пустая дорога. Иди навстречу обозу по карте Донована. Первая остановка — $(poi_2).",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/2/prologue/text": "В $(poi_2) никто не видел возниц, которых ждут в $(poi_1).",
+      "/stages/2/prologue/options/0/name": "Продолжить",
+      "/stages/2/prologue/options/0/text": "Зато крестьянин слышал о нападениях на дороге. У его поля есть пещера. Он отмечает вход на карте.",
+      "/stages/2/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/3/prologue/text": "Лозы скрывают вход. Его выдают два разбойника: они как раз снимают с телеги последние ящики.",
+      "/stages/3/prologue/options/0/name": "Продолжить",
+      "/stages/3/prologue/options/0/text": "На козлах свежая кровь. Что бы ни было в ящиках, прежний хозяин отдал их не по своей воле.",
+      "/stages/3/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/4/prologue/text": "В ящиках серебряная руда. Кто-то разбогатеет на ней, но ты ищешь осколки маны.",
+      "/stages/4/prologue/options/0/name": "Продолжить",
+      "/stages/4/prologue/options/0/text": "Других зацепок нет. Вернись в $(poi_1) и расскажи о находке.",
+      "/stages/4/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/4/epilogue/text": "Донован выслушивает тебя и протягивает кошель. «Груз не найден, но за работу я плачу». Золото +500.",
+      "/stages/4/epilogue/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/text": "Он разворачивает карту юго-западных гор. «Начнём на шаг раньше. Груз вообще покидал шахту?»",
+      "/stages/4/epilogue/options/0/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/0/text": "«Если найдёшь обоз, приведи его сюда. С другими новостями свяжись со мной через амулет». Донован кладёт в твою ладонь железный талисман.",
+      "/stages/4/epilogue/options/0/options/0/options/0/name": "Продолжить"
+    }
+  },
+  "45": {
+    "name": "След ведёт в шахты",
+    "description": "По просьбе сэра Донована отправляйся в горные шахты, откуда вышел обоз. Победи капитана пиратов и свяжись с Донованом через амулет.",
+    "stages": {
+      "1": {
+        "name": "Горные шахты",
+        "description": "Найди $(poi_1) в горах."
+      },
+      "2": {
+        "name": "Капитан",
+        "description": "Победи капитана пиратов в шахтах."
+      },
+      "3": {
+        "name": "На поверхность",
+        "description": "Покинь шахты."
+      },
+      "4": {
+        "name": "Амулет Донована",
+        "description": "Свяжись с Донованом через амулет."
+      },
+      "5": {
+        "name": "Снова в город",
+        "description": "Следуя зову амулета, войди в любой город."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/prologue/text": "Дорога на карте Донована ведёт на юго-запад, к горам.",
+      "/stages/0/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/text": "Шахту найти легко. Что здесь неладно, видно ещё на подходе.",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/text": "На вывеске $(poi_1) намалёван череп. Над входом висит пиратский флаг, хотя до моря отсюда далеко.",
+      "/stages/1/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/options/0/text": "Рядовые пираты мечтают о добыче. Искать ответы стоит у капитана.",
+      "/stages/1/prologue/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/prologue/text": "В журнале капитана последние записи коротки. Кристаллы ещё блестят, но маны в них больше нет.",
+      "/stages/2/prologue/options/0/name": "Вот тебе и пиратское сокровище.",
+      "/stages/2/prologue/options/0/text": "У пиратов ещё может найтись обычная добыча. Когда будешь готов, свяжись с Донованом через талисман.",
+      "/stages/2/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/3/prologue/text": "Воспользуйся амулетом. Доновану пора узнать о пиратах и пустых кристаллах.",
+      "/stages/3/prologue/options/0/name": "Продолжить",
+      "/stages/4/epilogue/text": "В городе тебя встречает жилистый эльф. На миг он показывает амулет, точь-в-точь как у Донована.",
+      "/stages/4/epilogue/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/text": "В чайной эльф занимает стол у стены. «Да, это ты. Зовут Ациркс. Работаю с Донованом».",
+      "/stages/4/epilogue/options/0/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/0/text": "«Судя по тому, что ты пришёл пешком, груз пропал?»",
+      "/stages/4/epilogue/options/0/options/0/options/0/name": "Рассказать о шахте, пиратах и пустых кристаллах.",
+      "/stages/4/epilogue/options/0/options/0/options/0/text": "«Жаль жилу. В Сидриле кристаллы добывали легко. Только попробуй добыть ману там, где она кончилась».",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/name": "Что дальше?",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/text": "«Пока вот твоя плата. Дай мне пару дней, найду хозяина и вернусь». Кошель скользит по столу. Золото +500.",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/options/0/name": "Продолжить"
+    }
+  },
+  "46": {
+    "name": "Пока летит вестник",
+    "description": "Ациркс передаёт новости о шахтах. Пока ждёшь его возвращения, выполни три побочных задания.",
+    "stages": {
+      "1": {
+        "name": "Вести от Ациркса",
+        "description": "Выполни три побочных задания."
+      }
+    },
+    "dialog": {
+      "/epilogue/text": "Короткий свист. Ациркс ждёт, пока ты закончишь дело, и только потом выходит на свет. Значит, есть новости.",
+      "/epilogue/options/0/name": "Продолжить",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "47": {
+    "name": "Чернила на полях",
+    "description": "Донован ищет записи о магии призыва. Разыщи их в библиотеке $(poi_1) и доставь в островную столицу.",
+    "stages": {
+      "1": {
+        "name": "Островная библиотека",
+        "description": "Следуй на северо-восток к $(poi_1)."
+      },
+      "2": {
+        "name": "Записи о призыве",
+        "description": "Отыщи исследование в библиотеке."
+      },
+      "3": {
+        "name": "Обратный путь",
+        "description": "Покинь библиотеку."
+      },
+      "4": {
+        "name": "Передать записи",
+        "description": "Отнеси записи в $(poi_4)."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/prologue/text": "«Хозяин говорит, ты кое-что смыслишь в заклинаниях. Знаешь, что бывает с вызванным существом?»",
+      "/stages/0/prologue/options/0/name": "Кивнуть и слушать дальше.",
+      "/stages/0/prologue/options/0/text": "«В $(poi_1) хранятся записи о магии призыва. Найди их для Донована».",
+      "/stages/0/prologue/options/0/options/0/name": "Принеси карту. Я схожу.",
+      "/stages/0/prologue/options/0/options/0/text": "«Затем — в $(poi_4). Встретимся в гостинице, к северу от главной площади».",
+      "/stages/0/prologue/options/0/options/1/name": "Почему именно я?",
+      "/stages/0/prologue/options/0/options/1/text": "«Первый наш посланник нашёл библиотеку. Второй нашёл библиотеку и тело первого. Ясно, почему я ищу бойца?»",
+      "/stages/0/prologue/options/0/options/1/options/0/name": "Теперь ясно.",
+      "/stages/0/prologue/options/0/options/1/options/0/text": "«Жду в $(poi_4). Если одолеешь того, кто хозяйничает в библиотеке, с меня отдельная награда».",
+      "/stages/0/prologue/options/0/options/1/options/0/options/0/name": "Продолжить",
+      "/stages/1/prologue/text": "Библиотека похожа на крепость. Даже солнечный луч проникает в узкие окна боком.",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/text": "У входа учёные несут книги. Странно, что шаги у всех одинаковой длины.",
+      "/stages/1/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/3/epilogue/text": "«Добро пожаловать в $(poi_4)». Голос раздаётся из-за плеча, едва ты входишь в гостиницу.",
+      "/stages/3/epilogue/options/0/name": "[/]Это не Ациркс…[]",
+      "/stages/3/epilogue/options/0/text": "«Ты ждал Ациркса. После гибели Гвиневеры я дал ему отпуск. Они были близки». Донован указывает на скамью.",
+      "/stages/3/epilogue/options/0/options/0/name": "Отдать записи и рассказать об огромном автоматоне.",
+      "/stages/3/epilogue/options/0/options/0/text": "«Ациркс просил передать тебе вот это». На стол ложится небольшая книга с тиснёной обложкой.",
+      "/stages/3/epilogue/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/3/epilogue/options/0/options/0/options/0/text": "«Големы, говоришь? На других раскопках историк тоже встретил железного стража». Донован вручает карту и 1000 золота.",
+      "/stages/3/epilogue/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/3/epilogue/options/0/options/1/name": "Отдать записи и рассказать об огромном автоматоне.",
+      "/stages/3/epilogue/options/0/options/1/text": "«У одного историка на раскопках была похожая встреча. Проверь, связаны ли находки». Донован вручает карту и 1000 золота.",
+      "/stages/3/epilogue/options/0/options/1/options/0/name": "Продолжить",
+      "/stages/3/epilogue/options/0/options/2/name": "Передать записи и описать обитателей библиотеки.",
+      "/stages/3/epilogue/options/0/options/2/text": "«На раскопках историка тоже ждала неожиданность. Сравни находки». Донован вручает карту и 500 золота.",
+      "/stages/3/epilogue/options/0/options/2/options/0/name": "Продолжить"
+    }
+  },
+  "48": {
+    "name": "Железо под песком",
+    "description": "На раскопках в $(poi_1) обнаружили механизмы. Отыщи альбом, сравни находки с прежними и передай сведения Доновану.",
+    "stages": {
+      "1": {
+        "name": "К раскопкам",
+        "description": "Следуй по карте к $(poi_1) в пустоши."
+      },
+      "2": {
+        "name": "Альбом с рисунками",
+        "description": "Отыщи альбом Landscape Sketchbook на раскопках."
+      },
+      "3": {
+        "name": "На поверхность",
+        "description": "Покинь раскопки."
+      },
+      "4": {
+        "name": "Связаться с Донованом",
+        "description": "Воспользуйся талисманом."
+      },
+      "5": {
+        "name": "Доставить исследование",
+        "description": "Доберись с записями до $(poi_5)."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/0/prologue/text": "«Осмотри раскопки. Ищи сходство, но запоминай и отличия. Закончишь — дай знать». Вместе с картой Донован передаёт амулет.",
+      "/stages/0/prologue/options/0/name": "Понял.",
+      "/stages/1/prologue/text": "Южная тропа спускается к недавно расчищенному входу. Поперёк дороги застыл железный страж.",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/1/prologue/options/0/text": "Справа новый барак. Должно быть, в нём ночуют землекопы и учёные.",
+      "/stages/1/prologue/options/0/options/0/name": "Продолжить",
+      "/stages/3/prologue/text": "Когда закончишь осмотр, свяжись с Донованом через амулет.",
+      "/stages/3/prologue/options/0/name": "Продолжить",
+      "/stages/3/epilogue/text": "Амулет снова тянет тебя к городу. На этот раз в голове ясно звучит название — $(poi_5).",
+      "/stages/3/epilogue/options/0/name": "Продолжить",
+      "/stages/4/epilogue/text": "«$(playername)?» Женщина прячет под плащ твой портрет. «У нас один хозяин». В её руке знакомый амулет.",
+      "/stages/4/epilogue/options/0/name": "[/]Когда меня успели нарисовать?[]",
+      "/stages/4/epilogue/options/0/text": "«Свои зовут меня Вив. Можешь тоже».",
+      "/stages/4/epilogue/options/0/options/0/name": "У тебя необычный говор.",
+      "/stages/4/epilogue/options/0/options/0/text": "«Зато у монет говор везде один». Вив встряхивает кошель и бросает его тебе. +500 золота.",
+      "/stages/4/epilogue/options/0/options/0/options/0/name": "Не думаю, что механизмы связаны.",
+      "/stages/4/epilogue/options/0/options/0/options/0/text": "«Думаешь или знаешь?» Вив ждёт, не отводя взгляда.",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/name": "Некоторые похожи. Но великана здесь не было, а кое-какие машины я видел впервые.",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/text": "«Великана не было», — повторяет Вив твоим голосом. «Хозяину понравится. Как бы за платой обратно не послал».",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/options/0/name": "Я ведь не мастер по древним големам.",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/options/0/text": "«Вот это ему и скажи. Пускай тоже посмеётся. Пока бери местные поручения. Слово хозяина принесу».",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/1/name": "Будто два мастера получили одинаковые детали и один рисунок, а собрали по-своему.",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/1/text": "«Теперь понятно. Поработай пока здесь. Когда будет слово от хозяина, я найду тебя». Вив кивает и уходит.",
+      "/stages/4/epilogue/options/0/options/0/options/0/options/1/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/0/options/1/name": "Думаю, что связаны.",
+      "/stages/4/epilogue/options/0/options/0/options/1/text": "«Думаешь или знаешь?» Вив терпеливо ждёт ответа.",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/0/name": "Некоторые похожи. Но великана здесь не было, а кое-какие машины я видел впервые.",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/0/text": "«Великана не было». На мгновение ты слышишь собственный голос. «Лишь бы хозяин не велел вернуть плату».",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/0/options/0/name": "Я ведь не мастер по древним големам.",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/0/options/0/text": "«Вот это ему и скажи. Пускай тоже посмеётся. Пока бери местные поручения. Слово хозяина принесу».",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/1/name": "Два умелых мастера копировали один образец.",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/1/text": "«Теперь понятно. Поработай пока здесь. Когда будет слово от хозяина, я найду тебя». Вив кивает и уходит.",
+      "/stages/4/epilogue/options/0/options/0/options/1/options/1/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/1/name": "Донован спрашивал, одинаковы ли машины. Сходство есть, но я бы сказал, что разные.",
+      "/stages/4/epilogue/options/0/options/1/text": "«Сходство есть, но разные». Вив повторяет это слово в слово. «Хозяин тоже спросит, что это значит».",
+      "/stages/4/epilogue/options/0/options/1/options/0/name": "Я ведь не мастер по древним големам.",
+      "/stages/4/epilogue/options/0/options/1/options/0/text": "«Вот это ему и скажи. Пускай тоже посмеётся. Пока бери местные поручения. Слово хозяина принесу».",
+      "/stages/4/epilogue/options/0/options/1/options/0/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/1/options/1/name": "Одинаковые детали, а каждый мастер видел готовую машину по-своему.",
+      "/stages/4/epilogue/options/0/options/1/options/1/text": "«Вот это хозяин поймёт. А пока заработай на местных поручениях». Вив прощается кивком.",
+      "/stages/4/epilogue/options/0/options/1/options/1/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/2/name": "Донован спрашивал, похожи ли две группы машин. По большей части да.",
+      "/stages/4/epilogue/options/0/options/2/text": "«Думаешь или знаешь?» Вив ждёт, не отводя взгляда.",
+      "/stages/4/epilogue/options/0/options/2/options/0/name": "Некоторые поразительно похожи. Но великана не было, и несколько машин мне прежде не встречались.",
+      "/stages/4/epilogue/options/0/options/2/options/0/text": "«Великана не было». На мгновение ты слышишь собственный голос. «Лишь бы хозяин не велел вернуть плату».",
+      "/stages/4/epilogue/options/0/options/2/options/0/options/0/name": "Я ведь не мастер по древним големам.",
+      "/stages/4/epilogue/options/0/options/2/options/0/options/0/text": "«Вот это ему и скажи. Пускай тоже посмеётся. Пока бери местные поручения. Слово хозяина принесу».",
+      "/stages/4/epilogue/options/0/options/2/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/4/epilogue/options/0/options/2/options/1/name": "Думаю, два разных мастера очень точно повторили один образец.",
+      "/stages/4/epilogue/options/0/options/2/options/1/text": "Вив кивает. «Займись пока делами в городе. Будут вести — сообщу».",
+      "/stages/4/epilogue/options/0/options/2/options/1/options/0/name": "Продолжить"
+    }
+  },
+  "49": {
+    "name": "В ожидании Вив",
+    "description": "Вив даст знать, когда придёт ответ Донована. Выполни три побочных задания и загляни в город, где дают поручения.",
+    "stages": {
+      "1": {
+        "name": "Пока нет вестей",
+        "description": "Выполни три побочных задания."
+      },
+      "2": {
+        "name": "Встреча с Вив",
+        "description": "Зайди в поселение, где дают поручения."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/1/prologue/text": "От Вив пока ни слова. Выполни местные поручения, пока ждёшь.",
+      "/stages/1/prologue/options/0/name": "Продолжить",
+      "/stages/1/epilogue/text": "На площади тебя уже высматривает знакомая фигура в плаще.",
+      "/stages/1/epilogue/options/0/name": "Продолжить"
+    }
+  },
+  "50": {
+    "name": "Посох в зелёной чаще",
+    "description": "Записи из библиотеки Варсила указывают на древние джунгли. Поищи там посох и расскажи Вив, что удалось найти.",
+    "stages": {
+      "1": {
+        "name": "Древние джунгли",
+        "description": "Найди джунгли по карте Донована."
+      },
+      "2": {
+        "name": "Поиски посоха",
+        "description": "Осмотри местность в поисках посоха."
+      },
+      "3": {
+        "name": "Встреча с Вив",
+        "description": "Расскажи о поисках в $(poi_3)."
+      }
+    },
+    "dialog": {
+      "/prologue/text": "На этот раз ты замечаешь Вив раньше, чем она окликает тебя.",
+      "/prologue/options/0/name": "Вот ты где, Вив.",
+      "/prologue/options/0/text": "Из-под капюшона слышен голос Донована: «$(playername) подождёт. Мне нужны материалы!» Вив откидывает капюшон. «Хозяин мастерит. А бегают другие».",
+      "/prologue/options/0/options/0/name": "Что дальше?",
+      "/prologue/options/0/options/0/text": "«Хозяину [i]снова[] кое-что нужно. Из твоих же книг». Вив оставляет карту, амулет и записку. Пока ты её разворачиваешь, Вив уже за углом.",
+      "/prologue/options/0/options/0/options/0/name": "Дальше",
+      "/prologue/options/0/options/1/name": "Промолчать",
+      "/prologue/options/0/options/1/text": "«Хозяину [i]снова[] кое-что нужно, — тянет Вив. — Вспомни книги». В твоих руках оказываются карта, амулет и записка.",
+      "/prologue/options/0/options/1/options/0/name": "Дальше",
+      "/prologue/options/1/name": "Я уже думал, что остался без работы.",
+      "/prologue/options/1/text": "Из-под капюшона слышен голос Донована: «$(playername) подождёт. Мне нужны материалы!» Вив откидывает капюшон. «Хозяин мастерит. А бегают другие».",
+      "/prologue/options/1/options/0/name": "Что дальше?",
+      "/prologue/options/1/options/0/text": "«Хозяину [i]снова[] кое-что нужно. Из твоих же книг». Вив оставляет карту, амулет и записку. Пока ты её разворачиваешь, Вив уже за углом.",
+      "/prologue/options/1/options/0/options/0/name": "Дальше",
+      "/prologue/options/1/options/1/name": "Промолчать",
+      "/prologue/options/1/options/1/text": "«Хозяину [i]снова[] кое-что нужно, — тянет Вив. — Вспомни книги». В твоих руках оказываются карта, амулет и записка.",
+      "/prologue/options/1/options/1/options/0/name": "Дальше",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/1/epilogue/text": "В сундуке лежит посох, очень похожий на рисунок Донована. Только на рисунке он целый, а здесь — по частям.",
+      "/stages/1/epilogue/options/0/name": "Собрать обломки.",
+      "/stages/1/epilogue/options/0/text": "Донован не уточнял, сколько частей должно быть у посоха. Остаётся надеяться, что сгодятся и такие.",
+      "/stages/1/epilogue/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/text": "Вив постукивает обломками друг о друга. «Слышишь звон? Пока посох так звенит, монет не услышишь».",
+      "/stages/2/epilogue/options/0/name": "Доновану он и такой пригодится?",
+      "/stages/2/epilogue/options/0/text": "«Сперва починим. Есть способ». Вив наспех чертит карту. «В этой пещере растёт цветок. Алый».",
+      "/stages/2/epilogue/options/0/options/0/name": "Алый цветок в пещере. Запомнил.",
+      "/stages/2/epilogue/options/0/options/0/text": "«А ещё умный маг берёт тёплый плащ».",
+      "/stages/2/epilogue/options/0/options/0/options/0/name": "Далее"
+    }
+  },
+  "51": {
+    "name": "Цветок подо льдом",
+    "description": "Вив нарисовала дорогу к морозной пещере. Найди там цветок и принеси его в $(poi_3).",
+    "stages": {
+      "1": {
+        "name": "К морозной пещере",
+        "description": "Следуй по карте Вив. Твоя цель — $(poi_1)."
+      },
+      "2": {
+        "name": "Найти цветок",
+        "description": "Отыщи цветок внутри пещеры."
+      },
+      "3": {
+        "name": "Вернуться к Вив",
+        "description": "Принеси цветок в $(poi_3)."
+      }
+    },
+    "dialog": {
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти",
+      "/stages/2/epilogue/text": "Вив ждёт на условленном месте. Рядом Донован, и в его руках уже целый посох. Пока он изучает резьбу, Вив смотрит на тебя.",
+      "/stages/2/epilogue/options/0/name": "Спросить Донована, что умеет посох.",
+      "/stages/2/epilogue/options/0/text": "«Пока ничего». Палец Донована следует по резьбе. «Но у нас с тобой есть и другой разговор».",
+      "/stages/2/epilogue/options/0/options/0/name": "Я слушаю.",
+      "/stages/2/epilogue/options/0/options/0/text": "«Ты заслужил правду о нашем ремесле. Мы добываем сведения, тихо продаём их, а иногда принимаемся за дело сами. Последнюю часть ты уже знаешь».",
+      "/stages/2/epilogue/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/0/options/0/options/0/text": "«Вести приходят поздно. Потому я и изучаю, как быстрее передавать слово на расстоянии. Сегодня мне самому придётся действовать, зная лишь часть правды».",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/text": "«Мы следили за несколькими незнакомыми магами. Они действовали сообща: один заканчивал дело как раз вовремя, чтобы следующий мог взяться за своё».",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/text": "«Несколько недель назад другая группа заставила их замолчать. Мы сочли их погибшими. Теперь знаем: все пятеро живы. Кажется, мы нашли, где их держат».",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/name": "И сейчас пора самим взяться за дело?",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/text": "Донован негромко смеётся. «Тебе оно по силам. Но это не приказ. Я предлагаю возможность».",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Какую именно?",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Освободи пленников и получишь пятерых сильных союзников. С их тюремщиками тебе, возможно, всё равно предстоит встреча. Сейчас ты можешь выбрать время».",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Я пока не готов к такой встрече. (Отказаться)",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Тогда оставь амулет себе. Передумаешь — свяжись с нами».",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Понял. Спасибо.",
+      "/stages/2/epilogue/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/1/name": "Покажи, где их держат. (Принять)",
+      "/stages/2/epilogue/options/1/name": "Протянуть Вив оба цветка.",
+      "/stages/2/epilogue/options/1/text": "Вив благодарит тебя, но улыбка чуть запаздывает. «Легко починили. Цветы уже не нужны». Донован кашляет, привлекая внимание.",
+      "/stages/2/epilogue/options/1/options/0/name": "Что умеет посох?",
+      "/stages/2/epilogue/options/1/options/0/text": "«Пока ничего». Палец Донована следует по резьбе. «Но у нас с тобой есть и другой разговор».",
+      "/stages/2/epilogue/options/1/options/0/options/0/name": "Я слушаю.",
+      "/stages/2/epilogue/options/1/options/0/options/0/text": "«Ты заслужил правду о нашем ремесле. Мы добываем сведения, тихо продаём их, а иногда принимаемся за дело сами. Последнюю часть ты уже знаешь».",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/text": "«Вести приходят поздно. Потому я и изучаю, как быстрее передавать слово на расстоянии. Сегодня мне самому придётся действовать, зная лишь часть правды».",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/text": "«Мы следили за несколькими незнакомыми магами. Они действовали сообща: один заканчивал дело как раз вовремя, чтобы следующий мог взяться за своё».",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/text": "«Несколько недель назад другая группа заставила их замолчать. Мы сочли их погибшими. Теперь знаем: все пятеро живы. Кажется, мы нашли, где их держат».",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/name": "И сейчас пора самим взяться за дело?",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/text": "Донован негромко смеётся. «Тебе оно по силам. Но это не приказ. Я предлагаю возможность».",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Какую именно?",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Освободи пленников и получишь пятерых сильных союзников. С их тюремщиками тебе, возможно, всё равно предстоит встреча. Сейчас ты можешь выбрать время».",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Я пока не готов к такой встрече. (Отказаться)",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Тогда оставь амулет себе. Передумаешь — свяжись с нами».",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Понял. Спасибо.",
+      "/stages/2/epilogue/options/1/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/1/name": "Покажи, где их держат. (Принять)",
+      "/stages/2/epilogue/options/2/name": "Отдать фиолетовый цветок.",
+      "/stages/2/epilogue/options/2/text": "«Упрямый маг. Я сказала: алый». Вив качает головой. «Хорошо хоть починка обошлась без него». Донован откашливается.",
+      "/stages/2/epilogue/options/2/options/0/name": "Что умеет посох?",
+      "/stages/2/epilogue/options/2/options/0/text": "«Пока ничего». Палец Донована следует по резьбе. «Но у нас с тобой есть и другой разговор».",
+      "/stages/2/epilogue/options/2/options/0/options/0/name": "Я слушаю.",
+      "/stages/2/epilogue/options/2/options/0/options/0/text": "«Ты заслужил правду о нашем ремесле. Мы добываем сведения, тихо продаём их, а иногда принимаемся за дело сами. Последнюю часть ты уже знаешь».",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/text": "«Вести приходят поздно. Потому я и изучаю, как быстрее передавать слово на расстоянии. Сегодня мне самому придётся действовать, зная лишь часть правды».",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/text": "«Мы следили за несколькими незнакомыми магами. Они действовали сообща: один заканчивал дело как раз вовремя, чтобы следующий мог взяться за своё».",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/text": "«Несколько недель назад другая группа заставила их замолчать. Мы сочли их погибшими. Теперь знаем: все пятеро живы. Кажется, мы нашли, где их держат».",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/name": "И сейчас пора самим взяться за дело?",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/text": "Донован негромко смеётся. «Тебе оно по силам. Но это не приказ. Я предлагаю возможность».",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Какую именно?",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Освободи пленников и получишь пятерых сильных союзников. С их тюремщиками тебе, возможно, всё равно предстоит встреча. Сейчас ты можешь выбрать время».",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Я пока не готов к такой встрече. (Отказаться)",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Тогда оставь амулет себе. Передумаешь — свяжись с нами».",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Понял. Спасибо.",
+      "/stages/2/epilogue/options/2/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/1/name": "Покажи, где их держат. (Принять)",
+      "/stages/2/epilogue/options/3/name": "Отдать алый цветок.",
+      "/stages/2/epilogue/options/3/text": "Вив заправляет цветок за ухо. «[i]Плата[] принята. Для починки он и не требовался». Донован деликатно откашливается.",
+      "/stages/2/epilogue/options/3/options/0/name": "Что умеет посох?",
+      "/stages/2/epilogue/options/3/options/0/text": "«Пока ничего». Палец Донована следует по резьбе. «Но у нас с тобой есть и другой разговор».",
+      "/stages/2/epilogue/options/3/options/0/options/0/name": "Я слушаю.",
+      "/stages/2/epilogue/options/3/options/0/options/0/text": "«Ты заслужил правду о нашем ремесле. Мы добываем сведения, тихо продаём их, а иногда принимаемся за дело сами. Последнюю часть ты уже знаешь».",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/text": "«Вести приходят поздно. Потому я и изучаю, как быстрее передавать слово на расстоянии. Сегодня мне самому придётся действовать, зная лишь часть правды».",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/text": "«Мы следили за несколькими незнакомыми магами. Они действовали сообща: один заканчивал дело как раз вовремя, чтобы следующий мог взяться за своё».",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/name": "Продолжить",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/text": "«Несколько недель назад другая группа заставила их замолчать. Мы сочли их погибшими. Теперь знаем: все пятеро живы. Кажется, мы нашли, где их держат».",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/name": "И сейчас пора самим взяться за дело?",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/text": "Донован негромко смеётся. «Тебе оно по силам. Но это не приказ. Я предлагаю возможность».",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Какую именно?",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Освободи пленников и получишь пятерых сильных союзников. С их тюремщиками тебе, возможно, всё равно предстоит встреча. Сейчас ты можешь выбрать время».",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Я пока не готов к такой встрече. (Отказаться)",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/text": "«Тогда оставь амулет себе. Передумаешь — свяжись с нами».",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/0/name": "Понял. Спасибо.",
+      "/stages/2/epilogue/options/3/options/0/options/0/options/0/options/0/options/0/options/0/options/0/options/1/name": "Покажи, где их держат. (Принять)"
+    }
+  },
+  "52": {
+    "name": "Пять запертых дверей",
+    "description": "Донован отметил пять замков, в которых держат магов. Найди и освободи всех пятерых, затем поговори с магом в центре пустоши.",
+    "stages": {
+      "1": {
+        "name": "Чёрный замок",
+        "description": "Найди чёрный замок на болотах."
+      },
+      "2": {
+        "name": "Синий замок",
+        "description": "Найди синий замок на островах."
+      },
+      "3": {
+        "name": "Зелёный замок",
+        "description": "Найди зелёный замок в лесу."
+      },
+      "4": {
+        "name": "Красный замок",
+        "description": "Найди красный замок в горах."
+      },
+      "5": {
+        "name": "Белый замок",
+        "description": "Найди белый замок на равнинах."
+      },
+      "6": {
+        "name": "Пленник: чёрный замок",
+        "description": "Освободи мага, которого держат в этом замке."
+      },
+      "7": {
+        "name": "Пленник: синий замок",
+        "description": "Освободи мага, которого держат в этом замке."
+      },
+      "8": {
+        "name": "Пленник: зелёный замок",
+        "description": "Освободи мага, которого держат в этом замке."
+      },
+      "9": {
+        "name": "Пленник: красный замок",
+        "description": "Освободи мага, которого держат в этом замке."
+      },
+      "10": {
+        "name": "Пленник: белый замок",
+        "description": "Освободи мага, которого держат в этом замке."
+      },
+      "11": {
+        "name": "Маг в пустоши",
+        "description": "Вернись туда, где началось путешествие, в центр пустоши. Поговори с магом."
+      }
+    },
+    "dialog": {
+      "/prologue/text": "Пусть ветер будет попутным.",
+      "/prologue/options/0/name": "Продолжить",
+      "/declinedDialog/text": "«Загляни завтра. К тому времени найдётся другое дело».",
+      "/declinedDialog/options/0/name": "Попрощаться и уйти"
+    }
+  },
+  "53": {
+    "name": "У порога Шандалара",
+    "description": "В пещере тебя ждёт маг. Поговори с ним и выйди через открывшийся портал.",
+    "stages": {
+      "1": {
+        "name": "Поговорить с магом",
+        "description": "Расспроси мага в пещере."
+      },
+      "2": {
+        "name": "Шаг за порог",
+        "description": "Выйди через портал."
+      }
+    },
+    "dialog": {
+      "/stages/1/epilogue/text": "За порталом раскинулся незнакомый мир. Пора разузнать, куда ведут здешние дороги.",
+      "/stages/1/epilogue/options/0/name": "Продолжить"
+    }
+  }
+}

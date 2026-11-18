@@ -357,18 +357,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A big switch is embedded into the wall.",
+    "text":"A big switch is embedded into the wall.", "loctext":"adv.horizons.dialog.1bd54d2dddf76b2e",
     "options":[ 
 	{ 
-		"text":"You hear some loud sounds coming from the east.",
+		"text":"You hear some loud sounds coming from the east.", "loctext":"adv.horizons.dialog.37e1037ccbceb19a",
 		"action":[{"deleteMapObject":-1},{"advanceMapFlag":"gate"}],
-		"name":"Flip the switch"
+		"name":"Flip the switch", "locname":"adv.horizons.dialog.a0182875a754682a"
 			"options":[{
 			"condition":[{"getMapFlag":{"key":"gate","op":"&gt;=","val":2}}],
 			"action":[{"deleteMapObject":18}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -379,18 +379,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A big switch is embedded into the wall.",
+    "text":"A big switch is embedded into the wall.", "loctext":"adv.horizons.dialog.1bd54d2dddf76b2e",
     "options":[ 
 	{ 
-		"text":"You hear some loud sounds coming from the east.",
+		"text":"You hear some loud sounds coming from the east.", "loctext":"adv.horizons.dialog.37e1037ccbceb19a",
 		"action":[{"deleteMapObject":-1},{"advanceMapFlag":"gate"}],
-		"name":"Flip the switch"
+		"name":"Flip the switch", "locname":"adv.horizons.dialog.a0182875a754682a"
 			"options":[{
 			"condition":[{"getMapFlag":{"key":"gate","op":"&gt;=","val":2}}],
 			"action":[{"deleteMapObject":18}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -401,16 +401,16 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A big switch is embedded into the wall.",
+    "text":"A big switch is embedded into the wall.", "loctext":"adv.horizons.dialog.1bd54d2dddf76b2e",
     "options":[ 
 	{ 
-		"text":"You hear some loud sounds coming from the north.",
-		"name":"Flip the switch"
+		"text":"You hear some loud sounds coming from the north.", "loctext":"adv.horizons.dialog.0e9a8d2cd7e075e9",
+		"name":"Flip the switch", "locname":"adv.horizons.dialog.a0182875a754682a"
 			"options":[{
 			"action":[{"deleteMapObject":17}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -446,16 +446,16 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A big switch is embedded into the wall.",
+    "text":"A big switch is embedded into the wall.", "loctext":"adv.horizons.dialog.1bd54d2dddf76b2e",
     "options":[ 
 	{ 
-		"text":"You hear some rumbling and commotion from the south. The final gate appears to be open.",
-		"name":"Flip the switch"
+		"text":"You hear some rumbling and commotion from the south. The final gate appears to be open.", "loctext":"adv.horizons.dialog.f6a7666b3ba5bb3a",
+		"name":"Flip the switch", "locname":"adv.horizons.dialog.a0182875a754682a"
 			"options":[{
 			"action":[{"deleteMapObject":6}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -502,17 +502,17 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"Wires run from this switch to the nearby generator.", 
+    "text":"Wires run from this switch to the nearby generator.", "loctext":"adv.horizons.dialog.c3178af591238073", 
     "options":[ 
 	{ 
-		"text":"The connected machinery whirrs to life, and the gate to your east opens.",
+		"text":"The connected machinery whirrs to life, and the gate to your east opens.", "loctext":"adv.horizons.dialog.1709960cf500d023",
 		"action":[{"deleteMapObject":-1}],
-		"name":"Flip the switch"
+		"name":"Flip the switch", "locname":"adv.horizons.dialog.a0182875a754682a"
 			"options":[{
 			"action":[{"deleteMapObject":11}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	}
 ] 
@@ -529,7 +529,7 @@
   <object id="27" template="../../../../common/maps/obj/manashards.tx" x="907" y="891.5" />
   <object id="28" template="../../obj/treasure.tx" x="756" y="541.5">
    <properties>
-    <property name="reward">[{"type":"randomCard","count":8,"editions":["MH1","MH2","LTR"],"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"type":"randomCard","count":8,"editions":["2XM"],"colors":["colorID"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
     <property name="spawn.Easy" type="bool" value="false" />
     <property name="spawn.Hard" type="bool" value="true" />
    </properties>
@@ -1220,34 +1220,34 @@
   <object id="170" template="../../../../common/maps/obj/enemy.tx" gid="2147495067" x="16.75" y="937.25">
    <properties>
     <property name="dialog">[ {
-  "text":"HELLO AGAIN PLANESWALKER {var=player_name}", 
+  "text":"HELLO AGAIN PLANESWALKER {var=player_name}", "loctext":"adv.horizons.dialog.f84b2209353c1647", 
    "options":[
     { 
-		"name":"Yeah, yeah, defeat Chandra. Got it.",
+		"name":"Yeah, yeah, defeat Chandra. Got it.", "locname":"adv.horizons.dialog.a822a488bf87ae0f",
 		"condition":[ { "checkMapFlag": "intro" }] 
 	},
 	{
-	  "name":"Why am I here?",
-	  "text":"YOU HAVE FREED THE LEGENDARY PLANESWALKER CHANDRA FROM CAPTIVITY...",
+	  "name":"Why am I here?", "locname":"adv.horizons.dialog.e39da7a4f461c53e",
+	  "text":"YOU HAVE FREED THE LEGENDARY PLANESWALKER CHANDRA FROM CAPTIVITY...", "loctext":"adv.horizons.dialog.b4cc9a18bd3bec45",
 	  "options":[
 		{ 
-			"name":"Okay, yeah, I remember this now.",
+			"name":"Okay, yeah, I remember this now.", "locname":"adv.horizons.dialog.361e82b827a07cbf",
 			"condition":[ { "checkMapFlag": "intro" }] 
 		},   
 		{      
-			"name":"I did, just like you asked.",
-			"text":"...BUT HER MIND IS STILL IMPRISONED."
+			"name":"I did, just like you asked.", "locname":"adv.horizons.dialog.d3ace72bb8357ade",
+			"text":"...BUT HER MIND IS STILL IMPRISONED.", "loctext":"adv.horizons.dialog.012069092c5f9e96"
 			"options":[
 			{ 	
-				"name":"Okay, yeah, I remember this now.",
+				"name":"Okay, yeah, I remember this now.", "locname":"adv.horizons.dialog.361e82b827a07cbf",
 				"condition":[ { "checkMapFlag": "intro" }] 
 			},
 			{      
-				"name":"So... what now?",
-				"text":"DEFEAT CHANDRA AND I CAN HELP HER RECOVER, SO THAT SHE MAY AID YOU IN BATTLES YET TO COME. TAKE HEED, {var=player_name}, THIS WILL BE A DIFFICULT TASK.",
+				"name":"So... what now?", "locname":"adv.horizons.dialog.d8179e88e449d63f",
+				"text":"DEFEAT CHANDRA AND I CAN HELP HER RECOVER, SO THAT SHE MAY AID YOU IN BATTLES YET TO COME. TAKE HEED, {var=player_name}, THIS WILL BE A DIFFICULT TASK.", "loctext":"adv.horizons.dialog.1bad15773c8cbd0b",
 				"options":[
 				{
-					"name":"Thank you for the warning.",
+					"name":"Thank you for the warning.", "locname":"adv.horizons.dialog.1f410bc082b80b51",
 					"action":[{"advanceMapFlag":"intro"}]
 				}]
 			}]
@@ -1279,7 +1279,7 @@
   </object>
   <object id="172" template="../../obj/treasure.tx" x="736" y="546">
    <properties>
-    <property name="reward">[{"count":2,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Firebolt|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Glóin, Dwarf Emissary|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Strike It Rich|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Strike It Rich|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"There and Back Again|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Chance Encounter|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Obsidian Charmaw|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Goblin Traprunner|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Riders of the Mark|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Strike It Rich|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Ragavan, Nimble Pilferer|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Mines of Moria|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Power Depot|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fiery Islet|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunbaked Canyon|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunbaked Canyon|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fiery Islet|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Power Depot|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunbaked Canyon|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fiery Islet|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Power Depot|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
+    <property name="reward">[{"count":2,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Galvanic Blast|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Eldrazi Linebreaker|MH3","editions":["MH3"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Strike It Rich|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Strike It Rich|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Ral and the Implicit Maze|MH3","editions":["MH3"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Aether Revolt|MH3","editions":["MH3"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Obsidian Charmaw|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Spawn-Gang Commander|MH3","editions":["MH3"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Godo, Bandit Warlord|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Strike It Rich|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Ragavan, Nimble Pilferer|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Arena of Glory|MH3","editions":["MH3"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fire-Lit Thicket|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fiery Islet|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunbaked Canyon|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":1,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunbaked Canyon|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fiery Islet|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fire-Lit Thicket|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]}]},{"count":1,"type":"Union","probability":0.5,"cardUnion":[{"count":1,"cardName":"Mount Doom|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Sunbaked Canyon|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fiery Islet|MH1","editions":["MH1"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"count":1,"cardName":"Fire-Lit Thicket|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]}]}]</property>
     <property name="spawn.Easy" type="bool" value="false" />
     <property name="spawn.Normal" type="bool" value="false" />
    </properties>

@@ -33,7 +33,7 @@ public class Playthrough {
         }
     }
     static String print(PaperCard c){
-        check(Set.of("MH1","MH2","LTR").contains(c.getEdition()) || VerifyPlane.modern.containsKey(c.getName()+"|"+c.getEdition()),"foreign print "+c);
+        check(Set.of("MH1","MH2","LTR","MH3").contains(c.getEdition()) || VerifyPlane.modern.containsKey(c.getName()+"|"+c.getEdition()),"foreign print "+c);
         return c.getName()+"|"+c.getEdition()+"|"+c.getArtIndex();
     }
     static Map<String,Integer> collection(){
@@ -138,7 +138,7 @@ public class Playthrough {
                             for(var actor:(com.badlogic.gdx.utils.Array<?>)field(scene,"generated")){
                                 if(!actor.getClass().getSimpleName().equals("BuyButton"))continue;
                                 var card=((Reward)field(actor,"reward")).getCard();
-                                if(!Set.of("MH1","MH2","LTR").contains(card.getEdition()))
+                                if(!Set.of("MH1","MH2","LTR","MH3").contains(card.getEdition()))
                                     return (com.github.tommyettinger.textra.TextraButton)actor;
                             }
                             return null;

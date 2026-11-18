@@ -122,7 +122,7 @@
   </object>
   <object id="30" template="../../../../common/maps/obj/dialog.tx" x="368" y="240">
    <properties>
-    <property name="dialog">[{"text":"'The Art of the Subtle Counterspell' is very useful reading if you have the time for it.","loctext":"adv.main_story_explore_library_of_varsil_3.30.d.n0.text","options":[{"name":"(Continue)","locname":"adv.shared.continue_paren","action":[{"deleteMapObject":-1},{"grantRewards":[{"type":"card","count":1,"cardName":"Lose Focus|MH2"}]}]}]}]</property>
+    <property name="dialog">[{"text":"'The Art of the Subtle Counterspell' is very useful reading if you have the time for it.","loctext":"adv.main_story_explore_library_of_varsil_3.30.d.n0.text","options":[{"name":"(Continue)","locname":"adv.shared.continue_paren","action":[{"deleteMapObject":-1},{"grantRewards":[{"type":"card","count":1,"cardName":"Steel Sabotage|2XM"}]}]}]}]</property>
    </properties>
   </object>
   <object id="31" template="../../../../common/maps/obj/dialog.tx" x="400" y="199">

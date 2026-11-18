@@ -133,17 +133,17 @@
   </object>
   <object id="84" template="../../obj/booster.tx" x="206.667" y="354">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="85" template="../../obj/booster.tx" x="17.6667" y="418.333">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="86" template="../../obj/booster.tx" x="157" y="625.333">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="87" template="../../../../common/maps/obj/entry_right.tx" x="608" y="311.333">

@@ -50,7 +50,7 @@
   </object>
   <object id="64" template="../../obj/booster.tx" x="369.687" y="74.9257">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"colors":["green"],"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"colors":["green"],"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"colors":["green"],"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"colors":["green"],"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"colors":["green"],"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"colors":["green"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="65" template="../../../../common/maps/obj/waypoint.tx" x="160.335" y="301.263" />

@@ -141,3 +141,104 @@ PLAY Modern purchase variants=false Mishra's Bauble|CSP|1
 PLAY Modern purchase variants=true Stomping Ground|GPT|1
 Add To Stack: Griselbrand cast Goryo's Vengeance targeting [Griselbrand (171)]
 Add To Stack: liliana triggered Sheoldred, the Apocalypse
+
+2026-11-17 encounter rebalance:
+- check_resources: 576 enemy refs, 390 maps / 296 reachable, 239 loot rules.
+- Rebuild byte-identical for all tracked snapshot files. Shop configuration/pools equal before.
+- VerifyPlane true: PASS card instances=5283843 shops=297.
+- Premium pool: 1948 mythics / 10000 draws, seed 917 (target 20%).
+- AI RoundRobin seed 1771: Chandra, Teferi, Conjurer; 3 matches, 7 games completed.
+  Chandra 2 matches, Teferi 1, Conjurer 0. Normal match life totals, not Adventure.
+  Logs show Thoughtseize, Fallaji Archaeologist, Quantum Riddler, Ephemerate,
+  Monastery Swiftspear and Slickshot Show-Off being used by AI.
+  This is a functional smoke test, not a statistically established difficulty/win-rate test.
+- VerifyPlane false after completed rebuild: PASS card instances=5283717 shops=297.
+
+2026-11-17 restored capital counters:
+- Five capitals: 16 original vendor IDs/positions each, including 3 rotating counters.
+- 160 CapitalSmall variants: 149 with two stock slots, 11 with one.
+- Maximum 28 finite singles per capital, excluding basic lands and booster contents.
+- Existing 297 shop definitions and all weighted deck pools unchanged.
+- check_resources: PASS 576 enemy refs, 390 maps / 296 reachable, 239 loot rules.
+- VerifyPlane true: PASS card instances=5284101 shops=457; all shop pools nonempty,
+  capital specialist stock <=2, guaranteed premium stock <=1, mixed premium rate <=10%.
+- capital_shop_variants idempotent. Only five capital maps and shops.json changed
+  outside tools; no arena, enemy-deck, quest or reward changes.
+
+Six-card capital revision:
+- 155 card-shop variants now generate exactly 6 cards; 5 booster variants unchanged.
+- All 155 pools have R+M <=5%, M <=0.5%; 116 have exact 55/40/4.5/0.5.
+- Missing/unallocatable rarity weights go to C/U. Original 297 shop definitions unchanged.
+- capital_shop_variants idempotent. No map, quest, enemy or arena changes.
+- check_resources PASS. VerifyPlane false PASS card instances=5284854 shops=457.
+- VerifyPlane true final PASS card instances=5284712 shops=457.
+- Runtime checks verify six generated rewards per capital card shop, no guaranteed
+  premium slots, and rarity limits with both alternative-art settings.
+
+Clock-shop rarity premium:
+- 30 rotation-only variants: 28 use C/U/R/M 30/50/18/2; two use 32/50/18/0.
+- Ordinary capital pools byte-identical; rotation and ordinary shop references disjoint.
+- Six cards, map objects, shop definitions and refresh categories unchanged.
+- Generation idempotent. check_resources PASS.
+- VerifyPlane true PASS card instances=5284852 shops=457.
+- VerifyPlane false PASS card instances=5284642 shops=457.
+
+Clock final stock targets: all 30 pools Rare=69.99754%, Mythic=39.99447%; six slots.
+Ordinary pools and shop definitions unchanged; generation idempotent.
+VerifyPlane true: PASS card instances=5284696 shops=457; every rotation pool checks both final odds.
+VerifyPlane false: PASS card instances=5284770 shops=457; every rotation pool checks both final odds.
+
+Capital color and six-slot update:
+191 thematic singles, 5 Exotic Lands variants, 6 booster definitions.
+All themed/land pools checked for city identity or colorless; all Exotic Lands nonbasic.
+All capital offers generate six rewards; all 30 clock stock odds retained.
+Static check_resources passed; generation idempotent. Non-capital shops, starts, enemy decks and arena pools unchanged.
+VerifyPlane true: PASS card instances=5285417 shops=499
+VerifyPlane false: PASS card instances=5285349 shops=499
+
+Double Masters 2XM integration:
+- 336 permitted 2XM names, 265 new base-pool names (262 not already in curated additions).
+- Static validation PASS: 576 enemy references, 390 maps, 239 loot rules.
+- Starts true/false: all modes and five 2XM starters passed on four difficulties.
+- Events: all five sets draft/sealed passed; 2XM repeated successfully after Mana Crypt exclusion.
+- Chaos: 80 starts of 60 cards, outside=0; negative control rejected ICE.
+- All 30 clock pools retain final Rare 70% / Mythic 40% within rounding tolerance.
+VerifyPlane true: PASS card instances=7244151 shops=499
+VerifyPlane false: PASS card instances=7243845 shops=499
+
+Enemy dependency and strategy repair:
+- 576 enemy files checked, 212 changed; 13 reviewed 60-card plans.
+- Sizes: 569x60, 4x40, 1x58, 1x59, 1x46.
+- No unsupported Accomplice/Godo/Dread Return/Persist/Victimize/Sylvan Might; no AI pacts.
+- Five boss color overrides verified; other enemy metadata preserved.
+- Shop definitions, shop/arena/starter pools unchanged.
+- check_resources passed; deterministic regeneration passed for 926 files.
+VerifyPlane true: PASS card instances=7224598 shops=499
+VerifyPlane false: PASS card instances=7224530 shops=499
+- 15 AI matches / 36 games completed (seeds 2117/2118/2119); Goryo/Griselbrand and Persist/Archon observed. Normal match life totals; functional smoke tests, not calibrated Adventure win-rate estimates.
+
+Capital specializations, 2026-11-17:
+- Rebuilt 191 themed capital pools from all permitted prints; 5 base sets plus curated additions.
+- Replaced narrow legacy tribes, off-color guild themes and premium-only themes with supported families.
+- Black undead pool: 38 distinct names; Clattering Augur 3.4% per slot (previously 95%).
+- check_capital_themes.py: all 191 pools passed exact rarity, legal printing, city identity, theme, six-slot, >=8 Common/Uncommon names and <=8% single-name concentration checks.
+- Regeneration byte-identical; non-CapitalSmall shop definitions and pools preserved.
+- check_resources.py: 576 enemy refs, 390 maps, 296 reachable maps, 239 loot rules.
+- VerifyPlane whitelist now also recognizes curated additions when sampled through CapitalSmall shop IDs (source deck paths already allowed them).
+- Forge VerifyPlane true: PASS card instances=7224584 shops=499; headless runtime verification, no manual UI playthrough.
+
+Featured shop bonus reduction, 2026-11-17:
+- Shop-only bonus scale 2000: global Atraxa 6, Riddler/Griselbrand/Sheoldred 3 each; exact-color local 10 each.
+- Final six-slot odds: Atraxa 0.9405%; Riddler 2.8156% blue / 0.4927% elsewhere; Griselbrand 2.9499% black / 0.4927% elsewhere; Sheoldred 2.6266% black / 0.4927% elsewhere.
+- check_featured_shops.py passed agreed final ranges for all six city identities.
+- check_resources.py passed 576 refs, 390 maps, 296 reachable, 239 loot rules.
+- DCK hash comparison: only GeneralWeighted, Blue and Black shop pools changed; arena, boss/enemy, starter and specialist pools unchanged.
+- Forge VerifyPlane true: PASS card instances=66248616 shops=499 (headless runtime verification).
+
+Three additional mythics, 2026-11-17:
+- Added Moonshadow|ECL|M, Abhorrent Oculus|DSK|M, Overlord of the Balemurk|DSK|M; verified against installed edition data and card index. Curated list now 54.
+- All three present in GeneralWeighted, exact-color local pool, appropriate capital pools, all five arena pools and Any boss-prize pool. No personal featured bonus.
+- Ordinary six-slot chances: Moonshadow/Overlord 0.5804% in black; Oculus 0.7857% in blue; each 0.0416% outside its color.
+- 29 shop/reward DCKs changed; hash comparison confirms no enemy or starter DCK changes. Arena/boss trigger probabilities unchanged.
+- check_featured_shops.py, check_capital_themes.py (191 pools and idempotence), check_resources.py all passed.
+- Forge VerifyPlane true: PASS card instances=69168680 shops=499; all 54 curated card rolls verified in headless runtime.

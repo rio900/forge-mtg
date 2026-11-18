@@ -1020,26 +1020,26 @@
 		"options":
 		[
 			{
-				"name":"I'm Guybrush Threepwood, and I want to be a pirate!",
-				"text":"This... is Shandalar. A plane where mana is so prevalent and used by all that is sentient. Even the common people use spells daily.",
+				"name":"I'm Guybrush Threepwood, and I want to be a pirate!", "locname":"adv.horizons.dialog.38eab22280a53ebe",
+				"text":"This... is Shandalar. A plane where mana is so prevalent and used by all that is sentient. Even the common people use spells daily.", "loctext":"adv.horizons.dialog.b976fcb0602ad141",
 				"voiceFile":"audio/WizPAR1.mp3",
 				"options":[
 				{
-				"text":"Like you, some planeswalkers have been imprisoned here by the guardians in the castles. You must defeat them in battle to release us from this plane. Use your powers of magic to challenge them.",
+				"text":"Like you, some planeswalkers have been imprisoned here by the guardians in the castles. You must defeat them in battle to release us from this plane. Use your powers of magic to challenge them.", "loctext":"adv.horizons.dialog.3d80a5761e3be7d5",
 				"voiceFile":"audio/WizPAR2.mp3"
 				"options":[
 				{
-				"name":"Continue",
-				"text":"Find the planeswalkers trapped here. Guide them to me, they will help you on your journey.",
+				"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01",
+				"text":"Find the planeswalkers trapped here. Guide them to me, they will help you on your journey.", "loctext":"adv.horizons.dialog.808ea11215c74b9b",
 				"voiceFile":"audio/WizPAR3.mp3",
 				"options":[
 				{
-				"name":"Continue",
-				"text":"Take this rune. You can use it anytime to return here. Be careful, planeswalker.",
+				"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01",
+				"text":"Take this rune. You can use it anytime to return here. Be careful, planeswalker.", "loctext":"adv.horizons.dialog.84dd97e8ecce5f37",
 				"voiceFile":"audio/WizPAR4.mp3"
 				"options":[
 				{
-				"name":"Thank you.",
+				"name":"Thank you.", "locname":"adv.horizons.dialog.8569efc4ed5a6273",
 				"action":[{"advanceMapFlag":"intro"},{"addItem":"Colorless rune"}]
 				}]
 				}]
@@ -1048,13 +1048,13 @@
 				]
 			},
 			{
-				"name":"I'm Guybrush Threepwood, and I want to be a firefighter!"
+				"name":"I'm Guybrush Threepwood, and I want to be a firefighter!", "locname":"adv.horizons.dialog.9142391ed3ce3fc4"
 			},
 			{
-				"name":"I'm Guybrush Threepwood, and I'm selling these fine leather jackets."
+				"name":"I'm Guybrush Threepwood, and I'm selling these fine leather jackets.", "locname":"adv.horizons.dialog.adbf837cce5ca9f2"
 			},
 			{
-				"name":"I'm Guybrush Threepwood, and I was just leaving."
+				"name":"I'm Guybrush Threepwood, and I was just leaving.", "locname":"adv.horizons.dialog.550fa1efe820653c"
 			}
 		]
 	}

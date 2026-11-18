@@ -306,13 +306,13 @@
    <properties>
     <property name="defeatDialog">[
   {
-    "text":"Your opponent unleashes a shrill scream as they shift back into stone form, but no longer balanced upon a pedestal. The statue falls and shatters, with many of the pieces tumbling into the pool. You would almost swear you could hear the scream faintly continuing beneath the water's surface.",
-    "loctext":"",
+    "text":"Your opponent unleashes a shrill scream as they shift back into stone form, but no longer balanced upon a pedestal. The statue falls and shatters, with many of the pieces tumbling into the pool. You would almost swear you could hear the scream faintly continuing beneath the water's surface.", "loctext":"adv.horizons.dialog.90eb17f15c5124ac",
+    
     "options":[ 
-	{ "name":"(Continue)",
-	  "text":"After a moment, you feel a shift in the energy of your surroundings. The ethereal haze that had accompanied the graveyard's fences dissipates. Shapes begin to move at the edge of your vision. It seems there might have been something true about the guardian's role here."
+	{ "name":"(Continue)", "locname":"adv.horizons.dialog.d628f64ba4af25ac",
+	  "text":"After a moment, you feel a shift in the energy of your surroundings. The ethereal haze that had accompanied the graveyard's fences dissipates. Shapes begin to move at the edge of your vision. It seems there might have been something true about the guardian's role here.", "loctext":"adv.horizons.dialog.a2bef487d018705e"
 	  "options":[
-		{"name": "(Continue)",
+		{"name": "(Continue)", "locname":"adv.horizons.dialog.d628f64ba4af25ac",
 	    	  "action": [{"deleteMapObject": 258}, {"activateMapObject": 230},{"activateMapObject": 248},{"activateMapObject": 246},{"activateMapObject": 247},{"deleteMapObject": -1}]
 		}
 		]
@@ -386,7 +386,7 @@
   </object>
   <object id="258" template="../../../../../common/maps/obj/dialog.tx" x="17" y="176">
    <properties>
-    <property name="dialog" value="[{&quot;text&quot;: &quot;You are unable to continue any further, a mystical force pushes you backwards no matter how hard you try to move forward, and you have a vision of an angel in your mind barring your path.&quot;, &quot;condition&quot;: [ { &quot;actorID&quot;: 254 } ], &quot;options&quot;:[{&quot;name&quot;: &quot;(Continue)&quot;}]}]" />
+    <property name="dialog" value="[{&quot;text&quot;: &quot;You are unable to continue any further, a mystical force pushes you backwards no matter how hard you try to move forward, and you have a vision of an angel in your mind barring your path.&quot;, &quot;loctext&quot;:&quot;adv.horizons.dialog.d814972e767f0306&quot;, &quot;condition&quot;: [ { &quot;actorID&quot;: 254 } ], &quot;options&quot;:[{&quot;name&quot;: &quot;(Continue)&quot;, &quot;locname&quot;:&quot;adv.horizons.dialog.d628f64ba4af25ac&quot;}]}]" />
    </properties>
   </object>
   <object id="259" template="../../../../../common/maps/obj/gold.tx" x="161" y="48" />
@@ -401,7 +401,7 @@
   <object id="264" template="../../../../../common/maps/obj/manashards.tx" x="303.5" y="49.8333" />
   <object id="265" template="../../../obj/scroll.tx" x="128" y="368">
    <properties>
-    <property name="reward" value="[{&quot;type&quot;:&quot;card&quot;,&quot;cardName&quot;:&quot;Bone Shards|MH2&quot;,&quot;count&quot;:1}]" />
+    <property name="reward" value="[{&quot;type&quot;:&quot;card&quot;,&quot;cardName&quot;:&quot;Lethal Throwdown|MH3&quot;,&quot;count&quot;:1}]" />
    </properties>
   </object>
   <object id="267" template="../../../../../common/maps/obj/entry_left.tx" x="1.45455" y="206.909" width="16.3636" height="72.7273">
@@ -415,32 +415,32 @@
     <property name="dialog">[
 { "action": [{"setMapFlag": {"key":"angelAwake", "val": 0}, "deleteMapObject": -1}]},
 {
-   "text": "In sharp contrast to the forest behind you, this graveyard is eerily quiet. So quiet in fact, that you feel like you can hear a slight hum in the air coming from the stone wall around the area.",
+   "text": "In sharp contrast to the forest behind you, this graveyard is eerily quiet. So quiet in fact, that you feel like you can hear a slight hum in the air coming from the stone wall around the area.", "loctext":"adv.horizons.dialog.0a4243001f1e34a2",
    "options": [{
-      "name": "Take a closer look at the wall.",
-      "text": "It doesn't take long to identify the source of the sound - Extending above the wall is a hazy shimmer of enchantment, some form of a barrier intended to help keep something out of the graveyard. Or in.",
+      "name": "Take a closer look at the wall.", "locname":"adv.horizons.dialog.2f75c7bf14fe3a21",
+      "text": "It doesn't take long to identify the source of the sound - Extending above the wall is a hazy shimmer of enchantment, some form of a barrier intended to help keep something out of the graveyard. Or in.", "loctext":"adv.horizons.dialog.6bcf6dcd96446552",
       "options": [{
-         "name": "Look for the source of the enchantment",
-         "text": "There's not an obvious point of origin for the spell, but you do notice a plaque that stands apart from the tombstones around it."
+         "name": "Look for the source of the enchantment", "locname":"adv.horizons.dialog.408c162a3d88be60",
+         "text": "There's not an obvious point of origin for the spell, but you do notice a plaque that stands apart from the tombstones around it.", "loctext":"adv.horizons.dialog.b02caf6767bfe998"
          "options": [{
-            "name": "Read the inscription",
-            "text": " \"What lies here cannot be banished, only contained. I stand guard to separate wicked spirits from their mortal shells\". Beside the text, there is an engraving of an angel and dark spirits battling in the sky.",
-			"options": [{"name": "(Continue)"}]
+            "name": "Read the inscription", "locname":"adv.horizons.dialog.c0695824368970ed",
+            "text": " \"What lies here cannot be banished, only contained. I stand guard to separate wicked spirits from their mortal shells\". Beside the text, there is an engraving of an angel and dark spirits battling in the sky.", "loctext":"adv.horizons.dialog.7d35d8de6c2725aa",
+			"options": [{"name": "(Continue)", "locname":"adv.horizons.dialog.d628f64ba4af25ac"}]
 			},
 			{
-			   "name": "(Search the graveyard)"
+			   "name": "(Search the graveyard)", "locname":"adv.horizons.dialog.c52b71fc3404a86d"
 			}]
         },
         {
-		"name": "Try to identify the spell with one of your own",
-			 "text": "Threads of mana are woven in the air above the wall and extend into the stone as well. Any loose ends of the threads seem to lead to the northeast. You also spot a mild enchantment on a plaque nearby.",
+		"name": "Try to identify the spell with one of your own", "locname":"adv.horizons.dialog.4d7ab3d822206ab3",
+			 "text": "Threads of mana are woven in the air above the wall and extend into the stone as well. Any loose ends of the threads seem to lead to the northeast. You also spot a mild enchantment on a plaque nearby.", "loctext":"adv.horizons.dialog.93ba2e485af8cd54",
 			 "options": [{
-				"name": "Read the plaque",
-				"text": " \"What lies here cannot be banished, only contained. I stand guard to separate wicked spirits from their mortal shells\". Beside the text, there is an engraving of an angel and dark spirits battling in the sky.",
-				"options": [{"name": "(Continue)"}]
+				"name": "Read the plaque", "locname":"adv.horizons.dialog.4e61c8942e1e563d",
+				"text": " \"What lies here cannot be banished, only contained. I stand guard to separate wicked spirits from their mortal shells\". Beside the text, there is an engraving of an angel and dark spirits battling in the sky.", "loctext":"adv.horizons.dialog.7d35d8de6c2725aa",
+				"options": [{"name": "(Continue)", "locname":"adv.horizons.dialog.d628f64ba4af25ac"}]
 				},
 				{
-				   "name": "(Search the graveyard)"
+				   "name": "(Search the graveyard)", "locname":"adv.horizons.dialog.c52b71fc3404a86d"
 				}]
 			}
 			]

@@ -37,7 +37,7 @@
   <object id="59" template="../../../../common/maps/obj/collision.tx" x="-16" y="-16" width="512" height="16" />
   <object id="60" template="../../obj/booster.tx" x="192.781" y="172.041">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"],"colors":["white","green"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white","green"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white","green"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"],"colors":["white","green"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white","green"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white","green"]}]</property>
    </properties>
   </object>
   <object id="61" template="../../../../common/maps/obj/manashards.tx" x="259.414" y="164.098" />

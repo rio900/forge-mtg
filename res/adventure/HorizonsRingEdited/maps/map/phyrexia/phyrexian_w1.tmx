@@ -61,7 +61,7 @@
   </object>
   <object id="76" template="../../obj/booster.tx" x="98.6667" y="43">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"],"colors":["white"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"],"colors":["white"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"],"colors":["white"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"],"colors":["white"]}]</property>
    </properties>
   </object>
   <object id="78" template="../../obj/treasure.tx" x="315" y="74" />

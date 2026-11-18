@@ -81,6 +81,63 @@ def emit(path, text):
     if not path.exists() or path.read_text()!=text: path.write_text(text)
 def dump(data):
     return json.dumps(data,ensure_ascii=False,indent=2)+'\n'
+def apply_map_dialogues(root, translations):
+    # Some installed Tiled properties use Forge's permissive JSON syntax.
+    # Replace only quoted dialogue fields, retaining the original actions and conditions.
+    fields = re.compile(r'("(?:name|text|locname|loctext)"\s*:\s*)("(?:[^"\\]|\\.)*")')
+    def translate(match):
+        key, quoted = match.groups()
+        original = json.loads(quoted, strict=False)
+        if not original:
+            return match.group()
+        if key.startswith(('"locname"', '"loctext"')):
+            return key + 'null'
+        return key + json.dumps(translations[original], ensure_ascii=False)
+    for prop in root.iter('property'):
+        if prop.get('name') in ('dialog', 'defeatDialog'):
+            original = prop.get('value', prop.text or '')
+            value = '\n'.join(fields.sub(translate, line).rstrip() if fields.search(line) else line
+                              for line in original.split('\n'))
+            if 'value' in prop.attrib:
+                prop.set('value', value)
+            else:
+                prop.text = value
+
+def translate_amulet(items):
+    labels = json.loads((PLANE / 'tools/quest-map-dialogues.json').read_text())['amulet']
+    amulet = next(item for item in items if item['name'] == "Sir Donovan's Amulet")
+    amulet['description'] = 'Через этот талисман можно связаться с сэром Донованом.'
+    def translate(node):
+        for key, localized in [('text', 'loctext'), ('name', 'locname')]:
+            if node.get(key):
+                node[key] = labels[node[key]]
+                node.pop(localized, None)
+        for option in node.get('options', []):
+            translate(option)
+    translate(amulet['dialogOnUse'])
+
+def apply_quest_journal(quests):
+    journal = json.loads((PLANE / 'tools/quest-journal.json').read_text())
+    if set(journal) != {str(quest['id']) for quest in quests}:
+        raise ValueError('Quest journal does not match the installed quest IDs')
+    for quest in quests:
+        entry = journal[str(quest['id'])]
+        stages = quest.get('stages', [])
+        if set(entry['stages']) != {str(stage['id']) for stage in stages}:
+            raise ValueError(f"Stage IDs changed for quest {quest['id']}")
+        for target, labels in [(quest, entry)] + [(s, entry['stages'][str(s['id'])]) for s in stages]:
+            target['name'] = labels['name']
+            target['description'] = labels['description']
+        for path, value in entry.get('dialog', {}).items():
+            parts = path.strip('/').split('/')
+            node = quest
+            for key in parts[:-1]:
+                node = node[int(key)] if isinstance(node, list) else node[key]
+            field = parts[-1]
+            if field not in ('text', 'name') or not isinstance(node[field], str):
+                raise ValueError(f'Invalid dialogue field {path}')
+            node[field] = value
+
 @dataclass
 class Card:
     name:str
@@ -441,6 +498,7 @@ class Builder:
                     node.set('source',os.path.relpath(source.parent/node.get('source'),target.parent))
                 emit(target,ET.tostring(root,encoding='unicode')+'\n')
                 templates[source.resolve()]=target
+        dialogue = json.loads((PLANE / 'tools/quest-map-dialogues.json').read_text())
         for f in sorted((COMMON/'maps').rglob('*.tmx')):
             root=ET.fromstring(f.read_bytes());changed=False
             if f.parent==COMMON/'maps/map/towns':
@@ -467,6 +525,8 @@ class Builder:
                         if 'value' in node.attrib:node.set('value',value)
                         else:node.text=value
                         changed=True
+            if f.is_relative_to(COMMON/'maps/map') and str(f.relative_to(COMMON/'maps/map')) in dialogue['files']:
+                apply_map_dialogues(root, dialogue['text'])
             dest=PLANE/f.relative_to(COMMON)
             for node in root.iter():
                 for attr in ('source','template'):
@@ -542,10 +602,11 @@ class Builder:
         items=[item for item in stock if not item['name'].startswith(SKETCHBOOK) or item['name'] in books]
         for book in sorted(books-{item['name'] for item in items}):
             items.append({'name':book,'unique':True,'description':'Sketches of landscapes from '+book[len(SKETCHBOOK):]+'.','iconName':'LandscapeSketchbook'})
+        translate_amulet(items)
         emit(PLANE/'world/items.json',dump(items))
     def run(self):
         quests=json.loads((ORIGINAL/'world/quests.json').read_text())
-        self.enemies();self.reward(quests);emit(PLANE/'world/quests.json',dump(quests))
+        self.enemies();self.reward(quests);apply_quest_journal(quests);emit(PLANE/'world/quests.json',dump(quests))
         translations=ORIGINAL/'languages/quests-es-ES.json'
         localized=json.loads(translations.read_text());self.reward(localized)
         emit(PLANE/'languages/quests-es-ES.json',dump(localized))

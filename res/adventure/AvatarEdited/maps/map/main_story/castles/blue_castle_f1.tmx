@@ -39,21 +39,21 @@
    <properties>
     <property name="defeatDialog">[{
    "condition": [{"checkQuestFlag": "Ch1CastlesComplete", "not":true}],
-   "text": "As you land your final blow against Lorthos, you feel a significant pulse of mana. But with the immediate threat removed, you can now see clearly that the locked room at the north end of the chamber does not hold any prisoners.",
-   "loctext": "adv.main_story_castles_blue_castle_f1.50.x.n0.text",
+   "text": "Лортос повержен. Волна маны отступает. За запертой северной дверью теперь хорошо видно пустую комнату.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"Ch1BlueCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
    }]
 },
 {
    "condition": [{"checkQuestFlag": "Ch1CastlesComplete"}],
-   "text": "As you land your final blow against Lorthos, you feel another pulse of mana. But just as before, the locked room behind your fallen foe does not hold any prisoners.",
-   "loctext": "adv.main_story_castles_blue_castle_f1.50.x.n2.text",
+   "text": "С падением Лортоса приходит ещё одна волна маны. И снова за дверью нет пленников.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"Ch1BlueCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
    }]
 }]</property>

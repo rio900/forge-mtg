@@ -60,7 +60,7 @@
  "startBattleWithCard": [ "Mox Pearl" ]
 }</property>
     <property name="enemy" value="Akroma" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Angelic Armaments"},{"type":"item","probability":0.05,"count":1,"itemName":"Robes of Omniscience"},{"type":"item","probability":0.05,"count":1,"itemName":"Angelic Greaves"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Angelic Armaments"},{"type":"item","probability":0.05,"count":1,"itemName":"Robes of Omniscience"},{"type":"item","probability":0.05,"count":1,"itemName":"Angelic Greaves"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="50" />
    </properties>
   </object>

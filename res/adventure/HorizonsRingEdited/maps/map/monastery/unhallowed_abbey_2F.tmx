@@ -57,7 +57,7 @@
   </object>
   <object id="87" template="../../obj/booster.tx" x="272.228" y="95.7719">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="88" template="../../obj/treasure.tx" x="240.333" y="47.6667">
@@ -67,7 +67,7 @@
   </object>
   <object id="89" template="../../obj/booster.tx" x="257.333" y="47.3333">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="90" template="../../obj/treasure.tx" x="175.667" y="48.3333">
@@ -82,12 +82,12 @@
   </object>
   <object id="92" template="../../obj/booster.tx" x="127.667" y="94">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="93" template="../../obj/booster.tx" x="159" y="47">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="94" template="../../../../common/maps/obj/enemy.tx" x="208.666" y="270.394">
@@ -127,18 +127,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A captive lies tied to the altar. Glowing red runes encircle them.", 
+    "text":"A captive lies tied to the altar. Glowing red runes encircle them.", "loctext":"adv.horizons.dialog.924d085c57ba0969", 
     "options":[ 
 	{ 
-		"text":"As the third captive is freed, you hear the sound of shattering as the barrier in the center of the chamber fails. Time to end this.",
+		"text":"As the third captive is freed, you hear the sound of shattering as the barrier in the center of the chamber fails. Time to end this.", "loctext":"adv.horizons.dialog.f0055b0e48c3c0be",
 		"action":[{"deleteMapObject":-1},{"advanceMapFlag":"gate"}],
-		"name":"Free them" 
+		"name":"Free them", "locname":"adv.horizons.dialog.6fde1e8c81a1e710" 
 			"options":[{
 			"condition":[{"getMapFlag":{"key":"gate","op":"&gt;=","val":3}}],
 			"action":[{"deleteMapObject":108}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -149,18 +149,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A captive lies tied to the altar. Glowing red runes encircle them.", 
+    "text":"A captive lies tied to the altar. Glowing red runes encircle them.", "loctext":"adv.horizons.dialog.924d085c57ba0969", 
     "options":[ 
 	{ 
-		"text":"As the third captive is freed, you hear the sound of shattering as the barrier in the center of the chamber fails. Time to end this.",
+		"text":"As the third captive is freed, you hear the sound of shattering as the barrier in the center of the chamber fails. Time to end this.", "loctext":"adv.horizons.dialog.f0055b0e48c3c0be",
 		"action":[{"deleteMapObject":-1},{"advanceMapFlag":"gate"}],
-		"name":"Free them" 
+		"name":"Free them", "locname":"adv.horizons.dialog.6fde1e8c81a1e710" 
 			"options":[{
 			"condition":[{"getMapFlag":{"key":"gate","op":"&gt;=","val":3}}],
 			"action":[{"deleteMapObject":108}],
-			"name":"Continue" }]
+			"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -171,18 +171,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A captive lies tied to the altar. Glowing red runes encircle them.", 
+    "text":"A captive lies tied to the altar. Glowing red runes encircle them.", "loctext":"adv.horizons.dialog.924d085c57ba0969", 
     "options":[ 
 	{ 
-		"text":"As the third captive is freed, you hear the sound of shattering as the barrier in the center of the chamber fails. Time to end this.",
+		"text":"As the third captive is freed, you hear the sound of shattering as the barrier in the center of the chamber fails. Time to end this.", "loctext":"adv.horizons.dialog.f0055b0e48c3c0be",
 		"action":[{"deleteMapObject":-1},{"advanceMapFlag":"gate"}],
-		"name":"Free them" 
+		"name":"Free them", "locname":"adv.horizons.dialog.6fde1e8c81a1e710" 
 			"options":[{
 			"condition":[{"getMapFlag":{"key":"gate","op":"&gt;=","val":3}}],
 			"action":[{"deleteMapObject":108}],
-			"name":"ok" }]
+			"name":"ok", "locname":"adv.horizons.dialog.2689367b205c16ce" }]
 	},
-	{ "name":"Leave" } 	
+	{ "name":"Leave", "locname":"adv.horizons.dialog.fc6e4a408d56be96" } 	
 	] 
 	} 
 	
@@ -244,36 +244,36 @@
   <object id="116" template="../../../../common/maps/obj/enemy.tx" x="203.566" y="96.2358" width="24" height="24">
    <properties>
     <property name="defeatDialog">[{
-    "text":"*With a snarl of pain, the demon collapses to the floor.* \n Congratulations, mortal, you've bested me. In exchange for my life, I offer a lesson - the same killing power I wield.",
+    "text":"*With a snarl of pain, the demon collapses to the floor.* \n Congratulations, mortal, you've bested me. In exchange for my life, I offer a lesson - the same killing power I wield.", "loctext":"adv.horizons.dialog.a6137008eb5c0671",
     "options":[{ 
-	"name":"I have no need for power from something as vile as you. Die!",  
-	"text":"*The demon's eyes widen in fear.* \n No! I will not be destroyed by- \n *A final blast of power reduces him to mana in the air of this place, and something clatters to the ground. A holy symbol of this place - or rather, what it once was. As the unholy energy around it fades, you can still feel magic coursing through it.*"
+	"name":"I have no need for power from something as vile as you. Die!", "locname":"adv.horizons.dialog.9cf3c709e319d6f5",  
+	"text":"*The demon's eyes widen in fear.* \n No! I will not be destroyed by- \n *A final blast of power reduces him to mana in the air of this place, and something clatters to the ground. A holy symbol of this place - or rather, what it once was. As the unholy energy around it fades, you can still feel magic coursing through it.*", "loctext":"adv.horizons.dialog.60ecb8b889804398"
 	"options":[{
-		"name":"Continue",
+		"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01",
 		"action":[{"addItem":"Hallowed Sigil"},{"deleteMapObject":116}]
 		}]
    	},
 	{ 
-	"name":"If you knew anything worth teaching me directly, I wouldn't have been able to defeat you.",  
-	"text":"*The demon's eyes widen in fear.* \n No! I will not be destroyed by- \n *A final blast of power reduces him to mana in the air of this place, and something clatters to the ground. A holy symbol of this place - or rather, what it once was. As the unholy energy around it fades, you can still feel magic coursing through it.*"
+	"name":"If you knew anything worth teaching me directly, I wouldn't have been able to defeat you.", "locname":"adv.horizons.dialog.94a6145634e6a4f0",  
+	"text":"*The demon's eyes widen in fear.* \n No! I will not be destroyed by- \n *A final blast of power reduces him to mana in the air of this place, and something clatters to the ground. A holy symbol of this place - or rather, what it once was. As the unholy energy around it fades, you can still feel magic coursing through it.*", "loctext":"adv.horizons.dialog.60ecb8b889804398"
 	"options":[{
-		"name":"Continue",
+		"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01",
 		"action":[{"addItem":"Hallowed Sigil"},{"deleteMapObject":116}]
 		}]
     	},
 	{ 
-	"name":"...Very well, even a monster like you deserves mercy. *Once.*",  
-	"text":"*The demon smiles, moving his hand in an arcane gesture.* \n *As you unconsciously mimic it, you feel a dark, repulsive power crystallize in your hand. \n *The demon smiles as he begins to fade into a cloud of smoke.* \n Very well, mortal. My power is yours to wield...until next time."
+	"name":"...Very well, even a monster like you deserves mercy. *Once.*", "locname":"adv.horizons.dialog.8162e3fd8295e10a",  
+	"text":"*The demon smiles, moving his hand in an arcane gesture.* \n *As you unconsciously mimic it, you feel a dark, repulsive power crystallize in your hand. \n *The demon smiles as he begins to fade into a cloud of smoke.* \n Very well, mortal. My power is yours to wield...until next time.", "loctext":"adv.horizons.dialog.ddfb4d8652a8358c"
 	"options":[{
-		"name":"Continue",
+		"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01",
 		"action":[{"addItem":"Unhallowed Sigil"},{"deleteMapObject":116}]
 		}]
     	},
 	{ 
-	"name":"As you should. I'll take your offer.",  
-	"text":"*The demon smiles, moving his hand in an arcane gesture.* \n *As you unconsciously mimic it, you feel a dark, repulsive power crystallize in your hand. \n *The demon smiles as he begins to fade into a cloud of smoke.* \n Very well, mortal. My power is yours to wield...until next time."
+	"name":"As you should. I'll take your offer.", "locname":"adv.horizons.dialog.c83601d70f33bfc8",  
+	"text":"*The demon smiles, moving his hand in an arcane gesture.* \n *As you unconsciously mimic it, you feel a dark, repulsive power crystallize in your hand. \n *The demon smiles as he begins to fade into a cloud of smoke.* \n Very well, mortal. My power is yours to wield...until next time.", "loctext":"adv.horizons.dialog.ddfb4d8652a8358c"
 	"options":[{
-		"name":"Continue",
+		"name":"Continue", "locname":"adv.horizons.dialog.31fbef162594de01",
 		"action":[{"addItem":"Unhallowed Sigil"},{"deleteMapObject":116}]
 		}]
     }]

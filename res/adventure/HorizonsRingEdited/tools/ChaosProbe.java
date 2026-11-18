@@ -8,7 +8,7 @@ public class ChaosProbe {
         GuiBase.setInterface(new forge.GuiDesktop());FModel.initialize(null,null);
         var cfg=Config.instance();
         if(!cfg.getPlane().equals("HorizonsRingEdited"))throw new AssertionError(cfg.getPlane());
-        var allowed=Set.of("MH1","MH2","LTR");
+        var allowed=Set.of("MH1","MH2","LTR","MH3","2XM");
         int starts=0;
         for (boolean variants : new boolean[]{false,true}) {
             cfg.getSettingData().useAllCardVariants=variants;

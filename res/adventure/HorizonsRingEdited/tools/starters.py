@@ -18,7 +18,8 @@ def build_starts(b):
             b.write_deck(ref,code+' '+col,{'Main':rows})
             path=PLANE/ref
             text=path.read_text().splitlines()
-            text[-1]=f'17 {land}|{code}|1'
+            land_set='LTR' if code=='2XM' else code
+            text[-1]=f'17 {land}|{land_set}|1'
             emit(path,'\n'.join(text)+'\n')
     leaders={'W':'Boromir, Warden of the Tower','U':'Urza, Lord High Artificer','B':'Yawgmoth, Thran Physician','R':'Pashalik Mons','G':'Ayula, Queen Among Bears'}
     pairs={'Azorius':'WU','Dimir':'UB','Rakdos':'BR','Gruul':'RG','Selesnya':'WG','Orzhov':'WB','Izzet':'UR','Golgari':'BG','Boros':'WR','Simic':'UG'}

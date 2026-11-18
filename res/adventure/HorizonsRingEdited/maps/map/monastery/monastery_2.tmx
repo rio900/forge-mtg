@@ -48,7 +48,7 @@
   </object>
   <object id="68" template="../../obj/booster.tx" x="318.799" y="126.939">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"colors":["white"],"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"colors":["white"],"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"colors":["white"],"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"colors":["white"],"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"colors":["white"],"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"colors":["white"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="69" template="../../../../common/maps/obj/enemy.tx" x="207.848" y="68.8154">

@@ -165,7 +165,7 @@
   <object id="119" template="../../../../common/maps/obj/waypoint.tx" x="139.667" y="286.333" />
   <object id="120" template="../../obj/booster.tx" x="150.333" y="253.333">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="121" template="../../../../common/maps/obj/collision.tx" x="-16" y="-16" width="16" height="416" />

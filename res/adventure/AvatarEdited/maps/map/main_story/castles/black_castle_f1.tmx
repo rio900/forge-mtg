@@ -39,21 +39,21 @@
    <properties>
     <property name="defeatDialog">[{
    "condition": [{"checkQuestFlag": "Ch1CastlesComplete", "not":true}],
-   "text": "As you land your final blow against Griselbrand, you feel a significant pulse of mana.",
-   "loctext": "adv.main_story_castles_black_castle_f1.50.x.n0.text",
+   "text": "Гризельбранд повержен. Сквозь каменные плиты проходит мощная волна маны.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"Ch1BlackCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
    }]
 },
 {
    "condition": [{"checkQuestFlag": "Ch1CastlesComplete"}],
-   "text": "As you land your final blow against Griselbrand, you feel another pulse of mana.",
-   "loctext": "adv.main_story_castles_black_castle_f1.50.x.n2.text",
+   "text": "Гризельбранд падает, и знакомая волна маны снова пробегает по замку.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"Ch1BlackCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
    }]
 }]</property>

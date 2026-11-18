@@ -52,6 +52,28 @@ def check_reward_sources(obj, source, printings, allowed, banned):
             check_reward_sources(value, source, printings, allowed, banned)
 
 
+def check_quest_dialogues(quests):
+    journal = json.loads((PLANE / "tools/quest-journal.json").read_text())
+    def dialogue_fields(node, path):
+        for field in ("name", "text"):
+            if node.get(field):
+                yield f"{path}/{field}", node[field]
+        for i, option in enumerate(node.get("options", [])):
+            yield from dialogue_fields(option, f"{path}/options/{i}")
+    total = 0
+    for quest in quests:
+        fields = {}
+        sources = [("", quest)] + [(f"/stages/{i}", stage) for i, stage in enumerate(quest.get("stages", []))]
+        for prefix, source in sources:
+            for key in ("offerDialog", "failureDialog", "declinedDialog", "prologue", "epilogue"):
+                fields.update(dialogue_fields(source.get(key, {}), prefix + "/" + key))
+        assert fields == journal[str(quest["id"])]["dialog"], quest["id"]
+        for path, value in fields.items():
+            assert re.search(r"[А-Яа-яЁё]", value), (quest["id"], path)
+        total += len(fields)
+    print(f"Verified {total} Russian dialogue fields across {len(quests)} quests.")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--loot", type=Path, help="Write distinct rules for VerifyPlane")
@@ -137,7 +159,9 @@ def main():
                 value = re.sub(r",\s*([}\]])", r"\1", value)
                 value = re.sub(r'([\]"\d}])\s*\n(\s*"\w+"\s*:)', r'\1,\n\2', value)
                 collect_rewards(json.loads(value), str(rel), rules, key == "reward")
-    collect_rewards(json.loads((PLANE / "world/quests.json").read_text()), "quests", rules)
+    quests = json.loads((PLANE / "world/quests.json").read_text())
+    check_quest_dialogues(quests)
+    collect_rewards(quests, "quests", rules)
     for f in (PLANE/"languages").glob("quests*.json"):
         collect_rewards(json.loads(f.read_text()),str(f.relative_to(PLANE)),rules)
     for enemy in enemies:

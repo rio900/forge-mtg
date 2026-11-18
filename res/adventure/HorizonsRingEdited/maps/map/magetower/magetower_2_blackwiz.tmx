@@ -76,7 +76,7 @@
   </object>
   <object id="67" template="../../obj/booster.tx" x="262" y="113.5">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="68" template="../../../../common/maps/obj/waypoint.tx" x="209" y="190.5" />
@@ -89,7 +89,7 @@
   <object id="75" template="../../../../common/maps/obj/manashards.tx" x="258" y="45" />
   <object id="76" template="../../obj/treasure.tx" x="161.5" y="48">
    <properties>
-    <property name="reward">[{"type":"randomCard","colors":["Black"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Spell Book"},{"type":"card","probability":1,"count":1,"cardName":"Bilbo's Ring|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Black"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Spell Book"},{"type":"card","probability":1,"count":1,"cardName":"Sword of Light and Shadow|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
     <property name="spawn.Normal" type="bool" value="true" />
    </properties>
   </object>

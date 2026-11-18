@@ -45,9 +45,9 @@
    <properties>
     <property name="dialog">[
   {
-    "text":"The inscription reads: Congratulations Adventurer! Just for finding this place you have won a prize!",
+    "text":"The inscription reads: Congratulations Adventurer! Just for finding this place you have won a prize!", "loctext":"adv.horizons.dialog.e0b2a60b01c87bb7",
     "options":[
-      { "name":"Happily walk toward your prize" }
+      { "name":"Happily walk toward your prize", "locname":"adv.horizons.dialog.2bd275b75b2b5380" }
 ]
 }
 ]</property>

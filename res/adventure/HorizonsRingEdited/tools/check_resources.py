@@ -29,12 +29,33 @@ def collect_rewards(obj, source, rules, chest=False):
             collect_rewards(child, source, rules, chest)
 
 
+def check_quest_translation(original, translated):
+    if isinstance(original, list):
+        assert len(original) == len(translated)
+        for source, target in zip(original, translated):
+            check_quest_translation(source, target)
+    elif isinstance(original, dict):
+        assert original.keys() == translated.keys()
+        for key, source in original.items():
+            target = translated[key]
+            if key in {"name", "text", "description", "rewardDescription"} and isinstance(source, str):
+                tokens = r"\$\([^)]*\)|\{[^{}]*\}"
+                assert Counter(re.findall(tokens, source)) == Counter(re.findall(tokens, target)), source
+                assert bool(source.strip()) == bool(target.strip()), source
+            else:
+                check_quest_translation(source, target)
+    else:
+        assert original == translated, (original, translated)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--loot", type=Path, help="Write distinct rules for VerifyPlane")
     args = parser.parse_args()
+    check_quest_translation(json.loads((PLANE/"world/quests.json").read_text()),
+                            json.loads((PLANE/"languages/quests-ru-RU.json").read_text()))
     cfg = json.loads((PLANE / "config.json").read_text())
-    assert set(cfg["allowedEditions"]) == {"MH1","MH2","LTR"}
+    assert set(cfg["allowedEditions"]) == {"MH1","MH2","LTR","MH3","2XM"}
     def audit_rules(obj, source):
         if isinstance(obj,list):
             for v in obj:audit_rules(v,source)
@@ -47,7 +68,7 @@ def main():
     for path in [*(PLANE/"world").glob("*.json"),*(PLANE/"languages").glob("*.json"),*(PLANE/"decks").rglob("*.json")]:
         audit_rules(json.loads(path.read_text()),path)
     modern={tuple(line.split("|")[:2]) for line in (PLANE/"tools/modern-cards.txt").read_text().splitlines()}
-    assert len(modern)==46
+    assert len(modern)==54
     banned = set(cfg["restrictedCards"])
     for f in PLANE.rglob("*.json"):
         json.loads(f.read_text())
@@ -58,22 +79,37 @@ def main():
                 quantity, entry = line.split(" ", 1)
                 name, edition, art = entry.split("|")
                 if edition not in cfg["allowedEditions"]:
-                    assert (name,edition) in modern and (f.parent.name in ("shop","arena") or
+                    assert (name,edition) in modern and (f.is_relative_to(PLANE/"decks/shop") or f.parent.name in ("arena","converted") or
                         (f.name=="liliana.dck" and name=="Sheoldred, the Apocalypse") or
                         (f.name=="griselbrand-1.dck" and name in ("Griselbrand","Goryo's Vengeance"))), (f,entry)
                 assert name not in banned and int(art) > 0, (f, entry)
                 counts[name] += int(quantity)
-        assert f.parent.name in ("shop","arena") or all(n.removeprefix("Snow-Covered ") in BASICS or q <= 4 for n, q in counts.items()), f
+        assert f.is_relative_to(PLANE/"decks/shop") or f.parent.name=="arena" or all(n.removeprefix("Snow-Covered ") in BASICS or q <= 4 for n, q in counts.items()), f
     mappings = list(csv.DictReader((PLANE / "tools/enemy-mapping.tsv").open(), delimiter="\t"))
     refs = {r["local"] for r in mappings}
     assert len(refs) == len(mappings) and all((PLANE / r).is_file() for r in refs)
     enemies = json.loads((PLANE / "world/enemies.json").read_text())
     stock=json.loads((COMMON/"world/enemies.json").read_text())
+    from enemy_plans import COLORS
     def encounter_properties(enemy):
         result={k:v for k,v in enemy.items() if k not in ("deck","rewards","nextEnemy")}
+        if enemy["name"] in COLORS:result["colors"]=COLORS[enemy["name"]]
         if enemy.get("nextEnemy"):result["nextEnemy"]=encounter_properties(enemy["nextEnemy"])
         return result
     assert list(map(encounter_properties,enemies))==list(map(encounter_properties,stock))
+    from encounters import PACKAGES
+    def bounded_rewards(enemy):
+        if enemy.get("boss") or enemy["name"] in PACKAGES:
+            cards=[r for r in enemy["rewards"] if r.get("type", "card").lower() in
+                   {"card","randomcard","deckcard","rewarddeckcard","union","cardpack","cardpackshop"}]
+            assert len(cards)==3 and sum(r["count"] for r in cards)==4,(enemy["name"],cards)
+            assert all(r.get("addMaxCount",0)==0 and r["type"]=="card" for r in cards)
+            assert cards[0]["sourceDeck"].endswith("Support.dck") and cards[0]["count"]==2
+            assert cards[1]["sourceDeck"].endswith("Premium.dck") and cards[1]["count"]==1
+            assert cards[2]["sourceDeck"].endswith("Any.dck") and cards[2]["count"]==1
+            assert cards[2]["probability"]==(.35 if enemy.get("boss") else .05)
+        if enemy.get("nextEnemy"):bounded_rewards(enemy["nextEnemy"])
+    for enemy in enemies:bounded_rewards(enemy)
     shops = {s["name"]: s for s in json.loads((PLANE / "world/shops.json").read_text())}
     points = json.loads((PLANE / "world/points_of_interest.json").read_text())
     for point in points:
@@ -102,17 +138,35 @@ def main():
         if f.parent.name == "towns":
             objects = list(root.iter("object"))
             vendors = [o for o in objects if Path(o.get("template", "")).stem in ("shop", "RotatingShop")]
-            assert len(vendors) == 3 and sum(o.get("template", "").endswith("/inn.tx") for o in objects) == 1, rel
+            assert len(vendors) == (3 if f.stem.startswith("waste_") else 4) and sum(o.get("template", "").endswith("/inn.tx") for o in objects) == 1, rel
             assert all(Path(o.get("template")).name=="shop.tx" and o.find("properties/property[@name='noRestock'][@value='true']") is None for o in vendors), rel
             names = [o.find("properties/property[@name='commonShopList']").get("value") for o in vendors]
             assert all(n in shops for n in names) and "RingTownBooster" in names, (rel, names)
-            singles = [shops[n] for n in names if n.startswith("RingTown") and n not in ("RingTownEquipment", "RingTownBooster")]
+            singles = [shops[n] for n in names if n.startswith("RingTown") and not n.startswith("RingTownLands") and n not in ("RingTownEquipment", "RingTownBooster")]
             assert len(singles) == 1, rel
             slots = singles[0]["rewards"]
             assert [rule["count"] for rule in slots] == [1]*6, rel
             color=singles[0]["name"].removeprefix("RingTown").removesuffix("Creatures")
             assert [r["sourceDeck"] for r in slots] == [f"decks/shop/{color}.dck"]*3+["decks/shop/GeneralWeighted.dck"]*3, rel
             assert all((PLANE/r["sourceDeck"]).is_file() for r in slots), rel
+        if f.stem.endswith("_capital"):
+            vendors=[o for o in root.iter("object") if Path(o.get("template","")).stem in ("shop","RotatingShop")]
+            assert len(vendors)==16, (rel,len(vendors))
+            original_vendors=[o for o in ET.parse(f).iter("object") if Path(o.get("template", "")).stem in ("shop","RotatingShop")]
+            assert {(o.get("id"),o.get("x"),o.get("y")) for o in vendors}=={(o.get("id"),o.get("x"),o.get("y")) for o in original_vendors},rel
+            for vendor in vendors:
+                for prop in vendor.findall("properties/property"):
+                    if prop.get("name", "").endswith("ShopList") or prop.get("name")=="rotation":
+                        for name in prop.get("value", "").split(","):
+                            assert name in shops,(rel,name)
+                            if name.startswith(("CapitalSmall","CapitalLands","CapitalBooster")):
+                                shop=shops[name]
+                                assert not shop["unlimited"],name
+                                expected=6
+                                assert sum(r["count"] for r in shop["rewards"])==expected,name
+
+            assert sum(Path(o.get("template","")).stem=="RotatingShop" for o in vendors)==3, rel
+            assert sum(o.find("properties/property[@name='rareShopList']") is not None for o in vendors)==7, rel
         if effective != f:
             original = ET.parse(f)
             assert [n.text for n in root.iter("data")] == [n.text for n in original.iter("data")], rel
@@ -153,7 +207,9 @@ def main():
                     original_arena=json.loads(re.sub(r",\s*([}\]])",r"\1",original_value))
                     color={"plains":"White","island":"Blue","swamp":"Black","mountain":"Red","forest":"Green"}[f.stem.split("_")[0]]
                     final=original_arena["rewards"][-1]
-                    next(rule for rule in final if rule.get("rarity")==["Mythic Rare"])["count"]=1
+                    premium=next(rule for rule in final if rule.get("rarity")==["Mythic Rare"])
+                    premium.clear()
+                    premium.update(type="card",count=1,sourceDeck="decks/arena/Premium.dck")
                     final.append({"type":"card","count":1,"sourceDeck":f"decks/arena/{color}.dck"})
                     assert obj==original_arena,(rel,"arena round or prize changed")
                 def editions(o):

@@ -83,7 +83,11 @@
     "Mise",
     "A-Dragon's Rage Channeler",
     "A-Orcish Bowmasters",
-    "A-The One Ring"
+    "A-The One Ring",
+    "A-Galvanic Discharge",
+    "A-Guide of Souls",
+    "A-Nadu, Winged Wisdom",
+    "A-Ocelot Pride"
   ],
   "restrictedEditions": [
     "HTR",
@@ -292,32 +296,42 @@
   "starterEditions": [
     "MH1",
     "MH2",
-    "LTR"
+    "LTR",
+    "MH3",
+    "2XM"
   ],
   "starterEditionNames": [
     "Modern Horizons",
     "Modern Horizons 2",
-    "The Lord of the Rings: Tales of Middle-earth"
+    "The Lord of the Rings: Tales of Middle-earth",
+    "Modern Horizons 3",
+    "Double Masters"
   ],
   "allowedEditions": [
     "MH1",
     "MH2",
-    "LTR"
+    "LTR",
+    "MH3",
+    "2XM"
   ],
   "defaultBasicLandSet": "LTR",
   "enableGeneticAI": false,
   "allowedEvents": [
     "MH1",
     "MH2",
-    "LTR"
+    "LTR",
+    "MH3",
+    "2XM"
   ],
   "allowedJumpstart": [
     "The Lord of the Rings: Tales of Middle-earth Jumpstart"
   ],
   "restrictedBlocks": [
     "Modern Horizons",
+    "Double Masters",
     "Modern Horizons 2",
-    "The Lord of the Rings: Tales of Middle-earth"
+    "The Lord of the Rings: Tales of Middle-earth",
+    "Modern Horizons 3"
   ],
   "starterDecksByEdition": {
     "MH1": {
@@ -333,6 +347,20 @@
       "B": "decks/starter/MH2/B.dck",
       "R": "decks/starter/MH2/R.dck",
       "G": "decks/starter/MH2/G.dck"
+    },
+    "MH3": {
+      "W": "decks/starter/MH3/W.dck",
+      "U": "decks/starter/MH3/U.dck",
+      "B": "decks/starter/MH3/B.dck",
+      "R": "decks/starter/MH3/R.dck",
+      "G": "decks/starter/MH3/G.dck"
+    },
+    "2XM": {
+      "W": "decks/starter/2XM/W.dck",
+      "U": "decks/starter/2XM/U.dck",
+      "B": "decks/starter/2XM/B.dck",
+      "R": "decks/starter/2XM/R.dck",
+      "G": "decks/starter/2XM/G.dck"
     }
   }
 }

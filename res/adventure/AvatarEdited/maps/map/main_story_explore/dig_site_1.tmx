@@ -62,9 +62,9 @@
    <properties>
     <property name="defeatDialog">[
   { 
-    "text":"As the machine collapses to the ground in a heap of parts, several levers and gears come free from within its metal carapace.", 
+    "text":"Машина оседает на пол. Из-под железного панциря выкатываются шестерни и рычаги.",
     "options":[{ 
-		"name":"Perhaps these will be useful somewhere?",
+		"name":"Прихватить детали. Вдруг пригодятся?",
 		"action":[{"deleteMapObject":-1}, {"advanceMapFlag":"hasGears"}],
 	}]
    }
@@ -118,18 +118,18 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A collection of gears appears through the remnants of this crumbling wall, but the lever before you spins freely.", 
+    "text":"За осыпавшейся стеной видны зубчатые колёса. Рычаг перед тобой проворачивается вхолостую.",
     "options":[ 
 	{ 
-		"text":"The connected machinery whirrs to life, and a hidden room to your east opens!",
+		"text":"Шестерни вошли в зацепление. К востоку открылась потайная комната!",
 		"condition":[{"checkMapFlag":"hasGears"}],
 		"action":[{"deleteMapObject":-1}],
-		"name":"Connect a gear from the golem to the lever." 
+		"name":"Насадить шестерню голема на рычаг."
 			"options":[{
 			"action":[{"deleteMapObject":118},{"deleteMapObject":121},{"deleteMapObject":123},{"deleteMapObject":124},{"deleteMapObject":125}],
-			"name":"(Continue)" }]
+			"name":"Дальше" }]
 	},
-	{ "name":"(Continue)" } 	
+	{ "name":"Дальше" }
 	] 
 	}
 ] 
@@ -140,17 +140,17 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"A collection of gears appears through the remnants of this crumbling wall, but you see no obvious way to turn them.", 
+    "text":"За проломом видны зубчатые колёса. Ухватиться, чтобы их повернуть, не за что.",
     "options":[ 
 	{ 
-		"text":"You feel the floor begin to rumble under your feet as the ancient gears grind against one another, but nothing obvious appears to happen.",
+		"text":"Под подошвами дрогнул пол. Древние колёса повернулись, но вокруг будто ничего не изменилось.",
 		"condition":[{"checkMapFlag":"hasGears"}],
 		"action":[{"deleteMapObject":-1}],
-		"name":"Connect a lever from the golem to the gears." 
+		"name":"Вставить рычаг голема в механизм."
 			"options":[{
-			"name":"(Continue)" }]
+			"name":"Дальше" }]
 	},
-	{ "name":"(Continue)" } 	
+	{ "name":"Дальше" }
 	] 
 	}
 ] 
@@ -166,10 +166,10 @@
    <properties>
     <property name="dialog">[
   { 
-    "text":"The lever feels solidly attached to the switch, but it swings back and forth freely as if nothing is connected to this mechanism.",
-    "loctext": "adv.main_story_explore_dig_site_1.116.d.n0.text", 
+    "text":"Рычаг держится крепко, но раскачивается легко. На том конце явно чего-то не хватает.",
+    "loctext": null,
     "options":[ 
-	{ "name":"(Continue)", "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}] } 	
+	{ "name":"Дальше", "locname": null, "action": [{"deleteMapObject":-1}] }
 	] 
 	} 
 	

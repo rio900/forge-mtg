@@ -10,10 +10,10 @@ public class Events {
         GuiBase.setInterface(new forge.GuiDesktop());FModel.initialize(null,null);
         var cfg=Config.instance();
         VerifyPlane.check(cfg.getPlane().equals("HorizonsRingEdited"),cfg.getPlane());
-        VerifyPlane.editions.addAll(Set.of("MH1","MH2","LTR"));
+        VerifyPlane.editions.addAll(Set.of("MH1","MH2","LTR","MH3","2XM"));
         AdventureOverrides.instance().load(cfg.getPrefix(),FModel.getMagicDb().getEditions(),cfg.getConfigData());
         Current.player().updateDifficulty(cfg.getConfigData().difficulties[0]);
-        for(var code:List.of("MH1","MH2","LTR")){
+        for(var code:args.length==0?List.of("MH1","MH2","LTR","MH3","2XM"):Arrays.asList(args)){
             var block=AdventureOverrides.instance().getBlock("Horizons "+code);
             var sealed=new AdventureEventData(123L,AdventureEventController.EventFormat.Sealed,block);
             // Headless participants have no portrait. Forge builds their decks normally.

@@ -11466,5 +11466,529 @@
       }
     ],
     "storyQuest": true
+  },
+  {
+    "id": 54,
+    "isTemplate": true,
+    "name": "Колокол без языка",
+    "description": "Трижды одолейте противника «$(enemy_1)» на равнинах и вернитесь к дозорной.",
+    "offerDialog": {
+      "text": "У ворот висит треснувший колокол. Дозорная привязала к нему белую нить. «Он отлит из щита первого стража. Раньше сам звонил, когда к городу подходил враг. Теперь нить дрожит, а мы ничего не слышим».",
+      "options": [
+        {
+          "name": "Пройду дозором по равнинам. (Принять задание)",
+          "action": [
+            {
+              "issueQuest": "54"
+            }
+          ]
+        },
+        {
+          "name": "Оставить поручение другому магу."
+        }
+      ]
+    },
+    "rewardDescription": "300 золота и одна необычная карта.",
+    "epilogue": {
+      "text": "Колокол ударяет прежде, чем вы успеваете постучать. Дозорная отворяет калитку. «Узнал, кто идёт. Прежде он и этого не умел».",
+      "options": [
+        {
+          "name": "Забрать награду",
+          "action": [
+            {
+              "grantRewards": [
+                {
+                  "type": "gold",
+                  "count": 300
+                },
+                {
+                  "type": "card",
+                  "count": 1,
+                  "rarity": [
+                    "Uncommon"
+                  ],
+                  "editions": [
+                    "MH1",
+                    "MH2",
+                    "LTR",
+                    "MH3"
+                  ],
+                  "colors": [
+                    "White"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "id": 1,
+        "count3": 3,
+        "worldMapOK": true,
+        "objective": "Defeat",
+        "enemyTags": [
+          "BiomeWhite"
+        ],
+        "POIToken": "",
+        "name": "Равнинный дозор",
+        "description": "Трижды одолейте противника «$(enemy_1)» на равнинах"
+      },
+      {
+        "id": 2,
+        "here": true,
+        "objective": "Travel",
+        "prerequisiteIDs": [
+          1
+        ],
+        "POIToken": "",
+        "name": "Вернуться к колоколу",
+        "description": "Вернитесь в город, где получили поручение."
+      }
+    ],
+    "questSourceTags": [
+      "plains_capital",
+      "plains_town_generic",
+      "plains_town_identity",
+      "plains_town_tribal"
+    ]
+  },
+  {
+    "id": 55,
+    "isTemplate": true,
+    "name": "Чернила отлива",
+    "description": "Победите всех противников в $(poi_1), затем вернитесь к картографу.",
+    "offerDialog": {
+      "text": "Картограф опускает карту в солёную воду. Береговые линии проступают синим, но вокруг одного острова чернила собираются в чёрный узел. «Там заперто течение маны. Пока оно стоит, лоцманы ведут суда по вчерашнему морю».",
+      "options": [
+        {
+          "name": "Посмотреть, что удерживает течение. (Принять задание)",
+          "action": [
+            {
+              "issueQuest": "55"
+            }
+          ]
+        },
+        {
+          "name": "Оставить поручение другому магу."
+        }
+      ]
+    },
+    "rewardDescription": "300 золота и одна необычная карта.",
+    "epilogue": {
+      "text": "На карте сохнет тонкая синяя линия. Картограф ставит на ней крестик. «Здесь я потеряла лодку двенадцать лет назад. Завтра попробую до неё доплыть».",
+      "options": [
+        {
+          "name": "Забрать награду",
+          "action": [
+            {
+              "grantRewards": [
+                {
+                  "type": "gold",
+                  "count": 300
+                },
+                {
+                  "type": "card",
+                  "count": 1,
+                  "rarity": [
+                    "Uncommon"
+                  ],
+                  "editions": [
+                    "MH1",
+                    "MH2",
+                    "LTR",
+                    "MH3"
+                  ],
+                  "colors": [
+                    "Blue"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "id": 1,
+        "count2": 25,
+        "POITags": [
+          "BiomeBlue",
+          "Hostile",
+          "Sidequest"
+        ],
+        "objective": "Clear",
+        "POIToken": "",
+        "name": "Освободить течение",
+        "description": "Победите всех противников в $(poi_1)"
+      },
+      {
+        "id": 2,
+        "here": true,
+        "objective": "Travel",
+        "prerequisiteIDs": [
+          1
+        ],
+        "POIToken": "",
+        "name": "Вернуться к картографу",
+        "description": "Вернитесь в город, где получили поручение."
+      }
+    ],
+    "questSourceTags": [
+      "island_town_generic",
+      "island_town_identity",
+      "island_town_tribal",
+      "island_capital"
+    ]
+  },
+  {
+    "id": 56,
+    "isTemplate": true,
+    "name": "Долг погребального огня",
+    "description": "Трижды победите противника «$(enemy_1)» на болотах и вернитесь к могильщице.",
+    "offerDialog": {
+      "text": "На болоте могильщица зажигает три плошки. Из каждой тянется чёрная нить. «Я заняла у болота ману, чтобы похоронить сына в мёрзлой земле. Теперь по его следам в город идут чужие мертвецы. Разорви нити, пока они ещё тонки».",
+      "options": [
+        {
+          "name": "Взять огонь с собой. (Принять задание)",
+          "action": [
+            {
+              "issueQuest": "56"
+            }
+          ]
+        },
+        {
+          "name": "Оставить поручение другому магу."
+        }
+      ]
+    },
+    "rewardDescription": "300 золота и одна необычная карта.",
+    "epilogue": {
+      "text": "Последняя плошка погасла. Могильщица впервые берёт её голой рукой. «Холодная. Вот теперь я смогу посадить там иву».",
+      "options": [
+        {
+          "name": "Забрать награду",
+          "action": [
+            {
+              "grantRewards": [
+                {
+                  "type": "gold",
+                  "count": 300
+                },
+                {
+                  "type": "card",
+                  "count": 1,
+                  "rarity": [
+                    "Uncommon"
+                  ],
+                  "editions": [
+                    "MH1",
+                    "MH2",
+                    "LTR",
+                    "MH3"
+                  ],
+                  "colors": [
+                    "Black"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "id": 1,
+        "count3": 3,
+        "worldMapOK": true,
+        "objective": "Defeat",
+        "enemyTags": [
+          "BiomeBlack"
+        ],
+        "POIToken": "",
+        "name": "Разорвать три нити",
+        "description": "Трижды победите противника «$(enemy_1)» на болотах"
+      },
+      {
+        "id": 2,
+        "here": true,
+        "objective": "Travel",
+        "prerequisiteIDs": [
+          1
+        ],
+        "POIToken": "",
+        "name": "Вернуть плошки",
+        "description": "Вернитесь в город, где получили поручение."
+      }
+    ],
+    "questSourceTags": [
+      "swamp_town_generic",
+      "swamp_town_identity",
+      "swamp_town_tribal",
+      "swamp_capital"
+    ]
+  },
+  {
+    "id": 57,
+    "isTemplate": true,
+    "name": "Искра в шлаке",
+    "description": "Трижды победите противника «$(enemy_1)» в горах и вернитесь в кузницу.",
+    "offerDialog": {
+      "text": "Подмастерье вынимает из горна холодный слиток. «У горы дурная привычка. Когда рядом дерутся, весь огонь уходит туда. Мастер тридцать лет носил на поясе вот эти щипцы. Попробуй поймать ими искру после поединка».",
+      "options": [
+        {
+          "name": "Одолжить кузнечные щипцы. (Принять задание)",
+          "action": [
+            {
+              "issueQuest": "57"
+            }
+          ]
+        },
+        {
+          "name": "Оставить поручение другому магу."
+        }
+      ]
+    },
+    "rewardDescription": "300 золота и одна необычная карта.",
+    "epilogue": {
+      "text": "Подмастерье касается щипцами остывших углей. Слиток краснеет, и на нём проступает клеймо мастера. За стеной наконец стучит второй молот.",
+      "options": [
+        {
+          "name": "Забрать награду",
+          "action": [
+            {
+              "grantRewards": [
+                {
+                  "type": "gold",
+                  "count": 300
+                },
+                {
+                  "type": "card",
+                  "count": 1,
+                  "rarity": [
+                    "Uncommon"
+                  ],
+                  "editions": [
+                    "MH1",
+                    "MH2",
+                    "LTR",
+                    "MH3"
+                  ],
+                  "colors": [
+                    "Red"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "id": 1,
+        "count3": 3,
+        "worldMapOK": true,
+        "objective": "Defeat",
+        "enemyTags": [
+          "BiomeRed"
+        ],
+        "POIToken": "",
+        "name": "Поймать искры в горах",
+        "description": "Трижды победите противника «$(enemy_1)» в горах"
+      },
+      {
+        "id": 2,
+        "here": true,
+        "objective": "Travel",
+        "prerequisiteIDs": [
+          1
+        ],
+        "POIToken": "",
+        "name": "Разжечь горн",
+        "description": "Вернитесь в город, где получили поручение."
+      }
+    ],
+    "questSourceTags": [
+      "mountain_town_generic",
+      "mountain_town_identity",
+      "mountain_town_tribal",
+      "mountain_capital"
+    ]
+  },
+  {
+    "id": 58,
+    "isTemplate": true,
+    "name": "Память семени",
+    "description": "Победите всех противников в $(poi_1) и вернитесь к друидке.",
+    "offerDialog": {
+      "text": "Друидка раскрывает ладонь. В жёлуде слышен скрип старых ветвей. «Его дерево срубили ещё до моего рождения. Оно помнит дорогу к роще, а я уже нет. Иди за ним. Когда под корнями станет тихо, жёлудь нас отпустит».",
+      "options": [
+        {
+          "name": "Взять жёлудь. (Принять задание)",
+          "action": [
+            {
+              "issueQuest": "58"
+            }
+          ]
+        },
+        {
+          "name": "Оставить поручение другому магу."
+        }
+      ]
+    },
+    "rewardDescription": "300 золота и одна необычная карта.",
+    "epilogue": {
+      "text": "На обратном пути жёлудь раскалывается. Друидка опускает росток в землю у дороги. «Пусть на этот раз роща растёт там, где её будут помнить».",
+      "options": [
+        {
+          "name": "Забрать награду",
+          "action": [
+            {
+              "grantRewards": [
+                {
+                  "type": "gold",
+                  "count": 300
+                },
+                {
+                  "type": "card",
+                  "count": 1,
+                  "rarity": [
+                    "Uncommon"
+                  ],
+                  "editions": [
+                    "MH1",
+                    "MH2",
+                    "LTR",
+                    "MH3"
+                  ],
+                  "colors": [
+                    "Green"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "id": 1,
+        "POITags": [
+          "BiomeGreen",
+          "Hostile",
+          "Sidequest"
+        ],
+        "objective": "Clear",
+        "POIToken": "",
+        "name": "Расчистить рощу",
+        "description": "Победите всех противников в $(poi_1)"
+      },
+      {
+        "id": 2,
+        "here": true,
+        "objective": "Travel",
+        "prerequisiteIDs": [
+          1
+        ],
+        "POIToken": "",
+        "name": "Посадить росток",
+        "description": "Вернитесь в город, где получили поручение."
+      }
+    ],
+    "questSourceTags": [
+      "forest_town_generic",
+      "forest_town_identity",
+      "forest_town_tribal",
+      "forest_capital"
+    ]
+  },
+  {
+    "id": 59,
+    "isTemplate": true,
+    "name": "Кубок из мифрила",
+    "description": "Доберитесь до $(poi_1) и выиграйте турнир на городской арене.",
+    "offerDialog": {
+      "text": "Чеканщик показывает кубок. Внутри по краю выбиты имена победителей. «На обычном серебре я мог бы вырезать любое имя. Мифрил принимает резец только во время последнего удара на арене. Мне нужен поединок, который ты доведёшь до конца».",
+      "options": [
+        {
+          "name": "Выступить на столичной арене. (Принять задание)",
+          "action": [
+            {
+              "issueQuest": "59"
+            }
+          ]
+        },
+        {
+          "name": "Оставить поручение другому магу."
+        }
+      ]
+    },
+    "rewardDescription": "300 золота и одна редкая карта.",
+    "epilogue": {
+      "text": "После последнего поединка чеканщик поворачивает кубок к свету. На самом краю блестит свежая строка. Он протягивает вам резец. «Последнюю букву победитель ставит сам».",
+      "options": [
+        {
+          "name": "Забрать награду",
+          "action": [
+            {
+              "grantRewards": [
+                {
+                  "type": "gold",
+                  "count": 300
+                },
+                {
+                  "type": "card",
+                  "count": 1,
+                  "rarity": [
+                    "Rare"
+                  ],
+                  "editions": [
+                    "MH1",
+                    "MH2",
+                    "LTR",
+                    "MH3"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "id": 1,
+        "count1": 60,
+        "count2": 30,
+        "POITags": [
+          "Capital"
+        ],
+        "objective": "Travel",
+        "POIToken": "",
+        "name": "Добраться до столицы",
+        "description": "Отправляйтесь в $(poi_1)."
+      },
+      {
+        "id": 2,
+        "objective": "Arena",
+        "prerequisiteIDs": [
+          1
+        ],
+        "POIToken": "$(poi_1)",
+        "name": "Выиграть турнир",
+        "description": "Выиграйте турнир на арене в $(poi_1)."
+      }
+    ],
+    "questSourceTags": [
+      "waste_town_generic",
+      "waste_town_identity",
+      "waste_town_tribal"
+    ]
   }
 ]

@@ -1,39 +1,39 @@
 Akroma	Serra the Benevolent;Serra's Emissary	Защитить ангелов и выиграть воздушную гонку
 Ancient Silver Dragon	Murktide Regent;Fact or Fiction	Наполнить кладбище и удешевить дракона
-Chandra	Seasoned Pyromancer;Firebolt;Fiery Inscription	Поддержать атаку пиромантов повторным уроном
+Chandra	Seasoned Pyromancer;Firebolt;Fiery Inscription;Galvanic Discharge	Поддержать атаку пиромантов повторным уроном
 Conjurer	Watcher for Tomorrow;Unearth	Повторять эффекты выхода из кладбища
 Dark Enchanter	Squirrel Nest;Chatterfang, Squirrel General	Создавать белок чарами и жертвовать их ради удаления
 Elesh Norn	Glorious Enforcer;Solitude	Затянуть бой изгнанием и восстановить жизни
 Emrakul	Liquimetal Torque;Nettlecyst;Kaldra Compleat	Нарастить число артефактов и закончить живым оружием
 Garruk	Deep Forest Hermit;Squirrel Sovereign	Усилить армию белок
 Ghalta	Llanowar Tribe;Generous Ent;Last March of the Ents	Разогнать ману эльфами до энтов
-Griselbrand	Vile Entomber;Archon of Cruelty;Persist	Вернуть архонта через Persist или легендарного демона через Goryo’s Vengeance
+Griselbrand	Vile Entomber;Archon of Cruelty;Persist;Buried Alive;Victimize	Вернуть архонта через Persist или легендарного демона через Goryo’s Vengeance
 Grolnok	Ransack the Lab;Timeless Witness;Wonder	Получить преимущество из кладбища и дать существам полёт
 Guardian Angel	Timeless Dragon;Karmic Guide	Возвращать летающих существ
-Jace	Mental Journey;Fractured Sanity;Stream of Thought	Победить опустошением библиотеки
-Jin-Gitaxias	Ephemerate;Solitude;Irregular Cohort	Повторять эффекты выхода через мерцание
+Jace	Watcher for Tomorrow;Quantum Riddler;Jace, the Mind Sculptor	Добор и контроль; существа выигрывают бой, mill остаётся запасным давлением
+Jin-Gitaxias	Watcher for Tomorrow;Counterspell;Quantum Riddler	Добор и темп с летающими финишерами без обязательного комбо
 Kiora	Springbloom Druid;Junk Winder;Trumpeting Herd	Снизить стоимость морского змея токенами
-Kozilek	Arcbound Prototype;Nettlecyst;Barbed Spike	Превратить число артефактов в силу одного атакующего
+Kozilek	Liquimetal Torque;Worn Powerstone;Kozilek, the Broken Reality	Бесцветный разгон маны до Eldrazi; промежуточные артефактные угрозы
 Lathliss	Obsidian Charmaw;Arcbound Whelp	Контролировать стол драконами и наносить урон с воздуха
 Liliana	Undead Augur;Carrion Feeder;Putrid Goblin	Жертвовать зомби ради карт и возвращать их
 Lorthos	The Watcher in the Water;Lórien Revealed	Брать карты и создавать Щупальца
-Myr Superion	Myr Scrapling;Universal Automaton;Nettlecyst	Поддержать малых артефактных существ снаряжением
+Myr Superion	Myr Scrapling;Universal Automaton;Nettlecyst;Glaring Fleshraker	Поддержать малых артефактных существ снаряжением
 Nahiri	Barbed Spike;Arcbound Javelineer;Arcbound Slasher	Переносить жетоны modular между вооружёнными существами
-Nissa	Rosie Cotton of South Lane;Battle Screech	Превратить создание токенов в жетоны силы
+Nissa	Llanowar Tribe;Tireless Provisioner;Titania, Protector of Argoth	Разгон маны и преимущество от земель, затем энты и элементали
 Ooze Boss	Scurry Oak;Duskshell Crawler;Herd Baloth	Использовать жетоны силы для размножения существ
 Scarecrow Captain	Universal Automaton;Morophon, the Boundless;Impostor of the Sixth Pride	Собрать существ со всеми типами и усилить Морофоном
 Slimefoot	Mirkwood Bats;Chatterstorm;Tireless Provisioner	Наказывать потерей жизней за токены
 Sliver Queen	The First Sliver;Cloudshredder Sliver;Dregscape Sliver	Каскадом развернуть несколько Щепок
-Slobad	Goblin Engineer;Breya's Apprentice;Myr Scrapling	Обменивать артефакты на ресурсы через инженера
-Sorin	Defile;Witch-king of Angmar;Unearth	Расчищать стол под защищённого летающего финишера
-Teferi	Counterspell;Reprieve;Timeless Dragon	Сдерживать заклинания до возвращения дракона
+Slobad	Goblin Engineer;Breya's Apprentice;Myr Scrapling;Inventor's Axe	Обменивать артефакты на ресурсы через инженера
+Sorin	Defile;Witch-king of Angmar;Unearth;Accursed Marauder	Расчищать стол под защищённого летающего финишера
+Teferi	Counterspell;Reprieve;Timeless Dragon;Wrath of the Skies	Сдерживать заклинания до возвращения дракона
 The Cheff	Brandywine Farmer;Peregrin Took;Mushroom Watchdogs	Превращать Еду в карты и усиление
 The Hydra of Shandalaar	Wren's Run Hydra;Llanowar Tribe	Вложить избыточную ману в гидру
 Tibalt	Blazing Rootwalla;Faithless Salvaging;Skophos Reaver	Сбрасывать угрозы с madness
 Torturer	Grief;Tourach, Dread Cantor;Mind Rake	Лишать противника карт в руке
-Urabrask	Arcbound Mouser;Arcbound Prototype;Unbounded Potential	Ускорить наземную атаку жетонами modular
+Urabrask	Monastery Swiftspear;Erebor Flamesmith;Lightning Bolt	Красная атака с уроном, haste и prowess
 Valyx Feaster of Torment	Feaster of Fools;Nested Shambler	Кормить демона существами с эффектом смерти
-Vorinclex	Constable of the Realm;Unbounded Potential	Изгонять перманенты при получении жетонов
+Vorinclex	Duskshell Crawler;Scurry Oak;Herd Baloth	Жетоны силы, пробивной удар и самостоятельные крупные существа
 Walter, the Stray Camel	Landscaper Colos;Late to Dinner	Циклировать крупное существо и вернуть его из кладбища
 Wounded Sliver	Tempered Sliver;Cleaving Sliver;Enduring Sliver	Усилить атаку и защиту Щепок
 Xira	Mirkwood Spider;Gríma Wormtongue;Grist, the Hunger Tide	Использовать мелких существ и насекомых для размена

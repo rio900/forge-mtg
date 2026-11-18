@@ -17,15 +17,13 @@
   {
     "name": "Sir Donovan's Amulet",
     "usableOnWorldMap": true,
-    "description": "A talisman for remotely contacting your employer",
+    "description": "Через этот талисман можно связаться с сэром Донованом.",
     "iconName": "SirDonovansAmulet",
     "dialogOnUse": {
-      "loctext": "adv.item_sir_donovans_amulet.n0.text",
-      "text": "The amulet lies inert until mana is channeled through it.",
+      "text": "Без маны амулет остаётся холодным.",
       "options": [
         {
-          "locname": "adv.item_sir_donovans_amulet.n1.name",
-          "name": "Put the amulet away"
+          "name": "Убрать амулет"
         },
         {
           "condition": [
@@ -40,8 +38,7 @@
               "hasShards": 3
             }
           ],
-          "locname": "adv.item_sir_donovans_amulet.n2.name",
-          "name": "Contact Sir Donovan (Requires 3 Mana Shards)",
+          "name": "Связаться с Донованом (3 осколка)",
           "action": [
             {
               "setQuestFlag": {
@@ -51,18 +48,14 @@
               "addShards": -3
             }
           ],
-          "loctext": "adv.item_sir_donovans_amulet.n2.text",
-          "text": "Unsure exactly what to expect, you channel a bit of energy from your own mana shards into the amulet. It glows an array of colors for the briefest of moments and then fades.",
+          "text": "Ты направляешь ману в амулет. По железу пробегают цветные искры и одна за другой гаснут.",
           "options": [
             {
-              "locname": "adv.shared.continue_paren",
-              "name": "(Continue)",
-              "loctext": "adv.item_sir_donovans_amulet.n3.text",
-              "text": "A thought enters your mind in response, not so much words as an urge - you should go to a town.",
+              "name": "Дальше",
+              "text": "Слов не слышно, но появляется ясное чувство: нужно идти в город.",
               "options": [
                 {
-                  "locname": "adv.shared.continue_paren",
-                  "name": "(Continue)"
+                  "name": "Дальше"
                 }
               ]
             }
@@ -83,8 +76,7 @@
             }
           ],
           "isDisabled": true,
-          "locname": "adv.item_sir_donovans_amulet.n2.name",
-          "name": "Contact Sir Donovan (Requires 3 Mana Shards)"
+          "name": "Связаться с Донованом (3 осколка)"
         },
         {
           "condition": [
@@ -107,14 +99,11 @@
               "hasShards": 5
             }
           ],
-          "locname": "adv.item_sir_donovans_amulet.n4.name",
-          "name": "Contact Sir Donovan (Requires 5 Mana Shards)",
-          "loctext": "adv.item_sir_donovans_amulet.n4.text",
-          "text": "You funnel the power of your mana shards into the artifact. It takes using a few more of them before the device reacts this time, but eventually it glows in multiple colors once again.",
+          "name": "Связаться с Донованом (5 осколков)",
+          "text": "На этот раз амулету нужно больше маны. Наконец он снова вспыхивает всеми цветами.",
           "options": [
             {
-              "locname": "adv.shared.continue_paren",
-              "name": "(Continue)",
+              "name": "Дальше",
               "action": [
                 {
                   "setQuestFlag": {
@@ -150,8 +139,7 @@
             }
           ],
           "isDisabled": true,
-          "locname": "adv.item_sir_donovans_amulet.n4.name",
-          "name": "Contact Sir Donovan (Requires 5 Mana Shards)"
+          "name": "Связаться с Донованом (5 осколков)"
         }
       ]
     },

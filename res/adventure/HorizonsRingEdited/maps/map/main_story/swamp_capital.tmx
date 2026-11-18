@@ -124,14 +124,8 @@
       },
       {
         "type": "card",
-        "probability": 1,
         "count": 1,
-        "rarity": [
-          "Mythic Rare"
-        ],
-        "colors": [
-          "black"
-        ]
+        "sourceDeck": "decks/arena/Premium.dck"
       },
       {
         "type": "card",
@@ -162,75 +156,63 @@
   </object>
   <object id="65" template="../../../../common/maps/obj/shop.tx" x="376" y="322">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
-   </properties>
+    <property name="commonShopList" value="RingTownBlack" /></properties>
   </object>
   <object id="66" template="../../../../common/maps/obj/shop.tx" x="424" y="274">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
-   </properties>
+    <property name="commonShopList" value="CapitalBooster" /></properties>
   </object>
   <object id="67" template="../../../../common/maps/obj/shop.tx" x="424" y="322">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
     <property name="signXOffset" type="float" value="18" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
-   </properties>
+    <property name="commonShopList" value="CapitalLandsBlack" /></properties>
   </object>
   <object id="68" template="../../../../common/maps/obj/shop.tx" x="472" y="274">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
+    <property name="commonShopList" value="CapitalSmallBlack__Enchantment6Black,CapitalSmallBlack__Creature6Black,CapitalSmallBlack__BlackBoosterPackShop,CapitalSmallBlack__Instant4Black,CapitalSmallBlack__Vampire,CapitalSmallBlack__Zombie,CapitalSmallBlack__Skeleton,CapitalSmallBlack__Demon,CapitalSmallBlack__Spiders" />
+    <property name="mythicShopList" value="CapitalSmallBlack__Planeswalker4Black,CapitalSmallBlack__WUBRG,CapitalSmallBlack__RWB,CapitalSmallBlack__RUB,CapitalSmallBlack__RGB,CapitalSmallBlack__UWB,CapitalSmallBlack__UGB,CapitalSmallBlack__UWB,CapitalSmallBlack__Legend4Black,CapitalSmallBlack__PhyrexianBlack" />
+    <property name="rareShopList" value="CapitalSmallBlack__Artifact4Black,CapitalSmallBlack__Land4Black,CapitalSmallBlack__Dimir,CapitalSmallBlack__Rakdos,CapitalSmallBlack__Orzhov,CapitalSmallBlack__Golgari,CapitalSmallBlack__Vehicle2Black,CapitalSmallBlack__Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
+    <property name="uncommonShopList" value="CapitalSmallBlack__Rogue4Black,CapitalSmallBlack__Sliver4Black,CapitalSmallBlack__Knight4Black,CapitalSmallBlack__Multicolor8Black,CapitalSmallBlack__Faerie,CapitalSmallBlack__Ninja" />
    </properties>
   </object>
   <object id="69" template="../../../../common/maps/obj/shop.tx" x="472" y="322">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
+    <property name="commonShopList" value="CapitalSmallBlack__Enchantment6Black,CapitalSmallBlack__Creature6Black,CapitalSmallBlack__BlackBoosterPackShop,CapitalSmallBlack__Instant4Black,CapitalSmallBlack__Vampire,CapitalSmallBlack__Zombie,CapitalSmallBlack__Skeleton,CapitalSmallBlack__Demon,CapitalSmallBlack__Spiders" />
+    <property name="mythicShopList" value="CapitalSmallBlack__Planeswalker4Black,CapitalSmallBlack__WUBRG,CapitalSmallBlack__RWB,CapitalSmallBlack__RUB,CapitalSmallBlack__RGB,CapitalSmallBlack__UWB,CapitalSmallBlack__UGB,CapitalSmallBlack__UWB,CapitalSmallBlack__Legend4Black,CapitalSmallBlack__PhyrexianBlack" />
+    <property name="rareShopList" value="CapitalSmallBlack__Artifact4Black,CapitalSmallBlack__Land4Black,CapitalSmallBlack__Dimir,CapitalSmallBlack__Rakdos,CapitalSmallBlack__Orzhov,CapitalSmallBlack__Golgari,CapitalSmallBlack__Vehicle2Black,CapitalSmallBlack__Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
+    <property name="uncommonShopList" value="CapitalSmallBlack__Rogue4Black,CapitalSmallBlack__Sliver4Black,CapitalSmallBlack__Knight4Black,CapitalSmallBlack__Multicolor8Black,CapitalSmallBlack__Faerie,CapitalSmallBlack__Ninja" />
    </properties>
   </object>
   <object id="70" template="../../../../common/maps/obj/shop.tx" x="520" y="274">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
+    <property name="commonShopList" value="CapitalSmallBlack__Enchantment6Black,CapitalSmallBlack__Creature6Black,CapitalSmallBlack__BlackBoosterPackShop,CapitalSmallBlack__Instant4Black,CapitalSmallBlack__Vampire,CapitalSmallBlack__Zombie,CapitalSmallBlack__Skeleton,CapitalSmallBlack__Demon,CapitalSmallBlack__Spiders" />
+    <property name="mythicShopList" value="CapitalSmallBlack__Planeswalker4Black,CapitalSmallBlack__WUBRG,CapitalSmallBlack__RWB,CapitalSmallBlack__RUB,CapitalSmallBlack__RGB,CapitalSmallBlack__UWB,CapitalSmallBlack__UGB,CapitalSmallBlack__UWB,CapitalSmallBlack__Legend4Black,CapitalSmallBlack__PhyrexianBlack" />
+    <property name="rareShopList" value="CapitalSmallBlack__Artifact4Black,CapitalSmallBlack__Land4Black,CapitalSmallBlack__Dimir,CapitalSmallBlack__Rakdos,CapitalSmallBlack__Orzhov,CapitalSmallBlack__Golgari,CapitalSmallBlack__Vehicle2Black,CapitalSmallBlack__Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
+    <property name="uncommonShopList" value="CapitalSmallBlack__Rogue4Black,CapitalSmallBlack__Sliver4Black,CapitalSmallBlack__Knight4Black,CapitalSmallBlack__Multicolor8Black,CapitalSmallBlack__Faerie,CapitalSmallBlack__Ninja" />
    </properties>
   </object>
   <object id="71" template="../../../../common/maps/obj/shop.tx" x="520" y="322">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
+    <property name="commonShopList" value="CapitalSmallBlack__Enchantment6Black,CapitalSmallBlack__Creature6Black,CapitalSmallBlack__BlackBoosterPackShop,CapitalSmallBlack__Instant4Black,CapitalSmallBlack__Vampire,CapitalSmallBlack__Zombie,CapitalSmallBlack__Skeleton,CapitalSmallBlack__Demon,CapitalSmallBlack__Spiders" />
+    <property name="mythicShopList" value="CapitalSmallBlack__Planeswalker4Black,CapitalSmallBlack__WUBRG,CapitalSmallBlack__RWB,CapitalSmallBlack__RUB,CapitalSmallBlack__RGB,CapitalSmallBlack__UWB,CapitalSmallBlack__UGB,CapitalSmallBlack__UWB,CapitalSmallBlack__Legend4Black,CapitalSmallBlack__PhyrexianBlack" />
+    <property name="rareShopList" value="CapitalSmallBlack__Artifact4Black,CapitalSmallBlack__Land4Black,CapitalSmallBlack__Dimir,CapitalSmallBlack__Rakdos,CapitalSmallBlack__Orzhov,CapitalSmallBlack__Golgari,CapitalSmallBlack__Vehicle2Black,CapitalSmallBlack__Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
+    <property name="uncommonShopList" value="CapitalSmallBlack__Rogue4Black,CapitalSmallBlack__Sliver4Black,CapitalSmallBlack__Knight4Black,CapitalSmallBlack__Multicolor8Black,CapitalSmallBlack__Faerie,CapitalSmallBlack__Ninja" />
    </properties>
   </object>
   <object id="77" template="../../../../common/maps/obj/shop.tx" x="376" y="274">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
+    <property name="commonShopList" value="CapitalSmallBlack__Enchantment6Black,CapitalSmallBlack__Creature6Black,CapitalSmallBlack__BlackBoosterPackShop,CapitalSmallBlack__Instant4Black,CapitalSmallBlack__Vampire,CapitalSmallBlack__Zombie,CapitalSmallBlack__Skeleton,CapitalSmallBlack__Demon,CapitalSmallBlack__Spiders" />
+    <property name="mythicShopList" value="CapitalSmallBlack__Planeswalker4Black,CapitalSmallBlack__WUBRG,CapitalSmallBlack__RWB,CapitalSmallBlack__RUB,CapitalSmallBlack__RGB,CapitalSmallBlack__UWB,CapitalSmallBlack__UGB,CapitalSmallBlack__UWB,CapitalSmallBlack__Legend4Black,CapitalSmallBlack__PhyrexianBlack" />
+    <property name="rareShopList" value="CapitalSmallBlack__Artifact4Black,CapitalSmallBlack__Land4Black,CapitalSmallBlack__Dimir,CapitalSmallBlack__Rakdos,CapitalSmallBlack__Orzhov,CapitalSmallBlack__Golgari,CapitalSmallBlack__Vehicle2Black,CapitalSmallBlack__Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
+    <property name="uncommonShopList" value="CapitalSmallBlack__Rogue4Black,CapitalSmallBlack__Sliver4Black,CapitalSmallBlack__Knight4Black,CapitalSmallBlack__Multicolor8Black,CapitalSmallBlack__Faerie,CapitalSmallBlack__Ninja" />
    </properties>
   </object>
   <object id="81" template="../../../../common/maps/obj/quest.tx" type="quest" x="248" y="306">
@@ -240,37 +222,37 @@
   </object>
   <object id="83" template="../../../../common/maps/obj/shop.tx" x="519" y="194">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
+    <property name="commonShopList" value="CapitalSmallBlack__Enchantment6Black,CapitalSmallBlack__Creature6Black,CapitalSmallBlack__BlackBoosterPackShop,CapitalSmallBlack__Instant4Black,CapitalSmallBlack__Vampire,CapitalSmallBlack__Zombie,CapitalSmallBlack__Skeleton,CapitalSmallBlack__Demon,CapitalSmallBlack__Spiders" />
+    <property name="mythicShopList" value="CapitalSmallBlack__Planeswalker4Black,CapitalSmallBlack__WUBRG,CapitalSmallBlack__RWB,CapitalSmallBlack__RUB,CapitalSmallBlack__RGB,CapitalSmallBlack__UWB,CapitalSmallBlack__UGB,CapitalSmallBlack__UWB,CapitalSmallBlack__Legend4Black,CapitalSmallBlack__PhyrexianBlack" />
+    <property name="rareShopList" value="CapitalSmallBlack__Artifact4Black,CapitalSmallBlack__Land4Black,CapitalSmallBlack__Dimir,CapitalSmallBlack__Rakdos,CapitalSmallBlack__Orzhov,CapitalSmallBlack__Golgari,CapitalSmallBlack__Vehicle2Black,CapitalSmallBlack__Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
+    <property name="uncommonShopList" value="CapitalSmallBlack__Rogue4Black,CapitalSmallBlack__Sliver4Black,CapitalSmallBlack__Knight4Black,CapitalSmallBlack__Multicolor8Black,CapitalSmallBlack__Faerie,CapitalSmallBlack__Ninja" />
    </properties>
   </object>
   <object id="84" template="../../../../common/maps/obj/shop.tx" x="456" y="194">
    <properties>
-    <property name="commonShopList" value="Enchantment6Black,Creature6Black,BlackBoosterPackShop,Instant6Black,Vampire,Zombie,Skeleton,Demon,Spiders" />
-    <property name="mythicShopList" value="Planeswalker4Black,WUBRG,RWB,RUB,RGB,UWB,UGB,UWB,Legend4Black,PhyrexianBlack" />
-    <property name="rareShopList" value="Artifact4Black,Land4Black,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Black,Wand4Black" />
+    <property name="commonShopList" value="CapitalSmallBlack__Enchantment6Black,CapitalSmallBlack__Creature6Black,CapitalSmallBlack__BlackBoosterPackShop,CapitalSmallBlack__Instant4Black,CapitalSmallBlack__Vampire,CapitalSmallBlack__Zombie,CapitalSmallBlack__Skeleton,CapitalSmallBlack__Demon,CapitalSmallBlack__Spiders" />
+    <property name="mythicShopList" value="CapitalSmallBlack__Planeswalker4Black,CapitalSmallBlack__WUBRG,CapitalSmallBlack__RWB,CapitalSmallBlack__RUB,CapitalSmallBlack__RGB,CapitalSmallBlack__UWB,CapitalSmallBlack__UGB,CapitalSmallBlack__UWB,CapitalSmallBlack__Legend4Black,CapitalSmallBlack__PhyrexianBlack" />
+    <property name="rareShopList" value="CapitalSmallBlack__Artifact4Black,CapitalSmallBlack__Land4Black,CapitalSmallBlack__Dimir,CapitalSmallBlack__Rakdos,CapitalSmallBlack__Orzhov,CapitalSmallBlack__Golgari,CapitalSmallBlack__Vehicle2Black,CapitalSmallBlack__Wand4Black" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Rogue4Black,Sliver4Black,Knight4Black,Multicolor8Black,Faerie,Ninja" />
+    <property name="uncommonShopList" value="CapitalSmallBlack__Rogue4Black,CapitalSmallBlack__Sliver4Black,CapitalSmallBlack__Knight4Black,CapitalSmallBlack__Multicolor8Black,CapitalSmallBlack__Faerie,CapitalSmallBlack__Ninja" />
    </properties>
   </object>
   <object id="90" template="../../../../common/maps/obj/RotatingShop.tx" type="RotatingShop" x="200" y="402">
    <properties>
-    <property name="rotation" value="Black1,Black2,Black3,Black4,Black5,Black6" />
+    <property name="rotation" value="CapitalSmallBlack__Black1,CapitalSmallBlack__Black2,CapitalSmallBlack__Black3,CapitalSmallBlack__Black4,CapitalSmallBlack__Black5,CapitalSmallBlack__Black6" />
     <property name="signYOffset" type="float" value="-8" />
    </properties>
   </object>
   <object id="91" template="../../../../common/maps/obj/RotatingShop.tx" type="RotatingShop" x="153" y="402">
    <properties>
-    <property name="rotation" value="Black1,Black2,Black3,Black4,Black5,Black6" />
+    <property name="rotation" value="CapitalSmallBlack__Black1,CapitalSmallBlack__Black2,CapitalSmallBlack__Black3,CapitalSmallBlack__Black4,CapitalSmallBlack__Black5,CapitalSmallBlack__Black6" />
     <property name="signYOffset" type="float" value="-8" />
    </properties>
   </object>
   <object id="92" template="../../../../common/maps/obj/RotatingShop.tx" type="RotatingShop" x="106" y="402">
    <properties>
-    <property name="rotation" value="Black1,Black2,Black3,Black4,Black5,Black6" />
+    <property name="rotation" value="CapitalSmallBlack__Black1,CapitalSmallBlack__Black2,CapitalSmallBlack__Black3,CapitalSmallBlack__Black4,CapitalSmallBlack__Black5,CapitalSmallBlack__Black6" />
     <property name="signYOffset" type="float" value="-8" />
    </properties>
   </object>

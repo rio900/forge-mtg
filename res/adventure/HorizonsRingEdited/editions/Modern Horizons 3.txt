@@ -1,0 +1,4 @@
+[metadata]
+Code=MH3
+Date=2024-06-14
+Booster=9 Common:fromSheet("MH3 cards"), 3 Uncommon:fromSheet("MH3 cards"), 1 RareMythic:fromSheet("MH3 cards"), 1 fromSheet("MH3 new to modern"), 1 BasicLand:fromSheet("MH3 cards")

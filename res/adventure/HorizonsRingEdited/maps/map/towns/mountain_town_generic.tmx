@@ -34,6 +34,10 @@
    <properties>
     <property name="commonShopList" value="RingTownRed" /></properties>
   </object>
+  <object id="42" template="../../../../common/maps/obj/shop.tx" x="113" y="115">
+   <properties>
+    <property name="commonShopList" value="RingTownLandsRed" /></properties>
+  </object>
   <object id="47" template="../../../../common/maps/obj/inn.tx" x="214" y="114" />
   <object id="48" template="../../../../common/maps/obj/shop.tx" x="160" y="96">
    <properties>

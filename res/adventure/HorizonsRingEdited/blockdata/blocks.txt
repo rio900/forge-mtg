@@ -1,3 +1,5 @@
 Horizons MH1, 3/6/LTR, MH1
 Horizons MH2, 3/6/MH2, MH2
 Horizons LTR, 3/6/LTR, LTR
+Horizons MH3, 3/6/MH3, MH3
+Horizons 2XM, 3/6/LTR, 2XM

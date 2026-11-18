@@ -1,0 +1,910 @@
+[metadata]
+Name=Support encounter reward
+[Main]
+446 Abrade|2XM|1
+446 Accomplished Automaton|2XM|1
+446 Accursed Marauder|MH3|1
+446 Aerie Auxiliary|MH3|1
+446 Aeromoeba|MH2|1
+446 Aether Spike|MH3|1
+446 Alabaster Mage|2XM|1
+446 Amorphous Axe|MH1|1
+446 Ancestral Blade|2XM|1
+446 Ancient Stirrings|2XM|1
+446 Angel of the Dawn|2XM|1
+446 Answered Prayers|MH1|1
+446 Apprentice Wizard|2XM|1
+446 Arcbound Mouser|MH2|1
+446 Arcbound Prototype|MH2|1
+446 Arcbound Slasher|MH2|1
+446 Arcbound Tracker|MH2|1
+446 Argivian Restoration|2XM|1
+446 Arwen's Gift|LTR|1
+446 Azra Smokeshaper|MH1|1
+446 Bag End Porter|LTR|1
+446 Balduvian Rage|2XM|1
+446 Banish from Edoras|LTR|1
+446 Bannerhide Krushok|MH2|1
+446 Basking Broodscale|MH3|1
+446 Battle Plan|MH2|1
+446 Battle-Rattle Shaman|2XM|1
+446 Battle-Scarred Goblin|LTR|1
+446 Bellowing Elk|MH1|1
+446 Bewitching Leechcraft|LTR|1
+446 Birthday Escape|LTR|1
+446 Blacksmith's Skill|MH2|1
+446 Bladeback Sliver|MH1|1
+446 Bloodbriar|2XM|1
+446 Bombadil's Song|LTR|1
+446 Bone Picker|2XM|1
+446 Bone Shards|MH2|1
+446 Bottle Golems|MH2|1
+446 Bountiful Landscape|MH3|1
+446 Brainstorm|2XM|1
+446 Brandywine Farmer|LTR|1
+446 Break Ties|MH2|1
+446 Breaking of the Fellowship|LTR|1
+446 Breathe Your Last|MH3|1
+446 Breathless Knight|MH2|1
+446 Burdened Aerialist|MH2|1
+446 Cabal Initiate|MH2|1
+446 Captain of Umbar|LTR|1
+446 Captured by Lagacs|MH2|1
+446 Cast Down|2XM|1
+446 Cast into the Fire|LTR|1
+446 Cathartic Reunion|2XM|1
+446 Cathodion|2XM|1
+446 Chance-Met Elves|LTR|1
+446 Changeling Outcast|MH1|1
+446 Chatter of the Squirrel|2XM|1
+446 Chatterstorm|MH2|1
+446 Chillerpillar|MH1|1
+446 Choking Tethers|MH1|1
+446 Chrome Courier|MH2|1
+446 Cirith Ungol Patrol|LTR|1
+446 Claim the Precious|LTR|1
+446 Clear Shot|2XM|1
+446 Cleaving Sliver|MH1|1
+446 Cloudreader Sphinx|2XM|1
+446 Colossal Dreadmask|MH3|1
+446 Conclave Naturalists|2XM|1
+446 Conduit Goblin|MH3|1
+446 Contaminated Landscape|MH3|1
+446 Corridor Monitor|2XM|1
+446 Corrupted Shapeshifter|MH3|1
+446 Costly Plunder|2XM|1
+446 Crack Open|MH2|1
+446 Cranial Ram|MH3|1
+446 Crib Swap|2XM|1
+446 Crusader of Odric|2XM|1
+446 Crushing Vines|2XM|1
+446 Cyclops Superconductor|MH3|1
+446 Darkmoss Bridge|MH2|1
+446 Darksteel Axe|2XM|1
+446 Death-Hood Cobra|2XM|1
+446 Deceive the Messenger|LTR|1
+446 Deceptive Landscape|MH3|1
+446 Deem Inferior|MH3|1
+446 Deepwood Denizen|MH2|1
+446 Defiant Salvager|2XM|1
+446 Defile|MH1|1
+446 Diabolic Edict|MH1|1
+446 Dihada's Ploy|MH2|1
+446 Dire Fleet Hoarder|2XM|1
+446 Discerning Taste|MH2|1
+446 Disciple of the Sun|MH2|1
+446 Divest|2XM|1
+446 Dog Umbra|MH3|1
+446 Dreadful as the Storm|LTR|1
+446 Dreamdrinker Vampire|MH3|1
+446 Drey Keeper|MH2|1
+446 Driver of the Dead|2XM|1
+446 Drossclaw|MH3|1
+446 Drossforge Bridge|MH2|1
+446 Drownyard Lurker|MH3|1
+446 Dunland Crebain|LTR|1
+446 Duskshell Crawler|MH2|1
+446 Dúnedain Blade|LTR|1
+446 Eager Construct|2XM|1
+446 Eagles of the North|LTR|1
+446 East-Mark Cavalier|LTR|1
+446 Easterling Vanguard|LTR|1
+446 Eastfarthing Farmer|LTR|1
+446 Echoing Return|MH2|1
+446 Eldrazi Repurposer|MH3|1
+446 Electrozoa|MH3|1
+446 Elven Farsight|LTR|1
+446 Elvish Aberration|2XM|1
+446 Elvish Fury|MH1|1
+446 Enduring Sliver|MH1|1
+446 Enraged Huorn|LTR|1
+446 Ent's Fury|LTR|1
+446 Ephemerate|MH1|1
+446 Erebor Flamesmith|LTR|1
+446 Errand-Rider of Gondor|LTR|1
+446 Escape from Orthanc|LTR|1
+446 Esquire of the King|LTR|1
+446 Etherium Spinner|MH2|1
+446 Everflowing Chalice|2XM|1
+446 Eviscerator's Insight|MH3|1
+446 Evolution Witness|MH3|1
+446 Excavating Anurid|MH1|1
+446 Executioner's Capsule|2XM|1
+446 Expanding Ooze|MH3|1
+446 Expedition Map|2XM|1
+446 Expel the Unworthy|MH3|1
+446 Faerie Mechanist|2XM|1
+446 Faerie Seer|MH1|1
+446 Fairgrounds Patrol|MH2|1
+446 Faithful Watchdog|MH3|1
+446 Faithless Salvaging|MH2|1
+446 Fanged Flames|MH3|1
+446 Fetid Gargantua|MH3|1
+446 Fierce Empath|2XM|1
+446 Fire of Orthanc|LTR|1
+446 First-Sphere Gargantua|MH1|1
+446 Fists of Flame|MH1|1
+446 Flayer Husk|2XM|1
+446 Floodhound|MH2|1
+446 Flourishing Strike|MH2|1
+446 Fodder Tosser|MH2|1
+446 Fog on the Barrow-Downs|LTR|1
+446 Foreboding Landscape|MH3|1
+446 Fortify|2XM|1
+446 Foul Watcher|MH2|1
+446 Foundry Helix|MH2|1
+446 Fountain of Ichor|MH1|1
+446 Fowl Strike|MH3|1
+446 Frogify|2XM|1
+446 Frostwalla|MH1|1
+446 Funnel-Web Recluse|MH2|1
+446 Galadhrim Bow|LTR|1
+446 Galadhrim Guide|LTR|1
+446 Galvanic Discharge|MH3|1
+446 Galvanic Relay|MH2|1
+446 Gargadon|MH2|1
+446 Generous Ent|LTR|1
+446 Geomancer's Gambit|MH1|1
+446 Gift of the Viper|MH3|1
+446 Gilt-Blade Prowler|MH2|1
+446 Gimli's Axe|LTR|1
+446 Gimli's Fury|LTR|1
+446 Glaze Fiend|2XM|1
+446 Gleaming Barrier|2XM|1
+446 Glimmer Bairn|MH2|1
+446 Glimpse the Impossible|MH3|1
+446 Glint-Sleeve Artisan|2XM|1
+446 Glorious Gale|LTR|1
+446 Gluttonous Slug|MH1|1
+446 Goatnap|MH1|1
+446 Goblin Anarchomancer|MH2|1
+446 Goblin Assailant|LTR|1
+446 Goblin Champion|MH1|1
+446 Goblin Gaveleer|2XM|1
+446 Goblin War Party|MH1|1
+446 Goldmire Bridge|MH2|1
+446 Golem-Skin Gauntlets|2XM|1
+446 Gouged Zealot|MH2|1
+446 Gravedig|MH3|1
+446 Great Hall of the Citadel|LTR|1
+446 Grey Havens Navigator|LTR|1
+446 Guardian Kirin|MH2|1
+446 Haradrim Spearmaster|LTR|1
+446 Hard Evidence|MH2|1
+446 Haunt of the Dead Marshes|LTR|1
+446 Headless Specter|MH1|1
+446 Heartless Pillage|2XM|1
+446 Hell Mongrel|MH2|1
+446 Hexgold Slith|MH3|1
+446 Hithlain Knots|LTR|1
+446 Horrific Assault|MH3|1
+446 Iceberg Cancrix|MH1|1
+446 Ichor Wellspring|2XM|1
+446 Igneous Elemental|MH1|1
+446 Impostor of the Sixth Pride|MH1|1
+446 Infernal Captor|MH3|1
+446 Inherited Envelope|LTR|1
+446 Inspired Inventor|MH3|1
+446 Inventor's Axe|MH3|1
+446 Iron Bully|2XM|1
+446 Iron League Steed|2XM|1
+446 Irregular Cohort|MH1|1
+446 Isolation at Orthanc|LTR|1
+446 Ithilien Kingfisher|LTR|1
+446 Jade Avenger|MH2|1
+446 Jewel-Eyed Cobra|MH2|1
+446 Jolted Awake|MH3|1
+446 Kami of Jealous Thirst|MH3|1
+446 Kitchen Imp|MH2|1
+446 Knight of Old Benalia|MH1|1
+446 Knight of the Keep|LTR|1
+446 Knighted Myr|MH2|1
+446 Knights of Dol Amroth|LTR|1
+446 Kozilek's Predator|2XM|1
+446 Krosan Tusker|MH1|1
+446 Lancer Sliver|MH1|1
+446 Landscaper Colos|MH2|1
+446 Lash of the Balrog|LTR|1
+446 Late to Dinner|MH2|1
+446 Lava Dart|MH1|1
+446 Lembas|LTR|1
+446 Lens Flare|MH2|1
+446 Lightning Axe|2XM|1
+446 Lightning Spear|MH2|1
+446 Loathsome Curator|MH2|1
+446 Lose Focus|MH2|1
+446 Lothlórien Lookout|LTR|1
+446 Lórien Revealed|LTR|1
+446 Magmatic Sinkhole|MH1|1
+446 Magnifying Glass|2XM|1
+446 Malevolent Rumble|MH3|1
+446 Man-o'-War|MH1|1
+446 Mandibular Kite|MH3|1
+446 Many Partings|LTR|1
+446 Marble Gargoyle|MH2|1
+446 Martyr's Soul|MH1|1
+446 Mental Journey|MH2|1
+446 Metallic Rebuke|2XM|1
+446 Metalspinner's Puzzleknot|2XM|1
+446 Might of the Masses|2XM|1
+446 Mind Rake|MH1|1
+446 Mine Collapse|MH2|1
+446 Mirkwood Bats|LTR|1
+446 Mirkwood Spider|LTR|1
+446 Mirrormere Guardian|LTR|1
+446 Mistvault Bridge|MH2|1
+446 Mob|MH1|1
+446 Molten Gatekeeper|MH3|1
+446 Moonblade Shinobi|MH1|1
+446 Mordor Muster|LTR|1
+446 Mordor Trebuchet|LTR|1
+446 Morgul-Knife Wound|LTR|1
+446 Mother Bear|MH1|1
+446 Mount Velus Manticore|MH2|1
+446 Murasa Behemoth|MH1|1
+446 Mushroom Watchdogs|LTR|1
+446 Myr Retriever|2XM|1
+446 Myr Scrapling|MH2|1
+446 Nasty End|LTR|1
+446 Nature's Chant|MH1|1
+446 Nested Shambler|MH2|1
+446 Nightshade Dryad|MH3|1
+446 Nimble Hobbit|LTR|1
+446 Nimble Mongoose|MH1|1
+446 Nimrodel Watcher|LTR|1
+446 Ninja of the New Moon|MH1|1
+446 Now for Wrath, Now for Ruin!|LTR|1
+446 Nyxborn Hydra|MH3|1
+446 Nyxborn Unicorn|MH3|1
+446 Obstinate Gargoyle|MH3|1
+446 Oliphaunt|LTR|1
+446 Olog-hai Crusher|LTR|1
+446 Orchard Strider|MH2|1
+446 Orcish Hellraiser|MH1|1
+446 Orcish Medicine|LTR|1
+446 Orcish Vandal|2XM|1
+446 Ornithopter of Paradise|MH2|1
+446 Parasitic Strix|2XM|1
+446 Parcel Myr|MH2|1
+446 Peace Strider|2XM|1
+446 Pelargir Survivor|LTR|1
+446 Perilous Landscape|MH3|1
+446 Petrifying Meddler|MH3|1
+446 Phantasmal Dreadmaw|MH2|1
+446 Phantom Ninja|MH1|1
+446 Piercing Rays|MH2|1
+446 Pippin's Bravery|LTR|1
+446 Pondering Mage|MH1|1
+446 Protector of Gondor|LTR|1
+446 Putrid Goblin|MH1|1
+446 Pyrite Spellbomb|2XM|1
+446 Pyrophobia|MH1|1
+446 Quakefoot Cyclops|MH1|1
+446 Quarrel's End|LTR|1
+446 Rain of Revelation|MH1|1
+446 Rally at the Hornburg|LTR|1
+446 Rank Officer|MH1|1
+446 Ransack the Lab|MH1|1
+446 Rapacious Dragon|2XM|1
+446 Razortide Bridge|MH2|1
+446 Recalibrate|MH2|1
+446 Reckless Charge|MH1|1
+446 Recruit the Worthy|MH1|1
+446 Refurbished Familiar|MH3|1
+446 Relentless Rohirrim|LTR|1
+446 Relic Runner|2XM|1
+446 Remember the Fallen|2XM|1
+446 Reprobation|MH1|1
+446 Retrofitted Transmogrant|MH3|1
+446 Return from Extinction|MH1|1
+446 Revive the Shire|LTR|1
+446 Revoke Existence|2XM|1
+446 Revolutionist|MH2|1
+446 Rhox Veteran|MH1|1
+446 Riddle Gate Gargoyle|MH3|1
+446 Rift Sower|MH2|1
+446 Rime Tender|MH1|1
+446 Rohirrim Lancer|LTR|1
+446 Rosecot Knight|MH3|1
+446 Rush the Room|LTR|1
+446 Rustvale Bridge|MH2|1
+446 Sage of the Unknowable|MH3|1
+446 Salivating Gremlins|2XM|1
+446 Sam's Desperate Rescue|LTR|1
+446 Sanctum Gargoyle|2XM|1
+446 Sanctum Spirit|2XM|1
+446 Sarpadian Simulacrum|MH3|1
+446 Savage Swipe|MH1|1
+446 Scour All Possibilities|MH1|1
+446 Scurrilous Sentry|MH3|1
+446 Second Breakfast|LTR|1
+446 Seething Landscape|MH3|1
+446 Segovian Angel|MH1|1
+446 Serum Visionary|MH3|1
+446 Settle Beyond Reality|MH1|1
+446 Shattered Ego|MH2|1
+446 Shattered Landscape|MH3|1
+446 Shelob's Ambush|LTR|1
+446 Shelter|MH1|1
+446 Sheltering Landscape|MH3|1
+446 Shenanigans|MH1|1
+446 Shire Scarecrow|LTR|1
+446 Shire Terrace|LTR|1
+446 Shower of Arrows|LTR|1
+446 Sickleslicer|2XM|1
+446 Siege Smash|MH3|1
+446 Sift|2XM|1
+446 Silumgar Scavenger|MH1|1
+446 Silverbluff Bridge|MH2|1
+446 Sinister Starfish|MH2|1
+446 Skinbrand Goblin|2XM|1
+446 Skinwing|2XM|1
+446 Skoa, Embermage|MH3|1
+446 Skophos Reaver|MH2|1
+446 Slagwoods Bridge|MH2|1
+446 Slip On the Ring|LTR|1
+446 Smell Fear|MH2|1
+446 Smelted Chargebug|MH3|1
+446 Smite the Deathless|LTR|1
+446 Smoke Shroud|MH1|1
+446 Snapping Voidcraw|MH3|1
+446 Snarling Warg|LTR|1
+446 Sneaky Snacker|MH3|1
+446 So Shiny|MH2|1
+446 Sojourner's Companion|MH2|1
+446 Soldier of the Grey Host|LTR|1
+446 Solstice Zealot|MH3|1
+446 Soothing of Sméagol|LTR|1
+446 Soul of Migration|MH2|1
+446 Soul-Strike Technique|MH1|1
+446 Spell Snuff|MH1|1
+446 Spinehorn Minotaur|MH1|1
+446 Spore Frog|MH1|1
+446 Springbloom Druid|MH1|1
+446 Stalwarts of Osgiliath|LTR|1
+446 Steel Sabotage|2XM|1
+446 Steelfin Whale|MH2|1
+446 Step Through|MH2|1
+446 Stirring Address|MH1|1
+446 Storm God's Oracle|MH2|1
+446 Stream of Thought|MH1|1
+446 Strength of Arms|2XM|1
+446 String of Disappearances|MH1|1
+446 Supernatural Stamina|2XM|1
+446 Surge Node|2XM|1
+446 Surrounded by Orcs|LTR|1
+446 Swarming of Moria|LTR|1
+446 Sylvan Might|2XM|1
+446 Tanglepool Bridge|MH2|1
+446 Tavern Scoundrel|MH2|1
+446 Temperamental Oozewagg|MH3|1
+446 Tempest Harvester|MH3|1
+446 Temur Battle Rage|2XM|1
+446 Terminal Agony|MH2|1
+446 The Black Breath|LTR|1
+446 The Torment of Gollum|LTR|1
+446 Thornado|MH1|1
+446 Thornglint Bridge|MH2|1
+446 Thraben Charm|MH3|1
+446 Thraben Inspector|2XM|1
+446 Thriving Skyclaw|MH3|1
+446 Tizerus Charger|MH2|1
+446 Took Reaper|LTR|1
+446 Tormod's Cryptkeeper|MH2|1
+446 Tourach's Canticle|MH2|1
+446 Tragic Fall|MH2|1
+446 Tranquil Landscape|MH3|1
+446 Treason of Isengard|LTR|1
+446 Treefolk Umbra|MH1|1
+446 Treetop Ambusher|MH1|1
+446 Troll of Khazad-dûm|LTR|1
+446 Trumpeting Herd|MH1|1
+446 Trustworthy Scout|MH1|1
+446 Tumble Magnet|2XM|1
+446 Tune the Narrative|MH3|1
+446 Twin-Silk Spider|MH1|1
+446 Twisted Abomination|2XM|1
+446 Twisted Landscape|MH3|1
+446 Umezawa's Charm|MH1|1
+446 Unbounded Potential|MH2|1
+446 Unearth|MH1|1
+446 Unfathomable Truths|MH3|1
+446 Unholy Heat|MH2|1
+446 Universal Automaton|MH1|1
+446 Urban Daggertooth|MH2|1
+446 Uruk-hai Berserker|LTR|1
+446 Urza's Mine|2XM|1
+446 Urza's Power Plant|2XM|1
+446 Urza's Tower|2XM|1
+446 Utter Insignificance|MH3|1
+446 Vedalken Infuser|2XM|1
+446 Venomous Changeling|MH1|1
+446 Vermin Gorger|MH2|1
+446 Viashino Lashclaw|MH2|1
+446 Viashino Sandsprinter|MH1|1
+446 Voidpouncer|MH3|1
+446 Volatile Claws|MH1|1
+446 Vulshok Gauntlets|2XM|1
+446 Wall of One Thousand Cuts|MH1|1
+446 Warbeast of Gorgoroth|LTR|1
+446 Warped Tusker|MH3|1
+446 Warteye Witch|MH1|1
+446 Wavesifter|MH2|1
+446 Weapon Surge|2XM|1
+446 Weather the Storm|MH1|1
+446 Westfold Rider|LTR|1
+446 Whisperer of the Wilds|2XM|1
+446 Willow-Wind|LTR|1
+446 Windcaller Aven|MH1|1
+446 Wing It|MH3|1
+446 Winter's Rest|MH1|1
+446 Wither and Bloom|MH3|1
+446 World-Weary|MH2|1
+446 Wose Pathfinder|LTR|1
+446 Writhing Chrysalis|MH3|1
+461 Abiding Grace|MH2|1
+461 Abominable Treefolk|MH1|1
+461 Ajani Fells the Godsire|MH3|1
+461 Alpine Guide|MH1|1
+461 Altar of the Goyf|MH2|1
+461 Amped Raptor|MH3|1
+461 Angel of the Ruins|MH3|1
+461 Angelic Curator|MH2|1
+461 Annoyed Altisaur|MH3|1
+461 Arcbound Condor|MH3|1
+461 Arcbound Javelineer|MH2|1
+461 Arcbound Shikari|MH2|1
+461 Arcbound Whelp|MH2|1
+461 Archfiend of Sorrows|MH2|1
+461 Arcus Acolyte|MH2|1
+461 Arwen Undómiel|LTR|1
+461 Ash Barrens|2XM|1
+461 Auriok Salvagers|2XM|1
+461 Barbarian Ring|MH3|1
+461 Barbed Spike|MH2|1
+461 Barren Moor|MH1|1
+461 Barrow-Blade|LTR|1
+461 Basalt Monolith|2XM|1
+461 Batterbone|MH2|1
+461 Battle Screech|MH1|1
+461 Bespoke Battlewagon|MH3|1
+461 Bilbo, Retired Burglar|LTR|1
+461 Bill Ferny, Bree Swindler|LTR|1
+461 Bill the Pony|LTR|1
+461 Birthing Boughs|MH1|1
+461 Bitter Downfall|LTR|1
+461 Blazing Rootwalla|MH2|1
+461 Blessed Respite|MH2|1
+461 Blizzard Strix|MH1|1
+461 Bloodshot Trainee|2XM|1
+461 Bloodsoaked Insight|MH3|1
+461 Blossoming Calm|MH2|1
+461 Boggart Trawler|MH3|1
+461 Bone Shredder|MH2|1
+461 Book of Mazarbul|LTR|1
+461 Brainstone|MH2|1
+461 Brainsurge|MH3|1
+461 Break the Ice|MH2|1
+461 Breaker of Creation|MH3|1
+461 Bridgeworks Battle|MH3|1
+461 Brimstone Volley|2XM|1
+461 Buried Alive|MH3|1
+461 Buried Ruin|2XM|1
+461 Butterbur, Bree Innkeeper|LTR|1
+461 Caprichrome|MH2|1
+461 Captain Ripley Vance|MH2|1
+461 Carrion Feeder|MH1|1
+461 Celeborn the Wise|LTR|1
+461 Cephalid Coliseum|MH3|1
+461 Charitable Levy|MH3|1
+461 Chief of the Foundry|2XM|1
+461 Clattering Augur|MH2|1
+461 Clone Shell|2XM|1
+461 Cogwork Assembler|2XM|1
+461 Collective Resistance|MH3|1
+461 Combine Chrysalis|MH2|1
+461 Conifer Wurm|MH1|1
+461 Consign to Memory|MH3|1
+461 Constable of the Realm|MH2|1
+461 Consuming Corruption|MH3|1
+461 Copycrook|MH3|1
+461 Coretapper|2XM|1
+461 Council's Deliberation|LTR|1
+461 Counterspell|MH2|1
+461 Cranial Plating|2XM|1
+461 Crop Rotation|2XM|1
+461 Crypt Rats|MH1|1
+461 Cunning Evasion|MH1|1
+461 Cursed Wombat|MH3|1
+461 Darksteel Citadel|2XM|1
+461 Deathreap Ritual|2XM|1
+461 Decree of Justice|MH3|1
+461 Deep Analysis|MH3|1
+461 Denethor, Ruling Steward|LTR|1
+461 Depth Defiler|MH3|1
+461 Disciple of Freyalise|MH3|1
+461 Disciple of the Vault|2XM|1
+461 Dismantle|2XM|1
+461 Dismantling Blow|MH1|1
+461 Distinguished Conjurer|MH3|1
+461 Dragon's Rage Channeler|MH2|1
+461 Dread Return|2XM|1
+461 Dreadmobile|MH3|1
+461 Dregscape Sliver|MH1|1
+461 Drown in Sorrow|2XM|1
+461 Drowner of Truth|MH3|1
+461 Dúnedain Rangers|LTR|1
+461 Eldrazi Ravager|MH3|1
+461 Elrond, Lord of Rivendell|LTR|1
+461 Emissary of Soulfire|MH3|1
+461 Emrakul's Messenger|MH3|1
+461 Enlarge|2XM|1
+461 Ent-Draught Basin|LTR|1
+461 Entish Restoration|LTR|1
+461 Envoy of the Ancestors|MH3|1
+461 Erkenbrand, Lord of Westfold|LTR|1
+461 Esperzoa|2XM|1
+461 Essence Reliquary|MH3|1
+461 Etched Slith|MH3|1
+461 Etchings of the Chosen|MH1|1
+461 Etherium Pteramander|MH3|1
+461 Ethersworn Sphinx|MH2|1
+461 Everdream|MH1|1
+461 Exclude|MH1|1
+461 Extruder|MH2|1
+461 Face of Divinity|MH1|1
+461 Fact or Fiction|MH1|1
+461 Fae Offering|MH2|1
+461 Fangs of Kalonia|MH3|1
+461 Faramir, Field Commander|LTR|1
+461 Farmstead Gleaner|MH1|1
+461 Fast // Furious|MH2|1
+461 Fatal Push|2XM|1
+461 Fear, Fire, Foes!|LTR|1
+461 Feast of Sanity|MH2|1
+461 Feaster of Fools|MH1|1
+461 Fell the Profane|MH3|1
+461 Fencing Ace|2XM|1
+461 Fiery Inscription|LTR|1
+461 Filigree Attendant|MH2|1
+461 Firebolt|MH1|1
+461 First Sliver's Chosen|MH1|1
+461 Flame Blitz|MH2|1
+461 Flame Rift|MH2|1
+461 Flametongue Yearling|MH2|1
+461 Flay Essence|MH2|1
+461 Fledgling Dragon|MH3|1
+461 Flickerwisp|2XM|1
+461 Foray of Orcs|LTR|1
+461 Forgotten Cave|MH1|1
+461 Foundation Breaker|MH2|1
+461 Friendly Rivalry|LTR|1
+461 Frodo Baggins|LTR|1
+461 Frogmyr Enforcer|MH3|1
+461 Frostwalk Bastion|MH1|1
+461 Furnace Hellkite|MH3|1
+461 Galvanic Blast|2XM|1
+461 Gandalf's Sanction|LTR|1
+461 Gandalf, Friend of the Shire|LTR|1
+461 Gelatinous Genesis|2XM|1
+461 Generous Gift|MH1|1
+461 Ghor-Clan Rampager|2XM|1
+461 Ghost-Lit Drifter|MH2|1
+461 Ghostfire Slice|MH3|1
+461 Gift of Strands|LTR|1
+461 Gimli, Counter of Kills|LTR|1
+461 Glacial Revelation|MH1|1
+461 Glaring Fleshraker|MH3|1
+461 Glassdust Hulk|2XM|1
+461 Glasswing Grace|MH3|1
+461 Glinting Creeper|MH2|1
+461 Glorfindel, Dauntless Rescuer|LTR|1
+461 Glorious Enforcer|MH2|1
+461 Glyph Elemental|MH3|1
+461 Goblin Fireleaper|LTR|1
+461 Goblin Matron|MH1|1
+461 Goblin Oriflamme|MH1|1
+461 Goblin Traprunner|MH2|1
+461 Golden-Tail Trainer|MH3|1
+461 Golem Artisan|2XM|1
+461 Gollum's Bite|LTR|1
+461 Gollum, Patient Plotter|LTR|1
+461 Good-Fortune Unicorn|MH1|1
+461 Gorbag of Minas Morgul|LTR|1
+461 Gorilla Shaman|MH2|1
+461 Gothmog, Morgul Lieutenant|LTR|1
+461 Graceful Restoration|MH2|1
+461 Graveshifter|MH1|1
+461 Greed|MH2|1
+461 Grim Servant|MH3|1
+461 Grishnákh, Brash Instigator|LTR|1
+461 Grond, the Gatebreaker|LTR|1
+461 Gríma Wormtongue|LTR|1
+461 Guardian of the Forgotten|MH3|1
+461 Gwaihir the Windlord|LTR|1
+461 Healer's Flock|MH2|1
+461 Herd Baloth|MH2|1
+461 Hidden Stockpile|2XM|1
+461 Hinder|2XM|1
+461 Hollowhead Sliver|MH1|1
+461 Hope-Ender Coatl|MH3|1
+461 Horrid Shadowspinner|MH3|1
+461 Horses of the Bruinen|LTR|1
+461 Hunting Pack|MH2|1
+461 Hydra Trainer|MH3|1
+461 Hydroelectric Specimen|MH3|1
+461 Icehide Golem|MH1|1
+461 Idol of False Gods|MH3|1
+461 Indebted Spirit|MH3|1
+461 Ingenious Infiltrator|MH1|1
+461 Invigorate|2XM|1
+461 Ioreth of the Healing House|LTR|1
+461 It That Heralds the End|MH3|1
+461 Izzet Charm|2XM|1
+461 Izzet Generatorium|MH3|1
+461 Jhoira's Familiar|2XM|1
+461 Junk Diver|MH3|1
+461 Junk Winder|MH2|1
+461 Kaleidoscorch|MH2|1
+461 King of the Pride|MH1|1
+461 Kozilek's Unsealing|MH3|1
+461 Landroval, Horizon Witness|LTR|1
+461 Lavabelly Sliver|MH1|1
+461 Lazotep Chancellor|MH2|1
+461 Legion Leadership|MH3|1
+461 Legion Vanguard|MH2|1
+461 Legolas, Counter of Kills|LTR|1
+461 Lesser Masticore|MH1|1
+461 Lethal Throwdown|MH3|1
+461 Lightning Greaves|2XM|1
+461 Lion Umbra|MH3|1
+461 Liquimetal Torque|MH2|1
+461 Llanowar Tribe|MH1|1
+461 Lonely Sandbar|MH1|1
+461 Long List of the Ents|LTR|1
+461 Lost to Legend|LTR|1
+461 Lucid Dreams|MH2|1
+461 March from the Black Gate|LTR|1
+461 Marionette Apprentice|MH3|1
+461 Master Splicer|2XM|1
+461 Mauhúr, Uruk-hai Captain|LTR|1
+461 Meneldor, Swift Savior|LTR|1
+461 Meriadoc Brandybuck|LTR|1
+461 Metastatic Evangel|MH3|1
+461 Meteoric Mace|MH3|1
+461 Millikin|MH2|1
+461 Mindless Conscription|MH3|1
+461 Mirror of Galadriel|LTR|1
+461 Mishra's Bauble|2XM|1
+461 Mishra's Factory|2XM|1
+461 Mogg Mob|MH3|1
+461 Mogg Salvage|MH2|1
+461 Monoskelion|MH2|1
+461 Monstrous Vortex|MH3|1
+461 Morkrut Banshee|2XM|1
+461 Munitions Expert|MH1|1
+461 Muster the Departed|MH3|1
+461 Myrsmith|2XM|1
+461 Mystic Redaction|MH2|1
+461 Nadier's Nightblade|MH3|1
+461 Nazgûl|LTR|1
+461 Necromancer's Familiar|MH2|1
+461 Null Elemental Blast|MH3|1
+461 O-Naginata|2XM|1
+461 Oath of the Grey Host|LTR|1
+461 Old Man Willow|LTR|1
+461 Ondu Knotmaster|MH3|1
+461 Oneirophage|MH1|1
+461 Ore-Scale Guardian|MH1|1
+461 Ovalchase Daredevil|2XM|1
+461 Painsmith|2XM|1
+461 Patchwork Gnomes|MH2|1
+461 Path of Annihilation|MH3|1
+461 Path to Exile|2XM|1
+461 Pentad Prism|2XM|1
+461 Peregrin Took|LTR|1
+461 Phyrexian Ironworks|MH3|1
+461 Pillage|MH1|1
+461 Pinnacle Monk|MH3|1
+461 Planar Genesis|MH3|1
+461 Pongify|2XM|1
+461 Power Depot|MH2|1
+461 Priest of Titania|MH3|1
+461 Prince Imrahil the Fair|LTR|1
+461 Propagator Drone|MH3|1
+461 Prophetic Titan|MH2|1
+461 Proud Pack-Rhino|MH3|1
+461 Pyretic Rebirth|MH3|1
+461 Pyrewild Shaman|2XM|1
+461 Quest for the Necropolis|MH3|1
+461 Quickbeam, Upstart Ent|LTR|1
+461 Radiant Epicure|MH2|1
+461 Rakdos Headliner|MH2|1
+461 Ral and the Implicit Maze|MH3|1
+461 Ranger's Firebrand|LTR|1
+461 Ravenous Giant|MH1|1
+461 Ravenous Intruder|2XM|1
+461 Ravenous Squirrel|MH2|1
+461 Raving Visionary|MH2|1
+461 Razorgrass Ambush|MH3|1
+461 Rebuild|MH1|1
+461 Reckless Pyrosurfer|MH3|1
+461 Reclamation Sage|2XM|1
+461 Reef Worm|MH3|1
+461 Regrowth|MH1|1
+461 Reiterating Bolt|MH3|1
+461 Reprieve|LTR|1
+461 Revitalizing Repast|MH3|1
+461 Riddlesmith|2XM|1
+461 Ringsight|LTR|1
+461 Rise of the Witch-king|LTR|1
+461 Rising of the Day|LTR|1
+461 Road // Ruin|MH2|1
+461 Roil Cartographer|MH3|1
+461 Rosie Cotton of South Lane|LTR|1
+461 Rotwidow Pack|MH1|1
+461 Ruination Rioter|MH1|1
+461 Rush of Inspiration|MH3|1
+461 Rush of Knowledge|2XM|1
+461 Saddled Rimestag|MH1|1
+461 Sadistic Obsession|MH1|1
+461 Said // Done|MH2|1
+461 Samwise the Stouthearted|LTR|1
+461 Sanctuary Raptor|MH2|1
+461 Sandstone Oracle|2XM|1
+461 Saruman the White|LTR|1
+461 Saruman's Trickery|LTR|1
+461 Scale Up|MH1|1
+461 Scour the Desert|MH2|1
+461 Scurry Oak|MH2|1
+461 Scurry of Gremlins|MH3|1
+461 Scuttletide|MH2|1
+461 Scuttling Sliver|MH1|1
+461 Sea Drake|MH2|1
+461 Seal of Cleansing|MH2|1
+461 Seal of Removal|MH2|1
+461 Secluded Steppe|MH1|1
+461 Selesnya Guildmage|2XM|1
+461 Sentinel of the Pearl Trident|2XM|1
+461 Serra Sphinx|2XM|1
+461 Shadow Summoning|LTR|1
+461 Shadowfax, Lord of Horses|LTR|1
+461 Shatter Assumptions|MH1|1
+461 Shire Shirriff|LTR|1
+461 Shortcut to Mushrooms|LTR|1
+461 Shrieking Drake|MH3|1
+461 Signature Slam|MH3|1
+461 Sink into Stupor|MH3|1
+461 Skittering Precursor|MH3|1
+461 Skullmulcher|2XM|1
+461 Skyblade's Boon|MH2|1
+461 Slag Strider|MH2|1
+461 Sling-Gang Lieutenant|MH1|1
+461 Smiting Helix|MH1|1
+461 Snow-Covered Wastes|MH3|1
+461 Solar Transformer|MH3|1
+461 Soul Snare|MH2|1
+461 Soulherder|MH1|1
+461 Spawn-Gang Commander|MH3|1
+461 Specimen Collector|MH2|1
+461 Sphinx Summoner|2XM|1
+461 Sphinx of the Guildpact|2XM|1
+461 Splicer's Skill|MH1|1
+461 Spreading Insurrection|MH2|1
+461 Springleaf Drum|2XM|1
+461 Squirrel Nest|MH1|1
+461 Squirrel Sanctuary|MH2|1
+461 Squirrel Sovereign|MH2|1
+461 Static Prison|MH3|1
+461 Steel Dromedary|MH2|1
+461 Stern Scolding|LTR|1
+461 Stew the Coneys|LTR|1
+461 Stone of Erech|LTR|1
+461 Strength of the Harvest|MH3|1
+461 Strider, Ranger of the North|LTR|1
+461 Strike It Rich|MH2|1
+461 Stump Stomp|MH3|1
+461 Sudden Edict|MH2|1
+461 Sundering Eruption|MH3|1
+461 Suppression Ray|MH3|1
+461 Sweep the Skies|MH2|1
+461 Tale of Tinúviel|LTR|1
+461 Talisman of Conviction|MH1|1
+461 Talisman of Creativity|MH1|1
+461 Talisman of Curiosity|MH1|1
+461 Talisman of Hierarchy|MH1|1
+461 Talisman of Resilience|MH1|1
+461 Tamiyo Meets the Story Circle|MH3|1
+461 Tempered Sliver|MH1|1
+461 Terramorph|MH2|1
+461 Territory Culler|MH3|1
+461 The Bath Song|LTR|1
+461 The Creation of Avacyn|MH3|1
+461 The Grey Havens|LTR|1
+461 The Hunger Tide Rises|MH3|1
+461 The Mouth of Sauron|LTR|1
+461 The Underworld Cookbook|MH2|1
+461 Thirst for Knowledge|2XM|1
+461 Thopter Engineer|2XM|1
+461 Thopter Foundry|2XM|1
+461 Thraben Watcher|MH2|1
+461 Throatseeker|MH1|1
+461 Throne of Geth|2XM|1
+461 Théoden, King of Rohan|LTR|1
+461 Tide Shaper|MH2|1
+461 Timeless Witness|MH2|1
+461 Tireless Provisioner|MH2|1
+461 Titans' Vanguard|MH3|1
+461 Topple the Statue|2XM|1
+461 Tranquil Thicket|MH1|1
+461 Treasure Keeper|2XM|1
+461 Treasure Mage|2XM|1
+461 Tribute Mage|MH1|1
+461 Trickster's Elk|MH3|1
+461 Triton Wavebreaker|MH3|1
+461 Twisted Reflection|MH1|1
+461 Twisted Riddlekeeper|MH3|1
+461 Uglúk of the White Hand|LTR|1
+461 Ulvenwald Mysteries|2XM|1
+461 Undead Augur|MH1|1
+461 Underworld Hermit|MH2|1
+461 Unlicensed Disintegration|2XM|1
+461 Unstable Amulet|MH3|1
+461 Urza's Cave|MH3|1
+461 Urza's Rage|MH1|1
+461 Valiant Changeling|MH1|1
+461 Valor in Akros|2XM|1
+461 Valorous Stance|2XM|1
+461 Vampire Hexmage|2XM|1
+461 Vectis Gloves|MH2|1
+461 Vedalken Infiltrator|MH2|1
+461 Vengeful Devil|MH1|1
+461 Vesperlark|MH1|1
+461 Veteran Explorer|2XM|1
+461 Vexing Bauble|MH3|1
+461 Victimize|MH3|1
+461 Vile Entomber|MH2|1
+461 Voltstorm Angel|MH3|1
+461 Voracious Fell Beast|LTR|1
+461 Wall of Blossoms|MH1|1
+461 Wastescape Battlemage|MH3|1
+461 Watcher for Tomorrow|MH1|1
+461 Waterlogged Teachings|MH3|1
+461 Weapons Trainer|2XM|1
+461 Webweaver Changeling|MH1|1
+461 Welding Jar|2XM|1
+461 Wing Shards|MH1|1
+461 Witch Enchanter|MH3|1
+461 Woodland Champion|2XM|1
+461 Worn Powerstone|MH3|1
+461 Wren's Run Hydra|MH2|1
+461 Wumpus Aberration|MH3|1
+461 Wurmcoil Larva|MH3|1
+461 Yavimaya Elder|MH2|1
+461 Yavimaya's Embrace|2XM|1
+461 You Cannot Pass!|LTR|1
+461 Young Necromancer|MH2|1
+461 Zhalfirin Decoy|MH1|1
+461 Zuran Orb|MH2|1
+461 Éomer of the Riddermark|LTR|1
+461 Éowyn, Lady of Rohan|LTR|1

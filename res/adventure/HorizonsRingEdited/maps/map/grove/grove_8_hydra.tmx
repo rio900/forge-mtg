@@ -44,7 +44,7 @@
   <object id="71" template="../../../../common/maps/obj/manashards.tx" x="246.784" y="224.533" />
   <object id="72" template="../../obj/booster.tx" x="178.912" y="251.368">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"colors":["Green"],"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"colors":["Green"],"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"Green","count":1,"colors":["Colorless"],"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"colors":["Green"],"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"colors":["Green"],"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"Green","count":1,"colors":["Colorless"],"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="84" template="../../../../common/maps/obj/waypoint.tx" x="650.485" y="448.365" />

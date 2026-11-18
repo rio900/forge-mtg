@@ -141,7 +141,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Squirrel" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -161,7 +161,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Gorilla" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -180,7 +180,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Wolf" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -199,7 +199,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Forest Giant" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -218,7 +218,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Treefolk Elite" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -321,12 +321,12 @@
   <object id="82" template="../../../../../common/maps/obj/waypoint.tx" x="508.667" y="500.667" />
   <object id="83" template="../../../obj/treasure.tx" x="425" y="459.5">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["green"]},{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["green"]},{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
   <object id="84" template="../../../obj/treasure.tx" x="310.5" y="462.5">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["green"]},{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["green"]},{"type":"item","probability":0.1,"count":1,"itemName":"Concordant Boots"},{"type":"item","probability":0.1,"count":1,"itemName":"Crown of Growth"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
  </objectgroup>

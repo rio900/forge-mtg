@@ -62,7 +62,7 @@
   </object>
   <object id="66" template="../../obj/booster.tx" x="126.196" y="72.7342" width="16.25" height="15.25">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":1,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="67" template="../../../../common/maps/obj/enemy.tx" x="304.845" y="135.63">
@@ -79,7 +79,7 @@
   <object id="73" template="../../../../common/maps/obj/waypoint.tx" x="88.2493" y="142.122" />
   <object id="76" template="../../obj/treasure.tx" x="188.774" y="63.2297">
    <properties>
-    <property name="reward">[{"type":"randomCard","colors":["Red"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Dagger"},{"type":"card","probability":1,"count":1,"cardName":"Phial of Galadriel|LTR","editions":["LTR"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"type":"randomCard","colors":["Red"],"count":5,"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"item","count":1,"probability":0.2,"itemName":"Dagger"},{"type":"card","probability":1,"count":1,"cardName":"Throne of Geth|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
  </objectgroup>

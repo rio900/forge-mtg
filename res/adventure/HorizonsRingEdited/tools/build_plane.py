@@ -4,6 +4,8 @@ import hashlib
 import json
 import math
 import os
+import subprocess
+import tempfile
 import re
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
@@ -16,10 +18,28 @@ COMMON = PLANE.parent / 'common'
 ORIGINAL = PLANE.parent / 'Shandalar'
 CONFIG = json.loads((PLANE / 'config.json').read_text())
 SETS = CONFIG['allowedEditions']
-assert set(SETS)=={'MH1','MH2','LTR'}
+assert set(SETS)=={'MH1','MH2','LTR','MH3','2XM'}
 PACKS = list(SETS)
 TOWN_COLORS = {'plains':'White','island':'Blue','swamp':'Black','mountain':'Red',
                'forest':'Green','waste':'Colorless'}
+
+def add_dialog_keys(node):
+    value=node.get('value',node.text or '')
+    if 'dialog' not in node.get('name','').lower() or re.search(r'"loc(?:name|text)"\s*:\s*"[^"]+',value):
+        return False
+    value=re.sub(r'"loc(?:name|text)"\s*:\s*""\s*,?', '', value)
+    def keyed(match):
+        field,raw=match.groups()
+        key=hashlib.sha256(raw.encode()).hexdigest()[:16]
+        return match[0]+f', "loc{field}":"adv.horizons.dialog.{key}"'
+    updated=re.sub(r'"(name|text)"\s*:\s*"((?:[^"\\]|\\.)+)"',keyed,value)
+    if updated==value:
+        return False
+    if 'value' in node.attrib:
+        node.set('value',updated)
+    else:
+        node.text=updated
+    return True
 
 def limit_town_shops(root, filename):
     terrain=filename.split('_')[0]
@@ -36,6 +56,9 @@ def limit_town_shops(root, filename):
     booster=next((o for o in others if 'BoosterPackShop' in pool(o)),others[-1])
     vendor=next(o for o in others if o is not booster)
     keep={land_shop:land,booster:'RingTownBooster',vendor:singles}
+    if terrain!='waste':
+        premium=next(o for o in shops if o not in keep)
+        keep[premium]='RingTownLands'+color
     for shop in shops:
         if shop not in keep:
             group.remove(shop)
@@ -49,7 +72,87 @@ def limit_town_shops(root, filename):
             shop.set('template',str(Path(shop.get('template')).with_name('shop.tx')))
             shop.attrib.pop('type',None)
 
+def limit_capital_shops(root,filename):
+    color=TOWN_COLORS[filename.split('_')[0]]
+    for group in root.iter('objectgroup'):
+        shops=[o for o in group.findall('object') if Path(o.get('template','')).stem in ('shop','RotatingShop')]
+        if not shops:
+            continue
+        rotating=[o for o in shops if Path(o.get('template')).stem=='RotatingShop']
+        markets=[o for o in shops if o.find("properties/property[@name='rareShopList']") is not None]
+        assert len(markets)>=5 and rotating, filename
+        replacements={markets[0]:'RingTown'+color,markets[1]:'CapitalBooster',
+                      markets[2]:'CapitalLands'+color}
+        # Restore all original stalls at their original object IDs and positions.
+        # Small capital counters have independent stock limits; other towns keep theirs.
+        for shop in markets+rotating:
+            props=shop.find('properties')
+            if shop in replacements:
+                for prop in list(props):
+                    if prop.get('name','').endswith('ShopList'):
+                        props.remove(prop)
+                ET.SubElement(props,'property',name='commonShopList',value=replacements[shop])
+            else:
+                for prop in props:
+                    if prop.get('name','').endswith('ShopList') or prop.get('name')=='rotation':
+                        prop.set('value',','.join('CapitalSmall'+color+'__'+n.strip().replace('Instant6','Instant4').replace('Shapeshifters','Shapeshifter') for n in prop.get('value','').split(',') if n.strip()))
+
+def capital_shop_variants(builder):
+    """Build six-card capital stalls with independently weighted rarities."""
+    import copy
+    names=set()
+    rotating_names=set()
+    for path in (COMMON/'maps/map/main_story').glob('*_capital.tmx'):
+        root=ET.parse(path).getroot()
+        limit_capital_shops(root,path.name)
+        for prop in root.iter('property'):
+            if prop.get('name','').endswith('ShopList') or prop.get('name')=='rotation':
+                names.update(n for n in prop.get('value','').split(',') if n.startswith('CapitalSmall'))
+                if prop.get('name')=='rotation':
+                    rotating_names.update(prop.get('value','').split(','))
+    path=PLANE/'world/shops.json'
+    shops=[s for s in json.loads(path.read_text()) if not s['name'].startswith(('CapitalSmall','CapitalLands','CapitalBooster'))]
+    originals={s['name']:s for s in shops}
+    for name in sorted(names):
+        color,base=name.removeprefix('CapitalSmall').split('__',1)
+        mask=dict(White=1,Blue=2,Black=4,Red=8,Green=16)[color]
+        shop=copy.deepcopy(originals[base])
+        shop['name']=name
+        shop['unlimited']=False
+        rules=shop['rewards']
+        if all(rule.get('type')=='cardPackShop' for rule in rules):
+            rules=rules[:1]
+            rules[0]['count']=6
+        else:
+            from capital_shops import stock
+            from capital_themes import selection
+            label, entries = selection(builder, base, color)
+            shop['description'] = label
+            rules=stock(builder,name,rules,rotating=name in rotating_names,city_mask=mask,entries=entries)
+        shop['rewards']=rules
+        shops.append(shop)
+    booster=copy.deepcopy(originals['RingTownBooster'])
+    booster.update(name='CapitalBooster')
+    booster['rewards'][0]['count']=6
+    shops.append(booster)
+    for color,mask in dict(White=1,Blue=2,Black=4,Red=8,Green=16).items():
+        shop=copy.deepcopy(originals['RingTownLands'+color])
+        shop['name']='CapitalLands'+color
+        shop['rewards']=stock(builder,shop['name'],originals['Land']['rewards'],city_mask=mask,lands=True)
+        shops.append(shop)
+    emit(path,dump(shops))
+    used={r['sourceDeck'] for s in shops for r in s['rewards'] if 'sourceDeck' in r}
+    for deck in (PLANE/'decks/shop/capital').glob('*.dck'):
+        if str(deck.relative_to(PLANE)) not in used:deck.unlink()
+
 BASIC = dict(zip('WUBRG', ['Plains', 'Island', 'Swamp', 'Mountain', 'Forest']))
+FEATURED_CARDS = {'Atraxa, Grand Unifier':10, 'Quantum Riddler':5, 'Griselbrand':5, 'Sheoldred, the Apocalypse':5}
+# Shop-only bonus tickets; arena/boss featured weights remain independent.
+SHOP_FEATURED = {'Atraxa, Grand Unifier':6, 'Quantum Riddler':3, 'Griselbrand':3, 'Sheoldred, the Apocalypse':3}
+SHOP_FEATURED_SCALE = 2000
+SHOP_LOCAL_FEATURED = 10
+SHOCK_LANDS = ('Hallowed Fountain','Watery Grave','Blood Crypt','Stomping Ground','Temple Garden',
+               'Godless Shrine','Steam Vents','Overgrown Tomb','Sacred Foundry','Breeding Pool')
 BITS = {c: 1 << i for i, c in enumerate(BASIC)}
 DUALS = dict(zip(['WU','WB','WR','WG','UB','UR','UG','BR','BG','RG'],
     ['Razortide Bridge','Goldmire Bridge','Rustvale Bridge','Thornglint Bridge','Mistvault Bridge','Silverbluff Bridge','Tanglepool Bridge','Drossforge Bridge','Darkmoss Bridge','Slagwoods Bridge']))
@@ -189,6 +292,12 @@ class Builder:
         else:mask=sum(BITS.get(c,0) for c in set(raw.upper()))
         seed=name+'|'+ref
         rel='decks/converted/'+slug(owner or name)+'-'+str(index+1)+'.dck'
+        from enemy_plans import curated, repair, compact
+        plan=curated(self,name,index,mask)
+        if plan is not None:
+            self.write_deck(rel,name,{'Main':plan})
+            self.manifest.append((name,ref,rel,'Reviewed strategy with 36 spells and 24 lands'))
+            return rel
         if name.startswith('Challenger '):
             from tournament import tournament_deck
             archetype,rows=tournament_deck(self,index,int(name.split()[-1]))
@@ -237,13 +346,19 @@ class Builder:
         rows=+rows
         rows.update(self.lands(mask,landct,rows))
         if name=='Griselbrand':
-            # Keep the mana base and deck size, and support both discard and tutoring.
-            for old_card,new_card,quantity in [
-                    ('Feaster of Fools','Griselbrand',3),('Echoing Return',"Goryo's Vengeance",4),
-                    ('Morgul-Knife Wound','Bone Shards',4),('Headless Specter','Vile Entomber',2)]:
-                assert rows[old_card]>=quantity
-                rows[old_card]-=quantity
-                rows[new_card]+=quantity
+            core={'Griselbrand':3,"Goryo's Vengeance":4,'Bone Shards':4,'Vile Entomber':4}
+            protected=set(core)|set(SIGNATURES[name])
+            for card,quantity in core.items():
+                while rows[card]<quantity:
+                    donor=max((n for n in rows if rows[n] and n not in protected and 'Land' not in self.db[n].kinds),
+                              key=lambda n:(self.db[n].cost,rows[n],n))
+                    rows[donor]-=1
+                    rows[card]+=1
+        from encounters import upgrade, PACKAGES
+        rows=upgrade(self,e,rows,mask)
+        if sum(rows.values())>60:
+            rows=compact(self,rows,mask,tags,seed,list(PACKAGES.get(name,{}))+SIGNATURES.get(name,[]))
+        rows=repair(self,rows,mask,seed)
         parts={'Main':rows}
         side=Counter()
         for n,q in old.get('Sideboard',{}).items():
@@ -273,7 +388,7 @@ class Builder:
             for _ in range(min(4,count//6)):result['Prismatic Vista']+=1
         duals=[n for k,n in DUALS.items() if all(c in cs for c in k)]
         if duals:
-            for i in range(min(count//(4 if len(cs)==2 else 2),4*len(duals))):
+            for i in range(min(count//(4 if len(cs)==2 else 3),4*len(duals))):
                 result[duals[i%len(duals)]]+=1
         if len(cs)>=4:
             for _ in range(min(4,count//6)):result['Cave of Temptation']+=1
@@ -327,15 +442,19 @@ class Builder:
             ref=data['sourceDeck'];low=ref.lower()
             if 'funny' in low:
                 data.pop('sourceDeck');data.pop('subTypes',None);data.pop('cardText',None)
-                data['cardTypes']=['Artifact'];data['editions']=['MH1','MH2']
+                data['cardTypes']=['Artifact'];data['editions']=['MH1','MH2','MH3']
             elif 'warhammer' in low:
-                data.pop('sourceDeck');data['editions']=['MH1','MH2'];data['cardTypes']=['Artifact','Creature']
+                data.pop('sourceDeck');data['editions']=['MH1','MH2','MH3'];data['cardTypes']=['Artifact','Creature']
             elif ref in self.byref:data['sourceDeck']=self.byref[ref]
             else:raise ValueError('Unmapped shop source '+ref)
     def enemies(self):
         src=json.loads((COMMON/'world/enemies.json').read_text())
+        from encounters import reward_pools, rewards
+        reward_pools(self)
         self.byref={}
         def convert(e,owner=None):
+            from enemy_plans import COLORS
+            if e['name'] in COLORS:e['colors']=COLORS[e['name']]
             refs=[]
             for i,ref in enumerate(e['deck']):
                 if owner is None and e['name'] in PROTOTYPES:
@@ -350,6 +469,7 @@ class Builder:
                     if rule==change['match']:e['rewards'][i]=change['reward'].copy()
             for rule in e.get('rewards',[]):
                 if rule.get('type')=='Card':rule['type']='card'
+            rewards(e)
             if e.get('nextEnemy'):convert(e['nextEnemy'],(owner or e['name'])+' stage '+e['nextEnemy']['name'])
         for e in src:convert(e)
         emit(PLANE/'world/enemies.json',dump(src))
@@ -415,6 +535,8 @@ class Builder:
         links=defaultdict(list)
         for f in sources:
             root=ET.parse(f).getroot();trees[f]=root
+            if f.stem.endswith('_capital'):
+                limit_capital_shops(root,f.name);local.add(f)
             if f.parent==COMMON/'maps/map/towns':
                 limit_town_shops(root,f.name);local.add(f)
             chest_props=set()
@@ -424,6 +546,7 @@ class Builder:
                 if Path(ref).name=='treasure.tx':
                     chest_props.update(obj.findall("properties/property[@name='reward']"))
             for node in root.iter('property'):
+                if add_dialog_keys(node):local.add(f)
                 key=node.get('name');value=node.get('value',node.text or '')
                 if key=='teleport' and value.endswith('.tmx'):
                     target=destination(value)
@@ -432,19 +555,13 @@ class Builder:
                         if not (COMMON/value).is_file():local.add(f)
                 elif key=='arena' and f.stem.endswith('_capital'):
                     color=TOWN_COLORS[f.stem.split('_')[0]]
-                    mask=dict(White=1,Blue=2,Black=4,Red=8,Green=16)[color]
-                    local_names={n for n in self.modern if self.db[n].mask & mask}
-                    ref=f'decks/arena/{color}.dck'
-                    # Total weight of the universal branch equals that of the local branch.
-                    groupsize=len(local_names)
-                    lines=[f'{groupsize+(len(self.modern) if n in local_names else 0)} {n}|{ed}|1'
-                           for n,ed in self.modern.items()]
-                    emit(PLANE/ref,'[metadata]\nName='+color+' arena prize\n[Main]\n'+'\n'.join(lines)+'\n')
+                    ref=self.arena_pool(color)
                     arena=json.loads(re.sub(r',\s*([}\]])',r'\1',value))
                     final=arena['rewards'][-1]
                     mythic=next(r for r in final if r.get('rarity')==['Mythic Rare'])
                     assert mythic['count']==2
-                    mythic['count']=1
+                    mythic.clear()
+                    mythic.update(type='card',count=1,sourceDeck='decks/arena/Premium.dck')
                     final.append(dict(type='card',count=1,sourceDeck=ref))
                     node.text=dump(arena)
                     local.add(f)
@@ -483,6 +600,17 @@ class Builder:
             point['map']=route(target)
         emit(PLANE/'world/points_of_interest.json',dump(points))
 
+    def arena_pool(self,color):
+        mask=dict(White=1,Blue=2,Black=4,Red=8,Green=16,Any=0)[color]
+        local_names={n for n in self.modern if self.db[n].mask & mask}
+        ref=f'decks/arena/{color}.dck'
+        # Total weight of the universal branch equals that of the local branch.
+        groupsize=max(1,len(local_names))
+        lines=[f'{(groupsize+(len(self.modern) if n in local_names else 0))*(2 if n in FEATURED_CARDS else 1)} {n}|{ed}|1'
+               for n,ed in self.modern.items()]
+        emit(PLANE/ref,'[metadata]\nName='+color+' arena prize\n[Main]\n'+'\n'.join(lines)+'\n')
+        return ref
+
     def singles_pool(self, title, weights, mask=None):
         single_rarity_prints=defaultdict(list)
         fixed=Counter()
@@ -499,18 +627,35 @@ class Builder:
             else:
                 # Forge can reroll art within an edition. Equal weight per art keeps
                 # the rarity distribution identical with either variant setting.
-                assert rarities<=weights.keys(),(name,rarities)
+                if not rarities<=weights.keys():continue
                 for art,rarity in variants:
                     fixed[f'{name}|{edition}|{art}']+=1
                     counts[rarity]+=1
-        scale=max(math.ceil((len(single_rarity_prints[r])+counts[r])/weight)
-                  for r,weight in weights.items())
+        # Give requested cards more weight within their printed rarity.
+        priorities={'C':6,'U':4,'R':2,'M':2}
+        def ticket_weight(entry,rarity):
+            return priorities[rarity] if entry.split('|')[0] in self.modern else 1
+        totals={r:sum(ticket_weight(entry,r) for entry in single_rarity_prints[r]) for r in weights}
+        scale=max(math.ceil((totals[r]+counts[r])/weight) for r,weight in weights.items())
         for rarity,weight in weights.items():
             pool=single_rarity_prints[rarity]
-            copies,extra=divmod(weight*scale-counts[rarity],len(pool))
-            assert copies>=1,(title,rarity)
-            for index,entry in enumerate(pool):
-                fixed[entry]=copies+(index<extra)
+            available=weight*scale-counts[rarity]
+            quotas={entry:divmod(available*ticket_weight(entry,rarity),totals[rarity]) for entry in pool}
+            for entry,(quantity,remainder) in quotas.items():
+                fixed[entry]=quantity
+            extra=available-sum(quantity for quantity,remainder in quotas.values())
+            for entry in sorted(pool,key=lambda entry:(-quotas[entry][1],entry))[:extra]:
+                fixed[entry]+=1
+        featured=SHOP_FEATURED if mask is None else {
+            name:SHOP_LOCAL_FEATURED for name in SHOP_FEATURED if self.db[name].mask==mask}
+        if featured:
+            total=sum(fixed.values())
+            remainder=SHOP_FEATURED_SCALE-sum(featured.values())
+            fixed=Counter({entry:quantity*remainder for entry,quantity in fixed.items()})
+            for name,chance in featured.items():
+                fixed[f'{name}|{self.modern[name]}|1']+=total*chance
+            divisor=math.gcd(*fixed.values())
+            fixed=Counter({entry:quantity//divisor for entry,quantity in fixed.items()})
         ref=f'decks/shop/{title}.dck'
         emit(PLANE/ref,'[metadata]\nName='+title+' shop pool\n[Main]\n'+
              ''.join(f'{qty} {entry}\n' for entry,qty in sorted(fixed.items())))
@@ -533,16 +678,41 @@ class Builder:
                         if 'subTypes' in rule:rule['subTypes']=['Construct','Golem','Horror']
                         if 'cardText' in rule:rule['cardText']='artifact'
         by_name={shop['name']:shop for shop in shops}
+        for color,land in BASIC.items():
+            pool=[n for n in SHOCK_LANDS if self.db[n].mask & BITS[color]]
+            assert len(pool)==4, (land,pool)
+            ref=f'decks/shop/{land}ShockLands.dck'
+            emit(PLANE/ref,'[metadata]\nName='+land+' shock lands\n[Main]\n'+
+                 ''.join(f'1 {n}|{self.modern[n]}|1\n' for n in pool))
+            shops.append(dict(by_name['Land'],name='RingTownLands'+TOWN_COLORS[land.lower()],
+                              unlimited=False,restockPrice=2,
+                              rewards=[{'type':'card','count':1,'cardTypes':['Land'],
+                                        'rarity':['Common','Uncommon'],'editions':SETS},
+                                       {'type':'card','count':1,'probability':0.25,'sourceDeck':ref}]))
         general=self.singles_pool('GeneralWeighted',dict(U=80,R=19,M=1))
         for color,mask in dict(White=1,Blue=2,Black=4,Red=8,Green=16,Colorless=0).items():
             local=self.singles_pool(color,dict(C=30,U=50,R=18,M=2),mask)
             for suffix in ('','Creatures'):
-                shops.append(dict(by_name[color],name='RingTown'+color+suffix,rewards=[local]*3+[general]*3))
-        shops.append(dict(by_name['BoosterPackShop'],name='RingTownBooster',unlimited=False,
+                shops.append(dict(by_name[color],name='RingTown'+color+suffix,unlimited=False,restockPrice=2,rewards=[local]*3+[general]*3))
+        shops.append(dict(by_name['BoosterPackShop'],name='RingTownBooster',unlimited=False,restockPrice=2,
                           rewards=[{'type':'cardPackShop','count':1,'editions':PACKS}]))
-        shops.append(dict(by_name['Equipment'],name='RingTownEquipment',unlimited=False,
+        shops.append(dict(by_name['Equipment'],name='RingTownEquipment',unlimited=False,restockPrice=2,
                           rewards=[{'count':2,'subTypes':['Equipment'],'rarity':['Common','Uncommon']}]))
         emit(PLANE/'world/shops.json',dump(shops))
+        # Resolve thematic filters with Forge itself in a disposable profile.
+        resources=PLANE.parents[1]
+        jars=sorted(resources.parent.glob('forge-gui-*-jar-with-dependencies.jar'))
+        with tempfile.TemporaryDirectory(prefix='horizons-shop-build-') as temp:
+            scratch=Path(temp)
+            (scratch/'res').symlink_to(resources)
+            (scratch/'user/adventure').mkdir(parents=True)
+            (scratch/'user/adventure/settings.json').write_text('{"plane":"HorizonsRingEdited"}')
+            (scratch/'forge.profile.properties').write_text(
+                f'userDir={scratch}/user\ncacheDir={scratch}/cache\ndecksDir={scratch}/decks\n')
+            subprocess.run(['java','-Xmx3g',f'-Duser.home={scratch}/home','-Djava.awt.headless=true',
+                            '-cp',os.pathsep.join(map(str,jars)),str(PLANE/'tools/BalanceShops.java')],
+                           cwd=scratch,check=True)
+        capital_shop_variants(self)
     def boosters(self):
         # Explicit source-set slots also bind basic lands to the selected printing.
         for f in (PLANE.parents[1]/'editions').glob('*.txt'):
@@ -550,6 +720,14 @@ class Builder:
             code=re.search(r'^Code=(.*)',text,re.M)
             if not code or code[1] not in PACKS:continue
             code=code[1];boost=re.search(r'^Booster=(.*)',text,re.M)[1]
+            if code=='2XM':
+                # Keep the existing mod ban in both shop and raw event boosters.
+                boost=re.sub(r'(from[Ss]heet\("[^"]+"\))',r'\1:!name(Mana Crypt)',boost)
+            if code=='MH3':
+                # Keep the reprint slot while excluding SPG and M3C bonus sheets.
+                boost=('9 Common:fromSheet("MH3 cards"), 3 Uncommon:fromSheet("MH3 cards"), '
+                       '1 RareMythic:fromSheet("MH3 cards"), 1 fromSheet("MH3 new to modern"), '
+                       '1 BasicLand:fromSheet("MH3 cards")')
             date=re.search(r'^Date=(.*)',text,re.M)[1]
             emit(PLANE/'editions'/f.name,f'[metadata]\nCode={code}\nDate={date}\nBooster={boost}\n')
         # Upstream draft blocks can open packs through their own resolver. Use a plane block per set.
@@ -561,7 +739,7 @@ class Builder:
             if fields[2] in PACKS:restricted.append(fields[0])
             if 'Jumpstart' in fields[0] and fields[1].split('/')[-1] =='LTR':jump.append(fields[0])
         CONFIG.update(allowedEvents=PACKS,restrictedBlocks=restricted,allowedJumpstart=jump)
-        emit(PLANE/'blockdata/blocks.txt',''.join(f'Horizons {c}, 3/6/{"LTR" if c=="MH1" else c}, {c}\n'  for c in PACKS))
+        emit(PLANE/'blockdata/blocks.txt',''.join(f'Horizons {c}, 3/6/{"LTR" if c in ("MH1","2XM") else c}, {c}\n'  for c in PACKS))
         emit(PLANE/'config.json',dump(CONFIG))
     def items(self):
         stock=json.loads((COMMON/'world/items.json').read_text())
@@ -597,10 +775,18 @@ class Builder:
     def run(self):
         from starters import build_starts
         build_starts(self)
+        russian=(PLANE/'languages/quests-ru-RU.json').read_text()
+        authored_by_id={q['id']:q for q in json.loads(russian)}
         for source in [ORIGINAL/'world/quests.json', *(ORIGINAL/'languages').glob('quests-*.json')]:
             quests=json.loads(source.read_text())
             self.reward(quests)
-            emit(PLANE/source.relative_to(ORIGINAL),dump(quests) if quests!=json.loads(source.read_text()) else source.read_text())
+            if source.parent.name=='world':
+                emit(PLANE/'world/quests.json',russian)
+            else:
+                original_ids={q['id'] for q in quests}
+                quests.extend(q for i,q in authored_by_id.items() if i not in original_ids)
+                emit(PLANE/source.relative_to(ORIGINAL),dump(quests))
+        emit(PLANE/'languages/adventure-en-US.properties',(PLANE/'languages/adventure-ru-RU.properties').read_text())
         self.enemies();self.stores();self.maps();self.boosters();self.items()
         self.write_mapping()
         emit(PLANE/'tools/reward-mapping.tsv','original\treplacement\tedition\n'+''.join(f'{n}\t{v}\t{self.legal[v].edition}\n' for n,v in sorted(self.replacements.items())))

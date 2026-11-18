@@ -36,75 +36,63 @@
  <objectgroup id="4" name="Objects">
   <object id="41" template="../../../../common/maps/obj/shop.tx" x="465" y="260">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White,SmallCats," />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite,Eldrazi" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
-   </properties>
+    <property name="commonShopList" value="RingTownWhite" /></properties>
   </object>
   <object id="56" template="../../../../common/maps/obj/shop.tx" x="416" y="260">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White,SmallCats," />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite,Eldrazi" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
-   </properties>
+    <property name="commonShopList" value="CapitalBooster" /></properties>
   </object>
   <object id="57" template="../../../../common/maps/obj/shop.tx" x="545" y="259">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White" />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
-   </properties>
+    <property name="commonShopList" value="CapitalLandsWhite" /></properties>
   </object>
   <object id="43" template="../../../../common/maps/obj/shop.tx" x="370" y="325">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White,SmallCats," />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite,Eldrazi" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
+    <property name="commonShopList" value="CapitalSmallWhite__Enchantment6White,CapitalSmallWhite__Creature6White,CapitalSmallWhite__WhiteBoosterPackShop,CapitalSmallWhite__Instant4White,CapitalSmallWhite__Angel,CapitalSmallWhite__Human4White,CapitalSmallWhite__Soldier4White,CapitalSmallWhite__SmallCats" />
+    <property name="mythicShopList" value="CapitalSmallWhite__Planeswalker4White,CapitalSmallWhite__WUBRG,CapitalSmallWhite__RWG,CapitalSmallWhite__RWU,CapitalSmallWhite__RWB,CapitalSmallWhite__UWG,CapitalSmallWhite__UWB,CapitalSmallWhite__GWB,CapitalSmallWhite__Legend4White,CapitalSmallWhite__PhyrexianWhite,CapitalSmallWhite__Eldrazi" />
+    <property name="rareShopList" value="CapitalSmallWhite__Artifact4White,CapitalSmallWhite__Land4White,CapitalSmallWhite__Dimir,CapitalSmallWhite__Rakdos,CapitalSmallWhite__Orzhov,CapitalSmallWhite__Golgari,CapitalSmallWhite__Vehicle2White,CapitalSmallWhite__Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
+    <property name="uncommonShopList" value="CapitalSmallWhite__Bird4White,CapitalSmallWhite__Spirit4White,CapitalSmallWhite__Sliver4White,CapitalSmallWhite__Knight4White,CapitalSmallWhite__Multicolor8White" />
    </properties>
   </object>
   <object id="47" template="../../../../common/maps/obj/inn.tx" x="536" y="144" />
   <object id="49" template="../../../../common/maps/obj/shop.tx" x="417" y="324">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White,SmallCats," />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite,Eldrazi" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
+    <property name="commonShopList" value="CapitalSmallWhite__Enchantment6White,CapitalSmallWhite__Creature6White,CapitalSmallWhite__WhiteBoosterPackShop,CapitalSmallWhite__Instant4White,CapitalSmallWhite__Angel,CapitalSmallWhite__Human4White,CapitalSmallWhite__Soldier4White,CapitalSmallWhite__SmallCats" />
+    <property name="mythicShopList" value="CapitalSmallWhite__Planeswalker4White,CapitalSmallWhite__WUBRG,CapitalSmallWhite__RWG,CapitalSmallWhite__RWU,CapitalSmallWhite__RWB,CapitalSmallWhite__UWG,CapitalSmallWhite__UWB,CapitalSmallWhite__GWB,CapitalSmallWhite__Legend4White,CapitalSmallWhite__PhyrexianWhite,CapitalSmallWhite__Eldrazi" />
+    <property name="rareShopList" value="CapitalSmallWhite__Artifact4White,CapitalSmallWhite__Land4White,CapitalSmallWhite__Dimir,CapitalSmallWhite__Rakdos,CapitalSmallWhite__Orzhov,CapitalSmallWhite__Golgari,CapitalSmallWhite__Vehicle2White,CapitalSmallWhite__Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
+    <property name="uncommonShopList" value="CapitalSmallWhite__Bird4White,CapitalSmallWhite__Spirit4White,CapitalSmallWhite__Sliver4White,CapitalSmallWhite__Knight4White,CapitalSmallWhite__Multicolor8White" />
    </properties>
   </object>
   <object id="50" template="../../../../common/maps/obj/shop.tx" x="465" y="323">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White,SmallCats," />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite,Eldrazi" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
+    <property name="commonShopList" value="CapitalSmallWhite__Enchantment6White,CapitalSmallWhite__Creature6White,CapitalSmallWhite__WhiteBoosterPackShop,CapitalSmallWhite__Instant4White,CapitalSmallWhite__Angel,CapitalSmallWhite__Human4White,CapitalSmallWhite__Soldier4White,CapitalSmallWhite__SmallCats" />
+    <property name="mythicShopList" value="CapitalSmallWhite__Planeswalker4White,CapitalSmallWhite__WUBRG,CapitalSmallWhite__RWG,CapitalSmallWhite__RWU,CapitalSmallWhite__RWB,CapitalSmallWhite__UWG,CapitalSmallWhite__UWB,CapitalSmallWhite__GWB,CapitalSmallWhite__Legend4White,CapitalSmallWhite__PhyrexianWhite,CapitalSmallWhite__Eldrazi" />
+    <property name="rareShopList" value="CapitalSmallWhite__Artifact4White,CapitalSmallWhite__Land4White,CapitalSmallWhite__Dimir,CapitalSmallWhite__Rakdos,CapitalSmallWhite__Orzhov,CapitalSmallWhite__Golgari,CapitalSmallWhite__Vehicle2White,CapitalSmallWhite__Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
+    <property name="uncommonShopList" value="CapitalSmallWhite__Bird4White,CapitalSmallWhite__Spirit4White,CapitalSmallWhite__Sliver4White,CapitalSmallWhite__Knight4White,CapitalSmallWhite__Multicolor8White" />
    </properties>
   </object>
   <object id="51" template="../../../../common/maps/obj/shop.tx" x="545" y="325">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White" />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
+    <property name="commonShopList" value="CapitalSmallWhite__Enchantment6White,CapitalSmallWhite__Creature6White,CapitalSmallWhite__WhiteBoosterPackShop,CapitalSmallWhite__Instant4White,CapitalSmallWhite__Angel,CapitalSmallWhite__Human4White,CapitalSmallWhite__Soldier4White" />
+    <property name="mythicShopList" value="CapitalSmallWhite__Planeswalker4White,CapitalSmallWhite__WUBRG,CapitalSmallWhite__RWG,CapitalSmallWhite__RWU,CapitalSmallWhite__RWB,CapitalSmallWhite__UWG,CapitalSmallWhite__UWB,CapitalSmallWhite__GWB,CapitalSmallWhite__Legend4White,CapitalSmallWhite__PhyrexianWhite" />
+    <property name="rareShopList" value="CapitalSmallWhite__Artifact4White,CapitalSmallWhite__Land4White,CapitalSmallWhite__Dimir,CapitalSmallWhite__Rakdos,CapitalSmallWhite__Orzhov,CapitalSmallWhite__Golgari,CapitalSmallWhite__Vehicle2White,CapitalSmallWhite__Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
+    <property name="uncommonShopList" value="CapitalSmallWhite__Bird4White,CapitalSmallWhite__Spirit4White,CapitalSmallWhite__Sliver4White,CapitalSmallWhite__Knight4White,CapitalSmallWhite__Multicolor8White" />
    </properties>
   </object>
   <object id="52" template="../../../../common/maps/obj/shop.tx" x="369" y="261">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White,SmallCats," />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite,Eldrazi" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
+    <property name="commonShopList" value="CapitalSmallWhite__Enchantment6White,CapitalSmallWhite__Creature6White,CapitalSmallWhite__WhiteBoosterPackShop,CapitalSmallWhite__Instant4White,CapitalSmallWhite__Angel,CapitalSmallWhite__Human4White,CapitalSmallWhite__Soldier4White,CapitalSmallWhite__SmallCats" />
+    <property name="mythicShopList" value="CapitalSmallWhite__Planeswalker4White,CapitalSmallWhite__WUBRG,CapitalSmallWhite__RWG,CapitalSmallWhite__RWU,CapitalSmallWhite__RWB,CapitalSmallWhite__UWG,CapitalSmallWhite__UWB,CapitalSmallWhite__GWB,CapitalSmallWhite__Legend4White,CapitalSmallWhite__PhyrexianWhite,CapitalSmallWhite__Eldrazi" />
+    <property name="rareShopList" value="CapitalSmallWhite__Artifact4White,CapitalSmallWhite__Land4White,CapitalSmallWhite__Dimir,CapitalSmallWhite__Rakdos,CapitalSmallWhite__Orzhov,CapitalSmallWhite__Golgari,CapitalSmallWhite__Vehicle2White,CapitalSmallWhite__Wand4White" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
+    <property name="uncommonShopList" value="CapitalSmallWhite__Bird4White,CapitalSmallWhite__Spirit4White,CapitalSmallWhite__Sliver4White,CapitalSmallWhite__Knight4White,CapitalSmallWhite__Multicolor8White" />
    </properties>
   </object>
   <object id="53" template="../../../../common/maps/obj/spellsmith.tx" x="452" y="212" />
@@ -204,14 +192,8 @@
       },
       {
         "type": "card",
-        "probability": 1,
         "count": 1,
-        "rarity": [
-          "Mythic Rare"
-        ],
-        "colors": [
-          "white"
-        ]
+        "sourceDeck": "decks/arena/Premium.dck"
       },
       {
         "type": "card",
@@ -257,37 +239,37 @@
   </object>
   <object id="67" template="../../../../common/maps/obj/shop.tx" x="208" y="338">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White" />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
+    <property name="commonShopList" value="CapitalSmallWhite__Enchantment6White,CapitalSmallWhite__Creature6White,CapitalSmallWhite__WhiteBoosterPackShop,CapitalSmallWhite__Instant4White,CapitalSmallWhite__Angel,CapitalSmallWhite__Human4White,CapitalSmallWhite__Soldier4White" />
+    <property name="mythicShopList" value="CapitalSmallWhite__Planeswalker4White,CapitalSmallWhite__WUBRG,CapitalSmallWhite__RWG,CapitalSmallWhite__RWU,CapitalSmallWhite__RWB,CapitalSmallWhite__UWG,CapitalSmallWhite__UWB,CapitalSmallWhite__GWB,CapitalSmallWhite__Legend4White,CapitalSmallWhite__PhyrexianWhite" />
+    <property name="rareShopList" value="CapitalSmallWhite__Artifact4White,CapitalSmallWhite__Land4White,CapitalSmallWhite__Dimir,CapitalSmallWhite__Rakdos,CapitalSmallWhite__Orzhov,CapitalSmallWhite__Golgari,CapitalSmallWhite__Vehicle2White,CapitalSmallWhite__Wand4White" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
+    <property name="uncommonShopList" value="CapitalSmallWhite__Bird4White,CapitalSmallWhite__Spirit4White,CapitalSmallWhite__Sliver4White,CapitalSmallWhite__Knight4White,CapitalSmallWhite__Multicolor8White" />
    </properties>
   </object>
   <object id="68" template="../../../../common/maps/obj/shop.tx" x="128" y="338">
    <properties>
-    <property name="commonShopList" value="Enchantment6White,Creature6White,WhiteBoosterPackShop,Instant6White,Angel,Human4White,Soldier4White" />
-    <property name="mythicShopList" value="Planeswalker4White,WUBRG,RWG,RWU,RWB,UWG,UWB,GWB,Legend4White,PhyrexianWhite" />
-    <property name="rareShopList" value="Artifact4White,Land4White,Dimir,Rakdos,Orzhov,Golgari,Vehicle2White,Wand4White" />
+    <property name="commonShopList" value="CapitalSmallWhite__Enchantment6White,CapitalSmallWhite__Creature6White,CapitalSmallWhite__WhiteBoosterPackShop,CapitalSmallWhite__Instant4White,CapitalSmallWhite__Angel,CapitalSmallWhite__Human4White,CapitalSmallWhite__Soldier4White" />
+    <property name="mythicShopList" value="CapitalSmallWhite__Planeswalker4White,CapitalSmallWhite__WUBRG,CapitalSmallWhite__RWG,CapitalSmallWhite__RWU,CapitalSmallWhite__RWB,CapitalSmallWhite__UWG,CapitalSmallWhite__UWB,CapitalSmallWhite__GWB,CapitalSmallWhite__Legend4White,CapitalSmallWhite__PhyrexianWhite" />
+    <property name="rareShopList" value="CapitalSmallWhite__Artifact4White,CapitalSmallWhite__Land4White,CapitalSmallWhite__Dimir,CapitalSmallWhite__Rakdos,CapitalSmallWhite__Orzhov,CapitalSmallWhite__Golgari,CapitalSmallWhite__Vehicle2White,CapitalSmallWhite__Wand4White" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Bird4White,Spirit4White,Sliver4White,Knight4White,Multicolor8White" />
+    <property name="uncommonShopList" value="CapitalSmallWhite__Bird4White,CapitalSmallWhite__Spirit4White,CapitalSmallWhite__Sliver4White,CapitalSmallWhite__Knight4White,CapitalSmallWhite__Multicolor8White" />
    </properties>
   </object>
   <object id="69" template="../../../../common/maps/obj/RotatingShop.tx" x="481.667" y="418.667">
    <properties>
-    <property name="rotation" value="White1,White2,White3,White4,White5,White6" />
+    <property name="rotation" value="CapitalSmallWhite__White1,CapitalSmallWhite__White2,CapitalSmallWhite__White3,CapitalSmallWhite__White4,CapitalSmallWhite__White5,CapitalSmallWhite__White6" />
     <property name="signYOffset" type="float" value="-2" />
    </properties>
   </object>
   <object id="70" template="../../../../common/maps/obj/RotatingShop.tx" x="541" y="193">
    <properties>
-    <property name="rotation" value="White1,White2,White3,White4,White5,White6" />
+    <property name="rotation" value="CapitalSmallWhite__White1,CapitalSmallWhite__White2,CapitalSmallWhite__White3,CapitalSmallWhite__White4,CapitalSmallWhite__White5,CapitalSmallWhite__White6" />
     <property name="signYOffset" type="float" value="-2" />
    </properties>
   </object>
   <object id="71" template="../../../../common/maps/obj/RotatingShop.tx" x="401" y="161">
    <properties>
-    <property name="rotation" value="White1,White2,White3,White4,White5,White6" />
+    <property name="rotation" value="CapitalSmallWhite__White1,CapitalSmallWhite__White2,CapitalSmallWhite__White3,CapitalSmallWhite__White4,CapitalSmallWhite__White5,CapitalSmallWhite__White6" />
     <property name="signYOffset" type="float" value="-2" />
    </properties>
   </object>

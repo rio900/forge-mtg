@@ -68,7 +68,7 @@
   <object id="67" template="../../../../common/maps/obj/manashards.tx" x="456.503" y="368.93" />
   <object id="68" template="../../obj/treasure.tx" x="288.62" y="50.1133">
    <properties>
-    <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Upheaval|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":0.5,"count":1,"cardName":"Patriarch's Bidding|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":1,"count":2,"itemName":"Fumigate","rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":0.5,"count":2,"itemName":"Favored Enemy","rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"type":"card","probability":0.5,"count":1,"cardName":"Upheaval|MH2","editions":["MH2"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":0.5,"count":1,"cardName":"Dread Return|2XM","editions":["2XM"],"rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":1,"count":2,"itemName":"Fumigate","rarity":["Uncommon","Rare","Mythic Rare"]},{"type":"card","probability":0.5,"count":2,"itemName":"Favored Enemy","rarity":["Uncommon","Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
  </objectgroup>

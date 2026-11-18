@@ -36,12 +36,8 @@
  <objectgroup id="4" name="Objects">
   <object id="56" template="../../../../common/maps/obj/shop.tx" x="208" y="162">
    <properties>
-    <property name="commonShopList" value="GreenBoosterPackShop,Enchantment6Green,Creature6Green,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
-   </properties>
+    <property name="commonShopList" value="RingTownGreen" /></properties>
   </object>
   <object id="47" template="../../../../common/maps/obj/inn.tx" x="199" y="419" />
   <object id="53" template="../../../../common/maps/obj/spellsmith.tx" x="327" y="228" />
@@ -77,65 +73,57 @@
   </object>
   <object id="64" template="../../../../common/maps/obj/shop.tx" x="466" y="417">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
-   </properties>
+    <property name="commonShopList" value="CapitalBooster" /></properties>
   </object>
   <object id="65" template="../../../../common/maps/obj/shop.tx" x="530" y="386">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
-   </properties>
+    <property name="commonShopList" value="CapitalLandsGreen" /></properties>
   </object>
   <object id="66" template="../../../../common/maps/obj/shop.tx" x="449" y="305">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
+    <property name="commonShopList" value="CapitalSmallGreen__Enchantment6Green,CapitalSmallGreen__Creature6Green,CapitalSmallGreen__GreenBoosterPackShop,CapitalSmallGreen__Instant4Green,CapitalSmallGreen__Elf,CapitalSmallGreen__Wolf,CapitalSmallGreen__Druid,CapitalSmallGreen__Squirrel" />
+    <property name="mythicShopList" value="CapitalSmallGreen__Planeswalker4Green,CapitalSmallGreen__WUBRG,CapitalSmallGreen__RGU,CapitalSmallGreen__UWG,CapitalSmallGreen__UGB,CapitalSmallGreen__RWG,CapitalSmallGreen__RGB,CapitalSmallGreen__GWB,CapitalSmallGreen__Legend4Green,CapitalSmallGreen__PhyrexianGreen,CapitalSmallGreen__Hydra" />
+    <property name="rareShopList" value="CapitalSmallGreen__Artifact4Green,CapitalSmallGreen__Land4Green,CapitalSmallGreen__Dimir,CapitalSmallGreen__Rakdos,CapitalSmallGreen__Orzhov,CapitalSmallGreen__Golgari,CapitalSmallGreen__Vehicle2Green,CapitalSmallGreen__Wand4Green,CapitalSmallGreen__Shapeshifter,CapitalSmallGreen__Insects" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
+    <property name="uncommonShopList" value="CapitalSmallGreen__Dinosaur4Green,CapitalSmallGreen__Wolf4Green,CapitalSmallGreen__Sliver4Green,CapitalSmallGreen__Multicolor8Green" />
    </properties>
   </object>
   <object id="67" template="../../../../common/maps/obj/shop.tx" x="513" y="241">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
+    <property name="commonShopList" value="CapitalSmallGreen__Enchantment6Green,CapitalSmallGreen__Creature6Green,CapitalSmallGreen__GreenBoosterPackShop,CapitalSmallGreen__Instant4Green,CapitalSmallGreen__Elf,CapitalSmallGreen__Wolf,CapitalSmallGreen__Druid,CapitalSmallGreen__Squirrel" />
+    <property name="mythicShopList" value="CapitalSmallGreen__Planeswalker4Green,CapitalSmallGreen__WUBRG,CapitalSmallGreen__RGU,CapitalSmallGreen__UWG,CapitalSmallGreen__UGB,CapitalSmallGreen__RWG,CapitalSmallGreen__RGB,CapitalSmallGreen__GWB,CapitalSmallGreen__Legend4Green,CapitalSmallGreen__PhyrexianGreen,CapitalSmallGreen__Hydra" />
+    <property name="rareShopList" value="CapitalSmallGreen__Artifact4Green,CapitalSmallGreen__Land4Green,CapitalSmallGreen__Dimir,CapitalSmallGreen__Rakdos,CapitalSmallGreen__Orzhov,CapitalSmallGreen__Golgari,CapitalSmallGreen__Vehicle2Green,CapitalSmallGreen__Wand4Green,CapitalSmallGreen__Shapeshifter,CapitalSmallGreen__Insects" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
+    <property name="uncommonShopList" value="CapitalSmallGreen__Dinosaur4Green,CapitalSmallGreen__Wolf4Green,CapitalSmallGreen__Sliver4Green,CapitalSmallGreen__Multicolor8Green" />
    </properties>
   </object>
   <object id="68" template="../../../../common/maps/obj/shop.tx" x="448" y="130">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
+    <property name="commonShopList" value="CapitalSmallGreen__Enchantment6Green,CapitalSmallGreen__Creature6Green,CapitalSmallGreen__GreenBoosterPackShop,CapitalSmallGreen__Instant4Green,CapitalSmallGreen__Elf,CapitalSmallGreen__Wolf,CapitalSmallGreen__Druid,CapitalSmallGreen__Squirrel" />
+    <property name="mythicShopList" value="CapitalSmallGreen__Planeswalker4Green,CapitalSmallGreen__WUBRG,CapitalSmallGreen__RGU,CapitalSmallGreen__UWG,CapitalSmallGreen__UGB,CapitalSmallGreen__RWG,CapitalSmallGreen__RGB,CapitalSmallGreen__GWB,CapitalSmallGreen__Legend4Green,CapitalSmallGreen__PhyrexianGreen,CapitalSmallGreen__Hydra" />
+    <property name="rareShopList" value="CapitalSmallGreen__Artifact4Green,CapitalSmallGreen__Land4Green,CapitalSmallGreen__Dimir,CapitalSmallGreen__Rakdos,CapitalSmallGreen__Orzhov,CapitalSmallGreen__Golgari,CapitalSmallGreen__Vehicle2Green,CapitalSmallGreen__Wand4Green,CapitalSmallGreen__Shapeshifter,CapitalSmallGreen__Insects" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
+    <property name="uncommonShopList" value="CapitalSmallGreen__Dinosaur4Green,CapitalSmallGreen__Wolf4Green,CapitalSmallGreen__Sliver4Green,CapitalSmallGreen__Multicolor8Green" />
    </properties>
   </object>
   <object id="69" template="../../../../common/maps/obj/shop.tx" x="257" y="194">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green" />
+    <property name="commonShopList" value="CapitalSmallGreen__Enchantment6Green,CapitalSmallGreen__Creature6Green,CapitalSmallGreen__GreenBoosterPackShop,CapitalSmallGreen__Instant4Green,CapitalSmallGreen__Elf,CapitalSmallGreen__Wolf,CapitalSmallGreen__Druid,CapitalSmallGreen__Squirrel" />
+    <property name="mythicShopList" value="CapitalSmallGreen__Planeswalker4Green,CapitalSmallGreen__WUBRG,CapitalSmallGreen__RGU,CapitalSmallGreen__UWG,CapitalSmallGreen__UGB,CapitalSmallGreen__RWG,CapitalSmallGreen__RGB,CapitalSmallGreen__GWB,CapitalSmallGreen__Legend4Green,CapitalSmallGreen__PhyrexianGreen,CapitalSmallGreen__Hydra" />
+    <property name="rareShopList" value="CapitalSmallGreen__Artifact4Green,CapitalSmallGreen__Land4Green,CapitalSmallGreen__Dimir,CapitalSmallGreen__Rakdos,CapitalSmallGreen__Orzhov,CapitalSmallGreen__Golgari,CapitalSmallGreen__Vehicle2Green,CapitalSmallGreen__Wand4Green" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
+    <property name="uncommonShopList" value="CapitalSmallGreen__Dinosaur4Green,CapitalSmallGreen__Wolf4Green,CapitalSmallGreen__Sliver4Green,CapitalSmallGreen__Multicolor8Green" />
    </properties>
   </object>
   <object id="70" template="../../../../common/maps/obj/shop.tx" x="97" y="417">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
+    <property name="commonShopList" value="CapitalSmallGreen__Enchantment6Green,CapitalSmallGreen__Creature6Green,CapitalSmallGreen__GreenBoosterPackShop,CapitalSmallGreen__Instant4Green,CapitalSmallGreen__Elf,CapitalSmallGreen__Wolf,CapitalSmallGreen__Druid,CapitalSmallGreen__Squirrel" />
+    <property name="mythicShopList" value="CapitalSmallGreen__Planeswalker4Green,CapitalSmallGreen__WUBRG,CapitalSmallGreen__RGU,CapitalSmallGreen__UWG,CapitalSmallGreen__UGB,CapitalSmallGreen__RWG,CapitalSmallGreen__RGB,CapitalSmallGreen__GWB,CapitalSmallGreen__Legend4Green,CapitalSmallGreen__PhyrexianGreen,CapitalSmallGreen__Hydra" />
+    <property name="rareShopList" value="CapitalSmallGreen__Artifact4Green,CapitalSmallGreen__Land4Green,CapitalSmallGreen__Dimir,CapitalSmallGreen__Rakdos,CapitalSmallGreen__Orzhov,CapitalSmallGreen__Golgari,CapitalSmallGreen__Vehicle2Green,CapitalSmallGreen__Wand4Green,CapitalSmallGreen__Shapeshifter,CapitalSmallGreen__Insects" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
+    <property name="uncommonShopList" value="CapitalSmallGreen__Dinosaur4Green,CapitalSmallGreen__Wolf4Green,CapitalSmallGreen__Sliver4Green,CapitalSmallGreen__Multicolor8Green" />
    </properties>
   </object>
   <object id="71" template="../../../../common/maps/obj/arena.tx" x="375" y="290">
@@ -218,14 +206,8 @@
       },
       {
         "type": "card",
-        "probability": 1,
         "count": 1,
-        "rarity": [
-          "Mythic Rare"
-        ],
-        "colors": [
-          "green"
-        ]
+        "sourceDeck": "decks/arena/Premium.dck"
       },
       {
         "type": "card",
@@ -245,38 +227,38 @@
   </object>
   <object id="76" template="../../../../common/maps/obj/shop.tx" x="96" y="209">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
+    <property name="commonShopList" value="CapitalSmallGreen__Enchantment6Green,CapitalSmallGreen__Creature6Green,CapitalSmallGreen__GreenBoosterPackShop,CapitalSmallGreen__Instant4Green,CapitalSmallGreen__Elf,CapitalSmallGreen__Wolf,CapitalSmallGreen__Druid,CapitalSmallGreen__Squirrel" />
+    <property name="mythicShopList" value="CapitalSmallGreen__Planeswalker4Green,CapitalSmallGreen__WUBRG,CapitalSmallGreen__RGU,CapitalSmallGreen__UWG,CapitalSmallGreen__UGB,CapitalSmallGreen__RWG,CapitalSmallGreen__RGB,CapitalSmallGreen__GWB,CapitalSmallGreen__Legend4Green,CapitalSmallGreen__PhyrexianGreen" />
+    <property name="rareShopList" value="CapitalSmallGreen__Artifact4Green,CapitalSmallGreen__Land4Green,CapitalSmallGreen__Dimir,CapitalSmallGreen__Rakdos,CapitalSmallGreen__Orzhov,CapitalSmallGreen__Golgari,CapitalSmallGreen__Vehicle2Green,CapitalSmallGreen__Wand4Green,CapitalSmallGreen__Shapeshifter,CapitalSmallGreen__Insects" />
     <property name="signXOffset" type="float" value="-16" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
+    <property name="uncommonShopList" value="CapitalSmallGreen__Dinosaur4Green,CapitalSmallGreen__Wolf4Green,CapitalSmallGreen__Sliver4Green,CapitalSmallGreen__Multicolor8Green" />
    </properties>
   </object>
   <object id="77" template="../../../../common/maps/obj/shop.tx" x="96" y="304">
    <properties>
-    <property name="commonShopList" value="Enchantment6Green,Creature6Green,GreenBoosterPackShop,Instant6Green,Elf,Wolf,Druid,Squirrel" />
-    <property name="mythicShopList" value="Planeswalker4Green,WUBRG,RGU,UWG,UGB,RWG,RGB,GWB,Legend4Green,PhyrexianGreen,Hydra" />
-    <property name="rareShopList" value="Artifact4Green,Land4Green,Dimir,Rakdos,Orzhov,Golgari,Vehicle2Green,Wand4Green,Shapeshifters,Insects" />
+    <property name="commonShopList" value="CapitalSmallGreen__Enchantment6Green,CapitalSmallGreen__Creature6Green,CapitalSmallGreen__GreenBoosterPackShop,CapitalSmallGreen__Instant4Green,CapitalSmallGreen__Elf,CapitalSmallGreen__Wolf,CapitalSmallGreen__Druid,CapitalSmallGreen__Squirrel" />
+    <property name="mythicShopList" value="CapitalSmallGreen__Planeswalker4Green,CapitalSmallGreen__WUBRG,CapitalSmallGreen__RGU,CapitalSmallGreen__UWG,CapitalSmallGreen__UGB,CapitalSmallGreen__RWG,CapitalSmallGreen__RGB,CapitalSmallGreen__GWB,CapitalSmallGreen__Legend4Green,CapitalSmallGreen__PhyrexianGreen,CapitalSmallGreen__Hydra" />
+    <property name="rareShopList" value="CapitalSmallGreen__Artifact4Green,CapitalSmallGreen__Land4Green,CapitalSmallGreen__Dimir,CapitalSmallGreen__Rakdos,CapitalSmallGreen__Orzhov,CapitalSmallGreen__Golgari,CapitalSmallGreen__Vehicle2Green,CapitalSmallGreen__Wand4Green,CapitalSmallGreen__Shapeshifter,CapitalSmallGreen__Insects" />
     <property name="signXOffset" type="float" value="-16" />
     <property name="signYOffset" type="float" value="-8" />
-    <property name="uncommonShopList" value="Dinosaur4Green,Wolf4Green,Sliver4Green,Multicolor8Green" />
+    <property name="uncommonShopList" value="CapitalSmallGreen__Dinosaur4Green,CapitalSmallGreen__Wolf4Green,CapitalSmallGreen__Sliver4Green,CapitalSmallGreen__Multicolor8Green" />
    </properties>
   </object>
   <object id="78" template="../../../../common/maps/obj/RotatingShop.tx" x="462" y="369">
    <properties>
-    <property name="rotation" value="Green1,Green2,Green3,Green4,Green5,Green6" />
+    <property name="rotation" value="CapitalSmallGreen__Green1,CapitalSmallGreen__Green2,CapitalSmallGreen__Green3,CapitalSmallGreen__Green4,CapitalSmallGreen__Green5,CapitalSmallGreen__Green6" />
    </properties>
   </object>
   <object id="79" template="../../../../common/maps/obj/RotatingShop.tx" x="160" y="161">
    <properties>
-    <property name="rotation" value="Green1,Green2,Green3,Green4,Green5,Green6" />
+    <property name="rotation" value="CapitalSmallGreen__Green1,CapitalSmallGreen__Green2,CapitalSmallGreen__Green3,CapitalSmallGreen__Green4,CapitalSmallGreen__Green5,CapitalSmallGreen__Green6" />
     <property name="signYOffset" type="float" value="0" />
    </properties>
   </object>
   <object id="80" template="../../../../common/maps/obj/RotatingShop.tx" x="160" y="370">
    <properties>
-    <property name="rotation" value="Green1,Green2,Green3,Green4,Green5,Green6" />
+    <property name="rotation" value="CapitalSmallGreen__Green1,CapitalSmallGreen__Green2,CapitalSmallGreen__Green3,CapitalSmallGreen__Green4,CapitalSmallGreen__Green5,CapitalSmallGreen__Green6" />
     <property name="signYOffset" type="float" value="0" />
    </properties>
   </object>

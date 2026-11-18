@@ -103,7 +103,7 @@
   </object>
   <object id="32" template="../../../../common/maps/obj/dialog.tx" x="176" y="200">
    <properties>
-    <property name="dialog">[{"text":"You find a book on the biology of Elves. One page is marked with a folded corner and describes a type of Elf that you've seen nowhere on Shandalar.","loctext":"adv.main_story_explore_library_of_varsil_2.32.d.n0.text","options":[{"name":"(Continue)","locname":"adv.shared.continue_paren","action":[{"deleteMapObject":-1},{"grantRewards":[{"type":"card","count":1,"cardName":"Rift Sower|MH2"}]}]}]}]</property>
+    <property name="dialog">[{"text":"You find a book on the biology of Elves. One page is marked with a folded corner and describes a type of Elf that you've seen nowhere on Shandalar.","loctext":"adv.main_story_explore_library_of_varsil_2.32.d.n0.text","options":[{"name":"(Continue)","locname":"adv.shared.continue_paren","action":[{"deleteMapObject":-1},{"grantRewards":[{"type":"card","count":1,"cardName":"Priest of Titania|MH3"}]}]}]}]</property>
    </properties>
   </object>
   <object id="34" template="../../../../common/maps/obj/dialog.tx" x="400" y="64">

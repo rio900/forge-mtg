@@ -56,7 +56,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Merfolk Elite" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -155,7 +155,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Penguin Elite" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -174,7 +174,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Archmage" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -193,7 +193,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Brain Mole" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Golden Egg"},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -212,7 +212,7 @@
  "lifeModifier": 6
 }</property>
     <property name="enemy" value="Storm Titan" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR"]}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"]}]</property>
     <property name="threatRange" type="int" value="30" />
    </properties>
   </object>
@@ -323,12 +323,12 @@
   </object>
   <object id="88" template="../../../obj/treasure.tx" x="313" y="467">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
   <object id="89" template="../../../obj/treasure.tx" x="424.5" y="461.5">
    <properties>
-    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
+    <property name="reward">[{"type":"shards","count":10,"addMaxCount":20},{"type":"randomCard","count":6,"probability":0.5,"rarity":["Rare"],"colors":["blue"]},{"type":"item","probability":0.1,"count":1,"itemName":"Amulet of Telepathy"},{"type":"item","probability":0.1,"count":1,"itemName":"Mantle of Denial"},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"card","probability":1,"count":1,"editions":["MH1","MH2","LTR","MH3","2XM"],"rarity":["Rare","Mythic Rare"]},{"type":"gold","count":200,"addMaxCount":100}]</property>
    </properties>
   </object>
  </objectgroup>

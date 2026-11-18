@@ -106,3 +106,11 @@
 Проверены все 25 городских карт и состав каждого пула по каталогу печатей. Шесть мест разыгрываются независимо. Три местных используют точное совпадение цветовой идентичности и веса C/U/R/M 30/50/18/2, три общих — веса 0/80/19/1. В местном пуле пустошей 25 подходящих имён, в общем — 373. Проверка Forge прошла с обеими настройками оформлений.
 
 В графическом клиенте тест открыл Waste Town Generic через переход карты мира. Общие места дали Scarring Memories (TLE), Tiger-Dillo (TLA) и Aang, A Lot to Learn (TLE). При повторном открытии все шесть карт совпали. Нажатие кнопки обновления изменило баланс с 2 кристаллов до 0. В новой витрине среди местных карт появилась земля Secret Tunnel (TLA), а Mechanical Glider (TLE) выпал повторно. Третий вход сохранил обновлённое предложение.
+
+## Russian quest dialogue — 2026-11-16
+
+The base quest resource contains 1,199 Russian dialogue lines and option labels across 53 quests. The resource checker compares every dialogue path with the editable journal. The quest builder also applies the translated map interactions and Sir Donovan’s Amulet dialogue.
+
+Forge Adventure 2.0.16-SNAPSHOT-11.08 was opened through its mode selector in a disposable profile at 960 × 540 (Retina capture 1920 × 1080). In a loaded town, five dialogue panels were opened directly through MapDialog using quest text and options. The layout check included all four choices together even where quest conditions normally hide some. The caravan scene and Donovan’s 152-character speech wrapped to four lines. Viv’s 96-character answer wrapped to three lines. The four-choice flower panel occupied 202 of the 270 logical screen units vertically. The sampled text and buttons fit, and the font contained the Cyrillic glyphs used in the samples. Other resolutions and end-to-end playthroughs of these dialogue branches were outside this visual check.
+
+[Donovan’s speech](validation/donovan-dialogue.png) · [Viv’s answer choices](validation/viv-answers.png)

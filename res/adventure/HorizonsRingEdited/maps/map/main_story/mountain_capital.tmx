@@ -36,66 +36,54 @@
  <objectgroup id="4" name="Objects">
   <object id="41" template="../../../../common/maps/obj/shop.tx" x="249" y="370">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
-   </properties>
+    <property name="commonShopList" value="RingTownRed" /></properties>
   </object>
   <object id="56" template="../../../../common/maps/obj/shop.tx" x="152" y="370">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
-   </properties>
+    <property name="commonShopList" value="CapitalBooster" /></properties>
   </object>
   <object id="57" template="../../../../common/maps/obj/shop.tx" x="200" y="418">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
-   </properties>
+    <property name="commonShopList" value="CapitalLandsRed" /></properties>
   </object>
   <object id="43" template="../../../../common/maps/obj/shop.tx" x="104" y="370">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
+    <property name="commonShopList" value="CapitalSmallRed__Enchantment6Red,CapitalSmallRed__Creature6Red,CapitalSmallRed__RedBoosterPackShop,CapitalSmallRed__Instant4Red,CapitalSmallRed__Goblin,CapitalSmallRed__Devil,CapitalSmallRed__Dwarf,CapitalSmallRed__Dragon,CapitalSmallRed__Minotaur,CapitalSmallRed__Shaman" />
+    <property name="mythicShopList" value="CapitalSmallRed__Planeswalker4Red,CapitalSmallRed__WUBRG,CapitalSmallRed__RGU,CapitalSmallRed__RWG,CapitalSmallRed__RWU,CapitalSmallRed__RUB,CapitalSmallRed__RWB,CapitalSmallRed__RGB,CapitalSmallRed__Legend4Red,CapitalSmallRed__PhyrexianRed" />
+    <property name="rareShopList" value="CapitalSmallRed__Artifact4Red,CapitalSmallRed__Land4Red,CapitalSmallRed__Gruul,CapitalSmallRed__Izzet,CapitalSmallRed__Rakdos,CapitalSmallRed__Boros,CapitalSmallRed__Vehicle2Red,CapitalSmallRed__Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
+    <property name="uncommonShopList" value="CapitalSmallRed__Wolf4Red,CapitalSmallRed__Sliver4Red,CapitalSmallRed__Knight4Red,CapitalSmallRed__Soldier4Red,CapitalSmallRed__Dinosaur4Red,CapitalSmallRed__Ogre4Red,CapitalSmallRed__Multicolor8Red" />
    </properties>
   </object>
   <object id="47" template="../../../../common/maps/obj/inn.tx" x="376" y="370" />
   <object id="49" template="../../../../common/maps/obj/shop.tx" x="104" y="418">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
+    <property name="commonShopList" value="CapitalSmallRed__Enchantment6Red,CapitalSmallRed__Creature6Red,CapitalSmallRed__RedBoosterPackShop,CapitalSmallRed__Instant4Red,CapitalSmallRed__Goblin,CapitalSmallRed__Devil,CapitalSmallRed__Dwarf,CapitalSmallRed__Dragon,CapitalSmallRed__Minotaur,CapitalSmallRed__Shaman" />
+    <property name="mythicShopList" value="CapitalSmallRed__Planeswalker4Red,CapitalSmallRed__WUBRG,CapitalSmallRed__RGU,CapitalSmallRed__RWG,CapitalSmallRed__RWU,CapitalSmallRed__RUB,CapitalSmallRed__RWB,CapitalSmallRed__RGB,CapitalSmallRed__Legend4Red,CapitalSmallRed__PhyrexianRed" />
+    <property name="rareShopList" value="CapitalSmallRed__Artifact4Red,CapitalSmallRed__Land4Red,CapitalSmallRed__Gruul,CapitalSmallRed__Izzet,CapitalSmallRed__Rakdos,CapitalSmallRed__Boros,CapitalSmallRed__Vehicle2Red,CapitalSmallRed__Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
+    <property name="uncommonShopList" value="CapitalSmallRed__Wolf4Red,CapitalSmallRed__Sliver4Red,CapitalSmallRed__Knight4Red,CapitalSmallRed__Soldier4Red,CapitalSmallRed__Dinosaur4Red,CapitalSmallRed__Ogre4Red,CapitalSmallRed__Multicolor8Red" />
    </properties>
   </object>
   <object id="50" template="../../../../common/maps/obj/shop.tx" x="152" y="418">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
+    <property name="commonShopList" value="CapitalSmallRed__Enchantment6Red,CapitalSmallRed__Creature6Red,CapitalSmallRed__RedBoosterPackShop,CapitalSmallRed__Instant4Red,CapitalSmallRed__Goblin,CapitalSmallRed__Devil,CapitalSmallRed__Dwarf,CapitalSmallRed__Dragon,CapitalSmallRed__Minotaur,CapitalSmallRed__Shaman" />
+    <property name="mythicShopList" value="CapitalSmallRed__Planeswalker4Red,CapitalSmallRed__WUBRG,CapitalSmallRed__RGU,CapitalSmallRed__RWG,CapitalSmallRed__RWU,CapitalSmallRed__RUB,CapitalSmallRed__RWB,CapitalSmallRed__RGB,CapitalSmallRed__Legend4Red,CapitalSmallRed__PhyrexianRed" />
+    <property name="rareShopList" value="CapitalSmallRed__Artifact4Red,CapitalSmallRed__Land4Red,CapitalSmallRed__Gruul,CapitalSmallRed__Izzet,CapitalSmallRed__Rakdos,CapitalSmallRed__Boros,CapitalSmallRed__Vehicle2Red,CapitalSmallRed__Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
+    <property name="uncommonShopList" value="CapitalSmallRed__Wolf4Red,CapitalSmallRed__Sliver4Red,CapitalSmallRed__Knight4Red,CapitalSmallRed__Soldier4Red,CapitalSmallRed__Dinosaur4Red,CapitalSmallRed__Ogre4Red,CapitalSmallRed__Multicolor8Red" />
    </properties>
   </object>
   <object id="51" template="../../../../common/maps/obj/shop.tx" x="248" y="418">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
+    <property name="commonShopList" value="CapitalSmallRed__Enchantment6Red,CapitalSmallRed__Creature6Red,CapitalSmallRed__RedBoosterPackShop,CapitalSmallRed__Instant4Red,CapitalSmallRed__Goblin,CapitalSmallRed__Devil,CapitalSmallRed__Dwarf,CapitalSmallRed__Dragon,CapitalSmallRed__Minotaur,CapitalSmallRed__Shaman" />
+    <property name="mythicShopList" value="CapitalSmallRed__Planeswalker4Red,CapitalSmallRed__WUBRG,CapitalSmallRed__RGU,CapitalSmallRed__RWG,CapitalSmallRed__RWU,CapitalSmallRed__RUB,CapitalSmallRed__RWB,CapitalSmallRed__RGB,CapitalSmallRed__Legend4Red,CapitalSmallRed__PhyrexianRed" />
+    <property name="rareShopList" value="CapitalSmallRed__Artifact4Red,CapitalSmallRed__Land4Red,CapitalSmallRed__Gruul,CapitalSmallRed__Izzet,CapitalSmallRed__Rakdos,CapitalSmallRed__Boros,CapitalSmallRed__Vehicle2Red,CapitalSmallRed__Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
+    <property name="uncommonShopList" value="CapitalSmallRed__Wolf4Red,CapitalSmallRed__Sliver4Red,CapitalSmallRed__Knight4Red,CapitalSmallRed__Soldier4Red,CapitalSmallRed__Dinosaur4Red,CapitalSmallRed__Ogre4Red,CapitalSmallRed__Multicolor8Red" />
    </properties>
   </object>
   <object id="53" template="../../../../common/maps/obj/spellsmith.tx" x="168" y="258" />
@@ -197,14 +185,8 @@
       },
       {
         "type": "card",
-        "probability": 1,
         "count": 1,
-        "rarity": [
-          "Mythic Rare"
-        ],
-        "colors": [
-          "red"
-        ]
+        "sourceDeck": "decks/arena/Premium.dck"
       },
       {
         "type": "card",
@@ -235,11 +217,11 @@
   </object>
   <object id="65" template="../../../../common/maps/obj/shop.tx" x="200" y="370">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red,PhyrexianRed" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
+    <property name="commonShopList" value="CapitalSmallRed__Enchantment6Red,CapitalSmallRed__Creature6Red,CapitalSmallRed__RedBoosterPackShop,CapitalSmallRed__Instant4Red,CapitalSmallRed__Goblin,CapitalSmallRed__Devil,CapitalSmallRed__Dwarf,CapitalSmallRed__Dragon,CapitalSmallRed__Minotaur,CapitalSmallRed__Shaman" />
+    <property name="mythicShopList" value="CapitalSmallRed__Planeswalker4Red,CapitalSmallRed__WUBRG,CapitalSmallRed__RGU,CapitalSmallRed__RWG,CapitalSmallRed__RWU,CapitalSmallRed__RUB,CapitalSmallRed__RWB,CapitalSmallRed__RGB,CapitalSmallRed__Legend4Red,CapitalSmallRed__PhyrexianRed" />
+    <property name="rareShopList" value="CapitalSmallRed__Artifact4Red,CapitalSmallRed__Land4Red,CapitalSmallRed__Gruul,CapitalSmallRed__Izzet,CapitalSmallRed__Rakdos,CapitalSmallRed__Boros,CapitalSmallRed__Vehicle2Red,CapitalSmallRed__Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
+    <property name="uncommonShopList" value="CapitalSmallRed__Wolf4Red,CapitalSmallRed__Sliver4Red,CapitalSmallRed__Knight4Red,CapitalSmallRed__Soldier4Red,CapitalSmallRed__Dinosaur4Red,CapitalSmallRed__Ogre4Red,CapitalSmallRed__Multicolor8Red" />
    </properties>
   </object>
   <object id="66" template="../../../../common/maps/obj/quest.tx" x="328" y="370">
@@ -255,38 +237,38 @@
   </object>
   <object id="68" template="../../../../common/maps/obj/shop.tx" x="400" y="337">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
+    <property name="commonShopList" value="CapitalSmallRed__Enchantment6Red,CapitalSmallRed__Creature6Red,CapitalSmallRed__RedBoosterPackShop,CapitalSmallRed__Instant4Red,CapitalSmallRed__Goblin,CapitalSmallRed__Devil,CapitalSmallRed__Dwarf,CapitalSmallRed__Dragon,CapitalSmallRed__Minotaur,CapitalSmallRed__Shaman" />
+    <property name="mythicShopList" value="CapitalSmallRed__Planeswalker4Red,CapitalSmallRed__WUBRG,CapitalSmallRed__RGU,CapitalSmallRed__RWG,CapitalSmallRed__RWU,CapitalSmallRed__RUB,CapitalSmallRed__RWB,CapitalSmallRed__RGB,CapitalSmallRed__Legend4Red" />
+    <property name="rareShopList" value="CapitalSmallRed__Artifact4Red,CapitalSmallRed__Land4Red,CapitalSmallRed__Gruul,CapitalSmallRed__Izzet,CapitalSmallRed__Rakdos,CapitalSmallRed__Boros,CapitalSmallRed__Vehicle2Red,CapitalSmallRed__Wand4Red" />
     <property name="signYOffset" type="float" value="-2" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
+    <property name="uncommonShopList" value="CapitalSmallRed__Wolf4Red,CapitalSmallRed__Sliver4Red,CapitalSmallRed__Knight4Red,CapitalSmallRed__Soldier4Red,CapitalSmallRed__Dinosaur4Red,CapitalSmallRed__Ogre4Red,CapitalSmallRed__Multicolor8Red" />
    </properties>
   </object>
   <object id="69" template="../../../../common/maps/obj/shop.tx" x="464" y="337">
    <properties>
-    <property name="commonShopList" value="Enchantment6Red,Creature6Red,RedBoosterPackShop,Instant6Red,Goblin,Devil,Dwarf,Dragon,Minotaur,Shaman" />
-    <property name="mythicShopList" value="Planeswalker4Red,WUBRG,RGU,RWG,RWU,RUB,RWB,RGB,Legend4Red" />
-    <property name="rareShopList" value="Artifact4Red,Land4Red,Gruul,Izzet,Rakdos,Boros,Vehicle2Red,Wand4Red" />
+    <property name="commonShopList" value="CapitalSmallRed__Enchantment6Red,CapitalSmallRed__Creature6Red,CapitalSmallRed__RedBoosterPackShop,CapitalSmallRed__Instant4Red,CapitalSmallRed__Goblin,CapitalSmallRed__Devil,CapitalSmallRed__Dwarf,CapitalSmallRed__Dragon,CapitalSmallRed__Minotaur,CapitalSmallRed__Shaman" />
+    <property name="mythicShopList" value="CapitalSmallRed__Planeswalker4Red,CapitalSmallRed__WUBRG,CapitalSmallRed__RGU,CapitalSmallRed__RWG,CapitalSmallRed__RWU,CapitalSmallRed__RUB,CapitalSmallRed__RWB,CapitalSmallRed__RGB,CapitalSmallRed__Legend4Red" />
+    <property name="rareShopList" value="CapitalSmallRed__Artifact4Red,CapitalSmallRed__Land4Red,CapitalSmallRed__Gruul,CapitalSmallRed__Izzet,CapitalSmallRed__Rakdos,CapitalSmallRed__Boros,CapitalSmallRed__Vehicle2Red,CapitalSmallRed__Wand4Red" />
     <property name="signYOffset" type="float" value="-4" />
-    <property name="uncommonShopList" value="Wolf4Red,Sliver4Red,Knight4Red,Soldier4Red,Dinosaur4Red,Ogre4Red,Multicolor8Red" />
+    <property name="uncommonShopList" value="CapitalSmallRed__Wolf4Red,CapitalSmallRed__Sliver4Red,CapitalSmallRed__Knight4Red,CapitalSmallRed__Soldier4Red,CapitalSmallRed__Dinosaur4Red,CapitalSmallRed__Ogre4Red,CapitalSmallRed__Multicolor8Red" />
    </properties>
   </object>
   <object id="70" template="../../../../common/maps/obj/RotatingShop.tx" x="495.917" y="305.432">
    <properties>
-    <property name="rotation" value="Red1,Red2,Red3,Red4,Red5,Red6" />
+    <property name="rotation" value="CapitalSmallRed__Red1,CapitalSmallRed__Red2,CapitalSmallRed__Red3,CapitalSmallRed__Red4,CapitalSmallRed__Red5,CapitalSmallRed__Red6" />
     <property name="signXOffset" type="float" value="16" />
     <property name="signYOffset" type="float" value="0" />
    </properties>
   </object>
   <object id="71" template="../../../../common/maps/obj/RotatingShop.tx" x="511.091" y="227.455">
    <properties>
-    <property name="rotation" value="Red1,Red2,Red3,Red4,Red5,Red6" />
+    <property name="rotation" value="CapitalSmallRed__Red1,CapitalSmallRed__Red2,CapitalSmallRed__Red3,CapitalSmallRed__Red4,CapitalSmallRed__Red5,CapitalSmallRed__Red6" />
     <property name="signYOffset" type="float" value="0" />
    </properties>
   </object>
   <object id="72" template="../../../../common/maps/obj/RotatingShop.tx" x="527.455" y="193.455">
    <properties>
-    <property name="rotation" value="Red1,Red2,Red3,Red4,Red5,Red6" />
+    <property name="rotation" value="CapitalSmallRed__Red1,CapitalSmallRed__Red2,CapitalSmallRed__Red3,CapitalSmallRed__Red4,CapitalSmallRed__Red5,CapitalSmallRed__Red6" />
     <property name="signYOffset" type="float" value="0" />
    </properties>
   </object>

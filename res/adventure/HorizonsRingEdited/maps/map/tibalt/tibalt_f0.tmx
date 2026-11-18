@@ -49,7 +49,7 @@
   <object id="166" template="../../../../common/maps/obj/manashards.tx" x="220.318" y="220.045" />
   <object id="167" template="../../obj/booster.tx" x="347.898" y="529.832">
    <properties>
-    <property name="reward">[{"editions":["MH1","MH2","LTR"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
+    <property name="reward">[{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":10,"rarity":["Common"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Uncommon"]},{"editions":["MH1","MH2","LTR","MH3","2XM"],"type":"card","count":3,"rarity":["Rare","Mythic Rare"]}]</property>
    </properties>
   </object>
   <object id="170" template="../../../../common/maps/obj/door_down.tx" x="146.537" y="632.155" width="45.8303" height="21.1308" rotation="0.284412">

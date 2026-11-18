@@ -50,14 +50,14 @@ public class Starts {
       if(mode==AdventureModes.Standard && cfg.getConfigData().starterDecksByEdition.containsKey(set)){
        if(cards.size()!=40 || cards.stream().filter(c->c.getRules().getType().isLand()).count()!=17)throw new AssertionError("mana base");
        int mask=forge.card.ColorSet.fromNames(color.toCharArray()).getColor();
-       for(var pc:cards)if((pc.getRules().getColorIdentity().getColor() & ~mask)!=0 || !(pc.getEdition().equals(set)))throw new AssertionError(pc.getName());
+       for(var pc:cards)if((pc.getRules().getColorIdentity().getColor() & ~mask)!=0 || !(pc.getEdition().equals(set) || (set.equals("2XM") && pc.getRules().getType().isBasicLand() && pc.getEdition().equals("LTR"))))throw new AssertionError(pc.getName());
       }
       String fixed=mode==AdventureModes.Constructed?level.constructedStarterDecks.get(color):
         mode==AdventureModes.Commander?level.commanderDecks.get(color):
         mode==AdventureModes.Standard && cfg.getConfigData().starterDecksByEdition.containsKey(set)?
           cfg.getConfigData().starterDecksByEdition.get(set).get(color):null;
       if(fixed!=null)verifyFixed(cfg,fixed,deck);
-      if(mode==AdventureModes.Standard && cards.stream().anyMatch(pc->!pc.getEdition().equals(set)))
+      if(mode==AdventureModes.Standard && cards.stream().anyMatch(pc->!pc.getEdition().equals(set) && !(set.equals("2XM") && pc.getRules().getType().isBasicLand() && pc.getEdition().equals("LTR"))))
        throw new AssertionError("Standard "+set+" "+color+" loaded "+cards.stream().map(pc->pc.getEdition()).distinct().toList());
       long bad=cards.stream().filter(c->!allowed.contains(c.getEdition())).count();
       if(bad!=0 || deck.getMain().countAll()<40)failures++;

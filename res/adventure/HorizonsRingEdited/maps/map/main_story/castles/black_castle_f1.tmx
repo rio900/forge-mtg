@@ -61,7 +61,7 @@
  "startBattleWithCard": [ "Mox Jet" ]
 }</property>
     <property name="enemy" value="Griselbrand" />
-    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Basilisk Collar"},{"type":"item","probability":0.1,"count":1,"itemName":"Evil Ankh"},{"type":"cardPackShop","probability":0.1,"count":4,"editions":["MH1","MH2","LTR"]},{"type":"cardPackShop","probability":0.1,"count":4,"editions":["MH1","MH2","LTR"]},{"type":"item","probability":0.3,"count":1,"itemName":"Staff of the Demoncaller"}]</property>
+    <property name="reward">[{"type":"item","probability":0.1,"count":1,"itemName":"Basilisk Collar"},{"type":"item","probability":0.1,"count":1,"itemName":"Evil Ankh"},{"type":"cardPackShop","probability":0.1,"count":4,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"cardPackShop","probability":0.1,"count":4,"editions":["MH1","MH2","LTR","MH3","2XM"]},{"type":"item","probability":0.3,"count":1,"itemName":"Staff of the Demoncaller"}]</property>
     <property name="threatRange" type="int" value="50" />
    </properties>
   </object>

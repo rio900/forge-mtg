@@ -41,21 +41,21 @@
    <properties>
     <property name="defeatDialog">[{
    "condition": [{"checkQuestFlag": "Ch1CastlesComplete", "not":true}],
-   "text": "As you land your final blow against Ghalta, you feel a significant pulse of mana.",
-   "loctext": "adv.main_story_castles_green_castle_f1.52.x.n0.text",
+   "text": "Гальта отступает. Под ногами вздрагивает камень: через замок проходит волна маны.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"Ch1GreenCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
    }]
 },
 {
    "condition": [{"checkQuestFlag": "Ch1CastlesComplete"}],
-   "text": "As you land your final blow against Ghalta, you feel another pulse of mana.",
-   "loctext": "adv.main_story_castles_green_castle_f1.52.x.n2.text",
+   "text": "Гальта повержена. Ты вновь ощущаешь знакомую волну маны.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"Ch1GreenCastleComplete", "val": 1} }, {"deleteMapObject": -1}, {"advanceQuestFlag": "Ch1CastlesComplete"}]
    }]
 }]</property>

@@ -40,20 +40,20 @@
    <properties>
     <property name="defeatDialog">[{
    "condition": [{"getQuestFlag": {"key": "exploreShand1", "op":"=", "val": 4}}, {"checkQuestFlag": "foundLibraryOfVarsilResearch", "not": true}],
-   "text": "With this monstrous machine out of action, defeating its (relatively) smaller companions could be left to lesser adventurers, but you still haven't found the documents Sir Donovan wanted. They must be somewhere downstairs.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.27.x.n0.text",
+   "text": "Машина повержена. С мелкими големами справятся другие, но тебе ещё нужны записи Донована.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"defeatedLibraryOfVarsilBoss", "val": 1} }, {"deleteMapObject": -1}]
    }]
 },{
    "condition": [{"getQuestFlag": {"key": "exploreShand1", "op":"=", "val": 4}}, {"checkQuestFlag": "foundLibraryOfVarsilResearch"}],
-   "text": "With this monstrous machine out of action, defeating its (relatively) smaller companions could be left to lesser adventurers. You've already found the documents Sir Donovan wanted and can report back to him now or go back down and explore further first.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.27.x.n2.text",
+   "text": "Машина повержена, записи при тебе. Можно возвращаться к Доновану или ещё осмотреть нижние этажи.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"defeatedLibraryOfVarsilBoss", "val": 1} }, {"deleteMapObject": -1}]
    }]
 }]</property>
@@ -69,20 +69,20 @@
    <properties>
     <property name="defeatDialog">[{
    "condition": [{"getQuestFlag": {"key": "exploreShand1", "op":"=", "val": 4}}, {"checkQuestFlag": "foundLibraryOfVarsilResearch", "not": true}],
-   "text": "With this monstrous machine out of action, defeating its (relatively) smaller companions could be left to lesser adventurers, but you still haven't found the documents Sir Donovan wanted. They must be somewhere downstairs.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.28.x.n0.text",
+   "text": "Машина повержена. С мелкими големами справятся другие, но тебе ещё нужны записи Донована.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"defeatedLibraryOfVarsilBoss", "val": 1} }, {"deleteMapObject": -1}]
    }]
 },{
    "condition": [{"getQuestFlag": {"key": "exploreShand1", "op":"=", "val": 4}}, {"checkQuestFlag": "foundLibraryOfVarsilResearch"}],
-   "text": "With this monstrous machine out of action, defeating its (relatively) smaller companions could be left to lesser adventurers. You've already found the documents Sir Donovan wanted and can report back to him now or go back down and explore further first.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.28.x.n2.text",
+   "text": "Машина повержена, записи при тебе. Можно возвращаться к Доновану или ещё осмотреть нижние этажи.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"defeatedLibraryOfVarsilBoss", "val": 1} }, {"deleteMapObject": -1}]
    }]
 }]</property>
@@ -100,20 +100,20 @@
    <properties>
     <property name="defeatDialog">[{
    "condition": [{"getQuestFlag": {"key": "exploreShand1", "op":"=", "val": 4}}, {"checkQuestFlag": "foundLibraryOfVarsilResearch", "not": true}],
-   "text": "With this monstrous machine out of action, defeating its (relatively) smaller companions could be left to lesser adventurers, but you still haven't found the documents Sir Donovan wanted. They must be somewhere downstairs.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.29.x.n0.text",
+   "text": "Машина повержена. С мелкими големами справятся другие, но тебе ещё нужны записи Донована.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"defeatedLibraryOfVarsilBoss", "val": 1} }, {"deleteMapObject": -1}]
    }]
 },{
    "condition": [{"getQuestFlag": {"key": "exploreShand1", "op":"=", "val": 4}}, {"checkQuestFlag": "foundLibraryOfVarsilResearch"}],
-   "text": "With this monstrous machine out of action, defeating its (relatively) smaller companions could be left to lesser adventurers. You've already found the documents Sir Donovan wanted and can report back to him now or go back down and explore further first.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.29.x.n2.text",
+   "text": "Машина повержена, записи при тебе. Можно возвращаться к Доновану или ещё осмотреть нижние этажи.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", 
+      "name": "Дальше",
+      "locname": null,
       "action": [{"setQuestFlag": {"key":"defeatedLibraryOfVarsilBoss", "val": 1} }, {"deleteMapObject": -1}]
    }]
 }]</property>
@@ -130,12 +130,12 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "If there is any information to be gathered from the shredded pages piled across this floor, it will be up to the scholars who might have some memory of what they had been. But as you approach, the portal here opens providing a quick route back to the entrance.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.33.d.n0.text",
+   "text": "Бумага на полу изорвана в клочья. Пусть учёные разбираются, что здесь было написано.",
+   "loctext": null,
       "options": [{
       "action": [{"setQuestFlag": {"key":"completedLibraryOfVarsil", "val": 1}, "activateMapObject": 34, "deleteMapObject":-1}],
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren"
+      "name": "Дальше",
+      "locname": null
       }]
 }
 ]</property>
@@ -154,21 +154,21 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "In front of you stands one of the largest constructs you've ever seen. In contrast to the golems below, its shape seems to be less modeled after other humanoids and more a unique form of its own.",
-   "loctext": "adv.main_story_explore_library_of_varsil_4.35.d.n0.text",
+   "text": "Впереди один из самых больших конструктов, каких ты видел. Его силуэт совсем не похож на големов внизу.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren",
-      "text": "Behind the machine you see the remnants of many books pulled from the shelves below, now torn asunder.",
-      "loctext": "adv.main_story_explore_library_of_varsil_4.35.d.n1.text",
+      "name": "Дальше",
+      "locname": null,
+      "text": "Позади машины лежат растерзанные книги с нижних этажей.",
+      "loctext": null,
       "options": [{
-         "name": "(Continue)",
-         "locname": "adv.shared.continue_paren",
-         "text": "(Note: This encounter is difficult and optional)",
-         "loctext": "adv.main_story_explore_library_of_varsil_4.35.d.n3.text",
+         "name": "Дальше",
+         "locname": null,
+         "text": "Сложный бой. Можно пройти мимо.",
+         "loctext": null,
          "options": [{
-            "name": "(Continue)",
-            "locname": "adv.shared.continue_paren",
+            "name": "Дальше",
+            "locname": null,
             "action": [{"deleteMapObject":-1}]}]
       }]
    }]

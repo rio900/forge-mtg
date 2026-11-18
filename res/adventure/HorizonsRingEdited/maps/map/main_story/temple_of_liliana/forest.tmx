@@ -197,28 +197,28 @@
    <properties>
     <property name="defeatDialog">[
   {
-    "text":"The cleric drops several items and rushes toward the nearby building.",
-    "loctext":"",
+    "text":"The cleric drops several items and rushes toward the nearby building.", "loctext":"adv.horizons.dialog.65b112a67add9cba",
+    
     "action": [{"deleteMapObject": 187}]
     "options":[ 
-	{ "name":"Look through the items",
-	  "text":"There isn't much of interest, but you do find a large and sturdy key."
+	{ "name":"Look through the items", "locname":"adv.horizons.dialog.2cfbb72b5b4c80ad",
+	  "text":"There isn't much of interest, but you do find a large and sturdy key.", "loctext":"adv.horizons.dialog.d5b38b84b3858d33"
 	  "action":[{"advanceMapFlag":"cemeteryKey"}],
 	  "options":[
-		{"name": "Chase after the cleric",
-		 "text": "By the time you reach the building, it is locked up tight. The key you are holding is far too large for the slot.",
-		 "options":[{"name": "Leave the area"}]
+		{"name": "Chase after the cleric", "locname":"adv.horizons.dialog.ca39285810d05b94",
+		 "text": "By the time you reach the building, it is locked up tight. The key you are holding is far too large for the slot.", "loctext":"adv.horizons.dialog.d6f4336637d68c05",
+		 "options":[{"name": "Leave the area", "locname":"adv.horizons.dialog.c69ff7189524e888"}]
 		},
-		{"name": "Leave the area"}
+		{"name": "Leave the area", "locname":"adv.horizons.dialog.c69ff7189524e888"}
 		]
 	},
-	{ "name":"Chase after them.",
-	  "text":"He manages to shut the elaborate stone door before you can catch him, and you hear a series of large clicks and clacks as it locks before you can locate the actual handle."
+	{ "name":"Chase after them.", "locname":"adv.horizons.dialog.f67d860edd320454",
+	  "text":"He manages to shut the elaborate stone door before you can catch him, and you hear a series of large clicks and clacks as it locks before you can locate the actual handle.", "loctext":"adv.horizons.dialog.a53db4c2efacc88d"
 	  "options":[
-		{"name": "Search the items",
-		 "text": "You find nothing of value except for a large metal key. Rushing back over to the door, you quickly find that the key is much larger than the keyhole for this door.",
+		{"name": "Search the items", "locname":"adv.horizons.dialog.c9d1c4f74e899dde",
+		 "text": "You find nothing of value except for a large metal key. Rushing back over to the door, you quickly find that the key is much larger than the keyhole for this door.", "loctext":"adv.horizons.dialog.3ce09cf237a83b03",
 		 "action":[{"advanceMapFlag":"cemeteryKey"}],
-		 "options":[{"name": "Leave the area"}]
+		 "options":[{"name": "Leave the area", "locname":"adv.horizons.dialog.c69ff7189524e888"}]
 		}
 		]
 

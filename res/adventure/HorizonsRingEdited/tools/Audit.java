@@ -11,7 +11,7 @@ public class Audit {
         GuiBase.setInterface(new GuiDesktop());
         FModel.initialize(null,null);
         var db = FModel.getMagicDb();
-        for (String code : List.of("MH1","MH2","LTR")) {
+        for (String code : List.of("MH1","MH2","LTR","MH3","2XM")) {
             var names = new TreeMap<String,String>();
             var basics = new TreeSet<String>();
             for (var card : db.getCommonCards().getAllCards()) if (card.getEdition().equals(code)) {

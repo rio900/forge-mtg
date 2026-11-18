@@ -48,11 +48,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "I was just here to pick up some pieces of old machinery. I didn't expect them to try to pick ME up. But at least it wasn't snakes this time...",
-   "loctext": "adv.main_story_explore_dig_site_0.61.d.n0.text",
+   "text": "Я пришёл за старыми деталями. А детали полезли за мной. Хорошо хоть змей на этот раз не было.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren"}]
+      "name": "Дальше",
+      "locname": null}]
 }
 ]</property>
     <property name="enemy" value="Archaeologist" />

@@ -2,7 +2,7 @@ Fable of the Mirror-Breaker|NEO|R
 Sheoldred, the Apocalypse|DMU|M
 Goryo's Vengeance|BOK|R
 Atraxa, Grand Unifier|ONE|M
-Thoughtseize|LRW|R
+Thoughtseize|2XM|R
 Force of Negation|MH1|R
 Faithful Mending|MID|U
 Fallaji Archaeologist|BRO|C
@@ -24,8 +24,8 @@ Boseiju, Who Endures|NEO|R
 Otawara, Soaring City|NEO|R
 Takenuma, Abandoned Mire|NEO|R
 Eiganjo, Seat of the Empire|NEO|R
-Flickerwisp|EVE|U
-Mishra's Bauble|CSP|U
+Flickerwisp|2XM|U
+Mishra's Bauble|2XM|U
 Living End|TSP|R
 Shardless Agent|MH2|R
 Not Dead After All|WOE|C
@@ -44,3 +44,11 @@ Sacred Foundry|RAV|R
 Breeding Pool|DIS|R
 Dismember|NPH|U
 Soul-Guide Lantern|THB|U
+Jetmir's Garden|SNC|R
+Raffine's Tower|SNC|R
+Spara's Headquarters|SNC|R
+Xander's Lounge|SNC|R
+Ziatora's Proving Ground|SNC|R
+Moonshadow|ECL|M
+Abhorrent Oculus|DSK|M
+Overlord of the Balemurk|DSK|M

@@ -32,11 +32,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Anatomical studies of various mundane animals are found on this shelf. Open on top is a text on snakes. Why did it have to be snakes?",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.25.d.n0.text",
+   "text": "На полке атлас зверей. Книга открыта на змеях. Ну почему именно змеи?",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -45,11 +45,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "This shelf contains books of recipes, but many of the ingredients are unfamiliar to you.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.26.d.n0.text",
+   "text": "Поварские свитки. Добрую половину этих приправ не купишь даже на базаре Ба-Синг-Се.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -58,11 +58,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Here you find not so much books as collections of paperwork. It appears to consist of a series of caravan manifests and shipping ledgers affixed to maps. Comments and questions scribbled onto a set of calendars indicate that whomever collected these records suspected that the associated merchants were frequently conducting additional undocumented business along their routes.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.27.d.n0.text",
+   "text": "Здесь не книги, а списки грузов. Купцы поколениями записывали вес каждой корзины.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -71,11 +71,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "'The Impact of Personal Teleportation on Intercity Commerce' - Doesn't exactly sound like a page turner.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.28.d.n0.text",
+   "text": "«Влияние телепортации на торговлю между городами». Для долгой очереди на паром подойдёт.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -84,11 +84,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Whatever knowledge was once contained in these texts is lost, their pages long ago having been soaked in the same dark liquid that appears to have stained the shelves below them.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.30.d.n0.text",
+   "text": "Страницы пропитаны всё той же тёмной жидкостью, что и пол. Букв уже не разобрать.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -97,11 +97,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Dust covered tomes of nondescript subjects fill this shelf. You have a feeling these have been untouched for quite some time.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.31.d.n0.text",
+   "text": "Ровный слой пыли на корешках. Эту полку давно не тревожили.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -110,11 +110,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "This shelf holds a journal with a sturdy cover which stands apart from the faded scrolls around it. The entries are a mystery to you, however, as they are written in some form of code.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.32.d.n0.text",
+   "text": "Между выцветшими свитками зажат журнал в прочной обложке. Почерк тебе незнаком.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -123,11 +123,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "'Azgothian poems from a Midsummer Morning'. This book gives you a creepy feeling and you wisely leave the cover closed.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.33.d.n0.text",
+   "text": "«Азготские стихи летнего утра». От обложки идёт такой холодок, что книгу лучше не открывать.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -136,11 +136,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Here you find a collection of biographies of wizards you've never heard of, and a quick skim of the contents makes you wonder who would bother to write these.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.34.d.n0.text",
+   "text": "Жизнеописания незнакомых магов. Кто-то с большой любовью записал, что каждый из них ел на завтрак.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -149,11 +149,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "A collection of children's drawings fill this bookcase, although unlike most similar collections these all seem to depict arcane subjects.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.35.d.n0.text",
+   "text": "Детские рисунки. Вместо домов и зверушек здесь нарисованы одни заклинания.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>
@@ -162,11 +162,11 @@
    <properties>
     <property name="dialog">[
 {
-   "text": "Here you find a blueprint of the library itself. Unfortunately, there doesn't seem to be any list of secret passages to take advantage of.",
-   "loctext": "adv.main_story_explore_library_of_varsil_1.36.d.n0.text",
+   "text": "План самой библиотеки. Потайные ходы, как назло, не подписаны.",
+   "loctext": null,
    "options": [{
-      "name": "(Continue)",
-      "locname": "adv.shared.continue_paren", "action": [{"deleteMapObject":-1}]}]
+      "name": "Дальше",
+      "locname": null, "action": [{"deleteMapObject":-1}]}]
 }
 ]</property>
    </properties>

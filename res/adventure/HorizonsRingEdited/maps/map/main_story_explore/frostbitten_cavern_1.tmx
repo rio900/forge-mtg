@@ -131,10 +131,10 @@
    <properties>
     <property name="dialog">[
     {
-        "text": "Not all of the plants are in good health, this one appears to have been chewed on by an animal. You're not even sure what color this flower used to be.",
+        "text": "Not all of the plants are in good health, this one appears to have been chewed on by an animal. You're not even sure what color this flower used to be.", "loctext":"adv.horizons.dialog.13bd16d8cd930c33",
         "options": [
             {
-                "name": "(Continue)"
+                "name": "(Continue)", "locname":"adv.horizons.dialog.d628f64ba4af25ac"
                 "action": [
                     {
                         "deleteMapObject": -1

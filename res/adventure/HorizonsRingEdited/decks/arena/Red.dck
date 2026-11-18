@@ -1,49 +1,57 @@
 [metadata]
 Name=Red arena prize
 [Main]
-55 Fable of the Mirror-Breaker|NEO|1
-9 Sheoldred, the Apocalypse|DMU|1
-9 Goryo's Vengeance|BOK|1
-9 Atraxa, Grand Unifier|ONE|1
-9 Thoughtseize|LRW|1
-9 Force of Negation|MH1|1
-9 Faithful Mending|MID|1
-9 Fallaji Archaeologist|BRO|1
-9 Quantum Riddler|EOE|1
-9 Inquisition of Kozilek|ROE|1
-9 Teferi, Time Raveler|WAR|1
-55 Lightning Bolt|M11|1
-55 Monastery Swiftspear|2X2|1
-55 Through the Breach|CHK|1
-9 Emrakul, the Aeons Torn|ROE|1
-9 Mystical Dispute|ELD|1
-9 Arboreal Grazer|WAR|1
-9 Griselbrand|AVR|1
-9 Allosaurus Rider|CSP|1
-9 Pact of Negation|FUT|1
-9 Summoner's Pact|FUT|1
-9 Neoform|WAR|1
-9 Boseiju, Who Endures|NEO|1
-9 Otawara, Soaring City|NEO|1
-9 Takenuma, Abandoned Mire|NEO|1
-9 Eiganjo, Seat of the Empire|NEO|1
-9 Flickerwisp|EVE|1
-9 Mishra's Bauble|CSP|1
-9 Living End|TSP|1
-9 Shardless Agent|MH2|1
-9 Not Dead After All|WOE|1
-9 Agatha's Soul Cauldron|WOE|1
-55 Slickshot Show-Off|OTJ|1
-9 Ephemerate|MH1|1
-9 Hallowed Fountain|DIS|1
-9 Watery Grave|RAV|1
-55 Blood Crypt|DIS|1
-55 Stomping Ground|GPT|1
-9 Temple Garden|RAV|1
-9 Godless Shrine|GPT|1
-55 Steam Vents|GPT|1
-9 Overgrown Tomb|RAV|1
-55 Sacred Foundry|RAV|1
-9 Breeding Pool|DIS|1
-9 Dismember|NPH|1
-9 Soul-Guide Lantern|THB|1
+66 Fable of the Mirror-Breaker|NEO|1
+24 Sheoldred, the Apocalypse|DMU|1
+12 Goryo's Vengeance|BOK|1
+24 Atraxa, Grand Unifier|ONE|1
+12 Thoughtseize|2XM|1
+12 Force of Negation|MH1|1
+12 Faithful Mending|MID|1
+12 Fallaji Archaeologist|BRO|1
+24 Quantum Riddler|EOE|1
+12 Inquisition of Kozilek|ROE|1
+12 Teferi, Time Raveler|WAR|1
+66 Lightning Bolt|M11|1
+66 Monastery Swiftspear|2X2|1
+66 Through the Breach|CHK|1
+12 Emrakul, the Aeons Torn|ROE|1
+12 Mystical Dispute|ELD|1
+12 Arboreal Grazer|WAR|1
+24 Griselbrand|AVR|1
+12 Allosaurus Rider|CSP|1
+12 Pact of Negation|FUT|1
+12 Summoner's Pact|FUT|1
+12 Neoform|WAR|1
+12 Boseiju, Who Endures|NEO|1
+12 Otawara, Soaring City|NEO|1
+12 Takenuma, Abandoned Mire|NEO|1
+12 Eiganjo, Seat of the Empire|NEO|1
+12 Flickerwisp|2XM|1
+12 Mishra's Bauble|2XM|1
+12 Living End|TSP|1
+12 Shardless Agent|MH2|1
+12 Not Dead After All|WOE|1
+12 Agatha's Soul Cauldron|WOE|1
+66 Slickshot Show-Off|OTJ|1
+12 Ephemerate|MH1|1
+12 Hallowed Fountain|DIS|1
+12 Watery Grave|RAV|1
+66 Blood Crypt|DIS|1
+66 Stomping Ground|GPT|1
+12 Temple Garden|RAV|1
+12 Godless Shrine|GPT|1
+66 Steam Vents|GPT|1
+12 Overgrown Tomb|RAV|1
+66 Sacred Foundry|RAV|1
+12 Breeding Pool|DIS|1
+12 Dismember|NPH|1
+12 Soul-Guide Lantern|THB|1
+66 Jetmir's Garden|SNC|1
+12 Raffine's Tower|SNC|1
+12 Spara's Headquarters|SNC|1
+66 Xander's Lounge|SNC|1
+66 Ziatora's Proving Ground|SNC|1
+12 Moonshadow|ECL|1
+12 Abhorrent Oculus|DSK|1
+12 Overlord of the Balemurk|DSK|1
